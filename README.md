@@ -10,7 +10,7 @@
 
 [**Submit Your Agent >>**](https://github.com/lobehub/lobe-chat-agents/pulls)
 
-[Lobe Chat](https://github.com/lobehub/lobe-chat) accesses [`index.json`](https://registry.npmmirror.com/@lobehub/lobe-chat-agents/latest/files) from this repo to show user the list of available agents for LobeChat.
+[Lobe Chat](https://github.com/lobehub/lobe-chat) accesses [`index.json`](https://chat-agents.lobehub.com) from this repo to show user the list of available agents for LobeChat.
 
 **English** · [简体中文](./README-zh_CN.md)
 
