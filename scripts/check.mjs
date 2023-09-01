@@ -13,7 +13,8 @@ export const formatAndCheckSchema = (agent) => {
   if (result.success) {
     consola.success(`schema check pass`);
   } else {
-    consola.error(`schema check fail`, result.error);
+    consola.error(`schema check fail`);
+    throw new Error(result.error);
   }
   return agent;
 };
