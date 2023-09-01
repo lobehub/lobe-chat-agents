@@ -10,7 +10,7 @@
 
 [**提交您的助手 >>**](https://github.com/lobehub/lobe-chat-agents/pulls)
 
-[Lobe Chat](https://github.com/lobehub/lobe-chat) 从该存储库访问 [`index.json`](https://chat-agents.lobehub.com) 来为用户展示可用的 LobeChat 助手列表。
+[Lobe Chat](https://github.com/lobehub/lobe-chat) 从该存储库访问 [`index.json`][website-url] 来为用户展示可用的 LobeChat 助手列表。
 
 [English](./README.md) · **简体中文**
 
