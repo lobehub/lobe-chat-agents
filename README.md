@@ -50,7 +50,7 @@
 
 </details>
 
-## 🚀 How to Submit your Plugin
+## 🚀 How to Submit your Agent
 
 If you wish to add an agent onto the index, make an entry in `agents` directory using `agent_template.json`, write a short description and tag it appropriately then open as a pull request ty!
 
