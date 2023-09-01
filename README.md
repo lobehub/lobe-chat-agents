@@ -52,17 +52,17 @@
 
 ## 🚀 How to Submit your Agent
 
-If you wish to add an agent onto the index, make an entry in `agents` directory using `agent_template.json`, write a short description and tag it appropriately then open as a pull request ty!
+If you wish to add an agent onto the index, make an entry in `agents` directory using `agent_template.json` or `agent_template_full.json`, write a short description and tag it appropriately then open as a pull request ty!
 
 ### Step-by-step Instructions
 
 1. <kbd>Fork</kbd> of this repository.
-2. Make a copy of `agent_template.json`
+2. Make a copy of `agent_template.json` or `agent_template_full.json`
 3. Fill in the copy and rename it appropriately
 4. Move it into `agents` directory
 5. Submit a pull request and wait for review.
 
-> 👉 **Note:** The `createAt` date will be automatically populated after merge.
+> 👉 **Note:** The `createAt` date will be automatically populated after merge. Please choose the appropriate parameter configuration from `agent_template_full.json` based on your specific needs. This file provides a more comprehensive set of parameters for customization.
 
 <div align="right">
 
