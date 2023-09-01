@@ -58,11 +58,12 @@ jobs:
           pnpm run prettier
 
       - name: Commit changes
-        run: |
-          git config user.name "lobehubbot"
-          git config user.email "i@lobehub.com"
+        run: |-
+          git diff
+          git config --global user.name "lobehubbot"
+          git config --global user.email "i@lobehub.com"
           git add .
-          git commit -m "🤖 chore: Auto format json files"
+          git commit -m "🤖 chore: Auto format json files" || exit 0
           git push
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
