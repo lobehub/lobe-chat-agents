@@ -48,7 +48,14 @@ const formatJSON = async (fileName, checkType) => {
     }
 
     // i18n workflow
-    if (typeof agent.meta.title === 'string' && typeof agent.meta.description === 'string') {
+    let rawData = {};
+
+    for (const key of config.selectors) {
+      const rawValue = get(plugin, key);
+      if (rawValue) set(rawData, key, rawValue);
+    }
+
+    if (rawData) {
       let rawData = {};
 
       for (const key of config.selectors) {
