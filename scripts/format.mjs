@@ -51,17 +51,11 @@ const formatJSON = async (fileName, checkType) => {
     let rawData = {};
 
     for (const key of config.selectors) {
-      const rawValue = get(plugin, key);
+      const rawValue = get(agent, key);
       if (rawValue) set(rawData, key, rawValue);
     }
 
     if (rawData) {
-      let rawData = {};
-
-      for (const key of config.selectors) {
-        set(rawData, key, get(agent, key));
-      }
-
       if (agent.locale && agent.locale !== config.entryLocale) {
         if (config.outputLocales.includes(agent.locale)) {
           writeFileSync(
