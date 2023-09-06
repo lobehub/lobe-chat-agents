@@ -63,7 +63,7 @@ jobs:
           git config --global user.name "lobehubbot"
           git config --global user.email "i@lobehub.com"
           git add .
-          git commit -m "🤖 chore: Auto format json files" || exit 0
+          git commit -m "🤖 chore: Auto format and add i18n json files" || exit 0
           git push
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
