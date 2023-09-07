@@ -12,3 +12,4 @@ export const templatePath = resolve(root, 'agent_template.json');
 export const templateFullPath = resolve(root, 'agent_template_full.json');
 export const metaPath = resolve(root, 'meta.json');
 export const meta = JSON.parse(readFileSync(metaPath, { encoding: 'utf8' }));
+export const host = 'https://chat-plugins.lobehub.com'

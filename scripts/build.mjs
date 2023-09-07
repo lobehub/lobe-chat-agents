@@ -5,7 +5,7 @@ import { resolve } from 'node:path';
 
 import config from '../.i18nrc.js';
 import { formatAndCheckSchema } from './check.mjs';
-import { agents, agentsDir, localesDir, meta, root } from './const.mjs';
+import { agents, agentsDir, localesDir, meta, root, host } from './const.mjs';
 
 const build = async () => {
   const agentsIndex = {
@@ -22,14 +22,28 @@ const build = async () => {
       });
       const agent = formatAndCheckSchema(JSON.parse(data));
       if (!list[config.entryLocale]) list[config.entryLocale] = [];
+      writeFileSync(resolve(root, `./public`, file.name), JSON.stringify(agent), {
+        encoding: 'utf8',
+      });
+      delete agent.config
+      agent.manifest = `${host}/${file.name}`
       list[config.entryLocale].push(agent);
+
+
       for (const locale of config.outputLocales) {
         if (!list[locale]) list[locale] = [];
-        const localeFilePath = resolve(localesDir, file.name.replace('.json', `.${locale}.json`));
+        const localeFileName = file.name.replace('.json', `.${locale}.json`)
+        const localeFilePath = resolve(localesDir, localeFileName);
         const localeData = readFileSync(localeFilePath, {
           encoding: 'utf8',
         });
-        list[locale].push(merge(cloneDeep(agent), JSON.parse(localeData)));
+        const agentLocale = merge(cloneDeep(agent), JSON.parse(localeData))
+        writeFileSync(resolve(root, `./public`, localeFileName), JSON.stringify(agentLocale), {
+          encoding: 'utf8',
+        });
+        delete agentLocale.config
+        agentLocale.manifest = `${host}/${localeFileName}`
+        list[locale].push(agentLocale);
       }
     }
   }
@@ -45,7 +59,7 @@ const build = async () => {
   for (const locale of [config.entryLocale, ...config.outputLocales]) {
     agentsIndex.agents = list[locale].sort((a, b) => new Date(b.createAt) - new Date(a.createAt));
     const name = locale === config.entryLocale ? `index.json` : `index.${locale}.json`;
-    writeFileSync(resolve(root, `./public`, name), JSON.stringify(agentsIndex, null, 2), {
+    writeFileSync(resolve(root, `./public`, name), JSON.stringify(agentsIndex), {
       encoding: 'utf8',
     });
     consola.success(`build ${name}`);
