@@ -8,11 +8,10 @@ import { formatAndCheckSchema } from './check.mjs';
 import { agents, agentsDir, host, localesDir, meta, root } from './const.mjs';
 
 const build = async () => {
-
   const publicPath = resolve(root, 'public');
 
   if (!existsSync(publicPath)) mkdirSync(publicPath);
-  
+
   const agentsIndex = {
     ...meta,
     agents: [],
