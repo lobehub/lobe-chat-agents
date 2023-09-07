@@ -23,11 +23,11 @@ export const lLMParamsSchema = z.object({
 });
 
 export const metaDataSchema = z.object({
-  avatar: z.string().optional(),
+  avatar: z.string(),
   backgroundColor: z.string().optional(),
-  description: z.string().optional(),
-  tags: z.array(z.string()).optional(),
-  title: z.string().optional(),
+  description: z.string(),
+  tags: z.array(z.string()),
+  title: z.string(),
 });
 
 const lobeAgentConfigSchema = z.object({
