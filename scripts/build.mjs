@@ -8,6 +8,11 @@ import { formatAndCheckSchema } from './check.mjs';
 import { agents, agentsDir, host, localesDir, meta, root } from './const.mjs';
 
 const build = async () => {
+
+  const publicPath = resolve(root, 'public');
+
+  if (!existsSync(publicPath)) mkdirSync(publicPath);
+  
   const agentsIndex = {
     ...meta,
     agents: [],
@@ -50,10 +55,6 @@ const build = async () => {
   agentsIndex.agents = list[config.entryLocale].sort(
     (a, b) => new Date(b.createAt) - new Date(a.createAt),
   );
-
-  const publicPath = resolve(root, 'public');
-
-  if (!existsSync(publicPath)) mkdirSync(publicPath);
 
   for (const locale of [config.entryLocale, ...config.outputLocales]) {
     agentsIndex.agents = list[locale].sort((a, b) => new Date(b.createAt) - new Date(a.createAt));
