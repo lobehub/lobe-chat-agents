@@ -5,7 +5,7 @@ import { resolve } from 'node:path';
 
 import config from '../.i18nrc.js';
 import { formatAndCheckSchema } from './check.mjs';
-import { agents, agentsDir, localesDir, meta, root, host } from './const.mjs';
+import { agents, agentsDir, host, localesDir, meta, root } from './const.mjs';
 
 const build = async () => {
   const agentsIndex = {
@@ -25,24 +25,23 @@ const build = async () => {
       writeFileSync(resolve(root, `./public`, file.name), JSON.stringify(agent), {
         encoding: 'utf8',
       });
-      delete agent.config
-      agent.manifest = `${host}/${file.name}`
+      delete agent.config;
+      agent.manifest = `${host}/${file.name}`;
       list[config.entryLocale].push(agent);
-
 
       for (const locale of config.outputLocales) {
         if (!list[locale]) list[locale] = [];
-        const localeFileName = file.name.replace('.json', `.${locale}.json`)
+        const localeFileName = file.name.replace('.json', `.${locale}.json`);
         const localeFilePath = resolve(localesDir, localeFileName);
         const localeData = readFileSync(localeFilePath, {
           encoding: 'utf8',
         });
-        const agentLocale = merge(cloneDeep(agent), JSON.parse(localeData))
+        const agentLocale = merge(cloneDeep(agent), JSON.parse(localeData));
         writeFileSync(resolve(root, `./public`, localeFileName), JSON.stringify(agentLocale), {
           encoding: 'utf8',
         });
-        delete agentLocale.config
-        agentLocale.manifest = `${host}/${localeFileName}`
+        delete agentLocale.config;
+        agentLocale.manifest = `${host}/${localeFileName}`;
         list[locale].push(agentLocale);
       }
     }
