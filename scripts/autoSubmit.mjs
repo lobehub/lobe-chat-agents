@@ -56,7 +56,7 @@ class AutoSubmit {
     this.gitCommit(filePath, agent, agentName);
     consola.info('Commit to', `agent/${agentName}`);
 
-    await this.createPullRequest(agentName, comment);
+    await this.createPullRequest(agentName, [comment,`resolve #${this.issueNumber}`].join("\n"));
     consola.success('Create PR');
   }
 
@@ -74,7 +74,7 @@ class AutoSubmit {
     consola.info('Generate file', filePath);
 
     execSync('git add -A');
-    execSync(`git commit -m "✨ feat(agent): Add ${agentName}"`);
+    execSync(`git commit -m "✨ feat(agent): Add ${agentName} (#${this.issueNumber})"`);
     execSync(`git push origin agent/${agentName}`);
   }
 
