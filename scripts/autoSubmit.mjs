@@ -19,6 +19,22 @@ class AutoSubmit {
   }
 
   async run() {
+    try {
+      await this.submit()
+    } catch (e){
+      await this.createComment(
+        [
+          '> **🚨 Auto Check Fail:**',
+          '```bash',
+          e?.message,
+          '```',
+        ].join('\n'),
+      );
+      consola.error(e)
+    }
+  }
+
+  async submit() {
     const issue = await this.getIssue();
     if (!issue) return;
     consola.info(`Get issues #${this.issueNumber}`);
@@ -77,6 +93,10 @@ class AutoSubmit {
     });
     consola.info('Generate file', filePath);
 
+    // i18n
+    execSync('pnpm run format');
+
+    // commit
     execSync('git add -A');
     execSync(`git commit -m "✨ feat(agent): Add ${agentName} (#${this.issueNumber})"`);
     execSync(`git push origin agent/${agentName}`);
