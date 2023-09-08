@@ -4,6 +4,7 @@ import { camelCase } from 'lodash-es';
 import { execSync } from 'node:child_process';
 import { existsSync, writeFileSync } from 'node:fs';
 import { resolve } from 'path';
+import { consola } from 'consola';
 
 import { formatAgentJSON } from './check.mjs';
 import { agentsDir, githubHomepage } from './const.mjs';
@@ -20,8 +21,10 @@ class AutoSubmit {
   async run() {
     const issue = await this.getIssue();
     if (!issue) return;
-    const comment = this.genCommentMessage(json);
+    consola.info(`Get issues #${this.issueNumber}`)
+
     const agent = await this.formatIssue(issue);
+    const comment = this.genCommentMessage(agent);
     const agentName = camelCase(agent.meta.title);
     const fileName = agentName + '.json';
     const filePath = resolve(agentsDir, fileName);
@@ -40,21 +43,27 @@ class AutoSubmit {
       );
       await this.removeLabels('🤖 Agent PR');
       await this.addLabels('🚨 Auto Check Fail');
+      consola.error("Auto Check Fail")
       return;
     }
 
     // comment in issues
     await this.createComment(comment);
     await this.addLabels('✅ Auto Check Pass');
+    consola.info(`Auto Check Pass`)
 
     // generate file
     writeFileSync(filePath, JSON.stringify(agent, null, 2), {
       encoding: 'utf8',
     });
+    consola.info("Generate file", filePath)
 
     // commit and pull request
     this.gitCommit(agentName);
+    consola.info("Commit to", `agent/${agentName}`)
+
     await this.createPullRequest(agentName, comment);
+    consola.success("Create PR")
   }
 
   gitCommit(agentName) {
