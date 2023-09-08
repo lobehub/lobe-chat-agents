@@ -56,7 +56,7 @@ class AutoSubmit {
     this.gitCommit(filePath, agent, agentName);
     consola.info('Commit to', `agent/${agentName}`);
 
-    await this.createPullRequest(agentName, agent.meta.author, [comment,`resolve #${this.issueNumber}`, `[@${agent.meta.author}](${agent.meta.homepage})`].join("\n"));
+    await this.createPullRequest(agentName, agent.author, [comment,`resolve #${this.issueNumber}`, `[@${agent.author}](${agent.author})`].join("\n"));
     consola.success('Create PR');
   }
 
