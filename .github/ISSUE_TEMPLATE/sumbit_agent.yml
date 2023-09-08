@@ -1,0 +1,43 @@
+name: '🤖 提交助手 | Submit Agent'
+description: '提交助手设定 | Submit an agent setting'
+title: '[Agent] Your agent name'
+labels: '🤖 Agent PR'
+body:
+  - type: input
+    attributes:
+      label: 'avatar'
+      description: 🤯 emoji or logo url
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 'title'
+      description: agent en_US title, will auto generate i18n in workflow
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 'description'
+      description: agent en_US description, will auto generate i18n in workflow
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 'tags'
+      description: split with `,`.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 'systemRole'
+      description: You agent prompt
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: 'locale'
+      options:
+        - en_US
+        - zh_CN
+    validations:
+      required: true
