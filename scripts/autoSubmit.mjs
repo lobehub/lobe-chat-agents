@@ -31,13 +31,13 @@ class AutoSubmit {
       await this.addLabels(ERROR_LABEL);
       await this.createComment(
         [
-          '**🚨 Auto Check Fail:**', 
+          '**🚨 Auto Check Fail:**',
           '- Fix error below',
           `- Add issue label \`${GENERATE_LABEL}\` to the current issue`,
           '- Wait for automation to regenerate',
-          '```bash', 
-          error?.message, 
-          '```'
+          '```bash',
+          error?.message,
+          '```',
         ].join('\n'),
       );
       consola.error(error);
