@@ -3,40 +3,40 @@ description: '提交助手设定 | Submit an agent setting'
 title: '[Agent] Your agent name'
 labels: '🤖 Agent PR'
 body:
+  - type: textarea
+    attributes:
+      label: 'systemRole'
+      description: '助手的 Prompt 提示词 | Agent prompt'
+    validations:
+      required: true
   - type: input
     attributes:
       label: 'identifier'
-      description: 'Agent identifier should be unique and written in English, Ex: `web-development`'
+      description: '助手的标识符需要是唯一的，比如 `web-development` | Agent identifier should be unique and written in English, Ex: `web-development`'
     validations:
       required: true
   - type: input
     attributes:
       label: 'avatar'
-      description: '🤯 Emoji or Logo url'
+      description: '助手的头像可以是表情符号 `🤯` 或者图片链接 | Agent avatar should be emoji or logo url'
     validations:
       required: true
   - type: input
     attributes:
       label: 'title'
-      description: 'Agent en_US title, will auto generate i18n in workflow'
+      description: '助手的名称 | Agent title, will auto generate i18n in workflow'
     validations:
       required: true
   - type: input
     attributes:
       label: 'description'
-      description: 'Agent en_US description, will auto generate i18n in workflow'
+      description: '助手的一句话简短介绍 | Agent short description, will auto generate i18n in workflow'
     validations:
       required: true
   - type: input
     attributes:
       label: 'tags'
-      description: 'Split with `,`'
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: 'systemRole'
-      description: 'You agent prompt'
+      description: '助手的分类 Tags 使用 `,` 进行分割 | Agent tags split by `,`'
     validations:
       required: true
   - type: dropdown
@@ -45,5 +45,6 @@ body:
       options:
         - en_US
         - zh_CN
+      description: '以上提交的语言分类，默认为英文 `en_US` | You can set locale if you use other i18n language, default is `en_US`'
     validations:
       required: true
