@@ -4,9 +4,9 @@ import { formatAgentJSON } from "./check.mjs";
 import { camelCase } from "lodash-es";
 import { existsSync, writeFileSync } from "node:fs";
 import { resolve } from "path";
-import { agentsDir } from "./const.mjs";
-import pkg from "../package.json";
+import { agentsDir, githubHomepage } from "./const.mjs";
 import { execSync } from "node:child_process";
+
 class AutoSubmit {
   owner = "lobehub";
   repo = "lobe-chat-agents";
@@ -29,18 +29,22 @@ class AutoSubmit {
     if (existsSync(filePath)) {
       await this.createComment(
         [
-          `🚨 Same name exist <${`${pkg.homepage}/blob/main/agents/${fileName}`}>, please rename your agent and submit again`,
+          `> **🚨 Auto Check Fail:** Same name exist <${`${githubHomepage}/blob/main/agents/${fileName}`}>`,
+          '- Rename your agent title',
+          '- Add issue label `🤖 Agent PR` to the current issue',
+          '- Wait for automation to regenerate',
           "---",
           comment,
         ].join("\n"),
       );
-      await this.addLabels('🚨 Auto Check Fail')
+      await this.removeLabels('🤖 Agent PR')
+      await this.addLabels("🚨 Auto Check Fail");
       return;
     }
 
     // comment in issues
     await this.createComment(comment);
-    await this.addLabels('✅ Auto Check Pass')
+    await this.addLabels("✅ Auto Check Pass");
 
     // generate file
     writeFileSync(filePath, JSON.stringify(agent, null, 2), {
@@ -71,42 +75,59 @@ class AutoSubmit {
   async createPullRequest(agentName, body) {
     const { owner, repo, octokit, issueNumber } = this;
     const pr = await octokit.pulls.create({
-                                            owner: owner,
-                                            repo: repo,
-                                            title: `[AgentSubmit] ${agentName} (#${issueNumber})`,
-                                            head: `agent/${agentName}`,
-                                            base: "main",
-                                            body,
-                                          });
+      owner: owner,
+      repo: repo,
+      title: `[AgentSubmit] ${agentName} (#${issueNumber})`,
+      head: `agent/${agentName}`,
+      base: "main",
+      body,
+    });
   }
   async getIssue() {
     const { owner, repo, octokit, issueNumber } = this;
     const issue = await octokit.issues.get({
-                                             owner,
-                                             repo,
-                                             issue_number: issueNumber,
-                                           });
+      owner,
+      repo,
+      issue_number: issueNumber,
+    });
     return issue.data;
   }
 
   async addLabels(label) {
     const { owner, repo, octokit, issueNumber } = this;
     await octokit.issues.addLabels({
-                                     owner,
-                                     repo,
-                                     issue_number: issueNumber,
-                                     labels: [label],
-                                   });
+      owner,
+      repo,
+      issue_number: issueNumber,
+      labels: [label],
+    });
+  }
+
+  async removeLabels(label) {
+    const { owner, repo, octokit, issueNumber } = this;
+    const issue = await this.getIssue();
+
+    const baseLabels = issue.labels.map(({ name }) => name);
+    const removeLabels = baseLabels.filter((name) => name === label);
+
+    for (const label of removeLabels) {
+      await octokit.issues.removeLabel({
+        owner,
+        repo,
+        issue_number: issueNumber,
+        name: label,
+      });
+    }
   }
 
   async createComment(body) {
     const { owner, repo, octokit, issueNumber } = this;
     const { data } = await octokit.issues.createComment({
-                                                          owner,
-                                                          repo,
-                                                          issue_number: issueNumber,
-                                                          body,
-                                                        });
+      owner,
+      repo,
+      issue_number: issueNumber,
+      body,
+    });
     return data.id;
   }
 
@@ -134,9 +155,9 @@ class AutoSubmit {
     }
 
     json.tags = json.tags
-                    .replaceAll("，", ",")
-                    .replaceAll(", ", ",")
-                    .split(",");
+      .replaceAll("，", ",")
+      .replaceAll(", ", ",")
+      .split(",");
 
     return json;
   }
