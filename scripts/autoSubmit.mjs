@@ -1,10 +1,10 @@
 import { Octokit } from '@octokit/rest';
+import { consola } from 'consola';
 import 'dotenv/config';
 import { camelCase } from 'lodash-es';
 import { execSync } from 'node:child_process';
 import { existsSync, writeFileSync } from 'node:fs';
 import { resolve } from 'path';
-import { consola } from 'consola';
 
 import { formatAgentJSON } from './check.mjs';
 import { agentsDir, githubHomepage } from './const.mjs';
@@ -21,7 +21,7 @@ class AutoSubmit {
   async run() {
     const issue = await this.getIssue();
     if (!issue) return;
-    consola.info(`Get issues #${this.issueNumber}`)
+    consola.info(`Get issues #${this.issueNumber}`);
 
     const agent = await this.formatIssue(issue);
     const comment = this.genCommentMessage(agent);
@@ -43,37 +43,37 @@ class AutoSubmit {
       );
       await this.removeLabels('🤖 Agent PR');
       await this.addLabels('🚨 Auto Check Fail');
-      consola.error("Auto Check Fail")
+      consola.error('Auto Check Fail');
       return;
     }
 
     // comment in issues
     await this.createComment(comment);
     await this.addLabels('✅ Auto Check Pass');
-    consola.info(`Auto Check Pass`)
+    consola.info(`Auto Check Pass`);
 
     // commit and pull request
     this.gitCommit(agent, agentName);
-    consola.info("Commit to", `agent/${agentName}`)
+    consola.info('Commit to', `agent/${agentName}`);
 
     await this.createPullRequest(agentName, comment);
-    consola.success("Create PR")
+    consola.success('Create PR');
   }
 
   gitCommit(agentName) {
-    execSync('git diff')
-    execSync('git config --global user.name "lobehubbot"')
-    execSync('git config --global user.email "i@lobehub.com"')
-    execSync('git pull')
+    execSync('git diff');
+    execSync('git config --global user.name "lobehubbot"');
+    execSync('git config --global user.email "i@lobehub.com"');
+    execSync('git pull');
     execSync(`git checkout -b agent/${agentName}`);
 
     // generate file
     writeFileSync(filePath, JSON.stringify(agent, null, 2), {
       encoding: 'utf8',
     });
-    consola.info("Generate file", filePath)
+    consola.info('Generate file', filePath);
 
-    execSync('git add -A')
+    execSync('git add -A');
     execSync(`git commit -m "✨ feat(agent): Add ${agentName}"`);
     execSync(`git push origin agent/${agentName}`);
   }
