@@ -89,6 +89,7 @@ class AutoSubmit {
     execSync('git config --global user.email "i@lobehub.com"');
     execSync('git pull');
     execSync(`git checkout -b agent/${agentName}`);
+    consola.info('Checkout branch');
 
     // generate file
     writeFileSync(filePath, JSON.stringify(agent, null, 2), {
@@ -96,13 +97,26 @@ class AutoSubmit {
     });
     consola.info('Generate file', filePath);
 
-    // i18n
-    execSync('pnpm run format');
-
     // commit
     execSync('git add -A');
     execSync(`git commit -m "✨ feat(agent): Add ${agentName} (#${this.issueNumber})"`);
+    execSync(`git push origin agent/${agentName}`)
+    consola.info('Push agent');
+
+    // i18n
+    execSync('pnpm run format');
+    consola.info('Generate i18n file');
+
+    // prettier
+    execSync(`echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.js`);
+    execSync('pnpm run prettier');
+    consola.info('Prettier');
+
+    // commit
+    execSync('git add -A');
+    execSync(`git commit -m "✨ feat(agent): Generate i18n for ${agentName} (#${this.issueNumber})"`);
     execSync(`git push origin agent/${agentName}`);
+    consola.info('Push i18n');
   }
 
   genCommentMessage(json) {
