@@ -60,7 +60,7 @@ class AutoSubmit {
     consola.success('Create PR');
   }
 
-  gitCommit(agentName) {
+  gitCommit(agent, agentName) {
     execSync('git diff');
     execSync('git config --global user.name "lobehubbot"');
     execSync('git config --global user.email "i@lobehub.com"');
