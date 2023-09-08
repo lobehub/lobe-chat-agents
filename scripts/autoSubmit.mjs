@@ -9,9 +9,9 @@ import { resolve } from 'node:path';
 import { formatAgentJSON } from './check.mjs';
 import { agentsDir, githubHomepage } from './const.mjs';
 
-const GENERATE_LABEL = '🤖 Agent PR'
-const SUCCESS_LABEL = '✅ Auto Check Pass'
-const ERROR_LABEL = '🚨 Auto Check Fail'
+const GENERATE_LABEL = '🤖 Agent PR';
+const SUCCESS_LABEL = '✅ Auto Check Pass';
+const ERROR_LABEL = '🚨 Auto Check Fail';
 
 class AutoSubmit {
   owner = 'lobehub';
@@ -24,18 +24,13 @@ class AutoSubmit {
 
   async run() {
     try {
-      await this.submit()
-    } catch (error){
+      await this.submit();
+    } catch (error) {
       await this.removeLabels(GENERATE_LABEL);
       await this.createComment(
-        [
-          '> **🚨 Auto Check Fail:**',
-          '```bash',
-          error?.message,
-          '```',
-        ].join('\n'),
+        ['> **🚨 Auto Check Fail:**', '```bash', error?.message, '```'].join('\n'),
       );
-      consola.error(error)
+      consola.error(error);
     }
   }
 
