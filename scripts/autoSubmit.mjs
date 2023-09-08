@@ -9,6 +9,10 @@ import { resolve } from 'node:path';
 import { formatAgentJSON } from './check.mjs';
 import { agentsDir, githubHomepage } from './const.mjs';
 
+const GENERATE_LABEL = '🤖 Agent PR'
+const SUCCESS_LABEL = '✅ Auto Check Pass'
+const ERROR_LABEL = '🚨 Auto Check Fail'
+
 class AutoSubmit {
   owner = 'lobehub';
   repo = 'lobe-chat-agents';
@@ -21,16 +25,17 @@ class AutoSubmit {
   async run() {
     try {
       await this.submit()
-    } catch (e){
+    } catch (error){
+      await this.removeLabels(GENERATE_LABEL);
       await this.createComment(
         [
           '> **🚨 Auto Check Fail:**',
           '```bash',
-          e?.message,
+          error?.message,
           '```',
         ].join('\n'),
       );
-      consola.error(e)
+      consola.error(error)
     }
   }
 
@@ -51,21 +56,20 @@ class AutoSubmit {
         [
           `> **🚨 Auto Check Fail:** Same name exist <${`${githubHomepage}/blob/main/agents/${fileName}`}>`,
           '- Rename your agent identifier',
-          '- Add issue label `🤖 Agent PR` to the current issue',
+          `- Add issue label \`${GENERATE_LABEL}\` to the current issue`,
           '- Wait for automation to regenerate',
           '---',
           comment,
         ].join('\n'),
       );
-      await this.removeLabels('🤖 Agent PR');
-      await this.addLabels('🚨 Auto Check Fail');
+      await this.removeLabels(GENERATE_LABEL);
+      await this.addLabels(ERROR_LABEL);
       consola.error('Auto Check Fail');
       return;
     }
 
     // comment in issues
     await this.createComment(comment);
-    await this.addLabels('✅ Auto Check Pass');
     consola.info(`Auto Check Pass`);
 
     // commit and pull request
@@ -78,6 +82,8 @@ class AutoSubmit {
       [comment, `[@${agent.author}](${agent.homepage}) (resolve #${this.issueNumber})`].join('\n'),
     );
     consola.success('Create PR');
+
+    await this.addLabels(SUCCESS_LABEL);
   }
 
   gitCommit(filePath, agent, agentName) {

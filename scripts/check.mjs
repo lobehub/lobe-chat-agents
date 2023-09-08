@@ -24,7 +24,7 @@ export const formatAndCheckSchema = (agent) => {
   return agent;
 };
 
-const formatPrompt = async (prompt, local) => {
+export const formatPrompt = async (prompt, local) => {
   return local === 'zh_CN'
     ? String(await remark().use(pangu).process(prompt))
     : String(await remark().process(prompt));
