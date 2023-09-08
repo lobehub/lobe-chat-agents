@@ -52,14 +52,8 @@ class AutoSubmit {
     await this.addLabels('✅ Auto Check Pass');
     consola.info(`Auto Check Pass`)
 
-    // generate file
-    writeFileSync(filePath, JSON.stringify(agent, null, 2), {
-      encoding: 'utf8',
-    });
-    consola.info("Generate file", filePath)
-
     // commit and pull request
-    this.gitCommit(agentName);
+    this.gitCommit(agent, agentName);
     consola.info("Commit to", `agent/${agentName}`)
 
     await this.createPullRequest(agentName, comment);
@@ -67,8 +61,19 @@ class AutoSubmit {
   }
 
   gitCommit(agentName) {
+    execSync('git diff')
+    execSync('git config --global user.name "lobehubbot"')
+    execSync('git config --global user.email "i@lobehub.com"')
+    execSync('git pull')
     execSync(`git checkout -b agent/${agentName}`);
-    execSync('git add .');
+
+    // generate file
+    writeFileSync(filePath, JSON.stringify(agent, null, 2), {
+      encoding: 'utf8',
+    });
+    consola.info("Generate file", filePath)
+
+    execSync('git add -A')
     execSync(`git commit -m "✨ feat(agent): Add ${agentName}"`);
     execSync(`git push origin agent/${agentName}`);
   }
