@@ -56,7 +56,7 @@ class AutoSubmit {
     this.gitCommit(filePath, agent, agentName);
     consola.info('Commit to', `agent/${agentName}`);
 
-    await this.createPullRequest(agentName, [comment,`resolve #${this.issueNumber}`].join("\n"));
+    await this.createPullRequest(agentName, agent.meta.author, [comment,`resolve #${this.issueNumber}`, `[@${agent.meta.author}](${agent.meta.homepage})`].join("\n"));
     consola.success('Create PR');
   }
 
@@ -87,12 +87,12 @@ class AutoSubmit {
     ].join('\n');
   }
 
-  async createPullRequest(agentName, body) {
+  async createPullRequest(agentName, author, body) {
     const { owner, repo, octokit, issueNumber } = this;
     const pr = await octokit.pulls.create({
       owner: owner,
       repo: repo,
-      title: `[AgentSubmit] ${agentName} (#${issueNumber})`,
+      title: `[AgentSubmit] ${agentName} @${author}`,
       head: `agent/${agentName}`,
       base: 'main',
       body,
