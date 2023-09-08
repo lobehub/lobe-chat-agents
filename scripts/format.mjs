@@ -1,13 +1,9 @@
 import { consola } from 'consola';
-import { cloneDeep, get, kebabCase, merge, set } from 'lodash-es';
+import { cloneDeep, get, merge, set } from 'lodash-es';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { format } from 'prettier';
-import { remark } from 'remark';
-import pangu from 'remark-pangu';
-
 import config from '../.i18nrc.js';
-import { formatAndCheckSchema } from './check.mjs';
+import { formatAgentJSON } from './check.mjs';
 import {
   agents,
   agentsDir,
@@ -18,11 +14,6 @@ import {
 } from './const.mjs';
 import { translateJSON } from './i18n.mjs';
 
-const formatPrompt = async (prompt, local) => {
-  return local === 'zh_CN'
-    ? String(await remark().use(pangu).process(prompt))
-    : String(await remark().process(prompt));
-};
 
 const formatJSON = async (fileName, checkType) => {
   consola.start(fileName);
@@ -36,16 +27,7 @@ const formatJSON = async (fileName, checkType) => {
   let agent = JSON.parse(data);
 
   if (checkType) {
-    agent = formatAndCheckSchema(agent);
-    agent.config.systemRole = await formatPrompt(
-      agent.config.systemRole,
-      agent?.locale || config.entryLocale,
-    );
-    agent.config.systemRole = await format(agent.config.systemRole, { parser: 'markdown' });
-    agent.identifier = kebabCase(agent.identifier);
-    if (agent?.meta?.tags?.length > 0) {
-      agent.meta.tags = agent.meta.tags.map((tag) => tag.toLowerCase().replaceAll(' ', '-'));
-    }
+    agent = formatAgentJSON(agent);
 
     // i18n workflow
     let rawData = {};

@@ -13,6 +13,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "format": "node scripts/format.mjs",
+    "submit": "node scripts/autoSubmit.mjs",
     "lint": "eslint \"scripts/**/*.mjs\" --fix",
     "lint:md": "remark . --quiet --frail --output",
     "prettier": "prettier -c --write \"**/*.{json,mjs,md}\"",
@@ -33,6 +34,7 @@
     "remark-cli": "^11",
     "remark-pangu": "^2",
     "typescript": "^5",
-    "zod": "^3"
+    "zod": "^3",
+    "@octokit/rest": "^20"
   }
 }
