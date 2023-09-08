@@ -4,7 +4,7 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import config from '../.i18nrc.js';
-import { formatAgentJSON } from './check.mjs';
+import { formatAgentJSON, formatPrompt } from './check.mjs';
 import {
   agents,
   agentsDir,

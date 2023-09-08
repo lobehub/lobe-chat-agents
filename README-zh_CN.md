@@ -8,7 +8,7 @@
 
 <h1>Lobe Chat 助手索引</h1>
 
-[**提交您的助手 >>**](https://github.com/lobehub/lobe-chat-agents/pulls)
+[**提交您的助手 >>**][submit]
 
 [Lobe Chat](https://github.com/lobehub/lobe-chat) 从该存储库访问 [`index.json`][website-url] 来为用户展示可用的 LobeChat 助手列表。
 
@@ -52,9 +52,11 @@
 
 ## 🚀 如何提交您的助手
 
-如果您想将助手添加到索引中，请使用 `agent_template.json` 或 `agent_template_full.json` 在 `plugins` 目录中创建一个条目，编写简短的描述并适当标记，然后创建一个拉取请求。
+你可以直接通过以下链接提交 [**提交您的助手**][submit]，或者按以下步骤进行提交
 
 ### 提交步骤
+
+如果您想将助手添加到索引中，请使用 `agent_template.json` 或 `agent_template_full.json` 在 `plugins` 目录中创建一个条目，编写简短的描述并适当标记，然后创建一个拉取请求。
 
 1. <kbd>Fork</kbd> 这个存储库
 2. 复制 `agent_template.json` 或 `agent_template_full.json`
@@ -129,47 +131,24 @@
 Copyright © 2023 [LobeHub][profile-url]. <br />
 This project is [MIT](./LICENSE) licensed.
 
-<!-- PLUGIN GROUP -->
-
-[website-shield]: https://img.shields.io/website?down_message=offline&label=🤯%20chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&style=flat
-[website-url]: https://chat-agents.lobehub.com
-
 <!-- LINK GROUP -->
 
-[profile-url]: https://github.com/lobehub
-[deploy-shield]: https://vercel.com/button
-[deploy-url]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&project-name=lobe-chat-agents&repository-name=lobe-chat-agents
-
-<!-- SHIELD LINK GROUP -->
-
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
-<!-- ciTest -->
-
-[ci-test-shield]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml/badge.svg
-[ci-test-url]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
-
-<!-- ciRelease -->
-
 [ci-release-shield]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml/badge.svg
 [ci-release-url]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
-
-<!-- contributors -->
-
+[ci-test-shield]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml/badge.svg
+[ci-test-url]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
 [contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-chat-agents.svg?style=flat
 [contributors-url]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
-
-<!-- forks -->
-
+[deploy-shield]: https://vercel.com/button
+[deploy-url]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&project-name=lobe-chat-agents&repository-name=lobe-chat-agents
 [forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-chat-agents.svg?style=flat
 [forks-url]: https://github.com/lobehub/lobe-chat-agents/network/members
-
-<!-- stargazers -->
-
-[stargazers-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents.svg?style=flat
-[stargazers-url]: https://github.com/lobehub/lobe-chat-agents/stargazers
-
-<!-- issues -->
-
 [issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-chat-agents.svg?style=flat
 [issues-url]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
+[profile-url]: https://github.com/lobehub
+[stargazers-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents.svg?style=flat
+[stargazers-url]: https://github.com/lobehub/lobe-chat-agents/stargazers
+[submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
+[website-shield]: https://img.shields.io/website?down_message=offline&label=🤯%20chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&style=flat
+[website-url]: https://chat-agents.lobehub.com

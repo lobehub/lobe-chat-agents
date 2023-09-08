@@ -8,7 +8,7 @@
 
 <h1>Lobe Chat Agents Index</h1>
 
-[**Submit Your Agent >>**](https://github.com/lobehub/lobe-chat-agents/pulls)
+[**Submit Your Agent >>**][submit]
 
 [Lobe Chat](https://github.com/lobehub/lobe-chat) accesses [`index.json`][website-url] from this repo to show user the list of available agents for LobeChat.
 
@@ -34,7 +34,7 @@
 
 #### TOC
 
-- [🚀 How to Submit your Plugin](#-how-to-submit-your-plugin)
+- [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
 
   - [Step-by-step Instructions](#step-by-step-instructions)
 
@@ -52,9 +52,11 @@
 
 ## 🚀 How to Submit your Agent
 
-If you wish to add an agent onto the index, make an entry in `agents` directory using `agent_template.json` or `agent_template_full.json`, write a short description and tag it appropriately then open as a pull request ty!
+You can submit through [**Submit Your Agent**][submit], or use the following steps
 
 ### Step-by-step Instructions
+
+If you wish to add an agent onto the index, make an entry in `agents` directory using `agent_template.json` or `agent_template_full.json`, write a short description and tag it appropriately then open as a pull request ty!
 
 1. <kbd>Fork</kbd> of this repository.
 2. Make a copy of `agent_template.json` or `agent_template_full.json`
@@ -129,47 +131,24 @@ Click button below to deploy your private agents index.
 Copyright © 2023 [LobeHub][profile-url]. <br />
 This project is [MIT](./LICENSE) licensed.
 
-<!-- PLUGIN GROUP -->
-
-[website-shield]: https://img.shields.io/website?down_message=offline&label=🤯%20chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&style=flat
-[website-url]: https://chat-agents.lobehub.com
-
 <!-- LINK GROUP -->
 
-[profile-url]: https://github.com/lobehub
-[deploy-shield]: https://vercel.com/button
-[deploy-url]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&project-name=lobe-chat-agents&repository-name=lobe-chat-agents
-
-<!-- SHIELD LINK GROUP -->
-
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
-<!-- ciTest -->
-
-[ci-test-shield]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml/badge.svg
-[ci-test-url]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
-
-<!-- ciRelease -->
-
 [ci-release-shield]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml/badge.svg
 [ci-release-url]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
-
-<!-- contributors -->
-
+[ci-test-shield]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml/badge.svg
+[ci-test-url]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
 [contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-chat-agents.svg?style=flat
 [contributors-url]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
-
-<!-- forks -->
-
+[deploy-shield]: https://vercel.com/button
+[deploy-url]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&project-name=lobe-chat-agents&repository-name=lobe-chat-agents
 [forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-chat-agents.svg?style=flat
 [forks-url]: https://github.com/lobehub/lobe-chat-agents/network/members
-
-<!-- stargazers -->
-
-[stargazers-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents.svg?style=flat
-[stargazers-url]: https://github.com/lobehub/lobe-chat-agents/stargazers
-
-<!-- issues -->
-
 [issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-chat-agents.svg?style=flat
 [issues-url]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
+[profile-url]: https://github.com/lobehub
+[stargazers-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents.svg?style=flat
+[stargazers-url]: https://github.com/lobehub/lobe-chat-agents/stargazers
+[submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
+[website-shield]: https://img.shields.io/website?down_message=offline&label=🤯%20chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&style=flat
+[website-url]: https://chat-agents.lobehub.com

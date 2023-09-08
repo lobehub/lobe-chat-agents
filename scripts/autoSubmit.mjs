@@ -4,7 +4,7 @@ import 'dotenv/config';
 import { camelCase } from 'lodash-es';
 import { execSync } from 'node:child_process';
 import { existsSync, writeFileSync } from 'node:fs';
-import { resolve } from 'path';
+import { resolve } from 'node:path';
 
 import { formatAgentJSON } from './check.mjs';
 import { agentsDir, githubHomepage } from './const.mjs';
@@ -25,7 +25,7 @@ class AutoSubmit {
 
     const agent = await this.formatIssue(issue);
     const comment = this.genCommentMessage(agent);
-    const agentName = camelCase(agent.meta.title);
+    const agentName = camelCase(agent.identifier);
     const fileName = agentName + '.json';
     const filePath = resolve(agentsDir, fileName);
 
@@ -34,7 +34,7 @@ class AutoSubmit {
       await this.createComment(
         [
           `> **🚨 Auto Check Fail:** Same name exist <${`${githubHomepage}/blob/main/agents/${fileName}`}>`,
-          '- Rename your agent title',
+          '- Rename your agent identifier',
           '- Add issue label `🤖 Agent PR` to the current issue',
           '- Wait for automation to regenerate',
           '---',
@@ -56,7 +56,11 @@ class AutoSubmit {
     this.gitCommit(filePath, agent, agentName);
     consola.info('Commit to', `agent/${agentName}`);
 
-    await this.createPullRequest(agentName, agent.author, [comment,`resolve #${this.issueNumber}`, `[@${agent.author}](${agent.author})`].join("\n"));
+    await this.createPullRequest(
+      agentName,
+      agent.author,
+      [comment, `[@${agent.author}](${agent.homepage}) (resolve #${this.issueNumber})`].join('\n'),
+    );
     consola.success('Create PR');
   }
 
@@ -90,20 +94,20 @@ class AutoSubmit {
   async createPullRequest(agentName, author, body) {
     const { owner, repo, octokit, issueNumber } = this;
     const pr = await octokit.pulls.create({
+      base: 'main',
+      body,
+      head: `agent/${agentName}`,
       owner: owner,
       repo: repo,
       title: `[AgentSubmit] ${agentName} @${author}`,
-      head: `agent/${agentName}`,
-      base: 'main',
-      body,
     });
   }
   async getIssue() {
     const { owner, repo, octokit, issueNumber } = this;
     const issue = await octokit.issues.get({
+      issue_number: issueNumber,
       owner,
       repo,
-      issue_number: issueNumber,
     });
     return issue.data;
   }
@@ -111,10 +115,10 @@ class AutoSubmit {
   async addLabels(label) {
     const { owner, repo, octokit, issueNumber } = this;
     await octokit.issues.addLabels({
-      owner,
-      repo,
       issue_number: issueNumber,
       labels: [label],
+      owner,
+      repo,
     });
   }
 
@@ -127,10 +131,10 @@ class AutoSubmit {
 
     for (const label of removeLabels) {
       await octokit.issues.removeLabel({
-        owner,
-        repo,
         issue_number: issueNumber,
         name: label,
+        owner,
+        repo,
       });
     }
   }
@@ -138,10 +142,10 @@ class AutoSubmit {
   async createComment(body) {
     const { owner, repo, octokit, issueNumber } = this;
     const { data } = await octokit.issues.createComment({
+      body,
+      issue_number: issueNumber,
       owner,
       repo,
-      issue_number: issueNumber,
-      body,
     });
     return data.id;
   }
@@ -153,7 +157,7 @@ class AutoSubmit {
     let currentKey = '';
     let currentValue = '';
 
-    lines.forEach((line) => {
+    for (const line of lines) {
       if (line.startsWith('###')) {
         if (currentKey && currentValue) {
           json[currentKey] = currentValue.trim();
@@ -163,7 +167,7 @@ class AutoSubmit {
       } else {
         currentValue += line + '\n';
       }
-    });
+    }
 
     if (currentKey && currentValue) {
       json[currentKey] = currentValue.trim();
@@ -182,13 +186,13 @@ class AutoSubmit {
         systemRole: json.systemRole,
       },
       homepage: data.user.html_url,
-      identifier: 'plugin identifier',
+      identifier: json.identifier,
       locale: json.locale,
       meta: {
         avatar: json.avatar,
+        description: json.description,
         tags: json.tags,
         title: json.title,
-        description: json.description,
       },
     };
 
