@@ -53,14 +53,14 @@ class AutoSubmit {
     consola.info(`Auto Check Pass`);
 
     // commit and pull request
-    this.gitCommit(agent, agentName);
+    this.gitCommit(filePath, agent, agentName);
     consola.info('Commit to', `agent/${agentName}`);
 
     await this.createPullRequest(agentName, comment);
     consola.success('Create PR');
   }
 
-  gitCommit(agent, agentName) {
+  gitCommit(filePath, agent, agentName) {
     execSync('git diff');
     execSync('git config --global user.name "lobehubbot"');
     execSync('git config --global user.email "i@lobehub.com"');
