@@ -27,7 +27,7 @@ const formatJSON = async (fileName, checkType) => {
   let agent = JSON.parse(data);
 
   if (checkType) {
-    agent = formatAgentJSON(agent);
+    agent = await formatAgentJSON(agent);
 
     // i18n workflow
     let rawData = {};
