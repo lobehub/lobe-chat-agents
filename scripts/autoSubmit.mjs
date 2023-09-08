@@ -99,7 +99,7 @@ class AutoSubmit {
 
     // commit
     execSync('git add -A');
-    execSync(`git commit -m "✨ feat(agent): Add ${agentName} (#${this.issueNumber})"`);
+    execSync(`git commit -m "🤖 chore(auto-submit): Add ${agentName} (#${this.issueNumber})"`);
     execSync(`git push origin agent/${agentName}`);
     consola.info('Push agent');
 
@@ -115,7 +115,7 @@ class AutoSubmit {
     // commit
     execSync('git add -A');
     execSync(
-      `git commit -m "✨ feat(agent): Generate i18n for ${agentName} (#${this.issueNumber})"`,
+      `git commit -m "🤖 chore(auto-submit): Generate i18n for ${agentName} (#${this.issueNumber})"`,
     );
     execSync(`git push origin agent/${agentName}`);
     consola.info('Push i18n');
