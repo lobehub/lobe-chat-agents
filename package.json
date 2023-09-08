@@ -13,14 +13,15 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "format": "node scripts/format.mjs",
-    "submit": "node scripts/autoSubmit.mjs",
     "lint": "eslint \"scripts/**/*.mjs\" --fix",
     "lint:md": "remark . --quiet --frail --output",
     "prettier": "prettier -c --write \"**/*.{json,mjs,md}\"",
+    "submit": "node scripts/autoSubmit.mjs",
     "test": "node scripts/test.mjs"
   },
   "devDependencies": {
     "@lobehub/lint": "latest",
+    "@octokit/rest": "^20",
     "@types/lodash-es": "^4",
     "@types/node": "^20",
     "consola": "^3",
@@ -34,7 +35,6 @@
     "remark-cli": "^11",
     "remark-pangu": "^2",
     "typescript": "^5",
-    "zod": "^3",
-    "@octokit/rest": "^20"
+    "zod": "^3"
   }
 }

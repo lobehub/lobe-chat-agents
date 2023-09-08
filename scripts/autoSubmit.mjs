@@ -1,15 +1,17 @@
-import { Octokit } from "@octokit/rest";
-import "dotenv/config";
-import { formatAgentJSON } from "./check.mjs";
-import { camelCase } from "lodash-es";
-import { existsSync, writeFileSync } from "node:fs";
-import { resolve } from "path";
-import { agentsDir } from "./const.mjs";
-import pkg from "../package.json";
-import { execSync } from "node:child_process";
+import { Octokit } from '@octokit/rest';
+import 'dotenv/config';
+import { camelCase } from 'lodash-es';
+import { execSync } from 'node:child_process';
+import { existsSync, writeFileSync } from 'node:fs';
+import { resolve } from 'path';
+
+import pkg from '../package.json';
+import { formatAgentJSON } from './check.mjs';
+import { agentsDir } from './const.mjs';
+
 class AutoSubmit {
-  owner = "lobehub";
-  repo = "lobe-chat-agents";
+  owner = 'lobehub';
+  repo = 'lobe-chat-agents';
   issueNumber = process.env.ISSUE_NUMBER;
 
   constructor() {
@@ -22,7 +24,7 @@ class AutoSubmit {
     const comment = this.genCommentMessage(json);
     const agent = await this.formatIssue(issue);
     const agentName = camelCase(agent.meta.title);
-    const fileName = agentName + ".json";
+    const fileName = agentName + '.json';
     const filePath = resolve(agentsDir, fileName);
 
     // check same name
@@ -30,21 +32,21 @@ class AutoSubmit {
       await this.createComment(
         [
           `🚨 Same name exist <${`${pkg.homepage}/blob/main/agents/${fileName}`}>, please rename your agent and submit again`,
-          "---",
+          '---',
           comment,
-        ].join("\n"),
+        ].join('\n'),
       );
-      await this.addLabels('🚨 Auto Check Fail')
+      await this.addLabels('🚨 Auto Check Fail');
       return;
     }
 
     // comment in issues
     await this.createComment(comment);
-    await this.addLabels('✅ Auto Check Pass')
+    await this.addLabels('✅ Auto Check Pass');
 
     // generate file
     writeFileSync(filePath, JSON.stringify(agent, null, 2), {
-      encoding: "utf8",
+      encoding: 'utf8',
     });
 
     // commit and pull request
@@ -54,18 +56,18 @@ class AutoSubmit {
 
   gitCommit(agentName) {
     execSync(`git checkout -b agent/${agentName}`);
-    execSync("git add .");
+    execSync('git add .');
     execSync(`git commit -m "✨ feat(agent): Add ${agentName}"`);
     execSync(`git push origin agent/${agentName}`);
   }
 
   genCommentMessage(json) {
     return [
-      "🤖 Automatic generated agent config file",
-      "```json",
+      '🤖 Automatic generated agent config file',
+      '```json',
       JSON.stringify(json, null, 2),
-      "```",
-    ].join("\n");
+      '```',
+    ].join('\n');
   }
 
   async createPullRequest(agentName, body) {
@@ -75,7 +77,7 @@ class AutoSubmit {
       repo: repo,
       title: `[AgentSubmit] ${agentName} (#${issueNumber})`,
       head: `agent/${agentName}`,
-      base: "main",
+      base: 'main',
       body,
     });
   }
@@ -111,21 +113,21 @@ class AutoSubmit {
   }
 
   markdownToJson(markdown) {
-    const lines = markdown.split("\n");
+    const lines = markdown.split('\n');
     const json = {};
 
-    let currentKey = "";
-    let currentValue = "";
+    let currentKey = '';
+    let currentValue = '';
 
     lines.forEach((line) => {
-      if (line.startsWith("###")) {
+      if (line.startsWith('###')) {
         if (currentKey && currentValue) {
           json[currentKey] = currentValue.trim();
-          currentValue = "";
+          currentValue = '';
         }
-        currentKey = line.replace("###", "").trim();
+        currentKey = line.replace('###', '').trim();
       } else {
-        currentValue += line + "\n";
+        currentValue += line + '\n';
       }
     });
 
@@ -133,10 +135,7 @@ class AutoSubmit {
       json[currentKey] = currentValue.trim();
     }
 
-    json.tags = json.tags
-      .replaceAll("，", ",")
-      .replaceAll(", ", ",")
-      .split(",");
+    json.tags = json.tags.replaceAll('，', ',').replaceAll(', ', ',').split(',');
 
     return json;
   }
@@ -149,7 +148,7 @@ class AutoSubmit {
         systemRole: json.systemRole,
       },
       homepage: data.user.html_url,
-      identifier: "plugin identifier",
+      identifier: 'plugin identifier',
       locale: json.locale,
       meta: {
         avatar: json.avatar,

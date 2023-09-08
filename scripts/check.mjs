@@ -1,11 +1,11 @@
 import { consola } from 'consola';
 import dayjs from 'dayjs';
-import { kebabCase } from "lodash-es";
-import { format } from "prettier";
-import { remark } from "remark";
-import pangu from "remark-pangu";
-import config from "../.i18nrc.js";
+import { kebabCase } from 'lodash-es';
+import { format } from 'prettier';
+import { remark } from 'remark';
+import pangu from 'remark-pangu';
 
+import config from '../.i18nrc.js';
 import { agentMetaSchema } from './agentMetaSchema.mjs';
 import { meta } from './const.mjs';
 
@@ -26,8 +26,8 @@ export const formatAndCheckSchema = (agent) => {
 
 const formatPrompt = async (prompt, local) => {
   return local === 'zh_CN'
-         ? String(await remark().use(pangu).process(prompt))
-         : String(await remark().process(prompt));
+    ? String(await remark().use(pangu).process(prompt))
+    : String(await remark().process(prompt));
 };
 export const formatAgentJSON = async (agent) => {
   formatAndCheckSchema(agent);
@@ -41,5 +41,5 @@ export const formatAgentJSON = async (agent) => {
   if (agent?.meta?.tags?.length > 0) {
     agent.meta.tags = agent.meta.tags.map((tag) => tag.toLowerCase().replaceAll(' ', '-'));
   }
-  return agent
-}
+  return agent;
+};
