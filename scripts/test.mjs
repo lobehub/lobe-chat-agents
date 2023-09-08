@@ -2,10 +2,11 @@ import { consola } from 'consola';
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-import { formatAndCheckSchema } from './check.mjs';
+import { checkUniqueIdentifier, formatAndCheckSchema } from './check.mjs';
 import { agents, agentsDir, root } from './const.mjs';
 
 const runTest = () => {
+  const identifiers = [];
   for (const file of agents) {
     if (file.isFile()) {
       const filePath = resolve(agentsDir, file.name);
@@ -15,8 +16,10 @@ const runTest = () => {
       });
       const agent = JSON.parse(data);
       formatAndCheckSchema(agent);
+      identifiers.push(agent.identifier);
     }
   }
+  checkUniqueIdentifier(identifiers);
 };
 
 runTest();
