@@ -27,8 +27,10 @@ class AutoSubmit {
       await this.submit();
     } catch (error) {
       await this.removeLabels(GENERATE_LABEL);
+      await this.removeLabels(SUCCESS_LABEL);
+      await this.addLabels(ERROR_LABEL);
       await this.createComment(
-        ['> **🚨 Auto Check Fail:**', '```bash', error?.message, '```'].join('\n'),
+        ['**🚨 Auto Check Fail:**', '```bash', error?.message, '```'].join('\n'),
       );
       consola.error(error);
     }
@@ -49,7 +51,7 @@ class AutoSubmit {
     if (existsSync(filePath)) {
       await this.createComment(
         [
-          `> **🚨 Auto Check Fail:** Same name exist <${`${githubHomepage}/blob/main/agents/${fileName}`}>`,
+          `**🚨 Auto Check Fail:** Same name exist <${`${githubHomepage}/blob/main/agents/${fileName}`}>`,
           '- Rename your agent identifier',
           `- Add issue label \`${GENERATE_LABEL}\` to the current issue`,
           '- Wait for automation to regenerate',
@@ -113,8 +115,8 @@ class AutoSubmit {
   }
 
   async createPullRequest(agentName, author, body) {
-    const { owner, repo, octokit, issueNumber } = this;
-    const pr = await octokit.pulls.create({
+    const { owner, repo, octokit } = this;
+    await octokit.pulls.create({
       base: 'main',
       body,
       head: `agent/${agentName}`,
