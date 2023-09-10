@@ -12,7 +12,7 @@
 
 [Lobe Chat](https://github.com/lobehub/lobe-chat) accesses [`index.json`][website-url] from this repo to show user the list of available agents for LobeChat.
 
-**English** · [简体中文](./README-zh_CN.md)
+**English** · [简体中文](./README.zh-CN.md)
 
 <!-- SHIELD GROUP -->
 
