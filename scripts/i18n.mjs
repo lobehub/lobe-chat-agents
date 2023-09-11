@@ -3,7 +3,7 @@ import 'dotenv/config';
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { HumanMessage, SystemMessage } from 'langchain/schema';
 
-import config from '../.i18nrc.js';
+import { config } from './const.mjs';
 
 if (!process.env.OPENAI_TOKEN) {
   consola.error('cannot find OPENAI_TOKEN in env');

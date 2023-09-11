@@ -56,15 +56,15 @@
 
 ### 提交步骤
 
-如果您想将助手添加到索引中，请使用 `agent_template.json` 或 `agent_template_full.json` 在 `plugins` 目录中创建一个条目，编写简短的描述并适当标记，然后创建一个拉取请求。
+如果您想将助手添加到索引中，请使用 `agent-template.json` 或 `agent-template-full.json` 在 `plugins` 目录中创建一个条目，编写简短的描述并适当标记，然后创建一个拉取请求。
 
 1. <kbd>Fork</kbd> 这个存储库
-2. 复制 `agent_template.json` 或 `agent_template_full.json`
+2. 复制 `agent-template.json` 或 `agent-template-full.json`
 3. 填写副本并重命名
 4. 将其移动到 `agents` 目录中
 5. 提交一个拉取请求并等待审核
 
-> 👉 **注意：** `createAt` 日期将在合并后自动填充, `agent_template_full.json` 中提供更加丰富的参数配置，请按实际情况选用
+> 👉 **注意：** `createAt` 日期将在合并后自动填充, `agent-template-full.json` 中提供更加丰富的参数配置，请按实际情况选用
 
 <div align="right">
 
@@ -104,13 +104,16 @@
 
 <!-- CONTRIBUTION GROUP -->
 
-> 📊 Total: <kbd>**3**</kbd>
+> 📊 Total: <kbd>**4**</kbd>
 
 <a href="https://github.com/canisminor1990" title="canisminor1990">
   <img src="https://avatars.githubusercontent.com/u/17870709?v=4" width="50" />
 </a>
 <a href="https://github.com/lobehubbot" title="lobehubbot">
   <img src="https://avatars.githubusercontent.com/u/134299653?v=4" width="50" />
+</a>
+<a href="https://github.com/arvinxx" title="arvinxx">
+  <img src="https://avatars.githubusercontent.com/u/28616219?v=4" width="50" />
 </a>
 <a href="https://github.com/actions-user" title="actions-user">
   <img src="https://avatars.githubusercontent.com/u/65916846?v=4" width="50" />

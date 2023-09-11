@@ -1,13 +1,14 @@
 import { Octokit } from '@octokit/rest';
 import { consola } from 'consola';
 import 'dotenv/config';
-import { camelCase } from 'lodash-es';
+import { kebabCase } from 'lodash-es';
 import { execSync } from 'node:child_process';
-import { existsSync, writeFileSync } from 'node:fs';
+import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { formatAgentJSON } from './check.mjs';
 import { agentsDir, githubHomepage } from './const.mjs';
+import { writeJSON } from './utils.mjs';
 
 const GENERATE_LABEL = '🤖 Agent PR';
 const SUCCESS_LABEL = '✅ Auto Check Pass';
@@ -51,7 +52,7 @@ class AutoSubmit {
 
     const agent = await this.formatIssue(issue);
     const comment = this.genCommentMessage(agent);
-    const agentName = camelCase(agent.identifier);
+    const agentName = agent.identifier;
     const fileName = agentName + '.json';
     const filePath = resolve(agentsDir, fileName);
 
@@ -100,9 +101,7 @@ class AutoSubmit {
     consola.info('Checkout branch');
 
     // generate file
-    writeFileSync(filePath, JSON.stringify(agent, null, 2), {
-      encoding: 'utf8',
-    });
+    writeJSON(filePath, agent);
     consola.info('Generate file', filePath);
 
     // commit
@@ -233,7 +232,7 @@ class AutoSubmit {
         systemRole: json.systemRole,
       },
       homepage: data.user.html_url,
-      identifier: json.identifier,
+      identifier: kebabCase(json.identifier),
       locale: json.locale,
       meta: {
         avatar: json.avatar,

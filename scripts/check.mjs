@@ -5,9 +5,8 @@ import { format } from 'prettier';
 import { remark } from 'remark';
 import pangu from 'remark-pangu';
 
-import config from '../.i18nrc.js';
 import { agentMetaSchema } from './agentMetaSchema.mjs';
-import { meta } from './const.mjs';
+import { config, meta } from './const.mjs';
 
 export const formatAndCheckSchema = (agent) => {
   if (!agent.schemaVersion) agent.schemaVersion = meta.schemaVersion;
@@ -39,7 +38,7 @@ export const formatAgentJSON = async (agent) => {
   agent.config.systemRole = await format(agent.config.systemRole, { parser: 'markdown' });
   agent.identifier = kebabCase(agent.identifier);
   if (agent?.meta?.tags?.length > 0) {
-    agent.meta.tags = agent.meta.tags.map((tag) => tag.toLowerCase().replaceAll(' ', '-'));
+    agent.meta.tags = agent.meta.tags.map((tag) => kebabCase(tag));
   }
   return agent;
 };
@@ -48,11 +47,11 @@ export const checkUniqueIdentifier = (arr) => {
   let duplicates = [];
   let set = new Set();
 
-  for (let i = 0; i < arr.length; i++) {
-    if (set.has(arr[i])) {
-      duplicates.push(arr[i]);
+  for (const element of arr) {
+    if (set.has(element)) {
+      duplicates.push(element);
     } else {
-      set.add(arr[i]);
+      set.add(element);
     }
   }
 
