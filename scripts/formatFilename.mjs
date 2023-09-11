@@ -19,9 +19,9 @@ const formatFilenameById = (fileName) => {
         const localeFilepath = resolve(localesDir, localeFilename);
         const localeFilenameArray = file.name.split('.');
 
-        if (localeFilenameArray[0] === fileName.split['.'][0]) {
+        if (localeFilenameArray[0] === fileName.split('.')[0]) {
           const newLocaleFilename = [
-            newFilename.split['.'][0],
+            agent.identifier,
             localeFilenameArray[1],
             localeFilenameArray[2],
           ].join('.');
@@ -35,6 +35,7 @@ const formatFilenameById = (fileName) => {
 };
 
 export const formatFilenames = () => {
+  consola.start('Start format filenames...');
   for (const file of agents) {
     if (checkJSON(file)) {
       try {
@@ -44,4 +45,5 @@ export const formatFilenames = () => {
       }
     }
   }
+  consola.success('clean');
 };

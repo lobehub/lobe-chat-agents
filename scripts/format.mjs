@@ -15,7 +15,7 @@ import {
 } from './const.mjs';
 import { formatFilenames } from './formatFilename.mjs';
 import { translateJSON } from './i18n.mjs';
-import { checkJSON, readJSON, writeJSON } from './utils.mjs';
+import { checkJSON, readJSON, split, writeJSON } from './utils.mjs';
 
 const formatJSON = async (fileName, checkType) => {
   consola.start(fileName);
@@ -70,6 +70,7 @@ const formatJSON = async (fileName, checkType) => {
 };
 
 const runFormat = async () => {
+  consola.start('Start format json content...');
   await formatJSON(metaPath);
   await formatJSON(templatePath);
   await formatJSON(templateFullPath);
@@ -80,5 +81,8 @@ const runFormat = async () => {
   }
 };
 
+// run format
+split('FORMAT JSON CONTENT');
 await runFormat();
+split('FORMAT FILENAME');
 formatFilenames();

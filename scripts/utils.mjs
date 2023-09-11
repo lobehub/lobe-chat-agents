@@ -1,3 +1,5 @@
+import { consola } from 'consola';
+import { colors } from 'consola/utils';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 export const readJSON = (filePath) => {
@@ -15,3 +17,8 @@ export const checkDir = (dirpath) => {
 };
 
 export const checkJSON = (file) => file.isFile() && file.name?.includes('.json');
+
+export const split = (name) => {
+  consola.log('');
+  consola.log(colors.gray(`========================== ${name} ==============================`));
+};
