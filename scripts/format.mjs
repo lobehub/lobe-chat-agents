@@ -1,30 +1,28 @@
 import { consola } from 'consola';
 import { cloneDeep, get, merge, set } from 'lodash-es';
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-import config from '../.i18nrc.js';
 import { formatAgentJSON, formatPrompt } from './check.mjs';
 import {
   agents,
   agentsDir,
+  config,
   localesDir,
   metaPath,
   templateFullPath,
   templatePath,
 } from './const.mjs';
+import { formatFilenames } from './formatFilename.mjs';
 import { translateJSON } from './i18n.mjs';
+import { checkJSON, readJSON, writeJSON } from './utils.mjs';
 
 const formatJSON = async (fileName, checkType) => {
   consola.start(fileName);
 
   const filePath = resolve(agentsDir, fileName);
 
-  const data = readFileSync(filePath, {
-    encoding: 'utf8',
-  });
-
-  let agent = JSON.parse(data);
+  let agent = readJSON(filePath);
 
   if (checkType) {
     agent = await formatAgentJSON(agent);
@@ -40,9 +38,9 @@ const formatJSON = async (fileName, checkType) => {
     if (rawData) {
       if (agent.locale && agent.locale !== config.entryLocale) {
         if (config.outputLocales.includes(agent.locale)) {
-          writeFileSync(
+          writeJSON(
             resolve(localesDir, fileName.replace('.json', `.${agent.locale}.json`)),
-            JSON.stringify(rawData, null, 2),
+            rawData,
           );
         }
         rawData = await translateJSON(rawData, config.entryLocale, agent.locale);
@@ -59,16 +57,14 @@ const formatJSON = async (fileName, checkType) => {
             translateResult.config.systemRole,
             config.outputLocales,
           );
-          writeFileSync(localeFilePath, JSON.stringify(translateResult, null, 2));
+          writeJSON(localeFilePath, translateResult);
           consola.success(`${locale} generated`);
         }
       }
     }
   }
 
-  writeFileSync(filePath, JSON.stringify(agent, null, 2), {
-    encoding: 'utf8',
-  });
+  writeJSON(filePath, agent);
 
   consola.success(`format success`);
 };
@@ -78,10 +74,11 @@ const runFormat = async () => {
   await formatJSON(templatePath);
   await formatJSON(templateFullPath);
   for (const file of agents) {
-    if (file.isFile()) {
+    if (checkJSON(file)) {
       await formatJSON(file.name, true);
     }
   }
 };
 
 await runFormat();
+formatFilenames();
