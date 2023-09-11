@@ -67,6 +67,3 @@ jobs:
           git push
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
-      - name: Vercel Deploy
-        run: curl -X POST ${{ secrets.VERCEL_HOOK }}
