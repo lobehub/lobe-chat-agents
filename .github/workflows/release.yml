@@ -6,56 +6,30 @@ on:
       - main
 
 jobs:
-  test:
-    name: Test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
-
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Install deps
-        run: pnpm install
-
-      - name: Test
-        run: pnpm run test
   build:
-    needs: test
     name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
-
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
 
       - name: Install deps
-        run: pnpm install
+        run: bun i
+
+      - name: Test
+        run: bun run test
 
       - name: Format
-        run: pnpm run format
+        run: bun run format
         env:
           OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
 
       - name: Prettier
         run: |
           echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.js
-          pnpm run prettier
+          bun run prettier
 
       - name: Commit changes
         run: |-
