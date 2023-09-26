@@ -1,6 +1,4 @@
-<a name="readme-top"></a>
-
-<div align="center">
+<div align="center"><a name="readme-top"></a>
 
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/robot.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
@@ -16,16 +14,16 @@
 
 <!-- SHIELD GROUP -->
 
-![awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+[![awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/lobehub/lobe-chat-agents)
 [![website][website-shield]][website-url]
-[![ciTest][ci-test-shield]][ci-test-url]
-[![ciRelease][ci-release-shield]][ci-release-url] <br/>
-[![contributors][contributors-shield]][contributors-url]
-[![forks][forks-shield]][forks-url]
-[![stargazers][stargazers-shield]][stargazers-url]
-[![issues][issues-shield]][issues-url]
+[![][github-action-test-shield]][github-action-test-link]
+[![][github-action-release-shield]][github-action-release-link]<br/>
+[![][github-contributors-shield]][github-contributors-link]
+[![][github-forks-shield]][github-forks-link]
+[![][github-stars-shield]][github-stars-link]
+[![][github-issues-shield]][github-issues-link]
 
-![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+[![](https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/268670869-f1ffbf66-42b6-42cf-a937-9ce1f8328514.png)](https://github.com/lobehub/lobe-chat)
 
 </div>
 
@@ -35,15 +33,9 @@
 #### TOC
 
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
-
   - [Step-by-step Instructions](#step-by-step-instructions)
-
-- [👀 Notes](#-notes)
-
 - [🛳 Self Hosting](#-self-hosting)
-
   - [Deploy to Vercel](#deploy-to-vercel)
-
 - [🤝 Contributing](#-contributing)
 
 ####
@@ -64,19 +56,14 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 4. Move it into `agents` directory
 5. Submit a pull request and wait for review.
 
-> 👉 **Note:** The `createAt` date will be automatically populated after merge. Please choose the appropriate parameter configuration from `agent-template-full.json` based on your specific needs. This file provides a more comprehensive set of parameters for customization.
+> **Important**\
+> The `createAt` date will be automatically populated after merge. Please choose the appropriate parameter configuration from `agent-template-full.json` based on your specific needs. This file provides a more comprehensive set of parameters for customization.
 
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
-## 👀 Notes
-
-- Not all agents will be accepted, we will review the agent and make an assessment.
-- You can submit agents even if you are not the author, but it is preferred that the author do it themselves.
-- If you wish to have your agent removed, or believes the description does not properly describe your agent, please open the issue or pull request.
+> **Note**
+>
+> - Not all agents will be accepted, we will review the agent and make an assessment.
+> - You can submit agents even if you are not the author, but it is preferred that the author do it themselves.
+> - If you wish to have your agent removed, or believes the description does not properly describe your agent, please open the issue or pull request.
 
 <div align="right">
 
@@ -102,7 +89,11 @@ Click button below to deploy your private agents index.
 
 ## 🤝 Contributing
 
-[![][contributors-contrib]][contributors-url]
+Contributions of all types are more than welcome, if you are interested in contributing agent, feel free to show us what you’re made of.
+
+[![][pr-welcome-shield]][pr-welcome-link]
+
+[![][github-contrib-shield]][github-contrib-link]
 
 <div align="right">
 
@@ -120,22 +111,25 @@ This project is [MIT](./LICENSE) licensed.
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-[ci-release-shield]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml/badge.svg
-[ci-release-url]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
-[ci-test-shield]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml/badge.svg
-[ci-test-url]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
-[contributors-contrib]: https://contrib.rocks/image?repo=lobehub/lobe-chat-agents
-[contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-chat-agents.svg?style=flat
-[contributors-url]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
 [deploy-shield]: https://vercel.com/button
 [deploy-url]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&project-name=lobe-chat-agents&repository-name=lobe-chat-agents
-[forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-chat-agents.svg?style=flat
-[forks-url]: https://github.com/lobehub/lobe-chat-agents/network/members
-[issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-chat-agents.svg?style=flat
-[issues-url]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
+[github-action-release-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat-agents/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat-agents/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-contrib-link]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
+[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Flobe-chat-agents
+[github-contributors-link]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-chat-agents?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/lobehub/lobe-chat-agents/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-chat-agents?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/lobehub/lobe-chat-agents/issues
+[github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-chat-agents?color=ff80eb&labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/lobehub/lobe-chat-agents/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents?color=ffcb47&labelColor=black&style=flat-square
+[pr-welcome-link]: https://github.com/lobehub/lobe-chat-agents/pulls
+[pr-welcome-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
-[stargazers-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents.svg?style=flat
-[stargazers-url]: https://github.com/lobehub/lobe-chat-agents/stargazers
 [submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
-[website-shield]: https://img.shields.io/website?down_message=offline&label=🤯%20chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&style=flat
+[website-shield]: https://img.shields.io/website?down_message=offline&label=chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&labelColor=black&logo=vercel&style=flat-square
 [website-url]: https://chat-agents.lobehub.com
