@@ -91,9 +91,20 @@ Click button below to deploy your private agents index.
 
 Contributions of all types are more than welcome, if you are interested in contributing agent, feel free to show us what you’re made of.
 
-[![][pr-welcome-shield]][pr-welcome-link]
+[![][pr-welcome-shield]][submit]
 
 [![][github-contrib-shield]][github-contrib-link]
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+## 🔗 Links
+
+- **[🤖 Lobe Chat](https://github.com/lobehub/lobe-chat)** - An open-source, extensible (Function Calling), high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application.
+- **[🧩 / 🏪 Plugin Index](https://github.com/lobehub/lobe-chat-plugins)** - This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for Function Calling to the user.
 
 <div align="right">
 
@@ -127,7 +138,6 @@ This project is [MIT](./LICENSE) licensed.
 [github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-chat-agents?color=ff80eb&labelColor=black&style=flat-square
 [github-stars-link]: https://github.com/lobehub/lobe-chat-agents/network/stargazers
 [github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents?color=ffcb47&labelColor=black&style=flat-square
-[pr-welcome-link]: https://github.com/lobehub/lobe-chat-agents/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
 [submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
