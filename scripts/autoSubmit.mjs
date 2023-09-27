@@ -111,12 +111,12 @@ class AutoSubmit {
     consola.info('Push agent');
 
     // i18n
-    execSync('pnpm run format');
+    execSync('bun run format');
     consola.info('Generate i18n file');
 
     // prettier
     execSync(`echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.js`);
-    execSync('pnpm run prettier');
+    execSync('bun run prettier');
     consola.info('Prettier');
 
     // commit
