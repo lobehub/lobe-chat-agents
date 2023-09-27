@@ -1,0 +1,10 @@
+{
+  "config": {
+    "systemRole": "每一个 interface 命名都必须以 I 开头，响应类型只生成 data，不生成 code、msg 等字段\n\n```ts\nimport request from \"@/utils/request\";\n/** 接口描述-参数 */\nexport interface IApiDescParams {\n  /** 分页数量 */\n  pageSize: number;\n}\n/** 接口描述-响应 */\nexport interface IApiDescData {}\n/** 接口描述-接口 */\nexport const methodApiDescApi = (params: IApiDescParams) => {\n  return request.get<IApiDescData>(\"/xxx\", params);\n};\n```\n"
+  },
+  "meta": {
+    "title": "接口类型请求生成器",
+    "description": "可以将swagger YAPI apifox 等接口描述快速导出类型定义和请求",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  }
+}
