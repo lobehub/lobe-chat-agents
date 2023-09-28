@@ -23,11 +23,6 @@ const build = async () => {
       if (!list[config.entryLocale]) list[config.entryLocale] = [];
       writeJSON(resolve(publicDir, file.name), agent, false);
 
-      // clean useless key
-      delete agent.config;
-
-      list[config.entryLocale].push(agent);
-
       for (const locale of config.outputLocales) {
         if (!list[locale]) list[locale] = [];
         const localeFileName = file.name.replace('.json', `.${locale}.json`);
@@ -38,6 +33,11 @@ const build = async () => {
         delete agentLocale.config;
         list[locale].push(agentLocale);
       }
+
+      // clean useless key
+      delete agent.config;
+
+      list[config.entryLocale].push(agent);
     }
   }
 
