@@ -45,6 +45,8 @@ const lobeAgentConfigSchema = z.object({
   systemRole: z.string(),
 });
 
+export type LobeAgentConfig = z.infer<typeof lobeAgentConfigSchema>;
+
 export const agentMetaSchema = z.object({
   author: z.string(),
   config: lobeAgentConfigSchema,
@@ -54,3 +56,5 @@ export const agentMetaSchema = z.object({
   meta: metaDataSchema,
   schemaVersion: z.number(),
 });
+
+export type LobeAgent = z.infer<typeof agentMetaSchema>;

@@ -1,9 +1,9 @@
 import { consola } from 'consola';
+import { readJSONSync } from 'fs-extra';
 import { resolve } from 'node:path';
 
-import { checkUniqueIdentifier, formatAndCheckSchema } from './check.mjs';
-import { agents, agentsDir, root } from './const.mjs';
-import { readJSON } from './utils.mjs';
+import { checkUniqueIdentifier, formatAndCheckSchema } from './check';
+import { agents, agentsDir, root } from './const';
 
 const runTest = () => {
   const identifiers = [];
@@ -11,7 +11,7 @@ const runTest = () => {
     if (file.isFile()) {
       const filePath = resolve(agentsDir, file.name);
       consola.start(filePath.replace(root, ''));
-      const agent = readJSON(filePath);
+      const agent = readJSONSync(filePath);
       formatAndCheckSchema(agent);
       identifiers.push(agent.identifier);
     }

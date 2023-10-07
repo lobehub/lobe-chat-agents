@@ -3,19 +3,18 @@ import 'dotenv/config';
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { HumanMessage, SystemMessage } from 'langchain/schema';
 
-import { config } from './const.mjs';
+import { config } from './const';
 
-if (!process.env.OPENAI_TOKEN) {
-  consola.error('cannot find OPENAI_TOKEN in env');
-}
-
-const model = new ChatOpenAI({
-  openAIApiKey: process.env.OPENAI_TOKEN,
-  temperature: 0,
-});
+const model = new ChatOpenAI(
+  {
+    openAIApiKey: 'sk-MvphtQT9kVkMQGygPpC9QSgGLXWoVIuhglKOtLlGw8m6Xjfo',
+    temperature: 0,
+  },
+  { baseURL: 'https://api.chatanywhere.com.cn' },
+);
 
 export const translateJSON = async (json, outputLocale, entryLocale = config.entryLocale) => {
-  consola.info('i18n generating...');
+  consola.info(`i18n generating...`);
   const res = await model.call([
     new SystemMessage(
       [
@@ -25,5 +24,6 @@ export const translateJSON = async (json, outputLocale, entryLocale = config.ent
     ),
     new HumanMessage(JSON.stringify(json)),
   ]);
+
   return JSON.parse(res.content);
 };

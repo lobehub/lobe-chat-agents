@@ -6,9 +6,9 @@ import { execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-import { formatAgentJSON } from './check.mjs';
-import { agentsDir, githubHomepage } from './const.mjs';
-import { writeJSON } from './utils.mjs';
+import { formatAgentJSON } from './check';
+import { agentsDir, githubHomepage } from './const';
+import { writeJSON } from './utils';
 
 const GENERATE_LABEL = '🤖 Agent PR';
 const SUCCESS_LABEL = '✅ Auto Check Pass';

@@ -5,8 +5,8 @@ import { format } from 'prettier';
 import { remark } from 'remark';
 import pangu from 'remark-pangu';
 
-import { agentMetaSchema } from './agentMetaSchema.mjs';
-import { config, meta } from './const.mjs';
+import { agentMetaSchema } from './agentMetaSchema';
+import { config, meta } from './const';
 
 export const formatAndCheckSchema = (agent) => {
   if (!agent.schemaVersion) agent.schemaVersion = meta.schemaVersion;
@@ -18,16 +18,17 @@ export const formatAndCheckSchema = (agent) => {
     consola.success(`schema check pass`);
   } else {
     consola.error(`schema check fail`);
-    throw new Error(result.error);
+    throw new Error((result as any).error);
   }
   return agent;
 };
 
 export const formatPrompt = async (prompt, local) => {
-  return local === 'zh_CN'
+  return local === 'zh-CN'
     ? String(await remark().use(pangu).process(prompt))
     : String(await remark().process(prompt));
 };
+
 export const formatAgentJSON = async (agent) => {
   formatAndCheckSchema(agent);
   agent.config.systemRole = await formatPrompt(
