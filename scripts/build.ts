@@ -49,8 +49,15 @@ class Builder {
       writeJSONSync(resolve(publicDir, localeFileName), agent);
 
       // add agent meta to index
-      delete agent.config;
-      agentIndex.push(agent);
+
+      agentIndex.push({
+        author: agent.author,
+        createAt: agent.createAt,
+        homepage: agent.homepage,
+        identifier: agent.identifier,
+        meta: agent.meta,
+        schemaVersion: agent.schemaVersion,
+      });
     }
 
     return agentIndex.sort(
