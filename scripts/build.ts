@@ -3,10 +3,11 @@ import { readJSONSync, writeJSONSync } from 'fs-extra';
 import { merge } from 'lodash-es';
 import { Dirent, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { zodToJsonSchema } from 'zod-to-json-schema';
 
 import { Parser } from './Parser';
-import { agents, config, localesDir, meta, publicDir } from './const';
-import { LobeAgent } from './schema/agentMeta';
+import { agents, config, localesDir, meta, publicDir, schemasDir } from './const';
+import { LobeAgent, lobeAgentSchema } from './schema/agentMeta';
 import { checkDir, checkJSON, getLocaleAgentFileName } from './utils';
 
 class Builder {
@@ -21,7 +22,7 @@ class Builder {
    * build single locale agents
    * @param locale
    */
-  buildSingleLocaleAgents = (locale: string) => {
+  private buildSingleLocaleAgents = (locale: string) => {
     const agentIndex: LobeAgent[] = [];
     for (const file of this.agents) {
       // if file is not json ,skip it
@@ -59,6 +60,23 @@ class Builder {
   };
 
   run = async () => {
+    this.buildSchema();
+    await this.buildFullLocaleAgents();
+  };
+
+  buildSchema = () => {
+    consola.start(`build agent schema`);
+    checkDir(schemasDir);
+    checkDir(resolve(publicDir, 'schema'));
+
+    const schema = zodToJsonSchema(lobeAgentSchema);
+    const fileName = `lobeAgentSchema_v${meta.schemaVersion}.json`;
+    writeJSONSync(resolve(schemasDir, fileName), schema);
+    writeJSONSync(resolve(publicDir, 'schema', fileName), schema);
+    consola.success(`build success`);
+  };
+
+  buildFullLocaleAgents = async () => {
     for (const locale of config.outputLocales) {
       consola.start(`build ${locale}`);
 

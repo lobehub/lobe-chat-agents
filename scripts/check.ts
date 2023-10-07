@@ -6,13 +6,13 @@ import { remark } from 'remark';
 import pangu from 'remark-pangu';
 
 import { config, meta } from './const';
-import { LobeAgent, agentMetaSchema } from './schema/agentMeta';
+import { LobeAgent, lobeAgentSchema } from './schema/agentMeta';
 
 export const formatAndCheckSchema = (agent) => {
   if (!agent.schemaVersion) agent.schemaVersion = meta.schemaVersion;
   if (!agent.createAt) agent.createAt = dayjs().format('YYYY-MM-DD');
 
-  const result = agentMetaSchema.safeParse(agent);
+  const result = lobeAgentSchema.safeParse(agent);
 
   if (result.success) {
     consola.success(`schema check pass`);

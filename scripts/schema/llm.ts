@@ -12,7 +12,7 @@ export const lLMMessageSchema = z.object({
   role: lLMRoleTypeSchema,
 });
 
-export const lLMFewShotsSchema = z.array(lLMMessageSchema);
+export const lLMChatsSchema = z.array(lLMMessageSchema);
 
 export const lLMParamsSchema = z.object({
   frequency_penalty: z.number().optional().default(0),

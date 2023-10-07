@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { lLMFewShotsSchema, lLMParamsSchema } from './llm';
+import { lLMChatsSchema, lLMParamsSchema } from './llm';
 
 export const metaDataSchema = z.object({
   avatar: z.string(),
@@ -16,7 +16,7 @@ const lobeAgentConfigSchema = z.object({
   enableCompressThreshold: z.boolean().optional(),
   enableHistoryCount: z.boolean().optional(),
   enableMaxTokens: z.boolean().optional(),
-  fewShots: lLMFewShotsSchema.optional(),
+  fewShots: lLMChatsSchema.optional(),
   historyCount: z.number().optional(),
   inputTemplate: z.string().optional(),
   model: z.string().default('gpt-3.5-turbo').optional(),
@@ -27,14 +27,15 @@ const lobeAgentConfigSchema = z.object({
 
 export type LobeAgentConfig = z.infer<typeof lobeAgentConfigSchema>;
 
-export const agentMetaSchema = z.object({
+export const lobeAgentSchema = z.object({
   author: z.string(),
   config: lobeAgentConfigSchema,
   createAt: z.string(),
+  examples: lLMChatsSchema.optional(),
   homepage: z.string(),
   identifier: z.string(),
   meta: metaDataSchema,
   schemaVersion: z.number(),
 });
 
-export type LobeAgent = z.infer<typeof agentMetaSchema>;
+export type LobeAgent = z.infer<typeof lobeAgentSchema>;
