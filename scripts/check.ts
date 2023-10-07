@@ -5,7 +5,7 @@ import { format } from 'prettier';
 import { remark } from 'remark';
 import pangu from 'remark-pangu';
 
-import { agentMetaSchema } from './agentMetaSchema';
+import { agentMetaSchema } from './schema/agentMeta';
 import { config, meta } from './const';
 
 export const formatAndCheckSchema = (agent) => {

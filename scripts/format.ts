@@ -63,4 +63,5 @@ class Formatter {
 }
 
 split('FORMAT JSON CONTENT');
+
 await new Formatter().run();

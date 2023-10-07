@@ -1,7 +1,7 @@
 import { readJSONSync } from 'fs-extra';
 import { resolve } from 'node:path';
 
-import { LobeAgent } from './agentMetaSchema';
+import { LobeAgent } from './schema/agentMeta';
 import { agentsDir } from './const';
 
 export class Parser {
