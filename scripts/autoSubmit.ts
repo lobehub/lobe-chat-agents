@@ -117,7 +117,7 @@ class AutoSubmit {
     consola.info('Generate i18n file');
 
     // prettier
-    execSync(`echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.js`);
+    execSync(`echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.cjs`);
     execSync('bun run prettier');
     consola.info('Prettier');
 
