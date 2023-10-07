@@ -1,7 +1,7 @@
 import { consola } from 'consola';
 import { readJSONSync, writeJSONSync } from 'fs-extra';
 import { merge } from 'lodash-es';
-import { Dirent } from 'node:fs';
+import { Dirent, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { Parser } from './Parser';
@@ -35,8 +35,12 @@ class Builder {
       if (defaultLocale === locale) {
         agent = content;
       } else {
+        // if locale agent is not exist, skip it
+        const filePath = resolve(localesDir, localeFileName);
+        if (!existsSync(filePath)) continue;
+
         // merge default agent with data
-        const data = readJSONSync(resolve(localesDir, localeFileName));
+        const data = readJSONSync(filePath);
         agent = merge({}, content, data);
       }
 
