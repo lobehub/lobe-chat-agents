@@ -87,6 +87,29 @@
 
 </div>
 
+## ⌨️ 本地开发
+
+可以使用 GitHub Codespaces 进行在线开发：
+
+[![][codespaces-shield]][codespaces-link]
+
+或者使用以下命令进行本地开发：
+
+[![][bun-shield]][bun-link]
+
+```bash
+$ git clone https://github.com/lobehub/lobe-chat-agents.git
+$ cd lobe-chat-agents
+$ bun install
+```
+
+如果需要在本地运行 `format` 脚本，需要配置相应的环境变量：
+
+| 环境变量           | 类型 | 示例                 |
+| ------------------ | ---- | -------------------- |
+| `OPENAI_API_KEY`   | 必选 | `sk-xxxxxx...xxxxxx` |
+| `OPENAI_PROXY_URL` | 可选 | `-`                  |
+
 ## 🤝 参与贡献
 
 我们非常欢迎各种形式的贡献。如果你对贡献助手感兴趣，可以大展身手，向我们展示你的奇思妙想。
@@ -122,6 +145,8 @@ This project is [MIT](./LICENSE) licensed.
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
+[bun-link]: https://bun.sh
+[bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
 [deploy-shield]: https://vercel.com/button
 [deploy-url]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&project-name=lobe-chat-agents&repository-name=lobe-chat-agents
 [github-action-release-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
@@ -130,6 +155,8 @@ This project is [MIT](./LICENSE) licensed.
 [github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat-agents/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
 [github-contrib-link]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
 [github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Flobe-chat-agents
+[codespaces-link]: https://codespaces.new/lobehub/lobe-chat-agents
+[codespaces-shield]: https://github.com/codespaces/badge.svg
 [github-contributors-link]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
 [github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-chat-agents?color=c4f042&labelColor=black&style=flat-square
 [github-forks-link]: https://github.com/lobehub/lobe-chat-agents/network/members

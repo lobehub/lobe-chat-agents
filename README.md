@@ -87,6 +87,29 @@ Click button below to deploy your private agents index.
 
 </div>
 
+## ⌨️ Local Development
+
+You can use GitHub Codespaces for online development:
+
+[![][codespaces-shield]][codespaces-link]
+
+Alternatively, you can use the following command for local development:
+
+[![][bun-shield]][bun-link]
+
+```bash
+$ git clone https://github.com/lobehub/lobe-chat-agents.git
+$ cd lobe-chat-agents
+$ bun install
+```
+
+If you need to run the `format` script locally, you need to configure the corresponding environment variables:
+
+| Environment Variable | Type     | Example              |
+| -------------------- | -------- | -------------------- |
+| `OPENAI_API_KEY`     | Required | `sk-xxxxxx...xxxxxx` |
+| `OPENAI_PROXY_URL`   | Optional | `-`                  |
+
 ## 🤝 Contributing
 
 Contributions of all types are more than welcome, if you are interested in contributing agent, feel free to show us what you’re made of.
@@ -143,3 +166,7 @@ This project is [MIT](./LICENSE) licensed.
 [submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
 [website-shield]: https://img.shields.io/website?down_message=offline&label=chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&labelColor=black&logo=vercel&style=flat-square
 [website-url]: https://chat-agents.lobehub.com
+[bun-link]: https://bun.sh
+[bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
+[codespaces-link]: https://codespaces.new/lobehub/lobe-chat-agents
+[codespaces-shield]: https://github.com/codespaces/badge.svg
