@@ -5,7 +5,7 @@ import { agentsDir } from './const';
 import { LobeAgent } from './schema/agentMeta';
 
 export const Parser = {
-  parseFile : (fileName: string) => {
+  parseFile: (fileName: string) => {
     // <id>.<locale>  test: https://regex101.com/r/t744SN/1
     const regexp = /^(?<id>[\w-]*)\.?(?<locale>.*)?$/;
 
