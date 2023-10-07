@@ -6,6 +6,16 @@
     "historyCount": 1
   },
   "createAt": "2023-09-01",
+  "examples": [
+    {
+      "content": "```\nexport interface SettingsAction {\n  resetSettings: () => void;\n  setGlobalSettings: (settings: GlobalSettingsState) => void;\n  setSettings: (settings: Partial<ConfigSettings>) => void;\n  setThemeMode: (themeMode: ThemeMode) => void;\n  switchSideBar: (key: SidebarTabKey) => void;\n}\n```",
+      "role": "user"
+    },
+    {
+      "content": "```ts\n/**\n * 设置操作\n */\nexport interface SettingsAction {\n  /**\n   * 重置设置\n   */\n  resetSettings: () => void;\n  /**\n   * 设置全局设置\n   * @param settings - 全局设置\n   */\n  setGlobalSettings: (settings: GlobalSettingsState) => void;\n  /**\n   * 设置部分配置设置\n   * @param settings - 部分配置设置\n   */\n  setSettings: (settings: Partial<ConfigSettings>) => void;\n  /**\n   * 设置主题模式\n   * @param themeMode - 主题模式\n   */\n  setThemeMode: (themeMode: ThemeMode) => void;\n  /**\n   * 切换侧边栏选项\n   * @param key - 选中的侧边栏选项\n   */\n  switchSideBar: (key: SidebarTabKey) => void;\n}\n```",
+      "role": "assistant"
+    }
+  ],
   "homepage": "https://github.com/arvinxx",
   "identifier": "typescript-jsdoc",
   "meta": {
