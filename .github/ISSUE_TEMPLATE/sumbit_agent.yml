@@ -1,7 +1,7 @@
 name: '🤖 提交助手 | Submit Agent'
 description: '提交助手设定 | Submit an agent setting'
 title: '[Agent] 你的助名称 | Replace it with your agent name'
-labels: '🤖 Agent PR'
+labels: ['🤖 Agent PR']
 body:
   - type: textarea
     attributes:
@@ -14,7 +14,7 @@ body:
   - type: input
     attributes:
       label: 'identifier'
-      description: | 
+      description: |
         助手的标识符需要是唯一的，比如 `web-development`
         Agent identifier should be unique and written in English, Ex: `web-development`
     validations:
@@ -46,7 +46,7 @@ body:
   - type: input
     attributes:
       label: 'tags'
-      description: | 
+      description: |
         助手的分类 Tags 使用 `,` 进行分割
         Agent tags split by `,`
     validations:

@@ -1,0 +1,51 @@
+name: '🤖 提交助手'
+description: '提交助手设定'
+title: '[Agent] 你的助名称'
+labels: ['🤖 Agent PR']
+body:
+  - type: textarea
+    attributes:
+      label: 'systemRole'
+      description: 助手的 `Prompt` 提示词, 如果需要使用进阶配置，请参考 README 提 PR 流程
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 'identifier'
+      description: 助手的标识符需要是唯一的，比如 `web-development`
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 'avatar'
+      description: 助手的头像可以是表情符号 `🤯` 或者图片链接
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 'title'
+      description: 助手的名称
+
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 'description'
+      description: 助手的一句话简短介绍
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 'tags'
+      description: 助手的分类 Tags 使用 `,` 进行分割
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: 'locale'
+      options:
+        - zh-CN
+        - en-US
+      description: 以上提交的语言分类，默认为中文 `zh-CN`
+    validations:
+      required: true
