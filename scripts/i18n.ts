@@ -5,13 +5,7 @@ import { HumanMessage, SystemMessage } from 'langchain/schema';
 
 import { config } from './const';
 
-const model = new ChatOpenAI(
-  {
-    openAIApiKey: 'sk-MvphtQT9kVkMQGygPpC9QSgGLXWoVIuhglKOtLlGw8m6Xjfo',
-    temperature: 0,
-  },
-  { baseURL: 'https://api.chatanywhere.com.cn' },
-);
+const model = new ChatOpenAI({ temperature: 0 }, { baseURL: process.env.OPENAI_PROXY_URL });
 
 export const translateJSON = async (json, outputLocale, entryLocale = config.entryLocale) => {
   consola.info(`i18n generating...`);

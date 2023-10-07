@@ -24,7 +24,7 @@ jobs:
       - name: Format
         run: bun run format
         env:
-          OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
       - name: Prettier
         run: |
