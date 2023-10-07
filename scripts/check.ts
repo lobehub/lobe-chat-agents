@@ -5,8 +5,8 @@ import { format } from 'prettier';
 import { remark } from 'remark';
 import pangu from 'remark-pangu';
 
-import { agentMetaSchema } from './schema/agentMeta';
 import { config, meta } from './const';
+import { LobeAgent, agentMetaSchema } from './schema/agentMeta';
 
 export const formatAndCheckSchema = (agent) => {
   if (!agent.schemaVersion) agent.schemaVersion = meta.schemaVersion;
@@ -23,18 +23,15 @@ export const formatAndCheckSchema = (agent) => {
   return agent;
 };
 
-export const formatPrompt = async (prompt, local) => {
-  return local === 'zh-CN'
+export const formatPrompt = async (prompt: string, locale: string) => {
+  return locale === 'zh-CN'
     ? String(await remark().use(pangu).process(prompt))
     : String(await remark().process(prompt));
 };
 
-export const formatAgentJSON = async (agent) => {
+export const formatAgentJSON = async (agent: LobeAgent, locale: string = config.entryLocale) => {
   formatAndCheckSchema(agent);
-  agent.config.systemRole = await formatPrompt(
-    agent.config.systemRole,
-    agent?.locale || config.entryLocale,
-  );
+  agent.config.systemRole = await formatPrompt(agent.config.systemRole, locale);
 
   agent.config.systemRole = await format(agent.config.systemRole, { parser: 'markdown' });
   agent.identifier = kebabCase(agent.identifier);

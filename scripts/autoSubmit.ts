@@ -8,7 +8,7 @@ import { resolve } from 'node:path';
 
 import { formatAgentJSON } from './check';
 import { agentsDir, githubHomepage } from './const';
-import { writeJSON } from './utils';
+import { getLocaleAgentFileName, writeJSON } from './utils';
 
 const GENERATE_LABEL = '🤖 Agent PR';
 const SUCCESS_LABEL = '✅ Auto Check Pass';
@@ -17,7 +17,8 @@ const ERROR_LABEL = '🚨 Auto Check Fail';
 class AutoSubmit {
   owner = 'lobehub';
   repo = 'lobe-chat-agents';
-  issueNumber = process.env.ISSUE_NUMBER;
+  issueNumber = Number(process.env.ISSUE_NUMBER);
+  private octokit: Octokit;
 
   constructor() {
     this.octokit = new Octokit({ auth: `token ${process.env.GH_TOKEN}` });
@@ -50,10 +51,11 @@ class AutoSubmit {
     if (!issue) return;
     consola.info(`Get issues #${this.issueNumber}`);
 
-    const agent = await this.formatIssue(issue);
+    const { agent, locale } = await this.formatIssue(issue);
     const comment = this.genCommentMessage(agent);
     const agentName = agent.identifier;
-    const fileName = agentName + '.json';
+
+    const fileName = getLocaleAgentFileName(agentName, locale);
     const filePath = resolve(agentsDir, fileName);
 
     // check same name
@@ -172,7 +174,7 @@ class AutoSubmit {
     const { owner, repo, octokit, issueNumber } = this;
     const issue = await this.getIssue();
 
-    const baseLabels = issue.labels.map(({ name }) => name);
+    const baseLabels = issue.labels.map((l) => (typeof l === 'string' ? l : l.name));
     const removeLabels = baseLabels.filter((name) => name === label);
 
     for (const label of removeLabels) {
@@ -219,13 +221,14 @@ class AutoSubmit {
       json[currentKey] = currentValue.trim();
     }
 
+    // @ts-ignore
     json.tags = json.tags.replaceAll('，', ',').replaceAll(', ', ',').split(',');
 
     return json;
   }
 
   async formatIssue(data) {
-    const json = this.markdownToJson(data.body);
+    const json = this.markdownToJson(data.body) as any;
     const agent = {
       author: data.user.login,
       config: {
@@ -233,7 +236,6 @@ class AutoSubmit {
       },
       homepage: data.user.html_url,
       identifier: kebabCase(json.identifier),
-      locale: json.locale,
       meta: {
         avatar: json.avatar,
         description: json.description,
@@ -242,7 +244,8 @@ class AutoSubmit {
       },
     };
 
-    return await formatAgentJSON(agent);
+    const locale: string = json.locale;
+    return { agent: await formatAgentJSON(agent, locale), locale };
   }
 }
 

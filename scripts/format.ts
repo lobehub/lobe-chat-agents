@@ -15,7 +15,7 @@ class Formatter {
 
     let { content: agent, id, locale: defaultLocale } = Parser.parseFile(fileName);
 
-    agent = await formatAgentJSON(agent);
+    agent = await formatAgentJSON(agent, defaultLocale);
 
     // i18n workflow
     let rawData = {};
