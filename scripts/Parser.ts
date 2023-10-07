@@ -1,11 +1,11 @@
 import { readJSONSync } from 'fs-extra';
 import { resolve } from 'node:path';
 
-import { LobeAgent } from './schema/agentMeta';
 import { agentsDir } from './const';
+import { LobeAgent } from './schema/agentMeta';
 
-export class Parser {
-  static parseFile = (fileName: string) => {
+export const Parser = {
+  parseFile : (fileName: string) => {
     // <id>.<locale>  test: https://regex101.com/r/t744SN/1
     const regexp = /^(?<id>[\w-]*)\.?(?<locale>.*)?$/;
 
@@ -17,5 +17,5 @@ export class Parser {
     let agent: LobeAgent = readJSONSync(filePath);
 
     return { content: agent, id, locale };
-  };
-}
+  },
+};

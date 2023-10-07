@@ -28,7 +28,7 @@ jobs:
 
       - name: Prettier
         run: |
-          echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.js
+          echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.cjs
           bun run prettier
 
       - name: Commit changes

@@ -55,6 +55,7 @@ export const checkUniqueIdentifier = (arr) => {
 
   if (duplicates.length > 0) {
     consola.error('Duplicates identifier:', JSON.stringify(duplicates));
+    // eslint-disable-next-line unicorn/no-process-exit
     process.exit(1);
   } else {
     consola.success('Unique identifier check pass');

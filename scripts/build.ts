@@ -5,8 +5,8 @@ import { Dirent } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { Parser } from './Parser';
-import { LobeAgent } from './schema/agentMeta';
 import { agents, config, localesDir, meta, publicDir } from './const';
+import { LobeAgent } from './schema/agentMeta';
 import { checkDir, checkJSON, getLocaleAgentFileName } from './utils';
 
 class Builder {
