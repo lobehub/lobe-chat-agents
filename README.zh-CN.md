@@ -1424,6 +1424,12 @@ $ bun install
 | `OPENAI_API_KEY`   | 必选 | `sk-xxxxxx...xxxxxx` |
 | `OPENAI_PROXY_URL` | 可选 | `-`                  |
 
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
 ## 🤝 参与贡献
 
 我们非常欢迎各种形式的贡献。如果你对贡献助手感兴趣，可以大展身手，向我们展示你的奇思妙想。
