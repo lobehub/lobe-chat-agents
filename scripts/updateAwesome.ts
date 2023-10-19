@@ -17,10 +17,9 @@ const updateAwesome = (filePath: string, md: string, agents, locale?: string) =>
     const header = `### ${meta.title}`;
     const subHeader = `<sup>By **[@${author}](${homepage})** on **${createAt}**</sup>`;
     const desc = [
-      `> **Note**`,
-      `> ${meta.description}`,
-      `> ${meta.tags.filter(Boolean).map((tag) => `\`${tag}\` `)}`,
-    ].join('\n> \n');
+      `${meta.description}`,
+      `${meta.tags.filter(Boolean).map((tag) => `\`${tag}\``).join(' ')}`
+    ].join('\n\n');
     const content = ['```md', config.systemRole.replaceAll('`', '\\`'), '```'].join('\n');
     const body = [
       i !== 0 ? '---' : false,
