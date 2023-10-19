@@ -1,7 +1,8 @@
 import { consola } from 'consola';
 import { colors } from 'consola/utils';
 import { Dirent, existsSync, mkdirSync, writeFileSync } from 'node:fs';
-import { readmeSplit } from './const'
+
+import { readmeSplit } from './const';
 
 export const writeJSON = (filePath, data, format = true) => {
   const jsonStr = format ? JSON.stringify(data, null, 2) : JSON.stringify(data);
@@ -48,8 +49,8 @@ export const findDuplicates = (arr: string[]): string[] => {
 };
 
 export const updateAwesomeReadme = (md: string, prompts: string): string => {
-  const mds = md.split(readmeSplit)
-  mds[1] = [' ' , prompts, ' '].join('\n\n')
+  const mds = md.split(readmeSplit);
+  mds[1] = [' ', prompts, ' '].join('\n\n');
 
-  return mds.join(readmeSplit)
-}
+  return mds.join(readmeSplit);
+};
