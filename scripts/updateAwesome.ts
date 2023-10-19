@@ -13,9 +13,17 @@ const updateAwesome = (filePath: string, md: string, agents, locale?: string) =>
         const agentConfigPath = resolve(publicDir, [identifier,locale,'json'].filter(Boolean).join('.'))
         const { config, meta } = readJSONSync(agentConfigPath)
         const header = `### ${meta.title}`
-        const subHeader = `> By **[@${author}](${homepage})** on **${createAt}**`
+        const subHeader = `<sup>By **[@${author}](${homepage})** on **${createAt}**</sup>`
+        const desc = [`> **Note**`, `> ${meta.description}`,`> ${meta.tags.filter(Boolean).map(tag => `\`${tag}\` `)}` ].join('\n> \n')
         const content = ['```md', config.systemRole.replaceAll('`', '\\`'), '```'].join('\n')
-        const body = [i !== 0 ? '---' : false, header,subHeader,content, `<div align="right">\n\n[![][back-to-top]](#readme-top)\n\n</div>`].filter(Boolean).join('\n\n')
+        const body = [
+            i !== 0 ? '---' : false, 
+            header,
+            subHeader,
+            desc,
+            content, 
+            `<div align="right">\n\n[![][back-to-top]](#readme-top)\n\n</div>`
+        ].filter(Boolean).join('\n\n')
         data.push(body)
     })
 

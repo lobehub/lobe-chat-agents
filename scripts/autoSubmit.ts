@@ -222,7 +222,7 @@ class AutoSubmit {
     }
 
     // @ts-ignore
-    json.tags = json.tags.replaceAll('，', ',').replaceAll(', ', ',').split(',');
+    json.tags = json.tags.replaceAll('，', ',').replaceAll(', ', ',').split(',').filter(Boolean);
 
     return json;
   }
