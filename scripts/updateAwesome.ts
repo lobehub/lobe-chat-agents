@@ -18,7 +18,10 @@ const updateAwesome = (filePath: string, md: string, agents, locale?: string) =>
     const subHeader = `<sup>By **[@${author}](${homepage})** on **${createAt}**</sup>`;
     const desc = [
       `${meta.description}`,
-      `${meta.tags.filter(Boolean).map((tag) => `\`${tag}\``).join(' ')}`
+      `${meta.tags
+        .filter(Boolean)
+        .map((tag) => `\`${tag}\``)
+        .join(' ')}`,
     ].join('\n\n');
     const content = ['```md', config.systemRole.replaceAll('`', '\\`'), '```'].join('\n');
     const body = [
