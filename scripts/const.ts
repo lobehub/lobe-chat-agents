@@ -19,16 +19,12 @@ export const templatePath = resolve(root, 'agent-template.json');
 export const templateFullPath = resolve(root, 'agent-template-full.json');
 
 export const indexPath = resolve(publicDir, 'index.json')
-export const index = readJSONSync(indexPath);
 
 export const indexCnPath = resolve(publicDir, 'index.zh-CN.json')
-export const indexCn = readJSONSync(indexCnPath);
 
 export const readmePath = resolve(root, 'README.md')
-export const readme = readFileSync(readmePath, 'utf-8');
 
 export const readmeCnPath = resolve(root, 'README.zh-CN.md')
-export const readmeCn = readFileSync(readmeCnPath, 'utf-8');
 
 export const metaPath = resolve(root, 'meta.json');
 export const meta = readJSONSync(metaPath);

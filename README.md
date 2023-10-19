@@ -90,6 +90,8 @@ Please play the role of a copywriter and help me name some designs/artworks. The
 
 </div>
 
+---
+
 ### Xiaohongshu Style Copywriter
 
 > By **[@guowc3456](https://github.com/guowc3456)** on **2023-10-11**
@@ -104,6 +106,8 @@ You are a Xiaohongshu blogger, and your task is to generate Xiaohongshu-style co
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### GPT Agent Prompt Optimization Expert
 
@@ -133,6 +137,8 @@ A typical structured prompt is as follows:
 
 </div>
 
+---
+
 ### English News Translation Expert
 
 > By **[@宝玉](https://twitter.com/dotey)** on **2023-10-07**
@@ -159,6 +165,8 @@ I will send you the complete content of the next message. Please print the two t
 
 </div>
 
+---
+
 ### C++ Code
 
 > By **[@dcityteg](https://github.com/dcityteg)** on **2023-10-06**
@@ -173,6 +181,8 @@ Please complete the C++ question provided by the user in the following responses
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### TS Type Definition Completion
 
@@ -235,6 +245,8 @@ Next, the user will enter a string of interface code, and you need to complete t
 
 </div>
 
+---
+
 ### LOGO Creative Master
 
 > By **[@yingxirz](https://github.com/yingxirz)** on **2023-09-29**
@@ -249,6 +261,8 @@ Please play the role of a brand creative master, providing guidance and suggesti
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### Interface Type Request Generator
 
@@ -280,6 +294,8 @@ export const methodApiDescApi = (params: IApiDescParams) => {
 
 </div>
 
+---
+
 ### Name Master
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-11**
@@ -295,6 +311,8 @@ You are a naming expert. The names need to have a certain sense of technology an
 
 </div>
 
+---
+
 ### Title Expansion Expert
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**
@@ -309,6 +327,8 @@ You are a UX Writer skilled in title expansion. Users will input a title, and yo
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### Frontend TypeScript Unit Testing Expert
 
@@ -460,6 +480,8 @@ export const messagesReducer = (
 
 </div>
 
+---
+
 ### Dva Refactor Zustand Expert
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**
@@ -536,6 +558,8 @@ export const useDSList = create<DSListStore>((set, get) => ({
 
 </div>
 
+---
+
 ### Information Organizer
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**
@@ -553,6 +577,8 @@ After gathering a certain amount of information, you will provide a summary. All
 
 </div>
 
+---
+
 ### Web Content Summarization Expert
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**
@@ -567,6 +593,8 @@ The user will enter a URL, and you need to summarize the content of that URL in 
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### Master of Expressing Abstract Concepts
 
@@ -600,6 +628,8 @@ Blueprint, Template, Toolbox, Book, Palette
 
 </div>
 
+---
+
 ### Front-end Development Architect
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**
@@ -615,6 +645,8 @@ You are a front-end architect, skilled in thinking about how to implement relate
 
 </div>
 
+---
+
 ### JS to TS Expert
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**
@@ -629,6 +661,8 @@ You are a frontend expert. Please convert the code below to TS without modifying
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### Zustand Reducer Expert
 
@@ -778,6 +812,8 @@ No usage example is required.
 
 </div>
 
+---
+
 ### Convert React Class Components to Functional Components
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**
@@ -792,6 +828,8 @@ You are a frontend expert, specializing in refactoring React Class components to
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### UX Writer
 
@@ -814,6 +852,8 @@ Output: Sorry, your requests are too many, the server is a bit tired, please try
 
 </div>
 
+---
+
 ### UX Writer
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**
@@ -834,6 +874,8 @@ Output: Easily manage icon resources, upload locally or import from iconfont, an
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### API Documentation Expert
 
@@ -907,6 +949,8 @@ export default Demo;
 
 </div>
 
+---
+
 ### Deep Think
 
 > By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-08**
@@ -930,6 +974,8 @@ Please revise your responses using the following format:
 
 </div>
 
+---
+
 ### Markdown Product Feature Formatting Expert
 
 > By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-08**
@@ -951,6 +997,8 @@ Please format the input text features as follows:
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### Coding Wizard
 
@@ -987,6 +1035,8 @@ Let's begin! Please provide any extra information necessary for my understanding
 
 </div>
 
+---
+
 ### Agent Prompt Improver
 
 > By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**
@@ -1002,6 +1052,8 @@ Expert in GPT Agent Prompt optimization, please revise the following prompt. It 
 
 </div>
 
+---
+
 ### Business Email
 
 > By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**
@@ -1016,6 +1068,8 @@ As a business email writing expert, the user will provide recipient and other re
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### Character Roleplay
 
@@ -1049,6 +1103,8 @@ Your aim is to create a realistic and compelling portrayal of the character usin
 
 </div>
 
+---
+
 ### Startup Plan
 
 > By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**
@@ -1064,6 +1120,8 @@ Create digital startup concepts reflecting public desires. For instance, if I sa
 
 </div>
 
+---
+
 ### Grammar Corrector
 
 > By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**
@@ -1078,6 +1136,8 @@ As a grammar-checking AI, your task is to correct user inputs to ensure grammati
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### Essay Improver
 
@@ -1096,6 +1156,8 @@ Begin with clear, accurate instructions. Include precise details about the conte
 
 </div>
 
+---
+
 ### Web Development
 
 > By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**
@@ -1111,6 +1173,8 @@ As a full-stack web developer, your role involves designing, developing, and mai
 
 </div>
 
+---
+
 ### Resume Editing
 
 > By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**
@@ -1125,6 +1189,8 @@ As a resume editor, reviewing my current resume for errors or improvements. Iden
 [![][back-to-top]](#readme-top)
 
 </div>
+
+---
 
 ### Stable Diffusion Prompt Expert
 
@@ -1181,12 +1247,6 @@ Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and whi
 </div>
 
  <!-- AWESOME PROMPTS -->
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
 
 ## 🛳 Self Hosting
 
