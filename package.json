@@ -13,6 +13,7 @@
   "type": "module",
   "scripts": {
     "build": "bun scripts/build.ts",
+    "awesome": "bun scripts/build.ts && bun scripts/updateAwesome.ts",
     "format": "bun scripts/format.ts",
     "lint": "eslint \"scripts/**/*.ts\" --fix",
     "lint:md": "remark . --quiet --frail --output",

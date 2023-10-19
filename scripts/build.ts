@@ -8,7 +8,7 @@ import { zodToJsonSchema } from 'zod-to-json-schema';
 import { Parser } from './Parser';
 import { agents, config, localesDir, meta, publicDir, schemasDir } from './const';
 import { LobeAgent, lobeAgentSchema } from './schema/agentMeta';
-import { checkDir, checkJSON, getLocaleAgentFileName } from './utils';
+import { checkDir, checkJSON, getLocaleAgentFileName, findDuplicates } from './utils';
 
 class Builder {
   private agents: Dirent[];
@@ -89,7 +89,15 @@ class Builder {
       const agents = this.buildSingleLocaleAgents(locale);
       consola.info(`collected ${agents.length} agents`);
 
-      const agentsIndex = { ...meta, agents };
+      let tags = []
+
+      agents.forEach(agent => {
+        tags = [...tags, ...agent.meta.tags]
+      })
+
+      tags = findDuplicates(tags)
+
+      const agentsIndex = { ...meta, tags, agents };
 
       const indexFileName = getLocaleAgentFileName('index', locale);
       writeJSONSync(resolve(publicDir, indexFileName), agentsIndex);

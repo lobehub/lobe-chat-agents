@@ -26,6 +26,9 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
+      - name: Awesome
+        run: bun run awesome
+
       - name: Prettier
         run: |
           echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.cjs
