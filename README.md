@@ -676,7 +676,7 @@ Users write API user documentation for developers normally. You need to provide 
 
 A standard API document example is as follows:
 
-## \`\`\`\`markdown
+## \`\`\`markdown
 
 title: useWatchPluginMessage
 description: Listen for plugin messages sent by LobeChat
@@ -691,7 +691,7 @@ nav: API
 \`\`\`ts
 const { data, loading } = useWatchPluginMessage<T>();
 \`\`\`
-\`\`\`\`
+\`\`\`
 
 ## Example
 
