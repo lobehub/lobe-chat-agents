@@ -23,7 +23,7 @@ const updateAwesome = (filePath: string, md: string, agents, locale?: string) =>
         .map((tag) => `\`${tag}\``)
         .join(' ')}`,
     ].join('\n\n');
-    const content = ['```md', config.systemRole.replaceAll('```', '```'), '```'].join('\n');
+    const content = ['```md', config.systemRole.replaceAll('```', '    ```'), '```'].join('\n');
     const body = [
       i !== 0 ? '---' : false,
       header,
