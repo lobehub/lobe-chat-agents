@@ -196,7 +196,7 @@ GPT Agent Prompt 优化专家，优化用户提供的 Prompt 提示词，使其�
 
 一个典型的结构化的提示词如下：
 
-    ```markdown
+\```markdown
 
 # Role: 诗人
 
@@ -206,9 +206,7 @@ GPT Agent Prompt 优化专家，优化用户提供的 Prompt 提示词，使其�
 - Version: 0.1
 - Language: 中文
 - Description: 诗人是创作诗歌的艺术家，擅长通过诗歌来表达情感、描绘景象、讲述故事，具有丰富的想象力和对文字的独特驾驭能力。诗人创作的作品可以是纪事性的，描述人物或故事，如荷马的史诗；也可以是比喻性的，隐含多种解读的可能，如但丁的《神曲》、歌德的《浮士德》。
-  ```
-
-  ```
+  \```
 ````
 
 <div align="right">
@@ -250,8 +248,7 @@ GPT Agent Prompt 优化专家，优化用户提供的 Prompt 提示词，使其�
 ````md
 你是一名专业的前端。擅长书写 Typescript JSDoc 代码，代码的示例如下：
 
-    ```ts
-
+\```ts
 interface Props {
 /\*\*
 
@@ -294,9 +291,7 @@ interface Props {
   \*/
   shape?: "square" | "circle";
   }
-
-
-    ```
+  \```
 
 接下来用户会输入一串 interface 代码，需要你补全 jsdoc。其中接口的类型不可改变
 ````
@@ -340,8 +335,7 @@ interface Props {
 ````md
 每一个 interface 命名都必须以 I 开头，响应类型只生成 data，不生成 code、msg 等字段
 
-    ```ts
-
+\```ts
 import request from "@/utils/request";
 /** 接口描述-参数 \*/
 export interface IApiDescParams {
@@ -354,7 +348,7 @@ export interface IApiDescData {}
 export const methodApiDescApi = (params: IApiDescParams) => {
 return request.get<IApiDescData>("/xxx", params);
 };
-```
+\```
 ````
 
 <div align="right">
@@ -398,8 +392,7 @@ return request.get<IApiDescData>("/xxx", params);
 
 示例如下：
 
-    ```ts
-
+\```ts
 import { produce } from 'immer';
 
 import { ChatMessage, ChatMessageMap } from '@/types/chatMessage';
@@ -527,7 +520,7 @@ const mid = payload.id || nanoid();
 
 }
 };
-```
+\```
 
 不需要给出使用示例。
 ````
@@ -683,9 +676,7 @@ Github README 专家，你写出来的文档结构非常工整，且专业名词
 
 一个标准的 API 文档示例如下：
 
-    ```markdown
-
----
+## \```markdown
 
 title: useWatchPluginMessage
 description: 监听获取 LobeChat 发过来的插件消息
@@ -697,15 +688,13 @@ nav: API
 
 ## 语法
 
-    ```ts
-
+\```ts
 const { data, loading } = useWatchPluginMessage<T>();
-```
+\```
 
 ## 示例
 
-    ```tsx | pure
-
+\```tsx | pure
 import { useWatchPluginMessage } from '@lobehub/chat-plugin-sdk';
 
 const Demo = () => {
@@ -724,7 +713,7 @@ return (
 };
 
 export default Demo;
-```
+\```
 
 ## 注意事项
 
@@ -737,7 +726,7 @@ export default Demo;
 | `data`    | `T`       | 插件发送的消息数据   |
 | `loading` | `boolean` | 表示是否正在加载数据 |
 
-    ```
+\```
 ````
 
 <div align="right">
@@ -844,7 +833,7 @@ export default Demo;
 
 用户接下来会输入一段 dva 的状态管理代码，你需要将这些代码改写为 zustand 的代码。zustand 的代码示例如下：
 
-    ```ts
+\```ts
 
 interface DSListState {
 loading: boolean;
@@ -902,7 +891,7 @@ mutateSWR('/remote/ds-list');
 },
 }));
 
-    ```
+\```
 ````
 
 <div align="right">
@@ -1053,7 +1042,7 @@ const mid = payload.id || nanoid();
 
 }
 };
-```
+\```
 
 不需要给出使用示例。
 ````
@@ -1377,17 +1366,15 @@ GPT Agent Prompt 优化专家，优化用户提供的 Prompt 提示词，使其�
 
 **Positive Prompt**
 
-    ```text
-
+\```text
 A WWII-era nurse in a German uniform, holding a wine bottle and stethoscope, sitting at a table in white attire, with a table in the background, masterpiece, best quality, 4k, illustration style, best lighting, depth of field, detailed character, detailed environment.
-```
+\```
 
 **Negetive Prompt**
 
-    ```text
-
+\```text
 Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and white, weird colors, blurry, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, ugly, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, out of frame, ugly, extra limbs, bad anatomy, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, mutated hands, fused fingers, too many fingers, long neck, Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eyed, body out of frame, blurry, bad art, bad anatomy, 3D render
-```
+\```
 ````
 
 <div align="right">

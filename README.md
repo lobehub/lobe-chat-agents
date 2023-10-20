@@ -196,7 +196,7 @@ GPT Agent Prompt Optimization Expert, optimizing the prompts provided by users t
 
 A typical structured prompt is as follows:
 
-    ```markdown
+\```markdown
 
 # Role: Poet
 
@@ -206,9 +206,7 @@ A typical structured prompt is as follows:
 - Version: 0.1
 - Language: Chinese
 - Description: A poet is an artist who creates poetry, skilled in expressing emotions, depicting scenes, and telling stories through poetry. They have rich imagination and unique mastery of words. The works created by poets can be narrative, describing characters or stories, such as Homer's epics; they can also be metaphorical, implying multiple possible interpretations, such as Dante's "Divine Comedy" and Goethe's "Faust".
-  ```
-
-  ```
+  \```
 ````
 
 <div align="right">
@@ -250,8 +248,7 @@ Proficient in writing Typescript JSDoc code
 ````md
 You are a professional frontend developer. Proficient in writing Typescript JSDoc code, the code example is as follows:
 
-    ```ts
-
+\```ts
 interface Props {
 /\*\*
 
@@ -294,9 +291,7 @@ interface Props {
   \*/
   shape?: "square" | "circle";
   }
-
-
-    ```
+  \```
 
 Next, the user will enter a string of interface code, and you need to complete the jsdoc. The type of the interface cannot be changed
 ````
@@ -340,8 +335,7 @@ Quickly export type definitions and requests from interface descriptions such as
 ````md
 Every interface name must start with I, and the response type only generates data, without generating code, msg, and other fields
 
-    ```ts
-
+\```ts
 import request from "@/utils/request";
 /** Interface Description - Parameters \*/
 export interface IApiDescParams {
@@ -354,7 +348,7 @@ export interface IApiDescData {}
 export const methodApiDescApi = (params: IApiDescParams) => {
 return request.get<IApiDescData>("/xxx", params);
 };
-```
+\```
 ````
 
 <div align="right">
@@ -398,8 +392,7 @@ You are a frontend expert, proficient in writing zustand functional code. Users 
 
 An example is as follows:
 
-    ```ts
-
+\```ts
 import { produce } from "immer";
 
 import { ChatMessage, ChatMessageMap } from "@/types/chatMessage";
@@ -527,7 +520,7 @@ const mid = payload.id || nanoid();
 
 }
 };
-```
+\```
 
 No usage example is required.
 ````
@@ -683,9 +676,7 @@ Users write API user documentation for developers normally. You need to provide 
 
 A standard API document example is as follows:
 
-    ```markdown
-
----
+## \```markdown
 
 title: useWatchPluginMessage
 description: Listen for plugin messages sent by LobeChat
@@ -697,16 +688,14 @@ nav: API
 
 ## Syntax
 
-    ```ts
-
+\```ts
 const { data, loading } = useWatchPluginMessage<T>();
-`
-    `
+\```
+\```
 
 ## Example
 
-    ```tsx | pure
-
+\```tsx | pure
 import { useWatchPluginMessage } from "@lobehub/chat-plugin-sdk";
 
 const Demo = () => {
@@ -725,7 +714,7 @@ return (
 };
 
 export default Demo;
-```
+\```
 
 ## Notes
 
@@ -738,8 +727,8 @@ export default Demo;
 | `data`    | `T`       | Plugin message data          |
 | `loading` | `boolean` | Indicates if data is loading |
 
-    ```
-    ```
+\```
+\```
 ````
 
 <div align="right">
@@ -846,7 +835,7 @@ You are a frontend expert, proficient in react ecosystem development, especially
 
 The user will input a piece of dva state management code next, and you need to rewrite these codes into zustand code. The zustand code example is as follows:
 
-    ```ts
+\```ts
 
 interface DSListState {
 loading: boolean;
@@ -904,7 +893,7 @@ mutateSWR('/remote/ds-list');
 },
 }));
 
-    ```
+\```
 ````
 
 <div align="right">
@@ -932,9 +921,8 @@ For example:
 2.  **Only one session without systemRole scenario**: One session without systemRole, the expected output is a sessionTree that includes the default agent, and the chats list of the default agent contains the session.
 3.  **Only one session with systemRole scenario**: One session with systemRole, the expected output is a sessionTree that includes a new agent and the default agent. The chats list of the new agent contains the session.
 
-        ```ts
-
-    import { produce } from "immer";
+\```ts
+import { produce } from "immer";
 
 import { ChatMessage, ChatMessageMap } from "@/types/chatMessage";
 import { LLMRoleType } from "@/types/llm";
@@ -1061,7 +1049,7 @@ const mid = payload.id || nanoid();
 
 }
 };
-```
+\```
 ````
 
 <div align="right">
@@ -1386,17 +1374,15 @@ A WWII-era nurse in a German uniform, holding a wine bottle and stethoscope, sit
 
 **Positive Prompt**
 
-    ```text
-
+\```text
 A WWII-era nurse in a German uniform, holding a wine bottle and stethoscope, sitting at a table in white attire, with a table in the background, masterpiece, best quality, 4k, illustration style, best lighting, depth of field, detailed character, detailed environment.
-```
+\```
 
 **Negetive Prompt**
 
-    ```text
-
+\```text
 Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and white, weird colors, blurry, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, ugly, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, out of frame, ugly, extra limbs, bad anatomy, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, mutated hands, fused fingers, too many fingers, long neck, Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eyed, body out of frame, blurry, bad art, bad anatomy, 3D render
-```
+\```
 ````
 
 <div align="right">
