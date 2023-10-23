@@ -1,7 +1,7 @@
 import { readJSONSync } from 'fs-extra';
 import { resolve } from 'node:path';
 
-import { agentsDir } from './const';
+import { agentsDir, config } from './const';
 import { LobeAgent } from './schema/agentMeta';
 
 export const Parser = {
@@ -10,7 +10,7 @@ export const Parser = {
     const regexp = /^(?<id>[\w-]*)\.?(?<locale>.*)?$/;
 
     const match = regexp.exec(fileName.replace('.json', ''));
-    const { id, locale = 'en' } = match.groups;
+    const { id, locale = config.entryLocale } = match.groups;
 
     const filePath = resolve(agentsDir, fileName);
 
