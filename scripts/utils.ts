@@ -2,7 +2,7 @@ import { consola } from 'consola';
 import { colors } from 'consola/utils';
 import { Dirent, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 
-import { readmeSplit } from './const';
+import { readmeSplit, config } from './const';
 
 export const writeJSON = (filePath, data, format = true) => {
   const jsonStr = format ? JSON.stringify(data, null, 2) : JSON.stringify(data);
@@ -21,7 +21,7 @@ export const split = (name) => {
 };
 
 export const getLocaleAgentFileName = (id: string, locale?: string) => {
-  const localeSuffix = locale === 'en' ? '' : `.${locale}`;
+  const localeSuffix = locale === config.entryLocale ? '' : `.${locale}`;
   return id + localeSuffix + '.json';
 };
 
