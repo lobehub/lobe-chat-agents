@@ -2,7 +2,7 @@ import { consola } from 'consola';
 import { colors } from 'consola/utils';
 import { Dirent, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 
-import { readmeSplit, config } from './const';
+import { config, readmeSplit } from './const';
 
 export const writeJSON = (filePath, data, format = true) => {
   const jsonStr = format ? JSON.stringify(data, null, 2) : JSON.stringify(data);
