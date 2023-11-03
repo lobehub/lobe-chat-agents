@@ -1517,7 +1517,10 @@ Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and whi
 
 单击下面的按钮以部署您的私有助手索引
 
-\[!\[Vercel]\[deploy-shield]]\[deploy-url]
+[![][vercel-deploy-shield]][vercel-deploy-link]
+
+[vercel-deploy-shield]: https://vercel.com/button
+[vercel-deploy-link]: https://vercel.com/new/clone?envLink=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&project-name=lobe-chat-agents&repository-link=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&repository-name=lobe-chat-agents
 
 <div align="right">
 
@@ -1529,11 +1532,11 @@ Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and whi
 
 可以使用 GitHub Codespaces 进行在线开发：
 
-\[!\[]\[codespaces-shield]]\[codespaces-link]
+[![][codespaces-shield]][codespaces-link]
 
 或者使用以下命令进行本地开发：
 
-\[!\[]\[bun-shield]]\[bun-link]
+[![][bun-shield]][bun-link]
 
 ```bash
 $ git clone https://github.com/lobehub/lobe-chat-agents.git
