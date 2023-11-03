@@ -1677,11 +1677,11 @@ Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and whi
 
 可以使用 GitHub Codespaces 进行在线开发：
 
-\[!\[]\[codespaces-shield]]\[codespaces-link]
+[![][github-codespace-shield]][github-codespace-link]
 
 或者使用以下命令进行本地开发：
 
-\[!\[]\[bun-shield]]\[bun-link]
+[![][bun-shield]][bun-link]
 
 ```bash
 $ git clone https://github.com/lobehub/lobe-chat-agents.git
@@ -1737,6 +1737,10 @@ This project is [MIT](./LICENSE) licensed.
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
+[bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
+[bun-link]: https://bun.sh
+[github-codespace-shield]: https://github.com/codespaces/badge.svg
+[github-codespace-link]: https://codespaces.new/lobehub/lobe-chat-agents
 [github-action-release-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
 [github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat-agents/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
 [github-action-test-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
