@@ -29,7 +29,9 @@ const updateAwesome = (filePath: string, md: string, agents, locale?: string) =>
       header,
       subHeader,
       desc,
+      `<details><summary><kbd>Show Prompt</kbd></summary>`
       content,
+      `</details>`,
       `<div align="right">\n\n[![][back-to-top]](#readme-top)\n\n</div>`,
     ]
       .filter(Boolean)
