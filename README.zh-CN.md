@@ -1519,9 +1519,6 @@ Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and whi
 
 [![][vercel-deploy-shield]][vercel-deploy-link]
 
-[vercel-deploy-shield]: https://vercel.com/button
-[vercel-deploy-link]: https://vercel.com/new/clone?envLink=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&project-name=lobe-chat-agents&repository-link=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&repository-name=lobe-chat-agents
-
 <div align="right">
 
 [![][back-to-top]](#readme-top)
@@ -1532,11 +1529,11 @@ Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and whi
 
 可以使用 GitHub Codespaces 进行在线开发：
 
-[![][codespaces-shield]][codespaces-link]
+\[!\[]\[codespaces-shield]]\[codespaces-link]
 
 或者使用以下命令进行本地开发：
 
-[![][bun-shield]][bun-link]
+\[!\[]\[bun-shield]]\[bun-link]
 
 ```bash
 $ git clone https://github.com/lobehub/lobe-chat-agents.git
@@ -1609,5 +1606,7 @@ This project is [MIT](./LICENSE) licensed.
 [pr-welcome-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
 [submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
+[vercel-deploy-link]: https://vercel.com/new/clone?envLink=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&project-name=lobe-chat-agents&repository-link=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&repository-name=lobe-chat-agents
+[vercel-deploy-shield]: https://vercel.com/button
 [website-shield]: https://img.shields.io/website?down_message=offline&label=chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&labelColor=black&logo=vercel&style=flat-square
 [website-url]: https://chat-agents.lobehub.com

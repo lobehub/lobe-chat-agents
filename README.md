@@ -1527,9 +1527,6 @@ Click button below to deploy your private agents index.
 
 [![][vercel-deploy-shield]][vercel-deploy-link]
 
-[vercel-deploy-shield]: https://vercel.com/button
-[vercel-deploy-link]: https://vercel.com/new/clone?envLink=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&project-name=lobe-chat-agents&repository-link=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&repository-name=lobe-chat-agents
-
 <div align="right">
 
 [![][back-to-top]](#readme-top)
@@ -1540,7 +1537,7 @@ Click button below to deploy your private agents index.
 
 You can use GitHub Codespaces for online development:
 
-[![][codespaces-shield]][codespaces-link]
+\[!\[]\[codespaces-shield]]\[codespaces-link]
 
 Alternatively, you can use the following command for local development:
 
@@ -1599,7 +1596,9 @@ This project is [MIT](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
 
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
+[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-black?style=flat-square
+[bun-link]: https://bun.sh
+[bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
 [github-action-release-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
 [github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat-agents/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
 [github-action-test-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
@@ -1617,10 +1616,7 @@ This project is [MIT](./LICENSE) licensed.
 [pr-welcome-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
 [submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
+[vercel-deploy-link]: https://vercel.com/new/clone?envLink=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&project-name=lobe-chat-agents&repository-link=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&repository-name=lobe-chat-agents
+[vercel-deploy-shield]: https://vercel.com/button
 [website-shield]: https://img.shields.io/website?down_message=offline&label=chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&labelColor=black&logo=vercel&style=flat-square
 [website-url]: https://chat-agents.lobehub.com
-[github-codespace-shield]: https://github.com/codespaces/badge.svg
-[github-codespace-link]: https://codespaces.new/lobehub/lobe-chat-agents
-[bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
-[bun-link]: https://bun.sh
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-black?style=flat-square
