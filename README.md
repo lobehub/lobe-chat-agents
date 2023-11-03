@@ -1685,7 +1685,7 @@ Click button below to deploy your private agents index.
 
 You can use GitHub Codespaces for online development:
 
-\[!\[]\[codespaces-shield]]\[codespaces-link]
+[![][github-codespace-shield]][github-codespace-link]
 
 Alternatively, you can use the following command for local development:
 
@@ -1747,6 +1747,8 @@ This project is [MIT](./LICENSE) licensed.
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-black?style=flat-square
 [bun-link]: https://bun.sh
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
+[github-codespace-shield]: https://github.com/codespaces/badge.svg
+[github-codespace-link]: https://codespaces.new/lobehub/lobe-chat-agents
 [github-action-release-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
 [github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat-agents/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
 [github-action-test-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
