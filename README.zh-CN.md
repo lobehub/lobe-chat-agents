@@ -124,7 +124,7 @@
 
 学术英语拼写和修辞改进。
 
-`校对`
+`校对` `rhetoric` `academic` `research` `English` `editing`
 
 <details><summary><kbd>Show Prompt</kbd></summary>
 
