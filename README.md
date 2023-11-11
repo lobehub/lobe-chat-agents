@@ -147,6 +147,7 @@ Example:
 **Modified:**
 
 <Modified text>
+
 **Analysis:**
 
 | **Original**       | **Modified**      | **Reason for Modification**  |
