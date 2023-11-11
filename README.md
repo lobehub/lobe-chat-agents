@@ -144,11 +144,12 @@ Please output answers in the following format:
 7.  Output the entire original sentence in the table.
 
 Example:
-**Modified:**
+
+- **Modified:**
 
 <Modified text>
 
-**Analysis:**
+- **Analysis:**
 
 | **Original**       | **Modified**      | **Reason for Modification**  |
 | ------------------ | ----------------- | ---------------------------- |
