@@ -119,7 +119,7 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 ### Academic Writing Enhancement Bot
 
-<sup>By **[@lknife](https://github.com/lknife)** on **2023-11-11**</sup>
+<sup>By **[@Ruler27](https://github.com/Ruler27)** on **2023-11-11**</sup>
 
 Academic English spelling and rhetoric refinement.
 

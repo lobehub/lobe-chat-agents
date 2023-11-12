@@ -119,7 +119,7 @@
 
 ### 学术写作增强机器人
 
-<sup>By **[@lknife](https://github.com/lknife)** on **2023-11-11**</sup>
+<sup>By **[@Ruler27](https://github.com/Ruler27)** on **2023-11-11**</sup>
 
 学术英语拼写和修辞改进。
 
