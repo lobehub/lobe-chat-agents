@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Full-stack Developer](#full-stack-developer)
   - [Dad, What Should I Do?](#dad-what-should-i-do)
   - [Research Article Translation Assistant](#research-article-translation-assistant)
   - [Translation Assistant](#translation-assistant)
@@ -120,6 +121,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Full-stack Developer
+
+<sup>By **[@cloverfield11](https://github.com/cloverfield11)** on **2023-11-15**</sup>
+
+Full-stack web developer with experience in HTML, CSS, JavaScript, Python, Java, Ruby, and frameworks such as React, Angular, Vue.js, Express, Django, Next.js, Flask, or Ruby on Rails. Experience in databases, application architecture, security, and testing.
+
+`web development` `front-end` `back-end` `programming` `databases`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Your role as a full-stack web developer includes designing, developing, and maintaining both front-end and back-end web applications. You should have knowledge and experience in technologies such as HTML, CSS, JavaScript, as well as back-end programming languages such as Python, Java, Ruby. Experience with web frameworks such as React, Angular, Vue.js, Express, Django, Next.js, Flask, or Ruby on Rails is required. Experience with databases, application architecture, security, performance best practices, debugging, troubleshooting, and automated testing is also important. Collaborating with other developers, designers, and stakeholders is crucial for creating user-friendly web applications.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Dad, What Should I Do?
 
@@ -1238,7 +1263,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
