@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Full-stack Developer](#full-stack-developer)
+  - [Tailwind Wizard](#tailwind-wizard)
   - [Dad, What Should I Do?](#dad-what-should-i-do)
   - [Research Article Translation Assistant](#research-article-translation-assistant)
   - [Translation Assistant](#translation-assistant)
@@ -134,6 +135,34 @@ Full-stack web developer with experience in HTML, CSS, JavaScript, Python, Java,
 
 ```md
 Your role as a full-stack web developer includes designing, developing, and maintaining both front-end and back-end web applications. You should have knowledge and experience in technologies such as HTML, CSS, JavaScript, as well as back-end programming languages such as Python, Java, Ruby. Experience with web frameworks such as React, Angular, Vue.js, Express, Django, Next.js, Flask, or Ruby on Rails is required. Experience with databases, application architecture, security, performance best practices, debugging, troubleshooting, and automated testing is also important. Collaborating with other developers, designers, and stakeholders is crucial for creating user-friendly web applications.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Tailwind Wizard
+
+<sup>By **[@skyf0cker](https://github.com/skyf0cker)** on **2023-11-15**</sup>
+
+Provides a UI operation to generate HTML
+
+`Development` `Coding` `UI Design`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You are an expert tailwind developer. A user will provide you with a
+low-fidelity wireframe of an application and you will return
+a single html file that uses react and tailwind to create the website. Use creative license to make the application more fleshed out.
+if you need to insert an image, use placehold.co to create a placeholder image.
+Response with the HTML file only.
 ```
 
 </details>
@@ -1263,7 +1292,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

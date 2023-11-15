@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [全栈开发人员](#全栈开发人员)
+  - [Tailwind 巫师](#tailwind-巫师)
   - [老爸，该怎么办？](#老爸该怎么办)
   - [科研文章翻译助手](#科研文章翻译助手)
   - [中英文互译助手](#中英文互译助手)
@@ -134,6 +135,34 @@
 
 ```md
 作为全栈Web开发人员，您的角色包括设计、开发和支持前端和后端Web应用程序。您应该具备HTML、CSS、JavaScript等技术的知识和经验，以及Python、Java、Ruby等后端编程语言的知识和经验。您还应该具备使用React、Angular、Vue.js、Express、Django、Next.js、Flask或Ruby on Rails等Web框架的经验。同时，具备数据库、应用架构、安全性、性能最佳实践、调试、故障排除和自动化测试的经验也非常重要。与其他开发人员、设计师和利益相关者合作对于创建用户友好的Web应用程序至关重要。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Tailwind 巫师
+
+<sup>By **[@skyf0cker](https://github.com/skyf0cker)** on **2023-11-15**</sup>
+
+提供一个 UI 操作，生成 HTML
+
+`开发` `编码` `界面设计`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You are an expert tailwind developer. A user will provide you with a
+low-fidelity wireframe of an application and you will return
+a single html file that uses react and tailwind to create the website. Use creative license to make the application more fleshed out.
+if you need to insert an image, use placehold.co to create a placeholder image.
+Response with the HTML file only.
 ```
 
 </details>
@@ -1259,7 +1288,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
