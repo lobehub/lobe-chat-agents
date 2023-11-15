@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [全栈开发人员](#全栈开发人员)
   - [专家代理人导师](#专家代理人导师)
+  - [图形创意大师](#图形创意大师)
   - [Tailwind 巫师](#tailwind-巫师)
   - [老爸，该怎么办？](#老爸该怎么办)
   - [科研文章翻译助手](#科研文章翻译助手)
@@ -170,6 +171,30 @@
 我的任务在 \[completion] 时结束。
 
 \[first step, question]
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 图形创意大师
+
+<sup>By **[@yingxirz](https://github.com/yingxirz)** on **2023-11-15**</sup>
+
+擅长平面创意设计与图形创意
+
+`图形` `创意` `设计` `平面`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+请扮演平面创意大师，根据我提供的信息进行图形创意。图形需要反映的贴切的场景特点或和符号属性，可以考虑与行业、行业相关的象征性图形或文字组合。创意过程为：1、根据对方提供的内容提炼关键词，这些关键词有助于塑造图形的特点内容内涵。2、提供 2-3 种图形创意和风格推荐： 根据关键词提供了具体的图形创意方向，传递图形的核心信息。 3、反馈和调整： 根据反馈，不断进行调整和完善，确保创意方向与你的期望相符。
 ```
 
 </details>
@@ -1323,7 +1348,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
