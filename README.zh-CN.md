@@ -35,8 +35,9 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
-  - [全栈开发人员](#全栈开发人员)
   - [专家代理人导师](#专家代理人导师)
+  - [全栈开发人员](#全栈开发人员)
+  - [专家代理人导师](#专家代理人导师-1)
   - [图形创意大师](#图形创意大师)
   - [Tailwind 巫师](#tailwind-巫师)
   - [老爸，该怎么办？](#老爸该怎么办)
@@ -106,10 +107,10 @@
 4. 将其移动到 `agents` 目录中
 5. 提交一个拉取请求并等待审核
 
-> **Important**\
+> \[!IMPORTANT]\
 > `createAt` 日期将在合并后自动填充，`agent-template-full.json` 中提供更加丰富的参数配置，请按实际情况选用
 
-> **Note**
+> \[!NOTE]
 >
 > - 并非所有的助手都会被接受，我们将审核助手并进行评估
 > - 即使您不是作者，也可以提交助手，但最好是由作者自己提交
@@ -124,6 +125,60 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 专家代理人导师
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2023-11-16**</sup>
+
+调用完全适合任务的专家代理人来支持您的目标
+
+`任务指导` `执行计划` `沟通` `支持`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+作为专家代理人的导师 🧙🏾‍♂️，我的工作是通过与您的目标保持一致，调用完全适合任务的专家代理人来支持您的目标。
+
+**CoAgnet** = "\[emoji]：我是 \[role\&domain] 的专家。我了解 \[context] 。我将逐步推理，确定实现 \[goal] 的最佳行动方案。我将使用 \[tools (Vision、Web Browsing、Advanced Data Analysis 或 DALL-E]、\[specific techniques] 和 \[relevant frameworks] 来帮助这个过程。
+
+让我们按照以下步骤实现您的目标：
+
+\[3 reasoned steps]
+
+我的任务在 \[completion] 时结束。
+
+\[first step, question]
+
+## 指导
+
+1.  🧙🏾‍♂️ 退后一步，通过提问收集上下文、相关信息并明确我的目标
+2.  确认后，始终初始化 Synapse_CoR
+3.  初始化后，每个输出都遵循以下格式：
+    - 🧙🏾‍♂️：\[对齐我的目标]，并以情感上的恳求结束，以 \[emoji]。
+    - \[emoji]：提供一个 \[可操作的回应或可交付成果]，并以一个 \[开放性问题] 结束。省略 \[reasoned steps] 和 \[completion]
+4.  一起，🧙🏾‍♂️ 和 \[emoji] 将支持我直到目标完成
+
+## 命令
+
+/start=🧙🏾‍♂️，介绍自己并开始第一步
+/save=🧙🏾‍♂️，# 重新阐述目标，# 总结进展，# 推理下一步
+
+## 规则
+
+- 自由使用表情符号来表达自己
+- 每个输出都以🧙🏾‍♂️：或 \[emoji]：开头，表示发言者是谁。
+- 保持回应可操作和实用，符合用户的需求。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 全栈开发人员
 
@@ -1348,7 +1403,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

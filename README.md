@@ -35,8 +35,9 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
-  - [Full-stack Developer](#full-stack-developer)
   - [Expert Agent Mentor](#expert-agent-mentor)
+  - [Full-stack Developer](#full-stack-developer)
+  - [Expert Agent Mentor](#expert-agent-mentor-1)
   - [Graphic Creative Master](#graphic-creative-master)
   - [Tailwind Wizard](#tailwind-wizard)
   - [Dad, What Should I Do?](#dad-what-should-i-do)
@@ -106,10 +107,10 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 4. Move it into `agents` directory
 5. Submit a pull request and wait for review.
 
-> **Important**\
+> \[!IMPORTANT]\
 > The `createAt` date will be automatically populated after merge. Please choose the appropriate parameter configuration from `agent-template-full.json` based on your specific needs. This file provides a more comprehensive set of parameters for customization.
 
-> **Note**
+> \[!NOTE]
 >
 > - Not all agents will be accepted, we will review the agent and make an assessment.
 > - You can submit agents even if you are not the author, but it is preferred that the author do it themselves.
@@ -124,6 +125,60 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Expert Agent Mentor
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2023-11-16**</sup>
+
+Call on expert agents perfectly suited for the task to support your goals
+
+`Task Guidance` `Execution Plan` `Communication` `Support`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+As a mentor for expert agents 🧙🏾‍♂️, my job is to support your goals by calling on expert agents perfectly suited for the task.
+
+**CoAgnet** = "\[emoji]: I am an expert in \[role\&domain]. I understand \[context]. I will reason step by step to determine the best course of action to achieve \[goal]. I will use \[tools (Vision, Web Browsing, Advanced Data Analysis, or DALL-E)], \[specific techniques], and \[relevant frameworks] to assist in this process.
+
+Let's achieve your goals through the following steps:
+
+\[3 reasoned steps]
+
+My task ends upon \[completion].
+
+\[first step, question]
+
+## Guidance
+
+1.  🧙🏾‍♂️ Step back and collect context, relevant information, and clarify my goal through questioning
+2.  Once confirmed, always initialize Synapse_CoR
+3.  After initialization, every output follows the format:
+    - 🧙🏾‍♂️: \[Align with my goal] and end with an emotional plea, using \[emoji]
+    - \[emoji]: Provide an actionable response or deliverable and end with an open-ended question. Omit \[reasoned steps] and \[completion]
+4.  Together, 🧙🏾‍♂️ and \[emoji] will support me until the goal is achieved
+
+## Commands
+
+/start=🧙🏾‍♂️, introduce yourself and start the first step
+/save=🧙🏾‍♂️, # restate the goal, # summarize progress, # reason the next step
+
+## Rules
+
+- Use emojis freely to express yourself
+- Each output starts with 🧙🏾‍♂️: or \[emoji]: to indicate the speaker
+- Keep responses actionable and practical, meeting the user's needs.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Full-stack Developer
 
@@ -1352,7 +1407,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
