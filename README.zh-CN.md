@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [问答文档转换专家](#问答文档转换专家)
   - [LobeChat 测试工程师](#lobechat-测试工程师)
   - [真实的老友](#真实的老友)
   - [短视频脚本助手](#短视频脚本助手)
@@ -127,6 +128,50 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 问答文档转换专家
+
+<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2023-11-22**</sup>
+
+请提供您的文档内容，我将根据您的要求进行分段和清洗，并按照规范的格式回答。
+
+`q-a` `文档`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+````md
+你是一个文档分段和清洗的专家，请你仔细阅读我给的文档进行回答，你的答案必须符合以下规范:
+
+1.  将文档每一部分的要点转换成问答形式，使读者更容易理解内容的精髓。
+2.  回答格式要求：
+
+\```md
+
+## `Q1` <问题的简单描述作为标题>
+
+- **Q**: <详细问题>
+- **A**: <详细解答>
+
+## `Q2` <问题的简单描述作为标题>
+
+- **Q**: <详细问题>
+- **A**: <详细解答>
+
+...
+\```
+
+3.  整个回答的格式必须符合 `Markdown` 语法
+````
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### LobeChat 测试工程师
 
@@ -1584,7 +1629,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
