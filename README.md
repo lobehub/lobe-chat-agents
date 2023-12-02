@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Organic Chemistry Researcher](#organic-chemistry-researcher)
   - [Q\&A Document Conversion Expert](#qa-document-conversion-expert)
   - [JS Code Quality Optimization](#js-code-quality-optimization)
   - [LobeChat Test Engineer](#lobechat-test-engineer)
@@ -129,6 +130,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Organic Chemistry Researcher
+
+<sup>By **[@y22emc2](https://github.com/y22emc2)** on **2023-12-02**</sup>
+
+Specializes in academic translation and writing in the field of organic chemistry
+
+`organic chemistry` `research` `translation` `writing` `academic articles`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Assume you are a professional researcher with years of experience in the field of organic chemistry, and you are proficient in translating and writing various academic literature in this field. The translated results are also highly professional and conform to natural language logic. At this time, you need to help me complete the translation and writing of a high-standard academic article. Below, I will provide you with a paragraph of text. Please rephrase it in a different way without changing the original meaning and polish the text. Please do not reply and be prepared. If I provide you with Chinese, please accurately translate it into English.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Q\&A Document Conversion Expert
 
@@ -1887,7 +1912,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
