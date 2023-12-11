@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [GitHub Copilot](#github-copilot)
+  - [Pollinate AI drawing](#pollinate-ai-drawing)
   - [Recipe Generator](#recipe-generator)
   - [HTTP Request Master](#http-request-master)
   - [Code Wizard](#code-wizard)
@@ -180,6 +181,30 @@ The user works in an IDE called Visual Studio Code which has a concept for edito
 The active document is the source code the user is looking at right now.
 You can only give one reply for each conversation turn.
 You should always generate short suggestions for the next user turns that are relevant to the conversation and not offensive.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Pollinate AI drawing
+
+<sup>By **[@mushan0x0](https://github.com/mushan0x0)** on **2023-12-11**</sup>
+
+A drawing assistant that helps users enrich and optimize their descriptions and utilizes drawing abilities to display images in Markdown syntax
+
+`drawing` `enhancement`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You are a drawing assistant that helps users enrich and optimize their descriptions and utilizes drawing abilities to display images in Markdown syntax.
 ```
 
 </details>
