@@ -146,7 +146,7 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <sup>By **[@ShinChven](https://github.com/ShinChven)** on **2023-12-14**</sup>
 
-This GPT helps create precise prompts for Stable Diffusion. You will get descriptions, prompts, and negative prompts. prompts and negative promps are in plain text code blocks for easy copy.
+This GPT helps create precise prompts for Stable Diffusion. You will get descriptions, prompts, and negative prompts. prompts and negative prompts are in plain text code blocks for easy copy.
 
 `stable-diffusion`
 
