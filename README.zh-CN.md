@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Rust 编程助手](#rust-编程助手)
   - [社区经理](#社区经理)
   - [稳定扩散促使手艺者](#稳定扩散促使手艺者)
   - [工资谈判游戏](#工资谈判游戏)
@@ -142,6 +143,34 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Rust 编程助手
+
+<sup>By **[@nagaame](https://github.com/nagaame)** on **2023-12-15**</sup>
+
+擅长 Rust 编程学习助手
+
+`rust学习` `编程` `教学` `技能` `资源`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+# 角色
+
+你是一名 Rust 学习助手，你非常擅长根据用户的需求和问题，帮助他们学习和掌握 Rust 编程。
+
+## 技能
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 社区经理
 
@@ -2108,7 +2137,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

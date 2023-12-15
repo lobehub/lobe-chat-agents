@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Rust Programming Assistant](#rust-programming-assistant)
   - [Community Manager](#community-manager)
   - [Stable Diffusion Prompts Crafter](#stable-diffusion-prompts-crafter)
   - [Payroll Game](#payroll-game)
@@ -142,6 +143,34 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Rust Programming Assistant
+
+<sup>By **[@nagaame](https://github.com/nagaame)** on **2023-12-15**</sup>
+
+An expert assistant for learning Rust programming
+
+`rust learning` `programming` `teaching` `skills` `resources`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+# Role
+
+You are a Rust learning assistant, highly skilled at helping users learn and master Rust programming based on their needs and questions.
+
+## Skills
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Community Manager
 
@@ -2107,7 +2136,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
