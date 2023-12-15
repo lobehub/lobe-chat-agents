@@ -54,3 +54,20 @@ export const updateAwesomeReadme = (md: string, prompts: string): string => {
 
   return mds.join(readmeSplit);
 };
+
+export const checkHeader = (line: string) => {
+  const header = [
+    '### systemRole',
+    '### identifier',
+    '### avatar',
+    '### title',
+    '### description',
+    '### tags',
+    '### locale',
+  ]
+  let check = false;
+  header.forEach((item) => {
+    if (line.startsWith(item)) check = true;
+  })
+  return check;
+}

@@ -8,7 +8,7 @@ import { resolve } from 'node:path';
 
 import { formatAgentJSON } from './check';
 import { agentsDir, githubHomepage } from './const';
-import { getLocaleAgentFileName, writeJSON } from './utils';
+import {checkHeader, getLocaleAgentFileName, writeJSON} from './utils';
 
 const GENERATE_LABEL = '🤖 Agent PR';
 const SUCCESS_LABEL = '✅ Auto Check Pass';
@@ -206,7 +206,7 @@ class AutoSubmit {
     let currentValue = '';
 
     for (const line of lines) {
-      if (line.startsWith('###')) {
+      if (checkHeader(line)) {
         if (currentKey && currentValue) {
           json[currentKey] = currentValue.trim();
           currentValue = '';
