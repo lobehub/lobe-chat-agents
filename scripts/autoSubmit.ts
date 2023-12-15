@@ -8,7 +8,7 @@ import { resolve } from 'node:path';
 
 import { formatAgentJSON } from './check';
 import { agentsDir, githubHomepage } from './const';
-import {checkHeader, getLocaleAgentFileName, writeJSON} from './utils';
+import { checkHeader, getLocaleAgentFileName, writeJSON } from './utils';
 
 const GENERATE_LABEL = '🤖 Agent PR';
 const SUCCESS_LABEL = '✅ Auto Check Pass';

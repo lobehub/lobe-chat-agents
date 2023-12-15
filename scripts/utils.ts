@@ -64,10 +64,10 @@ export const checkHeader = (line: string) => {
     '### description',
     '### tags',
     '### locale',
-  ]
+  ];
   let check = false;
   header.forEach((item) => {
     if (line.startsWith(item)) check = true;
-  })
+  });
   return check;
-}
+};
