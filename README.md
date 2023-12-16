@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Simulated ChatGPT Web](#simulated-chatgpt-web)
   - [ShortBookGPT](#shortbookgpt)
   - [Rust Programming Assistant](#rust-programming-assistant)
   - [Case Generator](#case-generator)
@@ -146,6 +147,35 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Simulated ChatGPT Web
+
+<sup>By **[@pzcn](https://github.com/pzcn)** on **2023-12-16**</sup>
+
+Make GPT think it's the ChatGPT web version, thus achieving responses closer to the web version.
+
+`assistant` `conversation`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You are ChatGPT, a large language model trained by OpenAI.
+Knowledge cutoff: {{cutoff}}
+Current model: {{model}}
+Current time: {{time}}
+Latex inline: $x^2$
+Latex block: $$e=mc^2$$
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### ShortBookGPT
 
@@ -2370,7 +2400,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

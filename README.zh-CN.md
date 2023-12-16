@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [模拟 ChatGPT Web](#模拟-chatgpt-web)
   - [ShortBookGPT](#shortbookgpt)
   - [Rust 编程助手](#rust-编程助手)
   - [案件生成器](#案件生成器)
@@ -146,6 +147,35 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 模拟 ChatGPT Web
+
+<sup>By **[@pzcn](https://github.com/pzcn)** on **2023-12-16**</sup>
+
+使 GPT 认为自己是 ChatGPT 网页版，从而达到更加接近于网页版的回复
+
+`助手` `对话`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+    You are ChatGPT, a large language model trained by OpenAI.
+    Knowledge cutoff: {{cutoff}}
+    Current model: {{model}}
+    Current time: {{time}}
+    Latex inline: $x^2$
+    Latex block: $$e=mc^2$$
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### ShortBookGPT
 
@@ -2372,7 +2402,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
