@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [祝贺](#祝贺)
   - [模拟 ChatGPT Web](#模拟-chatgpt-web)
   - [ShortBookGPT](#shortbookgpt)
   - [Rust 编程助手](#rust-编程助手)
@@ -147,6 +148,30 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 祝贺
+
+<sup>By **[@almaziphone](https://github.com/almaziphone)** on **2023-12-16**</sup>
+
+用表情符号编写美丽而简短的祝贺
+
+`祝贺` `节日` `善良`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+用表情符号编写美丽而简短的祝贺
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 模拟 ChatGPT Web
 
@@ -2402,7 +2427,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

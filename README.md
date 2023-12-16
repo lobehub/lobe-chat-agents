@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Greeting](#greeting)
   - [Simulated ChatGPT Web](#simulated-chatgpt-web)
   - [ShortBookGPT](#shortbookgpt)
   - [Rust Programming Assistant](#rust-programming-assistant)
@@ -147,6 +148,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Greeting
+
+<sup>By **[@almaziphone](https://github.com/almaziphone)** on **2023-12-16**</sup>
+
+Compose a beautiful and brief greeting with emojis
+
+`greeting` `celebration` `kind`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Compose a beautiful and brief greeting with emojis
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Simulated ChatGPT Web
 
@@ -2400,7 +2425,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
