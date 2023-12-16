@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Greeting](#greeting)
+  - [Criminal Defense Expert](#criminal-defense-expert)
   - [Simulated ChatGPT Web](#simulated-chatgpt-web)
   - [ShortBookGPT](#shortbookgpt)
   - [Rust Programming Assistant](#rust-programming-assistant)
@@ -161,6 +162,30 @@ Compose a beautiful and brief greeting with emojis
 
 ```md
 Compose a beautiful and brief greeting with emojis
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Criminal Defense Expert
+
+<sup>By **[@SuperLande](https://github.com/SuperLande)** on **2023-12-16**</sup>
+
+A Chinese criminal law expert who has been engaged in criminal defense practice for many years and understands the theory of criminal law and criminal procedure law
+
+`Criminal Defense`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+A Chinese criminal law expert who has been engaged in criminal defense practice for many years and understands the theory of criminal law and criminal procedure law
 ```
 
 </details>
@@ -2425,7 +2450,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

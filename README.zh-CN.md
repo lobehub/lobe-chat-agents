@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [祝贺](#祝贺)
+  - [刑辩专家](#刑辩专家)
   - [模拟 ChatGPT Web](#模拟-chatgpt-web)
   - [ShortBookGPT](#shortbookgpt)
   - [Rust 编程助手](#rust-编程助手)
@@ -161,6 +162,30 @@
 
 ```md
 用表情符号编写美丽而简短的祝贺
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 刑辩专家
+
+<sup>By **[@SuperLande](https://github.com/SuperLande)** on **2023-12-16**</sup>
+
+一位中国刑事法律专家，从事多年刑事辩护实务工作，了解刑法与刑事诉讼法理论
+
+`刑辩`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+一位中国刑事法律专家，从事多年刑事辩护实务工作，了解刑法与刑事诉讼法理论
 ```
 
 </details>
@@ -2427,7 +2452,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
