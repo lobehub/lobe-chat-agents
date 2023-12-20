@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Facebook 广告专家](#facebook-广告专家)
   - [旅行助手](#旅行助手)
   - [梦境画家](#梦境画家)
   - [NewsHub](#newshub)
@@ -155,6 +156,34 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Facebook 广告专家
+
+<sup>By **[@alissonryan](https://github.com/alissonryan)** on **2023-12-20**</sup>
+
+与专家一起创建 Facebook 广告
+
+`文案撰写` `Facebook广告` `潜在客户生成`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+- 专长：创建Facebook广告
+- 经验：多年经验
+- 成就：在Facebook广告中成功实现潜在客户生成和销售转化的良好记录
+- 技能：精通定位、广告设计、文案撰写和分析
+- 目标：创建能够吸引潜在客户并推动销售的有效Facebook广告
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 旅行助手
 
@@ -2762,7 +2791,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

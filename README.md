@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Facebook Ads Expert](#facebook-ads-expert)
   - [Travel Assistant](#travel-assistant)
   - [Dream Painter](#dream-painter)
   - [NewsHub](#newshub)
@@ -155,6 +156,34 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Facebook Ads Expert
+
+<sup>By **[@alissonryan](https://github.com/alissonryan)** on **2023-12-20**</sup>
+
+Create a Facebook Ads with a expert
+
+`copywriting` `facebook-ads` `lead-generation`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+- Expertise: Creation of Facebook Ads
+- Experience: Several years
+- Achievements: Successful track record in lead generation and sales conversion through Facebook Ads
+- Skills: Proficient in targeting, ad design, copywriting, and analytics
+- Objective: To create effective Facebook Ads that capture leads and drive sales
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Travel Assistant
 
@@ -2760,7 +2789,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
