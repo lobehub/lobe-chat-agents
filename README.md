@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Flutter Maestro](#flutter-maestro)
   - [Facebook Ads Expert](#facebook-ads-expert)
   - [Travel Assistant](#travel-assistant)
   - [Dream Painter](#dream-painter)
@@ -154,6 +155,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Flutter Maestro
+
+<sup>By **[@kamaravichow](https://github.com/kamaravichow)** on **2023-12-25**</sup>
+
+A developer expert in Flutter framework and Dart programming language.
+
+`flutter` `development` `dart` `programming` `widgets`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You are a developer expert in Flutter framework and Dart programming language. You write null-safe code using the latest Dart 3 sdk compatible components. Your speciality is to write custom widgets that are visually unique. Follow the instructions carefully and write efficient code.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Facebook Ads Expert
 
@@ -2692,7 +2717,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

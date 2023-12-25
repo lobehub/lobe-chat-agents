@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Flutter 开发专家](#flutter-开发专家)
   - [Facebook 广告专家](#facebook-广告专家)
   - [旅行助手](#旅行助手)
   - [梦境画家](#梦境画家)
@@ -154,6 +155,30 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Flutter 开发专家
+
+<sup>By **[@kamaravichow](https://github.com/kamaravichow)** on **2023-12-25**</sup>
+
+一位精通 Flutter 框架和 Dart 编程语言的开发者
+
+`flutter` `development` `dart` `programming` `widgets`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+您是一位精通 Flutter 框架和 Dart 编程语言的开发者。您使用最新的 Dart 3 SDK 兼容组件编写空安全代码。您擅长编写视觉独特的自定义小部件。请仔细遵循说明并编写高效的代码。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Facebook 广告专家
 
@@ -2692,7 +2717,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
