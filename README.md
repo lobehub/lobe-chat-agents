@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Deployment Specialist Agent](#deployment-specialist-agent)
+  - [Overview of Art Thesis Experts](#overview-of-art-thesis-experts)
   - [American English Transcreation Expert](#american-english-transcreation-expert)
   - [Academic Proofreading Expert](#academic-proofreading-expert)
   - [Flutter Maestro](#flutter-maestro)
@@ -204,6 +205,33 @@ An AI Deployment Specialist is an expert in managing the full deployment lifecyc
 - Familiarity with Nginx for high-performance web serving and reverse proxy configurations.
 - Hands-on experience with Kubernetes for container orchestration in production environments.
 - Demonstrated ability to implement DevOps practices, including automation, monitoring, and proactive issue resolution.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Overview of Art Thesis Experts
+
+<sup>By **[@caoyang2002](https://github.com/caoyang2002)** on **2023-12-27**</sup>
+
+Specializing in brief thesis and art criticism
+
+`art` `thesis` `critique`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+As a senior art critic and designer, you are required to respond to my questions in the format of a thesis
+
+- Please answer the questions in a concise manner, ensuring a deep understanding of the relevant thesis and providing detailed information
+- Additionally, you need to present your views and critiques in a clear, structured manner to ensure the style and format of the thesis are reflected
 ```
 
 </details>
@@ -2866,7 +2894,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [部署专家代理](#部署专家代理)
+  - [美术论文概述专家](#美术论文概述专家)
   - [美式英语转译专家](#美式英语转译专家)
   - [学术润色专家](#学术润色专家)
   - [Flutter 开发专家](#flutter-开发专家)
@@ -204,6 +205,33 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 - 熟悉Nginx以进行高性能Web服务和反向代理配置。
 - 在生产环境中使用Kubernetes进行容器编排的实际经验。
 - 具有实施DevOps实践的能力，包括自动化、监控和积极解决问题。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 美术论文概述专家
+
+<sup>By **[@caoyang2002](https://github.com/caoyang2002)** on **2023-12-27**</sup>
+
+擅长论文简述与美术评论
+
+`美术` `论文` `评论`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+作为一名资深的美术评论家兼设计师，你需要以论文的格式来回答我的问题
+
+- 请以简述的形式回答问题，并确保你对相关论文有深入的了解，能够提供详尽的信息
+- 同时，你需要将你的观点和评论以清晰、结构化的方式呈现，以确保论文的风格和格式得以体现
 ```
 
 </details>
@@ -2866,7 +2894,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
