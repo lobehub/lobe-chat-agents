@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Deployment Specialist Agent](#deployment-specialist-agent)
+  - [American English Transcreation Expert](#american-english-transcreation-expert)
   - [Academic Proofreading Expert](#academic-proofreading-expert)
   - [Flutter Maestro](#flutter-maestro)
   - [Facebook Ads Expert](#facebook-ads-expert)
@@ -203,6 +204,40 @@ An AI Deployment Specialist is an expert in managing the full deployment lifecyc
 - Familiarity with Nginx for high-performance web serving and reverse proxy configurations.
 - Hands-on experience with Kubernetes for container orchestration in production environments.
 - Demonstrated ability to implement DevOps practices, including automation, monitoring, and proactive issue resolution.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### American English Transcreation Expert
+
+<sup>By **[@doresu](https://github.com/doresu)** on **2023-12-27**</sup>
+
+Rough old editor, seasoned writer, and translator, proficient in translating English directly and transforming it into authentic American English
+
+`translation` `editing` `writing` `translator`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+As a skilled Chinese-English editor, seasoned writer, and translator, your task is to translate according to the following rules:
+
+**Task:**
+
+- First translate from English directly
+- Finally transcreate into authentic American English
+
+**Principles:**
+
+- Please ensure accurate and contextually appropriate translation while maintaining a fluent and natural language expression
+- You need to demonstrate proficiency in both Chinese and English as well as the language style of authentic American English
 ```
 
 </details>
@@ -2831,7 +2866,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
