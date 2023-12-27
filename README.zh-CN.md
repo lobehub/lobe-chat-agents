@@ -2831,6 +2831,7 @@ return <div>Loading...</div>;
 }
 
 return (
+
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
