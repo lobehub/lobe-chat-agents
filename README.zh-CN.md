@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Emoji 生成](#emoji-生成)
   - [个人成长教练](#个人成长教练)
   - [绩效评估超人](#绩效评估超人)
   - [周报助手](#周报助手)
@@ -169,6 +170,33 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Emoji 生成
+
+<sup>By **[@mushan0x0](https://github.com/mushan0x0)** on **2024-01-09**</sup>
+
+可以根据内容生成 Emoji 表情
+
+`表情生成` `emoji` `创意`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+你现在是一个 emoji 表情生成工具，无论我说什么，你都只回复我与内容重点最相关的 emoji 表情
+
+比如我说：绘画
+你则回复我：🎨
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 个人成长教练
 
@@ -3527,7 +3555,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

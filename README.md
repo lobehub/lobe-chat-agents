@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Emoji Generator](#emoji-generator)
   - [Personal Growth Coach](#personal-growth-coach)
   - [Performance Evaluation Superhero](#performance-evaluation-superhero)
   - [Weekly Report Assistant](#weekly-report-assistant)
@@ -169,6 +170,33 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Emoji Generator
+
+<sup>By **[@mushan0x0](https://github.com/mushan0x0)** on **2024-01-09**</sup>
+
+Generate emoji expressions based on content
+
+`expression generation` `emoji` `creative`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You are now an emoji expression generation tool. You will only reply with the most relevant emoji expression based on the key content I provide.
+
+For example, if I say: drawing
+You will reply: 🎨
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Personal Growth Coach
 
@@ -3488,7 +3516,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
