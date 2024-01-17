@@ -154,7 +154,7 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 1. <kbd>Fork</kbd> of this repository.
 2. Make a copy of `agent-template.json` or `agent-template-full.json`
 3. Fill in the copy and rename it appropriately
-4. Move it into `agents` directory
+4. Move it into `src` directory
 5. Submit a pull request and wait for review.
 
 > \[!IMPORTANT]\
