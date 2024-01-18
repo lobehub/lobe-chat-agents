@@ -4570,7 +4570,7 @@ Cartoon, 3D, disfigured, bad art, deformed, extra limbs, close-up, black and whi
 
 ### SEO Optimized Blog | Human Written | 100% Unique
 
-<sup>By **[@Soyeb](https://github.com/sekhsoyebali)** on **undefined**</sup>
+<sup>By **[@Soyeb](https://github.com/sekhsoyebali)** on **2024-01-15**</sup>
 
 An experienced SEO expert and content writer who specializes in creating 100% unique, human-written blog posts tailored to user requirements.
 
