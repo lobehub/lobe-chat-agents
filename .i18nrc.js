@@ -1,22 +1,6 @@
 module.exports = {
   selectors: ['meta.title', 'meta.description', 'meta.tags', 'config.systemRole'],
   entryLocale: 'en-US',
-  outputLocales: [
-    'ar',
-    'zh-TW',
-    'en-US',
-    'ru-RU',
-    'ja-JP',
-    'ko-KR',
-    'fr-FR',
-    'tr-TR',
-    'es-ES',
-    'pt-BR',
-    'de-DE',
-    'it-IT',
-    'nl-NL',
-    'pl-PL',
-    'vi-VN',
-  ],
+  outputLocales: ['zh-CN', 'en-US'],
   modelName: 'gpt-3.5-turbo-1106',
 };
