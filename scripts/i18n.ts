@@ -21,8 +21,8 @@ export const translateJSON = async (json, outputLocale, entryLocale = config.ent
     ),
     new HumanMessage(JSON.stringify(json)),
     {
-      response_format: { type: 'json_object' }
-    }
+      response_format: { type: 'json_object' },
+    },
   ]);
 
   return JSON.parse(res.content);
