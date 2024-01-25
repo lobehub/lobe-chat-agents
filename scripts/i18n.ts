@@ -19,11 +19,11 @@ export const translateJSON = async (json, outputLocale, entryLocale = config.ent
         `Keep the keys the same as the original file and make sure the output remains a valid i18n JSON file.`,
       ].join('\n'),
     ),
-    new HumanMessage(JSON.stringify(json)),
+    new HumanMessage(JSON.stringify(json))
+  ],
     {
       response_format: { type: 'json_object' },
-    },
-  ]);
+    });
 
   return JSON.parse(res.content);
 };
