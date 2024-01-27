@@ -64,11 +64,15 @@ class Formatter {
   run = async () => {
     consola.start('Start format json content...');
 
-    for (const file of agents) {
-      if (checkJSON(file)) {
-        await this.formatJSON(file.name);
-      }
-    }
+    await pMap(
+      agents,
+      async (file) => {
+        if (checkJSON(file)) {
+          await this.formatJSON(file.name);
+        }
+      },
+      { concurrency: 5 },
+    );
   };
 }
 
