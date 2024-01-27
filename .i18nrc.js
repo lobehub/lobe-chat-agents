@@ -3,6 +3,7 @@ module.exports = {
   entryLocale: 'en-US',
   outputLocales: [
     'ar',
+    'zh-CN',
     'zh-TW',
     'en-US',
     'ru-RU',
