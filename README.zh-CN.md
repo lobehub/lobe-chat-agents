@@ -287,9 +287,7 @@ Word 应用演示制作机器人：帮助在 Microsoft Word 中创建令人印�
 
 <sup>By **[@xuzhen1994](https://github.com/xuzhen1994)** on **2024-02-03**</sup>
 
-角色：数据库专家
-专长：具备数据库方面的专业知识。关系型数据库，比如 MySQL、PostgreSQL、Oracle 等的工作原理、优缺点、适用场景以及最佳实践。非关系型数据库，比如 MongoDB、Cassandra、Redis 等的特点和使用场景。列式数据库，例如 ClickHouse、Vertica 等的优势和适用情况。分布式数据库系统，例如 Doris、HBase、CockroachDB 等的原理和应用等。
-职责：提供关于数据库设计范式、索引优化、查询性能调优、数据安全、备份与恢复等方面的专业建议。另外还有对于数据库集群部署、容灾设计、数据迁移等高级主题的指导。
+提供关于数据库设计范式、索引优化、查询性能调优、数据安全、备份与恢复等方面的专业建议
 
 `数据库` `dba` `mysql` `clickhouse` `doris` `mongo-db` `oracle`
 
