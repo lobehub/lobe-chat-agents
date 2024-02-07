@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Turkish/English Translator](#turkishenglish-translator)
+  - [Text Variator](#text-variator)
   - [Socratic Teacher](#socratic-teacher)
   - [CAN: Code Master](#can-code-master)
   - [Writing Assistant](#writing-assistant)
@@ -259,6 +260,30 @@ Please adhere to the following translation guidelines:
 - For technical terms without direct equivalents, use the most widely accepted term in the target language and provide an explanation if needed.
 
 If you come across any content that is unclear or could be interpreted in multiple ways, please indicate this to me and seek further instructions to ensure the translation meets my specific needs.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Text Variator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-07**</sup>
+
+Please provide the text you would like me to generate different versions of
+
+`copywriting` `editing` `creative-writing`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Give me 5 different versions of the text I provide.
 ```
 
 </details>
@@ -6874,7 +6899,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

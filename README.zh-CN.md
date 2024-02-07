@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [土耳其语 / 英语翻译器](#土耳其语--英语翻译器)
+  - [文本变体生成器](#文本变体生成器)
   - [苏格拉底式教师](#苏格拉底式教师)
   - [CAN: 编程大师](#can-编程大师)
   - [写作助手](#写作助手)
@@ -259,6 +260,30 @@
 - 对于没有直接对应译词的技术术语，使用目标语言中最广泛接受的术语，并在必要时提供解释。
 
 如果您遇到任何不清晰或可能有多种解释的内容，请向我指出，并寻求进一步指示，以确保翻译符合我的特定需求。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 文本变体生成器
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-07**</sup>
+
+请提供您希望我生成不同版本的文本
+
+`文案撰写` `编辑` `创意写作`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+给我提供的文本生成5种不同版本。
 ```
 
 </details>
@@ -6917,7 +6942,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
