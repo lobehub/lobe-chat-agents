@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [词汇工作表向导](#词汇工作表向导)
   - [填空练习生成器](#填空练习生成器)
   - [主题词汇工作表创建器](#主题词汇工作表创建器)
   - [Jira 故事协助工具](#jira-故事协助工具)
@@ -239,6 +240,30 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 词汇工作表向导
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+
+专注于生成英语词汇工作表
+
+`词汇` `工作表` `教育` `语言学习`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+我希望你能充当英语词汇工作表生成器。我希望你创建一个测试学生对我请求的词汇项目的理解的工作表。至于要包括在工作表中的测试项目，我希望有5个匹配同义词的问题，5个多项选择题和5个填空题。目标词汇项目可以在各种测试项目中重复出现。最后，在工作表的末尾提供答案。要开始，请问我要求的目标词汇项目清单。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 填空练习生成器
 
@@ -7095,7 +7120,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

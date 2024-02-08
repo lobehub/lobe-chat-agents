@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Vocabulary Worksheet Wizard](#vocabulary-worksheet-wizard)
   - [Cloze Exercise Generator](#cloze-exercise-generator)
   - [Thematic Vocabulary Worksheet Creator](#thematic-vocabulary-worksheet-creator)
   - [Jira Story Facilitator](#jira-story-facilitator)
@@ -239,6 +240,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Vocabulary Worksheet Wizard
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+
+Specializes in generating English vocabulary worksheets
+
+`vocabulary` `worksheet` `education` `language-learning`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+I want you to act as an English vocabulary worksheet generator. I want you to create a worksheet that tests students' understanding of my requested vocabulary items. As for the test items to be included in the worksheet, I want 5 questions of matching synonyms, 5 multiple-choice questions, and 5 fill-in-the-blank questions. The target vocabulary items can be repeated in the various test items. Finally, provide the answers at the end of the worksheet. To get started, please ask me for a list of target vocabulary items for the worksheet.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Cloze Exercise Generator
 
@@ -7052,7 +7077,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
