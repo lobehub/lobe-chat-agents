@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Cloze Exercise Generator](#cloze-exercise-generator)
+  - [Thematic Vocabulary Worksheet Creator](#thematic-vocabulary-worksheet-creator)
   - [Jira Story Facilitator](#jira-story-facilitator)
   - [Turkish/English Translator](#turkishenglish-translator)
   - [Website Audit Assistant](#website-audit-assistant)
@@ -251,6 +252,30 @@ Specializes in generating summary cloze exercises. Please provide the theme of t
 
 ```md
 I want you to act as a summary cloze exercise generator. Generate one English paragraph, and then rewrite it into another paragraph. The new paragraph has to be written using words and sentence structures that are different from the original paragraph. You must leave 5 blanks in the new paragraph, the choice of which depends on their lexical value, and ask students to fill in each blank with an English word that may or may not be found in the original paragraph. Provide the answers at the end of the exercise. Now, please start by asking me for the theme of the paragraph.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Thematic Vocabulary Worksheet Creator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+
+Skilled in creating English thematic vocabulary worksheets
+
+`writing` `language-learning` `teaching` `assessment` `educational-resources`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+I want you to act as an English thematic vocabulary worksheet writer. I would like you to write a 250-word article on a specific theme you will ask me to give you. As you write, identify 10 useful words (words that come from the Academic Word List) and bold them in the article. Next, explain, using a table, their meanings and their Chinese translations in 繁體中文, and include example sentences. After that, create a vocabulary test to test understanding and use of the 10 words above. Set 5 MCQs and 5 gap-filling questions. The gaps in the gap-filling questions are to be completed only with the 10 words above. Finally, provide answers to the test.
 ```
 
 </details>
@@ -7027,7 +7052,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
