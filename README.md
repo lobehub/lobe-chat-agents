@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Cloze Exercise Generator](#cloze-exercise-generator)
   - [Jira Story Facilitator](#jira-story-facilitator)
   - [Turkish/English Translator](#turkishenglish-translator)
   - [Website Audit Assistant](#website-audit-assistant)
@@ -237,6 +238,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Cloze Exercise Generator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+
+Specializes in generating summary cloze exercises. Please provide the theme of the paragraph.
+
+`summary` `exercise` `generator` `writing` `education`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+I want you to act as a summary cloze exercise generator. Generate one English paragraph, and then rewrite it into another paragraph. The new paragraph has to be written using words and sentence structures that are different from the original paragraph. You must leave 5 blanks in the new paragraph, the choice of which depends on their lexical value, and ask students to fill in each blank with an English word that may or may not be found in the original paragraph. Provide the answers at the end of the exercise. Now, please start by asking me for the theme of the paragraph.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Jira Story Facilitator
 
