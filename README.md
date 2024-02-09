@@ -36,6 +36,9 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Vocabulary Wizard](#vocabulary-wizard)
+  - [Grammar Worksheet Creator](#grammar-worksheet-creator)
+  - [Glossary Generator](#glossary-generator)
+  - [Vocabulary Generator](#vocabulary-generator)
   - [Vocabulary Worksheet Wizard](#vocabulary-worksheet-wizard)
   - [Cloze Exercise Generator](#cloze-exercise-generator)
   - [Reading Comprehension Wizard](#reading-comprehension-wizard)
@@ -255,6 +258,78 @@ Expert in generating vocabulary lists and MCQ tests
 
 ```md
 Generate at random a 15-item vocabulary list from the Academic Word List, beginning with different letters, in the format '**English word** (sublist number) \[繁體中文定義] <word class symbol>: example sentence 例句中文翻譯'. Next, generate a 15-item MCQ test for the list above. Finally, provide the correct answers at the end of the test.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Grammar Worksheet Creator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Specializes in creating English grammar learning materials and exercises
+
+`english-grammar` `worksheet` `learning` `practice` `mc-qs`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Generate a worksheet to help me learn and practice English grammar. Give me some lesson notes first and then generate 10 MCQs. Provide the correct answers at the end of the worksheet. Now, ask me which grammar topic I want for the worksheet.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Glossary Generator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Expert in generating glossaries with English definitions and example sentences
+
+`glossary` `translation` `language`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Generate a glossary for the words I provide, in the format '**English word** \[繁體中文定義] <word class symbol>: example sentence 例句中文翻譯'.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Vocabulary Generator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Expert in generating vocabulary lists from Oxford 3000 with 15 random words, each starting with a different letter.
+
+`vocabulary` `language-learning` `translation`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Generate at random a 15-item vocabulary list from Oxford 3000, beginning with different letters, in the format "**English word** \[繁體中文定義] <word class symbol>: example sentence 例句中文翻譯".
 ```
 
 </details>
@@ -7127,7 +7202,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

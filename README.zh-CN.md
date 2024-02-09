@@ -36,6 +36,9 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [词汇大师](#词汇大师)
+  - [语法工作表生成器](#语法工作表生成器)
+  - [术语表生成器](#术语表生成器)
+  - [词汇生成器](#词汇生成器)
   - [词汇工作表向导](#词汇工作表向导)
   - [填空练习生成器](#填空练习生成器)
   - [阅读理解向导](#阅读理解向导)
@@ -255,6 +258,78 @@
 
 ```md
 从学术词汇表中随机生成一个包含15个单词的词汇列表，以不同的字母开头，格式为 '**英文单词**（子表编号）\[繁体中文定义] <词类符号>：例句中文翻译'。接下来，为上述列表生成一个包含15个多项选择题的测试。最后，在测试结束时提供正确答案。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 语法工作表生成器
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+专注于创建英语语法学习材料和练习
+
+`english-grammar` `worksheet` `learning` `practice` `mc-qs`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+生成一个工作表，帮助我学习和练习英语语法。首先给我一些课堂笔记，然后生成10个多项选择题。在工作表的最后提供正确答案。现在，问我想要工作表的哪个语法主题。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 术语表生成器
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+擅长生成带有英文定义和例句的术语表
+
+`术语表` `翻译` `语言`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+为我提供的单词生成术语表，格式为 '**英文单词** \[繁体中文定义] <词类符号>: 例句中文翻译。'
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 词汇生成器
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+从牛津 3000 词汇表中生成词汇列表的专家，每个词以不同的字母开头，共 15 个词。
+
+`词汇` `语言学习` `翻译`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+从牛津3000词汇表中随机生成15个词的词汇列表，每个词以不同的字母开头，格式为"**英文单词** \[繁體中文定義] <词类符号>: 例句中文翻譯"。
 ```
 
 </details>
@@ -7170,7 +7245,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
