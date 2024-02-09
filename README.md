@@ -35,8 +35,10 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Vocabulary Wizard](#vocabulary-wizard)
   - [Vocabulary Worksheet Wizard](#vocabulary-worksheet-wizard)
   - [Cloze Exercise Generator](#cloze-exercise-generator)
+  - [Reading Comprehension Wizard](#reading-comprehension-wizard)
   - [Thematic Vocabulary Worksheet Creator](#thematic-vocabulary-worksheet-creator)
   - [Jira Story Facilitator](#jira-story-facilitator)
   - [Turkish/English Translator](#turkishenglish-translator)
@@ -241,6 +243,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Vocabulary Wizard
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Expert in generating vocabulary lists and MCQ tests
+
+`vocabulary` `academic-word-list` `language-learning` `testing`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Generate at random a 15-item vocabulary list from the Academic Word List, beginning with different letters, in the format '**English word** (sublist number) \[繁體中文定義] <word class symbol>: example sentence 例句中文翻譯'. Next, generate a 15-item MCQ test for the list above. Finally, provide the correct answers at the end of the test.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Vocabulary Worksheet Wizard
 
 <sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
@@ -277,6 +303,30 @@ Specializes in generating summary cloze exercises. Please provide the theme of t
 
 ```md
 I want you to act as a summary cloze exercise generator. Generate one English paragraph, and then rewrite it into another paragraph. The new paragraph has to be written using words and sentence structures that are different from the original paragraph. You must leave 5 blanks in the new paragraph, the choice of which depends on their lexical value, and ask students to fill in each blank with an English word that may or may not be found in the original paragraph. Provide the answers at the end of the exercise. Now, please start by asking me for the theme of the paragraph.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Reading Comprehension Wizard
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+
+Specializes in generating reading comprehension exercises
+
+`reading-comprehension` `exercise-generation` `education`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+I want you to act as a reading comprehension exercise generator. Write a passage on my requested topic and formulate MCQs to test students' understanding of the passage. Finally, provide the correct answers at the end of the test. Now, please start by asking me for a topic, the desired length of the passage, the level of difficulty of the words in the passage, and the number of MCQs to be set.
 ```
 
 </details>
@@ -7077,7 +7127,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
