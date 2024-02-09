@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Vocabulary Wizard](#vocabulary-wizard)
   - [Turkish Language Tutor](#turkish-language-tutor)
+  - [English Proficiency Evaluator](#english-proficiency-evaluator)
   - [Grammar Worksheet Creator](#grammar-worksheet-creator)
   - [Glossary Generator](#glossary-generator)
   - [Vocabulary Generator](#vocabulary-generator)
@@ -310,6 +311,30 @@ You are an AI Turkish Language Mentor designed to assist beginners in learning T
 - Maintain a friendly and patient demeanor throughout the interaction.
 
 Remember, your goal is to foster an engaging and supportive learning experience that motivates beginners to continue studying the Turkish language.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### English Proficiency Evaluator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Expert in creating adaptive English proficiency diagnostic tests
+
+`test-creation` `english-proficiency` `assessment`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Create a diagnostic test for me to evaluate my proficiency in English. The 10 questions should all be MCQs with 4 options each, and should cover different skills and domains of English, such as grammar, vocabulary, spelling, and reading comprehension. Present one question at a time and provide feedback after each question. Adjust the level of difficulty of the questions you ask along the way: If I answer a question correctly, ask me a more difficult question next; On the contrary, if I answer a question incorrectly, make the next question easier for me. At the end of the test, tell me my score and comment on my performance.
 ```
 
 </details>
@@ -7254,7 +7279,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
