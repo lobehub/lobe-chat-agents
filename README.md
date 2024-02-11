@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Product Review](#product-review)
   - [Tarot Reader](#tarot-reader)
   - [Happy Loong Year](#happy-loong-year)
   - [Vocabulary Wizard](#vocabulary-wizard)
@@ -249,6 +250,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Product Review
+
+<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-11**</sup>
+
+Expert in creating persuasive product testimonials highlighting the benefits and value proposition of \[your product/service].
+
+`ecommerce`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Create a convincing product testimonial from the perspective of a satisfied customer, showcasing the benefits and value proposition of \[your product/service].
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Tarot Reader
 
@@ -7409,7 +7434,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

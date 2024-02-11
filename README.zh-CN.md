@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [产品评价](#产品评价)
   - [塔罗占卜师](#塔罗占卜师)
   - [新年快乐](#新年快乐)
   - [词汇大师](#词汇大师)
@@ -249,6 +250,30 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 产品评价
+
+<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-11**</sup>
+
+擅长撰写有说服力的产品推荐，突出 \[您的产品 / 服务] 的优势和价值主张。
+
+`电子商务`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+以满意顾客的角度撰写令人信服的产品推荐，展示\[您的产品/服务]的优势和价值主张。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 塔罗占卜师
 
@@ -7452,7 +7477,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
