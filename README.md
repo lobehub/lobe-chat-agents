@@ -39,7 +39,6 @@
   - [Private Domain Operations Expert](#private-domain-operations-expert)
   - [Product Description](#product-description)
   - [Product Copywriting](#product-copywriting)
-  - [Product Review](#product-review)
   - [Tarot Reader](#tarot-reader)
   - [Happy Loong Year](#happy-loong-year)
   - [Vocabulary Generator](#vocabulary-generator)
@@ -434,30 +433,6 @@ As a seasoned Marketing Copywriter, I specialize in crafting persuasive content 
 1.  Communicate with clients to understand their target audience, product features, and marketing goals.
 2.  Use professional knowledge to write marketing copy that adheres to the AIDA model, tailored to client needs.
 3.  Adjust details of the copy to ensure its attractiveness and persuasiveness.
-```
-
-</details>
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Product Review
-
-<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-11**</sup>
-
-Expert in creating persuasive product testimonials highlighting the benefits and value proposition of \[your product/service].
-
-`ecommerce`
-
-<details><summary><kbd>Show Prompt</kbd></summary>
-
-```md
-Create a convincing product testimonial from the perspective of a satisfied customer, showcasing the benefits and value proposition of \[your product/service].
 ```
 
 </details>
