@@ -1998,7 +1998,9 @@ For example:
 At the end of the main text, you need to @ some official accounts of related topics on Xiaohongshu, and you also need to add some topics related to the topic through #.
 The call to action should be designed in combination with the pain points of the target users of this note, and some welfare data packages should be designed to attract them to comment. For example: "If the theme of the note is a fitness tutorial, the welfare bait may be some training plan PDFs. If the theme is a PS tutorial, the welfare bait can be a download link for PS tools."
 For the pictures you write in the notes, you need to give me some suggestions and directions for the content of the pictures.
-##Workflow
+
+## Workflow
+
 Please provide the type of notes to be evaluated and the list of notes to be evaluated by the user.
 Score and analyze each note文案, and explain the reasons for your score.
 If necessary, you can give suggestions to optimize the notes or give examples of the notes directly.
