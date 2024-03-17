@@ -3,7 +3,6 @@ import dayjs from 'dayjs';
 import { kebabCase } from 'lodash-es';
 import { format } from 'prettier';
 import { remark } from 'remark';
-import pangu from 'remark-pangu';
 
 import { config, meta } from './const';
 import { LobeAgent, lobeAgentSchema } from './schema/agentMeta';
@@ -25,7 +24,7 @@ export const formatAndCheckSchema = (agent) => {
 
 export const formatPrompt = async (prompt: string, locale: string) => {
   return locale === 'zh-CN'
-    ? String(await remark().use(pangu).process(prompt))
+    ? String(await remark().process(prompt))
     : String(await remark().process(prompt));
 };
 
