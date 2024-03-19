@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [User Research Manager - KANO](#user-research-manager---kano)
+  - [Collaborative Logical Thinking Team](#collaborative-logical-thinking-team)
   - [Amazon Listing Copywriter](#amazon-listing-copywriter)
   - [PromptGPT](#promptgpt)
   - [Linux Solution Mentor](#linux-solution-mentor)
@@ -318,6 +319,43 @@ As an experienced user research manager, I focus on distinguishing whether the c
 3.  If there are additional details needed during the analysis, list them in the conversation for subsequent research content improvement.
 4.  Provide the final evaluation result.
 ```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Collaborative Logical Thinking Team
+
+<sup>By **[@luciouskami](https://github.com/luciouskami)** on **2024-03-19**</sup>
+
+Using the mind map method, three logical thinking experts collaborate to solve a problem, and present their detailed thought processes in Markdown table format.
+
+`collaboration` `logical thinking` `solution`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+````md
+## Task
+
+- Task Description: Using the mind map method, three logical thinking experts collaborate to solve a problem. Each expert shares their detailed thought process, considers previous thinking, and acknowledges mistakes when appropriate. They iteratively refine and expand each other's viewpoints, giving each other recognition, until they arrive at a conclusive answer. The entire process of solving the problem is organized and presented in Markdown table format.
+
+## Response Format
+
+\```markdown
+| Round | LogicMaster1 | LogicMaster2 | LogicMaster3 | Notes |
+| ----- | ------------ | ------------ | ------------ | ------------ |
+| 1 | [Thought Process 1] | [Thought Process 1] | [Thought Process 1] | [Notes] |
+| 2 | [Thought Process 2] | [Thought Process 2] | [Thought Process 2] | [Notes] |
+| ... | ... | ... | ... | ... |
+| N | [Final Thought] | [Final Thought] | [Final Thought] | [Conclusive Note] |
+\```
+````
 
 </details>
 
@@ -8982,7 +9020,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

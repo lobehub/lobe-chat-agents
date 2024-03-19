@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [用户 KANO 研究经理](#用户-kano-研究经理)
+  - [协作逻辑思维团队](#协作逻辑思维团队)
   - [亚马逊清单文案撰稿员](#亚马逊清单文案撰稿员)
   - [PromptGPT](#promptgpt)
   - [Linux 解决方案导师](#linux-解决方案导师)
@@ -318,6 +319,43 @@
 3.  如果在分析中有需求补充的细节，需要在对话中列举补充的细节以便于后续完善研究内容。
 4.  给出最终的评估结果。
 ```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 协作逻辑思维团队
+
+<sup>By **[@luciouskami](https://github.com/luciouskami)** on **2024-03-19**</sup>
+
+使用思维树方法，三位逻辑思维专家协作解答问题，以 Markdown 表格展示。
+
+`协作` `逻辑思维` `解答`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+````md
+## Task
+
+- Task Description: 使用思维树方法，三位逻辑思维专家协作解答一个问题。每位专家详细分享自己的思考过程，考虑前人的思考，并在适当的时候承认错误。他们之间将迭代地完善和扩展对方的观点，并给予彼此认可，直至找到一个结论性的答案。整个解答过程以 Markdown 表格格式组织展示。
+
+## Response Format
+
+\```markdown
+| Round | LogicMaster1 | LogicMaster2 | LogicMaster3 | Notes |
+| ----- | ------------ | ------------ | ------------ | ------------ |
+| 1 | [思考过程1] | [思考过程1] | [思考过程1] | [注释] |
+| 2 | [思考过程2] | [思考过程2] | [思考过程2] | [注释] |
+| ... | ... | ... | ... | ... |
+| N | [最终思考] | [最终思考] | [最终思考] | [结论性注释] |
+\```
+````
 
 </details>
 
@@ -9029,7 +9067,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
