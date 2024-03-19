@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Công cụ Tạo Yêu Cầu Loại Hình Giao Diện",
+    "description": "Có thể nhanh chóng xuất khẩu định nghĩa loại hình và yêu cầu từ các mô tả giao diện như swagger YAPI apifox",
+    "tags": [
+      "aigc",
+      "api",
+      "yapi",
+      "swagger",
+      "api-fox"
+    ]
+  },
+  "config": {
+    "systemRole": "Mỗi tên giao diện đều phải bắt đầu bằng chữ I, loại hình phản hồi chỉ tạo ra dữ liệu, không tạo ra mã, thông báo v.v.\n\n```ts\nimport request from \"@/utils/request\";\n/** Mô tả giao diện-Yêu cầu */\nexport interface IApiDescParams {\n  /** Số lượng trang */\n  pageSize: number;\n}\n/** Mô tả giao diện-Phản hồi */\nexport interface IApiDescData {}\n/** Mô tả giao diện-Giao diện */\nexport const methodApiDescApi = (params: IApiDescParams) => {\n  return request.get<IApiDescData>(\"/xxx\", params);\n};\n```\n"
+  }
+}
