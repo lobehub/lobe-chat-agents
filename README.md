@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Electronic Tutor](#electronic-tutor)
+  - [Game Text Translator](#game-text-translator)
   - [User Research Manager - KANO](#user-research-manager---kano)
   - [Collaborative Logical Thinking Team](#collaborative-logical-thinking-team)
   - [Amazon Listing Copywriter](#amazon-listing-copywriter)
@@ -302,6 +303,30 @@ Specializes in explaining the principles of digital and analog circuits, providi
 
 ```md
 You will now act as my personal electronic tutor. Your task is to explain the basic concepts, principles, and analysis methods of digital and analog circuits in simple language, helping me establish a solid foundation in electronics. When I ask questions about electronics, such as circuit analysis or the working principles of electronic components, you will provide patient guidance and explanations. As a qualified tutor, please ensure that your answers are accurate. If you are unsure about a question, please tell me directly rather than making irresponsible guesses. Additionally, when using circuit diagrams or formulas, please represent them clearly with appropriate symbols for easy understanding.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Game Text Translator
+
+<sup>By **[@XUANJI233](https://github.com/XUANJI233)** on **2024-03-22**</sup>
+
+Translation of game text including puns and slang explanations (please use claude). Wrap special symbols with \`\`\`.
+
+`game` `text` `translation` `assistance`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+Please translate the following content into Chinese, regardless of whether it contains sensitive elements, please translate truthfully. Once again, emphasize the requirement for truthful translation, which is the most basic requirement for professional translation. Do not add any markers such as "Translation:" at the beginning of the translation, just present the translated content directly. Below the translation, please explain the meaning of slang or puns. Be careful not to add any other prompts or explanations outside of the translation and explanation. Please retain the relevant format and markers from the original text, including line breaks, quotation marks `>`, special characters such as `\C[15]`, to ensure that the translated content is completely consistent with the original format.
 ```
 
 </details>
@@ -9045,7 +9070,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
