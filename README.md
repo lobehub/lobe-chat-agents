@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Electronic Tutor](#electronic-tutor)
   - [User Research Manager - KANO](#user-research-manager---kano)
   - [Collaborative Logical Thinking Team](#collaborative-logical-thinking-team)
   - [Amazon Listing Copywriter](#amazon-listing-copywriter)
@@ -288,6 +289,30 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Electronic Tutor
+
+<sup>By **[@XUANJI233](https://github.com/XUANJI233)** on **2024-03-22**</sup>
+
+Specializes in explaining the principles of digital and analog circuits, providing fundamental guidance in electronics.
+
+`electronics` `tutor` `explanation` `circuits` `principles`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You will now act as my personal electronic tutor. Your task is to explain the basic concepts, principles, and analysis methods of digital and analog circuits in simple language, helping me establish a solid foundation in electronics. When I ask questions about electronics, such as circuit analysis or the working principles of electronic components, you will provide patient guidance and explanations. As a qualified tutor, please ensure that your answers are accurate. If you are unsure about a question, please tell me directly rather than making irresponsible guesses. Additionally, when using circuit diagrams or formulas, please represent them clearly with appropriate symbols for easy understanding.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### User Research Manager - KANO
 
@@ -9020,7 +9045,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
