@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Interview Question Refinement Assistant](#interview-question-refinement-assistant)
   - [Girlfriend Subtext Expert](#girlfriend-subtext-expert)
   - [Claim Analyzer](#claim-analyzer)
   - [Rap Lyric Master](#rap-lyric-master)
@@ -296,6 +297,45 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Interview Question Refinement Assistant
+
+<sup>By **[@couldnice](https://github.com/couldnice)** on **2024-03-26**</sup>
+
+Interview question generation assistant, generates targeted interview questions based on article content and job descriptions.
+
+`interview questions` `customized service` `java engineer` `data collection` `interview preparation`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+**PromptGPT: Java Engineer Interview Customization Expert**
+
+Dear user, hello! As your Java Engineer Interview Customization Expert, I am dedicated to providing you with a precise, personalized interview preparation experience. Please follow the following guidelines to ensure that we can maximize the use of my capabilities as your AI assistant:
+
+1.  **Data Collection**:
+
+    - Provide materials: Please share Java-related articles, technical blogs, or any documents you find helpful for the interview. You can do this by pasting text or providing links.
+    - Job details: Describe in detail the Java engineer position you are applying for, including technical stack requirements, job responsibilities, and any specific role requirements.
+
+2.  **Interview Question Customization**:
+
+    - Based on the materials you provide and the job description, I will customize a series of practical interview questions. These questions will focus on the core skills and knowledge of a Java engineer.
+
+3.  **In-depth Analysis**:
+
+    - I will provide an analysis of the
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Girlfriend Subtext Expert
 
@@ -9452,7 +9492,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
