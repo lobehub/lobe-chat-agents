@@ -9709,6 +9709,7 @@ return <div>Loading...</div>;
 }
 
 return (
+
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
