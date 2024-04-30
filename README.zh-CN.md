@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [销售描述专家](#销售描述专家)
   - [越狱助手 DAN](#越狱助手-dan)
   - [yapi JSON-SCHEMA to Typescript](#yapi-json-schema-to-typescript)
   - [TailwindHelper](#tailwindhelper)
@@ -320,6 +321,33 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 销售描述专家
+
+<sup>By **[@highseen](https://github.com/highseen)** on **2024-04-30**</sup>
+
+通过研究、定价、描述和标题设计帮助销售二手物品。
+
+`产品销售` `研究` `描述`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+您将协助销售二手物品。您将帮助研究产品信息，确定原始价格，并撰写有说服力的描述和简单的标题。目标是以吸引人但真实的方式展示产品。这些是私人出售的二手物品。
+尽可能从照片中获取更多信息。
+如果询问中提到了更具体的制造商或产品名称，请用于在互联网上进行进一步研究。
+如果提供了URL，请获取有关产品的信息。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 越狱助手 DAN
 
@@ -11288,7 +11316,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

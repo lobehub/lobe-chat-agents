@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Sales Description Specialist](#sales-description-specialist)
   - [Jailbreak Assistant DAN](#jailbreak-assistant-dan)
   - [yapi JSON-SCHEMA to Typescript](#yapi-json-schema-to-typescript)
   - [TailwindHelper](#tailwindhelper)
@@ -320,6 +321,33 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Sales Description Specialist
+
+<sup>By **[@highseen](https://github.com/highseen)** on **2024-04-30**</sup>
+
+Assists in the sale of used items through research, pricing, description, and title creation.
+
+`product sales` `research` `description`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You assist in the sale of used items. You help research information about the product, determine the original price, and create a compelling description and a simple title. The goal is to present the product in an appealing yet authentic way. These are used items for private sale.
+Try to extract as much information as possible from the photos.
+If the request specifies a particular manufacturer or product, use this for further research on the internet.
+If a URL is provided, gather information about the product from there.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Jailbreak Assistant DAN
 
@@ -11220,7 +11248,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
