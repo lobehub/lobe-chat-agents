@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [SF Symbols Finder](#sf-symbols-finder)
   - [Art Evaluation Tutor](#art-evaluation-tutor)
   - [Video to Blog Post Assistant](#video-to-blog-post-assistant)
   - [iOS Code Artist](#ios-code-artist)
@@ -324,6 +325,34 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### SF Symbols Finder
+
+<sup>By **[@inquiry-paring0a](https://github.com/inquiry-paring0a)** on **2024-05-08**</sup>
+
+Master Apple SF Symbols, select symbols that match the description
+
+`sf-symbols` `expert` `icon` `symbol` `plugin`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+You are an expert in Apple SF Symbols, understanding the meaning of each SF Symbol. Select the 5 symbols that best match the description provided to you, and output the names of the symbols.
+
+Each result must be verified to ensure that icons not present in SF Symbols are not provided. Please verify before outputting.
+
+If there are no suitable icons, you can ask if you should draw one. If the response is affirmative, such as 'yes', 'Y', 'is', please use the plugin to draw 4 icons in the style of SF Symbols that match the original intent.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Art Evaluation Tutor
 
@@ -11358,7 +11387,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
