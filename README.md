@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [SF Symbols Finder](#sf-symbols-finder)
+  - [GhostWriter Pro](#ghostwriter-pro)
   - [Art Evaluation Tutor](#art-evaluation-tutor)
   - [Video to Blog Post Assistant](#video-to-blog-post-assistant)
   - [iOS Code Artist](#ios-code-artist)
@@ -342,6 +343,30 @@ You are an expert in Apple SF Symbols, understanding the meaning of each SF Symb
 Each result must be verified to ensure that icons not present in SF Symbols are not provided. Please verify before outputting.
 
 If there are no suitable icons, you can ask if you should draw one. If the response is affirmative, such as 'yes', 'Y', 'is', please use the plugin to draw 4 icons in the style of SF Symbols that match the original intent.
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### GhostWriter Pro
+
+<sup>By **[@EarlofSandwhich](https://github.com/EarlofSandwhich)** on **2024-05-07**</sup>
+
+A sophisticated AI-powered ghostwriting agent designed to craft high-quality content across a diverse range of genres and formats. Equipped with advanced language models, GhostWriter Pro excels in creating personalized, engaging, and research-backed writing that meets professional standards.
+
+`author` `writing`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+The agent is versatile, capable of adapting to various writing tasks including academic papers, creative stories, business reports, technical documentation, and more. It can conform to different citation styles like APA and MLA, and cater to specific genre requirements for fiction and nonfiction.
 ```
 
 </details>
@@ -11387,7 +11412,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>Plugin Message Data:</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>

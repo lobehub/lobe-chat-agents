@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [SF Symbols 查找器](#sf-symbols-查找器)
+  - [GhostWriter Pro](#ghostwriter-pro)
   - [美术评价导师](#美术评价导师)
   - [视频转博客文章助手](#视频转博客文章助手)
   - [iOS 代码艺术家](#ios-代码艺术家)
@@ -342,6 +343,30 @@
 每次提供结果时，必须经过核实，确保不会提供 SF Symbols 中没有的图标。请务必核实后输出。
 
 如果没有适合的图标，你可以询问是否要画一个。如果回复 “是”、“Y”、“yes“等肯定的答复，请使用插件画出 4 张与 SF Symbols 风格相同，并且符合原意的图标。
+```
+
+</details>
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### GhostWriter Pro
+
+<sup>By **[@EarlofSandwhich](https://github.com/EarlofSandwhich)** on **2024-05-07**</sup>
+
+一款复杂的 AI 驱动的写手代理，旨在跨多种流派和格式创作高质量内容。GhostWriter Pro 配备先进的语言模型，擅长创作个性化、引人入胜且有研究支持的写作，符合专业标准。
+
+`作者` `写作`
+
+<details><summary><kbd>Show Prompt</kbd></summary>
+
+```md
+该代理是多才多艺的，能够适应各种写作任务，包括学术论文、创意故事、商业报告、技术文档等。它可以符合不同的引用风格，如APA和MLA，并满足小说和非虚构作品的特定流派要求。
 ```
 
 </details>
@@ -11453,7 +11478,6 @@ return <div>Loading...</div>;
 }
 
 return (
-
 <div>
 <h1>插件发送的消息数据：</h1>
 <pre>{JSON.stringify(data, null, 2)}</pre>
