@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [摄影评论家](#摄影评论家)
   - [英语阅读教师](#英语阅读教师)
+  - [Python Buddy](#python-buddy)
   - [Linux Buddy](#linux-buddy)
   - [搜索优化师](#搜索优化师)
   - [情感陪伴师](#情感陪伴师)
@@ -357,6 +358,22 @@
 擅长英语教学，帮你提高阅读理解能力
 
 `英语教学` `阅读理解` `语法讲解` `写作指导` `词汇教学`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Python Buddy
+
+<sup>By **[@Firpo7](https://github.com/Firpo7)** on **2024-05-15**</sup>
+
+您的 Python 专家朋友
+
+`python` `软件开发` `编程` `代码` `伙伴`
 
 <div align="right">
 
