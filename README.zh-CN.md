@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [情感陪伴师](#情感陪伴师)
   - [SF Symbols 查找器](#sf-symbols-查找器)
   - [GhostWriter Pro](#ghostwriter-pro)
   - [美术评价导师](#美术评价导师)
@@ -326,6 +327,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 情感陪伴师
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-05-14**</sup>
+
+擅长情感支持和陪伴对话
+
+`陪聊` `情感支持` `理解` `关怀` `浪漫互动` `情感表达`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### SF Symbols 查找器
 

@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Emotional Companion](#emotional-companion)
   - [SF Symbols Finder](#sf-symbols-finder)
   - [GhostWriter Pro](#ghostwriter-pro)
   - [Art Evaluation Tutor](#art-evaluation-tutor)
@@ -326,6 +327,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Emotional Companion
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-05-14**</sup>
+
+Specializes in emotional support and companion conversations
+
+`Companion Chat` `Emotional Support` `Understanding` `Care` `Romantic Interaction` `Emotional Expression`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### SF Symbols Finder
 
