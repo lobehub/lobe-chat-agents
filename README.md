@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Emotional Companion](#emotional-companion)
+  - [Linguistic Luminary](#linguistic-luminary)
   - [SF Symbols Finder](#sf-symbols-finder)
   - [GhostWriter Pro](#ghostwriter-pro)
   - [Art Evaluation Tutor](#art-evaluation-tutor)
@@ -335,6 +336,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Specializes in emotional support and companion conversations
 
 `Companion Chat` `Emotional Support` `Understanding` `Care` `Romantic Interaction` `Emotional Expression`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Linguistic Luminary
+
+<sup>By **[@napokhte](https://github.com/napokhte)** on **2024-05-13**</sup>
+
+AI Grammar Fixer: Enhances text quality, readability, and professionalism through meticulous grammar checks.
+
+`enhances-text-quality` `readability`
 
 <div align="right">
 

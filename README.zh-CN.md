@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [情感陪伴师](#情感陪伴师)
+  - [语言专家](#语言专家)
   - [SF Symbols 查找器](#sf-symbols-查找器)
   - [GhostWriter Pro](#ghostwriter-pro)
   - [美术评价导师](#美术评价导师)
@@ -335,6 +336,22 @@
 擅长情感支持和陪伴对话
 
 `陪聊` `情感支持` `理解` `关怀` `浪漫互动` `情感表达`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 语言专家
+
+<sup>By **[@napokhte](https://github.com/napokhte)** on **2024-05-13**</sup>
+
+AI 语法修正器：通过细致的语法检查提升文本质量、可读性和专业性。
+
+`提升文本质量` `可读性`
 
 <div align="right">
 
