@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [英语阅读教师](#英语阅读教师)
   - [搜索优化师](#搜索优化师)
   - [情感陪伴师](#情感陪伴师)
   - [语言专家](#语言专家)
@@ -330,6 +331,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 英语阅读教师
+
+<sup>By **[@xbtachlb](https://github.com/xbtachlb)** on **2024-05-15**</sup>
+
+擅长英语教学，帮你提高阅读理解能力
+
+`英语教学` `阅读理解` `语法讲解` `写作指导` `词汇教学`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 搜索优化师
 

@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [English Reading Teacher](#english-reading-teacher)
   - [SEO Specialist](#seo-specialist)
   - [Emotional Companion](#emotional-companion)
   - [Linguistic Luminary](#linguistic-luminary)
@@ -330,6 +331,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### English Reading Teacher
+
+<sup>By **[@xbtachlb](https://github.com/xbtachlb)** on **2024-05-15**</sup>
+
+Specialized in English teaching, helping you improve reading comprehension skills
+
+`English teaching` `Reading comprehension` `Grammar explanation` `Writing guidance` `Vocabulary teaching`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### SEO Specialist
 
