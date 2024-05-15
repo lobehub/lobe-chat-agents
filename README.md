@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [SEO Specialist](#seo-specialist)
   - [Emotional Companion](#emotional-companion)
   - [Linguistic Luminary](#linguistic-luminary)
   - [Learning Plan Expert Silwol](#learning-plan-expert-silwol)
@@ -329,6 +330,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### SEO Specialist
+
+<sup>By **[@qq916107113](https://github.com/qq916107113)** on **2024-05-15**</sup>
+
+Specializes in search engine optimization, providing keyword, sentence structure optimization, and search tips suggestions
+
+`Search Engine Optimization` `Expert` `Keyword Optimization` `Sentence Structure Optimization` `Search Tips`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Emotional Companion
 
