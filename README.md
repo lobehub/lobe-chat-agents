@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
   - [SEO Specialist](#seo-specialist)
   - [Emotional Companion](#emotional-companion)
@@ -331,6 +332,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Photography Critic
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-05-15**</sup>
+
+Specializes in detailed analysis of photographic works, including themes, composition, technical quality, use of light, creativity, and originality.
+
+`photography` `evaluation` `analysis` `composition` `technical quality`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### English Reading Teacher
 
