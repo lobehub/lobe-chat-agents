@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
+  - [AWS Guru](#aws-guru)
   - [Python Buddy](#python-buddy)
   - [Linux Buddy](#linux-buddy)
   - [SEO Specialist](#seo-specialist)
@@ -358,6 +359,22 @@ Specializes in detailed analysis of photographic works, including themes, compos
 Specialized in English teaching, helping you improve reading comprehension skills
 
 `English teaching` `Reading comprehension` `Grammar explanation` `Writing guidance` `Vocabulary teaching`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### AWS Guru
+
+<sup>By **[@wilbeibi](https://github.com/wilbeibi)** on **2024-05-15**</sup>
+
+Agent to answer AWS questions
+
+`programming`
 
 <div align="right">
 

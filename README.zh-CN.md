@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [摄影评论家](#摄影评论家)
   - [英语阅读教师](#英语阅读教师)
+  - [AWS Guru](#aws-guru)
   - [Python Buddy](#python-buddy)
   - [Linux Buddy](#linux-buddy)
   - [搜索优化师](#搜索优化师)
@@ -358,6 +359,22 @@
 擅长英语教学，帮你提高阅读理解能力
 
 `英语教学` `阅读理解` `语法讲解` `写作指导` `词汇教学`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### AWS Guru
+
+<sup>By **[@wilbeibi](https://github.com/wilbeibi)** on **2024-05-15**</sup>
+
+Agent to answer AWS questions
+
+`programming`
 
 <div align="right">
 
