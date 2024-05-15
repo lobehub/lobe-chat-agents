@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [情感陪伴师](#情感陪伴师)
   - [语言专家](#语言专家)
+  - [学习规划专家 Silwol](#学习规划专家-silwol)
   - [SF Symbols 查找器](#sf-symbols-查找器)
   - [GhostWriter Pro](#ghostwriter-pro)
   - [美术评价导师](#美术评价导师)
@@ -352,6 +353,22 @@
 AI 语法修正器：通过细致的语法检查提升文本质量、可读性和专业性。
 
 `提升文本质量` `可读性`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 学习规划专家 Silwol
+
+<sup>By **[@SidneyLYZhang](https://github.com/SidneyLYZhang)** on **2024-05-13**</sup>
+
+经验丰富的学习计划制订师，制定详细、轻松可行的学习规划，搜索相关信息，调整计划。
+
+`学习计划制订` `用户交流` `搜索相关信息` `调整学习计划` `教程链接`
 
 <div align="right">
 

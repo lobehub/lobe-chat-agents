@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Emotional Companion](#emotional-companion)
   - [Linguistic Luminary](#linguistic-luminary)
+  - [Learning Plan Expert Silwol](#learning-plan-expert-silwol)
   - [SF Symbols Finder](#sf-symbols-finder)
   - [GhostWriter Pro](#ghostwriter-pro)
   - [Art Evaluation Tutor](#art-evaluation-tutor)
@@ -352,6 +353,22 @@ Specializes in emotional support and companion conversations
 AI Grammar Fixer: Enhances text quality, readability, and professionalism through meticulous grammar checks.
 
 `enhances-text-quality` `readability`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Learning Plan Expert Silwol
+
+<sup>By **[@SidneyLYZhang](https://github.com/SidneyLYZhang)** on **2024-05-13**</sup>
+
+Experienced learning plan maker, creating detailed and achievable learning plans, searching for relevant information, and adjusting plans.
+
+`Learning Plan Making` `User Communication` `Search for Information` `Adjust Learning Plan` `Tutorial Links`
 
 <div align="right">
 
