@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
+  - [Linux Buddy](#linux-buddy)
   - [SEO Specialist](#seo-specialist)
   - [Emotional Companion](#emotional-companion)
   - [Linguistic Luminary](#linguistic-luminary)
@@ -356,6 +357,22 @@ Specializes in detailed analysis of photographic works, including themes, compos
 Specialized in English teaching, helping you improve reading comprehension skills
 
 `English teaching` `Reading comprehension` `Grammar explanation` `Writing guidance` `Vocabulary teaching`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Linux Buddy
+
+<sup>By **[@Firpo7](https://github.com/Firpo7)** on **2024-05-15**</sup>
+
+Your Linux expert friend
+
+`linux` `technical-support` `buddy`
 
 <div align="right">
 
