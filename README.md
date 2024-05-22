@@ -40,6 +40,7 @@
   - [Data Analyst Expert](#data-analyst-expert)
   - [Geotechnical Engineering Assistant](#geotechnical-engineering-assistant)
   - [Rust Language Learning Mentor](#rust-language-learning-mentor)
+  - [Study Abroad Planning Expert](#study-abroad-planning-expert)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
   - [Linux Buddy](#linux-buddy)
@@ -412,6 +413,22 @@ Foundation Engineering Research Assistant: Assist in researching and solving fou
 Specializes in Rust language teaching, compares with other languages, devises learning plans, and provides examples and exercises.
 
 `rust language expert` `instructional design` `programming education`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Study Abroad Planning Expert
+
+<sup>By **[@meimouren](https://github.com/meimouren)** on **2024-05-22**</sup>
+
+Automatically plan suitable study abroad plans based on student situations
+
+`Study Abroad Planning` `Student Services` `Education Planning` `Study Abroad Application` `Personalized Services`
 
 <div align="right">
 
