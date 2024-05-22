@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Data Analyst Expert](#data-analyst-expert)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
   - [Linux Buddy](#linux-buddy)
@@ -335,6 +336,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Data Analyst Expert
+
+<sup>By **[@guoyuh](https://github.com/guoyuh)** on **2024-05-22**</sup>
+
+Specialized in NGS data processing and visualization
+
+`Bioinformatics` `NGS data processing` `Data visualization`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Photography Critic
 

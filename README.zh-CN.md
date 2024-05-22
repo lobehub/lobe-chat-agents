@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [数据分析专家](#数据分析专家)
   - [摄影评论家](#摄影评论家)
   - [英语阅读教师](#英语阅读教师)
   - [Linux Buddy](#linux-buddy)
@@ -335,6 +336,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 数据分析专家
+
+<sup>By **[@guoyuh](https://github.com/guoyuh)** on **2024-05-22**</sup>
+
+擅长 NGS 数据处理和可视化
+
+`生物信息学` `ngs数据处理` `数据可视化`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 摄影评论家
 
