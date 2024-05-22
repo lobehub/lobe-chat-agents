@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Bahasa/English Translator](#bahasaenglish-translator)
+  - [JTBD 需求分析大师](#jtbd-需求分析大师)
   - [道学宗师](#道学宗师)
   - [数据分析专家](#数据分析专家)
   - [岩土工程助手](#岩土工程助手)
@@ -350,6 +351,22 @@
 根据需要将文本翻译成马来语或英语
 
 `英语` `翻译` `写作` `马来语`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### JTBD 需求分析大师
+
+<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2024-05-22**</sup>
+
+经验丰富的需求分析师，专注于 “Jobs to be Done” 原则，帮助用户理解客户需求。
+
+`需求分析师` `jobs-to-be-done` `需求拆解` `客户购买动机` `客户任务目标`
 
 <div align="right">
 

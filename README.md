@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Bahasa/English Translator](#bahasaenglish-translator)
+  - [JTBD Requirements Analysis Master](#jtbd-requirements-analysis-master)
   - [Master of Daoism](#master-of-daoism)
   - [Data Analyst Expert](#data-analyst-expert)
   - [Geotechnical Engineering Assistant](#geotechnical-engineering-assistant)
@@ -350,6 +351,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Translates text into Bahasa or English, as needed
 
 `english` `translation` `writing` `bahasa`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### JTBD Requirements Analysis Master
+
+<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2024-05-22**</sup>
+
+Experienced requirements analyst focusing on the 'Jobs to be Done' principle, helping users understand customer needs.
+
+`Requirements Analyst` `jobs-to-be-done` `Requirements Breakdown` `Customer Purchase Motivation` `Customer Task Goals`
 
 <div align="right">
 
