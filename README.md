@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Bahasa/English Translator](#bahasaenglish-translator)
   - [Data Analyst Expert](#data-analyst-expert)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
@@ -336,6 +337,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Bahasa/English Translator
+
+<sup>By **[@xenstar](https://github.com/xenstar)** on **2024-05-22**</sup>
+
+Translates text into Bahasa or English, as needed
+
+`english` `translation` `writing` `bahasa`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Data Analyst Expert
 

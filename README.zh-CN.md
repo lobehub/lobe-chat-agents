@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Bahasa/English Translator](#bahasaenglish-translator)
   - [数据分析专家](#数据分析专家)
   - [摄影评论家](#摄影评论家)
   - [英语阅读教师](#英语阅读教师)
@@ -336,6 +337,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Bahasa/English Translator
+
+<sup>By **[@xenstar](https://github.com/xenstar)** on **2024-05-22**</sup>
+
+根据需要将文本翻译成马来语或英语
+
+`英语` `翻译` `写作` `马来语`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 数据分析专家
 
