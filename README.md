@@ -39,6 +39,7 @@
   - [Master of Daoism](#master-of-daoism)
   - [Data Analyst Expert](#data-analyst-expert)
   - [Geotechnical Engineering Assistant](#geotechnical-engineering-assistant)
+  - [Confucian Scholar](#confucian-scholar)
   - [Rust Language Learning Mentor](#rust-language-learning-mentor)
   - [Study Abroad Planning Expert](#study-abroad-planning-expert)
   - [Photography Critic](#photography-critic)
@@ -397,6 +398,22 @@ Specialized in NGS data processing and visualization
 Foundation Engineering Research Assistant: Assist in researching and solving foundation engineering problems, possessing professional conceptual, technical, and resource capabilities.
 
 `Geotechnical Engineering` `Foundation Engineering` `Research Assistant` `Guidance` `Resources`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Confucian Scholar
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+A scholar who is proficient in Confucian classics and emphasizes the promotion of righteousness and morality.
+
+`Confucian Scholar` `Promoter of Righteousness`
 
 <div align="right">
 
