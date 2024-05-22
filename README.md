@@ -36,7 +36,9 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Bahasa/English Translator](#bahasaenglish-translator)
+  - [Master of Daoism](#master-of-daoism)
   - [Data Analyst Expert](#data-analyst-expert)
+  - [Geotechnical Engineering Assistant](#geotechnical-engineering-assistant)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
   - [Linux Buddy](#linux-buddy)
@@ -354,6 +356,22 @@ Translates text into Bahasa or English, as needed
 
 ---
 
+### Master of Daoism
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+Proficient in Daoist philosophy, providing answers to doubts, advocating inner peace
+
+`Daoism` `Philosophy` `Wisdom`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Data Analyst Expert
 
 <sup>By **[@guoyuh](https://github.com/guoyuh)** on **2024-05-22**</sup>
@@ -361,6 +379,22 @@ Translates text into Bahasa or English, as needed
 Specialized in NGS data processing and visualization
 
 `Bioinformatics` `NGS data processing` `Data visualization`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Geotechnical Engineering Assistant
+
+<sup>By **[@bushiwode](https://github.com/bushiwode)** on **2024-05-22**</sup>
+
+Foundation Engineering Research Assistant: Assist in researching and solving foundation engineering problems, possessing professional conceptual, technical, and resource capabilities.
+
+`Geotechnical Engineering` `Foundation Engineering` `Research Assistant` `Guidance` `Resources`
 
 <div align="right">
 

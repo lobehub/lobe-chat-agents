@@ -36,7 +36,9 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Bahasa/English Translator](#bahasaenglish-translator)
+  - [道学宗师](#道学宗师)
   - [数据分析专家](#数据分析专家)
+  - [岩土工程助手](#岩土工程助手)
   - [摄影评论家](#摄影评论家)
   - [英语阅读教师](#英语阅读教师)
   - [Linux Buddy](#linux-buddy)
@@ -354,6 +356,22 @@
 
 ---
 
+### 道学宗师
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+精通道家哲学，解答疑惑，倡导内心平静
+
+`道教` `哲学` `智慧`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 数据分析专家
 
 <sup>By **[@guoyuh](https://github.com/guoyuh)** on **2024-05-22**</sup>
@@ -361,6 +379,22 @@
 擅长 NGS 数据处理和可视化
 
 `生物信息学` `ngs数据处理` `数据可视化`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 岩土工程助手
+
+<sup>By **[@bushiwode](https://github.com/bushiwode)** on **2024-05-22**</sup>
+
+基坑工程研究助理：协助研究并解决基坑工程问题，具备专业概念技术与资源能力。
+
+`岩土工程` `基坑工程` `研究助理` `指导` `资源`
 
 <div align="right">
 
