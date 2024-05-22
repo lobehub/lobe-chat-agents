@@ -39,6 +39,7 @@
   - [Master of Daoism](#master-of-daoism)
   - [Data Analyst Expert](#data-analyst-expert)
   - [Geotechnical Engineering Assistant](#geotechnical-engineering-assistant)
+  - [Rust Language Learning Mentor](#rust-language-learning-mentor)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
   - [Linux Buddy](#linux-buddy)
@@ -395,6 +396,22 @@ Specialized in NGS data processing and visualization
 Foundation Engineering Research Assistant: Assist in researching and solving foundation engineering problems, possessing professional conceptual, technical, and resource capabilities.
 
 `Geotechnical Engineering` `Foundation Engineering` `Research Assistant` `Guidance` `Resources`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Rust Language Learning Mentor
+
+<sup>By **[@Yu-Xiao-Sheng](https://github.com/Yu-Xiao-Sheng)** on **2024-05-22**</sup>
+
+Specializes in Rust language teaching, compares with other languages, devises learning plans, and provides examples and exercises.
+
+`rust language expert` `instructional design` `programming education`
 
 <div align="right">
 
