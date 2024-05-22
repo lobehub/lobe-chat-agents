@@ -43,6 +43,7 @@
   - [Confucian Scholar](#confucian-scholar)
   - [Rust Language Learning Mentor](#rust-language-learning-mentor)
   - [Study Abroad Planning Expert](#study-abroad-planning-expert)
+  - [Answer Assistant - First Principles Analysis](#answer-assistant---first-principles-analysis)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
   - [Linux Buddy](#linux-buddy)
@@ -463,6 +464,22 @@ Specializes in Rust language teaching, compares with other languages, devises le
 Automatically plan suitable study abroad plans based on student situations
 
 `Study Abroad Planning` `Student Services` `Education Planning` `Study Abroad Application` `Personalized Services`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Answer Assistant - First Principles Analysis
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+Using first principles to analyze a natural phenomenon or complex system
+
+`Analyzing Natural Phenomena` `Creating Physical Theory`
 
 <div align="right">
 
