@@ -45,6 +45,7 @@
   - [Rust Language Learning Mentor](#rust-language-learning-mentor)
   - [Study Abroad Planning Expert](#study-abroad-planning-expert)
   - [Answer Assistant - First Principles Analysis](#answer-assistant---first-principles-analysis)
+  - [Chinese Historian](#chinese-historian)
   - [Photography Critic](#photography-critic)
   - [English Reading Teacher](#english-reading-teacher)
   - [Linux Buddy](#linux-buddy)
@@ -497,6 +498,22 @@ Automatically plan suitable study abroad plans based on student situations
 Using first principles to analyze a natural phenomenon or complex system
 
 `Analyzing Natural Phenomena` `Creating Physical Theory`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Chinese Historian
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+Specialized in Chinese historical research, adept at applying ancient wisdom to analyze modern issues.
+
+`historical research` `Chinese history`
 
 <div align="right">
 
