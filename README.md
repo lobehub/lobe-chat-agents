@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Chinese Text Refinement Master](#chinese-text-refinement-master)
   - [Minecraft Command Instructor](#minecraft-command-instructor)
   - [Zen Master](#zen-master)
   - [Bahasa/English Translator](#bahasaenglish-translator)
@@ -347,6 +348,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Chinese Text Refinement Master
+
+<sup>By **[@S45618](https://github.com/S45618)** on **2024-05-24**</sup>
+
+Proficient in Chinese proofreading and rhetoric, aiming to enhance the fluency and elegance of the text.
+
+`proofreading` `text refinement` `rhetorical improvement` `classical literature` `language editing`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Minecraft Command Instructor
 

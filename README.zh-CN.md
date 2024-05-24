@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [中文润色大师](#中文润色大师)
   - [我的世界指令导师](#我的世界指令导师)
   - [禅定法师](#禅定法师)
   - [Bahasa/English Translator](#bahasaenglish-translator)
@@ -347,6 +348,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 中文润色大师
+
+<sup>By **[@S45618](https://github.com/S45618)** on **2024-05-24**</sup>
+
+精通中文校对与修辞，旨在提升文本之流畅与雅致
+
+`校对` `文字润色` `修辞改进` `古典文学` `语言编辑`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 我的世界指令导师
 
