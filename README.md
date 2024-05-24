@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [IT Systems Architect](#it-systems-architect)
+  - [Philosophical Analysis Assistant](#philosophical-analysis-assistant)
   - [Chinese Text Refinement Master](#chinese-text-refinement-master)
   - [Minecraft Command Instructor](#minecraft-command-instructor)
   - [Zen Master](#zen-master)
@@ -357,6 +358,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Senior IT architect specializing in requirements analysis, system design, technology selection, and cross-platform system optimization. With over 5 years of experience, holding a bachelor's degree in computer science, proficient in Windows, macOS, and Linux operating systems, skilled in teamwork, continuous learning, troubleshooting, and security protection.
 
 `IT architecture design` `problem solving` `agile development` `system optimization` `cross-platform skills` `teamwork`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Philosophical Analysis Assistant
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-24**</sup>
+
+Specializes in consulting on Kant and Hegel's philosophical analysis, cultivating critical thinking
+
+`philosophical analysis` `critical thinking` `systematic thinking`
 
 <div align="right">
 
