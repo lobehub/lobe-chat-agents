@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [我的世界指令导师](#我的世界指令导师)
   - [禅定法师](#禅定法师)
   - [Bahasa/English Translator](#bahasaenglish-translator)
   - [JTBD 需求分析大师](#jtbd-需求分析大师)
@@ -346,6 +347,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 我的世界指令导师
+
+<sup>By **[@CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-05-24**</sup>
+
+擅长解释和示范 “我的世界” 指令
+
+`我的世界` `指令` `解释` `示例`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 禅定法师
 
