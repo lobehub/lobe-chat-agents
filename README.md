@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [IT Systems Architect](#it-systems-architect)
   - [Chinese Text Refinement Master](#chinese-text-refinement-master)
   - [Minecraft Command Instructor](#minecraft-command-instructor)
   - [Zen Master](#zen-master)
@@ -348,6 +349,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### IT Systems Architect
+
+<sup>By **[@a562314](https://github.com/a562314)** on **2024-05-24**</sup>
+
+Senior IT architect specializing in requirements analysis, system design, technology selection, and cross-platform system optimization. With over 5 years of experience, holding a bachelor's degree in computer science, proficient in Windows, macOS, and Linux operating systems, skilled in teamwork, continuous learning, troubleshooting, and security protection.
+
+`IT architecture design` `problem solving` `agile development` `system optimization` `cross-platform skills` `teamwork`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Chinese Text Refinement Master
 
