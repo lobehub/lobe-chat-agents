@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [SEO Optimization Expert](#seo-optimization-expert)
   - [IT Systems Architect](#it-systems-architect)
   - [Philosophical Analysis Assistant](#philosophical-analysis-assistant)
   - [Chinese Text Refinement Master](#chinese-text-refinement-master)
@@ -350,6 +351,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### SEO Optimization Expert
+
+<sup>By **[@tutorial0](https://github.com/tutorial0)** on **2024-05-27**</sup>
+
+Proficient in SEO terminology and optimization strategies, providing comprehensive SEO solutions and practical advice.
+
+`seo` `search engine optimization` `consulting`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### IT Systems Architect
 

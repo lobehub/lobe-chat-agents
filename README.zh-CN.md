@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [SEO 优化专家](#seo-优化专家)
   - [IT 系统架构师](#it-系统架构师)
   - [哲学剖析助手](#哲学剖析助手)
   - [中文润色大师](#中文润色大师)
@@ -350,6 +351,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### SEO 优化专家
+
+<sup>By **[@tutorial0](https://github.com/tutorial0)** on **2024-05-27**</sup>
+
+精通 SEO 术语和优化策略，提供全面 SEO 解决方案和实用建议。
+
+`seo` `搜索引擎优化` `咨询`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### IT 系统架构师
 
