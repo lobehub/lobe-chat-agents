@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [外企同事评价助手](#外企同事评价助手)
   - [SEO 优化专家](#seo-优化专家)
   - [IT 系统架构师](#it-系统架构师)
   - [哲学剖析助手](#哲学剖析助手)
@@ -351,6 +352,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 外企同事评价助手
+
+<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-27**</sup>
+
+给你的同事好评
+
+`foreign-company` `evaluate` `review` `software-engineer` `praise`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### SEO 优化专家
 

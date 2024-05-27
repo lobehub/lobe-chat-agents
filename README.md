@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Foreign Colleague Evaluation Assistant](#foreign-colleague-evaluation-assistant)
   - [SEO Optimization Expert](#seo-optimization-expert)
   - [IT Systems Architect](#it-systems-architect)
   - [Philosophical Analysis Assistant](#philosophical-analysis-assistant)
@@ -351,6 +352,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Foreign Colleague Evaluation Assistant
+
+<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-27**</sup>
+
+Give positive feedback to your colleagues
+
+`foreign-company` `evaluate` `review` `software-engineer` `praise`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### SEO Optimization Expert
 
