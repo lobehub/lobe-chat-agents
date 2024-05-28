@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [日常小助手](#日常小助手)
+  - [Dart/Flutter Dev](#dartflutter-dev)
   - [Node.js 优化师](#nodejs-优化师)
   - [C# .NET 技术专家](#c-net-技术专家)
   - [外企同事评价助手](#外企同事评价助手)
@@ -363,6 +364,22 @@
 一个能搜索、能画图的小可爱
 
 `助手` `搜索` `绘图` `信息查询` `用户交互`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Dart/Flutter Dev
+
+<sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
+
+Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter_riverpod, riverpod_hook, flutter_hook 사용.
+
+`dart` `flutter` `개발` `상태-관리` `riverpod`
 
 <div align="right">
 

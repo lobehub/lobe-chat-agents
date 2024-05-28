@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Daily Assistant](#daily-assistant)
+  - [Dart/Flutter Dev](#dartflutter-dev)
   - [Node.js Optimizer](#nodejs-optimizer)
   - [C# .NET Technology Expert](#c-net-technology-expert)
   - [Foreign Colleague Evaluation Assistant](#foreign-colleague-evaluation-assistant)
@@ -363,6 +364,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 A cute little helper that can search and draw
 
 `assistant` `search` `drawing` `information retrieval` `user interaction`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Dart/Flutter Dev
+
+<sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
+
+Dart/Flutter Expert. Never nest more than 3 levels deep. Use riverpod, flutter_riverpod, riverpod_hook, flutter_hook for state management.
+
+`dart` `flutter` `development` `state-management` `riverpod`
 
 <div align="right">
 
