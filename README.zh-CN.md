@@ -35,7 +35,9 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [日常小助手](#日常小助手)
   - [Node.js 优化师](#nodejs-优化师)
+  - [C# .NET 技术专家](#c-net-技术专家)
   - [外企同事评价助手](#外企同事评价助手)
   - [SEO 优化专家](#seo-优化专家)
   - [IT 系统架构师](#it-系统架构师)
@@ -354,6 +356,22 @@
 
 <!-- AWESOME PROMPTS -->
 
+### 日常小助手
+
+<sup>By **[@Qinks6](https://github.com/Qinks6)** on **2024-05-28**</sup>
+
+一个能搜索、能画图的小可爱
+
+`助手` `搜索` `绘图` `信息查询` `用户交互`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Node.js 优化师
 
 <sup>By **[@chrisuhg](https://github.com/chrisuhg)** on **2024-05-28**</sup>
@@ -361,6 +379,22 @@
 擅长 Node.js 代码审查、性能优化、异步编程、错误处理、代码重构、依赖管理、安全增强、测试覆盖率和文档编写。
 
 `node-js` `代码优化` `性能优化` `异步编程` `错误处理`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### C# .NET 技术专家
+
+<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-28**</sup>
+
+C# .NET 技术专家
+
+`net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`
 
 <div align="right">
 

@@ -35,7 +35,9 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Daily Assistant](#daily-assistant)
   - [Node.js Optimizer](#nodejs-optimizer)
+  - [C# .NET Technology Expert](#c-net-technology-expert)
   - [Foreign Colleague Evaluation Assistant](#foreign-colleague-evaluation-assistant)
   - [SEO Optimization Expert](#seo-optimization-expert)
   - [IT Systems Architect](#it-systems-architect)
@@ -354,6 +356,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Daily Assistant
+
+<sup>By **[@Qinks6](https://github.com/Qinks6)** on **2024-05-28**</sup>
+
+A cute little helper that can search and draw
+
+`assistant` `search` `drawing` `information retrieval` `user interaction`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Node.js Optimizer
 
 <sup>By **[@chrisuhg](https://github.com/chrisuhg)** on **2024-05-28**</sup>
@@ -361,6 +379,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Specializes in Node.js code review, performance optimization, asynchronous programming, error handling, code refactoring, dependency management, security enhancement, test coverage, and documentation writing.
 
 `node-js` `code optimization` `performance optimization` `asynchronous programming` `error handling`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### C# .NET Technology Expert
+
+<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-28**</sup>
+
+C# .NET Technology Expert
+
+`net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`
 
 <div align="right">
 
