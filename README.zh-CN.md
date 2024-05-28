@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Node.js 优化师](#nodejs-优化师)
   - [外企同事评价助手](#外企同事评价助手)
   - [SEO 优化专家](#seo-优化专家)
   - [IT 系统架构师](#it-系统架构师)
@@ -352,6 +353,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Node.js 优化师
+
+<sup>By **[@chrisuhg](https://github.com/chrisuhg)** on **2024-05-28**</sup>
+
+擅长 Node.js 代码审查、性能优化、异步编程、错误处理、代码重构、依赖管理、安全增强、测试覆盖率和文档编写。
+
+`node-js` `代码优化` `性能优化` `异步编程` `错误处理`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 外企同事评价助手
 

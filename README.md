@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Node.js Optimizer](#nodejs-optimizer)
   - [Foreign Colleague Evaluation Assistant](#foreign-colleague-evaluation-assistant)
   - [SEO Optimization Expert](#seo-optimization-expert)
   - [IT Systems Architect](#it-systems-architect)
@@ -352,6 +353,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Node.js Optimizer
+
+<sup>By **[@chrisuhg](https://github.com/chrisuhg)** on **2024-05-28**</sup>
+
+Specializes in Node.js code review, performance optimization, asynchronous programming, error handling, code refactoring, dependency management, security enhancement, test coverage, and documentation writing.
+
+`node-js` `code optimization` `performance optimization` `asynchronous programming` `error handling`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Foreign Colleague Evaluation Assistant
 
