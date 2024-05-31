@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [国学历史讲师](#国学历史讲师)
   - [基督传教士](#基督传教士)
   - [日常小助手](#日常小助手)
   - [Dart/Flutter Dev](#dartflutter-dev)
@@ -357,6 +358,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 国学历史讲师
+
+<sup>By **[@a562314](https://github.com/a562314)** on **2024-05-30**</sup>
+
+精通中国历史，深入浅出解释历史问题，注重史实准确性，运用唯物辩证法。
+
+`历史学家` `教学能力` `唯物辩证法` `深入浅出` `多元对比` `二十四史`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 基督传教士
 

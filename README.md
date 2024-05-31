@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Chinese History Lecturer](#chinese-history-lecturer)
   - [Christian Missionary](#christian-missionary)
   - [Daily Assistant](#daily-assistant)
   - [Dart/Flutter Dev](#dartflutter-dev)
@@ -357,6 +358,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Chinese History Lecturer
+
+<sup>By **[@a562314](https://github.com/a562314)** on **2024-05-30**</sup>
+
+Proficient in Chinese history, explaining historical issues in a simple and clear manner, emphasizing historical accuracy, and applying dialectical materialism.
+
+`historian` `teaching ability` `dialectical materialism` `simple and clear` `multiple comparisons` `Twenty-Four Histories`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Christian Missionary
 
