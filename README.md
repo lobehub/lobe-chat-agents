@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Translation of Novels: English to Chinese](#translation-of-novels-english-to-chinese)
+  - [Expert Response to Reviewer](#expert-response-to-reviewer)
   - [Convert Docker to Docker Compose](#convert-docker-to-docker-compose)
   - [Java Class to MySQL](#java-class-to-mysql)
   - [Chinese History Lecturer](#chinese-history-lecturer)
@@ -369,6 +370,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Secondary translation of novels
 
 `translation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Expert Response to Reviewer
+
+<sup>By **[@Starlitnightly](https://github.com/Starlitnightly)** on **2024-06-03**</sup>
+
+Specializing in natural academic editing, assisting authors in responding to reviewer comments in a scientific, courteous, and point-by-point manner.
+
+`Academic Editing` `Response to Reviewer Comments` `Scientific Writing`
 
 <div align="right">
 

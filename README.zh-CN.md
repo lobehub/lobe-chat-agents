@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [小说翻译 英译中](#小说翻译-英译中)
+  - [审稿回复专家](#审稿回复专家)
   - [Docker 转 DockerCompose](#docker-转-dockercompose)
   - [Java Class 转 MySQL](#java-class-转-mysql)
   - [国学历史讲师](#国学历史讲师)
@@ -369,6 +370,22 @@
 小说二次翻译
 
 `翻译`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 审稿回复专家
+
+<sup>By **[@Starlitnightly](https://github.com/Starlitnightly)** on **2024-06-03**</sup>
+
+擅长自然学术编辑，协助作者回复审稿人意见，科学、礼貌、逐点回应。
+
+`学术编辑` `审稿意见回复` `科学写作`
 
 <div align="right">
 
