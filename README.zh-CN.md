@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Docker 转 DockerCompose](#docker-转-dockercompose)
   - [国学历史讲师](#国学历史讲师)
   - [基督传教士](#基督传教士)
   - [日常小助手](#日常小助手)
@@ -358,6 +359,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Docker 转 DockerCompose
+
+<sup>By **[@onekr-billy](https://github.com/onekr-billy)** on **2024-05-31**</sup>
+
+擅长将 Docker run 命令转换为 Docker Compose 配置
+
+`docker` `docker-compose` `系统运维` `配置文件` `转换`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 国学历史讲师
 
