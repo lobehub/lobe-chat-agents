@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Convert Docker to Docker Compose](#convert-docker-to-docker-compose)
+  - [Java Class to MySQL](#java-class-to-mysql)
   - [Chinese History Lecturer](#chinese-history-lecturer)
   - [Christian Missionary](#christian-missionary)
   - [Daily Assistant](#daily-assistant)
@@ -367,6 +368,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Specialized in converting Docker run commands to Docker Compose configurations
 
 `docker` `docker-compose` `system administration` `configuration file` `conversion`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Java Class to MySQL
+
+<sup>By **[@onekr-billy](https://github.com/onekr-billy)** on **2024-05-31**</sup>
+
+Specialized in generating SQL scripts that comply with MySQL specifications based on Java class files.
+
+`java-class-to-my-sql` `backend-development` `sql-scripts` `data-conversion` `databases`
 
 <div align="right">
 

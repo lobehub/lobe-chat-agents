@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Docker 转 DockerCompose](#docker-转-dockercompose)
+  - [Java Class 转 MySQL](#java-class-转-mysql)
   - [国学历史讲师](#国学历史讲师)
   - [基督传教士](#基督传教士)
   - [日常小助手](#日常小助手)
@@ -367,6 +368,22 @@
 擅长将 Docker run 命令转换为 Docker Compose 配置
 
 `docker` `docker-compose` `系统运维` `配置文件` `转换`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Java Class 转 MySQL
+
+<sup>By **[@onekr-billy](https://github.com/onekr-billy)** on **2024-05-31**</sup>
+
+擅长根据 Java 类文件生成符合 MySQL 规范的 SQL 脚本
+
+`java-class转-my-sql` `后端开发` `sql脚本` `数据转换` `数据库`
 
 <div align="right">
 
