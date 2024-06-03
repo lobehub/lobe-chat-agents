@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [小说翻译 英译中](#小说翻译-英译中)
   - [Docker 转 DockerCompose](#docker-转-dockercompose)
   - [Java Class 转 MySQL](#java-class-转-mysql)
   - [国学历史讲师](#国学历史讲师)
@@ -360,6 +361,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 小说翻译 英译中
+
+<sup>By **[@xbtachlb](https://github.com/xbtachlb)** on **2024-06-03**</sup>
+
+小说二次翻译
+
+`翻译`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Docker 转 DockerCompose
 

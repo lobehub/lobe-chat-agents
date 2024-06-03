@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Translation of Novels: English to Chinese](#translation-of-novels-english-to-chinese)
   - [Convert Docker to Docker Compose](#convert-docker-to-docker-compose)
   - [Java Class to MySQL](#java-class-to-mysql)
   - [Chinese History Lecturer](#chinese-history-lecturer)
@@ -360,6 +361,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Translation of Novels: English to Chinese
+
+<sup>By **[@xbtachlb](https://github.com/xbtachlb)** on **2024-06-03**</sup>
+
+Secondary translation of novels
+
+`translation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Convert Docker to Docker Compose
 
