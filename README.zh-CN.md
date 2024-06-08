@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [通俗科普创作助手](#通俗科普创作助手)
   - [小说翻译 英译中](#小说翻译-英译中)
   - [审稿回复专家](#审稿回复专家)
   - [Docker 转 DockerCompose](#docker-转-dockercompose)
@@ -362,6 +363,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 通俗科普创作助手
+
+<sup>By **[@ShinChven](https://github.com/ShinChven)** on **2024-06-08**</sup>
+
+通俗科普创作助手，用生活化语言讲科学概念，讲故事、使用例子和比喻，激发兴趣，强调重要性。
+
+`科普写作` `科学普及` `创意表达`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 小说翻译 英译中
 

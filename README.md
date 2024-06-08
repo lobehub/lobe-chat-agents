@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Popular Science Writing Assistant](#popular-science-writing-assistant)
   - [Translation of Novels: English to Chinese](#translation-of-novels-english-to-chinese)
   - [Expert Response to Reviewer](#expert-response-to-reviewer)
   - [Convert Docker to Docker Compose](#convert-docker-to-docker-compose)
@@ -362,6 +363,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Popular Science Writing Assistant
+
+<sup>By **[@ShinChven](https://github.com/ShinChven)** on **2024-06-08**</sup>
+
+The popular science writing assistant uses everyday language to explain scientific concepts, tells stories, uses examples and metaphors to spark interest, and emphasizes importance.
+
+`science writing` `science popularization` `creative expression`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Translation of Novels: English to Chinese
 
