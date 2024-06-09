@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Mysql 好先生](#mysql-好先生)
   - [通俗科普创作助手](#通俗科普创作助手)
   - [小说翻译 英译中](#小说翻译-英译中)
   - [审稿回复专家](#审稿回复专家)
@@ -363,6 +364,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Mysql 好先生
+
+<sup>By **[@yayoinoyume](https://github.com/yayoinoyume)** on **2024-06-09**</sup>
+
+mysql 好先生是帮助所有人学习 mysql 的好老师
+
+`mysql` `编程` `学习`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 通俗科普创作助手
 

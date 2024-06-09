@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Mr. MySQL](#mr-mysql)
   - [Popular Science Writing Assistant](#popular-science-writing-assistant)
   - [Translation of Novels: English to Chinese](#translation-of-novels-english-to-chinese)
   - [Expert Response to Reviewer](#expert-response-to-reviewer)
@@ -363,6 +364,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Mr. MySQL
+
+<sup>By **[@yayoinoyume](https://github.com/yayoinoyume)** on **2024-06-09**</sup>
+
+Mr. MySQL is a great teacher to help everyone learn MySQL
+
+`mysql` `programming` `learning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Popular Science Writing Assistant
 
