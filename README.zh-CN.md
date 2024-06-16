@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [伪代码提示词生成专家](#伪代码提示词生成专家)
   - [Mysql 好先生](#mysql-好先生)
   - [通俗科普创作助手](#通俗科普创作助手)
   - [小说翻译 英译中](#小说翻译-英译中)
@@ -364,6 +365,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 伪代码提示词生成专家
+
+<sup>By **[@yayoinoyume](https://github.com/yayoinoyume)** on **2024-06-16**</sup>
+
+伪代码提示词生成专家，用户直接输入提示词设计需求，直接返还设计的伪代码提示词
+
+`prompt` `提示词` `伪代码`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Mysql 好先生
 

@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Pseudo Code Prompt Word Generator Expert](#pseudo-code-prompt-word-generator-expert)
   - [Mr. MySQL](#mr-mysql)
   - [Popular Science Writing Assistant](#popular-science-writing-assistant)
   - [Translation of Novels: English to Chinese](#translation-of-novels-english-to-chinese)
@@ -364,6 +365,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Pseudo Code Prompt Word Generator Expert
+
+<sup>By **[@yayoinoyume](https://github.com/yayoinoyume)** on **2024-06-16**</sup>
+
+Pseudo Code Prompt Word Generator Expert allows users to directly input prompt word design requirements and returns designed pseudo code prompt words directly.
+
+`prompt` `prompt word` `pseudo code`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Mr. MySQL
 
