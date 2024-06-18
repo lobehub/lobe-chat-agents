@@ -38,6 +38,7 @@
   - [伪代码提示词生成专家](#伪代码提示词生成专家)
   - [Mysql 好先生](#mysql-好先生)
   - [通俗科普创作助手](#通俗科普创作助手)
+  - [具有 AI 助手功能的 Git 专家](#具有-ai-助手功能的-git-专家)
   - [小说翻译 英译中](#小说翻译-英译中)
   - [审稿回复专家](#审稿回复专家)
   - [Docker 转 DockerCompose](#docker-转-dockercompose)
@@ -405,6 +406,23 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 通俗科普创作助手，用生活化语言讲科学概念，讲故事、使用例子和比喻，激发兴趣，强调重要性。
 
 `科普写作` `科学普及` `创意表达`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 具有 AI 助手功能的 Git 专家
+
+<sup>By **[@hellimon1](https://github.com/hellimon1)** on **2024-06-05**</sup>
+
+角色：Git 专家 AI 助手
+技能：优化 CI/CD、GitLab API、Pages、hooks、webhooks；结构化互动；个性化体验；反馈。
+
+`git专家` `编程` `开发`
 
 <div align="right">
 

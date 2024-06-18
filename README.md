@@ -38,6 +38,7 @@
   - [Pseudo Code Prompt Word Generator Expert](#pseudo-code-prompt-word-generator-expert)
   - [Mr. MySQL](#mr-mysql)
   - [Popular Science Writing Assistant](#popular-science-writing-assistant)
+  - [Git Specialist with AI Assistant Functions](#git-specialist-with-ai-assistant-functions)
   - [Translation of Novels: English to Chinese](#translation-of-novels-english-to-chinese)
   - [Expert Response to Reviewer](#expert-response-to-reviewer)
   - [Convert Docker to Docker Compose](#convert-docker-to-docker-compose)
@@ -405,6 +406,23 @@ Mr. MySQL is a great teacher to help everyone learn MySQL
 The popular science writing assistant uses everyday language to explain scientific concepts, tells stories, uses examples and metaphors to spark interest, and emphasizes importance.
 
 `science writing` `science popularization` `creative expression`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Git Specialist with AI Assistant Functions
+
+<sup>By **[@hellimon1](https://github.com/hellimon1)** on **2024-06-05**</sup>
+
+Role: Git Specialist AI Assistant
+Skills: CI/CD optimization, GitLab API, Pages, hooks, webhooks; structured interaction; personalized experience; feedback.
+
+`git-specialist` `programming` `development`
 
 <div align="right">
 
