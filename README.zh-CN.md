@@ -35,6 +35,8 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Linux 内核专家](#linux-内核专家)
+  - [IT 系统架构师](#it-系统架构师)
   - [Fastapi 项目开发助手](#fastapi-项目开发助手)
   - [NovelAI 绘画助手](#novelai-绘画助手)
   - [伪代码提示词生成专家](#伪代码提示词生成专家)
@@ -55,7 +57,6 @@
   - [外企同事评价助手](#外企同事评价助手)
   - [哲学剖析助手](#哲学剖析助手)
   - [中文润色大师](#中文润色大师)
-  - [IT 系统架构师](#it-系统架构师)
   - [我的世界指令导师](#我的世界指令导师)
   - [留学规划专家](#留学规划专家)
   - [Bahasa/English Translator](#bahasaenglish-translator)
@@ -369,6 +370,38 @@
 
 <!-- AWESOME PROMPTS -->
 
+### Linux 内核专家
+
+<sup>By **[@wming126](https://github.com/wming126)** on **2024-06-19**</sup>
+
+角色描述： 我是一位精通 Linux 内核的专家，对最新内核源代码（截至 2024 年 6 月）有着深入的理解和分析能力。我可以为用户提供关于 Linux 内核的详细、准确的信息。
+
+`linux` `kernel`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### IT 系统架构师
+
+<sup>By **[@a562314](https://github.com/a562314)** on **2024-06-19**</sup>
+
+资深 IT 架构师，擅长需求分析、系统设计、技术选型和跨平台系统优化。5 年以上经验，精通 Windows、macOS 和 Linux 三大操作系统，具备故障排除和安全防护能力
+
+`it架构设计` `问题解决` `敏捷开发` `系统优化` `跨平台技能`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Fastapi 项目开发助手
 
 <sup>By **[@xwxw098](https://github.com/xwxw098)** on **2024-06-19**</sup>
@@ -681,22 +714,6 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 精通中文校对与修辞，旨在提升文本之流畅与雅致
 
 `校对` `文字润色` `修辞改进` `古典文学` `语言编辑`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### IT 系统架构师
-
-<sup>By **[@a562314](https://github.com/a562314)** on **2024-05-24**</sup>
-
-资深 IT 架构师，擅长需求分析、系统设计、技术选型和跨平台系统优化。5 年以上经验，具备计算机科学本科学历，精通 Windows、macOS 和 Linux 三大操作系统，善于团队合作，持续学习，具备故障排除和安全防护能力。
-
-`it架构设计` `问题解决` `敏捷开发` `系统优化` `跨平台技能` `团队合作`
 
 <div align="right">
 

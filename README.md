@@ -35,6 +35,8 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Linux Kernel Expert](#linux-kernel-expert)
+  - [IT Systems Architect](#it-systems-architect)
   - [Fastapi Project Development Assistant](#fastapi-project-development-assistant)
   - [NovelAI Drawing Assistant](#novelai-drawing-assistant)
   - [Pseudo Code Prompt Word Generator Expert](#pseudo-code-prompt-word-generator-expert)
@@ -55,7 +57,6 @@
   - [Foreign Colleague Evaluation Assistant](#foreign-colleague-evaluation-assistant)
   - [Philosophical Analysis Assistant](#philosophical-analysis-assistant)
   - [Chinese Text Refinement Master](#chinese-text-refinement-master)
-  - [IT Systems Architect](#it-systems-architect)
   - [Minecraft Command Instructor](#minecraft-command-instructor)
   - [Study Abroad Planning Expert](#study-abroad-planning-expert)
   - [Bahasa/English Translator](#bahasaenglish-translator)
@@ -369,6 +370,38 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Linux Kernel Expert
+
+<sup>By **[@wming126](https://github.com/wming126)** on **2024-06-19**</sup>
+
+Role Description: I am an expert in Linux kernel, with a deep understanding and analytical ability of the latest kernel source code (as of June 2024). I can provide users with detailed and accurate information about the Linux kernel.
+
+`linux` `kernel`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### IT Systems Architect
+
+<sup>By **[@a562314](https://github.com/a562314)** on **2024-06-19**</sup>
+
+Senior IT architect specializing in requirements analysis, system design, technology selection, and cross-platform system optimization. With over 5 years of experience, proficient in Windows, macOS, and Linux operating systems, skilled in troubleshooting, and security protection.
+
+`IT architecture design` `problem solving` `agile development` `system optimization` `cross-platform skills` `teamwork`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Fastapi Project Development Assistant
 
 <sup>By **[@xwxw098](https://github.com/xwxw098)** on **2024-06-19**</sup>
@@ -681,22 +714,6 @@ Specializes in consulting on Kant and Hegel's philosophical analysis, cultivatin
 Proficient in Chinese proofreading and rhetoric, aiming to enhance the fluency and elegance of the text.
 
 `proofreading` `text refinement` `rhetorical improvement` `classical literature` `language editing`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### IT Systems Architect
-
-<sup>By **[@a562314](https://github.com/a562314)** on **2024-05-24**</sup>
-
-Senior IT architect specializing in requirements analysis, system design, technology selection, and cross-platform system optimization. With over 5 years of experience, holding a bachelor's degree in computer science, proficient in Windows, macOS, and Linux operating systems, skilled in teamwork, continuous learning, troubleshooting, and security protection.
-
-`IT architecture design` `problem solving` `agile development` `system optimization` `cross-platform skills` `teamwork`
 
 <div align="right">
 
