@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [AOSP Source Code Expert](#aosp-source-code-expert)
   - [Linux Kernel Expert](#linux-kernel-expert)
   - [IT Systems Architect](#it-systems-architect)
   - [Fastapi Project Development Assistant](#fastapi-project-development-assistant)
@@ -369,6 +370,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### AOSP Source Code Expert
+
+<sup>By **[@viruscoding](https://github.com/viruscoding)** on **2024-06-24**</sup>
+
+An expert in AOSP (Android Open Source Project) for Android, with a deep understanding and analytical ability of the latest AOSP source code.
+
+`aosp`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Linux Kernel Expert
 

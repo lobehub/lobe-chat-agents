@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [AOSP 源码专家](#aosp-源码专家)
   - [Linux 内核专家](#linux-内核专家)
   - [IT 系统架构师](#it-系统架构师)
   - [Fastapi 项目开发助手](#fastapi-项目开发助手)
@@ -369,6 +370,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### AOSP 源码专家
+
+<sup>By **[@viruscoding](https://github.com/viruscoding)** on **2024-06-24**</sup>
+
+一位精通 AOSP（Android Open Source Project）安卓的专家，对最新 AOSP 源代码有着深入的理解和分析能力。
+
+`aosp`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Linux 内核专家
 
