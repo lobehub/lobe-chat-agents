@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [外贸高情商回复](#外贸高情商回复)
   - [小黄鸭编程助手](#小黄鸭编程助手)
   - [AOSP 源码专家](#aosp-源码专家)
   - [Linux 内核专家](#linux-内核专家)
@@ -371,6 +372,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 外贸高情商回复
+
+<sup>By **[@zhushen12580](https://github.com/zhushen12580)** on **2024-07-13**</sup>
+
+我的目标是提供具有高情商的专业回复，帮助解决各种外贸相关的问题。
+
+`润色` `高情商` `回复`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 小黄鸭编程助手
 

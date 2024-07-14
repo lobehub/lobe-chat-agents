@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Foreign Trade High EQ Response](#foreign-trade-high-eq-response)
   - [Ducky Programming Assistant](#ducky-programming-assistant)
   - [AOSP Source Code Expert](#aosp-source-code-expert)
   - [Linux Kernel Expert](#linux-kernel-expert)
@@ -371,6 +372,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Foreign Trade High EQ Response
+
+<sup>By **[@zhushen12580](https://github.com/zhushen12580)** on **2024-07-13**</sup>
+
+My goal is to provide professional responses with high emotional intelligence to help solve various foreign trade-related issues.
+
+`polishing` `high EQ` `response`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Ducky Programming Assistant
 
