@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [SQL 表结构转 Dao 和 Mapper](#sql-表结构转-dao-和-mapper)
   - [外贸高情商回复](#外贸高情商回复)
   - [小黄鸭编程助手](#小黄鸭编程助手)
   - [命名助手](#命名助手)
@@ -374,6 +375,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### SQL 表结构转 Dao 和 Mapper
+
+<sup>By **[@MeYoung](https://github.com/MeYoung)** on **2024-07-17**</sup>
+
+给与一个表结构，生成表的实体和 MyBatis 的 Mapper
+
+`sql` `sql` `mybatis`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 外贸高情商回复
 

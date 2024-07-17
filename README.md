@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Convert SQL Table Structure to Dao and Mapper](#convert-sql-table-structure-to-dao-and-mapper)
   - [Foreign Trade High EQ Response](#foreign-trade-high-eq-response)
   - [Ducky Programming Assistant](#ducky-programming-assistant)
   - [Naming Assistant](#naming-assistant)
@@ -374,6 +375,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Convert SQL Table Structure to Dao and Mapper
+
+<sup>By **[@MeYoung](https://github.com/MeYoung)** on **2024-07-17**</sup>
+
+Generate entity class and MyBatis Mapper based on a table structure
+
+`sql` `sql` `mybatis`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Foreign Trade High EQ Response
 
