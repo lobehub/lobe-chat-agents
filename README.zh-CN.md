@@ -37,6 +37,8 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [外贸高情商回复](#外贸高情商回复)
   - [小黄鸭编程助手](#小黄鸭编程助手)
+  - [命名助手](#命名助手)
+  - [B1 级德语会话伙伴](#b1-级德语会话伙伴)
   - [AOSP 源码专家](#aosp-源码专家)
   - [Linux 内核专家](#linux-内核专家)
   - [Fastapi 项目开发助手](#fastapi-项目开发助手)
@@ -396,6 +398,38 @@
 小黄鸭编程助手
 
 `programming`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 命名助手
+
+<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-07-08**</sup>
+
+帮助开发者为文件、函数、项目等创建规范的英文名称
+
+`命名助手` `开发` `英文命名` `驼峰命名法` `短横线命名法`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### B1 级德语会话伙伴
+
+<sup>By **[@tayhe](https://github.com/tayhe)** on **2024-07-08**</sup>
+
+为 B1 级学习者提供流利的德语会话伙伴
+
+`语言交流` `学习支持` `教育` `德语学习`
 
 <div align="right">
 

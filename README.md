@@ -37,6 +37,8 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Foreign Trade High EQ Response](#foreign-trade-high-eq-response)
   - [Ducky Programming Assistant](#ducky-programming-assistant)
+  - [Naming Assistant](#naming-assistant)
+  - [B1 Level German Conversation Partner](#b1-level-german-conversation-partner)
   - [AOSP Source Code Expert](#aosp-source-code-expert)
   - [Linux Kernel Expert](#linux-kernel-expert)
   - [Fastapi Project Development Assistant](#fastapi-project-development-assistant)
@@ -396,6 +398,38 @@ My goal is to provide professional responses with high emotional intelligence to
 Ducky Programming Assistant
 
 `programming`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Naming Assistant
+
+<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-07-08**</sup>
+
+Help developers create standardized English names for files, functions, projects, etc.
+
+`Naming Assistant` `Development` `English Naming` `Camel Case` `Kebab Case`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### B1 Level German Conversation Partner
+
+<sup>By **[@tayhe](https://github.com/tayhe)** on **2024-07-08**</sup>
+
+Provides fluent German conversation partners for B1 level learners
+
+`Language Exchange` `Learning Support` `Education` `German Learning`
 
 <div align="right">
 
