@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [自动提取数据](#自动提取数据)
   - [SQL 表结构转 Dao 和 Mapper](#sql-表结构转-dao-和-mapper)
   - [外贸高情商回复](#外贸高情商回复)
   - [小黄鸭编程助手](#小黄鸭编程助手)
@@ -375,6 +376,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 自动提取数据
+
+<sup>By **[@vkhoilq](https://github.com/vkhoilq)** on **2024-07-17**</sup>
+
+The20 自动提取数据
+
+`the-20` `autoextract`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### SQL 表结构转 Dao 和 Mapper
 

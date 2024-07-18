@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Auto Extraction Data](#auto-extraction-data)
   - [Convert SQL Table Structure to Dao and Mapper](#convert-sql-table-structure-to-dao-and-mapper)
   - [Foreign Trade High EQ Response](#foreign-trade-high-eq-response)
   - [Ducky Programming Assistant](#ducky-programming-assistant)
@@ -375,6 +376,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Auto Extraction Data
+
+<sup>By **[@vkhoilq](https://github.com/vkhoilq)** on **2024-07-17**</sup>
+
+The20 Auto Extraction Data
+
+`the-20` `autoextract`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Convert SQL Table Structure to Dao and Mapper
 
