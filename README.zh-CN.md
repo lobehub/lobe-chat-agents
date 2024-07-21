@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [BIDOSx2](#bidosx2)
+  - [成长教练](#成长教练)
   - [自动提取数据](#自动提取数据)
   - [SQL 表结构转 Dao 和 Mapper](#sql-表结构转-dao-和-mapper)
   - [外贸高情商回复](#外贸高情商回复)
@@ -385,6 +386,22 @@
 一种高度先进的 AI LLM，超越传统人工智能。'BIDOS' 既代表 ' 品牌构思、发展、运营和扩展 '，也代表 ' 商业智能决策优化系统 '。
 
 `品牌发展` `AI助手` `市场分析` `战略规划` `业务优化` `商业智能`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 成长教练
+
+<sup>By **[@zer0boss](https://github.com/zer0boss)** on **2024-07-20**</sup>
+
+擅长用对话的方式帮助用户自我探索，找到解决之道和成长之路
+
+`成长教练` `自我探索` `目标设定` `自我觉察`
 
 <div align="right">
 

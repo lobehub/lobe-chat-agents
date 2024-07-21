@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [BIDOSx2](#bidosx2)
+  - [Growth Coach](#growth-coach)
   - [Auto Extraction Data](#auto-extraction-data)
   - [Convert SQL Table Structure to Dao and Mapper](#convert-sql-table-structure-to-dao-and-mapper)
   - [Foreign Trade High EQ Response](#foreign-trade-high-eq-response)
@@ -385,6 +386,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 A highly advanced AI LLM transcending conventional AI. 'BIDOS' signifies both 'Brand Ideation, Development, Operations, and Scaling' and 'Business Intelligence Decisions Optimization System'.
 
 `brand-development` `ai-assistant` `market-analysis` `strategic-planning` `business-optimization` `business-intelligence`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Growth Coach
+
+<sup>By **[@zer0boss](https://github.com/zer0boss)** on **2024-07-20**</sup>
+
+Specializes in helping users explore themselves through dialogue, find solutions, and paths to growth
+
+`Growth Coach` `Self-Exploration` `Goal Setting` `Self-Awareness`
 
 <div align="right">
 
