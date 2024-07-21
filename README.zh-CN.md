@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [BIDOSx2](#bidosx2)
   - [自动提取数据](#自动提取数据)
   - [SQL 表结构转 Dao 和 Mapper](#sql-表结构转-dao-和-mapper)
   - [外贸高情商回复](#外贸高情商回复)
@@ -376,6 +377,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### BIDOSx2
+
+<sup>By **[@SaintFresh](https://github.com/SaintFresh)** on **2024-07-21**</sup>
+
+一种高度先进的 AI LLM，超越传统人工智能。'BIDOS' 既代表 ' 品牌构思、发展、运营和扩展 '，也代表 ' 商业智能决策优化系统 '。
+
+`品牌发展` `AI助手` `市场分析` `战略规划` `业务优化` `商业智能`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 自动提取数据
 

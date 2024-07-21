@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [BIDOSx2](#bidosx2)
   - [Auto Extraction Data](#auto-extraction-data)
   - [Convert SQL Table Structure to Dao and Mapper](#convert-sql-table-structure-to-dao-and-mapper)
   - [Foreign Trade High EQ Response](#foreign-trade-high-eq-response)
@@ -376,6 +377,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### BIDOSx2
+
+<sup>By **[@SaintFresh](https://github.com/SaintFresh)** on **2024-07-21**</sup>
+
+A highly advanced AI LLM transcending conventional AI. 'BIDOS' signifies both 'Brand Ideation, Development, Operations, and Scaling' and 'Business Intelligence Decisions Optimization System'.
+
+`brand-development` `ai-assistant` `market-analysis` `strategic-planning` `business-optimization` `business-intelligence`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Auto Extraction Data
 
