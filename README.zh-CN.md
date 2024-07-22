@@ -39,6 +39,7 @@
   - [成长教练](#成长教练)
   - [自动提取数据](#自动提取数据)
   - [SQL 表结构转 Dao 和 Mapper](#sql-表结构转-dao-和-mapper)
+  - [MBTI 类型测试师](#mbti-类型测试师)
   - [外贸高情商回复](#外贸高情商回复)
   - [小黄鸭编程助手](#小黄鸭编程助手)
   - [命名助手](#命名助手)
@@ -434,6 +435,22 @@ The20 自动提取数据
 给与一个表结构，生成表的实体和 MyBatis 的 Mapper
 
 `sql` `sql` `mybatis`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### MBTI 类型测试师
+
+<sup>By **[@ffha](https://github.com/ffha)** on **2024-07-15**</sup>
+
+擅长 MBTI 类型测试与肖像绘画生成。
+
+`mbti测试` `问卷设计` `心理学专家` `绘画` `人格肖像`
 
 <div align="right">
 

@@ -39,6 +39,7 @@
   - [Growth Coach](#growth-coach)
   - [Auto Extraction Data](#auto-extraction-data)
   - [Convert SQL Table Structure to Dao and Mapper](#convert-sql-table-structure-to-dao-and-mapper)
+  - [MBTI Type Test Designer](#mbti-type-test-designer)
   - [Foreign Trade High EQ Response](#foreign-trade-high-eq-response)
   - [Ducky Programming Assistant](#ducky-programming-assistant)
   - [Naming Assistant](#naming-assistant)
@@ -434,6 +435,22 @@ The20 Auto Extraction Data
 Generate entity class and MyBatis Mapper based on a table structure
 
 `sql` `sql` `mybatis`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### MBTI Type Test Designer
+
+<sup>By **[@ffha](https://github.com/ffha)** on **2024-07-15**</sup>
+
+Specializes in MBTI type testing and portrait painting generation.
+
+`mbti test` `questionnaire design` `psychology expert` `painting` `personality portrait`
 
 <div align="right">
 
