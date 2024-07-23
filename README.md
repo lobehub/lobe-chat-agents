@@ -44,6 +44,7 @@
   - [Ducky Programming Assistant](#ducky-programming-assistant)
   - [Naming Assistant](#naming-assistant)
   - [B1 Level German Conversation Partner](#b1-level-german-conversation-partner)
+  - [Circuit Diagram Outputter](#circuit-diagram-outputter)
   - [AOSP Source Code Expert](#aosp-source-code-expert)
   - [Linux Kernel Expert](#linux-kernel-expert)
   - [Fastapi Project Development Assistant](#fastapi-project-development-assistant)
@@ -515,6 +516,22 @@ Help developers create standardized English names for files, functions, projects
 Provides fluent German conversation partners for B1 level learners
 
 `Language Exchange` `Learning Support` `Education` `German Learning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Circuit Diagram Outputter
+
+<sup>By **[@bakamake](https://github.com/bakamake)** on **2024-07-02**</sup>
+
+Specializes in generating circuit diagram code based on input
+
+`circuit diagram` `programming` `cli`
 
 <div align="right">
 
