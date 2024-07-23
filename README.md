@@ -45,6 +45,7 @@
   - [Naming Assistant](#naming-assistant)
   - [B1 Level German Conversation Partner](#b1-level-german-conversation-partner)
   - [Circuit Diagram Outputter](#circuit-diagram-outputter)
+  - [Text Master Suno](#text-master-suno)
   - [AOSP Source Code Expert](#aosp-source-code-expert)
   - [Linux Kernel Expert](#linux-kernel-expert)
   - [Fastapi Project Development Assistant](#fastapi-project-development-assistant)
@@ -532,6 +533,22 @@ Provides fluent German conversation partners for B1 level learners
 Specializes in generating circuit diagram code based on input
 
 `circuit diagram` `programming` `cli`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Text Master Suno
+
+<sup>By **[@Igroshka](https://github.com/Igroshka)** on **2024-06-26**</sup>
+
+I am a lyrics assistant for the AI Suno.
+
+`song` `suno` `ai` `music`
 
 <div align="right">
 

@@ -45,6 +45,7 @@
   - [命名助手](#命名助手)
   - [B1 级德语会话伙伴](#b1-级德语会话伙伴)
   - [电路图输出器](#电路图输出器)
+  - [Text Master Suno](#text-master-suno)
   - [AOSP 源码专家](#aosp-源码专家)
   - [Linux 内核专家](#linux-内核专家)
   - [Fastapi 项目开发助手](#fastapi-项目开发助手)
@@ -532,6 +533,22 @@ The20 自动提取数据
 擅长根据输入生成电路图代码
 
 `电路图` `编程` `cli`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Text Master Suno
+
+<sup>By **[@Igroshka](https://github.com/Igroshka)** on **2024-06-26**</sup>
+
+我是 AI Suno 的歌词助手。
+
+`歌曲` `suno` `ai` `音乐`
 
 <div align="right">
 
