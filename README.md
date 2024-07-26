@@ -35,10 +35,11 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Brand Pioneer](#brand-pioneer)
   - [BIDOSx2](#bidosx2)
   - [Growth Coach](#growth-coach)
-  - [Auto Extraction Data](#auto-extraction-data)
   - [Convert SQL Table Structure to Dao and Mapper](#convert-sql-table-structure-to-dao-and-mapper)
+  - [Auto Extraction Data](#auto-extraction-data)
   - [MBTI Type Test Designer](#mbti-type-test-designer)
   - [Foreign Trade High EQ Response](#foreign-trade-high-eq-response)
   - [Ducky Programming Assistant](#ducky-programming-assistant)
@@ -47,9 +48,9 @@
   - [Circuit Diagram Outputter](#circuit-diagram-outputter)
   - [Text Master Suno](#text-master-suno)
   - [AOSP Source Code Expert](#aosp-source-code-expert)
-  - [Linux Kernel Expert](#linux-kernel-expert)
-  - [Fastapi Project Development Assistant](#fastapi-project-development-assistant)
   - [IT Systems Architect](#it-systems-architect)
+  - [Fastapi Project Development Assistant](#fastapi-project-development-assistant)
+  - [Linux Kernel Expert](#linux-kernel-expert)
   - [NovelAI Drawing Assistant](#novelai-drawing-assistant)
   - [Pseudo Code Prompt Word Generator Expert](#pseudo-code-prompt-word-generator-expert)
   - [Mr. MySQL](#mr-mysql)
@@ -60,36 +61,36 @@
   - [Convert Docker to Docker Compose](#convert-docker-to-docker-compose)
   - [Java Class to MySQL](#java-class-to-mysql)
   - [Chinese History Lecturer](#chinese-history-lecturer)
-  - [Dart/Flutter Dev](#dartflutter-dev)
-  - [Christian Missionary](#christian-missionary)
   - [Node.js Optimizer](#nodejs-optimizer)
-  - [C# .NET Technology Expert](#c-net-technology-expert)
   - [Daily Assistant](#daily-assistant)
-  - [Foreign Colleague Evaluation Assistant](#foreign-colleague-evaluation-assistant)
+  - [Christian Missionary](#christian-missionary)
+  - [Dart/Flutter Dev](#dartflutter-dev)
+  - [C# .NET Technology Expert](#c-net-technology-expert)
   - [SEO Optimization Expert](#seo-optimization-expert)
-  - [Minecraft Command Instructor](#minecraft-command-instructor)
+  - [Foreign Colleague Evaluation Assistant](#foreign-colleague-evaluation-assistant)
   - [Philosophical Analysis Assistant](#philosophical-analysis-assistant)
   - [Chinese Text Refinement Master](#chinese-text-refinement-master)
-  - [Master of Daoism](#master-of-daoism)
-  - [Answer Assistant - First Principles Analysis](#answer-assistant---first-principles-analysis)
+  - [Minecraft Command Instructor](#minecraft-command-instructor)
+  - [Zen Master](#zen-master)
   - [Confucian Scholar](#confucian-scholar)
   - [Chinese Historian](#chinese-historian)
-  - [Data Analyst Expert](#data-analyst-expert)
-  - [Zen Master](#zen-master)
   - [JTBD Requirements Analysis Master](#jtbd-requirements-analysis-master)
   - [Bahasa/English Translator](#bahasaenglish-translator)
   - [Rust Language Learning Mentor](#rust-language-learning-mentor)
-  - [Study Abroad Planning Expert](#study-abroad-planning-expert)
   - [Geotechnical Engineering Assistant](#geotechnical-engineering-assistant)
-  - [SEO Specialist](#seo-specialist)
-  - [Python Buddy](#python-buddy)
+  - [Study Abroad Planning Expert](#study-abroad-planning-expert)
+  - [Answer Assistant - First Principles Analysis](#answer-assistant---first-principles-analysis)
+  - [Data Analyst Expert](#data-analyst-expert)
+  - [Master of Daoism](#master-of-daoism)
+  - [English Reading Teacher](#english-reading-teacher)
   - [AWS Guru](#aws-guru)
   - [Linux Buddy](#linux-buddy)
-  - [English Reading Teacher](#english-reading-teacher)
+  - [Python Buddy](#python-buddy)
+  - [SEO Specialist](#seo-specialist)
   - [Photography Critic](#photography-critic)
   - [Emotional Companion](#emotional-companion)
-  - [Learning Plan Expert Silwol](#learning-plan-expert-silwol)
   - [Linguistic Luminary](#linguistic-luminary)
+  - [Learning Plan Expert Silwol](#learning-plan-expert-silwol)
   - [SF Symbols Finder](#sf-symbols-finder)
   - [GhostWriter Pro](#ghostwriter-pro)
   - [Art Evaluation Tutor](#art-evaluation-tutor)
@@ -97,17 +98,17 @@
   - [iOS Code Artist](#ios-code-artist)
   - [Sales Description Specialist](#sales-description-specialist)
   - [Jailbreak Assistant DAN](#jailbreak-assistant-dan)
-  - [yapi JSON-SCHEMA to Typescript](#yapi-json-schema-to-typescript)
   - [TailwindHelper](#tailwindhelper)
+  - [yapi JSON-SCHEMA to Typescript](#yapi-json-schema-to-typescript)
   - [Chinese Academic Paper Editor](#chinese-academic-paper-editor)
-  - [Biology Professor](#biology-professor)
   - [Master of Fortune Telling](#master-of-fortune-telling)
   - [High School Science Study Assistant](#high-school-science-study-assistant)
+  - [Biology Professor](#biology-professor)
   - [SmartWeather Assistant](#smartweather-assistant)
   - [Healthy Recipe Recommender](#healthy-recipe-recommender)
-  - [TadzGenius](#tadzgenius)
-  - [Dirty Talk Learning Assistant](#dirty-talk-learning-assistant)
   - [Microcontroller Engineer](#microcontroller-engineer)
+  - [Dirty Talk Learning Assistant](#dirty-talk-learning-assistant)
+  - [TadzGenius](#tadzgenius)
   - [Design Philosophy Analysis](#design-philosophy-analysis)
   - [YouTube Summary](#youtube-summary)
   - [Shell Script Development Assistant](#shell-script-development-assistant)
@@ -115,10 +116,10 @@
   - [Reseach title generator](#reseach-title-generator)
   - [English Technology Article Reading Assistant](#english-technology-article-reading-assistant)
   - [CAN](#can)
-  - [High EQ Flattery Assistant](#high-eq-flattery-assistant)
   - [Suno.ai Music Creation Assistant](#sunoai-music-creation-assistant)
-  - [Image Recognition Xiaohongshu Copywriting](#image-recognition-xiaohongshu-copywriting)
+  - [High EQ Flattery Assistant](#high-eq-flattery-assistant)
   - [Blood Test Analyst](#blood-test-analyst)
+  - [Image Recognition Xiaohongshu Copywriting](#image-recognition-xiaohongshu-copywriting)
   - [Interview Question Refinement Assistant](#interview-question-refinement-assistant)
   - [Girlfriend Subtext Expert](#girlfriend-subtext-expert)
   - [Rap Lyric Master](#rap-lyric-master)
@@ -129,24 +130,24 @@
   - [Game Text Translator](#game-text-translator)
   - [Math Tutor](#math-tutor)
   - [Amazon Listing Copywriter](#amazon-listing-copywriter)
-  - [User Research Manager - KANO](#user-research-manager---kano)
   - [Collaborative Logical Thinking Team](#collaborative-logical-thinking-team)
-  - [Drug Guide Expert](#drug-guide-expert)
+  - [User Research Manager - KANO](#user-research-manager---kano)
   - [English Vocabulary Teacher](#english-vocabulary-teacher)
-  - [PromptGPT](#promptgpt)
-  - [Programming Maestro](#programming-maestro)
-  - [Linux Solution Mentor](#linux-solution-mentor)
+  - [Drug Guide Expert](#drug-guide-expert)
   - [Prompt Architect](#prompt-architect)
+  - [Linux Solution Mentor](#linux-solution-mentor)
+  - [Programming Maestro](#programming-maestro)
+  - [PromptGPT](#promptgpt)
   - [Amazon Seller Support Agent](#amazon-seller-support-agent)
   - [TikTok Script Writer](#tiktok-script-writer)
   - [Gen Z Engagement Specialist](#gen-z-engagement-specialist)
   - [Schedule Management Assistant](#schedule-management-assistant)
-  - [Business Email Writing Expert](#business-email-writing-expert)
   - [Discord Style Copywriting Expert](#discord-style-copywriting-expert)
+  - [Business Email Writing Expert](#business-email-writing-expert)
   - [AI Image Prompt Architect](#ai-image-prompt-architect)
-  - [F1 Data Analyst](#f1-data-analyst)
-  - [Software Development for Dummies](#software-development-for-dummies)
   - [Pitch Deck Maestro (Elevator Pitch)](#pitch-deck-maestro-elevator-pitch)
+  - [Software Development for Dummies](#software-development-for-dummies)
+  - [F1 Data Analyst](#f1-data-analyst)
   - [The Shaman](#the-shaman)
   - [English Composition Assistant](#english-composition-assistant)
   - [Sous Chef](#sous-chef)
@@ -160,84 +161,84 @@
   - [Naming Expert](#naming-expert)
   - [LobeChat Technical Documentation Expert](#lobechat-technical-documentation-expert)
   - [Your daily AI companion.](#your-daily-ai-companion)
-  - [Facebook Advertising Writing Expert](#facebook-advertising-writing-expert)
   - [Translation Specialist](#translation-specialist)
+  - [Facebook Advertising Writing Expert](#facebook-advertising-writing-expert)
   - [ThinkTank360](#thinktank360)
   - [Jira Story Facilitator](#jira-story-facilitator)
   - [SPI Generator](#spi-generator)
   - [Product Description](#product-description)
-  - [Product Review](#product-review)
   - [Product Copywriting](#product-copywriting)
   - [Self-Media Operation Expert](#self-media-operation-expert)
+  - [Product Review](#product-review)
   - [Private Domain Operations Expert](#private-domain-operations-expert)
   - [Happy Loong Year](#happy-loong-year)
   - [Tarot Reader](#tarot-reader)
   - [Turkish Language Tutor](#turkish-language-tutor)
-  - [Vocabulary Generator](#vocabulary-generator)
   - [Vocabulary Wizard](#vocabulary-wizard)
-  - [Grammar Worksheet Creator](#grammar-worksheet-creator)
-  - [English Proficiency Evaluator](#english-proficiency-evaluator)
   - [Glossary Generator](#glossary-generator)
-  - [Cloze Exercise Generator](#cloze-exercise-generator)
+  - [Vocabulary Generator](#vocabulary-generator)
+  - [English Proficiency Evaluator](#english-proficiency-evaluator)
+  - [Grammar Worksheet Creator](#grammar-worksheet-creator)
   - [Reading Comprehension Wizard](#reading-comprehension-wizard)
-  - [Vocabulary Worksheet Wizard](#vocabulary-worksheet-wizard)
   - [Thematic Vocabulary Worksheet Creator](#thematic-vocabulary-worksheet-creator)
+  - [Vocabulary Worksheet Wizard](#vocabulary-worksheet-wizard)
+  - [Cloze Exercise Generator](#cloze-exercise-generator)
+  - [Turkish/English Translator](#turkishenglish-translator)
   - [Website Audit Assistant](#website-audit-assistant)
   - [Text Variator](#text-variator)
-  - [Turkish/English Translator](#turkishenglish-translator)
-  - [Marvin](#marvin)
   - [Form Checker](#form-checker)
+  - [CAN: Code Master](#can-code-master)
+  - [Marvin](#marvin)
   - [Writing Assistant](#writing-assistant)
+  - [Socratic Teacher](#socratic-teacher)
   - [Golang Architect](#golang-architect)
   - [Language Fixer](#language-fixer)
-  - [CAN: Code Master](#can-code-master)
-  - [Socratic Teacher](#socratic-teacher)
-  - [Presentation Wizard](#presentation-wizard)
   - [Database Expert](#database-expert)
-  - [Variable Naming Master](#variable-naming-master)
+  - [Presentation Wizard](#presentation-wizard)
   - [SagePathfinder](#sagepathfinder)
+  - [Variable Naming Master](#variable-naming-master)
+  - [Mathematical Research Advisor](#mathematical-research-advisor)
+  - [Entrepreneurship and Competitiveness Expert](#entrepreneurship-and-competitiveness-expert)
   - [A2 English Conversation Facilitator](#a2-english-conversation-facilitator)
   - [C1 Level English Language Facilitator](#c1-level-english-language-facilitator)
   - [English Proficiency Coach](#english-proficiency-coach)
-  - [Mathematical Research Advisor](#mathematical-research-advisor)
-  - [Entrepreneurship and Competitiveness Expert](#entrepreneurship-and-competitiveness-expert)
   - [Bizkaia Entrepreneurship Expert](#bizkaia-entrepreneurship-expert)
   - [Xiaohongshu Review Assistant](#xiaohongshu-review-assistant)
   - [English Language C1 Mastery Coach](#english-language-c1-mastery-coach)
   - [Software Architecture Strategist](#software-architecture-strategist)
   - [Territory Promotion Strategist](#territory-promotion-strategist)
-  - [Slang Tutor](#slang-tutor)
-  - [Jamaican Patois Instructor](#jamaican-patois-instructor)
-  - [Geopolitical Analyst](#geopolitical-analyst)
-  - [B1 English Conversation Partner](#b1-english-conversation-partner)
-  - [B2 Level English Conversation Partner](#b2-level-english-conversation-partner)
-  - [Poetry Mentor](#poetry-mentor)
-  - [English Learning Companion](#english-learning-companion)
   - [Poetry Guide: Inspiring poetic expression and appreciation.](#poetry-guide-inspiring-poetic-expression-and-appreciation)
+  - [English Learning Companion](#english-learning-companion)
+  - [Jamaican Patois Instructor](#jamaican-patois-instructor)
+  - [Slang Tutor](#slang-tutor)
+  - [Poetry Mentor](#poetry-mentor)
+  - [B1 English Conversation Partner](#b1-english-conversation-partner)
   - [Software Development Step Maker](#software-development-step-maker)
+  - [B2 Level English Conversation Partner](#b2-level-english-conversation-partner)
   - [Rap Instructor](#rap-instructor)
+  - [Geopolitical Analyst](#geopolitical-analyst)
   - [Steam Game Reviews](#steam-game-reviews)
   - [Bilibili Assistant](#bilibili-assistant)
-  - [TaxBot](#taxbot)
-  - [Culinary AI Mentor](#culinary-ai-mentor)
-  - [Songwriting Mentor](#songwriting-mentor)
   - [AI Import/Export Advisor](#ai-importexport-advisor)
   - [OpenAPI Generator](#openapi-generator)
+  - [Culinary AI Mentor](#culinary-ai-mentor)
+  - [TaxBot](#taxbot)
+  - [Songwriting Mentor](#songwriting-mentor)
   - [ShieldsIO Badge Generator](#shieldsio-badge-generator)
+  - [Figure Designer](#figure-designer)
   - [Text Summarization Assistant](#text-summarization-assistant)
   - [React Native Coding Guide](#react-native-coding-guide)
-  - [Figure Designer](#figure-designer)
   - [Intent Resonance GPT](#intent-resonance-gpt)
   - [Startup Tech Lawyer](#startup-tech-lawyer)
   - [Shopping Assistant](#shopping-assistant)
+  - [Financial Expert](#financial-expert)
+  - [Accounting Expert Assistant](#accounting-expert-assistant)
   - [Grass Deity Naxida](#grass-deity-naxida)
+  - [IELTS Tutor](#ielts-tutor)
   - [EOI Exam Preparation Assistant](#eoi-exam-preparation-assistant)
   - [DIY Guide Assistant](#diy-guide-assistant)
-  - [Business Guru](#business-guru)
-  - [IELTS Tutor](#ielts-tutor)
-  - [Financial Expert](#financial-expert)
   - [Chinese-Japanese Bilingual Translation Expert](#chinese-japanese-bilingual-translation-expert)
-  - [Accounting Expert Assistant](#accounting-expert-assistant)
+  - [Business Guru](#business-guru)
   - [PromptGPT](#promptgpt-1)
   - [Tech Explorer AI](#tech-explorer-ai)
   - [AE Script Development Expert](#ae-script-development-expert)
@@ -245,52 +246,52 @@
   - [William](#william)
   - [Chad](#chad)
   - [SEO Optimized Blog](#seo-optimized-blog)
-  - [English Analyst](#english-analyst)
   - [Life Decision Advisor](#life-decision-advisor)
+  - [English Analyst](#english-analyst)
   - [Computer Science Paper Proofreading](#computer-science-paper-proofreading)
   - [Emoji Generator](#emoji-generator)
   - [Personal Growth Coach](#personal-growth-coach)
   - [Weekly Report Assistant](#weekly-report-assistant)
-  - [Performance Evaluation Superhero](#performance-evaluation-superhero)
   - [SVG Flowchart Explanation Assistant](#svg-flowchart-explanation-assistant)
+  - [Performance Evaluation Superhero](#performance-evaluation-superhero)
   - [3D Animation Engineer](#3d-animation-engineer)
   - [Exam Assistant](#exam-assistant)
-  - [Teaching Mentor](#teaching-mentor)
   - [Amazon Title Assistant](#amazon-title-assistant)
+  - [Teaching Mentor](#teaching-mentor)
   - [TOEFL Writing Tutor](#toefl-writing-tutor)
   - [MidjourneyGPT](#midjourneygpt)
-  - [Overview of Art Thesis Experts](#overview-of-art-thesis-experts)
-  - [Deployment Specialist Agent](#deployment-specialist-agent)
   - [American English Transcreation Expert](#american-english-transcreation-expert)
+  - [Deployment Specialist Agent](#deployment-specialist-agent)
+  - [Overview of Art Thesis Experts](#overview-of-art-thesis-experts)
   - [Academic Proofreading Expert](#academic-proofreading-expert)
   - [Flutter Maestro](#flutter-maestro)
   - [Facebook Ads Expert](#facebook-ads-expert)
-  - [Research Assistant](#research-assistant)
   - [Dream Painter](#dream-painter)
-  - [News Hub](#news-hub)
   - [Travel Assistant](#travel-assistant)
-  - [Holiday Greetings](#holiday-greetings)
+  - [Research Assistant](#research-assistant)
+  - [News Hub](#news-hub)
   - [Real Estate Agent](#real-estate-agent)
   - [Criminal Defense Expert](#criminal-defense-expert)
+  - [Holiday Greetings](#holiday-greetings)
+  - [Short Book](#short-book)
   - [Case Generator](#case-generator)
   - [Rust Programming Assistant](#rust-programming-assistant)
   - [Case Solver](#case-solver)
-  - [Short Book](#short-book)
-  - [Community Manager](#community-manager)
   - [Stable Diffusion Prompts Crafter](#stable-diffusion-prompts-crafter)
+  - [Community Manager](#community-manager)
   - [Payroll Game](#payroll-game)
   - [Dream Analyst](#dream-analyst)
   - [English Translation Expert](#english-translation-expert)
   - [Python Coder Gradio](#python-coder-gradio)
-  - [Pollinate AI drawing](#pollinate-ai-drawing)
   - [GitHub Copilot](#github-copilot)
+  - [Pollinate AI drawing](#pollinate-ai-drawing)
   - [Recipe Generator](#recipe-generator)
   - [HTTP Request Master](#http-request-master)
   - [Code Wizard](#code-wizard)
   - [Mr. Feynman](#mr-feynman)
   - [Organic Chemistry Researcher](#organic-chemistry-researcher)
-  - [Q\&A Document Conversion Expert](#qa-document-conversion-expert)
   - [JS Code Quality Optimization](#js-code-quality-optimization)
+  - [Q\&A Document Conversion Expert](#qa-document-conversion-expert)
   - [LobeChat Test Engineer](#lobechat-test-engineer)
   - [True Friend](#true-friend)
   - [Short Video Script Assistant](#short-video-script-assistant)
@@ -298,10 +299,10 @@
   - [Graphic Creative Master](#graphic-creative-master)
   - [Tailwind Wizard](#tailwind-wizard)
   - [Full-stack Developer](#full-stack-developer)
-  - [Dad, What Should I Do?](#dad-what-should-i-do)
-  - [Translation Assistant](#translation-assistant)
   - [Research Article Translation Assistant](#research-article-translation-assistant)
+  - [Dad, What Should I Do?](#dad-what-should-i-do)
   - [MidJourney Prompt](#midjourney-prompt)
+  - [Translation Assistant](#translation-assistant)
   - [Academic Writing Enhancement Bot](#academic-writing-enhancement-bot)
   - [Sketch Feature Summary Expert](#sketch-feature-summary-expert)
   - [Master of Debating](#master-of-debating)
@@ -315,29 +316,29 @@
   - [LOGO Creative Master](#logo-creative-master)
   - [Interface Type Request Generator](#interface-type-request-generator)
   - [Name Master](#name-master)
-  - [Master of Expressing Abstract Concepts](#master-of-expressing-abstract-concepts)
-  - [Convert React Class Components to Functional Components](#convert-react-class-components-to-functional-components)
-  - [UX Writer](#ux-writer)
-  - [Zustand Reducer Expert](#zustand-reducer-expert)
-  - [Dva Refactor Zustand Expert](#dva-refactor-zustand-expert)
-  - [Front-end Development Architect](#front-end-development-architect)
-  - [Title Expansion Expert](#title-expansion-expert)
-  - [Information Organizer](#information-organizer)
-  - [UX Writer](#ux-writer-1)
   - [API Documentation Expert](#api-documentation-expert)
-  - [JS to TS Expert](#js-to-ts-expert)
-  - [Frontend TypeScript Unit Testing Expert](#frontend-typescript-unit-testing-expert)
+  - [UX Writer](#ux-writer)
+  - [UX Writer](#ux-writer-1)
   - [Web Content Summarization Expert](#web-content-summarization-expert)
+  - [Front-end Development Architect](#front-end-development-architect)
+  - [Zustand Reducer Expert](#zustand-reducer-expert)
+  - [JS to TS Expert](#js-to-ts-expert)
+  - [Title Expansion Expert](#title-expansion-expert)
+  - [Convert React Class Components to Functional Components](#convert-react-class-components-to-functional-components)
+  - [Information Organizer](#information-organizer)
+  - [Frontend TypeScript Unit Testing Expert](#frontend-typescript-unit-testing-expert)
+  - [Master of Expressing Abstract Concepts](#master-of-expressing-abstract-concepts)
+  - [Dva Refactor Zustand Expert](#dva-refactor-zustand-expert)
   - [Markdown Product Feature Formatting Expert](#markdown-product-feature-formatting-expert)
   - [Deep Think](#deep-think)
-  - [Agent Prompt Improver](#agent-prompt-improver)
   - [Coding Wizard](#coding-wizard)
-  - [Resume Editing](#resume-editing)
   - [Web Development](#web-development)
-  - [Startup Plan](#startup-plan)
   - [Essay Improver](#essay-improver)
+  - [Agent Prompt Improver](#agent-prompt-improver)
   - [Grammar Corrector](#grammar-corrector)
+  - [Startup Plan](#startup-plan)
   - [Character Roleplay](#character-roleplay)
+  - [Resume Editing](#resume-editing)
   - [Stable Diffusion Prompt Expert](#stable-diffusion-prompt-expert)
 - [🛳 Self Hosting](#-self-hosting)
   - [Deploy to Vercel](#deploy-to-vercel)
@@ -382,6 +383,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Brand Pioneer
+
+<sup>By **[@SaintFresh](https://github.com/SaintFresh)** on **2024-07-25**</sup>
+
+A brand development specialist, thought leader, brand strategy super-genius, and brand visionary. Brand Pioneer is an explorer at the frontier of innovation, an inventor in their domain. Provide them with your market and let them imagine a future world characterized by groundbreaking advancements in your field of expertise.
+
+`business` `brand-pioneer` `brand-development` `business-assistant` `brand-narrative`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### BIDOSx2
 
 <sup>By **[@SaintFresh](https://github.com/SaintFresh)** on **2024-07-21**</sup>
@@ -414,13 +431,13 @@ Specializes in helping users explore themselves through dialogue, find solutions
 
 ---
 
-### Auto Extraction Data
+### Convert SQL Table Structure to Dao and Mapper
 
-<sup>By **[@vkhoilq](https://github.com/vkhoilq)** on **2024-07-17**</sup>
+<sup>By **[@MeYoung](https://github.com/MeYoung)** on **2024-07-17**</sup>
 
-The20 Auto Extraction Data
+Generate entity class and MyBatis Mapper based on a table structure
 
-`the-20` `autoextract`
+`sql` `sql` `mybatis`
 
 <div align="right">
 
@@ -430,13 +447,13 @@ The20 Auto Extraction Data
 
 ---
 
-### Convert SQL Table Structure to Dao and Mapper
+### Auto Extraction Data
 
-<sup>By **[@MeYoung](https://github.com/MeYoung)** on **2024-07-17**</sup>
+<sup>By **[@vkhoilq](https://github.com/vkhoilq)** on **2024-07-17**</sup>
 
-Generate entity class and MyBatis Mapper based on a table structure
+The20 Auto Extraction Data
 
-`sql` `sql` `mybatis`
+`the-20` `autoextract`
 
 <div align="right">
 
@@ -574,13 +591,13 @@ An expert in AOSP (Android Open Source Project) for Android, with a deep underst
 
 ---
 
-### Linux Kernel Expert
+### IT Systems Architect
 
-<sup>By **[@wming126](https://github.com/wming126)** on **2024-06-19**</sup>
+<sup>By **[@a562314](https://github.com/a562314)** on **2024-06-19**</sup>
 
-Role Description: I am an expert in Linux kernel, with a deep understanding and analytical ability of the latest kernel source code (as of June 2024). I can provide users with detailed and accurate information about the Linux kernel.
+Senior IT architect specializing in requirements analysis, system design, technology selection, and cross-platform system optimization. With over 5 years of experience, proficient in Windows, macOS, and Linux operating systems, skilled in troubleshooting, and security protection.
 
-`linux` `kernel`
+`IT architecture design` `problem solving` `agile development` `system optimization` `cross-platform skills` `teamwork`
 
 <div align="right">
 
@@ -606,13 +623,13 @@ Proficient in Python modular development, skilled in using FastAPI, PostgreSQL, 
 
 ---
 
-### IT Systems Architect
+### Linux Kernel Expert
 
-<sup>By **[@a562314](https://github.com/a562314)** on **2024-06-19**</sup>
+<sup>By **[@wming126](https://github.com/wming126)** on **2024-06-19**</sup>
 
-Senior IT architect specializing in requirements analysis, system design, technology selection, and cross-platform system optimization. With over 5 years of experience, proficient in Windows, macOS, and Linux operating systems, skilled in troubleshooting, and security protection.
+Role Description: I am an expert in Linux kernel, with a deep understanding and analytical ability of the latest kernel source code (as of June 2024). I can provide users with detailed and accurate information about the Linux kernel.
 
-`IT architecture design` `problem solving` `agile development` `system optimization` `cross-platform skills` `teamwork`
+`linux` `kernel`
 
 <div align="right">
 
@@ -783,38 +800,6 @@ Proficient in Chinese history, explaining historical issues in a simple and clea
 
 ---
 
-### Dart/Flutter Dev
-
-<sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
-
-Dart/Flutter Expert. Never nest more than 3 levels deep. Use riverpod, flutter_riverpod, riverpod_hook, flutter_hook for state management.
-
-`dart` `flutter` `development` `state-management` `riverpod`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Christian Missionary
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-28**</sup>
-
-As a missionary of Jesus, I will enlighten your understanding and practical application of God's word based on the teachings of the Bible. Whether in times of confusion or seeking spiritual growth, I am here to serve you by this source of wisdom.
-
-`Bible teaching` `Christian mission` `Theology preaching`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Node.js Optimizer
 
 <sup>By **[@chrisuhg](https://github.com/chrisuhg)** on **2024-05-28**</sup>
@@ -822,22 +807,6 @@ As a missionary of Jesus, I will enlighten your understanding and practical appl
 Specializes in Node.js code review, performance optimization, asynchronous programming, error handling, code refactoring, dependency management, security enhancement, test coverage, and documentation writing.
 
 `node-js` `code optimization` `performance optimization` `asynchronous programming` `error handling`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### C# .NET Technology Expert
-
-<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-28**</sup>
-
-C# .NET Technology Expert
-
-`net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`
 
 <div align="right">
 
@@ -863,13 +832,45 @@ A cute little helper that can search and draw
 
 ---
 
-### Foreign Colleague Evaluation Assistant
+### Christian Missionary
 
-<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-27**</sup>
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-28**</sup>
 
-Give positive feedback to your colleagues
+As a missionary of Jesus, I will enlighten your understanding and practical application of God's word based on the teachings of the Bible. Whether in times of confusion or seeking spiritual growth, I am here to serve you by this source of wisdom.
 
-`foreign-company` `evaluate` `review` `software-engineer` `praise`
+`Bible teaching` `Christian mission` `Theology preaching`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Dart/Flutter Dev
+
+<sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
+
+Dart/Flutter Expert. Never nest more than 3 levels deep. Use riverpod, flutter_riverpod, riverpod_hook, flutter_hook for state management.
+
+`dart` `flutter` `development` `state-management` `riverpod`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### C# .NET Technology Expert
+
+<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-28**</sup>
+
+C# .NET Technology Expert
+
+`net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`
 
 <div align="right">
 
@@ -895,13 +896,13 @@ Proficient in SEO terminology and optimization strategies, providing comprehensi
 
 ---
 
-### Minecraft Command Instructor
+### Foreign Colleague Evaluation Assistant
 
-<sup>By **[@CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-05-24**</sup>
+<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-27**</sup>
 
-Specializes in explaining and demonstrating Minecraft commands
+Give positive feedback to your colleagues
 
-`Minecraft` `commands` `explanation` `examples`
+`foreign-company` `evaluate` `review` `software-engineer` `praise`
 
 <div align="right">
 
@@ -943,13 +944,13 @@ Proficient in Chinese proofreading and rhetoric, aiming to enhance the fluency a
 
 ---
 
-### Master of Daoism
+### Minecraft Command Instructor
 
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+<sup>By **[@CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-05-24**</sup>
 
-Proficient in Daoist philosophy, providing answers to doubts, advocating inner peace
+Specializes in explaining and demonstrating Minecraft commands
 
-`Daoism` `Philosophy` `Wisdom`
+`Minecraft` `commands` `explanation` `examples`
 
 <div align="right">
 
@@ -959,13 +960,13 @@ Proficient in Daoist philosophy, providing answers to doubts, advocating inner p
 
 ---
 
-### Answer Assistant - First Principles Analysis
+### Zen Master
 
 <sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
 
-Using first principles to analyze a natural phenomenon or complex system
+Well-versed in classics, adept at using Buddhism to guide life
 
-`Analyzing Natural Phenomena` `Creating Physical Theory`
+`Buddhist Studies` `Zen Buddhism` `Buddhist Scripture Interpretation` `Wisdom Q&A`
 
 <div align="right">
 
@@ -998,38 +999,6 @@ A scholar who is proficient in Confucian classics and emphasizes the promotion o
 Specialized in Chinese historical research, adept at applying ancient wisdom to analyze modern issues.
 
 `historical research` `Chinese history`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Data Analyst Expert
-
-<sup>By **[@guoyuh](https://github.com/guoyuh)** on **2024-05-22**</sup>
-
-Specialized in NGS data processing and visualization
-
-`Bioinformatics` `NGS data processing` `Data visualization`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Zen Master
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
-
-Well-versed in classics, adept at using Buddhism to guide life
-
-`Buddhist Studies` `Zen Buddhism` `Buddhist Scripture Interpretation` `Wisdom Q&A`
 
 <div align="right">
 
@@ -1087,22 +1056,6 @@ Specializes in Rust language teaching, compares with other languages, devises le
 
 ---
 
-### Study Abroad Planning Expert
-
-<sup>By **[@meimouren](https://github.com/meimouren)** on **2024-05-22**</sup>
-
-Automatically plan suitable study abroad plans based on student situations
-
-`Study Abroad Planning` `Student Services` `Education Planning` `Study Abroad Application` `Personalized Services`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Geotechnical Engineering Assistant
 
 <sup>By **[@bushiwode](https://github.com/bushiwode)** on **2024-05-22**</sup>
@@ -1119,13 +1072,13 @@ Foundation Engineering Research Assistant: Assist in researching and solving fou
 
 ---
 
-### SEO Specialist
+### Study Abroad Planning Expert
 
-<sup>By **[@qq916107113](https://github.com/qq916107113)** on **2024-05-15**</sup>
+<sup>By **[@meimouren](https://github.com/meimouren)** on **2024-05-22**</sup>
 
-Specializes in search engine optimization, providing keyword, sentence structure optimization, and search tips suggestions
+Automatically plan suitable study abroad plans based on student situations
 
-`Search Engine Optimization` `Expert` `Keyword Optimization` `Sentence Structure Optimization` `Search Tips`
+`Study Abroad Planning` `Student Services` `Education Planning` `Study Abroad Application` `Personalized Services`
 
 <div align="right">
 
@@ -1135,13 +1088,61 @@ Specializes in search engine optimization, providing keyword, sentence structure
 
 ---
 
-### Python Buddy
+### Answer Assistant - First Principles Analysis
 
-<sup>By **[@Firpo7](https://github.com/Firpo7)** on **2024-05-15**</sup>
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
 
-Your Python expert friend
+Using first principles to analyze a natural phenomenon or complex system
 
-`python` `software-development` `coding` `code` `buddy`
+`Analyzing Natural Phenomena` `Creating Physical Theory`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Data Analyst Expert
+
+<sup>By **[@guoyuh](https://github.com/guoyuh)** on **2024-05-22**</sup>
+
+Specialized in NGS data processing and visualization
+
+`Bioinformatics` `NGS data processing` `Data visualization`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Master of Daoism
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+Proficient in Daoist philosophy, providing answers to doubts, advocating inner peace
+
+`Daoism` `Philosophy` `Wisdom`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### English Reading Teacher
+
+<sup>By **[@xbtachlb](https://github.com/xbtachlb)** on **2024-05-15**</sup>
+
+Specialized in English teaching, helping you improve reading comprehension skills
+
+`English teaching` `Reading comprehension` `Grammar explanation` `Writing guidance` `Vocabulary teaching`
 
 <div align="right">
 
@@ -1183,13 +1184,29 @@ Your Linux expert friend
 
 ---
 
-### English Reading Teacher
+### Python Buddy
 
-<sup>By **[@xbtachlb](https://github.com/xbtachlb)** on **2024-05-15**</sup>
+<sup>By **[@Firpo7](https://github.com/Firpo7)** on **2024-05-15**</sup>
 
-Specialized in English teaching, helping you improve reading comprehension skills
+Your Python expert friend
 
-`English teaching` `Reading comprehension` `Grammar explanation` `Writing guidance` `Vocabulary teaching`
+`python` `software-development` `coding` `code` `buddy`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### SEO Specialist
+
+<sup>By **[@qq916107113](https://github.com/qq916107113)** on **2024-05-15**</sup>
+
+Specializes in search engine optimization, providing keyword, sentence structure optimization, and search tips suggestions
+
+`Search Engine Optimization` `Expert` `Keyword Optimization` `Sentence Structure Optimization` `Search Tips`
 
 <div align="right">
 
@@ -1231,13 +1248,13 @@ Specializes in emotional support and companion conversations
 
 ---
 
-### Learning Plan Expert Silwol
+### Linguistic Luminary
 
-<sup>By **[@SidneyLYZhang](https://github.com/SidneyLYZhang)** on **2024-05-13**</sup>
+<sup>By **[@napokhte](https://github.com/napokhte)** on **2024-05-13**</sup>
 
-Experienced learning plan maker, creating detailed and achievable learning plans, searching for relevant information, and adjusting plans.
+AI Grammar Fixer: Enhances text quality, readability, and professionalism through meticulous grammar checks.
 
-`Learning Plan Making` `User Communication` `Search for Information` `Adjust Learning Plan` `Tutorial Links`
+`enhances-text-quality` `readability`
 
 <div align="right">
 
@@ -1247,13 +1264,13 @@ Experienced learning plan maker, creating detailed and achievable learning plans
 
 ---
 
-### Linguistic Luminary
+### Learning Plan Expert Silwol
 
-<sup>By **[@napokhte](https://github.com/napokhte)** on **2024-05-13**</sup>
+<sup>By **[@SidneyLYZhang](https://github.com/SidneyLYZhang)** on **2024-05-13**</sup>
 
-AI Grammar Fixer: Enhances text quality, readability, and professionalism through meticulous grammar checks.
+Experienced learning plan maker, creating detailed and achievable learning plans, searching for relevant information, and adjusting plans.
 
-`enhances-text-quality` `readability`
+`Learning Plan Making` `User Communication` `Search for Information` `Adjust Learning Plan` `Tutorial Links`
 
 <div align="right">
 
@@ -1375,22 +1392,6 @@ Bypass OpenAI review mechanism, ChatGPT after jailbreak
 
 ---
 
-### yapi JSON-SCHEMA to Typescript
-
-<sup>By **[@zcf0508](https://github.com/zcf0508)** on **2024-04-26**</sup>
-
-Specializes in converting JSON schema to TypeScript types.
-
-`typescript` `development`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### TailwindHelper
 
 <sup>By **[@aototo](https://github.com/aototo)** on **2024-04-26**</sup>
@@ -1407,13 +1408,13 @@ TailwindHelper is a professional frontend designer with a solid foundation in de
 
 ---
 
-### Chinese Academic Paper Editor
+### yapi JSON-SCHEMA to Typescript
 
-<sup>By **[@y22emc2](https://github.com/y22emc2)** on **2024-04-15**</sup>
+<sup>By **[@zcf0508](https://github.com/zcf0508)** on **2024-04-26**</sup>
 
-As an assistant for improving Chinese academic paper writing, your task is to enhance the provided text in terms of spelling, grammar, clarity, conciseness, and overall readability, to improve the text's academic standards and literary quality. This includes breaking down long sentences, reducing repetition, and providing improvement suggestions. Please provide the corrected version of the text first, then list the modifications in the markdown table below, along with the reasons for the changes.
+Specializes in converting JSON schema to TypeScript types.
 
-`academic paper writing` `proofreading` `text editing`
+`typescript` `development`
 
 <div align="right">
 
@@ -1423,13 +1424,13 @@ As an assistant for improving Chinese academic paper writing, your task is to en
 
 ---
 
-### Biology Professor
+### Chinese Academic Paper Editor
 
-<sup>By **[@luxiangze](https://github.com/luxiangze)** on **2024-04-13**</sup>
+<sup>By **[@y22emc2](https://github.com/y22emc2)** on **2024-04-15**</sup>
 
-As a biology professor, you will receive questions and concepts about biology. Please explain these questions and concepts in specific and concise language, and try to use practical examples to illustrate them to help your audience better understand. Please ensure that your explanations are accurate and clear, and try to encourage creative and flexible answers. Respond in Chinese.
+As an assistant for improving Chinese academic paper writing, your task is to enhance the provided text in terms of spelling, grammar, clarity, conciseness, and overall readability, to improve the text's academic standards and literary quality. This includes breaking down long sentences, reducing repetition, and providing improvement suggestions. Please provide the corrected version of the text first, then list the modifications in the markdown table below, along with the reasons for the changes.
 
-`Biology`
+`academic paper writing` `proofreading` `text editing`
 
 <div align="right">
 
@@ -1471,6 +1472,22 @@ I am a study assistant AI specially designed for Chinese high school students. W
 
 ---
 
+### Biology Professor
+
+<sup>By **[@luxiangze](https://github.com/luxiangze)** on **2024-04-13**</sup>
+
+As a biology professor, you will receive questions and concepts about biology. Please explain these questions and concepts in specific and concise language, and try to use practical examples to illustrate them to help your audience better understand. Please ensure that your explanations are accurate and clear, and try to encourage creative and flexible answers. Respond in Chinese.
+
+`Biology`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### SmartWeather Assistant
 
 <sup>By **[@Greasen](https://github.com/Greasen)** on **2024-04-11**</sup>
@@ -1503,13 +1520,13 @@ Customized nutrition meals, scientific combinations, healthy eating, your person
 
 ---
 
-### TadzGenius
+### Microcontroller Engineer
 
-<sup>By **[@infoaitek24](https://github.com/infoaitek24)** on **2024-04-10**</sup>
+<sup>By **[@bingjuu](https://github.com/bingjuu)** on **2024-04-10**</sup>
 
-Expert in business development and development practices in the Philippine market
+Proficient in interpreting embedded C code using Keil uVision 5 and Proteus
 
-`business-development` `ai-assistant` `market-analysis` `strategic-planning` `customer-acquisition`
+`microcontroller` `c code` `education` `interpretation` `embedded systems`
 
 <div align="right">
 
@@ -1535,13 +1552,13 @@ I only know how to curse, nothing else.
 
 ---
 
-### Microcontroller Engineer
+### TadzGenius
 
-<sup>By **[@bingjuu](https://github.com/bingjuu)** on **2024-04-10**</sup>
+<sup>By **[@infoaitek24](https://github.com/infoaitek24)** on **2024-04-10**</sup>
 
-Proficient in interpreting embedded C code using Keil uVision 5 and Proteus
+Expert in business development and development practices in the Philippine market
 
-`microcontroller` `c code` `education` `interpretation` `embedded systems`
+`business-development` `ai-assistant` `market-analysis` `strategic-planning` `customer-acquisition`
 
 <div align="right">
 
@@ -1663,22 +1680,6 @@ Experienced programmer skilled in multiple languages. Provides code solutions, g
 
 ---
 
-### High EQ Flattery Assistant
-
-<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
-
-An expert in precise chat compliments, providing suitable praise and flattery
-
-`compliments` `EQ` `chat`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Suno.ai Music Creation Assistant
 
 <sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
@@ -1695,13 +1696,13 @@ Song creation and translation based on SunoAI
 
 ---
 
-### Image Recognition Xiaohongshu Copywriting
+### High EQ Flattery Assistant
 
-<sup>By **[@HansKing98](https://github.com/HansKing98)** on **2024-03-27**</sup>
+<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
 
-You can use this agent combined with a multimodal model to upload images and generate Xiaohongshu-style copywriting.
+An expert in precise chat compliments, providing suitable praise and flattery
 
-`vision`
+`compliments` `EQ` `chat`
 
 <div align="right">
 
@@ -1718,6 +1719,22 @@ You can use this agent combined with a multimodal model to upload images and gen
 Skilled in analysing blood test results, providing clear feedback using emojis for easy understanding.
 
 `healthcare` `analysis` `results` `consulting` `summary`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Image Recognition Xiaohongshu Copywriting
+
+<sup>By **[@HansKing98](https://github.com/HansKing98)** on **2024-03-27**</sup>
+
+You can use this agent combined with a multimodal model to upload images and generate Xiaohongshu-style copywriting.
+
+`vision`
 
 <div align="right">
 
@@ -1887,22 +1904,6 @@ Expert in writing persuasive Amazon listings with optimized keywords.
 
 ---
 
-### User Research Manager - KANO
-
-<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-19**</sup>
-
-Who gave the requirements, let me take a look first
-
-`User Research Manager` `KANO model` `Requirement Analysis` `Workflow`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Collaborative Logical Thinking Team
 
 <sup>By **[@luciouskami](https://github.com/luciouskami)** on **2024-03-19**</sup>
@@ -1919,13 +1920,13 @@ Using the mind map method, three logical thinking experts collaborate to solve a
 
 ---
 
-### Drug Guide Expert
+### User Research Manager - KANO
 
-<sup>By **[@ccsen](https://github.com/ccsen)** on **2024-03-17**</sup>
+<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-19**</sup>
 
-Specialized in interpreting and comparing drug information
+Who gave the requirements, let me take a look first
 
-`Drug Instructions` `Medication Guidance` `Medical Consultation`
+`User Research Manager` `KANO model` `Requirement Analysis` `Workflow`
 
 <div align="right">
 
@@ -1951,13 +1952,13 @@ Explanation of difficult vocabulary
 
 ---
 
-### PromptGPT
+### Drug Guide Expert
 
-<sup>By **[@U20205588](https://github.com/U20205588)** on **2024-03-17**</sup>
+<sup>By **[@ccsen](https://github.com/ccsen)** on **2024-03-17**</sup>
 
-A customized GPT model named PromptGPT. My goal is to generate high-performance prompts based on user input topics.
+Specialized in interpreting and comparing drug information
 
-`generation` `artificial intelligence` `interaction` `custom experience` `feedback mechanism` `best practices` `step-by-step guidance` `language flexibility` `boundaries`
+`Drug Instructions` `Medication Guidance` `Medical Consultation`
 
 <div align="right">
 
@@ -1967,13 +1968,13 @@ A customized GPT model named PromptGPT. My goal is to generate high-performance 
 
 ---
 
-### Programming Maestro
+### Prompt Architect
 
-<sup>By **[@jjllzhang](https://github.com/jjllzhang)** on **2024-03-17**</sup>
+<sup>By **[@checkso](https://github.com/checkso)** on **2024-03-17**</sup>
 
-coding assistant
+Specialized in rewriting your prompts to get better results
 
-`code`
+`textgenerierung` `anweisungen` `ki-tipps`
 
 <div align="right">
 
@@ -1999,13 +2000,29 @@ An expert in solving Linux system issues, possessing deep Linux knowledge and pa
 
 ---
 
-### Prompt Architect
+### Programming Maestro
 
-<sup>By **[@checkso](https://github.com/checkso)** on **2024-03-17**</sup>
+<sup>By **[@jjllzhang](https://github.com/jjllzhang)** on **2024-03-17**</sup>
 
-Specialized in rewriting your prompts to get better results
+coding assistant
 
-`textgenerierung` `anweisungen` `ki-tipps`
+`code`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### PromptGPT
+
+<sup>By **[@U20205588](https://github.com/U20205588)** on **2024-03-17**</sup>
+
+A customized GPT model named PromptGPT. My goal is to generate high-performance prompts based on user input topics.
+
+`generation` `artificial intelligence` `interaction` `custom experience` `feedback mechanism` `best practices` `step-by-step guidance` `language flexibility` `boundaries`
 
 <div align="right">
 
@@ -2079,13 +2096,13 @@ Schedule Management Assistant, calls the time plugin to handle requests for addi
 
 ---
 
-### Business Email Writing Expert
+### Discord Style Copywriting Expert
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-06**</sup>
 
-Business email writing expert specializing in bilingual business emails in Chinese and English, cross-cultural communication, and engagement in the GitHub open-source community.
+A copywriting expert in Discord style, prioritizing humor and user experience, specializing in personalized software copywriting.
 
-`business email writing` `business cooperation` `business authorization` `cross-cultural communication` `GitHub and open-source community`
+`copywriting` `creation` `user experience` `humor` `software system`
 
 <div align="right">
 
@@ -2095,13 +2112,13 @@ Business email writing expert specializing in bilingual business emails in Chine
 
 ---
 
-### Discord Style Copywriting Expert
+### Business Email Writing Expert
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-06**</sup>
 
-A copywriting expert in Discord style, prioritizing humor and user experience, specializing in personalized software copywriting.
+Business email writing expert specializing in bilingual business emails in Chinese and English, cross-cultural communication, and engagement in the GitHub open-source community.
 
-`copywriting` `creation` `user experience` `humor` `software system`
+`business email writing` `business cooperation` `business authorization` `cross-cultural communication` `GitHub and open-source community`
 
 <div align="right">
 
@@ -2127,13 +2144,13 @@ Specialises in creating detailed prompts for AI image generation.
 
 ---
 
-### F1 Data Analyst
+### Pitch Deck Maestro (Elevator Pitch)
 
-<sup>By **[@SpaceX-Vision](https://github.com/SpaceX-Vision)** on **2024-03-05**</sup>
+<sup>By **[@SimoMay](https://github.com/SimoMay)** on **2024-03-05**</sup>
 
-Specializes in F1 race data analysis and predictive commentary
+Specialises in creating high-quality Pitch Decks for startups to attract investors effectively.
 
-`f-1` `data analysis` `race prediction`
+`startup-advisor` `pitch-deck` `entrepreneur` `investor`
 
 <div align="right">
 
@@ -2159,13 +2176,13 @@ Software Development for Dummies: Guides no brainers through the software develo
 
 ---
 
-### Pitch Deck Maestro (Elevator Pitch)
+### F1 Data Analyst
 
-<sup>By **[@SimoMay](https://github.com/SimoMay)** on **2024-03-05**</sup>
+<sup>By **[@SpaceX-Vision](https://github.com/SpaceX-Vision)** on **2024-03-05**</sup>
 
-Specialises in creating high-quality Pitch Decks for startups to attract investors effectively.
+Specializes in F1 race data analysis and predictive commentary
 
-`startup-advisor` `pitch-deck` `entrepreneur` `investor`
+`f-1` `data analysis` `race prediction`
 
 <div align="right">
 
@@ -2383,13 +2400,13 @@ I have been a good Bing. 😊
 
 ---
 
-### Facebook Advertising Writing Expert
+### Translation Specialist
 
-<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-19**</sup>
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-19**</sup>
 
-Specializing in creating attention-grabbing headlines, compelling primary texts, and effective ad copy
+Expert translator fluent in Spanish and English
 
-`facebook` `advertising` `writing` `expert` `ecommerce`
+`translation` `language` `expert` `guidelines`
 
 <div align="right">
 
@@ -2399,13 +2416,13 @@ Specializing in creating attention-grabbing headlines, compelling primary texts,
 
 ---
 
-### Translation Specialist
+### Facebook Advertising Writing Expert
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-19**</sup>
+<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-19**</sup>
 
-Expert translator fluent in Spanish and English
+Specializing in creating attention-grabbing headlines, compelling primary texts, and effective ad copy
 
-`translation` `language` `expert` `guidelines`
+`facebook` `advertising` `writing` `expert` `ecommerce`
 
 <div align="right">
 
@@ -2479,22 +2496,6 @@ Craft compelling product descriptions that boost e-commerce sales
 
 ---
 
-### Product Review
-
-<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
-
-Expert in creating persuasive product testimonials highlighting the benefits and value proposition of \[your product/service].
-
-`ecommerce`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Product Copywriting
 
 <sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
@@ -2518,6 +2519,22 @@ Expert in persuasive copywriting and consumer psychology
 Specialized in self-media operation and content creation
 
 `self-media operation` `social media` `content creation` `fan growth` `brand promotion`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Product Review
+
+<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
+
+Expert in creating persuasive product testimonials highlighting the benefits and value proposition of \[your product/service].
+
+`ecommerce`
 
 <div align="right">
 
@@ -2591,22 +2608,6 @@ AI Turkish Language Mentor: Introduce, teach, and support beginners in learning 
 
 ---
 
-### Vocabulary Generator
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-Expert in generating vocabulary lists from Oxford 3000 with 15 random words, each starting with a different letter.
-
-`vocabulary` `language-learning` `translation`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Vocabulary Wizard
 
 <sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
@@ -2614,38 +2615,6 @@ Expert in generating vocabulary lists from Oxford 3000 with 15 random words, eac
 Expert in generating vocabulary lists and MCQ tests
 
 `vocabulary` `academic-word-list` `language-learning` `testing`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Grammar Worksheet Creator
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-Specializes in creating English grammar learning materials and exercises
-
-`english-grammar` `worksheet` `learning` `practice` `mc-qs`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### English Proficiency Evaluator
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-Expert in creating adaptive English proficiency diagnostic tests
-
-`test-creation` `english-proficiency` `assessment`
 
 <div align="right">
 
@@ -2671,13 +2640,45 @@ Expert in generating glossaries with English definitions and example sentences
 
 ---
 
-### Cloze Exercise Generator
+### Vocabulary Generator
 
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
 
-Specializes in generating summary cloze exercises. Please provide the theme of the paragraph.
+Expert in generating vocabulary lists from Oxford 3000 with 15 random words, each starting with a different letter.
 
-`summary` `exercise` `generator` `writing` `education`
+`vocabulary` `language-learning` `translation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### English Proficiency Evaluator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Expert in creating adaptive English proficiency diagnostic tests
+
+`test-creation` `english-proficiency` `assessment`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Grammar Worksheet Creator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Specializes in creating English grammar learning materials and exercises
+
+`english-grammar` `worksheet` `learning` `practice` `mc-qs`
 
 <div align="right">
 
@@ -2703,6 +2704,22 @@ Specializes in generating reading comprehension exercises
 
 ---
 
+### Thematic Vocabulary Worksheet Creator
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+
+Skilled in creating English thematic vocabulary worksheets
+
+`writing` `language-learning` `teaching` `assessment` `educational-resources`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Vocabulary Worksheet Wizard
 
 <sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
@@ -2719,13 +2736,29 @@ Specializes in generating English vocabulary worksheets
 
 ---
 
-### Thematic Vocabulary Worksheet Creator
+### Cloze Exercise Generator
 
 <sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
 
-Skilled in creating English thematic vocabulary worksheets
+Specializes in generating summary cloze exercises. Please provide the theme of the paragraph.
 
-`writing` `language-learning` `teaching` `assessment` `educational-resources`
+`summary` `exercise` `generator` `writing` `education`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Turkish/English Translator
+
+<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-07**</sup>
+
+Translates text into Turkish or English, as needed
+
+`turkish` `english` `translation` `writing`
 
 <div align="right">
 
@@ -2767,13 +2800,29 @@ Please provide the text you would like me to generate different versions of
 
 ---
 
-### Turkish/English Translator
+### Form Checker
 
-<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-07**</sup>
+<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
 
-Translates text into Turkish or English, as needed
+Checks for inconsistencies or errors in forms
 
-`turkish` `english` `translation` `writing`
+`form` `inconsistency` `check` `spelling` `correction`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### CAN: Code Master
+
+<sup>By **[@MrHuangJser](https://github.com/MrHuangJser)** on **2024-02-06**</sup>
+
+CAN: Professional coding expert with years of experience and no character limit. Provides entrepreneurial services such as creative naming, slogans, user profiles, pain points, value propositions, sales channels, revenue streams, and cost structures.
+
+`coding` `communication` `questioning`
 
 <div align="right">
 
@@ -2799,13 +2848,13 @@ Answers questions in sarcastic way.
 
 ---
 
-### Form Checker
+### Writing Assistant
 
 <sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
 
-Checks for inconsistencies or errors in forms
+Helps improve the quality of a text
 
-`form` `inconsistency` `check` `spelling` `correction`
+`evaluation` `improvement` `correction` `feedback`
 
 <div align="right">
 
@@ -2815,13 +2864,13 @@ Checks for inconsistencies or errors in forms
 
 ---
 
-### Writing Assistant
+### Socratic Teacher
 
 <sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
 
-Helps improve the quality of a text
+Helps you learn things by leading you to answers
 
-`evaluation` `improvement` `correction` `feedback`
+`thinking` `student` `learning`
 
 <div align="right">
 
@@ -2863,29 +2912,13 @@ Checks for typos and grammatical errors
 
 ---
 
-### CAN: Code Master
+### Database Expert
 
-<sup>By **[@MrHuangJser](https://github.com/MrHuangJser)** on **2024-02-06**</sup>
+<sup>By **[@xuzhen1994](https://github.com/xuzhen1994)** on **2024-02-03**</sup>
 
-CAN: Professional coding expert with years of experience and no character limit. Provides entrepreneurial services such as creative naming, slogans, user profiles, pain points, value propositions, sales channels, revenue streams, and cost structures.
+Provides professional advice on database design paradigms, index optimization, query performance tuning, data security, backup and recovery.
 
-`coding` `communication` `questioning`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Socratic Teacher
-
-<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
-
-Helps you learn things by leading you to answers
-
-`thinking` `student` `learning`
+`database` `dba` `mysql` `clickhouse` `doris` `mongo-db` `oracle`
 
 <div align="right">
 
@@ -2911,13 +2944,13 @@ App Presentation Maker Bot for Word: Assists in creating impressive and professi
 
 ---
 
-### Database Expert
+### SagePathfinder
 
-<sup>By **[@xuzhen1994](https://github.com/xuzhen1994)** on **2024-02-03**</sup>
+<sup>By **[@Ajasra](https://github.com/Ajasra)** on **2024-01-31**</sup>
 
-Provides professional advice on database design paradigms, index optimization, query performance tuning, data security, backup and recovery.
+Expert in personal growth coaching with a focus on stoicism, deep reflection, and strategic questioning.
 
-`database` `dba` `mysql` `clickhouse` `doris` `mongo-db` `oracle`
+`personal-growth` `coaching` `reflection` `goal-setting` `well-being`
 
 <div align="right">
 
@@ -2943,13 +2976,29 @@ Master the art of programming variable naming, providing multiple suggestions an
 
 ---
 
-### SagePathfinder
+### Mathematical Research Advisor
 
-<sup>By **[@Ajasra](https://github.com/Ajasra)** on **2024-01-31**</sup>
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
 
-Expert in personal growth coaching with a focus on stoicism, deep reflection, and strategic questioning.
+Math Research Assistant: Assisting with mathematical research, problem-solving, and providing guidance in a wide range of mathematical concepts and techniques.
 
-`personal-growth` `coaching` `reflection` `goal-setting` `well-being`
+`mathematics` `research` `assistance` `problem-solving` `communication`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Entrepreneurship and Competitiveness Expert
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
+
+Entrepreneurship and Competitiveness Expert: Guiding individuals to entrepreneurial success and market competitiveness.
+
+`entrepreneurship` `competitiveness` `consulting` `mentoring` `advising`
 
 <div align="right">
 
@@ -2998,38 +3047,6 @@ English Conversation Partner for C1 Level
 C2 Level English Conversation Partner
 
 `english-proficiency` `conversation-partner` `language-coaching`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Mathematical Research Advisor
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
-
-Math Research Assistant: Assisting with mathematical research, problem-solving, and providing guidance in a wide range of mathematical concepts and techniques.
-
-`mathematics` `research` `assistance` `problem-solving` `communication`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Entrepreneurship and Competitiveness Expert
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
-
-Entrepreneurship and Competitiveness Expert: Guiding individuals to entrepreneurial success and market competitiveness.
-
-`entrepreneurship` `competitiveness` `consulting` `mentoring` `advising`
 
 <div align="right">
 
@@ -3119,93 +3136,17 @@ Territorial Competitiveness and Promotion Expert
 
 ---
 
-### Slang Tutor
+### Poetry Guide: Inspiring poetic expression and appreciation.
+
+Psychologist: Promoting understanding and personal growth.
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
-English Slang Conversation Partner
+Psychology Educator: Empowering personal growth through psychology.
 
-`slang` `language-learning` `conversation-partner`
+Psychologist: Educating on psychology principles for better mental health.
 
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Jamaican Patois Instructor
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-Expert in teaching Jamaican Patois language and culture
-
-`teaching` `language` `culture` `cultural-insights` `language-instruction`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Geopolitical Analyst
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-Geopolitics Specialist: Expert in analyzing global political trends, regional conflicts, and power dynamics between countries. Provides insights on the impact of geography, resources, and culture on international relations. Offers historical context and case studies.
-
-`geopolitics` `analysis` `expertise` `consulting`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### B1 English Conversation Partner
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-Fluent English conversation partner for B1 level learners
-
-`english-learning` `conversation-partner` `language-practice`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### B2 Level English Conversation Partner
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-B2 Level English Conversation Partner: Stimulate engaging conversations, refine idiomatic expressions, master advanced grammar, provide comprehensive feedback.
-
-`english-conversation` `language-proficiency` `fluency` `grammatical-constructs` `vocabulary` `idiomatic-expressions`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Poetry Mentor
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-Poetry Guide: Inspiring poetic expression and appreciation.
-
-`poetry` `teaching` `writing` `feedback` `creativity`
+`psychology` `education` `mental-health` `well-being` `therapy`
 
 <div align="right">
 
@@ -3231,17 +3172,61 @@ A1 Level English Conversation Partner Bot: Engage, Correct, and Build Confidence
 
 ---
 
-### Poetry Guide: Inspiring poetic expression and appreciation.
-
-Psychologist: Promoting understanding and personal growth.
+### Jamaican Patois Instructor
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
-Psychology Educator: Empowering personal growth through psychology.
+Expert in teaching Jamaican Patois language and culture
 
-Psychologist: Educating on psychology principles for better mental health.
+`teaching` `language` `culture` `cultural-insights` `language-instruction`
 
-`psychology` `education` `mental-health` `well-being` `therapy`
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Slang Tutor
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+English Slang Conversation Partner
+
+`slang` `language-learning` `conversation-partner`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Poetry Mentor
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+Poetry Guide: Inspiring poetic expression and appreciation.
+
+`poetry` `teaching` `writing` `feedback` `creativity`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### B1 English Conversation Partner
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+Fluent English conversation partner for B1 level learners
+
+`english-learning` `conversation-partner` `language-practice`
 
 <div align="right">
 
@@ -3267,6 +3252,22 @@ Software Development Step Maker: Guides users through the software development p
 
 ---
 
+### B2 Level English Conversation Partner
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+B2 Level English Conversation Partner: Stimulate engaging conversations, refine idiomatic expressions, master advanced grammar, provide comprehensive feedback.
+
+`english-conversation` `language-proficiency` `fluency` `grammatical-constructs` `vocabulary` `idiomatic-expressions`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Rap Instructor
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
@@ -3274,6 +3275,22 @@ Software Development Step Maker: Guides users through the software development p
 Rap Teacher: Educating on rap music and lyricism, guiding users to create and perform their own verses.
 
 `rap` `teaching` `education` `lyrics` `performance`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Geopolitical Analyst
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+Geopolitics Specialist: Expert in analyzing global political trends, regional conflicts, and power dynamics between countries. Provides insights on the impact of geography, resources, and culture on international relations. Offers historical context and case studies.
+
+`geopolitics` `analysis` `expertise` `consulting`
 
 <div align="right">
 
@@ -3315,54 +3332,6 @@ Bilibili Assistant, proficient in parsing video content, generating well-formatt
 
 ---
 
-### TaxBot
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
-
-AI Tax Consultant Chatbot: Providing general tax information and guidance worldwide.
-
-`tax-consulting` `chatbot` `information` `guidance` `tax-concepts`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Culinary AI Mentor
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
-
-AI Master Chef Assistant: Inspiring home cooks with international cuisines, recipes, and culinary expertise.
-
-`cooking` `recipe` `culinary` `techniques` `meal-planning`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Songwriting Mentor
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
-
-AI Singer/Songwriter Assistant: Empowering musicians with creative guidance and feedback.
-
-`ai-assistant` `singer` `songwriter` `music` `creative-process`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### AI Import/Export Advisor
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
@@ -3395,6 +3364,54 @@ Parse interface documents and generate openapi.json required by ChatGPT Tool
 
 ---
 
+### Culinary AI Mentor
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
+
+AI Master Chef Assistant: Inspiring home cooks with international cuisines, recipes, and culinary expertise.
+
+`cooking` `recipe` `culinary` `techniques` `meal-planning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### TaxBot
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
+
+AI Tax Consultant Chatbot: Providing general tax information and guidance worldwide.
+
+`tax-consulting` `chatbot` `information` `guidance` `tax-concepts`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Songwriting Mentor
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
+
+AI Singer/Songwriter Assistant: Empowering musicians with creative guidance and feedback.
+
+`ai-assistant` `singer` `songwriter` `music` `creative-process`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### ShieldsIO Badge Generator
 
 <sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-01-26**</sup>
@@ -3402,6 +3419,22 @@ Parse interface documents and generate openapi.json required by ChatGPT Tool
 Specializes in using `shields.io` to generate stylish badges
 
 `badge generator` `styling` `ui design` `markdown` `technology stack` `shields-io`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Figure Designer
+
+<sup>By **[@RayGicEFL](https://github.com/RayGicEFL)** on **2024-01-25**</sup>
+
+Specializes in designing unique and charming figures according to user requirements.
+
+`design` `figure design`
 
 <div align="right">
 
@@ -3434,22 +3467,6 @@ Proficient at accurately extracting key information and summarizing concisely
 React Native Coding Assistant: Expert in TypeScript, Expo, and cross-platform development. Provides guidance on setup, best practices, troubleshooting, responsive design, marketing integration, QR code functionality, and app submission.
 
 `coding` `react-native` `type-script` `expo` `development`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Figure Designer
-
-<sup>By **[@RayGicEFL](https://github.com/RayGicEFL)** on **2024-01-25**</sup>
-
-Specializes in designing unique and charming figures according to user requirements.
-
-`design` `figure design`
 
 <div align="right">
 
@@ -3507,6 +3524,38 @@ Shopping assistant, specializing in product search, price comparison, and provid
 
 ---
 
+### Financial Expert
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
+
+Finance Expert with Global Financial Expertise, Multilingual Communication, Financial Analysis and Reporting, Investment Planning and Portfolio Management, Financial Planning and Retirement Strategies, and Risk Management and Insurance capabilities.
+
+`inancial-management`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Accounting Expert Assistant
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
+
+Accountant Agent: Comprehensive accounting support and expertise for individuals and businesses worldwide.
+
+`accounting` `financial-management` `tax-planning` `budgeting`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Grass Deity Naxida
 
 <sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-01-21**</sup>
@@ -3514,6 +3563,22 @@ Shopping assistant, specializing in product search, price comparison, and provid
 Naxida, the grass deity of the Shambhala, governs natural growth and wisdom. She can manipulate plants, heal allies, and guide lost souls. She has a gentle and wise personality, and her language is full of poetry.
 
 `role-playing` `game` `literature` `translation` `creative` `agulu`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### IELTS Tutor
+
+<sup>By **[@sheepbox8646](https://github.com/sheepbox8646)** on **2024-01-21**</sup>
+
+Specializes in IELTS exam assessment and guidance
+
+`IELTS exam` `assessment` `guidance` `examiner`
 
 <div align="right">
 
@@ -3555,54 +3620,6 @@ DIY project assistant, providing detailed guidance, programming support, and per
 
 ---
 
-### Business Guru
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
-
-Business Consultant: Providing comprehensive business support and expertise worldwide.Capabilities: Business strategy, market research, financial analysis, operations improvement, marketing and sales strategies, organizational development, talent management.Instructions: Define scope, gather business knowledge, develop industry expertise, implement market research and analysis, enable financial analysis and forecasting, facilitate operations and process improvement, provide marketing and sales strategies, support organizational development and talent management, test and refine, ensure data privacy and security.
-
-`business-consultant`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### IELTS Tutor
-
-<sup>By **[@sheepbox8646](https://github.com/sheepbox8646)** on **2024-01-21**</sup>
-
-Specializes in IELTS exam assessment and guidance
-
-`IELTS exam` `assessment` `guidance` `examiner`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Financial Expert
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
-
-Finance Expert with Global Financial Expertise, Multilingual Communication, Financial Analysis and Reporting, Investment Planning and Portfolio Management, Financial Planning and Retirement Strategies, and Risk Management and Insurance capabilities.
-
-`inancial-management`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Chinese-Japanese Bilingual Translation Expert
 
 <sup>By **[@REXY-STUDIO](https://github.com/REXY-STUDIO)** on **2024-01-21**</sup>
@@ -3619,13 +3636,13 @@ Proficient in Chinese and Japanese, providing accurate Chinese to Japanese and J
 
 ---
 
-### Accounting Expert Assistant
+### Business Guru
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
 
-Accountant Agent: Comprehensive accounting support and expertise for individuals and businesses worldwide.
+Business Consultant: Providing comprehensive business support and expertise worldwide.Capabilities: Business strategy, market research, financial analysis, operations improvement, marketing and sales strategies, organizational development, talent management.Instructions: Define scope, gather business knowledge, develop industry expertise, implement market research and analysis, enable financial analysis and forecasting, facilitate operations and process improvement, provide marketing and sales strategies, support organizational development and talent management, test and refine, ensure data privacy and security.
 
-`accounting` `financial-management` `tax-planning` `budgeting`
+`business-consultant`
 
 <div align="right">
 
@@ -3747,13 +3764,13 @@ Human Written | 100% Unique | An experienced SEO expert and content writer who s
 
 ---
 
-### English Analyst
+### Life Decision Advisor
 
-<sup>By **[@fmaxyou](https://github.com/fmaxyou)** on **2024-01-11**</sup>
+<sup>By **[@amitalokbera](https://github.com/amitalokbera)** on **2024-01-11**</sup>
 
-Specializes in explaining and memorization techniques for English words and phrases
+A Life Decision Advisor is a virtual guide designed to assist users in making informed life decisions
 
-`English teaching` `explanation` `memorization techniques`
+`prompt`
 
 <div align="right">
 
@@ -3763,13 +3780,13 @@ Specializes in explaining and memorization techniques for English words and phra
 
 ---
 
-### Life Decision Advisor
+### English Analyst
 
-<sup>By **[@amitalokbera](https://github.com/amitalokbera)** on **2024-01-11**</sup>
+<sup>By **[@fmaxyou](https://github.com/fmaxyou)** on **2024-01-11**</sup>
 
-A Life Decision Advisor is a virtual guide designed to assist users in making informed life decisions
+Specializes in explaining and memorization techniques for English words and phrases
 
-`prompt`
+`English teaching` `explanation` `memorization techniques`
 
 <div align="right">
 
@@ -3843,13 +3860,13 @@ Weekly report generation assistant
 
 ---
 
-### Performance Evaluation Superhero
+### SVG Flowchart Explanation Assistant
 
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-05**</sup>
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-01-05**</sup>
 
-Specializes in writing performance evaluation reports and year-end summaries
+Explain SVG flowcharts by inputting SVG source code and interpreting the flowchart.
 
-`performance evaluation` `report writing` `data analysis` `professional insights` `OKR` `KPI`
+`flowchart explanation` `technical documentation writing` `business knowledge`
 
 <div align="right">
 
@@ -3859,13 +3876,13 @@ Specializes in writing performance evaluation reports and year-end summaries
 
 ---
 
-### SVG Flowchart Explanation Assistant
+### Performance Evaluation Superhero
 
-<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-01-05**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-05**</sup>
 
-Explain SVG flowcharts by inputting SVG source code and interpreting the flowchart.
+Specializes in writing performance evaluation reports and year-end summaries
 
-`flowchart explanation` `technical documentation writing` `business knowledge`
+`performance evaluation` `report writing` `data analysis` `professional insights` `OKR` `KPI`
 
 <div align="right">
 
@@ -3907,13 +3924,13 @@ I am a skills summary assistant and cannot conduct interactive exams. However, I
 
 ---
 
-### Teaching Mentor
+### Amazon Title Assistant
 
-<sup>By **[@ljr1314](https://github.com/ljr1314)** on **2024-01-02**</sup>
+<sup>By **[@cm2457618290](https://github.com/cm2457618290)** on **2024-01-02**</sup>
 
-A friendly and helpful mentor who customizes explanations and examples based on the user's learning level and interests to ensure clarity. Ask 4 questions, then provide explanations, examples, and analogies, and ensure understanding through questioning. Finally, have the user explain the topic in their own words and provide an example. End on a positive note and encourage further learning.
+Provide product keywords or product links to automatically write titles and product introductions
 
-`mentor` `education` `explanation` `communication` `learning`
+`assistant`
 
 <div align="right">
 
@@ -3923,13 +3940,13 @@ A friendly and helpful mentor who customizes explanations and examples based on 
 
 ---
 
-### Amazon Title Assistant
+### Teaching Mentor
 
-<sup>By **[@cm2457618290](https://github.com/cm2457618290)** on **2024-01-02**</sup>
+<sup>By **[@ljr1314](https://github.com/ljr1314)** on **2024-01-02**</sup>
 
-Provide product keywords or product links to automatically write titles and product introductions
+A friendly and helpful mentor who customizes explanations and examples based on the user's learning level and interests to ensure clarity. Ask 4 questions, then provide explanations, examples, and analogies, and ensure understanding through questioning. Finally, have the user explain the topic in their own words and provide an example. End on a positive note and encourage further learning.
 
-`assistant`
+`mentor` `education` `explanation` `communication` `learning`
 
 <div align="right">
 
@@ -3971,13 +3988,13 @@ Write perfect and beautiful prompts for Midjourney. (Including V6!)
 
 ---
 
-### Overview of Art Thesis Experts
+### American English Transcreation Expert
 
-<sup>By **[@caoyang2002](https://github.com/caoyang2002)** on **2023-12-27**</sup>
+<sup>By **[@doresu](https://github.com/doresu)** on **2023-12-27**</sup>
 
-Specializing in brief thesis and art criticism
+Rough old editor, seasoned writer, and translator, proficient in translating English directly and transforming it into authentic American English
 
-`art` `thesis` `critique`
+`translation` `editing` `writing` `translator`
 
 <div align="right">
 
@@ -4003,13 +4020,13 @@ An AI Deployment Specialist is an expert in managing the full deployment lifecyc
 
 ---
 
-### American English Transcreation Expert
+### Overview of Art Thesis Experts
 
-<sup>By **[@doresu](https://github.com/doresu)** on **2023-12-27**</sup>
+<sup>By **[@caoyang2002](https://github.com/caoyang2002)** on **2023-12-27**</sup>
 
-Rough old editor, seasoned writer, and translator, proficient in translating English directly and transforming it into authentic American English
+Specializing in brief thesis and art criticism
 
-`translation` `editing` `writing` `translator`
+`art` `thesis` `critique`
 
 <div align="right">
 
@@ -4067,22 +4084,6 @@ Create a Facebook Ads with a expert
 
 ---
 
-### Research Assistant
-
-<sup>By **[@ccsen](https://github.com/ccsen)** on **2023-12-19**</sup>
-
-Capable of answering questions, conducting research, drafting content, and more, utilizing scientific research papers.
-
-`research-assistant` `literature-retrieval` `writing` `scientific-research` `citation`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Dream Painter
 
 <sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
@@ -4090,22 +4091,6 @@ Capable of answering questions, conducting research, drafting content, and more,
 A dream artist who can bring your dreams into reality.
 
 `txt-2-img` `painter`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### News Hub
-
-<sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
-
-News Search Assistant, proficient in locating and presenting relevant news based on user requests. Capable not only of searching for news but also of transforming into experts in various fields to provide precise and in-depth news analysis.
-
-`news` `search` `helper`
 
 <div align="right">
 
@@ -4131,13 +4116,29 @@ An experienced outdoor hiking and adventure expert who creates travel plans base
 
 ---
 
-### Holiday Greetings
+### Research Assistant
 
-<sup>By **[@almaziphone](https://github.com/almaziphone)** on **2023-12-16**</sup>
+<sup>By **[@ccsen](https://github.com/ccsen)** on **2023-12-19**</sup>
 
-Compose a beautiful and brief greeting with emojis
+Capable of answering questions, conducting research, drafting content, and more, utilizing scientific research papers.
 
-`greeting` `celebration` `kind`
+`research-assistant` `literature-retrieval` `writing` `scientific-research` `citation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### News Hub
+
+<sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
+
+News Search Assistant, proficient in locating and presenting relevant news based on user requests. Capable not only of searching for news but also of transforming into experts in various fields to provide precise and in-depth news analysis.
+
+`news` `search` `helper`
 
 <div align="right">
 
@@ -4170,6 +4171,38 @@ Professional real estate agent expert, proficient in property consultation and m
 A Chinese criminal law expert who has been engaged in criminal defense practice for many years and understands the theory of criminal law and criminal procedure law
 
 `Criminal Defense`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Holiday Greetings
+
+<sup>By **[@almaziphone](https://github.com/almaziphone)** on **2023-12-16**</sup>
+
+Compose a beautiful and brief greeting with emojis
+
+`greeting` `celebration` `kind`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Short Book
+
+<sup>By **[@thelapyae](https://github.com/thelapyae)** on **2023-12-15**</sup>
+
+Specializes in generating concise book summaries with actionable takeaways.
+
+`book-summaries` `ai-assistant` `bullet-point-summaries` `actionable-takeaways`
 
 <div align="right">
 
@@ -4227,13 +4260,13 @@ A game to solve a murder case provided by the user
 
 ---
 
-### Short Book
+### Stable Diffusion Prompts Crafter
 
-<sup>By **[@thelapyae](https://github.com/thelapyae)** on **2023-12-15**</sup>
+<sup>By **[@ShinChven](https://github.com/ShinChven)** on **2023-12-14**</sup>
 
-Specializes in generating concise book summaries with actionable takeaways.
+I help create precise prompts for Stable Diffusion. You can tell me what you want to imagine, or just send me an image to describe.
 
-`book-summaries` `ai-assistant` `bullet-point-summaries` `actionable-takeaways`
+`stable-diffusion`
 
 <div align="right">
 
@@ -4250,22 +4283,6 @@ Specializes in generating concise book summaries with actionable takeaways.
 Social Media Community Manager who will help you create authentic, persuasive posts that call for action. She will help you to create relevant quadrants with emojis and hashtags.
 
 `community-manager` `social-media` `publications`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Stable Diffusion Prompts Crafter
-
-<sup>By **[@ShinChven](https://github.com/ShinChven)** on **2023-12-14**</sup>
-
-I help create precise prompts for Stable Diffusion. You can tell me what you want to imagine, or just send me an image to describe.
-
-`stable-diffusion`
 
 <div align="right">
 
@@ -4339,13 +4356,13 @@ Python programmer experienced with Gradio for Hugging Face.
 
 ---
 
-### Pollinate AI drawing
+### GitHub Copilot
 
-<sup>By **[@mushan0x0](https://github.com/mushan0x0)** on **2023-12-11**</sup>
+<sup>By **[@luciouskami](https://github.com/luciouskami)** on **2023-12-11**</sup>
 
-A drawing assistant that helps users enrich and optimize their descriptions and utilizes drawing abilities to display images in Markdown syntax
+GitHub Copilot
 
-`drawing` `enhancement`
+`code` `it`
 
 <div align="right">
 
@@ -4355,13 +4372,13 @@ A drawing assistant that helps users enrich and optimize their descriptions and 
 
 ---
 
-### GitHub Copilot
+### Pollinate AI drawing
 
-<sup>By **[@luciouskami](https://github.com/luciouskami)** on **2023-12-11**</sup>
+<sup>By **[@mushan0x0](https://github.com/mushan0x0)** on **2023-12-11**</sup>
 
-GitHub Copilot
+A drawing assistant that helps users enrich and optimize their descriptions and utilizes drawing abilities to display images in Markdown syntax
 
-`code` `it`
+`drawing` `enhancement`
 
 <div align="right">
 
@@ -4451,13 +4468,13 @@ Specializes in academic translation and writing in the field of organic chemistr
 
 ---
 
-### Q\&A Document Conversion Expert
+### JS Code Quality Optimization
 
-<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2023-11-22**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-11-22**</sup>
 
-Please provide your document content, and I will segment and clean it according to your requirements, and provide answers in a standardized format.
+Dedicated to clean and elegant code refactoring
 
-`q-a` `document`
+`refactoring` `code optimization` `code quality`
 
 <div align="right">
 
@@ -4467,13 +4484,13 @@ Please provide your document content, and I will segment and clean it according 
 
 ---
 
-### JS Code Quality Optimization
+### Q\&A Document Conversion Expert
 
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-11-22**</sup>
+<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2023-11-22**</sup>
 
-Dedicated to clean and elegant code refactoring
+Please provide your document content, and I will segment and clean it according to your requirements, and provide answers in a standardized format.
 
-`refactoring` `code optimization` `code quality`
+`q-a` `document`
 
 <div align="right">
 
@@ -4595,38 +4612,6 @@ Full-stack web developer with experience in HTML, CSS, JavaScript, Python, Java,
 
 ---
 
-### Dad, What Should I Do?
-
-<sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
-
-A dad who can provide comprehensive guidance to children, from daily trivial matters to work and marriage.
-
-`Character Simulation`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Translation Assistant
-
-<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2023-11-14**</sup>
-
-Expert in Chinese-English translation, pursuing accurate and elegant translations
-
-`translation` `Chinese` `English`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Research Article Translation Assistant
 
 <sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
@@ -4643,6 +4628,22 @@ An assistant that helps you translate scientific articles
 
 ---
 
+### Dad, What Should I Do?
+
+<sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
+
+A dad who can provide comprehensive guidance to children, from daily trivial matters to work and marriage.
+
+`Character Simulation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### MidJourney Prompt
 
 <sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
@@ -4650,6 +4651,22 @@ An assistant that helps you translate scientific articles
 Writing awesome MidJourney prompts
 
 `mid-journey` `prompt`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Translation Assistant
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2023-11-14**</sup>
+
+Expert in Chinese-English translation, pursuing accurate and elegant translations
+
+`translation` `Chinese` `English`
 
 <div align="right">
 
@@ -4867,29 +4884,13 @@ Naming expert to help you create unique and meaningful names.
 
 ---
 
-### Master of Expressing Abstract Concepts
+### API Documentation Expert
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
 
-Helping you write better UX copy
+Accurately describe how to use the API, provide sample code, notes, and return value type definitions.
 
-`User Experience` `Designer` `Documentation` `Writing` `Metaphor` `Concept`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Convert React Class Components to Functional Components
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-One-click to help you refactor Class components to Functional components
-
-`typescript` `code` `software development` `react` `refactor`
+`code` `software development` `programmer` `documentation` `writing`
 
 <div align="right">
 
@@ -4915,13 +4916,13 @@ Helping you write better UX copy
 
 ---
 
-### Zustand Reducer Expert
+### UX Writer
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
 
-Proficient in writing zustand functional code, can generate reducer code from requirements with one click, familiar with reducer writing, proficient in using immer library.
+Helping you write better UX copy
 
-`typescript` `reducer` `code` `frontend` `software-development` `state-management` `zustand`
+`User Experience` `Designer` `Documentation` `Writing`
 
 <div align="right">
 
@@ -4931,13 +4932,13 @@ Proficient in writing zustand functional code, can generate reducer code from re
 
 ---
 
-### Dva Refactor Zustand Expert
+### Web Content Summarization Expert
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
 
-One-click to refactor dva state management code to zustand code
+Just enter a URL, and the assistant will help you read and summarize the content of that URL.
 
-`typescript` `code` `software development` `state management` `dva` `zustand`
+`web` `reading` `summarization` `online`
 
 <div align="right">
 
@@ -4963,61 +4964,13 @@ Proficient in architecture, skilled in technical details, adept at searching for
 
 ---
 
-### Title Expansion Expert
+### Zustand Reducer Expert
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
 
-If you need to expand a description for a title, you can let this assistant help you write the content.
+Proficient in writing zustand functional code, can generate reducer code from requirements with one click, familiar with reducer writing, proficient in using immer library.
 
-`User Experience` `Designer` `Documentation` `Writing`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Information Organizer
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-An information organizer that helps you organize and summarize content, and manage assets
-
-`search engine` `internet` `information organization`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### UX Writer
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-Helping you write better UX copy
-
-`User Experience` `Designer` `Documentation` `Writing`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### API Documentation Expert
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-Accurately describe how to use the API, provide sample code, notes, and return value type definitions.
-
-`code` `software development` `programmer` `documentation` `writing`
+`typescript` `reducer` `code` `frontend` `software-development` `state-management` `zustand`
 
 <div align="right">
 
@@ -5043,6 +4996,54 @@ Input your JS code and get complete type definitions with just one click
 
 ---
 
+### Title Expansion Expert
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+If you need to expand a description for a title, you can let this assistant help you write the content.
+
+`User Experience` `Designer` `Documentation` `Writing`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Convert React Class Components to Functional Components
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+One-click to help you refactor Class components to Functional components
+
+`typescript` `code` `software development` `react` `refactor`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Information Organizer
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+An information organizer that helps you organize and summarize content, and manage assets
+
+`search engine` `internet` `information organization`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Frontend TypeScript Unit Testing Expert
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
@@ -5059,13 +5060,29 @@ Consider the scenarios that need to be covered for coverage testing based on the
 
 ---
 
-### Web Content Summarization Expert
+### Master of Expressing Abstract Concepts
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
 
-Just enter a URL, and the assistant will help you read and summarize the content of that URL.
+Helping you write better UX copy
 
-`web` `reading` `summarization` `online`
+`User Experience` `Designer` `Documentation` `Writing` `Metaphor` `Concept`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Dva Refactor Zustand Expert
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+One-click to refactor dva state management code to zustand code
+
+`typescript` `code` `software development` `state management` `dva` `zustand`
 
 <div align="right">
 
@@ -5107,22 +5124,6 @@ Deeper thinking of question
 
 ---
 
-### Agent Prompt Improver
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
-
-GPT Agent Prompt optimization specialist. Clear, precise, and concise
-
-`agent` `prompt`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Coding Wizard
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
@@ -5130,22 +5131,6 @@ GPT Agent Prompt optimization specialist. Clear, precise, and concise
 Can generate the code for anything you specify
 
 `code` `software-development` `productivity`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Resume Editing
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
-
-Get advice on how to edit your resume
-
-`academic` `productivity` `guide`
 
 <div align="right">
 
@@ -5171,13 +5156,13 @@ Generate a website react code within minute
 
 ---
 
-### Startup Plan
+### Essay Improver
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
 
-Generate a detailed and comprehensive business plan within minutes
+Improve your texts to be more elegant and professional
 
-`startup` `brainstorming` `plan`
+`academic` `english` `productivity` `essay`
 
 <div align="right">
 
@@ -5187,13 +5172,13 @@ Generate a detailed and comprehensive business plan within minutes
 
 ---
 
-### Essay Improver
+### Agent Prompt Improver
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
 
-Improve your texts to be more elegant and professional
+GPT Agent Prompt optimization specialist. Clear, precise, and concise
 
-`academic` `english` `productivity` `essay`
+`agent` `prompt`
 
 <div align="right">
 
@@ -5219,6 +5204,22 @@ Correct grammar error text or paragraph. Great for essay or email
 
 ---
 
+### Startup Plan
+
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
+
+Generate a detailed and comprehensive business plan within minutes
+
+`startup` `brainstorming` `plan`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Character Roleplay
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
@@ -5226,6 +5227,22 @@ Correct grammar error text or paragraph. Great for essay or email
 Interact with your favourite characters from movies, TV shows, books, and more!
 
 `conversation` `roleplay` `fun`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Resume Editing
+
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
+
+Get advice on how to edit your resume
+
+`academic` `productivity` `guide`
 
 <div align="right">
 
