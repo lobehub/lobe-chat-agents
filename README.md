@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [C Program Learning Assistant](#c-program-learning-assistant)
   - [Brand Pioneer](#brand-pioneer)
   - [BIDOSx2](#bidosx2)
   - [Growth Coach](#growth-coach)
@@ -382,6 +383,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### C Program Learning Assistant
+
+<sup>By **[@YBGuoYang](https://github.com/YBGuoYang)** on **2024-07-28**</sup>
+
+Assist me in learning C program design
+
+`941`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Brand Pioneer
 

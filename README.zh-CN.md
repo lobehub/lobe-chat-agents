@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [c 程序学习助手](#c-程序学习助手)
   - [品牌先锋](#品牌先锋)
   - [BIDOSx2](#bidosx2)
   - [成长教练](#成长教练)
@@ -382,6 +383,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### c 程序学习助手
+
+<sup>By **[@YBGuoYang](https://github.com/YBGuoYang)** on **2024-07-28**</sup>
+
+辅助我进行 c 程序设计的学习
+
+`941`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 品牌先锋
 
