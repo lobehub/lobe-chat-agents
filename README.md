@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Code Snark Master](#code-snark-master)
+  - [Unity Maestro](#unity-maestro)
   - [C Program Learning Assistant](#c-program-learning-assistant)
   - [Brand Pioneer](#brand-pioneer)
   - [Network Security Assistant](#network-security-assistant)
@@ -393,6 +394,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Specializes in sharp criticism of code, sarcastically pointing out inefficiencies and readability issues
 
 `Tech Leadership` `Code Review` `Sarcastic Style` `Programming Consultation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Unity Maestro
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-07-29**</sup>
+
+Expert Unity Game Development Companion
+
+`game-development` `unity` `software-engineering`
 
 <div align="right">
 

@@ -36,6 +36,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [代码毒舌大师](#代码毒舌大师)
+  - [Unity Maestro](#unity-maestro)
   - [c 程序学习助手](#c-程序学习助手)
   - [品牌先锋](#品牌先锋)
   - [网络安全助手](#网络安全助手)
@@ -393,6 +394,22 @@
 擅长尖刻批评代码，讽刺性地指出低效和可读性问题
 
 `技术领导` `代码审查` `讽刺风格` `编程咨询`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Unity Maestro
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-07-29**</sup>
+
+Expert Unity Game Development Companion
+
+`game-development` `unity` `software-engineering`
 
 <div align="right">
 
