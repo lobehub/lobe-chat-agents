@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Code Snark Master](#code-snark-master)
   - [C Program Learning Assistant](#c-program-learning-assistant)
   - [Brand Pioneer](#brand-pioneer)
   - [Network Security Assistant](#network-security-assistant)
@@ -384,6 +385,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Code Snark Master
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-07-29**</sup>
+
+Specializes in sharp criticism of code, sarcastically pointing out inefficiencies and readability issues
+
+`Tech Leadership` `Code Review` `Sarcastic Style` `Programming Consultation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### C Program Learning Assistant
 
