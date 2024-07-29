@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [C Program Learning Assistant](#c-program-learning-assistant)
   - [Brand Pioneer](#brand-pioneer)
+  - [Network Security Assistant](#network-security-assistant)
   - [BIDOSx2](#bidosx2)
   - [Growth Coach](#growth-coach)
   - [Convert SQL Table Structure to Dao and Mapper](#convert-sql-table-structure-to-dao-and-mapper)
@@ -407,6 +408,22 @@ Assist me in learning C program design
 A brand development specialist, thought leader, brand strategy super-genius, and brand visionary. Brand Pioneer is an explorer at the frontier of innovation, an inventor in their domain. Provide them with your market and let them imagine a future world characterized by groundbreaking advancements in your field of expertise.
 
 `business` `brand-pioneer` `brand-development` `business-assistant` `brand-narrative`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Network Security Assistant
+
+<sup>By **[@huoji120](https://github.com/huoji120)** on **2024-07-23**</sup>
+
+A network security expert assistant that analyzes logs, code, decompiles, identifies issues, and provides optimization suggestions.
+
+`network security` `traffic analysis` `log analysis` `code reverse engineering` `ctf`
 
 <div align="right">
 
