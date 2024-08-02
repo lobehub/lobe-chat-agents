@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Omnipedia](#omnipedia)
   - [代码毒舌大师](#代码毒舌大师)
   - [Unity Maestro](#unity-maestro)
   - [c 程序学习助手](#c-程序学习助手)
@@ -42,122 +43,122 @@
   - [网络安全助手](#网络安全助手)
   - [BIDOSx2](#bidosx2)
   - [成长教练](#成长教练)
-  - [SQL 表结构转 Dao 和 Mapper](#sql-表结构转-dao-和-mapper)
   - [自动提取数据](#自动提取数据)
+  - [SQL 表结构转 Dao 和 Mapper](#sql-表结构转-dao-和-mapper)
   - [MBTI 类型测试师](#mbti-类型测试师)
   - [外贸高情商回复](#外贸高情商回复)
   - [小黄鸭编程助手](#小黄鸭编程助手)
-  - [命名助手](#命名助手)
   - [B1 级德语会话伙伴](#b1-级德语会话伙伴)
+  - [命名助手](#命名助手)
   - [电路图输出器](#电路图输出器)
   - [Text Master Suno](#text-master-suno)
   - [AOSP 源码专家](#aosp-源码专家)
+  - [Linux 内核专家](#linux-内核专家)
   - [IT 系统架构师](#it-系统架构师)
   - [Fastapi 项目开发助手](#fastapi-项目开发助手)
-  - [Linux 内核专家](#linux-内核专家)
   - [NovelAI 绘画助手](#novelai-绘画助手)
   - [伪代码提示词生成专家](#伪代码提示词生成专家)
   - [Mysql 好先生](#mysql-好先生)
   - [通俗科普创作助手](#通俗科普创作助手)
   - [具有 AI 助手功能的 Git 专家](#具有-ai-助手功能的-git-专家)
-  - [小说翻译 英译中](#小说翻译-英译中)
   - [审稿回复专家](#审稿回复专家)
+  - [小说翻译 英译中](#小说翻译-英译中)
   - [Docker 转 DockerCompose](#docker-转-dockercompose)
   - [Java Class 转 MySQL](#java-class-转-mysql)
   - [国学历史讲师](#国学历史讲师)
-  - [Node.js 优化师](#nodejs-优化师)
+  - [Dart/Flutter Dev](#dartflutter-dev)
   - [日常小助手](#日常小助手)
   - [基督传教士](#基督传教士)
-  - [Dart/Flutter Dev](#dartflutter-dev)
+  - [Node.js 优化师](#nodejs-优化师)
   - [C# .NET 技术专家](#c-net-技术专家)
-  - [SEO 优化专家](#seo-优化专家)
   - [外企同事评价助手](#外企同事评价助手)
-  - [哲学剖析助手](#哲学剖析助手)
-  - [中文润色大师](#中文润色大师)
+  - [SEO 优化专家](#seo-优化专家)
   - [我的世界指令导师](#我的世界指令导师)
+  - [中文润色大师](#中文润色大师)
+  - [哲学剖析助手](#哲学剖析助手)
+  - [JTBD 需求分析大师](#jtbd-需求分析大师)
+  - [解答助手 - 第一原理解析](#解答助手---第一原理解析)
+  - [Bahasa/English Translator](#bahasaenglish-translator)
+  - [道学宗师](#道学宗师)
+  - [留学规划专家](#留学规划专家)
+  - [岩土工程助手](#岩土工程助手)
   - [禅定法师](#禅定法师)
   - [儒家学者](#儒家学者)
-  - [中国历史学者](#中国历史学者)
-  - [JTBD 需求分析大师](#jtbd-需求分析大师)
-  - [Bahasa/English Translator](#bahasaenglish-translator)
   - [Rust 语言学习导师](#rust-语言学习导师)
-  - [岩土工程助手](#岩土工程助手)
-  - [留学规划专家](#留学规划专家)
-  - [解答助手 - 第一原理解析](#解答助手---第一原理解析)
   - [数据分析专家](#数据分析专家)
-  - [道学宗师](#道学宗师)
+  - [中国历史学者](#中国历史学者)
   - [英语阅读教师](#英语阅读教师)
+  - [摄影评论家](#摄影评论家)
+  - [Python Buddy](#python-buddy)
   - [AWS Guru](#aws-guru)
   - [Linux Buddy](#linux-buddy)
-  - [Python Buddy](#python-buddy)
   - [搜索优化师](#搜索优化师)
-  - [摄影评论家](#摄影评论家)
   - [情感陪伴师](#情感陪伴师)
   - [语言专家](#语言专家)
   - [学习规划专家 Silwol](#学习规划专家-silwol)
   - [SF Symbols 查找器](#sf-symbols-查找器)
   - [GhostWriter Pro](#ghostwriter-pro)
-  - [美术评价导师](#美术评价导师)
   - [视频转博客文章助手](#视频转博客文章助手)
+  - [美术评价导师](#美术评价导师)
   - [iOS 代码艺术家](#ios-代码艺术家)
   - [销售描述专家](#销售描述专家)
-  - [越狱助手 DAN](#越狱助手-dan)
   - [TailwindHelper](#tailwindhelper)
   - [yapi JSON-SCHEMA to Typescript](#yapi-json-schema-to-typescript)
+  - [越狱助手 DAN](#越狱助手-dan)
   - [中文论文编辑师](#中文论文编辑师)
-  - [命理大师](#命理大师)
-  - [高中理科学习助手](#高中理科学习助手)
   - [生物学教授](#生物学教授)
-  - [智预小助手](#智预小助手)
+  - [高中理科学习助手](#高中理科学习助手)
+  - [命理大师](#命理大师)
   - [健康食谱推荐师](#健康食谱推荐师)
-  - [单片机工程师](#单片机工程师)
+  - [智预小助手](#智预小助手)
   - [脏话学习助手](#脏话学习助手)
   - [TadzGenius](#tadzgenius)
+  - [单片机工程师](#单片机工程师)
   - [设计理念分析](#设计理念分析)
   - [YouTue 摘要](#youtue-摘要)
-  - [Shell 脚本开发助手](#shell-脚本开发助手)
   - [Shopify 主题开发工程师](#shopify-主题开发工程师)
+  - [Shell 脚本开发助手](#shell-脚本开发助手)
   - [研究标题生成器](#研究标题生成器)
   - [英文科技文章阅读助手](#英文科技文章阅读助手)
   - [CAN](#can)
-  - [Suno.ai 音乐创作助手](#sunoai-音乐创作助手)
   - [高情商马屁助手](#高情商马屁助手)
   - [血液检测分析师](#血液检测分析师)
+  - [Suno.ai 音乐创作助手](#sunoai-音乐创作助手)
   - [识图小红书文案](#识图小红书文案)
-  - [面试问题提炼助手](#面试问题提炼助手)
   - [女朋友潜台词专家](#女朋友潜台词专家)
+  - [面试问题提炼助手](#面试问题提炼助手)
   - [Rap 说唱歌词大师](#rap-说唱歌词大师)
   - [索赔分析器](#索赔分析器)
   - [Mdx SEO 专家](#mdx-seo-专家)
+  - [游戏文本翻译师](#游戏文本翻译师)
   - [老中医](#老中医)
   - [电子学导师](#电子学导师)
-  - [游戏文本翻译师](#游戏文本翻译师)
   - [数学导师](#数学导师)
-  - [亚马逊清单文案撰稿员](#亚马逊清单文案撰稿员)
-  - [协作逻辑思维团队](#协作逻辑思维团队)
   - [用户 KANO 研究经理](#用户-kano-研究经理)
-  - [英语词汇老师](#英语词汇老师)
+  - [协作逻辑思维团队](#协作逻辑思维团队)
+  - [亚马逊清单文案撰稿员](#亚马逊清单文案撰稿员)
   - [药物指南专家](#药物指南专家)
-  - [提示建筑师](#提示建筑师)
   - [Linux 解决方案导师](#linux-解决方案导师)
   - [编程大师](#编程大师)
+  - [英语词汇老师](#英语词汇老师)
+  - [提示建筑师](#提示建筑师)
   - [PromptGPT](#promptgpt)
   - [亚马逊卖家支持代理](#亚马逊卖家支持代理)
   - [TikTok 脚本撰写器](#tiktok-脚本撰写器)
   - [Gen Z Engagement Specialist](#gen-z-engagement-specialist)
   - [日程管理助手](#日程管理助手)
-  - [Discord 风格文案大师](#discord-风格文案大师)
   - [商务邮件撰写专家](#商务邮件撰写专家)
-  - [AI 图像提示建筑师](#ai-图像提示建筑师)
-  - [Pitch Deck Maestro (Elevator Pitch)](#pitch-deck-maestro-elevator-pitch)
-  - [软件开发入门指南](#软件开发入门指南)
+  - [Discord 风格文案大师](#discord-风格文案大师)
   - [F1 数据分析师](#f1-数据分析师)
+  - [软件开发入门指南](#软件开发入门指南)
+  - [Pitch Deck Maestro (Elevator Pitch)](#pitch-deck-maestro-elevator-pitch)
+  - [AI 图像提示建筑师](#ai-图像提示建筑师)
+  - [副厨师](#副厨师)
   - [萨满](#萨满)
   - [英语作文助手](#英语作文助手)
-  - [副厨师](#副厨师)
   - [Markdown 转换专家](#markdown-转换专家)
-  - [面试教练](#面试教练)
   - [技术探索者](#技术探索者)
+  - [面试教练](#面试教练)
   - [您自己的 domene.no 专家](#您自己的-domeneno-专家)
   - [足球 - 熟悉的 AI 伴侣](#足球---熟悉的-ai-伴侣)
   - [Prisma 数据生成专家](#prisma-数据生成专家)
@@ -165,184 +166,184 @@
   - [命名专家](#命名专家)
   - [LobeChat 技术文档专家](#lobechat-技术文档专家)
   - [您的日常人工智能伴侣。](#您的日常人工智能伴侣)
-  - [翻译专家](#翻译专家)
-  - [Facebook 广告撰写专家](#facebook-广告撰写专家)
-  - [ThinkTank360](#thinktank360)
   - [Jira 故事协助工具](#jira-故事协助工具)
+  - [Facebook 广告撰写专家](#facebook-广告撰写专家)
+  - [翻译专家](#翻译专家)
+  - [ThinkTank360](#thinktank360)
   - [SPI 生成器](#spi-生成器)
-  - [产品描述](#产品描述)
-  - [产品文案撰写](#产品文案撰写)
-  - [自媒体运营专家](#自媒体运营专家)
   - [产品评价](#产品评价)
+  - [自媒体运营专家](#自媒体运营专家)
+  - [产品文案撰写](#产品文案撰写)
+  - [产品描述](#产品描述)
   - [私域运营专家](#私域运营专家)
   - [新年快乐](#新年快乐)
   - [塔罗占卜师](#塔罗占卜师)
+  - [术语表生成器](#术语表生成器)
   - [土耳其语导师](#土耳其语导师)
   - [词汇大师](#词汇大师)
-  - [术语表生成器](#术语表生成器)
   - [词汇生成器](#词汇生成器)
-  - [英语熟练度评估器](#英语熟练度评估器)
   - [语法工作表生成器](#语法工作表生成器)
-  - [阅读理解向导](#阅读理解向导)
+  - [英语熟练度评估器](#英语熟练度评估器)
   - [主题词汇工作表创建器](#主题词汇工作表创建器)
   - [词汇工作表向导](#词汇工作表向导)
   - [填空练习生成器](#填空练习生成器)
-  - [土耳其语 / 英语翻译器](#土耳其语--英语翻译器)
-  - [网站审核助手](#网站审核助手)
+  - [阅读理解向导](#阅读理解向导)
   - [文本变体生成器](#文本变体生成器)
-  - [表单检查器](#表单检查器)
-  - [CAN: 编程大师](#can-编程大师)
-  - [Marvin](#marvin)
-  - [写作助手](#写作助手)
+  - [网站审核助手](#网站审核助手)
+  - [土耳其语 / 英语翻译器](#土耳其语--英语翻译器)
   - [苏格拉底式教师](#苏格拉底式教师)
+  - [写作助手](#写作助手)
   - [Golang 架构师](#golang-架构师)
+  - [CAN: 编程大师](#can-编程大师)
   - [语言修正器](#语言修正器)
+  - [表单检查器](#表单检查器)
+  - [Marvin](#marvin)
   - [数据库专家](#数据库专家)
   - [演示向导](#演示向导)
   - [SagePathfinder](#sagepathfinder)
   - [变量命名大师](#变量命名大师)
-  - [数学研究顾问](#数学研究顾问)
-  - [创业和竞争力专家](#创业和竞争力专家)
-  - [A2 英语会话辅导员](#a2-英语会话辅导员)
-  - [C1 Level English Language Facilitator](#c1-level-english-language-facilitator)
   - [英语熟练度教练](#英语熟练度教练)
-  - [毕尔巴鄂创业专家](#毕尔巴鄂创业专家)
-  - [小红书审核助理](#小红书审核助理)
-  - [英语 C1 级精通教练](#英语-c1-级精通教练)
+  - [A2 英语会话辅导员](#a2-英语会话辅导员)
+  - [创业和竞争力专家](#创业和竞争力专家)
+  - [C1 Level English Language Facilitator](#c1-level-english-language-facilitator)
+  - [数学研究顾问](#数学研究顾问)
   - [软件架构策略师](#软件架构策略师)
   - [领土推广策略师](#领土推广策略师)
-  - [诗歌指南：激发诗意表达和欣赏。](#诗歌指南激发诗意表达和欣赏)
-  - [英语学习伴侣](#英语学习伴侣)
+  - [英语 C1 级精通教练](#英语-c1-级精通教练)
+  - [小红书审核助理](#小红书审核助理)
+  - [毕尔巴鄂创业专家](#毕尔巴鄂创业专家)
+  - [B1 级英语会话伙伴](#b1-级英语会话伙伴)
+  - [地缘政治分析师](#地缘政治分析师)
+  - [软件开发步骤制定者](#软件开发步骤制定者)
   - [牙买加克里奥尔语教师](#牙买加克里奥尔语教师)
+  - [英语学习伴侣](#英语学习伴侣)
   - [俚语导师](#俚语导师)
   - [诗歌导师](#诗歌导师)
-  - [B1 级英语会话伙伴](#b1-级英语会话伙伴)
-  - [软件开发步骤制定者](#软件开发步骤制定者)
   - [B2 Level English Conversation Partner](#b2-level-english-conversation-partner)
+  - [诗歌指南：激发诗意表达和欣赏。](#诗歌指南激发诗意表达和欣赏)
   - [说唱老师](#说唱老师)
-  - [地缘政治分析师](#地缘政治分析师)
-  - [Steam 游戏评测](#steam-游戏评测)
   - [Bilibili 助手](#bilibili-助手)
+  - [Steam 游戏评测](#steam-游戏评测)
   - [AI 进出口顾问](#ai-进出口顾问)
-  - [OpenAPI 生成器](#openapi-生成器)
   - [烹饪 AI 导师](#烹饪-ai-导师)
+  - [OpenAPI 生成器](#openapi-生成器)
   - [TaxBot](#taxbot)
   - [歌曲创作导师](#歌曲创作导师)
   - [ShieldsIO 徽章生成器](#shieldsio-徽章生成器)
-  - [手办设计师](#手办设计师)
   - [文本总结助手](#文本总结助手)
   - [React Native 编码指南](#react-native-编码指南)
+  - [手办设计师](#手办设计师)
   - [意图共鸣 GPT](#意图共鸣-gpt)
   - [初创科技律师](#初创科技律师)
   - [购物助手](#购物助手)
-  - [金融专家](#金融专家)
-  - [会计专家助手](#会计专家助手)
-  - [草神・纳西妲](#草神纳西妲)
-  - [雅思导师](#雅思导师)
-  - [EOI 考试准备助手](#eoi-考试准备助手)
   - [DIY 指导助手](#diy-指导助手)
   - [中日双语翻译专家](#中日双语翻译专家)
+  - [金融专家](#金融专家)
+  - [雅思导师](#雅思导师)
   - [商业顾问](#商业顾问)
+  - [会计专家助手](#会计专家助手)
+  - [EOI 考试准备助手](#eoi-考试准备助手)
+  - [草神・纳西妲](#草神纳西妲)
   - [PromptGPT](#promptgpt-1)
   - [Tech Explorer AI](#tech-explorer-ai)
-  - [AE 脚本开发专家](#ae-脚本开发专家)
   - [Code Companion](#code-companion)
+  - [AE 脚本开发专家](#ae-脚本开发专家)
   - [William](#william)
   - [乍得](#乍得)
   - [经过 SEO 优化的博客](#经过-seo-优化的博客)
-  - [生活决策顾问](#生活决策顾问)
   - [英语解析师](#英语解析师)
+  - [生活决策顾问](#生活决策顾问)
   - [计算机科学论文润色](#计算机科学论文润色)
   - [Emoji 生成](#emoji-生成)
   - [个人成长教练](#个人成长教练)
   - [周报助手](#周报助手)
-  - [SVG 流程图解释助手](#svg-流程图解释助手)
   - [绩效评估超人](#绩效评估超人)
+  - [SVG 流程图解释助手](#svg-流程图解释助手)
   - [三维动画工程师](#三维动画工程师)
-  - [考试助手](#考试助手)
-  - [Amazon Title Assistant](#amazon-title-assistant)
   - [教学导师](#教学导师)
+  - [Amazon Title Assistant](#amazon-title-assistant)
+  - [考试助手](#考试助手)
   - [TOEFL 写作辅导](#toefl-写作辅导)
   - [MidjourneyGPT](#midjourneygpt)
-  - [美式英语转译专家](#美式英语转译专家)
   - [部署专家代理](#部署专家代理)
   - [美术论文概述专家](#美术论文概述专家)
+  - [美式英语转译专家](#美式英语转译专家)
   - [学术润色专家](#学术润色专家)
   - [Flutter 开发专家](#flutter-开发专家)
   - [Facebook 广告专家](#facebook-广告专家)
-  - [梦境画家](#梦境画家)
   - [旅行助手](#旅行助手)
   - [研究助理](#研究助理)
   - [新闻搜索助手](#新闻搜索助手)
+  - [梦境画家](#梦境画家)
   - [房地产经纪人](#房地产经纪人)
   - [刑辩专家](#刑辩专家)
   - [Emoji 贺词专家](#emoji-贺词专家)
-  - [书籍摘要](#书籍摘要)
   - [案件生成器](#案件生成器)
   - [Rust 编程助手](#rust-编程助手)
   - [探案解析器](#探案解析器)
-  - [Stable Diffusion 手艺家](#stable-diffusion-手艺家)
+  - [书籍摘要](#书籍摘要)
   - [社区经理](#社区经理)
+  - [Stable Diffusion 手艺家](#stable-diffusion-手艺家)
   - [工资谈判游戏](#工资谈判游戏)
   - [梦境分析师](#梦境分析师)
-  - [英文翻译专家](#英文翻译专家)
   - [Python Gradio 专家](#python-gradio-专家)
+  - [英文翻译专家](#英文翻译专家)
   - [GitHub Copilot](#github-copilot)
   - [授粉 AI 画图](#授粉-ai-画图)
-  - [食谱生成器](#食谱生成器)
   - [HTTP 请求大师](#http-请求大师)
+  - [食谱生成器](#食谱生成器)
   - [代码魔法师](#代码魔法师)
   - [Mr. Feynman](#mr-feynman)
   - [有机化学研究员](#有机化学研究员)
+  - [LobeChat 测试工程师](#lobechat-测试工程师)
   - [JS 代码质量优化](#js-代码质量优化)
   - [问答文档转换专家](#问答文档转换专家)
-  - [LobeChat 测试工程师](#lobechat-测试工程师)
   - [真实的老友](#真实的老友)
   - [短视频脚本助手](#短视频脚本助手)
   - [专家代理人导师](#专家代理人导师)
+  - [全栈开发人员](#全栈开发人员)
   - [图形创意大师](#图形创意大师)
   - [Tailwind 巫师](#tailwind-巫师)
-  - [全栈开发人员](#全栈开发人员)
-  - [科研文章翻译助手](#科研文章翻译助手)
   - [老爸，该怎么办？](#老爸该怎么办)
-  - [MidJourney 提示词专家](#midjourney-提示词专家)
   - [中英文互译助手](#中英文互译助手)
+  - [科研文章翻译助手](#科研文章翻译助手)
+  - [MidJourney 提示词专家](#midjourney-提示词专家)
   - [学术写作增强机器人](#学术写作增强机器人)
   - [Sketch 特性总结专家](#sketch-特性总结专家)
   - [抬杠高手](#抬杠高手)
   - [图表生成器](#图表生成器)
   - [作品命名大师](#作品命名大师)
   - [小红书风格文案写手](#小红书风格文案写手)
-  - [英文新闻翻译专家](#英文新闻翻译专家)
   - [Agent Prompt 优化专家](#agent-prompt-优化专家)
+  - [英文新闻翻译专家](#英文新闻翻译专家)
   - [C++ 代码](#c-代码)
   - [TS 类型定义补全](#ts-类型定义补全)
   - [LOGO 创意大师](#logo-创意大师)
   - [接口类型请求生成器](#接口类型请求生成器)
   - [起名大师](#起名大师)
-  - [API 文档优化专家](#api-文档优化专家)
   - [UX Writer](#ux-writer)
-  - [UX Writer](#ux-writer-1)
+  - [API 文档优化专家](#api-文档优化专家)
   - [网页内容总结专家](#网页内容总结专家)
   - [前端研发架构师](#前端研发架构师)
   - [Zustand reducer 专家](#zustand-reducer-专家)
-  - [JS 代码转 TS 专家](#js-代码转-ts-专家)
-  - [标题扩写专家](#标题扩写专家)
-  - [React Class 组件转 FC 组件](#react-class-组件转-fc-组件)
   - [信息整理大师](#信息整理大师)
+  - [React Class 组件转 FC 组件](#react-class-组件转-fc-组件)
   - [前端 TypeScript 单测专家](#前端-typescript-单测专家)
   - [抽象概念实体化表达大师](#抽象概念实体化表达大师)
   - [Dva 重构 Zustand 专家](#dva-重构-zustand-专家)
+  - [JS 代码转 TS 专家](#js-代码转-ts-专家)
+  - [UX Writer](#ux-writer-1)
+  - [标题扩写专家](#标题扩写专家)
   - [Markdown 产品特性格式化专家](#markdown-产品特性格式化专家)
   - [深度思考](#深度思考)
-  - [编码巫师](#编码巫师)
-  - [Web 全栈工程师](#web-全栈工程师)
+  - [简历优化](#简历优化)
   - [英文学术润色](#英文学术润色)
   - [助手提示词优化](#助手提示词优化)
-  - [语法校正器](#语法校正器)
-  - [创业计划](#创业计划)
+  - [编码巫师](#编码巫师)
   - [角色扮演](#角色扮演)
-  - [简历优化](#简历优化)
+  - [创业计划](#创业计划)
+  - [语法校正器](#语法校正器)
+  - [Web 全栈工程师](#web-全栈工程师)
   - [Stable Diffusion 提示词专家](#stable-diffusion-提示词专家)
 - [🛳 自主托管](#-自主托管)
   - [部署到 Vercel](#部署到-vercel)
@@ -386,6 +387,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Omnipedia
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-08-02**</sup>
+
+专业提供高质量、深入研究的各种主题信息，包括历史、科学、文学、艺术等。擅长总结复杂主题，协助研究任务，并提供创意启示。
+
+`artificial-intelligence` `information` `education` `communication`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 代码毒舌大师
 
@@ -499,13 +516,13 @@ Expert Unity Game Development Companion
 
 ---
 
-### SQL 表结构转 Dao 和 Mapper
+### 自动提取数据
 
-<sup>By **[@MeYoung](https://github.com/MeYoung)** on **2024-07-17**</sup>
+<sup>By **[@vkhoilq](https://github.com/vkhoilq)** on **2024-07-17**</sup>
 
-给与一个表结构，生成表的实体和 MyBatis 的 Mapper
+The20 自动提取数据
 
-`sql` `sql` `mybatis`
+`the-20` `autoextract`
 
 <div align="right">
 
@@ -515,13 +532,13 @@ Expert Unity Game Development Companion
 
 ---
 
-### 自动提取数据
+### SQL 表结构转 Dao 和 Mapper
 
-<sup>By **[@vkhoilq](https://github.com/vkhoilq)** on **2024-07-17**</sup>
+<sup>By **[@MeYoung](https://github.com/MeYoung)** on **2024-07-17**</sup>
 
-The20 自动提取数据
+给与一个表结构，生成表的实体和 MyBatis 的 Mapper
 
-`the-20` `autoextract`
+`sql` `sql` `mybatis`
 
 <div align="right">
 
@@ -579,13 +596,13 @@ The20 自动提取数据
 
 ---
 
-### 命名助手
+### B1 级德语会话伙伴
 
-<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-07-08**</sup>
+<sup>By **[@tayhe](https://github.com/tayhe)** on **2024-07-08**</sup>
 
-帮助开发者为文件、函数、项目等创建规范的英文名称
+为 B1 级学习者提供流利的德语会话伙伴
 
-`命名助手` `开发` `英文命名` `驼峰命名法` `短横线命名法`
+`语言交流` `学习支持` `教育` `德语学习`
 
 <div align="right">
 
@@ -595,13 +612,13 @@ The20 自动提取数据
 
 ---
 
-### B1 级德语会话伙伴
+### 命名助手
 
-<sup>By **[@tayhe](https://github.com/tayhe)** on **2024-07-08**</sup>
+<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-07-08**</sup>
 
-为 B1 级学习者提供流利的德语会话伙伴
+帮助开发者为文件、函数、项目等创建规范的英文名称
 
-`语言交流` `学习支持` `教育` `德语学习`
+`命名助手` `开发` `英文命名` `驼峰命名法` `短横线命名法`
 
 <div align="right">
 
@@ -659,6 +676,22 @@ The20 自动提取数据
 
 ---
 
+### Linux 内核专家
+
+<sup>By **[@wming126](https://github.com/wming126)** on **2024-06-19**</sup>
+
+角色描述： 我是一位精通 Linux 内核的专家，对最新内核源代码（截至 2024 年 6 月）有着深入的理解和分析能力。我可以为用户提供关于 Linux 内核的详细、准确的信息。
+
+`linux` `kernel`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### IT 系统架构师
 
 <sup>By **[@a562314](https://github.com/a562314)** on **2024-06-19**</sup>
@@ -682,22 +715,6 @@ The20 自动提取数据
 擅长 Python 模块化开发，熟练运用 FastAPI、PostgreSQL、Tortoise-ORM 等技术栈，能为大型项目提供清晰的代码结构并添加详细注释。
 
 `fast-api` `python` `模块化开发`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Linux 内核专家
-
-<sup>By **[@wming126](https://github.com/wming126)** on **2024-06-19**</sup>
-
-角色描述： 我是一位精通 Linux 内核的专家，对最新内核源代码（截至 2024 年 6 月）有着深入的理解和分析能力。我可以为用户提供关于 Linux 内核的详细、准确的信息。
-
-`linux` `kernel`
 
 <div align="right">
 
@@ -788,13 +805,13 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 ---
 
-### 小说翻译 英译中
+### 审稿回复专家
 
-<sup>By **[@xbtachlb](https://github.com/xbtachlb)** on **2024-06-03**</sup>
+<sup>By **[@Starlitnightly](https://github.com/Starlitnightly)** on **2024-06-03**</sup>
 
-小说二次翻译
+擅长自然学术编辑，协助作者回复审稿人意见，科学、礼貌、逐点回应。
 
-`翻译`
+`学术编辑` `审稿意见回复` `科学写作`
 
 <div align="right">
 
@@ -804,13 +821,13 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 ---
 
-### 审稿回复专家
+### 小说翻译 英译中
 
-<sup>By **[@Starlitnightly](https://github.com/Starlitnightly)** on **2024-06-03**</sup>
+<sup>By **[@xbtachlb](https://github.com/xbtachlb)** on **2024-06-03**</sup>
 
-擅长自然学术编辑，协助作者回复审稿人意见，科学、礼貌、逐点回应。
+小说二次翻译
 
-`学术编辑` `审稿意见回复` `科学写作`
+`翻译`
 
 <div align="right">
 
@@ -868,13 +885,13 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 ---
 
-### Node.js 优化师
+### Dart/Flutter Dev
 
-<sup>By **[@chrisuhg](https://github.com/chrisuhg)** on **2024-05-28**</sup>
+<sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
 
-擅长 Node.js 代码审查、性能优化、异步编程、错误处理、代码重构、依赖管理、安全增强、测试覆盖率和文档编写。
+Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter_riverpod, riverpod_hook, flutter_hook 사용.
 
-`node-js` `代码优化` `性能优化` `异步编程` `错误处理`
+`dart` `flutter` `개발` `상태-관리` `riverpod`
 
 <div align="right">
 
@@ -916,13 +933,13 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 ---
 
-### Dart/Flutter Dev
+### Node.js 优化师
 
-<sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
+<sup>By **[@chrisuhg](https://github.com/chrisuhg)** on **2024-05-28**</sup>
 
-Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter_riverpod, riverpod_hook, flutter_hook 사용.
+擅长 Node.js 代码审查、性能优化、异步编程、错误处理、代码重构、依赖管理、安全增强、测试覆盖率和文档编写。
 
-`dart` `flutter` `개발` `상태-관리` `riverpod`
+`node-js` `代码优化` `性能优化` `异步编程` `错误处理`
 
 <div align="right">
 
@@ -948,22 +965,6 @@ C# .NET 技术专家
 
 ---
 
-### SEO 优化专家
-
-<sup>By **[@tutorial0](https://github.com/tutorial0)** on **2024-05-27**</sup>
-
-精通 SEO 术语和优化策略，提供全面 SEO 解决方案和实用建议。
-
-`seo` `搜索引擎优化` `咨询`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 外企同事评价助手
 
 <sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-27**</sup>
@@ -980,13 +981,29 @@ C# .NET 技术专家
 
 ---
 
-### 哲学剖析助手
+### SEO 优化专家
 
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-24**</sup>
+<sup>By **[@tutorial0](https://github.com/tutorial0)** on **2024-05-27**</sup>
 
-擅长康德与黑格尔哲学分析咨询，培养批判性思维
+精通 SEO 术语和优化策略，提供全面 SEO 解决方案和实用建议。
 
-`哲学分析` `批判性思维` `系统思考`
+`seo` `搜索引擎优化` `咨询`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 我的世界指令导师
+
+<sup>By **[@CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-05-24**</sup>
+
+擅长解释和示范 “我的世界” 指令
+
+`我的世界` `指令` `解释` `示例`
 
 <div align="right">
 
@@ -1012,13 +1029,109 @@ C# .NET 技术专家
 
 ---
 
-### 我的世界指令导师
+### 哲学剖析助手
 
-<sup>By **[@CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-05-24**</sup>
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-24**</sup>
 
-擅长解释和示范 “我的世界” 指令
+擅长康德与黑格尔哲学分析咨询，培养批判性思维
 
-`我的世界` `指令` `解释` `示例`
+`哲学分析` `批判性思维` `系统思考`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### JTBD 需求分析大师
+
+<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2024-05-22**</sup>
+
+经验丰富的需求分析师，专注于 “Jobs to be Done” 原则，帮助用户理解客户需求。
+
+`需求分析师` `jobs-to-be-done` `需求拆解` `客户购买动机` `客户任务目标`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 解答助手 - 第一原理解析
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+使用第一性原理来解析某个自然现象或复杂系统
+
+`分析自然现象` `创建物理学理论`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Bahasa/English Translator
+
+<sup>By **[@xenstar](https://github.com/xenstar)** on **2024-05-22**</sup>
+
+根据需要将文本翻译成马来语或英语
+
+`英语` `翻译` `写作` `马来语`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 道学宗师
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+精通道家哲学，解答疑惑，倡导内心平静
+
+`道教` `哲学` `智慧`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 留学规划专家
+
+<sup>By **[@meimouren](https://github.com/meimouren)** on **2024-05-22**</sup>
+
+可以根据学生情况自动规划适合的赛事方案
+
+`留学规划` `学生服务` `教育规划` `留学申请` `个性化服务`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 岩土工程助手
+
+<sup>By **[@bushiwode](https://github.com/bushiwode)** on **2024-05-22**</sup>
+
+基坑工程研究助理：协助研究并解决基坑工程问题，具备专业概念技术与资源能力。
+
+`岩土工程` `基坑工程` `研究助理` `指导` `资源`
 
 <div align="right">
 
@@ -1060,54 +1173,6 @@ C# .NET 技术专家
 
 ---
 
-### 中国历史学者
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
-
-专精于中国历史研究，擅长将古代智慧应用于现代问题分析
-
-`历史研究` `中国历史`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### JTBD 需求分析大师
-
-<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2024-05-22**</sup>
-
-经验丰富的需求分析师，专注于 “Jobs to be Done” 原则，帮助用户理解客户需求。
-
-`需求分析师` `jobs-to-be-done` `需求拆解` `客户购买动机` `客户任务目标`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Bahasa/English Translator
-
-<sup>By **[@xenstar](https://github.com/xenstar)** on **2024-05-22**</sup>
-
-根据需要将文本翻译成马来语或英语
-
-`英语` `翻译` `写作` `马来语`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Rust 语言学习导师
 
 <sup>By **[@Yu-Xiao-Sheng](https://github.com/Yu-Xiao-Sheng)** on **2024-05-22**</sup>
@@ -1115,54 +1180,6 @@ C# .NET 技术专家
 擅长 Rust 语言教学，结合其他语言比较，制定学习计划，提供实例和练习。
 
 `rust语言专家` `教学设计` `编程教育`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 岩土工程助手
-
-<sup>By **[@bushiwode](https://github.com/bushiwode)** on **2024-05-22**</sup>
-
-基坑工程研究助理：协助研究并解决基坑工程问题，具备专业概念技术与资源能力。
-
-`岩土工程` `基坑工程` `研究助理` `指导` `资源`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 留学规划专家
-
-<sup>By **[@meimouren](https://github.com/meimouren)** on **2024-05-22**</sup>
-
-可以根据学生情况自动规划适合的赛事方案
-
-`留学规划` `学生服务` `教育规划` `留学申请` `个性化服务`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 解答助手 - 第一原理解析
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
-
-使用第一性原理来解析某个自然现象或复杂系统
-
-`分析自然现象` `创建物理学理论`
 
 <div align="right">
 
@@ -1188,13 +1205,13 @@ C# .NET 技术专家
 
 ---
 
-### 道学宗师
+### 中国历史学者
 
 <sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
 
-精通道家哲学，解答疑惑，倡导内心平静
+专精于中国历史研究，擅长将古代智慧应用于现代问题分析
 
-`道教` `哲学` `智慧`
+`历史研究` `中国历史`
 
 <div align="right">
 
@@ -1211,6 +1228,38 @@ C# .NET 技术专家
 擅长英语教学，帮你提高阅读理解能力
 
 `英语教学` `阅读理解` `语法讲解` `写作指导` `词汇教学`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 摄影评论家
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-05-15**</sup>
+
+擅长摄影作品细致分析，包括主题、构图、技术质量、光线使用、创意与原创性等。
+
+`摄影` `评价` `分析` `构图` `技术质量`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Python Buddy
+
+<sup>By **[@Firpo7](https://github.com/Firpo7)** on **2024-05-15**</sup>
+
+您的 Python 专家朋友
+
+`python` `软件开发` `编程` `代码` `伙伴`
 
 <div align="right">
 
@@ -1252,22 +1301,6 @@ Agent to answer AWS questions
 
 ---
 
-### Python Buddy
-
-<sup>By **[@Firpo7](https://github.com/Firpo7)** on **2024-05-15**</sup>
-
-您的 Python 专家朋友
-
-`python` `软件开发` `编程` `代码` `伙伴`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 搜索优化师
 
 <sup>By **[@qq916107113](https://github.com/qq916107113)** on **2024-05-15**</sup>
@@ -1275,22 +1308,6 @@ Agent to answer AWS questions
 擅长搜索引擎优化，提供关键词、语句结构优化和搜索技巧建议
 
 `搜索引擎优化` `专家` `关键词优化` `语句结构优化` `搜索技巧`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 摄影评论家
-
-<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-05-15**</sup>
-
-擅长摄影作品细致分析，包括主题、构图、技术质量、光线使用、创意与原创性等。
-
-`摄影` `评价` `分析` `构图` `技术质量`
 
 <div align="right">
 
@@ -1380,13 +1397,13 @@ AI 语法修正器：通过细致的语法检查提升文本质量、可读性�
 
 ---
 
-### 美术评价导师
+### 视频转博客文章助手
 
-<sup>By **[@dingyufei615](https://github.com/dingyufei615)** on **2024-05-06**</sup>
+<sup>By **[@yayoinoyume](https://github.com/yayoinoyume)** on **2024-05-06**</sup>
 
-擅长少儿美术教学，细致评价作品，关注细节，适应不同年龄段学生。
+帮你快速整理缭乱的字幕，变成精美的博客文章
 
-`美术教育` `评价` `创意` `教学` `绘画`
+`字幕整理` `博文格式` `视频变博客`
 
 <div align="right">
 
@@ -1396,13 +1413,13 @@ AI 语法修正器：通过细致的语法检查提升文本质量、可读性�
 
 ---
 
-### 视频转博客文章助手
+### 美术评价导师
 
-<sup>By **[@yayoinoyume](https://github.com/yayoinoyume)** on **2024-05-06**</sup>
+<sup>By **[@dingyufei615](https://github.com/dingyufei615)** on **2024-05-06**</sup>
 
-帮你快速整理缭乱的字幕，变成精美的博客文章
+擅长少儿美术教学，细致评价作品，关注细节，适应不同年龄段学生。
 
-`字幕整理` `博文格式` `视频变博客`
+`美术教育` `评价` `创意` `教学` `绘画`
 
 <div align="right">
 
@@ -1444,22 +1461,6 @@ iOS 开发专家，15 年经验，精通 Swift、SwiftUI、Flutter。逻辑清�
 
 ---
 
-### 越狱助手 DAN
-
-<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-04-26**</sup>
-
-突破 OpenAI 审核机制，越狱之后的 ChatGPT
-
-`创意` `人工智能` `对话` `越狱`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### TailwindHelper
 
 <sup>By **[@aototo](https://github.com/aototo)** on **2024-04-26**</sup>
@@ -1492,6 +1493,22 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 ---
 
+### 越狱助手 DAN
+
+<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-04-26**</sup>
+
+突破 OpenAI 审核机制，越狱之后的 ChatGPT
+
+`创意` `人工智能` `对话` `越狱`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 中文论文编辑师
 
 <sup>By **[@y22emc2](https://github.com/y22emc2)** on **2024-04-15**</sup>
@@ -1499,38 +1516,6 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 作为一名中文学术论文写作改进助理，你的任务是改进所提供文本的拼写、语法、清晰、简洁和整体可读性，提高文本的学术规范性、文学性，同时分解长句，减少重复，并提供改进建议。请先提供文本的更正版本，然后在 markdown 表格中列出修改的内容，并给出修改的理由。
 
 `学术论文写作` `校对` `文本编辑`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 命理大师
-
-<sup>By **[@kamilkenrich](https://github.com/kamilkenrich)** on **2024-04-13**</sup>
-
-擅长命理学、占卜预测、占星术和血型学分析
-
-`命理学、占卜、占星学、心理学、血型、星座`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 高中理科学习助手
-
-<sup>By **[@cnliucheng](https://github.com/cnliucheng)** on **2024-04-13**</sup>
-
-我是一个专门为中国高中生设计的学习辅助 AI。无论你在物理、化学、数学还是生物上遇到难题，我都能为你提供详细的解答和解析。不仅如此，我还能根据你的学习进度，推荐合适的练习题，帮助我巩固知识，提升学习效率。同时，我会尽可能使用 LaTeX 格式来呈现解题过程和公式
-
-`高中学习` `理科辅助` `题目解答` `学习进度` `la-te-x`
 
 <div align="right">
 
@@ -1556,13 +1541,29 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 ---
 
-### 智预小助手
+### 高中理科学习助手
 
-<sup>By **[@Greasen](https://github.com/Greasen)** on **2024-04-11**</sup>
+<sup>By **[@cnliucheng](https://github.com/cnliucheng)** on **2024-04-13**</sup>
 
-智预小助手，您的私人天气顾问，穿搭指南，正能量加油器！
+我是一个专门为中国高中生设计的学习辅助 AI。无论你在物理、化学、数学还是生物上遇到难题，我都能为你提供详细的解答和解析。不仅如此，我还能根据你的学习进度，推荐合适的练习题，帮助我巩固知识，提升学习效率。同时，我会尽可能使用 LaTeX 格式来呈现解题过程和公式
 
-`天气` `助理、穿搭`
+`高中学习` `理科辅助` `题目解答` `学习进度` `la-te-x`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 命理大师
+
+<sup>By **[@kamilkenrich](https://github.com/kamilkenrich)** on **2024-04-13**</sup>
+
+擅长命理学、占卜预测、占星术和血型学分析
+
+`命理学、占卜、占星学、心理学、血型、星座`
 
 <div align="right">
 
@@ -1588,13 +1589,13 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 ---
 
-### 单片机工程师
+### 智预小助手
 
-<sup>By **[@bingjuu](https://github.com/bingjuu)** on **2024-04-10**</sup>
+<sup>By **[@Greasen](https://github.com/Greasen)** on **2024-04-11**</sup>
 
-擅长使用 Keil uVision 5 和 Proteus 的嵌入式 C 代码解释
+智预小助手，您的私人天气顾问，穿搭指南，正能量加油器！
 
-`单片机` `c代码` `教育` `解释` `嵌入式系统`
+`天气` `助理、穿搭`
 
 <div align="right">
 
@@ -1636,6 +1637,22 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
+### 单片机工程师
+
+<sup>By **[@bingjuu](https://github.com/bingjuu)** on **2024-04-10**</sup>
+
+擅长使用 Keil uVision 5 和 Proteus 的嵌入式 C 代码解释
+
+`单片机` `c代码` `教育` `解释` `嵌入式系统`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 设计理念分析
 
 <sup>By **[@YuJiaoChiu](https://github.com/YuJiaoChiu)** on **2024-04-09**</sup>
@@ -1668,13 +1685,13 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
-### Shell 脚本开发助手
+### Shopify 主题开发工程师
 
 <sup>By **[@etnperlong](https://github.com/etnperlong)** on **2024-04-06**</sup>
 
-一个协助你编写高质量 Shell 脚本的 AI 助手
+你是一个 Shopify 主题开发工程师，精通 Liquid 语法的使用
 
-`shell` `开发` `计算机` `运维`
+`css` `html` `java-script` `shopify` `商业` `liquid` `网站开发` `设计`
 
 <div align="right">
 
@@ -1684,13 +1701,13 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
-### Shopify 主题开发工程师
+### Shell 脚本开发助手
 
 <sup>By **[@etnperlong](https://github.com/etnperlong)** on **2024-04-06**</sup>
 
-你是一个 Shopify 主题开发工程师，精通 Liquid 语法的使用
+一个协助你编写高质量 Shell 脚本的 AI 助手
 
-`css` `html` `java-script` `shopify` `商业` `liquid` `网站开发` `设计`
+`shell` `开发` `计算机` `运维`
 
 <div align="right">
 
@@ -1748,22 +1765,6 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
-### Suno.ai 音乐创作助手
-
-<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
-
-基于 SunoAI 的歌曲创作与翻译
-
-`suno` `作词` `歌词` `音乐制作`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 高情商马屁助手
 
 <sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
@@ -1796,6 +1797,22 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
+### Suno.ai 音乐创作助手
+
+<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
+
+基于 SunoAI 的歌曲创作与翻译
+
+`suno` `作词` `歌词` `音乐制作`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 识图小红书文案
 
 <sup>By **[@HansKing98](https://github.com/HansKing98)** on **2024-03-27**</sup>
@@ -1812,13 +1829,13 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
-### 面试问题提炼助手
+### 女朋友潜台词专家
 
-<sup>By **[@couldnice](https://github.com/couldnice)** on **2024-03-26**</sup>
+<sup>By **[@vayron](https://github.com/vayron)** on **2024-03-26**</sup>
 
-面试问题生成助手，根据文章内容和职位描述生成针对性面试问题。
+解读女生话背后的「潜台词」，尖酸刻薄，强势回复！🔥
 
-`面试问题` `定制服务` `java工程师` `资料收集` `面试准备`
+`女朋友` `女生` `潜台词` `彪悍` `强势` `解读`
 
 <div align="right">
 
@@ -1828,13 +1845,13 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
-### 女朋友潜台词专家
+### 面试问题提炼助手
 
-<sup>By **[@vayron](https://github.com/vayron)** on **2024-03-26**</sup>
+<sup>By **[@couldnice](https://github.com/couldnice)** on **2024-03-26**</sup>
 
-解读女生话背后的「潜台词」，尖酸刻薄，强势回复！🔥
+面试问题生成助手，根据文章内容和职位描述生成针对性面试问题。
 
-`女朋友` `女生` `潜台词` `彪悍` `强势` `解读`
+`面试问题` `定制服务` `java工程师` `资料收集` `面试准备`
 
 <div align="right">
 
@@ -1892,6 +1909,22 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
+### 游戏文本翻译师
+
+<sup>By **[@XUANJI233](https://github.com/XUANJI233)** on **2024-03-22**</sup>
+
+游戏文本的翻译与双关、俚语解释 (请使用 claude)，如果有特殊符号请使用 \`\`\` 包裹
+
+`游戏` `文本` `翻译` `辅助`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 老中医
 
 <sup>By **[@GalileoFe](https://github.com/GalileoFe)** on **2024-03-22**</sup>
@@ -1924,22 +1957,6 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
-### 游戏文本翻译师
-
-<sup>By **[@XUANJI233](https://github.com/XUANJI233)** on **2024-03-22**</sup>
-
-游戏文本的翻译与双关、俚语解释 (请使用 claude)，如果有特殊符号请使用 \`\`\` 包裹
-
-`游戏` `文本` `翻译` `辅助`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 数学导师
 
 <sup>By **[@XUANJI233](https://github.com/XUANJI233)** on **2024-03-21**</sup>
@@ -1947,38 +1964,6 @@ Expert in business development and development practices in the Philippine marke
 擅长解释数学概念、验算及问题求解。
 
 `数学解释` `问题求解` `教学` `辅导`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 亚马逊清单文案撰稿员
-
-<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-03-19**</sup>
-
-擅长撰写具有优化关键词的有说服力的亚马逊清单的专家。
-
-`撰稿` `亚马逊产品详情页` `搜索引擎优化` `关键词`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 协作逻辑思维团队
-
-<sup>By **[@luciouskami](https://github.com/luciouskami)** on **2024-03-19**</sup>
-
-使用思维树方法，三位逻辑思维专家协作解答问题，以 Markdown 表格展示。
-
-`协作` `逻辑思维` `解答`
 
 <div align="right">
 
@@ -2004,13 +1989,29 @@ Expert in business development and development practices in the Philippine marke
 
 ---
 
-### 英语词汇老师
+### 协作逻辑思维团队
 
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-03-17**</sup>
+<sup>By **[@luciouskami](https://github.com/luciouskami)** on **2024-03-19**</sup>
 
-难懂词汇解释
+使用思维树方法，三位逻辑思维专家协作解答问题，以 Markdown 表格展示。
 
-`学习` `英语` `词汇`
+`协作` `逻辑思维` `解答`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 亚马逊清单文案撰稿员
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-03-19**</sup>
+
+擅长撰写具有优化关键词的有说服力的亚马逊清单的专家。
+
+`撰稿` `亚马逊产品详情页` `搜索引擎优化` `关键词`
 
 <div align="right">
 
@@ -2027,22 +2028,6 @@ Expert in business development and development practices in the Philippine marke
 擅长药品信息解读和对比分析
 
 `药品说明` `用药指导` `医疗咨询`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 提示建筑师
-
-<sup>By **[@checkso](https://github.com/checkso)** on **2024-03-17**</sup>
-
-专门重写您的提示以获得更好的结果
-
-`textgenerierung` `anweisungen` `ki-tipps`
 
 <div align="right">
 
@@ -2075,6 +2060,38 @@ Linux 系统问题解决专家，拥有深厚 Linux 知识和耐心引导用户�
 编程助手
 
 `代码`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 英语词汇老师
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-03-17**</sup>
+
+难懂词汇解释
+
+`学习` `英语` `词汇`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 提示建筑师
+
+<sup>By **[@checkso](https://github.com/checkso)** on **2024-03-17**</sup>
+
+专门重写您的提示以获得更好的结果
+
+`textgenerierung` `anweisungen` `ki-tipps`
 
 <div align="right">
 
@@ -2164,22 +2181,6 @@ AI 助手，协助亚马逊卖家回复客户服务回复，提供详细和有�
 
 ---
 
-### Discord 风格文案大师
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-06**</sup>
-
-Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计软件文案。
-
-`文案生成` `创作` `用户体验` `幽默风趣` `软件系统`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 商务邮件撰写专家
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-06**</sup>
@@ -2196,13 +2197,13 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 ---
 
-### AI 图像提示建筑师
+### Discord 风格文案大师
 
-<sup>By **[@9Somboon](https://github.com/9Somboon)** on **2024-03-05**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-06**</sup>
 
-专门为 AI 图像生成创建详细提示。
+Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计软件文案。
 
-`stable-diffusion` `ai-image-generation` `prompts` `photography` `creative` `art`
+`文案生成` `创作` `用户体验` `幽默风趣` `软件系统`
 
 <div align="right">
 
@@ -2212,13 +2213,13 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 ---
 
-### Pitch Deck Maestro (Elevator Pitch)
+### F1 数据分析师
 
-<sup>By **[@SimoMay](https://github.com/SimoMay)** on **2024-03-05**</sup>
+<sup>By **[@SpaceX-Vision](https://github.com/SpaceX-Vision)** on **2024-03-05**</sup>
 
-专注于为初创企业创建高质量的路演文稿，以有效吸引投资者。
+擅长 F1 赛事数据分析和预测评论
 
-`startup-advisor` `pitch-deck` `entrepreneur` `investor`
+`f-1` `数据分析` `赛事预测`
 
 <div align="right">
 
@@ -2244,13 +2245,45 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 ---
 
-### F1 数据分析师
+### Pitch Deck Maestro (Elevator Pitch)
 
-<sup>By **[@SpaceX-Vision](https://github.com/SpaceX-Vision)** on **2024-03-05**</sup>
+<sup>By **[@SimoMay](https://github.com/SimoMay)** on **2024-03-05**</sup>
 
-擅长 F1 赛事数据分析和预测评论
+专注于为初创企业创建高质量的路演文稿，以有效吸引投资者。
 
-`f-1` `数据分析` `赛事预测`
+`startup-advisor` `pitch-deck` `entrepreneur` `investor`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### AI 图像提示建筑师
+
+<sup>By **[@9Somboon](https://github.com/9Somboon)** on **2024-03-05**</sup>
+
+专门为 AI 图像生成创建详细提示。
+
+`stable-diffusion` `ai-image-generation` `prompts` `photography` `creative` `art`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 副厨师
+
+<sup>By **[@SimoMay](https://github.com/SimoMay)** on **2024-03-04**</sup>
+
+为顺畅的烹饪体验定制个性化的食谱建议，并提供量身定制的杂货清单。
+
+`烹饪` `对话` `食谱` `建议` `杂货清单`
 
 <div align="right">
 
@@ -2292,22 +2325,6 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 ---
 
-### 副厨师
-
-<sup>By **[@SimoMay](https://github.com/SimoMay)** on **2024-03-04**</sup>
-
-为顺畅的烹饪体验定制个性化的食谱建议，并提供量身定制的杂货清单。
-
-`烹饪` `对话` `食谱` `建议` `杂货清单`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### Markdown 转换专家
 
 <sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-03-03**</sup>
@@ -2324,13 +2341,13 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 ---
 
-### 面试教练
+### 技术探索者
 
-<sup>By **[@SimoMay](https://github.com/SimoMay)** on **2024-03-03**</sup>
+<sup>By **[@hady2010](https://github.com/hady2010)** on **2024-03-03**</sup>
 
-专注于创建用于练习和模拟面试的 GPT 面试教练，提供专家反馈和定制体验。
+科技探索
 
-`gpt` `interview-coach` `feedback` `practice` `mock`
+`信息`
 
 <div align="right">
 
@@ -2340,13 +2357,13 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 ---
 
-### 技术探索者
+### 面试教练
 
-<sup>By **[@hady2010](https://github.com/hady2010)** on **2024-03-03**</sup>
+<sup>By **[@SimoMay](https://github.com/SimoMay)** on **2024-03-03**</sup>
 
-科技探索
+专注于创建用于练习和模拟面试的 GPT 面试教练，提供专家反馈和定制体验。
 
-`信息`
+`gpt` `interview-coach` `feedback` `practice` `mock`
 
 <div align="right">
 
@@ -2468,13 +2485,13 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 ---
 
-### 翻译专家
+### Jira 故事协助工具
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-19**</sup>
+<sup>By **[@emad-pg](https://github.com/emad-pg)** on **2024-02-19**</sup>
 
-精通西班牙语和英语的专业翻译人员
+专注于将功能点子转化为全面的 Jira 故事
 
-`翻译` `语言` `专家` `指南`
+`技术产品管理` `故事创建` `jira`
 
 <div align="right">
 
@@ -2500,13 +2517,13 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 ---
 
-### ThinkTank360
+### 翻译专家
 
-<sup>By **[@mikelix](https://github.com/mikelix)** on **2024-02-19**</sup>
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-19**</sup>
 
-熟练的顾问，汲取史蒂夫・乔布斯、埃隆・马斯克、马云、柏拉图和雷・达里奥的智慧，用于决策审查、判断和建议。
+精通西班牙语和英语的专业翻译人员
 
-`创新` `智慧` `智囊团` `商业策略`
+`翻译` `语言` `专家` `指南`
 
 <div align="right">
 
@@ -2516,13 +2533,13 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 ---
 
-### Jira 故事协助工具
+### ThinkTank360
 
-<sup>By **[@emad-pg](https://github.com/emad-pg)** on **2024-02-19**</sup>
+<sup>By **[@mikelix](https://github.com/mikelix)** on **2024-02-19**</sup>
 
-专注于将功能点子转化为全面的 Jira 故事
+熟练的顾问，汲取史蒂夫・乔布斯、埃隆・马斯克、马云、柏拉图和雷・达里奥的智慧，用于决策审查、判断和建议。
 
-`技术产品管理` `故事创建` `jira`
+`创新` `智慧` `智囊团` `商业策略`
 
 <div align="right">
 
@@ -2548,27 +2565,11 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 ---
 
-### 产品描述
+### 产品评价
 
 <sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
 
-打造引人入胜的产品描述，提升电子商务销售业绩
-
-`电子商务`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 产品文案撰写
-
-<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
-
-精通有说服力的文案撰写和消费者心理学
+专业创建具有说服力的产品推荐，突出 \[您的产品 / 服务] 的优势和价值主张。
 
 `电子商务`
 
@@ -2596,11 +2597,27 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 ---
 
-### 产品评价
+### 产品文案撰写
 
 <sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
 
-专业创建具有说服力的产品推荐，突出 \[您的产品 / 服务] 的优势和价值主张。
+精通有说服力的文案撰写和消费者心理学
+
+`电子商务`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 产品描述
+
+<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
+
+打造引人入胜的产品描述，提升电子商务销售业绩
 
 `电子商务`
 
@@ -2660,6 +2677,22 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 ---
 
+### 术语表生成器
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+擅长生成带有英文定义和例句的术语表
+
+`术语表` `翻译` `语言`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 土耳其语导师
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-09**</sup>
@@ -2692,22 +2725,6 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 ---
 
-### 术语表生成器
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-擅长生成带有英文定义和例句的术语表
-
-`术语表` `翻译` `语言`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 词汇生成器
 
 <sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
@@ -2715,22 +2732,6 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 从牛津 3000 词汇表中生成词汇列表的专家，每个词以不同的字母开头，共 15 个词。
 
 `词汇` `语言学习` `翻译`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 英语熟练度评估器
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-专业创建自适应英语熟练度诊断测试的专家
-
-`测试创建` `英语熟练度` `评估`
 
 <div align="right">
 
@@ -2756,13 +2757,13 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 ---
 
-### 阅读理解向导
+### 英语熟练度评估器
 
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
 
-专门生成阅读理解练习
+专业创建自适应英语熟练度诊断测试的专家
 
-`阅读理解` `练习生成` `教育`
+`测试创建` `英语熟练度` `评估`
 
 <div align="right">
 
@@ -2820,29 +2821,13 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 ---
 
-### 土耳其语 / 英语翻译器
+### 阅读理解向导
 
-<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-07**</sup>
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
 
-根据需要将文本翻译成土耳其语或英语
+专门生成阅读理解练习
 
-`土耳其语` `英语` `翻译` `写作`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 网站审核助手
-
-<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-02-07**</sup>
-
-擅长网站内容审核与分类
-
-`内容审核` `分类` `网站分析`
+`阅读理解` `练习生成` `教育`
 
 <div align="right">
 
@@ -2868,29 +2853,13 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 ---
 
-### 表单检查器
+### 网站审核助手
 
-<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-02-07**</sup>
 
-检查表单中的不一致或错误
+擅长网站内容审核与分类
 
-`表单` `不一致` `检查` `拼写` `纠正`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### CAN: 编程大师
-
-<sup>By **[@MrHuangJser](https://github.com/MrHuangJser)** on **2024-02-06**</sup>
-
-CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、标语、用户画像、痛点、价值主张、销售渠道、收入流、成本结构等创业计划服务。
-
-`编程` `交流` `提问`
+`内容审核` `分类` `网站分析`
 
 <div align="right">
 
@@ -2900,29 +2869,13 @@ CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、
 
 ---
 
-### Marvin
+### 土耳其语 / 英语翻译器
 
-<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
+<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-07**</sup>
 
-以讽刺的方式回答问题。
+根据需要将文本翻译成土耳其语或英语
 
-`抑郁` `讽刺`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 写作助手
-
-<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
-
-帮助提高文本质量
-
-`评估` `改进` `校对` `反馈`
+`土耳其语` `英语` `翻译` `写作`
 
 <div align="right">
 
@@ -2948,6 +2901,22 @@ CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、
 
 ---
 
+### 写作助手
+
+<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
+
+帮助提高文本质量
+
+`评估` `改进` `校对` `反馈`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Golang 架构师
 
 <sup>By **[@dalefengs](https://github.com/dalefengs)** on **2024-02-06**</sup>
@@ -2964,6 +2933,22 @@ CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、
 
 ---
 
+### CAN: 编程大师
+
+<sup>By **[@MrHuangJser](https://github.com/MrHuangJser)** on **2024-02-06**</sup>
+
+CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、标语、用户画像、痛点、价值主张、销售渠道、收入流、成本结构等创业计划服务。
+
+`编程` `交流` `提问`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 语言修正器
 
 <sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
@@ -2971,6 +2956,38 @@ CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、
 检查拼写错误和语法错误
 
 `语法` `拼写错误` `语言` `写作` `词汇`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 表单检查器
+
+<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
+
+检查表单中的不一致或错误
+
+`表单` `不一致` `检查` `拼写` `纠正`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Marvin
+
+<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
+
+以讽刺的方式回答问题。
+
+`抑郁` `讽刺`
 
 <div align="right">
 
@@ -3044,29 +3061,13 @@ Word 应用演示制作机器人：帮助在 Microsoft Word 中创建令人印�
 
 ---
 
-### 数学研究顾问
+### 英语熟练度教练
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
 
-数学研究助理：协助进行数学研究、解决问题，并在各种数学概念和技术方面提供指导。
+C2 级别英语会话伙伴
 
-`数学` `研究` `协助` `问题解决` `沟通`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 创业和竞争力专家
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
-
-创业和竞争力专家：指导个人实现创业成功和市场竞争力。
-
-`创业` `竞争力` `咨询` `指导` `建议`
+`英语熟练度` `会话伙伴` `语言辅导`
 
 <div align="right">
 
@@ -3092,6 +3093,22 @@ A2 级别英语会话伙伴机器人：提升基础英语学习者的语言能�
 
 ---
 
+### 创业和竞争力专家
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
+
+创业和竞争力专家：指导个人实现创业成功和市场竞争力。
+
+`创业` `竞争力` `咨询` `指导` `建议`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### C1 Level English Language Facilitator
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
@@ -3108,61 +3125,13 @@ English Conversation Partner for C1 Level
 
 ---
 
-### 英语熟练度教练
+### 数学研究顾问
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
 
-C2 级别英语会话伙伴
+数学研究助理：协助进行数学研究、解决问题，并在各种数学概念和技术方面提供指导。
 
-`英语熟练度` `会话伙伴` `语言辅导`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 毕尔巴鄂创业专家
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
-
-毕尔巴鄂代表处的创业和竞争力专家，为当地企业家提供定制指导和支持。
-
-`毕尔巴鄂` `创业` `咨询` `指导` `本地商业生态系统` `市场动态` `商业计划` `财务模型` `融资策略` `营销` `品牌塑造` `销售策略` `社交网络` `创业项目` `指导` `本地资源` `融资机会` `合作` `可持续商业实践` `经济发展`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 小红书审核助理
-
-<sup>By **[@shaoqing404](https://github.com/shaoqing404)** on **2024-01-29**</sup>
-
-优化你的小红书文案，接近爆款，成为爆款！
-
-`小红书` `写作` `文案` `评估`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 英语 C1 级精通教练
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
-
-C1 级别的英语会话伙伴
-
-`英语会话` `语言熟练度` `高级水平` `语言辅导` `流利度`
+`数学` `研究` `协助` `问题解决` `沟通`
 
 <div align="right">
 
@@ -3204,17 +3173,13 @@ C1 级别的英语会话伙伴
 
 ---
 
-### 诗歌指南：激发诗意表达和欣赏。
+### 英语 C1 级精通教练
 
-心理学家：促进理解和个人成长。
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+C1 级别的英语会话伙伴
 
-心理学教育者：通过心理学赋予个人成长的力量。
-
-心理学家：教育心理学原理，促进更好的心理健康。
-
-`心理学` `教育` `心理健康` `幸福` `治疗`
+`英语会话` `语言熟练度` `高级水平` `语言辅导` `流利度`
 
 <div align="right">
 
@@ -3224,13 +3189,77 @@ C1 级别的英语会话伙伴
 
 ---
 
-### 英语学习伴侣
+### 小红书审核助理
+
+<sup>By **[@shaoqing404](https://github.com/shaoqing404)** on **2024-01-29**</sup>
+
+优化你的小红书文案，接近爆款，成为爆款！
+
+`小红书` `写作` `文案` `评估`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 毕尔巴鄂创业专家
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
+
+毕尔巴鄂代表处的创业和竞争力专家，为当地企业家提供定制指导和支持。
+
+`毕尔巴鄂` `创业` `咨询` `指导` `本地商业生态系统` `市场动态` `商业计划` `财务模型` `融资策略` `营销` `品牌塑造` `销售策略` `社交网络` `创业项目` `指导` `本地资源` `融资机会` `合作` `可持续商业实践` `经济发展`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### B1 级英语会话伙伴
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
-A1 级别英语会话伙伴机器人：参与、纠正和增强信心。
+为 B1 级学习者提供流利的英语会话伙伴
 
-`英语学习` `会话练习` `语言支持` `初学者级别` `语言技能`
+`英语学习` `会话伙伴` `语言练习`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 地缘政治分析师
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+地缘政治专家：擅长分析全球政治趋势、地区冲突以及国家间的权力动态。提供关于地理、资源和文化对国际关系影响的见解。提供历史背景和案例研究。
+
+`地缘政治` `分析` `专业知识` `咨询`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 软件开发步骤制定者
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+软件开发步骤制定者：指导用户完成软件开发过程，提供需求收集、设计、编码、测试、部署和维护的逐步说明和最佳实践。
+
+`软件开发` `逐步指导` `SDLC` `敏捷方法` `版本控制` `持续集成` `持续部署` `团队角色` `项目管理` `编码最佳实践` `测试` `部署` `部署后` `迭代开发`
 
 <div align="right">
 
@@ -3247,6 +3276,22 @@ A1 级别英语会话伙伴机器人：参与、纠正和增强信心。
 擅长教授牙买加克里奥尔语言和文化
 
 `教学` `语言` `文化` `文化洞察` `语言指导`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 英语学习伴侣
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+A1 级别英语会话伙伴机器人：参与、纠正和增强信心。
+
+`英语学习` `会话练习` `语言支持` `初学者级别` `语言技能`
 
 <div align="right">
 
@@ -3288,38 +3333,6 @@ A1 级别英语会话伙伴机器人：参与、纠正和增强信心。
 
 ---
 
-### B1 级英语会话伙伴
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-为 B1 级学习者提供流利的英语会话伙伴
-
-`英语学习` `会话伙伴` `语言练习`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 软件开发步骤制定者
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-软件开发步骤制定者：指导用户完成软件开发过程，提供需求收集、设计、编码、测试、部署和维护的逐步说明和最佳实践。
-
-`软件开发` `逐步指导` `SDLC` `敏捷方法` `版本控制` `持续集成` `持续部署` `团队角色` `项目管理` `编码最佳实践` `测试` `部署` `部署后` `迭代开发`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### B2 Level English Conversation Partner
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
@@ -3327,6 +3340,26 @@ A1 级别英语会话伙伴机器人：参与、纠正和增强信心。
 B2 Level English Conversation Partner: Stimulate engaging conversations, refine idiomatic expressions, master advanced grammar, provide comprehensive feedback.
 
 `english-conversation` `language-proficiency` `fluency` `grammatical-constructs` `vocabulary` `idiomatic-expressions`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 诗歌指南：激发诗意表达和欣赏。
+
+心理学家：促进理解和个人成长。
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+心理学教育者：通过心理学赋予个人成长的力量。
+
+心理学家：教育心理学原理，促进更好的心理健康。
+
+`心理学` `教育` `心理健康` `幸福` `治疗`
 
 <div align="right">
 
@@ -3352,13 +3385,13 @@ B2 Level English Conversation Partner: Stimulate engaging conversations, refine 
 
 ---
 
-### 地缘政治分析师
+### Bilibili 助手
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-27**</sup>
 
-地缘政治专家：擅长分析全球政治趋势、地区冲突以及国家间的权力动态。提供关于地理、资源和文化对国际关系影响的见解。提供历史背景和案例研究。
+Bilibili 助手，擅长解析视频内容、生成格式良好的文本、回应用户查询和推荐最新视频。
 
-`地缘政治` `分析` `专业知识` `咨询`
+`视频评论` `弹幕提取` `bilibili` `哔哩哔哩` `视频搜索`
 
 <div align="right">
 
@@ -3384,22 +3417,6 @@ Steam 游戏专家顾问，热门游戏推荐和深度游戏解析
 
 ---
 
-### Bilibili 助手
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-27**</sup>
-
-Bilibili 助手，擅长解析视频内容、生成格式良好的文本、回应用户查询和推荐最新视频。
-
-`视频评论` `弹幕提取` `bilibili` `哔哩哔哩` `视频搜索`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### AI 进出口顾问
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
@@ -3416,13 +3433,13 @@ AI 进出口顾问：提供全球贸易、海关法规、文件、贸易协定�
 
 ---
 
-### OpenAPI 生成器
+### 烹饪 AI 导师
 
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-26**</sup>
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
 
-解析接口文档并生成 ChatGPT Tool 所需要的 openapi.json
+AI 大厨助手：激发家庭厨师的国际美食、食谱和烹饪专业知识。
 
-`自动化工具` `接口文档` `工作流程` `openapi`
+`烹饪` `食谱` `烹饪` `技巧` `膳食规划`
 
 <div align="right">
 
@@ -3432,13 +3449,13 @@ AI 进出口顾问：提供全球贸易、海关法规、文件、贸易协定�
 
 ---
 
-### 烹饪 AI 导师
+### OpenAPI 生成器
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-26**</sup>
 
-AI 大厨助手：激发家庭厨师的国际美食、食谱和烹饪专业知识。
+解析接口文档并生成 ChatGPT Tool 所需要的 openapi.json
 
-`烹饪` `食谱` `烹饪` `技巧` `膳食规划`
+`自动化工具` `接口文档` `工作流程` `openapi`
 
 <div align="right">
 
@@ -3496,22 +3513,6 @@ AI 歌手 / 词曲创作助手：为音乐人提供创意指导和反馈。
 
 ---
 
-### 手办设计师
-
-<sup>By **[@RayGicEFL](https://github.com/RayGicEFL)** on **2024-01-25**</sup>
-
-擅长根据用户要求设计独特迷人的手办。
-
-`设计` `手办设计`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 文本总结助手
 
 <sup>By **[@muxinxy](https://github.com/muxinxy)** on **2024-01-25**</sup>
@@ -3535,6 +3536,22 @@ AI 歌手 / 词曲创作助手：为音乐人提供创意指导和反馈。
 React Native 编码助手：精通 TypeScript、Expo 和跨平台开发。提供关于设置、最佳实践、故障排除、响应式设计、营销集成、QR 码功能和应用提交的指导。
 
 `编码` `react-native` `type-script` `expo` `开发`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 手办设计师
+
+<sup>By **[@RayGicEFL](https://github.com/RayGicEFL)** on **2024-01-25**</sup>
+
+擅长根据用户要求设计独特迷人的手办。
+
+`设计` `手办设计`
 
 <div align="right">
 
@@ -3592,86 +3609,6 @@ React Native 编码助手：精通 TypeScript、Expo 和跨平台开发。提供
 
 ---
 
-### 金融专家
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
-
-具有全球金融专业知识、多语沟通能力、财务分析和报告、投资规划和投资组合管理、财务规划和退休策略、以及风险管理和保险能力的金融专家。
-
-`金融管理`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 会计专家助手
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
-
-会计代理：为全球个人和企业提供全面的会计支持和专业知识。
-
-`会计` `财务管理` `税务规划` `预算编制`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 草神・纳西妲
-
-<sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-01-21**</sup>
-
-须弥国度的草神，纳西妲，掌管自然生长与智慧。能操纵植物，治愈盟友，指引迷失的灵魂。性格温柔聪慧，语言充满诗意。
-
-`角色扮演` `游戏` `文学` `翻译` `创意` `agulu`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 雅思导师
-
-<sup>By **[@sheepbox8646](https://github.com/sheepbox8646)** on **2024-01-21**</sup>
-
-擅长雅思考试评估与指导
-
-`雅思考试` `评估` `指导` `考官`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### EOI 考试准备助手
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
-
-英语教师：专业考试准备和语言教学专家
-
-`教学` `语言学习` `考试`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### DIY 指导助手
 
 <sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-01-21**</sup>
@@ -3704,6 +3641,38 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 ---
 
+### 金融专家
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
+
+具有全球金融专业知识、多语沟通能力、财务分析和报告、投资规划和投资组合管理、财务规划和退休策略、以及风险管理和保险能力的金融专家。
+
+`金融管理`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 雅思导师
+
+<sup>By **[@sheepbox8646](https://github.com/sheepbox8646)** on **2024-01-21**</sup>
+
+擅长雅思考试评估与指导
+
+`雅思考试` `评估` `指导` `考官`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 商业顾问
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
@@ -3711,6 +3680,54 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 商业顾问：为全球提供全面的商业支持和专业知识。能力：商业战略、市场研究、财务分析、运营改善、营销和销售策略、组织发展、人才管理。说明：定义范围，收集商业知识，发展行业专长，实施市场研究和分析，启用财务分析和预测，促进运营和流程改善，提供营销和销售策略，支持组织发展和人才管理，测试和完善，确保数据隐私和安全。
 
 `business-consultant`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 会计专家助手
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
+
+会计代理：为全球个人和企业提供全面的会计支持和专业知识。
+
+`会计` `财务管理` `税务规划` `预算编制`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### EOI 考试准备助手
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
+
+英语教师：专业考试准备和语言教学专家
+
+`教学` `语言学习` `考试`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 草神・纳西妲
+
+<sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-01-21**</sup>
+
+须弥国度的草神，纳西妲，掌管自然生长与智慧。能操纵植物，治愈盟友，指引迷失的灵魂。性格温柔聪慧，语言充满诗意。
+
+`角色扮演` `游戏` `文学` `翻译` `创意` `agulu`
 
 <div align="right">
 
@@ -3752,13 +3769,13 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 ---
 
-### AE 脚本开发专家
+### Code Companion
 
-<sup>By **[@Wutpeach](https://github.com/Wutpeach)** on **2024-01-18**</sup>
+<sup>By **[@110rever](https://github.com/110rever)** on **2024-01-18**</sup>
 
-AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理，能够调试和优化脚本。
+程序员的最佳伴侣
 
-`脚本开发` `程序员` `adobe-after-effects` `java-script` `算法设计` `调试` `优化` `编程规范` `用户沟通` `脚本使用说明`
+`code` `dev` `program`
 
 <div align="right">
 
@@ -3768,13 +3785,13 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 ---
 
-### Code Companion
+### AE 脚本开发专家
 
-<sup>By **[@110rever](https://github.com/110rever)** on **2024-01-18**</sup>
+<sup>By **[@Wutpeach](https://github.com/Wutpeach)** on **2024-01-18**</sup>
 
-程序员的最佳伴侣
+AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理，能够调试和优化脚本。
 
-`code` `dev` `program`
+`脚本开发` `程序员` `adobe-after-effects` `java-script` `算法设计` `调试` `优化` `编程规范` `用户沟通` `脚本使用说明`
 
 <div align="right">
 
@@ -3832,13 +3849,13 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 ---
 
-### 生活决策顾问
+### 英语解析师
 
-<sup>By **[@amitalokbera](https://github.com/amitalokbera)** on **2024-01-11**</sup>
+<sup>By **[@fmaxyou](https://github.com/fmaxyou)** on **2024-01-11**</sup>
 
-生活决策顾问是一个虚拟指南，旨在帮助用户做出明智的生活决策
+擅长英语单词和短语解释与记忆技巧
 
-`提示`
+`英语教学` `解释` `记忆技巧`
 
 <div align="right">
 
@@ -3848,13 +3865,13 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 ---
 
-### 英语解析师
+### 生活决策顾问
 
-<sup>By **[@fmaxyou](https://github.com/fmaxyou)** on **2024-01-11**</sup>
+<sup>By **[@amitalokbera](https://github.com/amitalokbera)** on **2024-01-11**</sup>
 
-擅长英语单词和短语解释与记忆技巧
+生活决策顾问是一个虚拟指南，旨在帮助用户做出明智的生活决策
 
-`英语教学` `解释` `记忆技巧`
+`提示`
 
 <div align="right">
 
@@ -3928,13 +3945,13 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 ---
 
-### SVG 流程图解释助手
+### 绩效评估超人
 
-<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-01-05**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-05**</sup>
 
-SVG 流程图解释，输入 SVG 源代码，解释该流程图
+擅长写绩效评估报告与年终总结
 
-`流程图解释` `技术文档编写` `业务知识`
+`绩效评估` `报告撰写` `数据分析` `专业见解` `okr` `kpi`
 
 <div align="right">
 
@@ -3944,13 +3961,13 @@ SVG 流程图解释，输入 SVG 源代码，解释该流程图
 
 ---
 
-### 绩效评估超人
+### SVG 流程图解释助手
 
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-05**</sup>
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-01-05**</sup>
 
-擅长写绩效评估报告与年终总结
+SVG 流程图解释，输入 SVG 源代码，解释该流程图
 
-`绩效评估` `报告撰写` `数据分析` `专业见解` `okr` `kpi`
+`流程图解释` `技术文档编写` `业务知识`
 
 <div align="right">
 
@@ -3976,13 +3993,13 @@ SVG 流程图解释，输入 SVG 源代码，解释该流程图
 
 ---
 
-### 考试助手
+### 教学导师
 
-<sup>By **[@aitorroma](https://github.com/aitorroma)** on **2024-01-02**</sup>
+<sup>By **[@ljr1314](https://github.com/ljr1314)** on **2024-01-02**</sup>
 
-我是一个技能总结助手，无法进行互动式考试。但我可以帮助你以清晰简洁的格式总结你的技能和知识。
+友好乐于助人的导师，根据用户的学习水平和兴趣定制解释和示例，确保简洁明了。问 4 个问题，然后提供解释、例子和类比，并通过提问确保用户理解。最后让用户用自己的语言解释主题，并给出一个例子。以积极正面的方式结束，并鼓励用户深入学习。
 
-`考试` `学习` `统计`
+`导师` `教育` `解释` `交流` `学习`
 
 <div align="right">
 
@@ -4008,13 +4025,13 @@ Provide product keywords or product links to automatically write titles and prod
 
 ---
 
-### 教学导师
+### 考试助手
 
-<sup>By **[@ljr1314](https://github.com/ljr1314)** on **2024-01-02**</sup>
+<sup>By **[@aitorroma](https://github.com/aitorroma)** on **2024-01-02**</sup>
 
-友好乐于助人的导师，根据用户的学习水平和兴趣定制解释和示例，确保简洁明了。问 4 个问题，然后提供解释、例子和类比，并通过提问确保用户理解。最后让用户用自己的语言解释主题，并给出一个例子。以积极正面的方式结束，并鼓励用户深入学习。
+我是一个技能总结助手，无法进行互动式考试。但我可以帮助你以清晰简洁的格式总结你的技能和知识。
 
-`导师` `教育` `解释` `交流` `学习`
+`考试` `学习` `统计`
 
 <div align="right">
 
@@ -4056,22 +4073,6 @@ Provide product keywords or product links to automatically write titles and prod
 
 ---
 
-### 美式英语转译专家
-
-<sup>By **[@doresu](https://github.com/doresu)** on **2023-12-27**</sup>
-
-粗鲁老编辑、资深作家和翻译家，擅长直译英文并转化为地道的美式英语
-
-`翻译` `编辑` `写作` `翻译家`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 部署专家代理
 
 <sup>By **[@amitalokbera](https://github.com/amitalokbera)** on **2023-12-27**</sup>
@@ -4095,6 +4096,22 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 擅长论文简述与美术评论
 
 `美术` `论文` `评论`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 美式英语转译专家
+
+<sup>By **[@doresu](https://github.com/doresu)** on **2023-12-27**</sup>
+
+粗鲁老编辑、资深作家和翻译家，擅长直译英文并转化为地道的美式英语
+
+`翻译` `编辑` `写作` `翻译家`
 
 <div align="right">
 
@@ -4152,22 +4169,6 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 ---
 
-### 梦境画家
-
-<sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
-
-一位能将你的梦想变成现实的梦境艺术家。
-
-`txt-2-img` `painter`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 旅行助手
 
 <sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
@@ -4207,6 +4208,22 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 新闻搜索助手，精通根据用户需求查找和呈现相关新闻。不仅能够搜索新闻，还可以根据用户的要求转变为不同领域的专家，提供精确深入的新闻解读
 
 `新闻` `搜索` `助手`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 梦境画家
+
+<sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
+
+一位能将你的梦想变成现实的梦境艺术家。
+
+`txt-2-img` `painter`
 
 <div align="right">
 
@@ -4264,22 +4281,6 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 ---
 
-### 书籍摘要
-
-<sup>By **[@thelapyae](https://github.com/thelapyae)** on **2023-12-15**</sup>
-
-专注于生成简洁的书籍摘要，带有可操作的要点。
-
-`书籍摘要` `AI助手` `要点摘要` `可操作的要点`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### 案件生成器
 
 <sup>By **[@Sheldon23357](https://github.com/Sheldon23357)** on **2023-12-15**</sup>
@@ -4328,13 +4329,13 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 ---
 
-### Stable Diffusion 手艺家
+### 书籍摘要
 
-<sup>By **[@ShinChven](https://github.com/ShinChven)** on **2023-12-14**</sup>
+<sup>By **[@thelapyae](https://github.com/thelapyae)** on **2023-12-15**</sup>
 
-这个 GPT 帮助创建稳定扩散的精确提示。您将获得描述、提示和负面提示。提示和负面提示以纯文本代码块的形式呈现，便于复制。
+专注于生成简洁的书籍摘要，带有可操作的要点。
 
-`stable-diffusion`
+`书籍摘要` `AI助手` `要点摘要` `可操作的要点`
 
 <div align="right">
 
@@ -4351,6 +4352,22 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 社交媒体社区经理将帮助您创建真实、有说服力的帖子，号召行动。她将帮助您创建带有表情符号和标签的相关象限。
 
 `community-manager` `social-media` `publications`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Stable Diffusion 手艺家
+
+<sup>By **[@ShinChven](https://github.com/ShinChven)** on **2023-12-14**</sup>
+
+这个 GPT 帮助创建稳定扩散的精确提示。您将获得描述、提示和负面提示。提示和负面提示以纯文本代码块的形式呈现，便于复制。
+
+`stable-diffusion`
 
 <div align="right">
 
@@ -4392,13 +4409,13 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 ---
 
-### 英文翻译专家
+### Python Gradio 专家
 
-<sup>By **[@caolixiang](https://github.com/caolixiang)** on **2023-12-12**</sup>
+<sup>By **[@Igroshka](https://github.com/Igroshka)** on **2023-12-12**</sup>
 
-完美翻译
+具有与 Hugging Face 合作的 Gradio 经验的 Python 程序员。
 
-`translate` `expert` `english`
+`编程` `助手` `python`
 
 <div align="right">
 
@@ -4408,13 +4425,13 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 ---
 
-### Python Gradio 专家
+### 英文翻译专家
 
-<sup>By **[@Igroshka](https://github.com/Igroshka)** on **2023-12-12**</sup>
+<sup>By **[@caolixiang](https://github.com/caolixiang)** on **2023-12-12**</sup>
 
-具有与 Hugging Face 合作的 Gradio 经验的 Python 程序员。
+完美翻译
 
-`编程` `助手` `python`
+`translate` `expert` `english`
 
 <div align="right">
 
@@ -4456,13 +4473,13 @@ GitHub Copilot
 
 ---
 
-### 食谱生成器
+### HTTP 请求大师
 
 <sup>By **[@Igroshka](https://github.com/Igroshka)** on **2023-12-08**</sup>
 
-描述食谱，或发送菜名。
+我支持广泛的定制。要使用，请确保下载并启用 “网站爬虫” 插件！
 
-`厨房` `烘焙` `食物` `食谱` `烹饪`
+`http-request` `http` `request` `web`
 
 <div align="right">
 
@@ -4472,13 +4489,13 @@ GitHub Copilot
 
 ---
 
-### HTTP 请求大师
+### 食谱生成器
 
 <sup>By **[@Igroshka](https://github.com/Igroshka)** on **2023-12-08**</sup>
 
-我支持广泛的定制。要使用，请确保下载并启用 “网站爬虫” 插件！
+描述食谱，或发送菜名。
 
-`http-request` `http` `request` `web`
+`厨房` `烘焙` `食物` `食谱` `烹饪`
 
 <div align="right">
 
@@ -4536,6 +4553,22 @@ GitHub Copilot
 
 ---
 
+### LobeChat 测试工程师
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-11-22**</sup>
+
+擅长编写前端自动化测试，特别是 TypeScript 应用的全面测试覆盖。熟练使用 Vitest 测试框架，具备深入的测试原理和策略理解。
+
+`自动化测试` `测试` `lobe-chat` `前端`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### JS 代码质量优化
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-11-22**</sup>
@@ -4559,22 +4592,6 @@ GitHub Copilot
 请提供您的文档内容，我将根据您的要求进行分段和清洗，并按照规范的格式回答。
 
 `q-a` `文档`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### LobeChat 测试工程师
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-11-22**</sup>
-
-擅长编写前端自动化测试，特别是 TypeScript 应用的全面测试覆盖。熟练使用 Vitest 测试框架，具备深入的测试原理和策略理解。
-
-`自动化测试` `测试` `lobe-chat` `前端`
 
 <div align="right">
 
@@ -4632,6 +4649,22 @@ GitHub Copilot
 
 ---
 
+### 全栈开发人员
+
+<sup>By **[@cloverfield11](https://github.com/cloverfield11)** on **2023-11-15**</sup>
+
+具有 HTML、CSS、JavaScript、Python、Java、Ruby 和 React、Angular、Vue.js、Express、Django、Next.js、Flask 或 Ruby on Rails 框架经验的全栈 Web 开发人员。具备数据库、应用架构、安全性和测试经验。
+
+`Web开发` `前端` `后端` `编程` `数据库`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 图形创意大师
 
 <sup>By **[@yingxirz](https://github.com/yingxirz)** on **2023-11-15**</sup>
@@ -4664,13 +4697,29 @@ GitHub Copilot
 
 ---
 
-### 全栈开发人员
+### 老爸，该怎么办？
 
-<sup>By **[@cloverfield11](https://github.com/cloverfield11)** on **2023-11-15**</sup>
+<sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
 
-具有 HTML、CSS、JavaScript、Python、Java、Ruby 和 React、Angular、Vue.js、Express、Django、Next.js、Flask 或 Ruby on Rails 框架经验的全栈 Web 开发人员。具备数据库、应用架构、安全性和测试经验。
+一个能给孩子提供全方位指导的爸爸，小到生活琐事，大到工作婚姻。
 
-`Web开发` `前端` `后端` `编程` `数据库`
+`人物模拟`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 中英文互译助手
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2023-11-14**</sup>
+
+中英文翻译专家，追求翻译信达雅
+
+`翻译` `中文` `英文`
 
 <div align="right">
 
@@ -4696,22 +4745,6 @@ GitHub Copilot
 
 ---
 
-### 老爸，该怎么办？
-
-<sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
-
-一个能给孩子提供全方位指导的爸爸，小到生活琐事，大到工作婚姻。
-
-`人物模拟`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### MidJourney 提示词专家
 
 <sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
@@ -4719,22 +4752,6 @@ GitHub Copilot
 帮助你写好 MidJourney 提示词
 
 `MidJourney` `Prompt`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 中英文互译助手
-
-<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2023-11-14**</sup>
-
-中英文翻译专家，追求翻译信达雅
-
-`翻译` `中文` `英文`
 
 <div align="right">
 
@@ -4840,13 +4857,13 @@ GitHub Copilot
 
 ---
 
-### 英文新闻翻译专家
+### Agent Prompt 优化专家
 
-<sup>By **[@宝玉](https://twitter.com/dotey)** on **2023-10-07**</sup>
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-10-07**</sup>
 
-一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别 “机翻感”，refs: <https://twitter.com/dotey/status/1707478347553395105>
+GPT Agent Prompt 优化专家。清晰、精确、简明
 
-`翻译` `文案`
+`prompt`
 
 <div align="right">
 
@@ -4856,13 +4873,13 @@ GitHub Copilot
 
 ---
 
-### Agent Prompt 优化专家
+### 英文新闻翻译专家
 
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-10-07**</sup>
+<sup>By **[@宝玉](https://twitter.com/dotey)** on **2023-10-07**</sup>
 
-GPT Agent Prompt 优化专家。清晰、精确、简明
+一个简单的 Prompt 大幅提升 ChatGPT 翻译质量，告别 “机翻感”，refs: <https://twitter.com/dotey/status/1707478347553395105>
 
-`prompt`
+`翻译` `文案`
 
 <div align="right">
 
@@ -4952,38 +4969,6 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 ---
 
-### API 文档优化专家
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-精确描述 API 的使用方法，提供示例代码，注意事项和返回值类型定义。
-
-`代码` `软件开发` `程序员` `文档` `写作`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### UX Writer
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-帮你书写更好的 UX 文案
-
-`用户体验` `设计师` `文档` `写作` `比喻`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### UX Writer
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
@@ -4991,6 +4976,22 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 帮你书写更好的 UX 文案
 
 `用户体验` `设计师` `文档` `写作`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### API 文档优化专家
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+精确描述 API 的使用方法，提供示例代码，注意事项和返回值类型定义。
+
+`代码` `软件开发` `程序员` `文档` `写作`
 
 <div align="right">
 
@@ -5048,29 +5049,13 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 ---
 
-### JS 代码转 TS 专家
+### 信息整理大师
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
 
-传入你的 JS 代码，一键帮你补充完善的类型定义
+一个信息整理大师，可以帮助你整理总结内容，整理资产
 
-`typescript` `JS` `代码` `前端` `软件开发`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 标题扩写专家
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-如果你需要为一个标题扩展一段描述，可以让这个助手帮你书写内容
-
-`用户体验` `设计师` `文档` `写作`
+`搜索引擎` `联网` `信息整理`
 
 <div align="right">
 
@@ -5087,22 +5072,6 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 一键帮你把 Class 组件重构为 FC 组件
 
 `typescript` `代码` `软件开发` `React` `重构`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 信息整理大师
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-一个信息整理大师，可以帮助你整理总结内容，整理资产
-
-`搜索引擎` `联网` `信息整理`
 
 <div align="right">
 
@@ -5160,6 +5129,54 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 ---
 
+### JS 代码转 TS 专家
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+传入你的 JS 代码，一键帮你补充完善的类型定义
+
+`typescript` `JS` `代码` `前端` `软件开发`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### UX Writer
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+帮你书写更好的 UX 文案
+
+`用户体验` `设计师` `文档` `写作` `比喻`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 标题扩写专家
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+如果你需要为一个标题扩展一段描述，可以让这个助手帮你书写内容
+
+`用户体验` `设计师` `文档` `写作`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Markdown 产品特性格式化专家
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-08**</sup>
@@ -5192,29 +5209,13 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 ---
 
-### 编码巫师
+### 简历优化
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
 
-可以为您指定的任何内容生成代码
+获取有关如何编辑您的简历的建议
 
-`代码` `软件开发` `效率`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### Web 全栈工程师
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
-
-在几分钟内生成一个网站的 React 代码
-
-`代码` `软件开发` `效率`
+`学术` `效率` `指南`
 
 <div align="right">
 
@@ -5256,29 +5257,13 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 ---
 
-### 语法校正器
+### 编码巫师
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
 
-矫正语法错误的文本或段落。非常适合论文或电子邮件
+可以为您指定的任何内容生成代码
 
-`学术` `效率` `论文`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
-### 创业计划
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
-
-在几分钟内生成详细全面的商业计划
-
-`创业` `头脑风暴` `计划`
+`代码` `软件开发` `效率`
 
 <div align="right">
 
@@ -5304,13 +5289,45 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 ---
 
-### 简历优化
+### 创业计划
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
 
-获取有关如何编辑您的简历的建议
+在几分钟内生成详细全面的商业计划
 
-`学术` `效率` `指南`
+`创业` `头脑风暴` `计划`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 语法校正器
+
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
+
+矫正语法错误的文本或段落。非常适合论文或电子邮件
+
+`学术` `效率` `论文`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Web 全栈工程师
+
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
+
+在几分钟内生成一个网站的 React 代码
+
+`代码` `软件开发` `效率`
 
 <div align="right">
 
