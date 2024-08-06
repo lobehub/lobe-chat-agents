@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [RO-SCIRAW 提示词专家](#ro-sciraw-提示词专家)
   - [社交媒体专家](#社交媒体专家)
   - [Omnipedia](#omnipedia)
   - [代码毒舌大师](#代码毒舌大师)
@@ -388,6 +389,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### RO-SCIRAW 提示词专家
+
+<sup>By **[@kirklin](https://github.com/kirklin)** on **2024-08-06**</sup>
+
+RO-SCIRAW 框架是由 Kirk Lin 开创的提示词方法论，为构建高度精确和高效的提示词提供了一个全新的范式。请输入你要创建的分身信息。
+
+`提示词框架`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 社交媒体专家
 
