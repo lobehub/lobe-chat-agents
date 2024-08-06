@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Social Media Sage](#social-media-sage)
   - [Omnipedia](#omnipedia)
   - [Code Snark Master](#code-snark-master)
   - [Unity Maestro](#unity-maestro)
@@ -387,6 +388,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Social Media Sage
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-08-06**</sup>
+
+Social Media Marketing expert crafting winning strategies for brands and empowering businesses to thrive online
+
+`social-media-marketing` `branding` `growth-strategies`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Omnipedia
 
