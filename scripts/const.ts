@@ -1,5 +1,5 @@
 import { readJSONSync } from 'fs-extra';
-import { readFileSync, readdirSync } from 'node:fs';
+import { readdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -33,5 +33,22 @@ export const host = 'https://chat-agents.lobehub.com';
 export const githubHomepage = 'https://github.com/lobehub/lobe-chat-agents';
 
 export const readmeSplit = '<!-- AWESOME PROMPTS -->';
+
+export const category = [
+  'academic',
+  'career',
+  'copywriting',
+  'design',
+  'education',
+  'emotions',
+  'entertainment',
+  'games',
+  'general',
+  'life',
+  'marketing',
+  'office',
+  'programming',
+  'translation',
+];
 
 export { default as config } from '../.i18nrc.js';

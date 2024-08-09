@@ -4,8 +4,9 @@ import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { Parser } from './Parser';
+import { addCategory } from './category';
 import { formatAgentJSON, formatPrompt } from './check';
-import { agents, config, localesDir } from './const';
+import { agents, agentsDir, config, localesDir } from './const';
 import { translateJSON } from './i18n';
 import { checkJSON, getLocaleAgentFileName, split, writeJSON } from './utils';
 
@@ -16,6 +17,12 @@ class Formatter {
     let { content: agent, id, locale: defaultLocale } = Parser.parseFile(fileName);
 
     agent = await formatAgentJSON(agent, defaultLocale);
+
+    if (!agent.meta.category) {
+      agent = await addCategory(agent);
+      consola.info(agent.meta.category);
+      writeJSON(resolve(agentsDir, fileName), agent);
+    }
 
     // i18n workflow
     let rawData = {};

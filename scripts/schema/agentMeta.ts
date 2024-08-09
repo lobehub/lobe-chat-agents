@@ -5,6 +5,7 @@ import { lLMChatsSchema, lLMParamsSchema } from './llm';
 export const metaDataSchema = z.object({
   avatar: z.string(),
   backgroundColor: z.string().optional(),
+  category: z.string().optional(),
   description: z.string(),
   tags: z.array(z.string()),
   title: z.string(),

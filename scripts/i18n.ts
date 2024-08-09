@@ -6,7 +6,7 @@ import { HumanMessage, SystemMessage } from 'langchain/schema';
 import { config } from './const';
 
 const model = new ChatOpenAI(
-  { temperature: 0, modelName: config.modelName },
+  { modelName: config.modelName, temperature: 0 },
   { baseURL: process.env.OPENAI_PROXY_URL },
 );
 
@@ -27,5 +27,5 @@ export const translateJSON = async (json, outputLocale, entryLocale = config.ent
     },
   );
 
-  return JSON.parse(res.content);
+  return JSON.parse(res.content as string);
 };
