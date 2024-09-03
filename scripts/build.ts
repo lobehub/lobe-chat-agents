@@ -45,6 +45,10 @@ class Builder {
         agent = merge({}, content, data);
       }
 
+      if (agent?.createdAt) {
+        agent.createdAt = agent.createAt;
+      }
+
       // write agent to public dir
       writeJSONSync(resolve(publicDir, localeFileName), agent);
 
@@ -92,13 +96,13 @@ class Builder {
 
       let tags = [];
 
-      agents.forEach((agent) => {
+      for (const agent of agents) {
         tags = [...tags, ...agent.meta.tags];
-      });
+      }
 
       tags = findDuplicates(tags);
 
-      const agentsIndex = { ...meta, tags, agents };
+      const agentsIndex = { ...meta, agents, tags };
 
       const indexFileName = getLocaleAgentFileName('index', locale);
       writeJSONSync(resolve(publicDir, indexFileName), agentsIndex);

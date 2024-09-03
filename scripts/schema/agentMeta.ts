@@ -31,7 +31,8 @@ export type LobeAgentConfig = z.infer<typeof lobeAgentConfigSchema>;
 export const lobeAgentSchema = z.object({
   author: z.string(),
   config: lobeAgentConfigSchema,
-  createAt: z.string(),
+  createAt: z.string().optional(),
+  createdAt: z.string(),
   examples: lLMChatsSchema.optional(),
   homepage: z.string(),
   identifier: z.string(),
