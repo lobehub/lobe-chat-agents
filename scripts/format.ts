@@ -24,6 +24,11 @@ class Formatter {
       writeJSON(resolve(agentsDir, fileName), agent);
     }
 
+    if (!agent?.createdAt) {
+      agent.createdAt = agent.createAt;
+      writeJSON(resolve(agentsDir, fileName), agent);
+    }
+
     // i18n workflow
     let rawData = {};
 

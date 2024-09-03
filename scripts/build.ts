@@ -45,10 +45,6 @@ class Builder {
         agent = merge({}, content, data);
       }
 
-      if (agent?.createdAt) {
-        agent.createdAt = agent.createAt;
-      }
-
       // write agent to public dir
       writeJSONSync(resolve(publicDir, localeFileName), agent);
 
