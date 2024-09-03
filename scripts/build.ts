@@ -52,6 +52,7 @@ class Builder {
       agentIndex.push({
         author: agent.author,
         createAt: agent.createAt,
+        createdAt: agent.createAt,
         homepage: agent.homepage,
         identifier: agent.identifier,
         meta: agent.meta,
