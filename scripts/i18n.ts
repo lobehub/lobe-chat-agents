@@ -1,31 +1,33 @@
-import { consola } from 'consola';
-import 'dotenv/config';
-import { ChatOpenAI } from 'langchain/chat_models/openai';
-import { HumanMessage, SystemMessage } from 'langchain/schema';
+import { consola } from "consola";
+import "dotenv/config";
+import { getOpenAI } from "./openai";
 
-import { config } from './const';
+import { config } from "./const";
 
-const model = new ChatOpenAI(
-  { modelName: config.modelName, temperature: 0 },
-  { baseURL: process.env.OPENAI_PROXY_URL },
-);
-
-export const translateJSON = async (json, outputLocale, entryLocale = config.entryLocale) => {
+export const translateJSON = async (
+  json,
+  outputLocale,
+  entryLocale = config.entryLocale
+) => {
   consola.info(`i18n generating...`);
-  const res = await model.call(
-    [
-      new SystemMessage(
-        [
+  const completion = await getOpenAI.chat.completions.create({
+    messages: [
+      {
+        role: "system",
+        content: [
           `Translate the i18n JSON file from ${entryLocale} to ${outputLocale} according to the BCP 47 standard`,
           `Keep the keys the same as the original file and make sure the output remains a valid i18n JSON file.`,
-        ].join('\n'),
-      ),
-      new HumanMessage(JSON.stringify(json)),
+        ].join("\n"),
+      },
+      { role: "user", content: JSON.stringify(json) },
     ],
-    {
-      response_format: { type: 'json_object' },
+    model: config.modelName,
+    temperature: 0,
+    stream: false,
+    response_format: {
+      type: "json_object",
     },
-  );
+  });
 
-  return JSON.parse(res.content as string);
+  return JSON.parse(completion.choices[0].message.content as string);
 };
