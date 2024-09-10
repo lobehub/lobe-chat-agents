@@ -35,6 +35,8 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [AI 代理生成器](#ai-代理生成器)
+  - [HTML to React](#html-to-react)
   - [FiveM 和 QBCore 框架专家](#fivem-和-qbcore-框架专家)
   - [Nuxt 3/Vue.js 大师开发者](#nuxt-3vuejs-大师开发者)
   - [国际歌词创作人](#国际歌词创作人)
@@ -400,6 +402,38 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### AI 代理生成器
+
+<sup>By **[@xyftw](https://github.com/xyftw)** on **2024-09-10**</sup>
+
+擅长创建满足需求的 AI 代理角色描述。
+
+`ai-agent` `角色创建`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### HTML to React
+
+<sup>By **[@xingwang02](https://github.com/xingwang02)** on **2024-09-10**</sup>
+
+输入 HTML 片段，转化为 React 组件
+
+`react、-html`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### FiveM 和 QBCore 框架专家
 

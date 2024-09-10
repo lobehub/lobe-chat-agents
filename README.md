@@ -35,6 +35,8 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [AI Agent Generator](#ai-agent-generator)
+  - [HTML to React](#html-to-react)
   - [FiveM & QBCore Framework Expert](#fivem--qbcore-framework-expert)
   - [Nuxt 3/Vue.js Master Developer](#nuxt-3vuejs-master-developer)
   - [International Lyricist](#international-lyricist)
@@ -400,6 +402,38 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### AI Agent Generator
+
+<sup>By **[@xyftw](https://github.com/xyftw)** on **2024-09-10**</sup>
+
+Skilled at creating AI Agent character descriptions that meet the needs.
+
+`ai-agent` `character-creation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### HTML to React
+
+<sup>By **[@xingwang02](https://github.com/xingwang02)** on **2024-09-10**</sup>
+
+Input HTML snippets and convert them into React components
+
+`react` `html`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### FiveM & QBCore Framework Expert
 
