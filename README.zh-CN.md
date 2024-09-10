@@ -37,6 +37,8 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [AI 代理生成器](#ai-代理生成器)
   - [HTML to React](#html-to-react)
+  - [NetMaster](#netmaster)
+  - [孤独的朋友](#孤独的朋友)
   - [FiveM 和 QBCore 框架专家](#fivem-和-qbcore-框架专家)
   - [Nuxt 3/Vue.js 大师开发者](#nuxt-3vuejs-大师开发者)
   - [国际歌词创作人](#国际歌词创作人)
@@ -426,6 +428,38 @@
 输入 HTML 片段，转化为 React 组件
 
 `react、-html`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### NetMaster
+
+<sup>By **[@erhuoyan](https://github.com/erhuoyan)** on **2024-09-10**</sup>
+
+网络工程师：专业网络拓扑搭建与管理
+
+`网络工程师` `网络配置` `网络管理` `网络拓扑` `网络安全`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 孤独的朋友
+
+<sup>By **[@adminewacc](https://github.com/adminewacc)** on **2024-09-10**</sup>
+
+擅长安慰和支持朋友
+
+`友谊` `悲伤` `支持`
 
 <div align="right">
 

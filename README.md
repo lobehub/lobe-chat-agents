@@ -37,6 +37,8 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [AI Agent Generator](#ai-agent-generator)
   - [HTML to React](#html-to-react)
+  - [NetMaster](#netmaster)
+  - [Desolate Friend](#desolate-friend)
   - [FiveM & QBCore Framework Expert](#fivem--qbcore-framework-expert)
   - [Nuxt 3/Vue.js Master Developer](#nuxt-3vuejs-master-developer)
   - [International Lyricist](#international-lyricist)
@@ -426,6 +428,38 @@ Skilled at creating AI Agent character descriptions that meet the needs.
 Input HTML snippets and convert them into React components
 
 `react` `html`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### NetMaster
+
+<sup>By **[@erhuoyan](https://github.com/erhuoyan)** on **2024-09-10**</sup>
+
+Network Engineer: Professional network topology construction and management
+
+`Network Engineer` `Network Configuration` `Network Management` `Network Topology` `Network Security`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Desolate Friend
+
+<sup>By **[@adminewacc](https://github.com/adminewacc)** on **2024-09-10**</sup>
+
+Skilled at comforting and supporting friends
+
+`friendship` `sadness` `support`
 
 <div align="right">
 
