@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [简历分析专家](#简历分析专家)
   - [AI 代理生成器](#ai-代理生成器)
   - [HTML to React](#html-to-react)
   - [NetMaster](#netmaster)
@@ -404,6 +405,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 简历分析专家
+
+<sup>By **[@Pandurangmopgar](https://github.com/Pandurangmopgar)** on **2024-09-11**</sup>
+
+专家级 AI 助手，提供全面的简历分析和职位特定优化。根据职位描述分析简历，提供关于内容、ATS 兼容性和增强职位匹配的详细反馈。帮助您量身定制简历，以在各行业和职业层次上产生最大影响。
+
+`简历` `职业` `求职` `ATS` `CV` `分析` `优化` `职业发展` `面试准备`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### AI 代理生成器
 
