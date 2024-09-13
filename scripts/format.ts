@@ -1,7 +1,7 @@
 import { consola } from 'consola';
 import { colors } from 'consola/utils';
 import { get, set } from 'lodash-es';
-import { existsSync } from 'node:fs';
+import { existsSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
 
@@ -24,6 +24,12 @@ class Formatter {
       consola.info(colors.yellow(id), 'add category:', agent.meta.category);
     }
 
+    if (!agent.createdAt) {
+      // @ts-ignore
+      // TODO: remove createAt
+      agent.createdAt = agent.createAt;
+    }
+
     writeJSON(resolve(agentsDir, fileName), agent);
 
     // i18n workflow
@@ -35,6 +41,12 @@ class Formatter {
     }
 
     if (Object.keys(rawData).length > 0) {
+      const directoryPath = resolve(localesDir, id);
+
+      if (!existsSync(directoryPath)) {
+        mkdirSync(directoryPath, { recursive: true });
+      }
+
       await pMap(
         config.outputLocales,
         async (locale: string) => {
