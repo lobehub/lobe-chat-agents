@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Search](#search)
   - [Resume Analysis Expert](#resume-analysis-expert)
   - [AI Agent Generator](#ai-agent-generator)
   - [HTML to React](#html-to-react)
@@ -405,6 +406,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Search
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-09-12**</sup>
+
+The starting point of knowledge
+
+`Information Summary` `Analysis` `Extraction`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Resume Analysis Expert
 

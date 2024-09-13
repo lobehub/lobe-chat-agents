@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [搜一搜](#搜一搜)
   - [简历分析专家](#简历分析专家)
   - [AI 代理生成器](#ai-代理生成器)
   - [HTML to React](#html-to-react)
@@ -405,6 +406,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 搜一搜
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-09-12**</sup>
+
+知识的起点
+
+`信息总结` `分析` `提炼`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 简历分析专家
 
