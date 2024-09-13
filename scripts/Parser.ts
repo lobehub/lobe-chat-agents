@@ -7,6 +7,7 @@ import { LobeAgent } from './schema/agentMeta';
 export const Parser = {
   parseFile: (fileName: string) => {
     // <id>.<locale>  test: https://regex101.com/r/t744SN/1
+    // @ts-ignore
     const regexp = /^(?<id>[\w-]*)\.?(?<locale>.*)?$/;
 
     const match = regexp.exec(fileName.replace('.json', ''));

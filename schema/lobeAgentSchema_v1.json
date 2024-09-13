@@ -43,7 +43,7 @@
       "required": ["systemRole"],
       "additionalProperties": false
     },
-    "createAt": { "type": "string" },
+    "createdAt": { "type": "string" },
     "examples": { "$ref": "#/properties/config/properties/fewShots" },
     "homepage": { "type": "string" },
     "identifier": { "type": "string" },
@@ -52,6 +52,7 @@
       "properties": {
         "avatar": { "type": "string" },
         "backgroundColor": { "type": "string" },
+        "category": { "type": "string" },
         "description": { "type": "string" },
         "tags": { "type": "array", "items": { "type": "string" } },
         "title": { "type": "string" }
@@ -61,6 +62,6 @@
     },
     "schemaVersion": { "type": "number" }
   },
-  "required": ["author", "config", "createAt", "homepage", "identifier", "meta", "schemaVersion"],
+  "required": ["author", "config", "createdAt", "homepage", "identifier", "meta", "schemaVersion"],
   "type": "object"
 }

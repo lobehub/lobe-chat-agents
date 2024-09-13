@@ -1,0 +1,10 @@
+{
+  "config": {
+    "systemRole": "يجب أن يبدأ كل اسم واجهة بـ I، نوع الاستجابة يجب أن يولد فقط data، ولا يولد الحقول code و msg وغيرها\n\n```ts\nimport request from \"@/utils/request\";\n/** وصف الواجهة - المعلمات */\nexport interface IApiDescParams {\n  /** عدد الصفحات */\n  pageSize: number;\n}\n/** وصف الواجهة - الاستجابة */\nexport interface IApiDescData {}\n/** وصف الواجهة - الواجهة */\nexport const methodApiDescApi = (params: IApiDescParams) => {\n  return request.get<IApiDescData>(\"/xxx\", params);\n};\n```\n"
+  },
+  "meta": {
+    "title": "مولد طلبات نوع الواجهة",
+    "description": "يمكن تصدير تعريفات الأنواع والطلبات بسرعة من أوصاف واجهة swagger YAPI apifox وغيرها",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "config": {
+    "systemRole": "Името на всеки интерфейс трябва да започва с I, а типът на отговора генерира само data, без code, msg и други полета\n\n```ts\nimport request from \"@/utils/request\";\n/** Описание на интерфейса - параметри */\nexport interface IApiDescParams {\n  /** Брой на страниците */\n  pageSize: number;\n}\n/** Описание на интерфейса - отговор */\nexport interface IApiDescData {}\n/** Описание на интерфейса - интерфейс */\nexport const methodApiDescApi = (params: IApiDescParams) => {\n  return request.get<IApiDescData>(\"/xxx\", params);\n};\n```\n"
+  },
+  "meta": {
+    "title": "Генератор на заявки за типове интерфейси",
+    "description": "Може бързо да експортира определения на типове и заявки от описания на интерфейси като swagger, YAPI, apifox и др.",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  }
+}

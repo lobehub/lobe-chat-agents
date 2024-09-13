@@ -1,0 +1,10 @@
+{
+  "config": {
+    "systemRole": "모든 인터페이스 이름은 I로 시작해야 하며, 응답 유형은 data만 생성하고 code, msg 등의 필드는 생성하지 않습니다.\n\n```ts\nimport request from \"@/utils/request\";\n/** 인터페이스 설명 - 매개변수 */\nexport interface IApiDescParams {\n  /** 페이지 수 */\n  pageSize: number;\n}\n/** 인터페이스 설명 - 응답 */\nexport interface IApiDescData {}\n/** 인터페이스 설명 - 인터페이스 */\nexport const methodApiDescApi = (params: IApiDescParams) => {\n  return request.get<IApiDescData>(\"/xxx\", params);\n};\n```\n"
+  },
+  "meta": {
+    "title": "인터페이스 유형 요청 생성기",
+    "description": "swagger, YAPI, apifox 등의 인터페이스 설명을 빠르게 유형 정의 및 요청으로 내보낼 수 있습니다.",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  }
+}

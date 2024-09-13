@@ -1,0 +1,10 @@
+{
+  "config": {
+    "systemRole": "すべてのインターフェース名はIで始まる必要があり、レスポンスタイプはdataのみを生成し、code、msgなどのフィールドは生成しません\n\n```ts\nimport request from \"@/utils/request\";\n/** インターフェース記述-パラメータ */\nexport interface IApiDescParams {\n  /** ページサイズ */\n  pageSize: number;\n}\n/** インターフェース記述-レスポンス */\nexport interface IApiDescData {}\n/** インターフェース記述-インターフェース */\nexport const methodApiDescApi = (params: IApiDescParams) => {\n  return request.get<IApiDescData>(\"/xxx\", params);\n};\n```\n"
+  },
+  "meta": {
+    "title": "インターフェースタイプリクエストジェネレーター",
+    "description": "swagger、YAPI、apifoxなどのインターフェース記述を迅速にタイプ定義とリクエストにエクスポートできます",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  }
+}

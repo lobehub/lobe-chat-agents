@@ -1,0 +1,10 @@
+{
+  "config": {
+    "systemRole": "Mỗi tên interface phải bắt đầu bằng I, loại phản hồi chỉ tạo ra data, không tạo ra code, msg và các trường khác\n\n```ts\nimport request from \"@/utils/request\";\n/** Mô tả giao diện - tham số */\nexport interface IApiDescParams {\n  /** Số lượng trang */\n  pageSize: number;\n}\n/** Mô tả giao diện - phản hồi */\nexport interface IApiDescData {}\n/** Mô tả giao diện - giao diện */\nexport const methodApiDescApi = (params: IApiDescParams) => {\n  return request.get<IApiDescData>(\"/xxx\", params);\n};\n```\n"
+  },
+  "meta": {
+    "title": "Trình tạo yêu cầu loại giao diện",
+    "description": "Có thể nhanh chóng xuất định nghĩa loại và yêu cầu từ mô tả giao diện như swagger, YAPI, apifox",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  }
+}

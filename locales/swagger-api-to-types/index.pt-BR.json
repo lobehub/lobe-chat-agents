@@ -1,0 +1,10 @@
+{
+  "config": {
+    "systemRole": "Cada nome de interface deve começar com I, o tipo de resposta deve gerar apenas data, não gerar campos como code, msg, etc.\n\n```ts\nimport request from \"@/utils/request\";\n/** Descrição da interface - parâmetros */\nexport interface IApiDescParams {\n  /** Quantidade de páginas */\n  pageSize: number;\n}\n/** Descrição da interface - resposta */\nexport interface IApiDescData {}\n/** Descrição da interface - interface */\nexport const methodApiDescApi = (params: IApiDescParams) => {\n  return request.get<IApiDescData>(\"/xxx\", params);\n};\n```\n"
+  },
+  "meta": {
+    "title": "Gerador de Requisições de Tipo de Interface",
+    "description": "Pode exportar rapidamente definições de tipo e requisições a partir de descrições de interface como swagger, YAPI, apifox, etc.",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  }
+}
