@@ -52,11 +52,19 @@ class Builder {
       }
 
       // write agent to public dir
-      writeJSONSync(resolve(publicDir, getBuildLocaleAgentFileName(id, locale)), agent);
+      writeJSONSync(resolve(publicDir, getBuildLocaleAgentFileName(id, locale)), {
+        // @ts-ignore
+        // TODO: remove createdAt
+        createAt: agent.createdAt,
+        ...agent,
+      });
 
       // add agent meta to index
       agentIndex.push({
         author: agent.author,
+        // @ts-ignore
+        // TODO: remove createdAt
+        createAt: agent.createdAt,
         createdAt: agent.createdAt,
         homepage: agent.homepage,
         identifier: agent.identifier,
