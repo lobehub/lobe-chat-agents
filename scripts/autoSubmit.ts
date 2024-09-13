@@ -52,6 +52,24 @@ class AutoSubmit {
     consola.info(`Get issues #${this.issueNumber}`);
 
     const { agent, locale } = await this.formatIssue(issue);
+
+    if (!agent.identifier || agent.identifier === 'undefined' || agent.identifier === 'index') {
+      await this.createComment(
+        [
+          `**🚨 Auto Check Fail:** identifier is invalid`,
+          '- Rename your agent identifier',
+          `- Add issue label \`${GENERATE_LABEL}\` to the current issue`,
+          '- Wait for automation to regenerate',
+          '---',
+          agent.identifier,
+        ].join('\n'),
+      );
+      await this.removeLabels(GENERATE_LABEL);
+      await this.addLabels(ERROR_LABEL);
+      consola.error('Auto Check Fail, identifier is invalid');
+      return;
+    }
+
     const comment = this.genCommentMessage(agent);
     const agentName = agent.identifier;
 

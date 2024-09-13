@@ -1,4 +1,5 @@
 import { consola } from 'consola';
+import { colors } from 'consola/utils';
 import dayjs from 'dayjs';
 import { kebabCase } from 'lodash-es';
 import { format } from 'prettier';
@@ -10,14 +11,12 @@ import { LobeAgent, lobeAgentSchema } from './schema/agentMeta';
 
 export const formatAndCheckSchema = (agent) => {
   if (!agent.schemaVersion) agent.schemaVersion = meta.schemaVersion;
-  if (!agent.createAt) agent.createAt = dayjs().format('YYYY-MM-DD');
+  if (!agent.createdAt) agent.createdAt = dayjs().format('YYYY-MM-DD');
 
   const result = lobeAgentSchema.safeParse(agent);
 
-  if (result.success) {
-    consola.success(`schema check pass`);
-  } else {
-    consola.error(`schema check fail`);
+  if (!result.success) {
+    consola.error(colors.yellow(agent.identifier), `schema check fail`);
     throw new Error((result as any).error);
   }
   return agent;
@@ -54,7 +53,7 @@ export const checkUniqueIdentifier = (arr) => {
   }
 
   if (duplicates.length > 0) {
-    consola.error('Duplicates identifier:', JSON.stringify(duplicates));
+    consola.error('Duplicates identifier:', colors.yellow(JSON.stringify(duplicates)));
     // eslint-disable-next-line unicorn/no-process-exit
     process.exit(1);
   } else {
