@@ -8,7 +8,13 @@ import { zodToJsonSchema } from 'zod-to-json-schema';
 import { Parser } from './Parser';
 import { agents, config, localesDir, meta, publicDir, schemasDir } from './const';
 import { LobeAgent, lobeAgentSchema } from './schema/agentMeta';
-import { checkDir, checkJSON, findDuplicates, getLocaleAgentFileName } from './utils';
+import {
+  checkDir,
+  checkJSON,
+  findDuplicates,
+  getBuildLocaleAgentFileName,
+  getLocaleAgentFileName,
+} from './utils';
 
 class Builder {
   private agents: Dirent[];
@@ -46,13 +52,12 @@ class Builder {
       }
 
       // write agent to public dir
-      writeJSONSync(resolve(publicDir, localeFileName), agent);
+      writeJSONSync(resolve(publicDir, getBuildLocaleAgentFileName(id, locale)), agent);
 
       // add agent meta to index
       agentIndex.push({
         author: agent.author,
-        createAt: agent.createAt,
-        createdAt: agent.createAt,
+        createdAt: agent.createdAt,
         homepage: agent.homepage,
         identifier: agent.identifier,
         meta: agent.meta,
@@ -62,7 +67,7 @@ class Builder {
 
     return agentIndex.sort(
       // @ts-ignore
-      (a, b) => new Date(b.createAt) - new Date(a.createAt),
+      (a, b) => new Date(b.createdAt) - new Date(a.createdAt),
     );
   };
 
@@ -100,7 +105,7 @@ class Builder {
 
       const agentsIndex = { ...meta, agents, tags };
 
-      const indexFileName = getLocaleAgentFileName('index', locale);
+      const indexFileName = getBuildLocaleAgentFileName('index', locale);
       writeJSONSync(resolve(publicDir, indexFileName), agentsIndex);
       consola.success(`build ${locale}`);
     }

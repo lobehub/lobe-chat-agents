@@ -1,6 +1,7 @@
 import { consola } from 'consola';
 import { colors } from 'consola/utils';
 import { Dirent, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
 
 import { config, readmeSplit } from './const';
 
@@ -21,6 +22,11 @@ export const split = (name) => {
 };
 
 export const getLocaleAgentFileName = (id: string, locale?: string) => {
+  const localeSuffix = locale === config.entryLocale ? '' : `.${locale}`;
+  return join(id, 'index' + localeSuffix + '.json');
+};
+
+export const getBuildLocaleAgentFileName = (id: string, locale?: string) => {
   const localeSuffix = locale === config.entryLocale ? '' : `.${locale}`;
   return id + localeSuffix + '.json';
 };
@@ -66,8 +72,8 @@ export const checkHeader = (line: string) => {
     '### locale',
   ];
   let check = false;
-  header.forEach((item) => {
+  for (const item of header) {
     if (line.startsWith(item)) check = true;
-  });
+  }
   return check;
 };

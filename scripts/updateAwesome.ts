@@ -8,14 +8,14 @@ import { updateAwesomeReadme } from './utils';
 const updateAwesome = (filePath: string, md: string, agents, locale?: string) => {
   const data = [];
 
-  agents.forEach(({ identifier, author, createAt, homepage }, i) => {
+  agents.forEach(({ identifier, author, createdAt, homepage }, i) => {
     const agentConfigPath = resolve(
       publicDir,
       [identifier, locale, 'json'].filter(Boolean).join('.'),
     );
     const { config, meta } = readJSONSync(agentConfigPath);
     const header = `### ${meta.title}`;
-    const subHeader = `<sup>By **[@${author}](${homepage})** on **${createAt}**</sup>`;
+    const subHeader = `<sup>By **[@${author}](${homepage})** on **${createdAt}**</sup>`;
     const desc = [
       `${meta.description}`,
       `${meta.tags
