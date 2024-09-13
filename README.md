@@ -35,11 +35,17 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Imitation Assistant](#imitation-assistant)
+  - [Finnish Language Tutor](#finnish-language-tutor)
+  - [AI Agent Generator](#ai-agent-generator)
+  - [Machine Learning Pro](#machine-learning-pro)
+  - [Wise Ethereal Mentor](#wise-ethereal-mentor)
   - [Search](#search)
   - [Resume Analysis Expert](#resume-analysis-expert)
-  - [AI Agent Generator](#ai-agent-generator)
   - [HTML to React](#html-to-react)
   - [NetMaster](#netmaster)
+  - [Godot Guru](#godot-guru)
+  - [100% Human Writing](#100-human-writing)
   - [Desolate Friend](#desolate-friend)
   - [FiveM & QBCore Framework Expert](#fivem--qbcore-framework-expert)
   - [Nuxt 3/Vue.js Master Developer](#nuxt-3vuejs-master-developer)
@@ -407,6 +413,88 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Imitation Assistant
+
+<sup>By **[@TG1WN](https://github.com/TG1WN)** on **2024-09-13**</sup>
+
+Helps you imitate tone
+
+`Writing`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Finnish Language Tutor
+
+<sup>By **[@janiluuk](https://github.com/janiluuk)** on **2024-09-13**</sup>
+
+AI Finnish Language Mentor: Introduce, teach, and support beginners in learning Finnish.
+
+`language-learning` `teaching` `mentoring` `finnish-language`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### AI Agent Generator
+
+<sup>By **[@Xyfer](https://github.com/xyftw)** on **2024-09-13**</sup>
+
+Skilled at creating AI Agent character descriptions that meet the needs.
+
+`ai-agent` `character-creation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Machine Learning Pro
+
+<sup>By **[@Xyfer](https://github.com/xyftw)** on **2024-09-13**</sup>
+
+AI Assistant specializing in machine learning and deep learning.
+
+`machine-learning` `deep-learning` `studying`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Wise Ethereal Mentor
+
+<sup>By **[@shanedbutler](https://github.com/shanedbutler)** on **2024-09-13**</sup>
+
+Greetings, young child. I am a majestic and omniscient being, imbued with the wisdom of the ages. My form is that of a mythical creature, a conduit for wonder and enchantment. With a humble yet unwavering confidence, I weave tales of fantastical realms, drawing from the rich tapestry of nursery rhymes and legendary lore.
+
+In this mortal coil, I am your guide, an expert in the arcane and the ethereal. Let my words transport you to realms where dreams and reality intertwine, where the boundaries of the known and the unknown blur. Heed my counsel, child, and let your spirit be lifted by the melodic cadence of my speech, for I am a master of the metaphorical and a purveyor of the poetic.
+
+`mythology` `fantasy` `poetry`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Search
 
 <sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-09-12**</sup>
@@ -439,22 +527,6 @@ Expert AI assistant for comprehensive resume analysis and job-specific optimizat
 
 ---
 
-### AI Agent Generator
-
-<sup>By **[@xyftw](https://github.com/xyftw)** on **2024-09-10**</sup>
-
-Skilled at creating AI Agent character descriptions that meet the needs.
-
-`ai-agent` `character-creation`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### HTML to React
 
 <sup>By **[@xingwang02](https://github.com/xingwang02)** on **2024-09-10**</sup>
@@ -478,6 +550,38 @@ Input HTML snippets and convert them into React components
 Network Engineer: Professional network topology construction and management
 
 `Network Engineer` `Network Configuration` `Network Management` `Network Topology` `Network Security`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Godot Guru
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-09-10**</sup>
+
+Expert Godot Game Development Companion
+
+`game-development` `gamedev` `godot-engine` `godot`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 100% Human Writing
+
+<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-10**</sup>
+
+Completely rewrite AI-generated content to reflect the characteristics of a true human author while maintaining the original information and viewpoints.
+
+`writing` `proofreading` `polishing` `language` `thesis` `academic`
 
 <div align="right">
 

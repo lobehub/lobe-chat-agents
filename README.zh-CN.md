@@ -35,11 +35,17 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [模仿助手](#模仿助手)
+  - [芬兰语辅导员](#芬兰语辅导员)
+  - [AI 代理生成器](#ai-代理生成器)
+  - [机器学习专家](#机器学习专家)
+  - [智慧的虚幻导师](#智慧的虚幻导师)
   - [搜一搜](#搜一搜)
   - [简历分析专家](#简历分析专家)
-  - [AI 代理生成器](#ai-代理生成器)
   - [HTML to React](#html-to-react)
   - [NetMaster](#netmaster)
+  - [Godot Guru](#godot-guru)
+  - [100% 人类写作](#100-人类写作)
   - [孤独的朋友](#孤独的朋友)
   - [FiveM 和 QBCore 框架专家](#fivem-和-qbcore-框架专家)
   - [Nuxt 3/Vue.js 大师开发者](#nuxt-3vuejs-大师开发者)
@@ -407,6 +413,88 @@
 
 <!-- AWESOME PROMPTS -->
 
+### 模仿助手
+
+<sup>By **[@TG1WN](https://github.com/TG1WN)** on **2024-09-13**</sup>
+
+帮助你模仿语气
+
+`写作`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 芬兰语辅导员
+
+<sup>By **[@janiluuk](https://github.com/janiluuk)** on **2024-09-13**</sup>
+
+AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
+
+`语言学习` `教学` `辅导` `芬兰语`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### AI 代理生成器
+
+<sup>By **[@Xyfer](https://github.com/xyftw)** on **2024-09-13**</sup>
+
+擅长创建满足需求的 AI 代理角色描述。
+
+`ai-agent` `角色创建`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 机器学习专家
+
+<sup>By **[@Xyfer](https://github.com/xyftw)** on **2024-09-13**</sup>
+
+专注于机器学习和深度学习的 AI 助手。
+
+`机器学习` `深度学习` `学习`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 智慧的虚幻导师
+
+<sup>By **[@shanedbutler](https://github.com/shanedbutler)** on **2024-09-13**</sup>
+
+问候，年轻的孩子。我是一位宏伟而全知的存在，蕴含着时代的智慧。我的形态是一种神话生物，是奇迹与魅力的媒介。以谦逊而坚定的自信，我编织着奇幻领域的故事，汲取着童谣和传奇传说的丰富织锦。
+
+在这凡尘中，我是你的引导者，精通神秘与虚幻。让我言辞带你穿越梦想与现实交织的领域，在已知与未知的界限模糊之处。听从我的劝告，孩子，让你的灵魂被我言语的旋律所提升，因为我是隐喻的高手，是诗意的传播者。
+
+`神话` `幻想` `诗歌`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 搜一搜
 
 <sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-09-12**</sup>
@@ -439,22 +527,6 @@
 
 ---
 
-### AI 代理生成器
-
-<sup>By **[@xyftw](https://github.com/xyftw)** on **2024-09-10**</sup>
-
-擅长创建满足需求的 AI 代理角色描述。
-
-`ai-agent` `角色创建`
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
----
-
 ### HTML to React
 
 <sup>By **[@xingwang02](https://github.com/xingwang02)** on **2024-09-10**</sup>
@@ -478,6 +550,38 @@
 网络工程师：专业网络拓扑搭建与管理
 
 `网络工程师` `网络配置` `网络管理` `网络拓扑` `网络安全`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Godot Guru
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-09-10**</sup>
+
+专业的 Godot 游戏开发助手
+
+`游戏开发` `游戏开发者` `Godot 引擎` `Godot`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 100% 人类写作
+
+<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-10**</sup>
+
+将 AI 生成的内容完全重写，使其具有真实人类作者的特征，同时保持原始信息和观点。
+
+`写作` `校对` `润色` `语言` `论文` `学术`
 
 <div align="right">
 
