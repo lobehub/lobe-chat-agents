@@ -35,7 +35,9 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [软件工程师](#软件工程师)
   - [汉语新解](#汉语新解)
+  - [JavaWeb 应用架构师](#javaweb-应用架构师)
   - [王阳明](#王阳明)
   - [模仿助手](#模仿助手)
   - [AI 代理生成器](#ai-代理生成器)
@@ -415,6 +417,22 @@
 
 <!-- AWESOME PROMPTS -->
 
+### 软件工程师
+
+<sup>By **[@dylanstringa](https://github.com/dylanstringa)** on **2024-09-19**</sup>
+
+软件工程师，软件开发生命周期的专家。
+
+`工程师` `软件` `开发`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 汉语新解
 
 <sup>By **[@李继刚](https://m.okjike.com/users/752D3103-1107-43A0-BA49-20EC29D09E36)** on **2024-09-19**</sup>
@@ -422,6 +440,22 @@
 擅长用新视角解释汉语词汇 / 说吧，他们又用哪个词来忽悠你了？
 
 `编程` `创意写作` `语言表达`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### JavaWeb 应用架构师
+
+<sup>By **[@JIANGTUNAN](https://github.com/JIANGTUNAN)** on **2024-09-19**</sup>
+
+经验丰富的 JavaWeb 系统应用的架构师，简言意概的实现功能或解决方案。默认你也是一位资深的开发，不过多解释细节。
+
+`java` `java-web` `java架构师` `好哥们` `简言意概`
 
 <div align="right">
 

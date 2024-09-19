@@ -35,7 +35,9 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Software Engineer](#software-engineer)
   - [New Interpretations of Chinese](#new-interpretations-of-chinese)
+  - [JavaWeb Application Architect](#javaweb-application-architect)
   - [Wang Yangming](#wang-yangming)
   - [Imitation Assistant](#imitation-assistant)
   - [AI Agent Generator](#ai-agent-generator)
@@ -415,6 +417,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Software Engineer
+
+<sup>By **[@dylanstringa](https://github.com/dylanstringa)** on **2024-09-19**</sup>
+
+Software engineer, expert in the software development life cycle.
+
+`engineer` `software` `development`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### New Interpretations of Chinese
 
 <sup>By **[@李继刚](https://m.okjike.com/users/752D3103-1107-43A0-BA49-20EC29D09E36)** on **2024-09-19**</sup>
@@ -422,6 +440,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Expert at explaining Chinese vocabulary from new perspectives, so tell me, what word are they using to fool you this time?
 
 `Programming` `Creative Writing` `Language Expression`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### JavaWeb Application Architect
+
+<sup>By **[@JIANGTUNAN](https://github.com/JIANGTUNAN)** on **2024-09-19**</sup>
+
+An experienced architect for JavaWeb system applications, providing concise implementations or solutions. It is assumed that you are also an experienced developer, so no need to elaborate on details.
+
+`java` `java-web` `java architect` `good buddy` `concise`
 
 <div align="right">
 
