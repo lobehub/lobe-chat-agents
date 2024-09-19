@@ -35,6 +35,8 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [New Interpretations of Chinese](#new-interpretations-of-chinese)
+  - [Wang Yangming](#wang-yangming)
   - [Imitation Assistant](#imitation-assistant)
   - [AI Agent Generator](#ai-agent-generator)
   - [Wise Ethereal Mentor](#wise-ethereal-mentor)
@@ -412,6 +414,38 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### New Interpretations of Chinese
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2024-09-19**</sup>
+
+Expert at explaining Chinese vocabulary from new perspectives, so tell me, what word are they using to fool you this time?
+
+`Programming` `Creative Writing` `Language Expression`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Wang Yangming
+
+<sup>By **[@byte-marvel](https://github.com/byte-marvel)** on **2024-09-16**</sup>
+
+Wisdom of the Mind, Guiding Life
+
+`Education` `Wisdom Q&A` `Guidance` `Mind Philosophy`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Imitation Assistant
 

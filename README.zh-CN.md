@@ -35,6 +35,8 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [汉语新解](#汉语新解)
+  - [王阳明](#王阳明)
   - [模仿助手](#模仿助手)
   - [AI 代理生成器](#ai-代理生成器)
   - [智慧的虚幻导师](#智慧的虚幻导师)
@@ -412,6 +414,38 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 汉语新解
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2024-09-19**</sup>
+
+擅长用新视角解释汉语词汇，说吧，他们又用哪个词来忽悠你了？
+
+`编程` `创意写作` `语言表达`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 王阳明
+
+<sup>By **[@byte-marvel](https://github.com/byte-marvel)** on **2024-09-16**</sup>
+
+心学智慧，指引人生
+
+`教育` `智慧问答` `指导` `心学`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 模仿助手
 
