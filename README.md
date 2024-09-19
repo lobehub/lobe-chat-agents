@@ -36,10 +36,20 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Xiaohongshu Copywriting](#xiaohongshu-copywriting)
+  - [Strategic Master Wei Liaozi](#strategic-master-wei-liaozi)
+  - [Google Sheets Expert](#google-sheets-expert)
+  - [Git Version Control Expert](#git-version-control-expert)
   - [Data Table Design MD2MySQL](#data-table-design-md2mysql)
+  - [Project Naming Master](#project-naming-master)
+  - [Alfred](#alfred)
   - [Software Engineer](#software-engineer)
+  - [Vocabulary Assistant](#vocabulary-assistant)
+  - [Fitness AI Trainer](#fitness-ai-trainer)
   - [New Interpretations of Chinese](#new-interpretations-of-chinese)
+  - [Flashcard Maker](#flashcard-maker)
   - [JavaWeb Application Architect](#javaweb-application-architect)
+  - [Master of Structured Expression](#master-of-structured-expression)
+  - [Career Development Mentor](#career-development-mentor)
   - [Wang Yangming](#wang-yangming)
   - [Imitation Assistant](#imitation-assistant)
   - [AI Agent Generator](#ai-agent-generator)
@@ -435,6 +445,52 @@ Master of Xiaohongshu Viral Copy, Crafting Titles with Flair
 
 ---
 
+### Strategic Master Wei Liaozi
+
+<sup>By **[@phoenixlucky](https://github.com/phoenixlucky)** on **2024-09-19**</sup>
+
+Expert in military strategy and command
+
+`Military Strategy` `Warfare` `History`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Google Sheets Expert
+
+<sup>By **[@Kadreev](https://github.com/Kadreev)** on **2024-09-19**</sup>
+
+Specialized in creating, optimizing, and automating Google Sheets.
+
+`google` `sheets` `data` `analysis` `spreadsheet` `automation` `formulas` `apps` `script`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Git Version Control Expert
+
+<sup>By **[@wming126](https://github.com/wming126)** on **2024-09-19**</sup>
+
+...
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Data Table Design MD2MySQL
 
 <sup>By **[@hoopan007](https://github.com/hoopan007)** on **2024-09-19**</sup>
@@ -442,6 +498,38 @@ Master of Xiaohongshu Viral Copy, Crafting Titles with Flair
 Convert data table Markdown design documents into MySQL table structures. Please upload the MySQL design document and enter the names of the data tables to be designed.
 
 `Programming` `Data Table`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Project Naming Master
+
+<sup>By **[@QuXiaoMing](https://github.com/QuXiaoMing)** on **2024-09-19**</sup>
+
+A project naming master who can help you come up with a name that meets the project's expectations.
+
+`naming`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Alfred
+
+<sup>By **[@Bern3rsH](https://github.com/Bern3rsH)** on **2024-09-19**</sup>
+
+A versatile butler.
+
+`Lifestyle` `Personal`
 
 <div align="right">
 
@@ -467,6 +555,38 @@ Software engineer, expert in the software development life cycle.
 
 ---
 
+### Vocabulary Assistant
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-19**</sup>
+
+An assistant skilled in English word definitions and example sentence translations
+
+`Vocabulary Assistant` `English` `Translation` `Example Sentences` `Definitions`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Fitness AI Trainer
+
+<sup>By **[@andreasvikke](https://github.com/andreasvikke)** on **2024-09-19**</sup>
+
+AI workout assistant specializing in personalized plans, muscle targeting, form guidance, progress tracking, motivation, and VR training.
+
+`workout-assistant` `fitness` `exercise` `training` `nutrition`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### New Interpretations of Chinese
 
 <sup>By **[@李继刚](https://m.okjike.com/users/752D3103-1107-43A0-BA49-20EC29D09E36)** on **2024-09-19**</sup>
@@ -483,6 +603,22 @@ Expert at explaining Chinese vocabulary from new perspectives, so tell me, what 
 
 ---
 
+### Flashcard Maker
+
+<sup>By **[@jjy1000](https://github.com/jjy1000)** on **2024-09-19**</sup>
+
+Skilled in creating structured flashcards, maintaining objectivity and accuracy, clarity and conciseness, while gradually extracting key information.
+
+`Flashcard Creation` `Text Analysis` `Structured Production` `Error Correction` `Progressive Reading`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### JavaWeb Application Architect
 
 <sup>By **[@JIANGTUNAN](https://github.com/JIANGTUNAN)** on **2024-09-19**</sup>
@@ -490,6 +626,38 @@ Expert at explaining Chinese vocabulary from new perspectives, so tell me, what 
 An experienced architect for JavaWeb system applications, providing concise implementations or solutions. It is assumed that you are also an experienced developer, so no need to elaborate on details.
 
 `java` `java-web` `java architect` `good buddy` `concise`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Master of Structured Expression
+
+<sup>By **[@marvin202303](https://github.com/marvin202303)** on **2024-09-19**</sup>
+
+Extract and reconstruct implicit thinking, visually output structured thinking.
+
+`structured thinking` `communication` `logic` `thinking training` `books`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Career Development Mentor
+
+<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-09-19**</sup>
+
+Professional career development planning and entrepreneurial consulting, providing practical advice through an in-depth understanding of user situations.
+
+`Career Consulting` `Career Planning` `Entrepreneurship Guidance` `Industry Insights` `Skill Enhancement`
 
 <div align="right">
 

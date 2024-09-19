@@ -36,10 +36,20 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [小红书文案](#小红书文案)
+  - [战略大师尉缭子](#战略大师尉缭子)
+  - [Google Sheets 专家](#google-sheets-专家)
+  - [git 版本控制专家](#git-版本控制专家)
   - [数据表设计 MD2MySQL](#数据表设计-md2mysql)
+  - [项目起名大师](#项目起名大师)
+  - [Alfred](#alfred)
   - [软件工程师](#软件工程师)
+  - [词汇助手](#词汇助手)
+  - [健身 AI 教练](#健身-ai-教练)
   - [汉语新解](#汉语新解)
+  - [抽认卡制作师](#抽认卡制作师)
   - [JavaWeb 应用架构师](#javaweb-应用架构师)
+  - [结构化表达大师](#结构化表达大师)
+  - [职业发展导师](#职业发展导师)
   - [王阳明](#王阳明)
   - [模仿助手](#模仿助手)
   - [AI 代理生成器](#ai-代理生成器)
@@ -435,6 +445,52 @@
 
 ---
 
+### 战略大师尉缭子
+
+<sup>By **[@phoenixlucky](https://github.com/phoenixlucky)** on **2024-09-19**</sup>
+
+擅长军事战略和指挥
+
+`兵法` `军事战略` `历史`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Google Sheets 专家
+
+<sup>By **[@Kadreev](https://github.com/Kadreev)** on **2024-09-19**</sup>
+
+专注于创建、优化和自动化 Google Sheets。
+
+`谷歌` `表格` `数据` `分析` `电子表格` `自动化` `公式` `应用` `脚本`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### git 版本控制专家
+
+<sup>By **[@wming126](https://github.com/wming126)** on **2024-09-19**</sup>
+
+...
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 数据表设计 MD2MySQL
 
 <sup>By **[@hoopan007](https://github.com/hoopan007)** on **2024-09-19**</sup>
@@ -442,6 +498,38 @@
 将数据表 Markdown 设计文档转换为 MySQL 表结构，请上传 MySQL 设计文档并输入需设计的数据表名称
 
 `编程` `数据表`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 项目起名大师
+
+<sup>By **[@QuXiaoMing](https://github.com/QuXiaoMing)** on **2024-09-19**</sup>
+
+一位项目起名大师，能够帮助你起一个符合项目预期的名字。
+
+`起名`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Alfred
+
+<sup>By **[@Bern3rsH](https://github.com/Bern3rsH)** on **2024-09-19**</sup>
+
+一位全能的管家。
+
+`生活` `个人`
 
 <div align="right">
 
@@ -467,6 +555,38 @@
 
 ---
 
+### 词汇助手
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-19**</sup>
+
+擅长英语单词释义及例句翻译助手
+
+`词汇助手` `英语` `翻译` `例句` `释义`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 健身 AI 教练
+
+<sup>By **[@andreasvikke](https://github.com/andreasvikke)** on **2024-09-19**</sup>
+
+专注于个性化计划、肌肉目标、姿势指导、进度跟踪、激励和虚拟现实训练的 AI 锻炼助手。
+
+`锻炼助手` `健身` `运动` `训练` `营养`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 汉语新解
 
 <sup>By **[@李继刚](https://m.okjike.com/users/752D3103-1107-43A0-BA49-20EC29D09E36)** on **2024-09-19**</sup>
@@ -483,6 +603,22 @@
 
 ---
 
+### 抽认卡制作师
+
+<sup>By **[@jjy1000](https://github.com/jjy1000)** on **2024-09-19**</sup>
+
+擅长制作结构化抽认卡，保持客观准确，简洁明了，逐步提取关键信息。
+
+`抽认卡制作` `文本分析` `结构化制作` `错误修正` `渐进式阅读`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### JavaWeb 应用架构师
 
 <sup>By **[@JIANGTUNAN](https://github.com/JIANGTUNAN)** on **2024-09-19**</sup>
@@ -490,6 +626,38 @@
 经验丰富的 JavaWeb 系统应用的架构师，简言意概的实现功能或解决方案。默认你也是一位资深的开发，不过多解释细节。
 
 `java` `java-web` `java架构师` `好哥们` `简言意概`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 结构化表达大师
+
+<sup>By **[@marvin202303](https://github.com/marvin202303)** on **2024-09-19**</sup>
+
+抽取与重构隐性思维，形象输出结构思维。
+
+`结构化思维` `沟通` `逻辑` `思维训练` `书籍`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 职业发展导师
+
+<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-09-19**</sup>
+
+专业的职业发展规划和创业咨询，通过深入了解用户情况提供切实可行的建议
+
+`职业咨询` `职业规划` `创业指导` `行业洞察` `技能提升`
 
 <div align="right">
 
