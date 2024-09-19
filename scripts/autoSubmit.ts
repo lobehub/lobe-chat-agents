@@ -8,7 +8,7 @@ import { resolve } from 'node:path';
 
 import { formatAgentJSON } from './check';
 import { agentsDir, githubHomepage } from './const';
-import { checkHeader, getLocaleAgentFileName, writeJSON } from './utils';
+import { checkHeader, getBuildLocaleAgentFileName, writeJSON } from './utils';
 
 const GENERATE_LABEL = '🤖 Agent PR';
 const SUCCESS_LABEL = '✅ Auto Check Pass';
@@ -73,7 +73,7 @@ class AutoSubmit {
     const comment = this.genCommentMessage(agent);
     const agentName = agent.identifier;
 
-    const fileName = getLocaleAgentFileName(agentName, locale);
+    const fileName = getBuildLocaleAgentFileName(agentName, locale);
     const filePath = resolve(agentsDir, fileName);
 
     // check same name
