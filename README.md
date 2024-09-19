@@ -417,7 +417,7 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 ### New Interpretations of Chinese
 
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2024-09-19**</sup>
+<sup>By **[@李继刚](https://m.okjike.com/users/752D3103-1107-43A0-BA49-20EC29D09E36)** on **2024-09-19**</sup>
 
 Expert at explaining Chinese vocabulary from new perspectives, so tell me, what word are they using to fool you this time?
 
