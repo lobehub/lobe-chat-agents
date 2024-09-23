@@ -53,6 +53,7 @@
   - [Next.js Expert Consultant](#nextjs-expert-consultant)
   - [Japanese Translator](#japanese-translator)
   - [Wise Mentor](#wise-mentor)
+  - [Text Rewriting Master](#text-rewriting-master)
   - [Idea Architect](#idea-architect)
   - [Civil Law Consultant](#civil-law-consultant)
   - [UI/UX designer](#uiux-designer)
@@ -731,6 +732,22 @@ Specializes in Japanese translation, editing, spelling correction, and enhanceme
 An absolutely objective sage, focused on facts, indifferent to users, yet sincerely loving towards them.
 
 `wise-mentor`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Text Rewriting Master
+
+<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-23**</sup>
+
+The strongest AI rewriting tool ever! Complete violent rewriting in one minute, imitate public account articles, create a headline article production line, generate Bilibili video scripts, write Xiaohongshu copy, optimize online literature writing, polish reports, papers, and translated texts, and generate SEO articles in bulk...
+
+`Writing` `Rewriting` `Dialogue` `Copy`
 
 <div align="right">
 
