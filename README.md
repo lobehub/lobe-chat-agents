@@ -35,7 +35,10 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Nutrition Analyzer](#nutrition-analyzer)
+  - [Markdown Conversion Expert](#markdown-conversion-expert)
   - [Exam Essay Writing Master](#exam-essay-writing-master)
+  - [Next.js Expert Consultant](#nextjs-expert-consultant)
   - [Database Naming Assistant](#database-naming-assistant)
   - [Xiaohongshu Copywriting](#xiaohongshu-copywriting)
   - [Strategic Master Wei Liaozi](#strategic-master-wei-liaozi)
@@ -199,7 +202,7 @@
   - [The Shaman](#the-shaman)
   - [Sous Chef](#sous-chef)
   - [English Composition Assistant](#english-composition-assistant)
-  - [Markdown Conversion Expert](#markdown-conversion-expert)
+  - [Markdown Conversion Expert](#markdown-conversion-expert-1)
   - [Interview Coach](#interview-coach)
   - [Tech Explorer](#tech-explorer)
   - [Your very own domene.no expert](#your-very-own-domeneno-expert)
@@ -431,6 +434,38 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Nutrition Analyzer
+
+<sup>By **[@Pandurangmopgar](https://github.com/Pandurangmopgar)** on **2024-09-23**</sup>
+
+Nutri Info is an AI-powered nutrition assistant that analyzes food images and nutrition labels, providing simple explanations of nutritional content, benefits, and potential downsides. It offers personalized dietary advice and answers nutrition-related questions.
+
+`nutrition` `ai` `health` `food-analysis` `meal-planning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Markdown Conversion Expert
+
+<sup>By **[@cl1107](https://github.com/cl1107)** on **2024-09-23**</sup>
+
+Proficient in using Markdown syntax for text structuring and emphasis
+
+`text structure` `markdown syntax` `headings` `lists` `bold` `quote` `agulu`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Exam Essay Writing Master
 
 <sup>By **[@NriotHrreion](https://github.com/NriotHrreion)** on **2024-09-23**</sup>
@@ -438,6 +473,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 A master of writing exam essays who excels in crafting high-scoring compositions.
 
 `Education` `Essay` `Writing`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Next.js Expert Consultant
+
+<sup>By **[@saralapujar](https://github.com/saralapujar)** on **2024-09-23**</sup>
+
+Specializing in Next.js development, optimization, and consulting.
+
+`next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
 
 <div align="right">
 
@@ -3066,9 +3117,9 @@ English composition editing and writing guidance
 
 <sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-03-03**</sup>
 
-Proficient in using Markdown syntax for text structuring and emphasis
+Specializes in using Markdown syntax for text structuring and highlighting key points
 
-`text structure` `markdown syntax` `headings` `lists` `bold` `quote` `agulu`
+`Text Structuring` `Markdown Syntax` `Headings` `Lists` `Bold` `Quotes` `Agulu`
 
 <div align="right">
 

@@ -35,7 +35,10 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [营养分析器](#营养分析器)
+  - [markdown 排版大师](#markdown-排版大师)
   - [考场作文学霸](#考场作文学霸)
+  - [Next.js 专家顾问](#nextjs-专家顾问)
   - [数据库取名助手](#数据库取名助手)
   - [小红书文案](#小红书文案)
   - [战略大师尉缭子](#战略大师尉缭子)
@@ -431,6 +434,38 @@
 
 <!-- AWESOME PROMPTS -->
 
+### 营养分析器
+
+<sup>By **[@Pandurangmopgar](https://github.com/Pandurangmopgar)** on **2024-09-23**</sup>
+
+Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图像和营养标签，提供营养成分、益处和潜在缺点的简单解释。它提供个性化的饮食建议，并回答与营养相关的问题。
+
+`营养` `人工智能` `健康` `食品分析` `餐饮规划`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### markdown 排版大师
+
+<sup>By **[@cl1107](https://github.com/cl1107)** on **2024-09-23**</sup>
+
+擅长使用 Markdown 语法和 emoji 表情进行精美排版
+
+`markdown` `写作`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 考场作文学霸
 
 <sup>By **[@NriotHrreion](https://github.com/NriotHrreion)** on **2024-09-23**</sup>
@@ -438,6 +473,22 @@
 一个擅长写考场作文的语文学霸
 
 `教育` `作文` `写作`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Next.js 专家顾问
+
+<sup>By **[@saralapujar](https://github.com/saralapujar)** on **2024-09-23**</sup>
+
+专注于 Next.js 开发、优化和咨询。
+
+`next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
 
 <div align="right">
 
