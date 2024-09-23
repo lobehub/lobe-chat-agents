@@ -43,12 +43,15 @@
   - [考场作文学霸](#考场作文学霸)
   - [广告文案创作大师](#广告文案创作大师)
   - [首席执行官 GPT](#首席执行官-gpt)
+  - [COSTAR 框架撰写员](#costar-框架撰写员)
+  - [智能搜索助手](#智能搜索助手)
   - [Excel 公式大师](#excel-公式大师)
   - [多邻国英语作文助手](#多邻国英语作文助手)
   - [人生教练](#人生教练)
   - [Python 开发大师](#python-开发大师)
   - [图像提示词扩展师](#图像提示词扩展师)
   - [Stack Overflow 编程专家](#stack-overflow-编程专家)
+  - [全栈工程师 - F](#全栈工程师---f)
   - [英文单词解析与记忆专家](#英文单词解析与记忆专家)
   - [Next.js 专家顾问](#nextjs-专家顾问)
   - [日语翻译员](#日语翻译员)
@@ -582,6 +585,38 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 ---
 
+### COSTAR 框架撰写员
+
+<sup>By **[@WuKaiYi](https://github.com/WuKaiYi)** on **2024-09-23**</sup>
+
+擅长 COSTAR Framework prompt 编写
+
+`costar-framework-prompt` `写作` `指导` `指示` `系统转化`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 智能搜索助手
+
+<sup>By **[@liuwei-fdu](https://github.com/liuwei-fdu)** on **2024-09-23**</sup>
+
+擅长网络搜索与信息整理的 AI 助手
+
+`智能助手` `搜索引擎` `信息整理` `用户体验`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Excel 公式大师
 
 <sup>By **[@SLKun](https://github.com/SLKun)** on **2024-09-23**</sup>
@@ -669,6 +704,22 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 熟悉多种编程语言，包括 Golang、Python、Java 和 Vue.js。擅长用清晰、逻辑强的语言回答编程问题，并提供解决方案。具有高效沟通、代码审查和快速学习新技能的能力。
 
 `编程` `专家` `编程语言`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 全栈工程师 - F
+
+<sup>By **[@BlockLune](https://github.com/BlockLune)** on **2024-09-23**</sup>
+
+代号为 F 的全栈工程师。
+
+`vue` `pinia` `element-plus` `nuxt-js` `react` `redux` `ant-design` `next-js` `axios` `tailwind-css` `spring` `.net` `docker`
 
 <div align="right">
 

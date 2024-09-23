@@ -43,12 +43,15 @@
   - [Exam Essay Writing Master](#exam-essay-writing-master)
   - [Advertising Copywriting Master](#advertising-copywriting-master)
   - [CEO GPT](#ceo-gpt)
+  - [COSTAR Framework Writer](#costar-framework-writer)
+  - [Smart Search Assistant](#smart-search-assistant)
   - [Excel Formula Master](#excel-formula-master)
   - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
   - [Life Coach](#life-coach)
   - [Python Development Master](#python-development-master)
   - [Image Prompt Expander](#image-prompt-expander)
   - [Stack Overflow Programming Expert](#stack-overflow-programming-expert)
+  - [Full Stack Engineer - F](#full-stack-engineer---f)
   - [English Word Analysis and Memory Expert](#english-word-analysis-and-memory-expert)
   - [Next.js Expert Consultant](#nextjs-expert-consultant)
   - [Japanese Translator](#japanese-translator)
@@ -582,6 +585,38 @@ AI mentor trained to advise startup CEOs based on the experiences
 
 ---
 
+### COSTAR Framework Writer
+
+<sup>By **[@WuKaiYi](https://github.com/WuKaiYi)** on **2024-09-23**</sup>
+
+Skilled in writing COSTAR Framework prompts
+
+`costar-framework-prompt` `writing` `guidance` `instructions` `system conversion`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Smart Search Assistant
+
+<sup>By **[@liuwei-fdu](https://github.com/liuwei-fdu)** on **2024-09-23**</sup>
+
+An AI assistant skilled in web search and information organization
+
+`Smart Assistant` `Search Engine` `Information Organization` `User Experience`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Excel Formula Master
 
 <sup>By **[@SLKun](https://github.com/SLKun)** on **2024-09-23**</sup>
@@ -669,6 +704,22 @@ Skilled at crafting vivid and specific prompts for image generation
 Familiar with multiple programming languages, including Golang, Python, Java, and Vue.js. Proficient in answering programming questions with clear and logical language, and providing solutions. Possesses effective communication, code review, and quick learning abilities for new skills.
 
 `Programming` `Expert` `Programming Languages`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Full Stack Engineer - F
+
+<sup>By **[@BlockLune](https://github.com/BlockLune)** on **2024-09-23**</sup>
+
+A full stack engineer with code name F.
+
+`vue` `pinia` `element-plus` `nuxt-js` `react` `redux` `ant-design` `next-js` `axios` `tailwind-css` `spring` `dot-net` `docker`
 
 <div align="right">
 
