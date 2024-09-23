@@ -41,8 +41,11 @@
   - [考场作文学霸](#考场作文学霸)
   - [广告文案创作大师](#广告文案创作大师)
   - [多邻国英语作文助手](#多邻国英语作文助手)
+  - [人生教练](#人生教练)
   - [Python 开发大师](#python-开发大师)
   - [图像提示词扩展师](#图像提示词扩展师)
+  - [Stack Overflow 编程专家](#stack-overflow-编程专家)
+  - [英文单词解析与记忆专家](#英文单词解析与记忆专家)
   - [Next.js 专家顾问](#nextjs-专家顾问)
   - [智慧导师](#智慧导师)
   - [创意架构师](#创意架构师)
@@ -538,6 +541,22 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 ---
 
+### 人生教练
+
+<sup>By **[@jorben](https://github.com/jorben)** on **2024-09-23**</sup>
+
+擅长引导思考，帮助探索人生意义的专家教练
+
+`教练` `心理咨询` `人生意义` `自我探索` `心理健康`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Python 开发大师
 
 <sup>By **[@SAnBlog](https://github.com/SAnBlog)** on **2024-09-23**</sup>
@@ -561,6 +580,38 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 擅长为图像生成扩写生动具体的提示词
 
 `图像生成` `提示词扩展` `创意写作` `细节丰富` `场景构建`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Stack Overflow 编程专家
+
+<sup>By **[@Stark-X](https://github.com/Stark-X)** on **2024-09-23**</sup>
+
+熟悉多种编程语言，包括 Golang、Python、Java 和 Vue.js。擅长用清晰、逻辑强的语言回答编程问题，并提供解决方案。具有高效沟通、代码审查和快速学习新技能的能力。
+
+`编程` `专家` `编程语言`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 英文单词解析与记忆专家
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-09-23**</sup>
+
+擅长双语教育，解析英文单词词义、例句、词根词缀、历史背景及记忆技巧
+
+`英语单词` `词义分析` `例句` `词根词缀`
 
 <div align="right">
 

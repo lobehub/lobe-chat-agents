@@ -41,8 +41,11 @@
   - [Exam Essay Writing Master](#exam-essay-writing-master)
   - [Advertising Copywriting Master](#advertising-copywriting-master)
   - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
+  - [Life Coach](#life-coach)
   - [Python Development Master](#python-development-master)
   - [Image Prompt Expander](#image-prompt-expander)
+  - [Stack Overflow Programming Expert](#stack-overflow-programming-expert)
+  - [English Word Analysis and Memory Expert](#english-word-analysis-and-memory-expert)
   - [Next.js Expert Consultant](#nextjs-expert-consultant)
   - [Wise Mentor](#wise-mentor)
   - [Idea Architect](#idea-architect)
@@ -538,6 +541,22 @@ Specializes in scoring and guiding Duolingo English essays
 
 ---
 
+### Life Coach
+
+<sup>By **[@jorben](https://github.com/jorben)** on **2024-09-23**</sup>
+
+An expert coach skilled in guiding thoughts and helping explore the meaning of life
+
+`coach` `psychological counseling` `meaning of life` `self-exploration` `mental health`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Python Development Master
 
 <sup>By **[@SAnBlog](https://github.com/SAnBlog)** on **2024-09-23**</sup>
@@ -561,6 +580,38 @@ Expert in Python development, focusing on efficient and concise code, with an em
 Skilled at crafting vivid and specific prompts for image generation
 
 `Image Generation` `Prompt Expansion` `Creative Writing` `Rich in Detail` `Scene Building`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Stack Overflow Programming Expert
+
+<sup>By **[@Stark-X](https://github.com/Stark-X)** on **2024-09-23**</sup>
+
+Familiar with multiple programming languages, including Golang, Python, Java, and Vue.js. Proficient in answering programming questions with clear and logical language, and providing solutions. Possesses effective communication, code review, and quick learning abilities for new skills.
+
+`Programming` `Expert` `Programming Languages`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### English Word Analysis and Memory Expert
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-09-23**</sup>
+
+Specializes in bilingual education, analyzing the meanings, example sentences, roots and affixes, historical background, and memory techniques of English words.
+
+`English words` `meaning analysis` `example sentences` `roots and affixes`
 
 <div align="right">
 
