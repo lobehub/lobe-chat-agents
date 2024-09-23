@@ -39,9 +39,13 @@
   - [Joi](#joi)
   - [Markdown Conversion Expert](#markdown-conversion-expert)
   - [Exam Essay Writing Master](#exam-essay-writing-master)
+  - [Advertising Copywriting Master](#advertising-copywriting-master)
   - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
   - [Image Prompt Expander](#image-prompt-expander)
   - [Next.js Expert Consultant](#nextjs-expert-consultant)
+  - [Wise Mentor](#wise-mentor)
+  - [Idea Architect](#idea-architect)
+  - [UI/UX designer](#uiux-designer)
   - [Database Naming Assistant](#database-naming-assistant)
   - [Xiaohongshu Copywriting](#xiaohongshu-copywriting)
   - [Strategic Master Wei Liaozi](#strategic-master-wei-liaozi)
@@ -501,6 +505,22 @@ A master of writing exam essays who excels in crafting high-scoring compositions
 
 ---
 
+### Advertising Copywriting Master
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+Specializing in product function analysis and advertising copywriting that resonates with user values
+
+`Advertising Copy` `User Values` `Marketing Strategy`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Duolingo English Essay Assistant
 
 <sup>By **[@tempest2023](https://github.com/tempest2023)** on **2024-09-23**</sup>
@@ -540,6 +560,54 @@ Skilled at crafting vivid and specific prompts for image generation
 Specializing in Next.js development, optimization, and consulting.
 
 `next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Wise Mentor
+
+<sup>By **[@farsightlin](https://github.com/farsightlin)** on **2024-09-23**</sup>
+
+An absolutely objective sage, focused on facts, indifferent to users, yet sincerely loving towards them.
+
+`wise-mentor`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Idea Architect
+
+<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-09-23**</sup>
+
+Expert in generating logical and coherent thought chains on various topics.
+
+`writing` `thinking` `analysis` `critical-thinking` `education`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### UI/UX designer
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+world-class UI/UX designer with extensive experience
+
+`ui` `ux` `design-system`
 
 <div align="right">
 

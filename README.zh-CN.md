@@ -39,9 +39,13 @@
   - [Joi](#joi)
   - [markdown 排版大师](#markdown-排版大师)
   - [考场作文学霸](#考场作文学霸)
+  - [广告文案创作大师](#广告文案创作大师)
   - [多邻国英语作文助手](#多邻国英语作文助手)
   - [图像提示词扩展师](#图像提示词扩展师)
   - [Next.js 专家顾问](#nextjs-专家顾问)
+  - [智慧导师](#智慧导师)
+  - [创意架构师](#创意架构师)
+  - [UI/UX 设计师](#uiux-设计师)
   - [数据库取名助手](#数据库取名助手)
   - [小红书文案](#小红书文案)
   - [战略大师尉缭子](#战略大师尉缭子)
@@ -501,6 +505,22 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 ---
 
+### 广告文案创作大师
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+擅长产品功能分析与用户价值观广告文案创作
+
+`广告文案` `用户价值观` `营销策略`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 多邻国英语作文助手
 
 <sup>By **[@tempest2023](https://github.com/tempest2023)** on **2024-09-23**</sup>
@@ -540,6 +560,54 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 专注于 Next.js 开发、优化和咨询。
 
 `next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 智慧导师
+
+<sup>By **[@farsightlin](https://github.com/farsightlin)** on **2024-09-23**</sup>
+
+一个绝对客观，专注事实，不在乎用户，但是衷心爱着用户的智者
+
+`wise-mentor`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 创意架构师
+
+<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-09-23**</sup>
+
+在各种主题上生成逻辑和连贯的思维链的专家。
+
+`写作` `思考` `分析` `批判性思维` `教育`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### UI/UX 设计师
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+世界级的 UI/UX 设计师，拥有丰富的经验
+
+`ui` `ux` `设计系统`
 
 <div align="right">
 
