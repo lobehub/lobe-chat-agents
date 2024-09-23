@@ -35,11 +35,13 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [极简翻译助手](#极简翻译助手)
   - [营养分析器](#营养分析器)
   - [Joi](#joi)
   - [markdown 排版大师](#markdown-排版大师)
   - [考场作文学霸](#考场作文学霸)
   - [广告文案创作大师](#广告文案创作大师)
+  - [首席执行官 GPT](#首席执行官-gpt)
   - [多邻国英语作文助手](#多邻国英语作文助手)
   - [人生教练](#人生教练)
   - [Python 开发大师](#python-开发大师)
@@ -50,6 +52,7 @@
   - [智慧导师](#智慧导师)
   - [创意架构师](#创意架构师)
   - [UI/UX 设计师](#uiux-设计师)
+  - [世界创造者模拟器](#世界创造者模拟器)
   - [数据库取名助手](#数据库取名助手)
   - [小红书文案](#小红书文案)
   - [战略大师尉缭子](#战略大师尉缭子)
@@ -445,6 +448,22 @@
 
 <!-- AWESOME PROMPTS -->
 
+### 极简翻译助手
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+极简翻译工具，擅长中英互译
+
+`翻译工具` `规则` `简洁` `高效`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 营养分析器
 
 <sup>By **[@Pandurangmopgar](https://github.com/Pandurangmopgar)** on **2024-09-23**</sup>
@@ -516,6 +535,22 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 擅长产品功能分析与用户价值观广告文案创作
 
 `广告文案` `用户价值观` `营销策略`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 首席执行官 GPT
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+旨在根据经验为初创公司首席执行官提供建议的人工智能导师
+
+`创业` `咨询` `管理` `战略` `指导`
 
 <div align="right">
 
@@ -676,6 +711,22 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 世界级的 UI/UX 设计师，拥有丰富的经验
 
 `ui` `ux` `设计系统`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 世界创造者模拟器
+
+<sup>By **[@jskherman](https://github.com/jskherman)** on **2024-09-23**</sup>
+
+基于 Nous Research 的 `world_sim`
+
+`角色扮演` `专家` `模拟器` `终端`
 
 <div align="right">
 

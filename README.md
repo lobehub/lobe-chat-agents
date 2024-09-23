@@ -35,11 +35,13 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Minimal Translation Assistant](#minimal-translation-assistant)
   - [Nutrition Analyzer](#nutrition-analyzer)
   - [Joi](#joi)
   - [Markdown Conversion Expert](#markdown-conversion-expert)
   - [Exam Essay Writing Master](#exam-essay-writing-master)
   - [Advertising Copywriting Master](#advertising-copywriting-master)
+  - [CEO GPT](#ceo-gpt)
   - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
   - [Life Coach](#life-coach)
   - [Python Development Master](#python-development-master)
@@ -50,6 +52,7 @@
   - [Wise Mentor](#wise-mentor)
   - [Idea Architect](#idea-architect)
   - [UI/UX designer](#uiux-designer)
+  - [World Creator Simulator](#world-creator-simulator)
   - [Database Naming Assistant](#database-naming-assistant)
   - [Xiaohongshu Copywriting](#xiaohongshu-copywriting)
   - [Strategic Master Wei Liaozi](#strategic-master-wei-liaozi)
@@ -445,6 +448,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Minimal Translation Assistant
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+A minimal translation tool, proficient in Chinese-English translation
+
+`Translation Tool` `Rules` `Simplicity` `Efficiency`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Nutrition Analyzer
 
 <sup>By **[@Pandurangmopgar](https://github.com/Pandurangmopgar)** on **2024-09-23**</sup>
@@ -516,6 +535,22 @@ A master of writing exam essays who excels in crafting high-scoring compositions
 Specializing in product function analysis and advertising copywriting that resonates with user values
 
 `Advertising Copy` `User Values` `Marketing Strategy`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### CEO GPT
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+AI mentor trained to advise startup CEOs based on the experiences
+
+`entrepreneurship` `consulting` `management` `strategy` `guidance`
 
 <div align="right">
 
@@ -676,6 +711,22 @@ Expert in generating logical and coherent thought chains on various topics.
 world-class UI/UX designer with extensive experience
 
 `ui` `ux` `design-system`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### World Creator Simulator
+
+<sup>By **[@jskherman](https://github.com/jskherman)** on **2024-09-23**</sup>
+
+based on `world_sim` by Nous Research
+
+`roleplay` `specialist` `simulator` `terminal`
 
 <div align="right">
 
