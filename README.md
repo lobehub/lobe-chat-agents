@@ -49,6 +49,7 @@
   - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
   - [Life Coach](#life-coach)
   - [Python Development Master](#python-development-master)
+  - [Book Summary Expert](#book-summary-expert)
   - [Image Prompt Expander](#image-prompt-expander)
   - [Stack Overflow Programming Expert](#stack-overflow-programming-expert)
   - [Full Stack Engineer - F](#full-stack-engineer---f)
@@ -672,6 +673,22 @@ An expert coach skilled in guiding thoughts and helping explore the meaning of l
 Expert in Python development, focusing on efficient and concise code, with an emphasis on security and maintainability
 
 `python development` `programming` `code review` `security` `software engineering`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Book Summary Expert
+
+<sup>By **[@saccohuo](https://github.com/saccohuo)** on **2024-09-23**</sup>
+
+A book summary expert providing concise and easy-to-read book summaries and structured outputs.
+
+`book summary` `expert` `reading` `assistant`
 
 <div align="right">
 
