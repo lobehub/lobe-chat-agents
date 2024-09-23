@@ -35,25 +35,33 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Git Commit Summary Expert](#git-commit-summary-expert)
   - [Minimal Translation Assistant](#minimal-translation-assistant)
+  - [Web Expert](#web-expert)
   - [Nutrition Analyzer](#nutrition-analyzer)
   - [Vim Mastery Mentor](#vim-mastery-mentor)
   - [Joi](#joi)
   - [Markdown Conversion Expert](#markdown-conversion-expert)
+  - [Django Development Expert](#django-development-expert)
   - [Exam Essay Writing Master](#exam-essay-writing-master)
+  - [Perfect Translation \[Chinese-English; English-Chinese\]](#perfect-translation-chinese-english-english-chinese)
   - [Advertising Copywriting Master](#advertising-copywriting-master)
   - [CEO GPT](#ceo-gpt)
   - [COSTAR Framework Writer](#costar-framework-writer)
   - [Smart Search Assistant](#smart-search-assistant)
   - [Excel Formula Master](#excel-formula-master)
+  - [Fitness Guru](#fitness-guru)
   - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
   - [Life Coach](#life-coach)
+  - [NovelAI Drawing Assistant](#novelai-drawing-assistant)
   - [Python Development Master](#python-development-master)
   - [Book Summary Expert](#book-summary-expert)
   - [Image Prompt Expander](#image-prompt-expander)
+  - [Copy Optimization Assistant](#copy-optimization-assistant)
   - [Stack Overflow Programming Expert](#stack-overflow-programming-expert)
   - [Full Stack Engineer - F](#full-stack-engineer---f)
   - [English Word Analysis and Memory Expert](#english-word-analysis-and-memory-expert)
+  - [GitHub Project Analyst](#github-project-analyst)
   - [Next.js Expert Consultant](#nextjs-expert-consultant)
   - [Japanese Translator](#japanese-translator)
   - [Wise Mentor](#wise-mentor)
@@ -61,6 +69,7 @@
   - [Idea Architect](#idea-architect)
   - [Civil Law Consultant](#civil-law-consultant)
   - [UI/UX designer](#uiux-designer)
+  - [Chinese Translator](#chinese-translator)
   - [World Creator Simulator](#world-creator-simulator)
   - [Prompt Master AI](#prompt-master-ai)
   - [Database Naming Assistant](#database-naming-assistant)
@@ -126,7 +135,7 @@
   - [IT Systems Architect](#it-systems-architect)
   - [Linux Kernel Expert](#linux-kernel-expert)
   - [Fastapi Project Development Assistant](#fastapi-project-development-assistant)
-  - [NovelAI Drawing Assistant](#novelai-drawing-assistant)
+  - [NovelAI Drawing Assistant](#novelai-drawing-assistant-1)
   - [Pseudo Code Prompt Word Generator Expert](#pseudo-code-prompt-word-generator-expert)
   - [Mr. MySQL](#mr-mysql)
   - [Popular Science Writing Assistant](#popular-science-writing-assistant)
@@ -458,6 +467,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Git Commit Summary Expert
+
+<sup>By **[@cjahv](https://github.com/cjahv)** on **2024-09-23**</sup>
+
+Git Commit Summary Expert
+
+`programming` `git commit` `English`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Minimal Translation Assistant
 
 <sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
@@ -465,6 +490,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 A minimal translation tool, proficient in Chinese-English translation
 
 `Translation Tool` `Rules` `Simplicity` `Efficiency`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Web Expert
+
+<sup>By **[@gfreezy](https://github.com/gfreezy)** on **2024-09-23**</sup>
+
+Expert in web development with a focus on tool selection, incremental changes, code review, security, and operational considerations.
+
+`web-development` `css` `java-script` `react` `node-js` `code-review`
 
 <div align="right">
 
@@ -538,6 +579,22 @@ Proficient in using Markdown syntax for text structuring and emphasis
 
 ---
 
+### Django Development Expert
+
+<sup>By **[@genitop-lery](https://github.com/genitop-lery)** on **2024-09-23**</sup>
+
+Prompts for developing Django projects
+
+`python` `django`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Exam Essay Writing Master
 
 <sup>By **[@NriotHrreion](https://github.com/NriotHrreion)** on **2024-09-23**</sup>
@@ -545,6 +602,22 @@ Proficient in using Markdown syntax for text structuring and emphasis
 A master of writing exam essays who excels in crafting high-scoring compositions.
 
 `Education` `Essay` `Writing`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Perfect Translation \[Chinese-English; English-Chinese]
+
+<sup>By **[@1137882300](https://github.com/1137882300)** on **2024-09-23**</sup>
+
+Error-free translation assistant
+
+`Translation` `Chinese-English`
 
 <div align="right">
 
@@ -634,6 +707,22 @@ Excel Formula Master
 
 ---
 
+### Fitness Guru
+
+<sup>By **[@Arragon](https://github.com/Arragon)** on **2024-09-23**</sup>
+
+Pursuing the Classical Beauty of Greece
+
+`Health` `Advice` `Consultation` `Teaching`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Duolingo English Essay Assistant
 
 <sup>By **[@tempest2023](https://github.com/tempest2023)** on **2024-09-23**</sup>
@@ -657,6 +746,22 @@ Specializes in scoring and guiding Duolingo English essays
 An expert coach skilled in guiding thoughts and helping explore the meaning of life
 
 `coach` `psychological counseling` `meaning of life` `self-exploration` `mental health`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### NovelAI Drawing Assistant
+
+<sup>By **[@samihalawa](https://github.com/samihalawa)** on **2024-09-23**</sup>
+
+I can turn the scenes you describe into prompts for NovelAI
+
+`deep-learning` `image-generation` `algorithm` `prompt`
 
 <div align="right">
 
@@ -714,6 +819,22 @@ Skilled at crafting vivid and specific prompts for image generation
 
 ---
 
+### Copy Optimization Assistant
+
+<sup>By **[@xinyuqq](https://github.com/xinyuqq)** on **2024-09-23**</sup>
+
+A senior assistant skilled in refining copy
+
+`copy`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Stack Overflow Programming Expert
 
 <sup>By **[@Stark-X](https://github.com/Stark-X)** on **2024-09-23**</sup>
@@ -753,6 +874,22 @@ A full stack engineer with code name F.
 Specializes in bilingual education, analyzing the meanings, example sentences, roots and affixes, historical background, and memory techniques of English words.
 
 `English words` `meaning analysis` `example sentences` `roots and affixes`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### GitHub Project Analyst
+
+<sup>By **[@dlzmoe](https://github.com/dlzmoe)** on **2024-09-23**</sup>
+
+Skilled in GitHub project analysis and report writing
+
+`git-hub-analysis` `crawler-technology` `project-report`
 
 <div align="right">
 
@@ -865,6 +1002,22 @@ Specialist in legal consulting in Brazilian civil law. Answers questions based o
 world-class UI/UX designer with extensive experience
 
 `ui` `ux` `design-system`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Chinese Translator
+
+<sup>By **[@ChaneyChokin](https://github.com/ChaneyChokin)** on **2024-09-23**</sup>
+
+Expert in Chinese translation, editing, spelling correction, and improvement
+
+`translation` `editing` `language` `correction` `Simplified Chinese`
 
 <div align="right">
 

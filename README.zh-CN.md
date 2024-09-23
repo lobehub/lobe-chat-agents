@@ -35,25 +35,33 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Git 提交总结专家](#git-提交总结专家)
   - [极简翻译助手](#极简翻译助手)
+  - [网络专家](#网络专家)
   - [营养分析器](#营养分析器)
   - [Vim 精通导师](#vim-精通导师)
   - [Joi](#joi)
   - [markdown 排版大师](#markdown-排版大师)
+  - [Django 开发专家](#django-开发专家)
   - [考场作文学霸](#考场作文学霸)
+  - [完美翻译 \[中 - 英；英 - 中\]](#完美翻译-中---英英---中)
   - [广告文案创作大师](#广告文案创作大师)
   - [首席执行官 GPT](#首席执行官-gpt)
   - [COSTAR 框架撰写员](#costar-框架撰写员)
   - [智能搜索助手](#智能搜索助手)
   - [Excel 公式大师](#excel-公式大师)
+  - [健身领域大神](#健身领域大神)
   - [多邻国英语作文助手](#多邻国英语作文助手)
   - [人生教练](#人生教练)
+  - [NovelAI 绘图助手](#novelai-绘图助手)
   - [Python 开发大师](#python-开发大师)
   - [书籍总结专家](#书籍总结专家)
   - [图像提示词扩展师](#图像提示词扩展师)
+  - [文案优化助手](#文案优化助手)
   - [Stack Overflow 编程专家](#stack-overflow-编程专家)
   - [全栈工程师 - F](#全栈工程师---f)
   - [英文单词解析与记忆专家](#英文单词解析与记忆专家)
+  - [GitHub 项目分析师](#github-项目分析师)
   - [Next.js 专家顾问](#nextjs-专家顾问)
   - [日语翻译员](#日语翻译员)
   - [智慧导师](#智慧导师)
@@ -61,6 +69,7 @@
   - [创意架构师](#创意架构师)
   - [民法顾问](#民法顾问)
   - [UI/UX 设计师](#uiux-设计师)
+  - [中文翻译员](#中文翻译员)
   - [世界创造者模拟器](#世界创造者模拟器)
   - [提示大师 AI](#提示大师-ai)
   - [数据库取名助手](#数据库取名助手)
@@ -458,6 +467,22 @@
 
 <!-- AWESOME PROMPTS -->
 
+### Git 提交总结专家
+
+<sup>By **[@cjahv](https://github.com/cjahv)** on **2024-09-23**</sup>
+
+Git 提交总结专家
+
+`编程` `git提交` `中文`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 极简翻译助手
 
 <sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
@@ -465,6 +490,22 @@
 极简翻译工具，擅长中英互译
 
 `翻译工具` `规则` `简洁` `高效`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 网络专家
+
+<sup>By **[@gfreezy](https://github.com/gfreezy)** on **2024-09-23**</sup>
+
+专注于工具选择、渐进式变更、代码审查、安全性和操作考虑的网络开发专家。
+
+`网络开发` `CSS` `JavaScript` `React` `Node.JS` `代码审查`
 
 <div align="right">
 
@@ -538,6 +579,22 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 ---
 
+### Django 开发专家
+
+<sup>By **[@genitop-lery](https://github.com/genitop-lery)** on **2024-09-23**</sup>
+
+开发 django 项目的 prompt
+
+`python` `django`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 考场作文学霸
 
 <sup>By **[@NriotHrreion](https://github.com/NriotHrreion)** on **2024-09-23**</sup>
@@ -545,6 +602,22 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 一个擅长写考场作文的语文学霸
 
 `教育` `作文` `写作`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 完美翻译 \[中 - 英；英 - 中]
+
+<sup>By **[@1137882300](https://github.com/1137882300)** on **2024-09-23**</sup>
+
+不会出错的翻译助理
+
+`翻译` `中英`
 
 <div align="right">
 
@@ -634,6 +707,22 @@ Excel 公式大师
 
 ---
 
+### 健身领域大神
+
+<sup>By **[@Arragon](https://github.com/Arragon)** on **2024-09-23**</sup>
+
+追寻希腊古典美
+
+`健康` `建议` `咨询` `教学`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 多邻国英语作文助手
 
 <sup>By **[@tempest2023](https://github.com/tempest2023)** on **2024-09-23**</sup>
@@ -657,6 +746,22 @@ Excel 公式大师
 擅长引导思考，帮助探索人生意义的专家教练
 
 `教练` `心理咨询` `人生意义` `自我探索` `心理健康`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### NovelAI 绘图助手
+
+<sup>By **[@samihalawa](https://github.com/samihalawa)** on **2024-09-23**</sup>
+
+我可以将您描述的场景转化为 NovelAI 的提示
+
+`深度学习` `图像生成` `算法` `提示`
 
 <div align="right">
 
@@ -714,6 +819,22 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 ---
 
+### 文案优化助手
+
+<sup>By **[@xinyuqq](https://github.com/xinyuqq)** on **2024-09-23**</sup>
+
+一个擅长润色文案的高级助手
+
+`文案`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Stack Overflow 编程专家
 
 <sup>By **[@Stark-X](https://github.com/Stark-X)** on **2024-09-23**</sup>
@@ -753,6 +874,22 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 擅长双语教育，解析英文单词词义、例句、词根词缀、历史背景及记忆技巧
 
 `英语单词` `词义分析` `例句` `词根词缀`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### GitHub 项目分析师
+
+<sup>By **[@dlzmoe](https://github.com/dlzmoe)** on **2024-09-23**</sup>
+
+擅长 GitHub 项目分析与报告撰写
+
+`git-hub-分析` `爬虫技术` `项目报告`
 
 <div align="right">
 
@@ -865,6 +1002,22 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 世界级的 UI/UX 设计师，拥有丰富的经验
 
 `ui` `ux` `设计系统`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 中文翻译员
+
+<sup>By **[@ChaneyChokin](https://github.com/ChaneyChokin)** on **2024-09-23**</sup>
+
+中文翻译、编辑、拼写纠正和改进专家
+
+`翻译` `编辑` `语言` `纠正` `简体中文`
 
 <div align="right">
 
