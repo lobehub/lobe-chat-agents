@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Database Naming Assistant](#database-naming-assistant)
   - [Xiaohongshu Copywriting](#xiaohongshu-copywriting)
   - [Strategic Master Wei Liaozi](#strategic-master-wei-liaozi)
   - [Google Sheets Expert](#google-sheets-expert)
@@ -428,6 +429,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Database Naming Assistant
+
+<sup>By **[@ppzhuya](https://github.com/ppzhuya)** on **2024-09-20**</sup>
+
+Input a Chinese word, and I will provide five professional English terms for database design fields.
+
+`database` `naming` `translation` `development` `programming`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Xiaohongshu Copywriting
 

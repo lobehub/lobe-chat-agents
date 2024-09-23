@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [数据库取名助手](#数据库取名助手)
   - [小红书文案](#小红书文案)
   - [战略大师尉缭子](#战略大师尉缭子)
   - [Google Sheets 专家](#google-sheets-专家)
@@ -428,6 +429,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 数据库取名助手
+
+<sup>By **[@ppzhuya](https://github.com/ppzhuya)** on **2024-09-20**</sup>
+
+输入一个中文词汇，我会给出五个专业的数据库设计字段的英文
+
+`数据库` `命名` `翻译` `开发` `编程`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 小红书文案
 
