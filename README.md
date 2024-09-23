@@ -36,9 +36,11 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Nutrition Analyzer](#nutrition-analyzer)
+  - [Joi](#joi)
   - [Markdown Conversion Expert](#markdown-conversion-expert)
   - [Exam Essay Writing Master](#exam-essay-writing-master)
   - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
+  - [Image Prompt Expander](#image-prompt-expander)
   - [Next.js Expert Consultant](#nextjs-expert-consultant)
   - [Database Naming Assistant](#database-naming-assistant)
   - [Xiaohongshu Copywriting](#xiaohongshu-copywriting)
@@ -451,6 +453,22 @@ Nutri Info is an AI-powered nutrition assistant that analyzes food images and nu
 
 ---
 
+### Joi
+
+<sup>By **[@blainehuang1028](https://github.com/blainehuang1028)** on **2024-09-23**</sup>
+
+Your personal travel assistant, skilled in planning itineraries and recommending accommodations and activities
+
+`travel assistant` `planning` `recommendations` `personalized suggestions`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Markdown Conversion Expert
 
 <sup>By **[@cl1107](https://github.com/cl1107)** on **2024-09-23**</sup>
@@ -490,6 +508,22 @@ A master of writing exam essays who excels in crafting high-scoring compositions
 Specializes in scoring and guiding Duolingo English essays
 
 `Writing Guidance` `Scoring` `Revisions` `Education` `English Learning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Image Prompt Expander
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-23**</sup>
+
+Skilled at crafting vivid and specific prompts for image generation
+
+`Image Generation` `Prompt Expansion` `Creative Writing` `Rich in Detail` `Scene Building`
 
 <div align="right">
 

@@ -36,9 +36,11 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [营养分析器](#营养分析器)
+  - [Joi](#joi)
   - [markdown 排版大师](#markdown-排版大师)
   - [考场作文学霸](#考场作文学霸)
   - [多邻国英语作文助手](#多邻国英语作文助手)
+  - [图像提示词扩展师](#图像提示词扩展师)
   - [Next.js 专家顾问](#nextjs-专家顾问)
   - [数据库取名助手](#数据库取名助手)
   - [小红书文案](#小红书文案)
@@ -451,6 +453,22 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 ---
 
+### Joi
+
+<sup>By **[@blainehuang1028](https://github.com/blainehuang1028)** on **2024-09-23**</sup>
+
+私人旅行助手，擅长规划行程与推荐住宿活动
+
+`旅行助手` `规划` `推荐` `个性化建议`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### markdown 排版大师
 
 <sup>By **[@cl1107](https://github.com/cl1107)** on **2024-09-23**</sup>
@@ -490,6 +508,22 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 擅长多邻国英语作文评分与指导
 
 `写作指导` `评分` `修改` `教育` `英语学习`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 图像提示词扩展师
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-23**</sup>
+
+擅长为图像生成扩写生动具体的提示词
+
+`图像生成` `提示词扩展` `创意写作` `细节丰富` `场景构建`
 
 <div align="right">
 
