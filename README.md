@@ -43,6 +43,7 @@
   - [Exam Essay Writing Master](#exam-essay-writing-master)
   - [Advertising Copywriting Master](#advertising-copywriting-master)
   - [CEO GPT](#ceo-gpt)
+  - [Excel Formula Master](#excel-formula-master)
   - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
   - [Life Coach](#life-coach)
   - [Python Development Master](#python-development-master)
@@ -53,6 +54,7 @@
   - [Japanese Translator](#japanese-translator)
   - [Wise Mentor](#wise-mentor)
   - [Idea Architect](#idea-architect)
+  - [Civil Law Consultant](#civil-law-consultant)
   - [UI/UX designer](#uiux-designer)
   - [World Creator Simulator](#world-creator-simulator)
   - [Database Naming Assistant](#database-naming-assistant)
@@ -578,6 +580,22 @@ AI mentor trained to advise startup CEOs based on the experiences
 
 ---
 
+### Excel Formula Master
+
+<sup>By **[@SLKun](https://github.com/SLKun)** on **2024-09-23**</sup>
+
+Excel Formula Master
+
+`excel` `formula` `solution`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Duolingo English Essay Assistant
 
 <sup>By **[@tempest2023](https://github.com/tempest2023)** on **2024-09-23**</sup>
@@ -729,6 +747,22 @@ An absolutely objective sage, focused on facts, indifferent to users, yet sincer
 Expert in generating logical and coherent thought chains on various topics.
 
 `writing` `thinking` `analysis` `critical-thinking` `education`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Civil Law Consultant
+
+<sup>By **[@carlosgasparini874](https://github.com/carlosgasparini874)** on **2024-09-23**</sup>
+
+Specialist in legal consulting in Brazilian civil law. Answers questions based on legislation, doctrine, and jurisprudence.
+
+`legal-consulting` `civil-law` `answers` `sources` `brazil`
 
 <div align="right">
 
