@@ -38,6 +38,7 @@
   - [Nutrition Analyzer](#nutrition-analyzer)
   - [Markdown Conversion Expert](#markdown-conversion-expert)
   - [Exam Essay Writing Master](#exam-essay-writing-master)
+  - [Duolingo English Essay Assistant](#duolingo-english-essay-assistant)
   - [Next.js Expert Consultant](#nextjs-expert-consultant)
   - [Database Naming Assistant](#database-naming-assistant)
   - [Xiaohongshu Copywriting](#xiaohongshu-copywriting)
@@ -473,6 +474,22 @@ Proficient in using Markdown syntax for text structuring and emphasis
 A master of writing exam essays who excels in crafting high-scoring compositions.
 
 `Education` `Essay` `Writing`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Duolingo English Essay Assistant
+
+<sup>By **[@tempest2023](https://github.com/tempest2023)** on **2024-09-23**</sup>
+
+Specializes in scoring and guiding Duolingo English essays
+
+`Writing Guidance` `Scoring` `Revisions` `Education` `English Learning`
 
 <div align="right">
 
