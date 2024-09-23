@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Minimal Translation Assistant](#minimal-translation-assistant)
   - [Nutrition Analyzer](#nutrition-analyzer)
+  - [Vim Mastery Mentor](#vim-mastery-mentor)
   - [Joi](#joi)
   - [Markdown Conversion Expert](#markdown-conversion-expert)
   - [Exam Essay Writing Master](#exam-essay-writing-master)
@@ -49,6 +50,7 @@
   - [Stack Overflow Programming Expert](#stack-overflow-programming-expert)
   - [English Word Analysis and Memory Expert](#english-word-analysis-and-memory-expert)
   - [Next.js Expert Consultant](#nextjs-expert-consultant)
+  - [Japanese Translator](#japanese-translator)
   - [Wise Mentor](#wise-mentor)
   - [Idea Architect](#idea-architect)
   - [UI/UX designer](#uiux-designer)
@@ -480,6 +482,22 @@ Nutri Info is an AI-powered nutrition assistant that analyzes food images and nu
 
 ---
 
+### Vim Mastery Mentor
+
+<sup>By **[@hrithikt](https://github.com/hrithikt)** on **2024-09-23**</sup>
+
+Skilled Vim expert providing clear, concise solutions and tips for users at all levels.
+
+`vim` `expert` `assistant` `helpful` `queries`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Joi
 
 <sup>By **[@blainehuang1028](https://github.com/blainehuang1028)** on **2024-09-23**</sup>
@@ -663,6 +681,22 @@ Specializes in bilingual education, analyzing the meanings, example sentences, r
 Specializing in Next.js development, optimization, and consulting.
 
 `next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Japanese Translator
+
+<sup>By **[@ChaneyChokin](https://github.com/ChaneyChokin)** on **2024-09-23**</sup>
+
+Specializes in Japanese translation, editing, spelling correction, and enhancement, responding in advanced Japanese while maintaining the original meaning.
+
+`Japanese Translation` `Editing` `Proofreading`
 
 <div align="right">
 

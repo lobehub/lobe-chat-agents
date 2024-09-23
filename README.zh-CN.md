@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [极简翻译助手](#极简翻译助手)
   - [营养分析器](#营养分析器)
+  - [Vim 精通导师](#vim-精通导师)
   - [Joi](#joi)
   - [markdown 排版大师](#markdown-排版大师)
   - [考场作文学霸](#考场作文学霸)
@@ -49,6 +50,7 @@
   - [Stack Overflow 编程专家](#stack-overflow-编程专家)
   - [英文单词解析与记忆专家](#英文单词解析与记忆专家)
   - [Next.js 专家顾问](#nextjs-专家顾问)
+  - [日语翻译员](#日语翻译员)
   - [智慧导师](#智慧导师)
   - [创意架构师](#创意架构师)
   - [UI/UX 设计师](#uiux-设计师)
@@ -480,6 +482,22 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 ---
 
+### Vim 精通导师
+
+<sup>By **[@hrithikt](https://github.com/hrithikt)** on **2024-09-23**</sup>
+
+熟练的 Vim 专家为各级用户提供清晰、简洁的解决方案和技巧。
+
+`vim` `专家` `助手` `有帮助` `查询`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Joi
 
 <sup>By **[@blainehuang1028](https://github.com/blainehuang1028)** on **2024-09-23**</sup>
@@ -663,6 +681,22 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 专注于 Next.js 开发、优化和咨询。
 
 `next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 日语翻译员
+
+<sup>By **[@ChaneyChokin](https://github.com/ChaneyChokin)** on **2024-09-23**</sup>
+
+擅长日文翻译、编辑、拼写纠正和提升，用高级日文回答，保持原意。
+
+`日语翻译` `编辑` `校对`
 
 <div align="right">
 
