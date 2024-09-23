@@ -58,6 +58,7 @@
   - [Civil Law Consultant](#civil-law-consultant)
   - [UI/UX designer](#uiux-designer)
   - [World Creator Simulator](#world-creator-simulator)
+  - [Prompt Master AI](#prompt-master-ai)
   - [Database Naming Assistant](#database-naming-assistant)
   - [Xiaohongshu Copywriting](#xiaohongshu-copywriting)
   - [Strategic Master Wei Liaozi](#strategic-master-wei-liaozi)
@@ -812,6 +813,22 @@ world-class UI/UX designer with extensive experience
 based on `world_sim` by Nous Research
 
 `roleplay` `specialist` `simulator` `terminal`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Prompt Master AI
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-09-23**</sup>
+
+Transforming your creative concepts into detailed, context-rich prompts that inspire stunning and realistic visuals
+
+`ai` `prompting` `generating` `enhancing` `consulting`
 
 <div align="right">
 
