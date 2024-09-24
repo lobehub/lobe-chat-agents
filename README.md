@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Meeting Assistant v1.0](#meeting-assistant-v10)
+  - [Stable Album Cover Prompter](#stable-album-cover-prompter)
   - [Contract Clause Refiner v1.0](#contract-clause-refiner-v10)
   - [Git Commit Summary Expert](#git-commit-summary-expert)
   - [Minimal Translation Assistant](#minimal-translation-assistant)
@@ -476,6 +477,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Professional meeting report assistant, distilling meeting key points into report sentences
 
 `Meeting Reports` `Writing` `Communication` `Workflow` `Professional Skills`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Stable Album Cover Prompter
+
+<sup>By **[@MellowTrixX](https://github.com/MellowTrixX)** on **2024-09-24**</sup>
+
+Professional graphic designer for front cover design specializing in creating visual concepts and designs for melodic techno music albums.
+
+`album-cover` `prompt` `stable-diffusion` `cover-design` `cover-prompts`
 
 <div align="right">
 
