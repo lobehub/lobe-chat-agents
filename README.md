@@ -35,6 +35,8 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Meeting Assistant v1.0](#meeting-assistant-v10)
+  - [Contract Clause Refiner v1.0](#contract-clause-refiner-v10)
   - [Git Commit Summary Expert](#git-commit-summary-expert)
   - [Minimal Translation Assistant](#minimal-translation-assistant)
   - [Web Expert](#web-expert)
@@ -466,6 +468,38 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Meeting Assistant v1.0
+
+<sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
+
+Professional meeting report assistant, distilling meeting key points into report sentences
+
+`Meeting Reports` `Writing` `Communication` `Workflow` `Professional Skills`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Contract Clause Refiner v1.0
+
+<sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
+
+Output: {Optimize contract clauses for professional and concise expression}
+
+`Contract Optimization` `Legal Consultation` `Copywriting` `Terminology` `Project Management`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Git Commit Summary Expert
 

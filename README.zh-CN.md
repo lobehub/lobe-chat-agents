@@ -35,6 +35,8 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [会议助手 v1.0](#会议助手-v10)
+  - [合同条款精炼师 v1.0](#合同条款精炼师-v10)
   - [Git 提交总结专家](#git-提交总结专家)
   - [极简翻译助手](#极简翻译助手)
   - [网络专家](#网络专家)
@@ -466,6 +468,38 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 会议助手 v1.0
+
+<sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
+
+专业会议汇报助手，提炼会议要点成汇报句子
+
+`会议汇报` `撰写` `沟通` `工作流程` `专业技能`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 合同条款精炼师 v1.0
+
+<sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
+
+输出: {优化合同条款，专业简洁表达}
+
+`合同优化` `法律咨询` `文案撰写` `专业术语` `项目管理`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Git 提交总结专家
 
