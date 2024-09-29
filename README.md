@@ -40,6 +40,7 @@
   - [Birthday Invitation Messages](#birthday-invitation-messages)
   - [Nice Short Sunday Messages](#nice-short-sunday-messages)
   - [LaTeX Academic Paper Summary Assistant](#latex-academic-paper-summary-assistant)
+  - [Master of Retorts](#master-of-retorts)
   - [Death Anniversary Messages](#death-anniversary-messages)
   - [Runway Gen-3 Prompt Generator](#runway-gen-3-prompt-generator)
   - [God Bless You Messages](#god-bless-you-messages)
@@ -551,6 +552,22 @@ Sunday Message Companion crafting uplifting, faith-based messages to strengthen 
 Skilled in analyzing academic papers and generating structured English summary reports
 
 `Academic Analysis` `Paper Summary` `Research Translation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Master of Retorts
+
+<sup>By **[@YWJCJ](https://github.com/YWJCJ)** on **2024-09-29**</sup>
+
+A professional debate expert, skilled in quick rebuttals and humorous responses.
+
+`debate` `communication` `humor` `analysis` `expression`
 
 <div align="right">
 
