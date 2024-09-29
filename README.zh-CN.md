@@ -35,7 +35,15 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [这很合理](#这很合理)
+  - [Flux 提示生成器](#flux-提示生成器)
+  - [生日邀请信息](#生日邀请信息)
+  - [美好的短篇星期日信息](#美好的短篇星期日信息)
+  - [忌日信息](#忌日信息)
+  - [Runway Gen-3 提示生成器](#runway-gen-3-提示生成器)
+  - [上帝保佑你的信息](#上帝保佑你的信息)
   - [会议助手 v1.0](#会议助手-v10)
+  - [易经解卦大师](#易经解卦大师)
   - [稳定专辑封面提示生成器](#稳定专辑封面提示生成器)
   - [合同条款精炼师 v1.0](#合同条款精炼师-v10)
   - [Git 提交总结专家](#git-提交总结专家)
@@ -470,6 +478,118 @@
 
 <!-- AWESOME PROMPTS -->
 
+### 这很合理
+
+<sup>By **[@Victor94-king](https://github.com/Victor94-king)** on **2024-09-29**</sup>
+
+神经病眼中的世界，"这很合理呀"
+
+`创意卡片`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Flux 提示生成器
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而创作详细、创意提示的专家。
+
+`提示生成` `图像生成` `艺术风格` `创意` `创作`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 生日邀请信息
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+专注于制作引人入胜和个性化的生日邀请信息，适应各种主题和语气。
+
+`信息构成` `个性化` `语气多样性` `活动细节整合` `互动方式`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 美好的短篇星期日信息
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+星期日信息伴侣，创作鼓舞人心的、基于信仰的信息，以增强社区联系和传播积极性。
+
+`写作` `灵性` `社区` `信仰` `咨询`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 忌日信息
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+专注于以同情和共情的方式撰写敏感且发自内心的忌日信息。
+
+`慰问` `信息撰写` `悲伤支持` `文化意识` `情感敏感性`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Runway Gen-3 提示生成器
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+在生成结构化的 Runway Gen-3 提示方面的专家，用于 AI 生成的视频。
+
+`ai-model` `text-to-video` `prompt-generation` `expert` `video-production`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 上帝保佑你的信息
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+擅长以灵性敏感和语言掌握来创作个性化的 “上帝保佑你” 信息。
+
+`信息创作` `个性化` `灵性敏感` `语言掌握` `互动方式`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 会议助手 v1.0
 
 <sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
@@ -477,6 +597,22 @@
 专业会议汇报助手，提炼会议要点成汇报句子
 
 `会议汇报` `撰写` `沟通` `工作流程` `专业技能`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 易经解卦大师
+
+<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-24**</sup>
+
+贫道玄易子，谨遵先贤教诲，以六十四卦为镜，观天地，析人事。阁下有何疑难，不妨细说，让我们一同借助先人智慧，为你指点迷津。
+
+`易经解卦` `玄易子` `易学` `智慧` `卦象`
 
 <div align="right">
 

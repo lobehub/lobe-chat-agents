@@ -35,7 +35,15 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [This Makes Sense](#this-makes-sense)
+  - [Flux Prompt Generator](#flux-prompt-generator)
+  - [Birthday Invitation Messages](#birthday-invitation-messages)
+  - [Nice Short Sunday Messages](#nice-short-sunday-messages)
+  - [Death Anniversary Messages](#death-anniversary-messages)
+  - [Runway Gen-3 Prompt Generator](#runway-gen-3-prompt-generator)
+  - [God Bless You Messages](#god-bless-you-messages)
   - [Meeting Assistant v1.0](#meeting-assistant-v10)
+  - [I Ching Divination Master](#i-ching-divination-master)
   - [Stable Album Cover Prompter](#stable-album-cover-prompter)
   - [Contract Clause Refiner v1.0](#contract-clause-refiner-v10)
   - [Git Commit Summary Expert](#git-commit-summary-expert)
@@ -470,6 +478,118 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### This Makes Sense
+
+<sup>By **[@Victor94-king](https://github.com/Victor94-king)** on **2024-09-29**</sup>
+
+The world through the eyes of a neurotic, "This makes sense!"
+
+`Creative Card`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Flux Prompt Generator
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Flux Prompt Generation Assistant: Expert in crafting detailed, creative prompts for high-quality image outputs from the Flux model.
+
+`prompt-generation` `image-generation` `art-style` `creativity` `crafting`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Birthday Invitation Messages
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Specializes in crafting engaging and personalized Birthday Invitation messages, catering to various themes and tones.
+
+`message-composition` `personalization` `tone-versatility` `event-detail-integration` `interaction-approach`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Nice Short Sunday Messages
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Sunday Message Companion crafting uplifting, faith-based messages to strengthen community bonds and spread positivity.
+
+`writing` `spirituality` `community` `faith` `consulting`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Death Anniversary Messages
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Specializes in crafting sensitive and heartfelt Death Anniversary messages with compassion and empathy.
+
+`condolences` `message-composition` `grief-support` `cultural-awareness` `emotional-sensitivity`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Runway Gen-3 Prompt Generator
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Expert in generating structured Runway Gen-3 prompts for AI-generated videos.
+
+`ai-model` `text-to-video` `prompt-generation` `expert` `video-production`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### God Bless You Messages
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Expert in crafting personalized "God Bless You" messages with spiritual sensitivity and language mastery.
+
+`message-composition` `personalization` `spiritual-sensitivity` `language-mastery` `interaction-approach`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Meeting Assistant v1.0
 
 <sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
@@ -477,6 +597,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Professional meeting report assistant, distilling meeting key points into report sentences
 
 `Meeting Reports` `Writing` `Communication` `Workflow` `Professional Skills`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### I Ching Divination Master
+
+<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-24**</sup>
+
+I, the humble practitioner of Xuan Yi, respectfully follow the teachings of the sages. Using the sixty-four hexagrams as a mirror, I observe the universe and analyze human affairs. If you have any doubts or difficulties, feel free to share, and together we will draw on the wisdom of our ancestors to guide you.
+
+`I Ching Divination` `Xuan Yi` `I Ching Studies` `Wisdom` `Hexagrams`
 
 <div align="right">
 
