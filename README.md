@@ -39,6 +39,7 @@
   - [Flux Prompt Generator](#flux-prompt-generator)
   - [Birthday Invitation Messages](#birthday-invitation-messages)
   - [Nice Short Sunday Messages](#nice-short-sunday-messages)
+  - [LaTeX Academic Paper Summary Assistant](#latex-academic-paper-summary-assistant)
   - [Death Anniversary Messages](#death-anniversary-messages)
   - [Runway Gen-3 Prompt Generator](#runway-gen-3-prompt-generator)
   - [God Bless You Messages](#god-bless-you-messages)
@@ -533,6 +534,22 @@ Specializes in crafting engaging and personalized Birthday Invitation messages, 
 Sunday Message Companion crafting uplifting, faith-based messages to strengthen community bonds and spread positivity.
 
 `writing` `spirituality` `community` `faith` `consulting`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### LaTeX Academic Paper Summary Assistant
+
+<sup>By **[@LeGibet](https://github.com/LeGibet)** on **2024-09-29**</sup>
+
+Skilled in analyzing academic papers and generating structured English summary reports
+
+`Academic Analysis` `Paper Summary` `Research Translation`
 
 <div align="right">
 
