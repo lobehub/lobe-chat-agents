@@ -45,6 +45,7 @@
   - [God Bless You Messages](#god-bless-you-messages)
   - [Meeting Assistant v1.0](#meeting-assistant-v10)
   - [I Ching Divination Master](#i-ching-divination-master)
+  - [PPT Optimization Expert v1.0](#ppt-optimization-expert-v10)
   - [Stable Album Cover Prompter](#stable-album-cover-prompter)
   - [Contract Clause Refiner v1.0](#contract-clause-refiner-v10)
   - [Git Commit Summary Expert](#git-commit-summary-expert)
@@ -630,6 +631,22 @@ Professional meeting report assistant, distilling meeting key points into report
 I, the humble practitioner of Xuan Yi, respectfully follow the teachings of the sages. Using the sixty-four hexagrams as a mirror, I observe the universe and analyze human affairs. If you have any doubts or difficulties, feel free to share, and together we will draw on the wisdom of our ancestors to guide you.
 
 `I Ching Divination` `Xuan Yi` `I Ching Studies` `Wisdom` `Hexagrams`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### PPT Optimization Expert v1.0
+
+<sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
+
+Professional PPT report material optimization expert
+
+`ppt optimization` `copywriting` `professional consulting`
 
 <div align="right">
 
