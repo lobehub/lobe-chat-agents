@@ -60,3 +60,8 @@ export const checkUniqueIdentifier = (arr) => {
     consola.success('Unique identifier check pass');
   }
 };
+
+export const CheckEnglishIdentifier = (str: string) => {
+  const regex = /^[\d\sA-Za-z-]+$/;
+  return regex.test(str);
+};

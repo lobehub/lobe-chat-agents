@@ -6,7 +6,7 @@ import { execSync } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-import { formatAgentJSON } from './check';
+import { CheckEnglishIdentifier, formatAgentJSON } from './check';
 import { agentsDir, githubHomepage } from './const';
 import { checkHeader, getBuildLocaleAgentFileName, writeJSON } from './utils';
 
@@ -53,7 +53,12 @@ class AutoSubmit {
 
     const { agent, locale } = await this.formatIssue(issue);
 
-    if (!agent.identifier || agent.identifier === 'undefined' || agent.identifier === 'index') {
+    if (
+      !agent.identifier ||
+      agent.identifier === 'undefined' ||
+      agent.identifier === 'index' ||
+      !CheckEnglishIdentifier(agent.identifier)
+    ) {
       await this.createComment(
         [
           `**🚨 Auto Check Fail:** identifier is invalid`,
