@@ -25,6 +25,7 @@ jobs:
         run: bun run format
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_PROXY_URL: ${{ secrets.OPENAI_PROXY_URL }}
 
       - name: Awesome
         run: bun run awesome
