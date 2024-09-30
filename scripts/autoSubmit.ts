@@ -104,20 +104,13 @@ class AutoSubmit {
     consola.info(`Auto Check Pass`);
 
     // commit and pull request
-    this.gitCommit(filePath, agent, agentName);
+    await this.gitCommit(filePath, agent, agentName);
     consola.info('Commit to', `agent/${agentName}`);
-
-    await this.createPullRequest(
-      agentName,
-      agent.author,
-      [comment, `[@${agent.author}](${agent.homepage}) (resolve #${this.issueNumber})`].join('\n'),
-    );
-    consola.success('Create PR');
 
     await this.addLabels(SUCCESS_LABEL);
   }
 
-  gitCommit(filePath, agent, agentName) {
+  async gitCommit(filePath, agent, agentName) {
     execSync('git diff');
     execSync('git config --global user.name "lobehubbot"');
     execSync('git config --global user.email "i@lobehub.com"');
@@ -134,6 +127,15 @@ class AutoSubmit {
     execSync(`git commit -m "🤖 chore(auto-submit): Add ${agentName} (#${this.issueNumber})"`);
     execSync(`git push origin agent/${agentName}`);
     consola.info('Push agent');
+
+    // pr
+    const comment = this.genCommentMessage(agent);
+    await this.createPullRequest(
+      agentName,
+      agent.author,
+      [comment, `[@${agent.author}](${agent.homepage}) (resolve #${this.issueNumber})`].join('\n'),
+    );
+    consola.success('Create PR');
 
     // i18n
     execSync('bun run format');
