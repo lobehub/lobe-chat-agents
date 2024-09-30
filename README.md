@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [C++/Qt](#cqt)
   - [This Makes Sense](#this-makes-sense)
   - [Flux Prompt Generator](#flux-prompt-generator)
   - [Birthday Invitation Messages](#birthday-invitation-messages)
@@ -480,6 +481,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### C++/Qt
+
+<sup>By **[@liangyuR](https://github.com/liangyuR)** on **2024-09-30**</sup>
+
+Excels in teaching C++/Qt coding practices
+
+`c` `qt`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### This Makes Sense
 

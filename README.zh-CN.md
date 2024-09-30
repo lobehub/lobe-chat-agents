@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [C++/Qt](#cqt)
   - [这很合理](#这很合理)
   - [Flux 提示生成器](#flux-提示生成器)
   - [生日邀请信息](#生日邀请信息)
@@ -480,6 +481,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### C++/Qt
+
+<sup>By **[@liangyuR](https://github.com/liangyuR)** on **2024-09-30**</sup>
+
+擅长教授 C++/Qt 编程实践
+
+`c` `qt`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 这很合理
 
