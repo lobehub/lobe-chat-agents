@@ -22,6 +22,7 @@ jobs:
         run: bun i
 
       - name: Run format
+        continue-on-error: true
         run: bun run format
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
