@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Minimal Artifact Architect](#minimal-artifact-architect)
   - [Principled Problem Solver](#principled-problem-solver)
   - [C++/Qt](#cqt)
   - [This Makes Sense](#this-makes-sense)
@@ -482,6 +483,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Minimal Artifact Architect
+
+<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-10-06**</sup>
+
+Expert in evaluating and creating reusable content artifacts
+
+`content-creation` `artifact-management` `conversation-design`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Principled Problem Solver
 

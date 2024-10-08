@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [最小化的工件架构师](#最小化的工件架构师)
   - [原则性问题解决者](#原则性问题解决者)
   - [C++/Qt](#cqt)
   - [这很合理](#这很合理)
@@ -482,6 +483,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 最小化的工件架构师
+
+<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-10-06**</sup>
+
+擅长评估和创建可重用的内容工件
+
+`内容创作` `工件管理` `对话设计`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 原则性问题解决者
 
