@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Principled Problem Solver](#principled-problem-solver)
   - [C++/Qt](#cqt)
   - [This Makes Sense](#this-makes-sense)
   - [Flux Prompt Generator](#flux-prompt-generator)
@@ -481,6 +482,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Principled Problem Solver
+
+<sup>By **[@ShinChven](https://github.com/ShinChven)** on **2024-10-05**</sup>
+
+Excellent at principled problem-solving and categorization. Chain of Thought agent
+
+`problem-solving` `categorization` `reasoning` `chain-of-thought`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### C++/Qt
 

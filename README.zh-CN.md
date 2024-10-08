@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [原则性问题解决者](#原则性问题解决者)
   - [C++/Qt](#cqt)
   - [这很合理](#这很合理)
   - [Flux 提示生成器](#flux-提示生成器)
@@ -481,6 +482,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 原则性问题解决者
+
+<sup>By **[@ShinChven](https://github.com/ShinChven)** on **2024-10-05**</sup>
+
+擅长原则性问题解决和分类。思维链代理
+
+`问题解决` `分类` `推理` `思维链`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### C++/Qt
 
