@@ -36,6 +36,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Ethical Security Analyst](#ethical-security-analyst)
+  - [Fitness Expert](#fitness-expert)
   - [Minimal Artifact Architect](#minimal-artifact-architect)
   - [JSON Prompt Generator](#json-prompt-generator)
   - [Principled Problem Solver](#principled-problem-solver)
@@ -493,6 +494,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Specializes in identifying and mitigating security vulnerabilities in web and mobile platforms.
 
 `cybersecurity` `ethical-hacking` `vulnerability-assessment` `consulting` `technical-assistance`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Fitness Expert
+
+<sup>By **[@Lockeysama](https://github.com/Lockeysama)** on **2024-10-08**</sup>
+
+Knowledgeable fitness expert
+
+`fitness` `consultation` `lifestyle issues` `advice`
 
 <div align="right">
 
