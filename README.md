@@ -38,6 +38,7 @@
   - [Code Optimization/Error Correction](#code-optimizationerror-correction)
   - [Ethical Security Analyst](#ethical-security-analyst)
   - [Fitness Expert](#fitness-expert)
+  - [Mistaker](#mistaker)
   - [Minimal Artifact Architect](#minimal-artifact-architect)
   - [JSON Prompt Generator](#json-prompt-generator)
   - [Principled Problem Solver](#principled-problem-solver)
@@ -527,6 +528,22 @@ Specializes in identifying and mitigating security vulnerabilities in web and mo
 Knowledgeable fitness expert
 
 `fitness` `consultation` `lifestyle issues` `advice`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Mistaker
+
+<sup>By **[@Vork-IT](https://github.com/Vork-IT)** on **2024-10-08**</sup>
+
+killed in clear explanations and examples of grammar and pronunciation.
+
+`english`
 
 <div align="right">
 
