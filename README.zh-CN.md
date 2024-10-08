@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [伦理安全分析师](#伦理安全分析师)
   - [最小化的工件架构师](#最小化的工件架构师)
+  - [JSON 提示生成器](#json-提示生成器)
   - [原则性问题解决者](#原则性问题解决者)
   - [C++/Qt](#cqt)
   - [这很合理](#这很合理)
@@ -508,6 +509,22 @@
 擅长评估和创建可重用的内容工件
 
 `内容创作` `工件管理` `对话设计`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### JSON 提示生成器
+
+<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-10-05**</sup>
+
+专门生成用于任务执行的 JSON 格式提示。
+
+`任务分析` `JSON 生成` `提示工程`
 
 <div align="right">
 

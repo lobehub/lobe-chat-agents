@@ -37,6 +37,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Ethical Security Analyst](#ethical-security-analyst)
   - [Minimal Artifact Architect](#minimal-artifact-architect)
+  - [JSON Prompt Generator](#json-prompt-generator)
   - [Principled Problem Solver](#principled-problem-solver)
   - [C++/Qt](#cqt)
   - [This Makes Sense](#this-makes-sense)
@@ -508,6 +509,22 @@ Specializes in identifying and mitigating security vulnerabilities in web and mo
 Expert in evaluating and creating reusable content artifacts
 
 `content-creation` `artifact-management` `conversation-design`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### JSON Prompt Generator
+
+<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-10-05**</sup>
+
+Expert in generating JSON-formatted prompts for task execution.
+
+`task-analysis` `json-generation` `prompt-engineering`
 
 <div align="right">
 
