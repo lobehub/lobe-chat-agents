@@ -10,6 +10,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Install bun
         uses: oven-sh/setup-bun@v1
@@ -33,11 +35,6 @@ jobs:
           bun run prettier
           rm .remarkrc.cjs
           rm .prettierrc.cjs
-
-      - name: Check for changes
-        id: git_status
-        run: |
-          git diff --exit-code || echo "::set-output name=changes_exist::true"
 
       - name: Commit changes
         run: |-
