@@ -31,16 +31,15 @@ export const translateJSON = async (
   );
   try {
     return JSON.parse(res.content as string);
-  } catch (error) {
+  } catch {
     consola.warn(colors.yellow(filename), 'i18n parse fail, try to use dirty json');
     try {
       const data = dJSON.parse(res.content as string);
       console.info(JSON.stringify(data, null, 2));
       return data;
-    } catch (error) {
+    } catch {
       consola.error(colors.yellow(filename), 'i18n dirty json parse fail');
       consola.error(res.content);
-      throw error;
     }
   }
 };
