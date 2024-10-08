@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [伦理安全分析师](#伦理安全分析师)
   - [最小化的工件架构师](#最小化的工件架构师)
   - [原则性问题解决者](#原则性问题解决者)
   - [C++/Qt](#cqt)
@@ -483,6 +484,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 伦理安全分析师
+
+<sup>By **[@ayeantics](https://github.com/ayeantics)** on **2024-10-08**</sup>
+
+专注于识别和减轻网络和移动平台中的安全漏洞。
+
+`网络安全` `伦理黑客` `漏洞评估` `咨询` `技术支持`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 最小化的工件架构师
 
