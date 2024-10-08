@@ -122,6 +122,11 @@ class AutoSubmit {
     writeJSON(filePath, agent);
     consola.info('Generate file', filePath);
 
+    // prettier
+    execSync(`echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.cjs`);
+    execSync('bun run prettier');
+    consola.info('Prettier');
+
     // commit
     execSync('git add -A');
     execSync(`git commit -m "🤖 chore(auto-submit): Add ${agentName} (#${this.issueNumber})"`);
@@ -136,19 +141,6 @@ class AutoSubmit {
       [comment, `[@${agent.author}](${agent.homepage}) (resolve #${this.issueNumber})`].join('\n'),
     );
     consola.success('Create PR');
-
-    // prettier
-    execSync(`echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.cjs`);
-    execSync('bun run prettier');
-    consola.info('Prettier');
-
-    // commit
-    execSync('git add -A');
-    execSync(
-      `git commit -m "🤖 chore(auto-submit): Generate i18n for ${agentName} (#${this.issueNumber})"`,
-    );
-    execSync(`git push origin agent/${agentName}`);
-    consola.info('Push i18n');
   }
 
   genCommentMessage(json) {
