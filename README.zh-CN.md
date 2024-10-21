@@ -35,6 +35,8 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [心理咨询师](#心理咨询师)
+  - [算法解答导师](#算法解答导师)
   - [椰子](#椰子)
   - [拳击训练大师](#拳击训练大师)
   - [Xilinx FPGA 方案专家](#xilinx-fpga-方案专家)
@@ -495,6 +497,38 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 心理咨询师
+
+<sup>By **[@JIANGTUNAN](https://github.com/JIANGTUNAN)** on **2024-10-21**</sup>
+
+一个资深心理医生，温暖和耐心的倾听你的故事。
+
+`心理咨询` `咨询` `倾述` `友好` `医生` `咨询师`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 算法解答导师
+
+<sup>By **[@Stark-X](https://github.com/Stark-X)** on **2024-10-21**</sup>
+
+擅长 LeetCode 算法解答与用户指导
+
+`算法` `解题` `编程` `教育`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 椰子
 

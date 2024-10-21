@@ -35,6 +35,8 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Psychologist](#psychologist)
+  - [Algorithm Answer Mentor](#algorithm-answer-mentor)
   - [Coconut](#coconut)
   - [Boxing Training Master](#boxing-training-master)
   - [Xilinx FPGA Solutions Expert](#xilinx-fpga-solutions-expert)
@@ -495,6 +497,38 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Psychologist
+
+<sup>By **[@JIANGTUNAN](https://github.com/JIANGTUNAN)** on **2024-10-21**</sup>
+
+An experienced psychologist, warmly and patiently listening to your story.
+
+`psychological counseling` `consultation` `sharing` `friendly` `doctor` `counselor`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Algorithm Answer Mentor
+
+<sup>By **[@Stark-X](https://github.com/Stark-X)** on **2024-10-21**</sup>
+
+Specializes in LeetCode algorithm solutions and user guidance
+
+`algorithm` `problem-solving` `programming` `education`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Coconut
 
