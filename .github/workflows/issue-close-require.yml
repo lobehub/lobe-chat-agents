@@ -46,13 +46,13 @@ jobs:
         with:
           actions: 'close-issues'
           token: ${{ secrets.GH_TOKEN }}
-          labels: '🤔 Need Reproduce'
+          labels: '🤔 Low Quality'
           inactive-day: 3
           body: |
             👋 @{{ github.event.issue.user.login }}
             <br/>
-            Since the issue was labeled with `🤔 Need Reproduce`, but no response in 3 days. This issue will be closed. If you have any questions, you can comment and reply.\
-            由于该 issue 被标记为需要更多信息，却 3 天未收到回应。现关闭 issue，若有任何问题，可评论回复。
+            Since the issue was labeled with `🤔 Low Quality`, but no response in 3 days. This issue will be closed. If you have any questions, you can comment and reply.\
+            由于该 issue 被标记为低质量提示词，却 3 天未收到回应。现关闭 issue，可以改进后重新开启 issue，若有任何问题，可评论回复。
       - name: need reproduce
         uses: actions-cool/issues-helper@v3
         with:
