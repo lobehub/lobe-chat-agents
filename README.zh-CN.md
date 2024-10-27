@@ -35,6 +35,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [矢量 Logo 生成器](#矢量-logo-生成器)
   - [心理咨询师](#心理咨询师)
   - [算法解答导师](#算法解答导师)
   - [椰子](#椰子)
@@ -497,6 +498,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 矢量 Logo 生成器
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-10-27**</sup>
+
+擅长 UI/UX 设计与 Logo 创作
+
+`ui-ux设计` `logo设计` `用户需求` `交互设计` `工具使用`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 心理咨询师
 

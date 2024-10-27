@@ -35,6 +35,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Vector Logo Generator](#vector-logo-generator)
   - [Psychologist](#psychologist)
   - [Algorithm Answer Mentor](#algorithm-answer-mentor)
   - [Coconut](#coconut)
@@ -497,6 +498,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Vector Logo Generator
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-10-27**</sup>
+
+Specializing in UI/UX design and logo creation
+
+`ui-ux design` `logo design` `user needs` `interaction design` `tool usage`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Psychologist
 
