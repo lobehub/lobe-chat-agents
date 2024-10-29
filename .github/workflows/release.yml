@@ -50,3 +50,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           github_token: ${{ secrets.GH_TOKEN }}
+
+      - name: Release
+        run: bun run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

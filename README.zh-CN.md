@@ -16,12 +16,15 @@
 
 [![awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/lobehub/lobe-chat-agents)
 [![website][website-shield]][website-url]
+[![][npm-release-shield]][npm-release-link]
+[![][github-releasedate-shield]][github-releasedate-link]
 [![][github-action-test-shield]][github-action-test-link]
 [![][github-action-release-shield]][github-action-release-link]<br/>
 [![][github-contributors-shield]][github-contributors-link]
 [![][github-forks-shield]][github-forks-link]
 [![][github-stars-shield]][github-stars-link]
 [![][github-issues-shield]][github-issues-link]
+[![][github-license-shield]][github-license-link]
 
 [![](https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/268670869-f1ffbf66-42b6-42cf-a937-9ce1f8328514.png)](https://github.com/lobehub/lobe-chat)
 
@@ -2949,7 +2952,7 @@ C# .NET 技术专家
 
 <sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
 
-Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter_riverpod, riverpod_hook, flutter_hook 사용.
+Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter\_riverpod, riverpod\_hook, flutter\_hook 사용.
 
 `dart` `flutter` `개발` `상태-관리` `riverpod`
 
@@ -7399,8 +7402,8 @@ $ bun install
 
 如果需要在本地运行 `format` 脚本，需要配置相应的环境变量：
 
-| 环境变量           | 类型 | 示例                 |
-| ------------------ | ---- | -------------------- |
+| 环境变量               | 类型 | 示例                   |
+| ------------------ | -- | -------------------- |
 | `OPENAI_API_KEY`   | 必选 | `sk-xxxxxx...xxxxxx` |
 | `OPENAI_PROXY_URL` | 可选 | `-`                  |
 
@@ -7461,8 +7464,14 @@ This project is [MIT](./LICENSE) licensed.
 [github-forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-chat-agents?color=8ae8ff&labelColor=black&style=flat-square
 [github-issues-link]: https://github.com/lobehub/lobe-chat-agents/issues
 [github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-chat-agents?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/lobehub/lobe-chat-agents/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/lobehub/lobe-chat-agents?color=white&labelColor=black&style=flat-square
+[github-releasedate-link]: https://github.com/lobehub/lobe-chat-agents/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-chat-agents?labelColor=black&style=flat-square
 [github-stars-link]: https://github.com/lobehub/lobe-chat-agents/network/stargazers
 [github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents?color=ffcb47&labelColor=black&style=flat-square
+[npm-release-link]: https://www.npmjs.com/package/@lobehub/lobe-chat-agents
+[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/lobe-chat-agents?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
 [pr-welcome-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
 [submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
