@@ -4,17 +4,15 @@
 
 # [1.1.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.0.0...v1.1.0) (2024-10-29)
 
-
 ### ✨ Features
 
-* **AgentSubmit**: Print-to-table [@printtotable](https://github.com/printtotable), closes [#1089](https://github.com/lobehub/lobe-chat-agents/issues/1089) [#1068](https://github.com/lobehub/lobe-chat-agents/issues/1068) ([518da8a](https://github.com/lobehub/lobe-chat-agents/commit/518da8a))
-* **AgentSubmit**: Soft-enginner [@fjhdream](https://github.com/fjhdream), closes [#1090](https://github.com/lobehub/lobe-chat-agents/issues/1090) [#837](https://github.com/lobehub/lobe-chat-agents/issues/837) ([a27cfdb](https://github.com/lobehub/lobe-chat-agents/commit/a27cfdb))
-
+- **AgentSubmit**: Print-to-table [@printtotable](https://github.com/printtotable), closes [#1089](https://github.com/lobehub/lobe-chat-agents/issues/1089) [#1068](https://github.com/lobehub/lobe-chat-agents/issues/1068) ([518da8a](https://github.com/lobehub/lobe-chat-agents/commit/518da8a))
+- **AgentSubmit**: Soft-enginner [@fjhdream](https://github.com/fjhdream), closes [#1090](https://github.com/lobehub/lobe-chat-agents/issues/1090) [#837](https://github.com/lobehub/lobe-chat-agents/issues/837) ([a27cfdb](https://github.com/lobehub/lobe-chat-agents/commit/a27cfdb))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([de1eb3b](https://github.com/lobehub/lobe-chat-agents/commit/de1eb3b))
-* Auto format and add i18n json files ([9e5dac6](https://github.com/lobehub/lobe-chat-agents/commit/9e5dac6))
+- Auto format and add i18n json files ([de1eb3b](https://github.com/lobehub/lobe-chat-agents/commit/de1eb3b))
+- Auto format and add i18n json files ([9e5dac6](https://github.com/lobehub/lobe-chat-agents/commit/9e5dac6))
 
 # 1.0.0 (2024-10-29)
 
