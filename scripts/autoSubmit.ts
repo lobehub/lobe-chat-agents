@@ -160,7 +160,7 @@ class AutoSubmit {
       head: `agent/${agentName}`,
       owner: owner,
       repo: repo,
-      title: `✨ feat(AgentSubmit): ${agentName} @${author}`,
+      title: `✨ feat(agent): ${agentName} @${author}`,
     });
   }
   async getIssue() {
