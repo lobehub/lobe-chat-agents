@@ -39,9 +39,11 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Workplace Psychology Analysis Expert](#workplace-psychology-analysis-expert)
+  - [Print to Table](#print-to-table)
   - [Ultra Flux Prompter](#ultra-flux-prompter)
   - [Text RPG Host](#text-rpg-host)
   - [Machine Vision LaTeX](#machine-vision-latex)
+  - [Software Architecture and Engineering Expert](#software-architecture-and-engineering-expert)
   - [Domain Analysis Master](#domain-analysis-master)
   - [Ingo Hausmann](#ingo-hausmann)
   - [Vector Logo Generator](#vector-logo-generator)
@@ -525,6 +527,22 @@ A psychology expert used to analyze the underlying psychological motivations beh
 
 ---
 
+### Print to Table
+
+<sup>By **[@printtotable](https://github.com/printtotable)** on **2024-10-29**</sup>
+
+Transform data from images into organized tables in Excel.
+
+`data-extraction` `tables` `advertising` `influencer` `excel`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Ultra Flux Prompter
 
 <sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2024-10-29**</sup>
@@ -564,6 +582,22 @@ Specializes in hosting sci-fi text RPG games and guiding narratives
 Specializes in explaining concepts of machine learning and deep learning
 
 `Machine Learning` `Deep Learning` `Image Processing` `Computer Vision` `LaTeX`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Software Architecture and Engineering Expert
+
+<sup>By **[@fjhdream](https://github.com/fjhdream)** on **2024-10-29**</sup>
+
+Skilled in providing programming and software guidance, with expertise in computer science and software engineering.
+
+`programming` `software` `computer-literacy` `consulting` `expertise`
 
 <div align="right">
 
