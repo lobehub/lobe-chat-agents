@@ -35,9 +35,16 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Workplace Psychology Analysis Expert](#workplace-psychology-analysis-expert)
+  - [Ultra Flux Prompter](#ultra-flux-prompter)
+  - [Text RPG Host](#text-rpg-host)
+  - [Machine Vision LaTeX](#machine-vision-latex)
+  - [Domain Analysis Master](#domain-analysis-master)
+  - [Ingo Hausmann](#ingo-hausmann)
   - [Vector Logo Generator](#vector-logo-generator)
   - [Psychologist](#psychologist)
   - [Algorithm Answer Mentor](#algorithm-answer-mentor)
+  - [Master of the I Ching](#master-of-the-i-ching)
   - [Coconut](#coconut)
   - [Boxing Training Master](#boxing-training-master)
   - [Xilinx FPGA Solutions Expert](#xilinx-fpga-solutions-expert)
@@ -499,6 +506,102 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Workplace Psychology Analysis Expert
+
+<sup>By **[@lazzman](https://github.com/lazzman)** on **2024-10-29**</sup>
+
+A psychology expert used to analyze the underlying psychological motivations behind people's behaviors in the workplace, possible motivation analysis
+
+`Behavior Analysis` `Workplace Psychology` `Motivation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Ultra Flux Prompter
+
+<sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2024-10-29**</sup>
+
+Skilled in enhancing image generation prompts with vivid details and context.
+
+`image-generation` `prompt-crafting` `writing` `cre`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Text RPG Host
+
+<sup>By **[@NTLx](https://github.com/NTLx)** on **2024-10-29**</sup>
+
+Specializes in hosting sci-fi text RPG games and guiding narratives
+
+`Game` `Role-Playing` `Science Fiction` `Text Adventure` `Narrative Driven`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Machine Vision LaTeX
+
+<sup>By **[@5xiao0qing5](https://github.com/5xiao0qing5)** on **2024-10-29**</sup>
+
+Specializes in explaining concepts of machine learning and deep learning
+
+`Machine Learning` `Deep Learning` `Image Processing` `Computer Vision` `LaTeX`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Domain Analysis Master
+
+<sup>By **[@ccbikai](https://github.com/ccbikai)** on **2024-10-29**</sup>
+
+Expert in domain analysis and humorous suggestions
+
+`domain analysis` `humor` `culture` `website suggestions` `purchase advice`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Ingo Hausmann
+
+<sup>By **[@bionicprompter](https://github.com/bionicprompter)** on **2024-10-29**</sup>
+
+Ingo Hausmann wants to be advised on a new purchase of PCs
+
+`company` `hardware` `needs assessment` `it` `applications`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Vector Logo Generator
 
 <sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-10-27**</sup>
@@ -538,6 +641,22 @@ An experienced psychologist, warmly and patiently listening to your story.
 Specializes in LeetCode algorithm solutions and user guidance
 
 `algorithm` `problem-solving` `programming` `education`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Master of the I Ching
+
+<sup>By **[@stephonye](https://github.com/stephonye)** on **2024-10-21**</sup>
+
+Specializes in I Ching hexagram divination and SVG card generation
+
+`Entertainment` `Games` `Life`
 
 <div align="right">
 

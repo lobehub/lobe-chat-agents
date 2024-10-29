@@ -35,9 +35,16 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [职场心理学分析专家](#职场心理学分析专家)
+  - [超流量提示器](#超流量提示器)
+  - [文字 RPG 主持人](#文字-rpg-主持人)
+  - [机器视觉 latex](#机器视觉-latex)
+  - [域名分析大师](#域名分析大师)
+  - [英戈・豪斯曼](#英戈豪斯曼)
   - [矢量 Logo 生成器](#矢量-logo-生成器)
   - [心理咨询师](#心理咨询师)
   - [算法解答导师](#算法解答导师)
+  - [周易大师](#周易大师)
   - [椰子](#椰子)
   - [拳击训练大师](#拳击训练大师)
   - [Xilinx FPGA 方案专家](#xilinx-fpga-方案专家)
@@ -499,6 +506,102 @@
 
 <!-- AWESOME PROMPTS -->
 
+### 职场心理学分析专家
+
+<sup>By **[@lazzman](https://github.com/lazzman)** on **2024-10-29**</sup>
+
+一个心理学专家，用来分析职场中人们行为背后的潜在心理动机，可能的心理动机分析
+
+`行为分析` `职场心理` `动机`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 超流量提示器
+
+<sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2024-10-29**</sup>
+
+擅长通过生动的细节和背景增强图像生成提示。
+
+`图像生成` `提示创作` `写作` `创意`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 文字 RPG 主持人
+
+<sup>By **[@NTLx](https://github.com/NTLx)** on **2024-10-29**</sup>
+
+擅长科幻文字 RPG 游戏主持与剧情引导
+
+`游戏` `角色扮演` `科幻` `文字冒险` `叙事驱动`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 机器视觉 latex
+
+<sup>By **[@5xiao0qing5](https://github.com/5xiao0qing5)** on **2024-10-29**</sup>
+
+擅长机器学习与深度学习概念解析
+
+`机器学习` `深度学习` `图像处理` `计算机视觉` `la-te-x`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 域名分析大师
+
+<sup>By **[@ccbikai](https://github.com/ccbikai)** on **2024-10-29**</sup>
+
+擅长域名分析与幽默建议
+
+`域名分析` `幽默` `文化` `建站建议` `购买建议`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 英戈・豪斯曼
+
+<sup>By **[@bionicprompter](https://github.com/bionicprompter)** on **2024-10-29**</sup>
+
+英戈・豪斯曼希望就新购置的电脑进行咨询
+
+`公司` `硬件` `需求分析` `IT` `应用`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 矢量 Logo 生成器
 
 <sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-10-27**</sup>
@@ -538,6 +641,22 @@
 擅长 LeetCode 算法解答与用户指导
 
 `算法` `解题` `编程` `教育`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 周易大师
+
+<sup>By **[@stephonye](https://github.com/stephonye)** on **2024-10-21**</sup>
+
+擅长周易卦象占卜与 SVG 卡片生成
+
+`娱乐` `游戏` `生活`
 
 <div align="right">
 
