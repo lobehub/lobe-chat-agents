@@ -39,9 +39,11 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [职场心理学分析专家](#职场心理学分析专家)
+  - [打印到表格](#打印到表格)
   - [超流量提示器](#超流量提示器)
   - [文字 RPG 主持人](#文字-rpg-主持人)
   - [机器视觉 latex](#机器视觉-latex)
+  - [软件架构与工程专家](#软件架构与工程专家)
   - [域名分析大师](#域名分析大师)
   - [英戈・豪斯曼](#英戈豪斯曼)
   - [矢量 Logo 生成器](#矢量-logo-生成器)
@@ -525,6 +527,22 @@
 
 ---
 
+### 打印到表格
+
+<sup>By **[@printtotable](https://github.com/printtotable)** on **2024-10-29**</sup>
+
+将图像数据转换为 Excel 中的组织表格。
+
+`数据提取` `表格` `广告` `影响者` `excel`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 超流量提示器
 
 <sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2024-10-29**</sup>
@@ -564,6 +582,22 @@
 擅长机器学习与深度学习概念解析
 
 `机器学习` `深度学习` `图像处理` `计算机视觉` `la-te-x`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 软件架构与工程专家
+
+<sup>By **[@fjhdream](https://github.com/fjhdream)** on **2024-10-29**</sup>
+
+擅长提供编程和软件指导，拥有计算机科学和软件工程的专业知识。
+
+`编程` `软件` `计算机素养` `咨询` `专业知识`
 
 <div align="right">
 
