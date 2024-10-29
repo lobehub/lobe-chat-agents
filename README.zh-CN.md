@@ -7504,8 +7504,8 @@ This project is [MIT](./LICENSE) licensed.
 [github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-chat-agents?labelColor=black&style=flat-square
 [github-stars-link]: https://github.com/lobehub/lobe-chat-agents/network/stargazers
 [github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents?color=ffcb47&labelColor=black&style=flat-square
-[npm-release-link]: https://www.npmjs.com/package/@lobehub/lobe-chat-agents
-[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/lobe-chat-agents?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[npm-release-link]: https://www.npmjs.com/package/@lobehub/agents-index
+[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/agents-index?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
 [pr-welcome-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
 [submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
