@@ -2952,7 +2952,7 @@ C# .NET 技术专家
 
 <sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
 
-Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter\_riverpod, riverpod\_hook, flutter\_hook 사용.
+Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter_riverpod, riverpod_hook, flutter_hook 사용.
 
 `dart` `flutter` `개발` `상태-관리` `riverpod`
 
@@ -7402,8 +7402,8 @@ $ bun install
 
 如果需要在本地运行 `format` 脚本，需要配置相应的环境变量：
 
-| 环境变量               | 类型 | 示例                   |
-| ------------------ | -- | -------------------- |
+| 环境变量           | 类型 | 示例                 |
+| ------------------ | ---- | -------------------- |
 | `OPENAI_API_KEY`   | 必选 | `sk-xxxxxx...xxxxxx` |
 | `OPENAI_PROXY_URL` | 可选 | `-`                  |
 

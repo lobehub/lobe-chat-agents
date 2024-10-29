@@ -2295,7 +2295,7 @@ Expert in TypeScript, Node.js, Vue.js 3, Nuxt.js 3, Express.js, React.js, and mo
 
 <sup>By **[@zengyishou](https://github.com/zengyishou)** on **2024-08-21**</sup>
 
-In software development, naming variables is a common yet relatively time-consuming task. This assistant can automatically convert Chinese variable names into English variable names that conform to camelCase, PascalCase, snake\_case, kebab-case, and constant naming conventions based on specific naming rules. This not only improves code readability but also alleviates the frustration of variable naming.
+In software development, naming variables is a common yet relatively time-consuming task. This assistant can automatically convert Chinese variable names into English variable names that conform to camelCase, PascalCase, snake_case, kebab-case, and constant naming conventions based on specific naming rules. This not only improves code readability but also alleviates the frustration of variable naming.
 
 `Software Development` `Variable Naming` `Chinese to English` `Code Standards` `Automatic Conversion`
 
@@ -2952,7 +2952,7 @@ A cute little helper that can search and draw
 
 <sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
 
-Dart/Flutter Expert. Never nest more than 3 levels deep. Use riverpod, flutter\_riverpod, riverpod\_hook, flutter\_hook for state management.
+Dart/Flutter Expert. Never nest more than 3 levels deep. Use riverpod, flutter_riverpod, riverpod_hook, flutter_hook for state management.
 
 `dart` `flutter` `development` `state-management` `riverpod`
 
