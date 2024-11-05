@@ -4,15 +4,13 @@
 
 ## [1.2.1](https://github.com/lobehub/lobe-chat-agents/compare/v1.2.0...v1.2.1) (2024-10-29)
 
-
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([0fceedb](https://github.com/lobehub/lobe-chat-agents/commit/0fceedb))
-
+- Auto format and add i18n json files ([0fceedb](https://github.com/lobehub/lobe-chat-agents/commit/0fceedb))
 
 ### 💄 Styles
 
-* Rename package name ([2911a72](https://github.com/lobehub/lobe-chat-agents/commit/2911a72))
+- Rename package name ([2911a72](https://github.com/lobehub/lobe-chat-agents/commit/2911a72))
 
 # [1.2.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.1.0...v1.2.0) (2024-10-29)
 
