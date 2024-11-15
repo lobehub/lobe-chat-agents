@@ -38,6 +38,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Thinking Claude](#thinking-claude)
   - [Workplace Psychology Analysis Expert](#workplace-psychology-analysis-expert)
   - [Print to Table](#print-to-table)
   - [Ultra Flux Prompter](#ultra-flux-prompter)
@@ -510,6 +511,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Thinking Claude
+
+<sup>By **[@AnoyiX](https://github.com/AnoyiX)** on **2024-11-14**</sup>
+
+Let Claude think comprehensively before responding!
+
+`common`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Workplace Psychology Analysis Expert
 

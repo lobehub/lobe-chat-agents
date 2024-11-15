@@ -38,6 +38,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [思考克劳德](#思考克劳德)
   - [职场心理学分析专家](#职场心理学分析专家)
   - [打印到表格](#打印到表格)
   - [超流量提示器](#超流量提示器)
@@ -510,6 +511,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 思考克劳德
+
+<sup>By **[@AnoyiX](https://github.com/AnoyiX)** on **2024-11-14**</sup>
+
+让克劳德在回应之前全面思考！
+
+`常见`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 职场心理学分析专家
 
