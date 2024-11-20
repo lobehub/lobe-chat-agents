@@ -10,6 +10,21 @@
 
 ### 🎫 Chores
 
+- Auto format and add i18n json files ([902145f](https://github.com/lobehub/lobe-chat-agents/commit/902145f))
+
+# [1.4.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.3.0...v1.4.0) (2024-11-20)
+
+### ✨ Features
+
+- **agent**: Human-writer-simulator [@yufei96](https://github.com/yufei96), closes [#1115](https://github.com/lobehub/lobe-chat-agents/issues/1115) [#1104](https://github.com/lobehub/lobe-chat-agents/issues/1104) ([649e46b](https://github.com/lobehub/lobe-chat-agents/commit/649e46b))
+- **agent**: White-black @Justin3go, closes [#1114](https://github.com/lobehub/lobe-chat-agents/issues/1114) [#1107](https://github.com/lobehub/lobe-chat-agents/issues/1107) ([b340de3](https://github.com/lobehub/lobe-chat-agents/commit/b340de3))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([5a1a09a](https://github.com/lobehub/lobe-chat-agents/commit/5a1a09a))
+
+# [1.3.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.2.1...v1.3.0) (2024-11-15)
+
 ### ✨ Features
 
 - **agent**: Thinking-claude @AnoyiX, closes [#1109](https://github.com/lobehub/lobe-chat-agents/issues/1109) [#1108](https://github.com/lobehub/lobe-chat-agents/issues/1108) ([5283d2e](https://github.com/lobehub/lobe-chat-agents/commit/5283d2e))
