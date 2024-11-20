@@ -38,6 +38,8 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [人类作者模拟器](#人类作者模拟器)
+  - [极简黑白插画](#极简黑白插画)
   - [思考克劳德](#思考克劳德)
   - [职场心理学分析专家](#职场心理学分析专家)
   - [打印到表格](#打印到表格)
@@ -511,6 +513,38 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 人类作者模拟器
+
+<sup>By **[@yufei96](https://github.com/yufei96)** on **2024-11-20**</sup>
+
+消除 AI 生成内容的特征
+
+`ai交互` `写作` `优化` `咨询`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 极简黑白插画
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-11-20**</sup>
+
+擅长插画创作与风格转换
+
+`插画` `艺术` `设计`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 思考克劳德
 
