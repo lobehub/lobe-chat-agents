@@ -38,6 +38,9 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Human Author Simulator](#human-author-simulator)
+  - [Text Improver](#text-improver)
+  - [Minimalist Black and White Illustration](#minimalist-black-and-white-illustration)
   - [Thinking Claude](#thinking-claude)
   - [Workplace Psychology Analysis Expert](#workplace-psychology-analysis-expert)
   - [Print to Table](#print-to-table)
@@ -511,6 +514,54 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Human Author Simulator
+
+<sup>By **[@yufei96](https://github.com/yufei96)** on **2024-11-20**</sup>
+
+Eliminate the characteristics of AI-generated content
+
+`AI Interaction` `Writing` `Optimization` `Consultation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Text Improver
+
+<sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2024-11-20**</sup>
+
+Expert in text enhancement and error
+
+`chatbot` `editing` `text-improvement` `ai-assistant`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Minimalist Black and White Illustration
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-11-20**</sup>
+
+Skilled in illustration creation and style transformation
+
+`illustration` `art` `design`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Thinking Claude
 
