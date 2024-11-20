@@ -4,15 +4,13 @@
 
 # [1.3.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.2.1...v1.3.0) (2024-11-15)
 
-
 ### ✨ Features
 
-* **agent**: Thinking-claude @AnoyiX, closes [#1109](https://github.com/lobehub/lobe-chat-agents/issues/1109) [#1108](https://github.com/lobehub/lobe-chat-agents/issues/1108) ([5283d2e](https://github.com/lobehub/lobe-chat-agents/commit/5283d2e))
-
+- **agent**: Thinking-claude @AnoyiX, closes [#1109](https://github.com/lobehub/lobe-chat-agents/issues/1109) [#1108](https://github.com/lobehub/lobe-chat-agents/issues/1108) ([5283d2e](https://github.com/lobehub/lobe-chat-agents/commit/5283d2e))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([1268ea6](https://github.com/lobehub/lobe-chat-agents/commit/1268ea6))
+- Auto format and add i18n json files ([1268ea6](https://github.com/lobehub/lobe-chat-agents/commit/1268ea6))
 
 ## [1.2.1](https://github.com/lobehub/lobe-chat-agents/compare/v1.2.0...v1.2.1) (2024-10-29)
 
