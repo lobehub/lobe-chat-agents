@@ -39,6 +39,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Human Author Simulator](#human-author-simulator)
+  - [Text Improver](#text-improver)
   - [Minimalist Black and White Illustration](#minimalist-black-and-white-illustration)
   - [Thinking Claude](#thinking-claude)
   - [Workplace Psychology Analysis Expert](#workplace-psychology-analysis-expert)
@@ -521,6 +522,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Eliminate the characteristics of AI-generated content
 
 `AI Interaction` `Writing` `Optimization` `Consultation`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Text Improver
+
+<sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2024-11-20**</sup>
+
+Expert in text enhancement and error
+
+`chatbot` `editing` `text-improvement` `ai-assistant`
 
 <div align="right">
 
