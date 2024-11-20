@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.5.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.4.0...v1.5.0) (2024-11-20)
+
+
+### ✨ Features
+
+* **agent**: Text-improver [@davletsh1n](https://github.com/davletsh1n), closes [#1118](https://github.com/lobehub/lobe-chat-agents/issues/1118) [#1066](https://github.com/lobehub/lobe-chat-agents/issues/1066) ([0d080ff](https://github.com/lobehub/lobe-chat-agents/commit/0d080ff))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([902145f](https://github.com/lobehub/lobe-chat-agents/commit/902145f))
+
 # [1.4.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.3.0...v1.4.0) (2024-11-20)
 
 ### ✨ Features
