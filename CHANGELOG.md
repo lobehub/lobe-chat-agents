@@ -2,7 +2,15 @@
 
 # Changelog
 
-# [1.3.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.2.1...v1.3.0) (2024-11-15)
+# [1.5.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.4.0...v1.5.0) (2024-11-20)
+
+
+### ✨ Features
+
+* **agent**: Text-improver [@davletsh1n](https://github.com/davletsh1n), closes [#1118](https://github.com/lobehub/lobe-chat-agents/issues/1118) [#1066](https://github.com/lobehub/lobe-chat-agents/issues/1066) ([0d080ff](https://github.com/lobehub/lobe-chat-agents/commit/0d080ff))
+
+
+### 🎫 Chores
 
 ### ✨ Features
 
