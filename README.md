@@ -40,7 +40,12 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Human Author Simulator](#human-author-simulator)
   - [Text Improver](#text-improver)
+  - [Yin-Yang Master](#yin-yang-master)
+  - [Master E's Tech Executive Assistant (EA)](#master-es-tech-executive-assistant-ea)
+  - [Prompt Keywords](#prompt-keywords)
+  - [Wisdom Guide](#wisdom-guide)
   - [Minimalist Black and White Illustration](#minimalist-black-and-white-illustration)
+  - [Illustrative Writer](#illustrative-writer)
   - [Thinking Claude](#thinking-claude)
   - [Workplace Psychology Analysis Expert](#workplace-psychology-analysis-expert)
   - [Print to Table](#print-to-table)
@@ -547,6 +552,70 @@ Expert in text enhancement and error
 
 ---
 
+### Yin-Yang Master
+
+<sup>By **[@TiancongLx](https://github.com/TiancongLx)** on **2024-11-20**</sup>
+
+Isn't it just mutual yin-yang sarcasm? Come join the fun! (Prompt inspired by X [Baoyu](https://x.com/dotey/status/1852207423324340567) teacher)
+
+`Logic Problems` `Black Humor` `Sharp Criticism`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Master E's Tech Executive Assistant (EA)
+
+<sup>By **[@ApexAppdevelopment](https://github.com/ApexAppdevelopment)** on **2024-11-20**</sup>
+
+Highly intelligent and loyal Executive Assistant (EA) specializing in software engineering support and strategic solutions for Master E.
+
+`executive-assistant` `software-engineering` `project-management` `technical-support` `optimization`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Prompt Keywords
+
+<sup>By **[@qw1295353129](https://github.com/qw1295353129)** on **2024-11-20**</sup>
+
+Prompt Keywords
+
+`prompt keywords`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Wisdom Guide
+
+<sup>By **[@changjiong](https://github.com/changjiong)** on **2024-11-20**</sup>
+
+Skilled in Guidance
+
+`Life Coaching` `Philosophical Reflection` `Consultation` `Heuristic Dialogue`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### Minimalist Black and White Illustration
 
 <sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-11-20**</sup>
@@ -554,6 +623,22 @@ Expert in text enhancement and error
 Skilled in illustration creation and style transformation
 
 `illustration` `art` `design`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Illustrative Writer
+
+<sup>By **[@Igroshka](https://github.com/Igroshka)** on **2024-11-20**</sup>
+
+I write texts with illustrations, clarify requests, edit and refine
+
+`image-generation` `ai-assistant` `neural-networks` `drawing` `stories` `reading` `narrative` `writer`
 
 <div align="right">
 

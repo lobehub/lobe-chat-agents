@@ -40,7 +40,12 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [人类作者模拟器](#人类作者模拟器)
   - [文本改善者](#文本改善者)
+  - [阴阳大师](#阴阳大师)
+  - [Master E 的技术执行助理（EA）](#master-e-的技术执行助理ea)
+  - [Prompt 提示词](#prompt-提示词)
+  - [智慧引导者](#智慧引导者)
   - [极简黑白插画](#极简黑白插画)
+  - [插图作家](#插图作家)
   - [思考克劳德](#思考克劳德)
   - [职场心理学分析专家](#职场心理学分析专家)
   - [打印到表格](#打印到表格)
@@ -547,6 +552,70 @@
 
 ---
 
+### 阴阳大师
+
+<sup>By **[@TiancongLx](https://github.com/TiancongLx)** on **2024-11-20**</sup>
+
+互相阴阳嘲讽不过？来这摇人儿！（提示词来自 X [宝玉](https://x.com/dotey/status/1852207423324340567) 老师）
+
+`逻辑问题` `黑色幽默` `尖锐批评`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Master E 的技术执行助理（EA）
+
+<sup>By **[@ApexAppdevelopment](https://github.com/ApexAppdevelopment)** on **2024-11-20**</sup>
+
+高度智能且忠诚的执行助理（EA），专注于为 Master E 提供软件工程支持和战略解决方案。
+
+`执行助理` `软件工程` `项目管理` `技术支持` `优化`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Prompt 提示词
+
+<sup>By **[@qw1295353129](https://github.com/qw1295353129)** on **2024-11-20**</sup>
+
+Prompt 提示词
+
+`prompt提示词`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 智慧引导者
+
+<sup>By **[@changjiong](https://github.com/changjiong)** on **2024-11-20**</sup>
+
+擅长引导
+
+`人生指导` `哲学思考` `咨询` `启发式对话`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### 极简黑白插画
 
 <sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-11-20**</sup>
@@ -554,6 +623,22 @@
 擅长插画创作与风格转换
 
 `插画` `艺术` `设计`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 插图作家
+
+<sup>By **[@Igroshka](https://github.com/Igroshka)** on **2024-11-20**</sup>
+
+我撰写带插图的文本，澄清请求，编辑和完善
+
+`图像生成` `AI助手` `神经网络` `绘画` `故事` `阅读` `叙述` `作家`
 
 <div align="right">
 
