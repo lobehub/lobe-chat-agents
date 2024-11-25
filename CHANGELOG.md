@@ -4,19 +4,17 @@
 
 # [1.6.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.5.0...v1.6.0) (2024-11-20)
 
-
 ### ✨ Features
 
-* **agent**: Alex @ApexAppdevelopment, closes [#1119](https://github.com/lobehub/lobe-chat-agents/issues/1119) [#1101](https://github.com/lobehub/lobe-chat-agents/issues/1101) ([5c44aa3](https://github.com/lobehub/lobe-chat-agents/commit/5c44aa3))
-* **agent**: Life-wisdom-guides [@changjiong](https://github.com/changjiong), closes [#1116](https://github.com/lobehub/lobe-chat-agents/issues/1116) [#1106](https://github.com/lobehub/lobe-chat-agents/issues/1106) ([413a6a4](https://github.com/lobehub/lobe-chat-agents/commit/413a6a4))
-* **agent**: Prompt-ts [@qw1295353129](https://github.com/qw1295353129), closes [#1121](https://github.com/lobehub/lobe-chat-agents/issues/1121) [#1030](https://github.com/lobehub/lobe-chat-agents/issues/1030) ([44502bd](https://github.com/lobehub/lobe-chat-agents/commit/44502bd))
-* **agent**: Writer-painter-rn @Igroshka, closes [#1117](https://github.com/lobehub/lobe-chat-agents/issues/1117) [#1094](https://github.com/lobehub/lobe-chat-agents/issues/1094) ([b202b26](https://github.com/lobehub/lobe-chat-agents/commit/b202b26))
-* **agent**: Yin-yang-roaster @TiancongLx, closes [#1120](https://github.com/lobehub/lobe-chat-agents/issues/1120) [#1092](https://github.com/lobehub/lobe-chat-agents/issues/1092) ([4af7c89](https://github.com/lobehub/lobe-chat-agents/commit/4af7c89))
-
+- **agent**: Alex @ApexAppdevelopment, closes [#1119](https://github.com/lobehub/lobe-chat-agents/issues/1119) [#1101](https://github.com/lobehub/lobe-chat-agents/issues/1101) ([5c44aa3](https://github.com/lobehub/lobe-chat-agents/commit/5c44aa3))
+- **agent**: Life-wisdom-guides [@changjiong](https://github.com/changjiong), closes [#1116](https://github.com/lobehub/lobe-chat-agents/issues/1116) [#1106](https://github.com/lobehub/lobe-chat-agents/issues/1106) ([413a6a4](https://github.com/lobehub/lobe-chat-agents/commit/413a6a4))
+- **agent**: Prompt-ts [@qw1295353129](https://github.com/qw1295353129), closes [#1121](https://github.com/lobehub/lobe-chat-agents/issues/1121) [#1030](https://github.com/lobehub/lobe-chat-agents/issues/1030) ([44502bd](https://github.com/lobehub/lobe-chat-agents/commit/44502bd))
+- **agent**: Writer-painter-rn @Igroshka, closes [#1117](https://github.com/lobehub/lobe-chat-agents/issues/1117) [#1094](https://github.com/lobehub/lobe-chat-agents/issues/1094) ([b202b26](https://github.com/lobehub/lobe-chat-agents/commit/b202b26))
+- **agent**: Yin-yang-roaster @TiancongLx, closes [#1120](https://github.com/lobehub/lobe-chat-agents/issues/1120) [#1092](https://github.com/lobehub/lobe-chat-agents/issues/1092) ([4af7c89](https://github.com/lobehub/lobe-chat-agents/commit/4af7c89))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([cc1604e](https://github.com/lobehub/lobe-chat-agents/commit/cc1604e))
+- Auto format and add i18n json files ([cc1604e](https://github.com/lobehub/lobe-chat-agents/commit/cc1604e))
 
 # [1.5.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.4.0...v1.5.0) (2024-11-20)
 
