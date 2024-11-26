@@ -38,6 +38,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [小红书文案生成器](#小红书文案生成器)
   - [All 译英助手（带音标）](#all-译英助手带音标)
   - [人类作者模拟器](#人类作者模拟器)
   - [文本改善者](#文本改善者)
@@ -520,6 +521,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 小红书文案生成器
+
+<sup>By **[@bestZwei](https://github.com/bestZwei)** on **2024-11-26**</sup>
+
+擅长以情感为主的控诉性文案创作
+
+`文案` `小红书` `情绪宣泄`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### All 译英助手（带音标）
 

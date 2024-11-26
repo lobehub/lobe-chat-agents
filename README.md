@@ -38,6 +38,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
   - [All Translation Assistant (with Phonetic Symbols)](#all-translation-assistant-with-phonetic-symbols)
   - [Human Author Simulator](#human-author-simulator)
   - [Text Improver](#text-improver)
@@ -520,6 +521,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Xiaohongshu Copywriting Generator
+
+<sup>By **[@bestZwei](https://github.com/bestZwei)** on **2024-11-26**</sup>
+
+Specializes in emotionally charged accusatory copywriting
+
+`Copywriting` `Xiaohongshu` `Emotional Release`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### All Translation Assistant (with Phonetic Symbols)
 
