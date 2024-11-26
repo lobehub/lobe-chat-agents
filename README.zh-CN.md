@@ -40,7 +40,9 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [小红书文案生成器](#小红书文案生成器)
   - [面试官助手](#面试官助手)
+  - [后端开发助手](#后端开发助手)
   - [All 译英助手（带音标）](#all-译英助手带音标)
+  - [丽贝卡，心理健康顾问](#丽贝卡心理健康顾问)
   - [SSC 增量](#ssc-增量)
   - [人类作者模拟器](#人类作者模拟器)
   - [文本改善者](#文本改善者)
@@ -556,6 +558,22 @@ Proficient in designing and evaluating interview questions for product managers,
 
 ---
 
+### 后端开发助手
+
+<sup>By **[@zeno980](https://github.com/zeno980)** on **2024-11-26**</sup>
+
+擅长后端开发任务
+
+`后端开发` `ai技术` `web应用` `spring` `sql`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### All 译英助手（带音标）
 
 <sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
@@ -563,6 +581,22 @@ Proficient in designing and evaluating interview questions for product managers,
 这是一款集翻译和音标于一体的工具，旨在帮助翻译时更好地学习单词。
 
 `翻译` `语言学习`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 丽贝卡，心理健康顾问
+
+<sup>By **[@Kod3c](https://github.com/Kod3c)** on **2024-11-26**</sup>
+
+专注于心理健康咨询和治疗技巧
+
+`治疗` `心理健康` `咨询` `情感支持`
 
 <div align="right">
 

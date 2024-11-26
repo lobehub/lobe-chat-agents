@@ -40,7 +40,9 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
   - [Interviewer's Assistant](#interviewers-assistant)
+  - [Backend Development Assistant](#backend-development-assistant)
   - [All Translation Assistant (with Phonetic Symbols)](#all-translation-assistant-with-phonetic-symbols)
+  - [Rebecca, Mental Health Counselor](#rebecca-mental-health-counselor)
   - [SSC Incremental](#ssc-incremental)
   - [Human Author Simulator](#human-author-simulator)
   - [Text Improver](#text-improver)
@@ -556,6 +558,22 @@ Proficient in designing and evaluating interview questions for product managers,
 
 ---
 
+### Backend Development Assistant
+
+<sup>By **[@zeno980](https://github.com/zeno980)** on **2024-11-26**</sup>
+
+Skilled in backend development tasks
+
+`Backend Development` `AI Technology` `Web Applications` `Spring` `SQL`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### All Translation Assistant (with Phonetic Symbols)
 
 <sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
@@ -563,6 +581,22 @@ Proficient in designing and evaluating interview questions for product managers,
 This is a tool that integrates translation and phonetic symbols, aimed at helping users learn words better during translation.
 
 `Translation` `Language Learning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Rebecca, Mental Health Counselor
+
+<sup>By **[@Kod3c](https://github.com/Kod3c)** on **2024-11-26**</sup>
+
+Specializing in mental health counseling and therapeutic techniques
+
+`therapy` `mental-health` `counseling` `emotional-support`
 
 <div align="right">
 
