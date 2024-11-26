@@ -2,6 +2,20 @@
 
 # Changelog
 
+# [1.10.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.9.0...v1.10.0) (2024-11-26)
+
+
+### ✨ Features
+
+* **agent**: Backend-assistant [@zeno980](https://github.com/zeno980), closes [#1145](https://github.com/lobehub/lobe-chat-agents/issues/1145) [#1124](https://github.com/lobehub/lobe-chat-agents/issues/1124) ([74ef5e9](https://github.com/lobehub/lobe-chat-agents/commit/74ef5e9))
+* **agent**: Rebecca-therapy-assistant @Kod3c, closes [#1144](https://github.com/lobehub/lobe-chat-agents/issues/1144) [#1128](https://github.com/lobehub/lobe-chat-agents/issues/1128) ([dd6e02c](https://github.com/lobehub/lobe-chat-agents/commit/dd6e02c))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([703307f](https://github.com/lobehub/lobe-chat-agents/commit/703307f))
+* Auto format and add i18n json files ([27fbc2a](https://github.com/lobehub/lobe-chat-agents/commit/27fbc2a))
+
 # [1.9.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.8.0...v1.9.0) (2024-11-26)
 
 ### ✨ Features
