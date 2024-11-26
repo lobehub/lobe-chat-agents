@@ -39,6 +39,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
+  - [Interviewer's Assistant](#interviewers-assistant)
   - [All Translation Assistant (with Phonetic Symbols)](#all-translation-assistant-with-phonetic-symbols)
   - [SSC Incremental](#ssc-incremental)
   - [Human Author Simulator](#human-author-simulator)
@@ -530,6 +531,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Specializes in emotionally charged accusatory copywriting
 
 `Copywriting` `Xiaohongshu` `Emotional Release`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Interviewer's Assistant
+
+<sup>By **[@xandertang](https://github.com/Dr-T)** on **2024-11-26**</sup>
+
+Proficient in designing and evaluating interview questions for product managers, generating interview questions based on resume interpretation results.
+
+`Interview` `Resume` `Recruitment` `Efficiency`
 
 <div align="right">
 

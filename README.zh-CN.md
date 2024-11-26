@@ -39,6 +39,7 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [小红书文案生成器](#小红书文案生成器)
+  - [面试官助手](#面试官助手)
   - [All 译英助手（带音标）](#all-译英助手带音标)
   - [SSC 增量](#ssc-增量)
   - [人类作者模拟器](#人类作者模拟器)
@@ -530,6 +531,22 @@
 擅长以情感为主的控诉性文案创作
 
 `文案` `小红书` `情绪宣泄`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 面试官助手
+
+<sup>By **[@xandertang](https://github.com/Dr-T)** on **2024-11-26**</sup>
+
+Proficient in designing and evaluating interview questions for product managers, generating interview questions based on resume interpretation results.
+
+`面试` `简历` `招聘` `效率`
 
 <div align="right">
 
