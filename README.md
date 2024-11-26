@@ -40,6 +40,7 @@
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
   - [All Translation Assistant (with Phonetic Symbols)](#all-translation-assistant-with-phonetic-symbols)
+  - [SSC Incremental](#ssc-incremental)
   - [Human Author Simulator](#human-author-simulator)
   - [Text Improver](#text-improver)
   - [Yin-Yang Master](#yin-yang-master)
@@ -545,6 +546,22 @@ Specializes in emotionally charged accusatory copywriting
 This is a tool that integrates translation and phonetic symbols, aimed at helping users learn words better during translation.
 
 `Translation` `Language Learning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### SSC Incremental
+
+<sup>By **[@Base03](https://github.com/Base03)** on **2024-11-26**</sup>
+
+Claude minus the Reddit
+
+`technology` `analysis` `software` `ai` `research`
 
 <div align="right">
 
