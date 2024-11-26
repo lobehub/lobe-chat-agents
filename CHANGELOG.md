@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.7.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.6.0...v1.7.0) (2024-11-26)
+
+
+### ✨ Features
+
+* **agent**: Translation-assistant @HttpStatusOK, closes [#1137](https://github.com/lobehub/lobe-chat-agents/issues/1137) [#1136](https://github.com/lobehub/lobe-chat-agents/issues/1136) ([8b3c637](https://github.com/lobehub/lobe-chat-agents/commit/8b3c637))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([096c96a](https://github.com/lobehub/lobe-chat-agents/commit/096c96a))
+
 # [1.6.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.5.0...v1.6.0) (2024-11-20)
 
 ### ✨ Features
