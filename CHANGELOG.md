@@ -4,15 +4,13 @@
 
 # [1.8.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.7.0...v1.8.0) (2024-11-26)
 
-
 ### ✨ Features
 
-* **agent**: Xiaohongshu [@best](https://github.com/best)Zwei, closes [#1142](https://github.com/lobehub/lobe-chat-agents/issues/1142) [#1130](https://github.com/lobehub/lobe-chat-agents/issues/1130) ([c2e7cbc](https://github.com/lobehub/lobe-chat-agents/commit/c2e7cbc))
-
+- **agent**: Xiaohongshu [@best](https://github.com/best)Zwei, closes [#1142](https://github.com/lobehub/lobe-chat-agents/issues/1142) [#1130](https://github.com/lobehub/lobe-chat-agents/issues/1130) ([c2e7cbc](https://github.com/lobehub/lobe-chat-agents/commit/c2e7cbc))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([00cd954](https://github.com/lobehub/lobe-chat-agents/commit/00cd954))
+- Auto format and add i18n json files ([00cd954](https://github.com/lobehub/lobe-chat-agents/commit/00cd954))
 
 # [1.7.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.6.0...v1.7.0) (2024-11-26)
 
