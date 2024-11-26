@@ -38,6 +38,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [All 译英助手（带音标）](#all-译英助手带音标)
   - [人类作者模拟器](#人类作者模拟器)
   - [文本改善者](#文本改善者)
   - [阴阳大师](#阴阳大师)
@@ -519,6 +520,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### All 译英助手（带音标）
+
+<sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
+
+这是一款集翻译和音标于一体的工具，旨在帮助翻译时更好地学习单词。
+
+`翻译` `语言学习`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 人类作者模拟器
 

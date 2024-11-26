@@ -38,6 +38,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [All Translation Assistant (with Phonetic Symbols)](#all-translation-assistant-with-phonetic-symbols)
   - [Human Author Simulator](#human-author-simulator)
   - [Text Improver](#text-improver)
   - [Yin-Yang Master](#yin-yang-master)
@@ -519,6 +520,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### All Translation Assistant (with Phonetic Symbols)
+
+<sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
+
+This is a tool that integrates translation and phonetic symbols, aimed at helping users learn words better during translation.
+
+`Translation` `Language Learning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Human Author Simulator
 
