@@ -2,6 +2,16 @@
 
 # Changelog
 
+# [1.9.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.8.0...v1.9.0) (2024-11-26)
+
+### ✨ Features
+
+- **agent**: Great-for-analysis-coding-and-rubber-ducking @Base03, closes [#1143](https://github.com/lobehub/lobe-chat-agents/issues/1143) [#1132](https://github.com/lobehub/lobe-chat-agents/issues/1132) ([7bdf155](https://github.com/lobehub/lobe-chat-agents/commit/7bdf155))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([004a8c5](https://github.com/lobehub/lobe-chat-agents/commit/004a8c5))
+
 # [1.8.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.7.0...v1.8.0) (2024-11-26)
 
 ### ✨ Features

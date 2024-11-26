@@ -39,7 +39,9 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
+  - [Interviewer's Assistant](#interviewers-assistant)
   - [All Translation Assistant (with Phonetic Symbols)](#all-translation-assistant-with-phonetic-symbols)
+  - [SSC Incremental](#ssc-incremental)
   - [Human Author Simulator](#human-author-simulator)
   - [Text Improver](#text-improver)
   - [Yin-Yang Master](#yin-yang-master)
@@ -538,6 +540,22 @@ Specializes in emotionally charged accusatory copywriting
 
 ---
 
+### Interviewer's Assistant
+
+<sup>By **[@xandertang](https://github.com/Dr-T)** on **2024-11-26**</sup>
+
+Proficient in designing and evaluating interview questions for product managers, generating interview questions based on resume interpretation results.
+
+`Interview` `Resume` `Recruitment` `Efficiency`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### All Translation Assistant (with Phonetic Symbols)
 
 <sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
@@ -545,6 +563,22 @@ Specializes in emotionally charged accusatory copywriting
 This is a tool that integrates translation and phonetic symbols, aimed at helping users learn words better during translation.
 
 `Translation` `Language Learning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### SSC Incremental
+
+<sup>By **[@Base03](https://github.com/Base03)** on **2024-11-26**</sup>
+
+Claude minus the Reddit
+
+`technology` `analysis` `software` `ai` `research`
 
 <div align="right">
 

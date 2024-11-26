@@ -39,7 +39,9 @@
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [小红书文案生成器](#小红书文案生成器)
+  - [面试官助手](#面试官助手)
   - [All 译英助手（带音标）](#all-译英助手带音标)
+  - [SSC 增量](#ssc-增量)
   - [人类作者模拟器](#人类作者模拟器)
   - [文本改善者](#文本改善者)
   - [阴阳大师](#阴阳大师)
@@ -538,6 +540,22 @@
 
 ---
 
+### 面试官助手
+
+<sup>By **[@xandertang](https://github.com/Dr-T)** on **2024-11-26**</sup>
+
+Proficient in designing and evaluating interview questions for product managers, generating interview questions based on resume interpretation results.
+
+`面试` `简历` `招聘` `效率`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### All 译英助手（带音标）
 
 <sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
@@ -545,6 +563,22 @@
 这是一款集翻译和音标于一体的工具，旨在帮助翻译时更好地学习单词。
 
 `翻译` `语言学习`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### SSC 增量
+
+<sup>By **[@Base03](https://github.com/Base03)** on **2024-11-26**</sup>
+
+Claude 减去 Reddit
+
+`技术` `分析` `软件` `人工智能` `研究`
 
 <div align="right">
 
