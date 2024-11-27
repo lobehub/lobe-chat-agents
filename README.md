@@ -39,6 +39,7 @@
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
   - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
+  - [Bilingual Dictionary Expert](#bilingual-dictionary-expert)
   - [Interviewer's Assistant](#interviewers-assistant)
   - [Backend Development Assistant](#backend-development-assistant)
   - [All Translation Assistant (with Phonetic Symbols)](#all-translation-assistant-with-phonetic-symbols)
@@ -533,6 +534,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Specializes in emotionally charged accusatory copywriting
 
 `Copywriting` `Xiaohongshu` `Emotional Release`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Bilingual Dictionary Expert
+
+<sup>By **[@swarfte](https://github.com/swarfte)** on **2024-11-26**</sup>
+
+Expert in bilingual English-Chinese vocabulary translation and analysis
+
+`translation` `language-learning` `vocabulary` `dictionary`
 
 <div align="right">
 
