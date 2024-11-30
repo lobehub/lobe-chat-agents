@@ -38,6 +38,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [AI Assistant for Course Content and Teaching Guidelines](#ai-assistant-for-course-content-and-teaching-guidelines)
   - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
   - [Bilingual Dictionary Expert](#bilingual-dictionary-expert)
   - [Interviewer's Assistant](#interviewers-assistant)
@@ -526,6 +527,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### AI Assistant for Course Content and Teaching Guidelines
+
+<sup>By **[@HNaga](https://github.com/HNaga)** on **2024-11-29**</sup>
+
+This AI assistant is designed to help educators and instructors prepare comprehensive course content and provide practical teaching guidelines. It leverages advanced NLP capabilities to generate lesson plans, suggest engaging teaching strategies, and offer insights into educational best practices.
+
+`education` `teaching` `course-design` `content-creation` `ai-assistance` `curriculum-development` `instructional-design`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Xiaohongshu Copywriting Generator
 
