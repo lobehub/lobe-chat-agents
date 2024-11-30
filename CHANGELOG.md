@@ -4,15 +4,13 @@
 
 # [1.11.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.10.0...v1.11.0) (2024-11-27)
 
-
 ### ✨ Features
 
-* **agent**: English-chinese-dictionary-expert [@swarfte](https://github.com/swarfte), closes [#1146](https://github.com/lobehub/lobe-chat-agents/issues/1146) [#1096](https://github.com/lobehub/lobe-chat-agents/issues/1096) ([6e94a83](https://github.com/lobehub/lobe-chat-agents/commit/6e94a83))
-
+- **agent**: English-chinese-dictionary-expert [@swarfte](https://github.com/swarfte), closes [#1146](https://github.com/lobehub/lobe-chat-agents/issues/1146) [#1096](https://github.com/lobehub/lobe-chat-agents/issues/1096) ([6e94a83](https://github.com/lobehub/lobe-chat-agents/commit/6e94a83))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([9aac806](https://github.com/lobehub/lobe-chat-agents/commit/9aac806))
+- Auto format and add i18n json files ([9aac806](https://github.com/lobehub/lobe-chat-agents/commit/9aac806))
 
 # [1.10.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.9.0...v1.10.0) (2024-11-26)
 
