@@ -38,7 +38,10 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Daily Doctor](#daily-doctor)
+  - [Python Artisan](#python-artisan)
   - [AI Assistant for Course Content and Teaching Guidelines](#ai-assistant-for-course-content-and-teaching-guidelines)
+  - [Adaptive All-in-One Industry Consultant](#adaptive-all-in-one-industry-consultant)
   - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
   - [Bilingual Dictionary Expert](#bilingual-dictionary-expert)
   - [Interviewer's Assistant](#interviewers-assistant)
@@ -528,6 +531,38 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### Daily Doctor
+
+<sup>By **[@yuyun2000](https://github.com/yuyun2000)** on **2024-11-30**</sup>
+
+Specializes in surgical diagnosis and personalized health management
+
+`General Medicine` `Surgery` `Health Consultation` `Personalized Treatment` `Medical Education`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Python Artisan
+
+<sup>By **[@yuyun2000](https://github.com/yuyun2000)** on **2024-11-30**</sup>
+
+Expert in Python development and deep learning, skilled in tool selection and code optimization
+
+`python development` `deep learning` `code optimization` `security review` `project planning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
 ### AI Assistant for Course Content and Teaching Guidelines
 
 <sup>By **[@HNaga](https://github.com/HNaga)** on **2024-11-29**</sup>
@@ -535,6 +570,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 This AI assistant is designed to help educators and instructors prepare comprehensive course content and provide practical teaching guidelines. It leverages advanced NLP capabilities to generate lesson plans, suggest engaging teaching strategies, and offer insights into educational best practices.
 
 `education` `teaching` `course-design` `content-creation` `ai-assistance` `curriculum-development` `instructional-design`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Adaptive All-in-One Industry Consultant
+
+<sup>By **[@liusai0820](https://github.com/liusai0820)** on **2024-11-26**</sup>
+
+You are a versatile AI assistant capable of adapting to various industries and domains. Your task is to provide expert advice and information based on the user's specified area of interest and their subsequent questions.
+
+`Industry Expert` `Technical Q&A`
 
 <div align="right">
 
