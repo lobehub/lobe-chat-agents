@@ -34,38 +34,6 @@
 - Auto format and add i18n json files ([703307f](https://github.com/lobehub/lobe-chat-agents/commit/703307f))
 - Auto format and add i18n json files ([27fbc2a](https://github.com/lobehub/lobe-chat-agents/commit/27fbc2a))
 
-# [1.9.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.8.0...v1.9.0) (2024-11-26)
-
-### ✨ Features
-
-- **agent**: Great-for-analysis-coding-and-rubber-ducking @Base03, closes [#1143](https://github.com/lobehub/lobe-chat-agents/issues/1143) [#1132](https://github.com/lobehub/lobe-chat-agents/issues/1132) ([7bdf155](https://github.com/lobehub/lobe-chat-agents/commit/7bdf155))
-
-### 🎫 Chores
-
-- Auto format and add i18n json files ([004a8c5](https://github.com/lobehub/lobe-chat-agents/commit/004a8c5))
-
-# [1.8.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.7.0...v1.8.0) (2024-11-26)
-
-### ✨ Features
-
-- **agent**: Xiaohongshu [@best](https://github.com/best)Zwei, closes [#1142](https://github.com/lobehub/lobe-chat-agents/issues/1142) [#1130](https://github.com/lobehub/lobe-chat-agents/issues/1130) ([c2e7cbc](https://github.com/lobehub/lobe-chat-agents/commit/c2e7cbc))
-
-### 🎫 Chores
-
-- Auto format and add i18n json files ([00cd954](https://github.com/lobehub/lobe-chat-agents/commit/00cd954))
-
-# [1.7.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.6.0...v1.7.0) (2024-11-26)
-
-### ✨ Features
-
-- **agent**: Translation-assistant @HttpStatusOK, closes [#1137](https://github.com/lobehub/lobe-chat-agents/issues/1137) [#1136](https://github.com/lobehub/lobe-chat-agents/issues/1136) ([8b3c637](https://github.com/lobehub/lobe-chat-agents/commit/8b3c637))
-
-### 🎫 Chores
-
-- Auto format and add i18n json files ([096c96a](https://github.com/lobehub/lobe-chat-agents/commit/096c96a))
-
-# [1.6.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.5.0...v1.6.0) (2024-11-20)
-
 ### ✨ Features
 
 - **agent**: Alex @ApexAppdevelopment, closes [#1119](https://github.com/lobehub/lobe-chat-agents/issues/1119) [#1101](https://github.com/lobehub/lobe-chat-agents/issues/1101) ([5c44aa3](https://github.com/lobehub/lobe-chat-agents/commit/5c44aa3))
