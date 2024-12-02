@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.13.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.12.0...v1.13.0) (2024-12-02)
+
+
+### ✨ Features
+
+* Add fa-IR ([1ddc105](https://github.com/lobehub/lobe-chat-agents/commit/1ddc105))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([5392557](https://github.com/lobehub/lobe-chat-agents/commit/5392557))
+
 # [1.12.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.11.0...v1.12.0) (2024-11-30)
 
 ### ✨ Features
