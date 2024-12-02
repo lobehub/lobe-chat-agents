@@ -2,7 +2,37 @@
 
 # Changelog
 
-# [1.6.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.5.0...v1.6.0) (2024-11-20)
+# [1.12.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.11.0...v1.12.0) (2024-11-30)
+
+### ✨ Features
+
+- **agent**: Course-prep-teaching-guide-ai @HNaga, closes [#1150](https://github.com/lobehub/lobe-chat-agents/issues/1150) [#1149](https://github.com/lobehub/lobe-chat-agents/issues/1149) ([371fb8d](https://github.com/lobehub/lobe-chat-agents/commit/371fb8d))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([b7ca1fd](https://github.com/lobehub/lobe-chat-agents/commit/b7ca1fd))
+
+# [1.11.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.10.0...v1.11.0) (2024-11-27)
+
+### ✨ Features
+
+- **agent**: English-chinese-dictionary-expert [@swarfte](https://github.com/swarfte), closes [#1146](https://github.com/lobehub/lobe-chat-agents/issues/1146) [#1096](https://github.com/lobehub/lobe-chat-agents/issues/1096) ([6e94a83](https://github.com/lobehub/lobe-chat-agents/commit/6e94a83))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([9aac806](https://github.com/lobehub/lobe-chat-agents/commit/9aac806))
+
+# [1.10.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.9.0...v1.10.0) (2024-11-26)
+
+### ✨ Features
+
+- **agent**: Backend-assistant [@zeno980](https://github.com/zeno980), closes [#1145](https://github.com/lobehub/lobe-chat-agents/issues/1145) [#1124](https://github.com/lobehub/lobe-chat-agents/issues/1124) ([74ef5e9](https://github.com/lobehub/lobe-chat-agents/commit/74ef5e9))
+- **agent**: Rebecca-therapy-assistant @Kod3c, closes [#1144](https://github.com/lobehub/lobe-chat-agents/issues/1144) [#1128](https://github.com/lobehub/lobe-chat-agents/issues/1128) ([dd6e02c](https://github.com/lobehub/lobe-chat-agents/commit/dd6e02c))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([703307f](https://github.com/lobehub/lobe-chat-agents/commit/703307f))
+- Auto format and add i18n json files ([27fbc2a](https://github.com/lobehub/lobe-chat-agents/commit/27fbc2a))
 
 ### ✨ Features
 

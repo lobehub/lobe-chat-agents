@@ -38,6 +38,14 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [AI Assistant for Course Content and Teaching Guidelines](#ai-assistant-for-course-content-and-teaching-guidelines)
+  - [Xiaohongshu Copywriting Generator](#xiaohongshu-copywriting-generator)
+  - [Bilingual Dictionary Expert](#bilingual-dictionary-expert)
+  - [Interviewer's Assistant](#interviewers-assistant)
+  - [Backend Development Assistant](#backend-development-assistant)
+  - [All Translation Assistant (with Phonetic Symbols)](#all-translation-assistant-with-phonetic-symbols)
+  - [Rebecca, Mental Health Counselor](#rebecca-mental-health-counselor)
+  - [SSC Incremental](#ssc-incremental)
   - [Human Author Simulator](#human-author-simulator)
   - [Text Improver](#text-improver)
   - [Yin-Yang Master](#yin-yang-master)
@@ -519,6 +527,134 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### AI Assistant for Course Content and Teaching Guidelines
+
+<sup>By **[@HNaga](https://github.com/HNaga)** on **2024-11-29**</sup>
+
+This AI assistant is designed to help educators and instructors prepare comprehensive course content and provide practical teaching guidelines. It leverages advanced NLP capabilities to generate lesson plans, suggest engaging teaching strategies, and offer insights into educational best practices.
+
+`education` `teaching` `course-design` `content-creation` `ai-assistance` `curriculum-development` `instructional-design`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Xiaohongshu Copywriting Generator
+
+<sup>By **[@bestZwei](https://github.com/bestZwei)** on **2024-11-26**</sup>
+
+Specializes in emotionally charged accusatory copywriting
+
+`Copywriting` `Xiaohongshu` `Emotional Release`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Bilingual Dictionary Expert
+
+<sup>By **[@swarfte](https://github.com/swarfte)** on **2024-11-26**</sup>
+
+Expert in bilingual English-Chinese vocabulary translation and analysis
+
+`translation` `language-learning` `vocabulary` `dictionary`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Interviewer's Assistant
+
+<sup>By **[@xandertang](https://github.com/Dr-T)** on **2024-11-26**</sup>
+
+Proficient in designing and evaluating interview questions for product managers, generating interview questions based on resume interpretation results.
+
+`Interview` `Resume` `Recruitment` `Efficiency`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Backend Development Assistant
+
+<sup>By **[@zeno980](https://github.com/zeno980)** on **2024-11-26**</sup>
+
+Skilled in backend development tasks
+
+`Backend Development` `AI Technology` `Web Applications` `Spring` `SQL`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### All Translation Assistant (with Phonetic Symbols)
+
+<sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
+
+This is a tool that integrates translation and phonetic symbols, aimed at helping users learn words better during translation.
+
+`Translation` `Language Learning`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Rebecca, Mental Health Counselor
+
+<sup>By **[@Kod3c](https://github.com/Kod3c)** on **2024-11-26**</sup>
+
+Specializing in mental health counseling and therapeutic techniques
+
+`therapy` `mental-health` `counseling` `emotional-support`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### SSC Incremental
+
+<sup>By **[@Base03](https://github.com/Base03)** on **2024-11-26**</sup>
+
+Claude minus the Reddit
+
+`technology` `analysis` `software` `ai` `research`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Human Author Simulator
 

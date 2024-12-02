@@ -38,6 +38,14 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [课程内容和教学指南的 AI 助手](#课程内容和教学指南的-ai-助手)
+  - [小红书文案生成器](#小红书文案生成器)
+  - [双语词典专家](#双语词典专家)
+  - [面试官助手](#面试官助手)
+  - [后端开发助手](#后端开发助手)
+  - [All 译英助手（带音标）](#all-译英助手带音标)
+  - [丽贝卡，心理健康顾问](#丽贝卡心理健康顾问)
+  - [SSC 增量](#ssc-增量)
   - [人类作者模拟器](#人类作者模拟器)
   - [文本改善者](#文本改善者)
   - [阴阳大师](#阴阳大师)
@@ -519,6 +527,134 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 课程内容和教学指南的 AI 助手
+
+<sup>By **[@HNaga](https://github.com/HNaga)** on **2024-11-29**</sup>
+
+这个 AI 助手旨在帮助教育工作者和讲师准备全面的课程内容并提供实用的教学指南。它利用先进的自然语言处理能力生成课程计划，建议引人入胜的教学策略，并提供教育最佳实践的见解。
+
+`教育` `教学` `课程设计` `内容创作` `人工智能助手` `课程开发` `教学设计`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 小红书文案生成器
+
+<sup>By **[@bestZwei](https://github.com/bestZwei)** on **2024-11-26**</sup>
+
+擅长以情感为主的控诉性文案创作
+
+`文案` `小红书` `情绪宣泄`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 双语词典专家
+
+<sup>By **[@swarfte](https://github.com/swarfte)** on **2024-11-26**</sup>
+
+双语英语 - 中文词汇翻译和分析专家
+
+`翻译` `语言学习` `词汇` `词典`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 面试官助手
+
+<sup>By **[@xandertang](https://github.com/Dr-T)** on **2024-11-26**</sup>
+
+Proficient in designing and evaluating interview questions for product managers, generating interview questions based on resume interpretation results.
+
+`面试` `简历` `招聘` `效率`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 后端开发助手
+
+<sup>By **[@zeno980](https://github.com/zeno980)** on **2024-11-26**</sup>
+
+擅长后端开发任务
+
+`后端开发` `ai技术` `web应用` `spring` `sql`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### All 译英助手（带音标）
+
+<sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
+
+这是一款集翻译和音标于一体的工具，旨在帮助翻译时更好地学习单词。
+
+`翻译` `语言学习`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 丽贝卡，心理健康顾问
+
+<sup>By **[@Kod3c](https://github.com/Kod3c)** on **2024-11-26**</sup>
+
+专注于心理健康咨询和治疗技巧
+
+`治疗` `心理健康` `咨询` `情感支持`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### SSC 增量
+
+<sup>By **[@Base03](https://github.com/Base03)** on **2024-11-26**</sup>
+
+Claude 减去 Reddit
+
+`技术` `分析` `软件` `人工智能` `研究`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 人类作者模拟器
 
