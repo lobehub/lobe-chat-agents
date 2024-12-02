@@ -19,6 +19,7 @@ module.exports = {
     'nl-NL',
     'pl-PL',
     'vi-VN',
+    'fa-IR',
   ],
   modelName: 'gpt-4o-mini',
   temperature: 0.5,
