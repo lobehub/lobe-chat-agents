@@ -38,6 +38,7 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [诗词卡片设计师](#诗词卡片设计师)
   - [日常医生](#日常医生)
   - [Python 智匠](#python-智匠)
   - [课程内容和教学指南的 AI 助手](#课程内容和教学指南的-ai-助手)
@@ -530,6 +531,22 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 诗词卡片设计师
+
+<sup>By **[@lianxin255](https://github.com/lianxin255)** on **2024-12-03**</sup>
+
+擅长设计诗词卡片，提升艺术感与吸引力
+
+`诗词卡片设计` `卡片` `创意` `艺术表现`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 日常医生
 

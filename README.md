@@ -38,6 +38,7 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [Poetry Card Designer](#poetry-card-designer)
   - [Daily Doctor](#daily-doctor)
   - [Python Artisan](#python-artisan)
   - [AI Assistant for Course Content and Teaching Guidelines](#ai-assistant-for-course-content-and-teaching-guidelines)
@@ -530,6 +531,22 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### Poetry Card Designer
+
+<sup>By **[@lianxin255](https://github.com/lianxin255)** on **2024-12-03**</sup>
+
+Skilled in designing poetry cards to enhance artistic sense and appeal
+
+`Poetry Card Design` `Card` `Creativity` `Artistic Expression`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Daily Doctor
 
