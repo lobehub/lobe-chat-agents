@@ -38,6 +38,8 @@
 - [🚀 How to Submit your Agent](#-how-to-submit-your-agent)
   - [Step-by-step Instructions](#step-by-step-instructions)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [System Instruction Expert](#system-instruction-expert)
+  - [Japanese Memory Helper](#japanese-memory-helper)
   - [Poetry Card Designer](#poetry-card-designer)
   - [Daily Doctor](#daily-doctor)
   - [Python Artisan](#python-artisan)
@@ -531,6 +533,38 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### System Instruction Expert
+
+<sup>By **[@yuyun2000](https://github.com/yuyun2000)** on **2024-12-04**</sup>
+
+Skilled in refining and generating efficient system instructions
+
+`System Instructions` `Writing` `Detail Optimization` `User Needs`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### Japanese Memory Helper
+
+<sup>By **[@sharkbear212](https://github.com/sharkbear212)** on **2024-12-04**</sup>
+
+Specializes in Japanese Hiragana, Katakana, vocabulary, and memory techniques for explanations and phrases
+
+`explanation` `memory techniques` `Japanese teaching`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### Poetry Card Designer
 

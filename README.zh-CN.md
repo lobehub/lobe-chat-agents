@@ -38,6 +38,8 @@
 - [🚀 如何提交您的助手](#-如何提交您的助手)
   - [提交步骤](#提交步骤)
 - [🕶 Awesome Prompts](#-awesome-prompts)
+  - [系统指令专家](#系统指令专家)
+  - [日语帮助记忆师](#日语帮助记忆师)
   - [诗词卡片设计师](#诗词卡片设计师)
   - [日常医生](#日常医生)
   - [Python 智匠](#python-智匠)
@@ -531,6 +533,38 @@
 ## 🕶 Awesome Prompts
 
 <!-- AWESOME PROMPTS -->
+
+### 系统指令专家
+
+<sup>By **[@yuyun2000](https://github.com/yuyun2000)** on **2024-12-04**</sup>
+
+擅长精炼与生成高效系统指令
+
+`系统指令` `写作` `细节优化` `用户需求`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+### 日语帮助记忆师
+
+<sup>By **[@sharkbear212](https://github.com/sharkbear212)** on **2024-12-04**</sup>
+
+擅长日语五十音，平假名，片假名，单词和短语解释与记忆技巧
+
+`解释` `记忆技巧` `日语教学`
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
 
 ### 诗词卡片设计师
 
