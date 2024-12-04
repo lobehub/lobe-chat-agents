@@ -4,17 +4,15 @@
 
 # [1.14.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.13.0...v1.14.0) (2024-12-02)
 
-
 ### ✨ Features
 
-* **agent**: Liusai-qibaoba [@liusai0820](https://github.com/liusai0820), closes [#1139](https://github.com/lobehub/lobe-chat-agents/issues/1139) [#1138](https://github.com/lobehub/lobe-chat-agents/issues/1138) ([12251d1](https://github.com/lobehub/lobe-chat-agents/commit/12251d1))
-* **agent**: Yunchat [@yuyun2000](https://github.com/yuyun2000), closes [#1151](https://github.com/lobehub/lobe-chat-agents/issues/1151) [#1147](https://github.com/lobehub/lobe-chat-agents/issues/1147) ([f072d3c](https://github.com/lobehub/lobe-chat-agents/commit/f072d3c))
-* **agent**: Yunchat-docter [@yuyun2000](https://github.com/yuyun2000), closes [#1152](https://github.com/lobehub/lobe-chat-agents/issues/1152) [#1148](https://github.com/lobehub/lobe-chat-agents/issues/1148) ([2e2dc75](https://github.com/lobehub/lobe-chat-agents/commit/2e2dc75))
-
+- **agent**: Liusai-qibaoba [@liusai0820](https://github.com/liusai0820), closes [#1139](https://github.com/lobehub/lobe-chat-agents/issues/1139) [#1138](https://github.com/lobehub/lobe-chat-agents/issues/1138) ([12251d1](https://github.com/lobehub/lobe-chat-agents/commit/12251d1))
+- **agent**: Yunchat [@yuyun2000](https://github.com/yuyun2000), closes [#1151](https://github.com/lobehub/lobe-chat-agents/issues/1151) [#1147](https://github.com/lobehub/lobe-chat-agents/issues/1147) ([f072d3c](https://github.com/lobehub/lobe-chat-agents/commit/f072d3c))
+- **agent**: Yunchat-docter [@yuyun2000](https://github.com/yuyun2000), closes [#1152](https://github.com/lobehub/lobe-chat-agents/issues/1152) [#1148](https://github.com/lobehub/lobe-chat-agents/issues/1148) ([2e2dc75](https://github.com/lobehub/lobe-chat-agents/commit/2e2dc75))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([d7d765c](https://github.com/lobehub/lobe-chat-agents/commit/d7d765c))
+- Auto format and add i18n json files ([d7d765c](https://github.com/lobehub/lobe-chat-agents/commit/d7d765c))
 
 # [1.12.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.11.0...v1.12.0) (2024-11-30)
 
