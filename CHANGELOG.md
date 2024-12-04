@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.15.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.14.0...v1.15.0) (2024-12-04)
+
+
+### ✨ Features
+
+* **agent**: Poetry-card-designer [@lianxin255](https://github.com/lianxin255), closes [#1157](https://github.com/lobehub/lobe-chat-agents/issues/1157) [#1156](https://github.com/lobehub/lobe-chat-agents/issues/1156) ([6a8e6ce](https://github.com/lobehub/lobe-chat-agents/commit/6a8e6ce))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([99f883f](https://github.com/lobehub/lobe-chat-agents/commit/99f883f))
+
 # [1.14.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.13.0...v1.14.0) (2024-12-02)
 
 ### ✨ Features
