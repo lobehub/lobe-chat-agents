@@ -97,7 +97,7 @@ class Builder {
   };
 
   buildFullLocaleAgents = async () => {
-    for (const locale of config.outputLocales) {
+    for (const locale of [config.entryLocale, ...config.outputLocales]) {
       consola.start(`build ${locale}`);
 
       const agents = this.buildSingleLocaleAgents(locale);
