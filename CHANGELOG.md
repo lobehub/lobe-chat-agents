@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.17.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.16.0...v1.17.0) (2024-12-15)
+
+
+### ✨ Features
+
+* Update outputLocales ([3528b6b](https://github.com/lobehub/lobe-chat-agents/commit/3528b6b))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([47f3e15](https://github.com/lobehub/lobe-chat-agents/commit/47f3e15))
+
 # [1.16.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.15.0...v1.16.0) (2024-12-04)
 
 ### ✨ Features
