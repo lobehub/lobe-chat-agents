@@ -52,19 +52,14 @@ class Builder {
       }
 
       // write agent to public dir
-      writeJSONSync(resolve(publicDir, getBuildLocaleAgentFileName(id, locale)), {
-        // @ts-ignore
-        // TODO: remove createdAt
-        createAt: agent.createdAt,
-        ...agent,
-      });
+      if (locale === config.entryLocale) {
+        writeJSONSync(resolve(publicDir, `${id}.en-US.json`), agent);
+      }
+      writeJSONSync(resolve(publicDir, getBuildLocaleAgentFileName(id, locale)), agent);
 
       // add agent meta to index
       agentIndex.push({
         author: agent.author,
-        // @ts-ignore
-        // TODO: remove createdAt
-        createAt: agent.createdAt,
         createdAt: agent.createdAt,
         homepage: agent.homepage,
         identifier: agent.identifier,
@@ -97,7 +92,7 @@ class Builder {
   };
 
   buildFullLocaleAgents = async () => {
-    for (const locale of [config.entryLocale, ...config.outputLocales]) {
+    for (const locale of config.outputLocales) {
       consola.start(`build ${locale}`);
 
       const agents = this.buildSingleLocaleAgents(locale);
@@ -114,6 +109,9 @@ class Builder {
       const agentsIndex = { ...meta, agents, tags };
 
       const indexFileName = getBuildLocaleAgentFileName('index', locale);
+      if (locale === config.entryLocale) {
+        writeJSONSync(resolve(publicDir, 'index.en-US.json'), agentsIndex);
+      }
       writeJSONSync(resolve(publicDir, indexFileName), agentsIndex);
       consola.success(`build ${locale}`);
     }
