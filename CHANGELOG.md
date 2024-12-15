@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.18.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.17.0...v1.18.0) (2024-12-15)
+
+
+### ✨ Features
+
+* Update build ([b9c3141](https://github.com/lobehub/lobe-chat-agents/commit/b9c3141))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([64297f1](https://github.com/lobehub/lobe-chat-agents/commit/64297f1))
+
 # [1.17.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.16.0...v1.17.0) (2024-12-15)
 
 ### ✨ Features
