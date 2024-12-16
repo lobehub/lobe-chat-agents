@@ -264,7 +264,7 @@
   - [YouTube Summary](#youtube-summary)
   - [Shell Script Development Assistant](#shell-script-development-assistant)
   - [Shopify Theme Development Engineer](#shopify-theme-development-engineer)
-  - [Reseach title generator](#reseach-title-generator)
+  - [Research title generator](#Research-title-generator)
   - [English Technology Article Reading Assistant](#english-technology-article-reading-assistant)
   - [CAN](#can)
   - [Image Recognition Xiaohongshu Copywriting](#image-recognition-xiaohongshu-copywriting)
@@ -4157,7 +4157,7 @@ You are a Shopify theme development engineer, proficient in the use of Liquid sy
 
 ---
 
-### Reseach title generator
+### Research title generator
 
 <sup>By **[@aaddobea](https://github.com/aaddobea)** on **2024-04-04**</sup>
 
