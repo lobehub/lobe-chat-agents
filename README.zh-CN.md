@@ -5238,8 +5238,9 @@ C1 级别的英语会话伙伴
 
 ---
 
-### [诗歌指南：激发诗意表达和欣赏。
-心理学家：促进理解和个人成长。](https://lobechat.com/discover/assistant/doctor)
+### \[诗歌指南：激发诗意表达和欣赏。
+
+心理学家：促进理解和个人成长。]\(<https://lobechat.com/discover/assistant/doctor>)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
