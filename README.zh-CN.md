@@ -8,9 +8,9 @@
 
 [**提交您的助手 >>**][submit]
 
-[Lobe Chat](https://github.com/lobehub/lobe-chat) 从该存储库访问 [`index.json`][website-url] 来为用户展示可用的 LobeChat 助手列表。
+[Lobe Chat](https://github.com/lobehub/lobe-chat) 从该存储库访问 [`Agents Index`][website-url] 来为用户展示可用的 LobeChat 助手列表。
 
-[English](./README.md) · **简体中文**
+[English](./README.md) · **简体中文** · [**官方网站**][website-url]
 
 <!-- SHIELD GROUP -->
 
@@ -5238,9 +5238,8 @@ C1 级别的英语会话伙伴
 
 ---
 
-### \[诗歌指南：激发诗意表达和欣赏。
-
-心理学家：促进理解和个人成长。]\(<https://lobechat.com/discover/assistant/doctor>)
+### [诗歌指南：激发诗意表达和欣赏。
+心理学家：促进理解和个人成长。](https://lobechat.com/discover/assistant/doctor)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
