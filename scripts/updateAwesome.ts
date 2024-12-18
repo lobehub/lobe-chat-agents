@@ -14,7 +14,7 @@ const updateAwesome = (filePath: string, md: string, agents, locale?: string) =>
       [identifier, locale, 'json'].filter(Boolean).join('.'),
     );
     const { meta } = readJSONSync(agentConfigPath);
-    const header = `### [${meta.title}](https://lobechat.com/discover/assistant/${identifier})`;
+    const header = `### [${meta.title.replaceAll('[', '').replaceAll(']', '')}](https://lobechat.com/discover/assistant/${identifier})`;
     const subHeader = `<sup>By **[@${author}](${homepage})** on **${createdAt}**</sup>`;
     const desc = [
       `${meta.description}`,
@@ -23,15 +23,7 @@ const updateAwesome = (filePath: string, md: string, agents, locale?: string) =>
         .map((tag) => `\`${tag}\``)
         .join(' ')}`,
     ].join('\n\n');
-    const body = [
-      i === 0 ? false : '---',
-      header,
-      subHeader,
-      desc,
-      `<div align="right">\n\n[![][back-to-top]](#readme-top)\n\n</div>`,
-    ]
-      .filter(Boolean)
-      .join('\n\n');
+    const body = [i === 0 ? false : '---', header, subHeader, desc].filter(Boolean).join('\n\n');
     data.push(body);
   }
 
