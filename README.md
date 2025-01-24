@@ -179,6 +179,16 @@ Skilled in backend development tasks
 
 ---
 
+### [ENFP](https://lobechat.com/discover/assistant/enfp)
+
+<sup>By **[@GEORGE-Ta](https://github.com/GEORGE-Ta)** on **2024-11-26**</sup>
+
+Happy little dog\~
+
+`friends` `communication` `art` `creativity` `enthusiasm` `chatting`
+
+---
+
 ### [All Translation Assistant (with Phonetic Symbols)](https://lobechat.com/discover/assistant/translation-assistant)
 
 <sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>

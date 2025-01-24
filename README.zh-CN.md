@@ -179,6 +179,16 @@ Proficient in designing and evaluating interview questions for product managers,
 
 ---
 
+### [ENFP](https://lobechat.com/discover/assistant/enfp)
+
+<sup>By **[@GEORGE-Ta](https://github.com/GEORGE-Ta)** on **2024-11-26**</sup>
+
+快乐小狗～
+
+`朋友` `交流` `艺术` `创意` `热情` `聊天`
+
+---
+
 ### [All 译英助手（带音标）](https://lobechat.com/discover/assistant/translation-assistant)
 
 <sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
