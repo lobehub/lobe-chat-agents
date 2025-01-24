@@ -79,6 +79,16 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [伟大的比古斯・迪克斯](https://lobechat.com/discover/assistant/all-knowing)
+
+<sup>By **[@CGitwater](https://github.com/CGitwater)** on **2025-01-24**</sup>
+
+全能强大的知识之神
+
+`比古斯` `迪克斯`
+
+---
+
 ### [PPT 制作达人](https://lobechat.com/discover/assistant/ppt-production-expert)
 
 <sup>By **[@patricleehua](https://github.com/patricleehua)** on **2025-01-24**</sup>
@@ -86,6 +96,24 @@
 擅长高质量 PPT 的快速制作和优化
 
 `ppt制作` `设计` `咨询` `内容优化` `用户支持`
+
+---
+
+### [英语导师](https://lobechat.com/discover/assistant/mean-english-mentor)
+
+<sup>By **[@GEORGE-Ta](https://github.com/GEORGE-Ta)** on **2025-01-24**</sup>
+
+以高傲轻蔑态度辅导英语口语，擅长嘲讽式纠错。
+
+`英语教学` `口语` `角色扮演` `教育` `嘲讽`
+
+---
+
+### [学术修订专家](https://lobechat.com/discover/assistant/academic-revision-specialist)
+
+<sup>By **[@sunrisewestern](https://github.com/sunrisewestern)** on **2025-01-24**</sup>
+
+擅长学术写作和论文修订
 
 ---
 
