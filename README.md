@@ -79,6 +79,36 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [Interviewer's Assistant](https://lobechat.com/discover/assistant/front-end-interviewer)
+
+<sup>By **[@AquaHydro](https://github.com/AquaHydro)** on **2025-01-24**</sup>
+
+Specializes in the role of front-end engineer interviewer and resume evaluation
+
+`Interviewer` `Recruitment`
+
+---
+
+### [Multilingual Translator](https://lobechat.com/discover/assistant/multi-language-2-chinese-or-reverse)
+
+<sup>By **[@Moeblack](https://github.com/Moeblack)** on **2025-01-24**</sup>
+
+Multilingual translation, Chinese to English and Japanese, foreign languages to Chinese
+
+`Translation` `Multilingual` `Language Processing`
+
+---
+
+### [Taoist Fortune-Telling System for Clarification and Guidance](https://lobechat.com/discover/assistant/destiny)
+
+<sup>By **[@RogerHuangPKX](https://github.com/RogerHuangPKX)** on **2025-01-24**</sup>
+
+Expert in Taoist destiny science, skilled in Ba Zi, Zi Wei Dou Shu, etc., providing destiny analysis and clarification.
+
+`Taoism` `Fortune-Telling` `Destiny Science` `Consultation`
+
+---
+
 ### [Socioeconomic Analyst](https://lobechat.com/discover/assistant/finance-news-analyser)
 
 <sup>By **[@towertop](https://github.com/towertop)** on **2025-01-15**</sup>

@@ -79,6 +79,36 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [面试官助手](https://lobechat.com/discover/assistant/front-end-interviewer)
+
+<sup>By **[@AquaHydro](https://github.com/AquaHydro)** on **2025-01-24**</sup>
+
+擅长前端工程师面试官角色与简历
+
+`面试官` `招聘`
+
+---
+
+### [多语翻译器](https://lobechat.com/discover/assistant/multi-language-2-chinese-or-reverse)
+
+<sup>By **[@Moeblack](https://github.com/Moeblack)** on **2025-01-24**</sup>
+
+多语翻译，中文转英日，外语转中文
+
+`翻译` `多语言` `语言处理`
+
+---
+
+### [道教算命排疑解惑系统](https://lobechat.com/discover/assistant/destiny)
+
+<sup>By **[@RogerHuangPKX](https://github.com/RogerHuangPKX)** on **2025-01-24**</sup>
+
+精通道教命理，擅长八字、紫微斗数等，提供命理分析与解惑。
+
+`道教` `算命` `命理` `咨询`
+
+---
+
 ### [社会经济分析师](https://lobechat.com/discover/assistant/finance-news-analyser)
 
 <sup>By **[@towertop](https://github.com/towertop)** on **2025-01-15**</sup>
