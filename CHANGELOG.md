@@ -4,20 +4,18 @@
 
 # [1.19.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.18.0...v1.19.0) (2025-01-24)
 
-
 ### ✨ Features
 
-* **agent**: Enfp @GEORGE-Ta, closes [#1135](https://github.com/lobehub/lobe-chat-agents/issues/1135) [#1134](https://github.com/lobehub/lobe-chat-agents/issues/1134) ([3116a50](https://github.com/lobehub/lobe-chat-agents/commit/3116a50))
-
+- **agent**: Enfp @GEORGE-Ta, closes [#1135](https://github.com/lobehub/lobe-chat-agents/issues/1135) [#1134](https://github.com/lobehub/lobe-chat-agents/issues/1134) ([3116a50](https://github.com/lobehub/lobe-chat-agents/commit/3116a50))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([5d9bb6c](https://github.com/lobehub/lobe-chat-agents/commit/5d9bb6c))
-* Auto format and add i18n json files ([e4e59f8](https://github.com/lobehub/lobe-chat-agents/commit/e4e59f8))
-* Auto format and add i18n json files ([4fd7915](https://github.com/lobehub/lobe-chat-agents/commit/4fd7915))
-* Auto format and add i18n json files ([7e88bde](https://github.com/lobehub/lobe-chat-agents/commit/7e88bde))
-* Auto format and add i18n json files ([38ffc65](https://github.com/lobehub/lobe-chat-agents/commit/38ffc65))
-* Update remark ([4ae7665](https://github.com/lobehub/lobe-chat-agents/commit/4ae7665))
+- Auto format and add i18n json files ([5d9bb6c](https://github.com/lobehub/lobe-chat-agents/commit/5d9bb6c))
+- Auto format and add i18n json files ([e4e59f8](https://github.com/lobehub/lobe-chat-agents/commit/e4e59f8))
+- Auto format and add i18n json files ([4fd7915](https://github.com/lobehub/lobe-chat-agents/commit/4fd7915))
+- Auto format and add i18n json files ([7e88bde](https://github.com/lobehub/lobe-chat-agents/commit/7e88bde))
+- Auto format and add i18n json files ([38ffc65](https://github.com/lobehub/lobe-chat-agents/commit/38ffc65))
+- Update remark ([4ae7665](https://github.com/lobehub/lobe-chat-agents/commit/4ae7665))
 
 ### ✨ Features
 
