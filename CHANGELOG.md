@@ -2,6 +2,20 @@
 
 # Changelog
 
+# [1.22.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.21.0...v1.22.0) (2025-01-24)
+
+
+### ✨ Features
+
+* **agent**: Destiny @RogerHuangPKX, closes [#1230](https://github.com/lobehub/lobe-chat-agents/issues/1230) [#1183](https://github.com/lobehub/lobe-chat-agents/issues/1183) ([3a13460](https://github.com/lobehub/lobe-chat-agents/commit/3a13460))
+* **agent**: Front-end-interviewer @AquaHydro, closes [#1231](https://github.com/lobehub/lobe-chat-agents/issues/1231) [#1180](https://github.com/lobehub/lobe-chat-agents/issues/1180) ([27564ff](https://github.com/lobehub/lobe-chat-agents/commit/27564ff))
+* **agent**: Multi-language-2-chinese-or-reverse @Moeblack, closes [#1229](https://github.com/lobehub/lobe-chat-agents/issues/1229) [#1181](https://github.com/lobehub/lobe-chat-agents/issues/1181) ([1b5faa5](https://github.com/lobehub/lobe-chat-agents/commit/1b5faa5))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([3430c0f](https://github.com/lobehub/lobe-chat-agents/commit/3430c0f))
+
 # [1.21.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.20.0...v1.21.0) (2025-01-24)
 
 ### ✨ Features
