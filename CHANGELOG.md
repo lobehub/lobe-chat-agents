@@ -4,20 +4,6 @@
 
 # [1.20.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.19.0...v1.20.0) (2025-01-24)
 
-
-### ✨ Features
-
-* **agent**: Delphi-assistant [@joindfv](https://github.com/joindfv), closes [#1193](https://github.com/lobehub/lobe-chat-agents/issues/1193) [#1192](https://github.com/lobehub/lobe-chat-agents/issues/1192) ([eb2cbe3](https://github.com/lobehub/lobe-chat-agents/commit/eb2cbe3))
-* **agent**: Mj-prompt-engineer @Helium-327, closes [#1197](https://github.com/lobehub/lobe-chat-agents/issues/1197) [#504](https://github.com/lobehub/lobe-chat-agents/issues/504) ([e9d720e](https://github.com/lobehub/lobe-chat-agents/commit/e9d720e))
-* **agent**: Video-gen @Born2BeKind, closes [#1170](https://github.com/lobehub/lobe-chat-agents/issues/1170) [#1169](https://github.com/lobehub/lobe-chat-agents/issues/1169) ([24b28ff](https://github.com/lobehub/lobe-chat-agents/commit/24b28ff))
-
-
-### 🎫 Chores
-
-* Auto format and add i18n json files ([7ffc18c](https://github.com/lobehub/lobe-chat-agents/commit/7ffc18c))
-
-# [1.19.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.18.0...v1.19.0) (2025-01-24)
-
 ### ✨ Features
 
 - **agent**: Enfp @GEORGE-Ta, closes [#1135](https://github.com/lobehub/lobe-chat-agents/issues/1135) [#1134](https://github.com/lobehub/lobe-chat-agents/issues/1134) ([3116a50](https://github.com/lobehub/lobe-chat-agents/commit/3116a50))
