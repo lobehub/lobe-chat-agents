@@ -4,17 +4,15 @@
 
 # [1.24.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.23.0...v1.24.0) (2025-01-24)
 
-
 ### ✨ Features
 
-* **agent**: Academic-revision-specialist [@sunrisewestern](https://github.com/sunrisewestern), closes [#1236](https://github.com/lobehub/lobe-chat-agents/issues/1236) [#1216](https://github.com/lobehub/lobe-chat-agents/issues/1216) ([d6da516](https://github.com/lobehub/lobe-chat-agents/commit/d6da516))
-* **agent**: All-knowing @CGitwater, closes [#1235](https://github.com/lobehub/lobe-chat-agents/issues/1235) [#1217](https://github.com/lobehub/lobe-chat-agents/issues/1217) ([67d20e0](https://github.com/lobehub/lobe-chat-agents/commit/67d20e0))
-* **agent**: Mean-english-mentor @GEORGE-Ta, closes [#1237](https://github.com/lobehub/lobe-chat-agents/issues/1237) [#1179](https://github.com/lobehub/lobe-chat-agents/issues/1179) ([35e7ee8](https://github.com/lobehub/lobe-chat-agents/commit/35e7ee8))
-
+- **agent**: Academic-revision-specialist [@sunrisewestern](https://github.com/sunrisewestern), closes [#1236](https://github.com/lobehub/lobe-chat-agents/issues/1236) [#1216](https://github.com/lobehub/lobe-chat-agents/issues/1216) ([d6da516](https://github.com/lobehub/lobe-chat-agents/commit/d6da516))
+- **agent**: All-knowing @CGitwater, closes [#1235](https://github.com/lobehub/lobe-chat-agents/issues/1235) [#1217](https://github.com/lobehub/lobe-chat-agents/issues/1217) ([67d20e0](https://github.com/lobehub/lobe-chat-agents/commit/67d20e0))
+- **agent**: Mean-english-mentor @GEORGE-Ta, closes [#1237](https://github.com/lobehub/lobe-chat-agents/issues/1237) [#1179](https://github.com/lobehub/lobe-chat-agents/issues/1179) ([35e7ee8](https://github.com/lobehub/lobe-chat-agents/commit/35e7ee8))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([69df817](https://github.com/lobehub/lobe-chat-agents/commit/69df817))
+- Auto format and add i18n json files ([69df817](https://github.com/lobehub/lobe-chat-agents/commit/69df817))
 
 # [1.23.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.22.0...v1.23.0) (2025-01-24)
 
