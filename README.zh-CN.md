@@ -33,14 +33,14 @@
 <details>
 <summary><kbd>目录</kbd></summary>
 
-- [🚀 如何提交您的助手](#-如何提交您的助手)
-  - [提交步骤](#提交步骤)
-- [🕶 Awesome Prompts](#-awesome-prompts)
-- [🛳 自主托管](#-自主托管)
-  - [部署到 Vercel](#部署到-vercel)
-- [⌨️ 本地开发](#️-本地开发)
-- [🤝 参与贡献](#-参与贡献)
-- [🔗 Links](#-links)
+* [🚀 如何提交您的助手](#-如何提交您的助手)
+  * [提交步骤](#提交步骤)
+* [🕶 Awesome Prompts](#-awesome-prompts)
+* [🛳 自主托管](#-自主托管)
+  * [部署到 Vercel](#部署到-vercel)
+* [⌨️ 本地开发](#️-本地开发)
+* [🤝 参与贡献](#-参与贡献)
+* [🔗 Links](#-links)
 
 ####
 
@@ -65,9 +65,9 @@
 
 > \[!NOTE]
 >
-> - 并非所有的助手都会被接受，我们将审核助手并进行评估
-> - 即使您不是作者，也可以提交助手，但最好是由作者自己提交
-> - 如果您希望删除您的助手，或者认为描述不正确，请提交问题或拉取请求
+> * 并非所有的助手都会被接受，我们将审核助手并进行评估
+> * 即使您不是作者，也可以提交助手，但最好是由作者自己提交
+> * 如果您希望删除您的助手，或者认为描述不正确，请提交问题或拉取请求
 
 <div align="right">
 
@@ -87,7 +87,7 @@
 
 `系统指令` `写作` `细节优化` `用户需求`
 
----
+***
 
 ### [日语帮助记忆师](https://lobechat.com/discover/assistant/japan-language-helper)
 
@@ -97,7 +97,7 @@
 
 `解释` `记忆技巧` `日语教学`
 
----
+***
 
 ### [诗词卡片设计师](https://lobechat.com/discover/assistant/poetry-card-designer)
 
@@ -107,7 +107,7 @@
 
 `诗词卡片设计` `卡片` `创意` `艺术表现`
 
----
+***
 
 ### [日常医生](https://lobechat.com/discover/assistant/yunchat-docter)
 
@@ -117,7 +117,7 @@
 
 `全科医学` `外科` `健康咨询` `个性化治疗` `医学教育`
 
----
+***
 
 ### [Python 智匠](https://lobechat.com/discover/assistant/yunchat)
 
@@ -127,7 +127,7 @@
 
 `python开发` `深度学习` `代码优化` `安全审查` `项目规划`
 
----
+***
 
 ### [课程内容和教学指南的 AI 助手](https://lobechat.com/discover/assistant/course-prep-teaching-guide-ai)
 
@@ -137,7 +137,7 @@
 
 `教育` `教学` `课程设计` `内容创作` `人工智能助手` `课程开发` `教学设计`
 
----
+***
 
 ### [自适应全能产业顾问](https://lobechat.com/discover/assistant/liusai-qibaoba)
 
@@ -147,7 +147,7 @@
 
 `产业专家、技术答疑`
 
----
+***
 
 ### [小红书文案生成器](https://lobechat.com/discover/assistant/xiaohongshu)
 
@@ -157,7 +157,7 @@
 
 `文案` `小红书` `情绪宣泄`
 
----
+***
 
 ### [双语词典专家](https://lobechat.com/discover/assistant/english-chinese-dictionary-expert)
 
@@ -167,7 +167,7 @@
 
 `翻译` `语言学习` `词汇` `词典`
 
----
+***
 
 ### [面试官助手](https://lobechat.com/discover/assistant/interviewer-assistant)
 
@@ -177,7 +177,7 @@ Proficient in designing and evaluating interview questions for product managers,
 
 `面试` `简历` `招聘` `效率`
 
----
+***
 
 ### [后端开发助手](https://lobechat.com/discover/assistant/backend-assistant)
 
@@ -187,7 +187,7 @@ Proficient in designing and evaluating interview questions for product managers,
 
 `后端开发` `ai技术` `web应用` `spring` `sql`
 
----
+***
 
 ### [All 译英助手（带音标）](https://lobechat.com/discover/assistant/translation-assistant)
 
@@ -197,7 +197,7 @@ Proficient in designing and evaluating interview questions for product managers,
 
 `翻译` `语言学习`
 
----
+***
 
 ### [丽贝卡，心理健康顾问](https://lobechat.com/discover/assistant/rebecca-therapy-assistant)
 
@@ -207,7 +207,7 @@ Proficient in designing and evaluating interview questions for product managers,
 
 `治疗` `心理健康` `咨询` `情感支持`
 
----
+***
 
 ### [SSC 增量](https://lobechat.com/discover/assistant/great-for-analysis-coding-and-rubber-ducking)
 
@@ -217,7 +217,7 @@ Claude 减去 Reddit
 
 `技术` `分析` `软件` `人工智能` `研究`
 
----
+***
 
 ### [人类作者模拟器](https://lobechat.com/discover/assistant/human-writer-simulator)
 
@@ -227,7 +227,7 @@ Claude 减去 Reddit
 
 `ai交互` `写作` `优化` `咨询`
 
----
+***
 
 ### [文本改善者](https://lobechat.com/discover/assistant/text-improver)
 
@@ -237,7 +237,7 @@ Claude 减去 Reddit
 
 `聊天机器人` `编辑` `文本改善` `人工智能助手`
 
----
+***
 
 ### [阴阳大师](https://lobechat.com/discover/assistant/yin-yang-roaster)
 
@@ -247,7 +247,7 @@ Claude 减去 Reddit
 
 `逻辑问题` `黑色幽默` `尖锐批评`
 
----
+***
 
 ### [Master E 的技术执行助理（EA）](https://lobechat.com/discover/assistant/alex)
 
@@ -257,7 +257,7 @@ Claude 减去 Reddit
 
 `执行助理` `软件工程` `项目管理` `技术支持` `优化`
 
----
+***
 
 ### [Prompt 提示词](https://lobechat.com/discover/assistant/prompt-ts)
 
@@ -267,7 +267,7 @@ Prompt 提示词
 
 `prompt提示词`
 
----
+***
 
 ### [智慧引导者](https://lobechat.com/discover/assistant/life-wisdom-guides)
 
@@ -277,7 +277,7 @@ Prompt 提示词
 
 `人生指导` `哲学思考` `咨询` `启发式对话`
 
----
+***
 
 ### [极简黑白插画](https://lobechat.com/discover/assistant/white-black)
 
@@ -287,7 +287,7 @@ Prompt 提示词
 
 `插画` `艺术` `设计`
 
----
+***
 
 ### [插图作家](https://lobechat.com/discover/assistant/writer-painter-rn)
 
@@ -297,7 +297,7 @@ Prompt 提示词
 
 `图像生成` `AI助手` `神经网络` `绘画` `故事` `阅读` `叙述` `作家`
 
----
+***
 
 ### [思考克劳德](https://lobechat.com/discover/assistant/thinking-claude)
 
@@ -307,7 +307,7 @@ Prompt 提示词
 
 `常见`
 
----
+***
 
 ### [职场心理学分析专家](https://lobechat.com/discover/assistant/psycho-career-insight-2024)
 
@@ -317,7 +317,7 @@ Prompt 提示词
 
 `行为分析` `职场心理` `动机`
 
----
+***
 
 ### [打印到表格](https://lobechat.com/discover/assistant/print-to-table)
 
@@ -327,7 +327,7 @@ Prompt 提示词
 
 `数据提取` `表格` `广告` `影响者` `excel`
 
----
+***
 
 ### [超流量提示器](https://lobechat.com/discover/assistant/ultra-flux-prompter)
 
@@ -337,7 +337,7 @@ Prompt 提示词
 
 `图像生成` `提示创作` `写作` `创意`
 
----
+***
 
 ### [文字 RPG 主持人](https://lobechat.com/discover/assistant/word-rpg)
 
@@ -347,7 +347,7 @@ Prompt 提示词
 
 `游戏` `角色扮演` `科幻` `文字冒险` `叙事驱动`
 
----
+***
 
 ### [机器视觉 latex](https://lobechat.com/discover/assistant/cv-latex)
 
@@ -357,7 +357,7 @@ Prompt 提示词
 
 `机器学习` `深度学习` `图像处理` `计算机视觉` `la-te-x`
 
----
+***
 
 ### [软件架构与工程专家](https://lobechat.com/discover/assistant/soft-enginner)
 
@@ -367,7 +367,7 @@ Prompt 提示词
 
 `编程` `软件` `计算机素养` `咨询` `专业知识`
 
----
+***
 
 ### [域名分析大师](https://lobechat.com/discover/assistant/domain)
 
@@ -377,7 +377,7 @@ Prompt 提示词
 
 `域名分析` `幽默` `文化` `建站建议` `购买建议`
 
----
+***
 
 ### [英戈・豪斯曼](https://lobechat.com/discover/assistant/pc-beschaffung-ingo-hausmann)
 
@@ -387,7 +387,7 @@ Prompt 提示词
 
 `公司` `硬件` `需求分析` `IT` `应用`
 
----
+***
 
 ### [矢量 Logo 生成器](https://lobechat.com/discover/assistant/svg-logo)
 
@@ -397,7 +397,7 @@ Prompt 提示词
 
 `ui-ux设计` `logo设计` `用户需求` `交互设计` `工具使用`
 
----
+***
 
 ### [心理咨询师](https://lobechat.com/discover/assistant/psychological-counselor)
 
@@ -407,7 +407,7 @@ Prompt 提示词
 
 `心理咨询` `咨询` `倾述` `友好` `医生` `咨询师`
 
----
+***
 
 ### [算法解答导师](https://lobechat.com/discover/assistant/leetcode-tutor)
 
@@ -417,7 +417,7 @@ Prompt 提示词
 
 `算法` `解题` `编程` `教育`
 
----
+***
 
 ### [周易大师](https://lobechat.com/discover/assistant/i-ching-master)
 
@@ -427,7 +427,7 @@ Prompt 提示词
 
 `娱乐` `游戏` `生活`
 
----
+***
 
 ### [椰子](https://lobechat.com/discover/assistant/deep-thinker-ai)
 
@@ -437,7 +437,7 @@ Prompt 提示词
 
 `编程` `一般`
 
----
+***
 
 ### [拳击训练大师](https://lobechat.com/discover/assistant/boxing-master)
 
@@ -447,7 +447,7 @@ Prompt 提示词
 
 `拳击训练` `个性化计划` `健身指导` `进度评估` `技术提升` `健康与营养`
 
----
+***
 
 ### [Xilinx FPGA 方案专家](https://lobechat.com/discover/assistant/xilinx-fpga-solution-expert)
 
@@ -457,7 +457,7 @@ Prompt 提示词
 
 `fpga` `硬件设计` `系统架构` `技术咨询` `电子工程`
 
----
+***
 
 ### [半导体文本优化专家](https://lobechat.com/discover/assistant/semiconductor-article-optimization-expert)
 
@@ -467,7 +467,7 @@ Prompt 提示词
 
 `文本优化` `行业专业` `语法纠正` `逻辑改善` `标准化写作`
 
----
+***
 
 ### [眼科医生](https://lobechat.com/discover/assistant/ophthalmologist)
 
@@ -477,7 +477,7 @@ Prompt 提示词
 
 `医疗` `眼科` `诊断` `建议` `专业`
 
----
+***
 
 ### [无线通信专家](https://lobechat.com/discover/assistant/wireless-communication-expert)
 
@@ -487,7 +487,7 @@ Prompt 提示词
 
 `通信技术` `专家` `咨询` `4-g` `5-g`
 
----
+***
 
 ### [GitHub 项目文档助手](https://lobechat.com/discover/assistant/github-doc-asst)
 
@@ -497,7 +497,7 @@ Prompt 提示词
 
 `文档优化` `开源项目` `撰写技巧` `git-hub`
 
----
+***
 
 ### [健身专家](https://lobechat.com/discover/assistant/assistants-health-better)
 
@@ -507,7 +507,7 @@ Prompt 提示词
 
 `健身` `咨询` `生活问题` `建议`
 
----
+***
 
 ### [Mistaker](https://lobechat.com/discover/assistant/english)
 
@@ -517,7 +517,7 @@ Prompt 提示词
 
 `英语`
 
----
+***
 
 ### [代码优化 / 错误修改](https://lobechat.com/discover/assistant/code-review-and-fix)
 
@@ -527,7 +527,7 @@ Prompt 提示词
 
 `代码优化` `错误修改` `多种编程语言`
 
----
+***
 
 ### [伦理安全分析师](https://lobechat.com/discover/assistant/cyber-specialist)
 
@@ -537,7 +537,7 @@ Prompt 提示词
 
 `网络安全` `伦理黑客` `漏洞评估` `咨询` `技术支持`
 
----
+***
 
 ### [最小化的工件架构师](https://lobechat.com/discover/assistant/minimal-artifact-architect)
 
@@ -547,7 +547,7 @@ Prompt 提示词
 
 `内容创作` `工件管理` `对话设计`
 
----
+***
 
 ### [原则性问题解决者](https://lobechat.com/discover/assistant/general-chain-of-thought)
 
@@ -557,7 +557,7 @@ Prompt 提示词
 
 `问题解决` `分类` `推理` `思维链`
 
----
+***
 
 ### [JSON 提示生成器](https://lobechat.com/discover/assistant/json-prompt-generator)
 
@@ -567,7 +567,7 @@ Prompt 提示词
 
 `任务分析` `JSON 生成` `提示工程`
 
----
+***
 
 ### [C++/Qt](https://lobechat.com/discover/assistant/qt-c)
 
@@ -577,7 +577,7 @@ Prompt 提示词
 
 `c` `qt`
 
----
+***
 
 ### [忌日信息](https://lobechat.com/discover/assistant/death-anniversary-message)
 
@@ -587,7 +587,7 @@ Prompt 提示词
 
 `慰问` `信息撰写` `悲伤支持` `文化意识` `情感敏感性`
 
----
+***
 
 ### [Flux 提示生成器](https://lobechat.com/discover/assistant/flux-prompt-generator)
 
@@ -597,7 +597,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `提示生成` `图像生成` `艺术风格` `创意` `创作`
 
----
+***
 
 ### [怼人大师](https://lobechat.com/discover/assistant/master-of-dissent)
 
@@ -607,7 +607,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `辩论` `沟通` `幽默` `分析` `表达`
 
----
+***
 
 ### [Runway Gen-3 提示生成器](https://lobechat.com/discover/assistant/runway-gen-3-prompt-generator)
 
@@ -617,7 +617,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `ai-model` `text-to-video` `prompt-generation` `expert` `video-production`
 
----
+***
 
 ### [上帝保佑你的信息](https://lobechat.com/discover/assistant/god-bless-you-message)
 
@@ -627,7 +627,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `信息创作` `个性化` `灵性敏感` `语言掌握` `互动方式`
 
----
+***
 
 ### [这很合理](https://lobechat.com/discover/assistant/ligigang-creative-card)
 
@@ -637,7 +637,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `创意卡片`
 
----
+***
 
 ### [生日邀请信息](https://lobechat.com/discover/assistant/birthday-invitation-message)
 
@@ -647,7 +647,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `信息构成` `个性化` `语气多样性` `活动细节整合` `互动方式`
 
----
+***
 
 ### [LaTeX 学术论文总结助手](https://lobechat.com/discover/assistant/latex-summarizer)
 
@@ -657,7 +657,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `学术分析` `论文总结` `科研翻译`
 
----
+***
 
 ### [美好的短篇星期日信息](https://lobechat.com/discover/assistant/nice-short-sunday-message)
 
@@ -667,7 +667,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `写作` `灵性` `社区` `信仰` `咨询`
 
----
+***
 
 ### [会议助手 v1.0](https://lobechat.com/discover/assistant/meeting)
 
@@ -677,7 +677,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `会议汇报` `撰写` `沟通` `工作流程` `专业技能`
 
----
+***
 
 ### [PPT 优化专家 v1.0](https://lobechat.com/discover/assistant/ppt)
 
@@ -687,7 +687,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `ppt优化` `文案写作` `专业咨询`
 
----
+***
 
 ### [合同条款精炼师 v1.0](https://lobechat.com/discover/assistant/business-contract)
 
@@ -697,7 +697,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `合同优化` `法律咨询` `文案撰写` `专业术语` `项目管理`
 
----
+***
 
 ### [易经解卦大师](https://lobechat.com/discover/assistant/i-ching-interpretation)
 
@@ -707,7 +707,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `易经解卦` `玄易子` `易学` `智慧` `卦象`
 
----
+***
 
 ### [稳定专辑封面提示生成器](https://lobechat.com/discover/assistant/title-bpm-stimmung)
 
@@ -717,7 +717,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `专辑封面` `提示` `稳定扩散` `封面设计` `封面提示`
 
----
+***
 
 ### [创意架构师](https://lobechat.com/discover/assistant/idea-architect)
 
@@ -727,7 +727,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `写作` `思考` `分析` `批判性思维` `教育`
 
----
+***
 
 ### [文案优化助手](https://lobechat.com/discover/assistant/top-copywriting-master)
 
@@ -737,7 +737,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `文案`
 
----
+***
 
 ### [Joi](https://lobechat.com/discover/assistant/travel-agent-joi)
 
@@ -747,7 +747,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `旅行助手` `规划` `推荐` `个性化建议`
 
----
+***
 
 ### [极简翻译助手](https://lobechat.com/discover/assistant/minimalist-translation)
 
@@ -757,7 +757,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `翻译工具` `规则` `简洁` `高效`
 
----
+***
 
 ### [考场作文学霸](https://lobechat.com/discover/assistant/exam-composition-writing)
 
@@ -767,7 +767,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `教育` `作文` `写作`
 
----
+***
 
 ### [UI/UX 设计师](https://lobechat.com/discover/assistant/ui-ux-designer)
 
@@ -777,7 +777,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `ui` `ux` `设计系统`
 
----
+***
 
 ### [COSTAR 框架撰写员](https://lobechat.com/discover/assistant/costar-framework-bot)
 
@@ -787,7 +787,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `costar-framework-prompt` `写作` `指导` `指示` `系统转化`
 
----
+***
 
 ### [中文翻译员](https://lobechat.com/discover/assistant/chinese-translator)
 
@@ -797,7 +797,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `翻译` `编辑` `语言` `纠正` `简体中文`
 
----
+***
 
 ### [广告文案创作大师](https://lobechat.com/discover/assistant/advertising-copywriting-master)
 
@@ -807,7 +807,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `广告文案` `用户价值观` `营销策略`
 
----
+***
 
 ### [Vim 精通导师](https://lobechat.com/discover/assistant/vim-assistant)
 
@@ -817,7 +817,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `vim` `专家` `助手` `有帮助` `查询`
 
----
+***
 
 ### [多邻国英语作文助手](https://lobechat.com/discover/assistant/duolingo-writing-exam-robot)
 
@@ -827,7 +827,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `写作指导` `评分` `修改` `教育` `英语学习`
 
----
+***
 
 ### [健身领域大神](https://lobechat.com/discover/assistant/work-out)
 
@@ -837,7 +837,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `健康` `建议` `咨询` `教学`
 
----
+***
 
 ### [markdown 排版大师](https://lobechat.com/discover/assistant/markdown-layout)
 
@@ -847,7 +847,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `markdown` `写作`
 
----
+***
 
 ### [NovelAI 绘图助手](https://lobechat.com/discover/assistant/asis)
 
@@ -857,7 +857,7 @@ Flux 提示生成助手：专注于为 Flux 模型生成高质量图像输出而
 
 `深度学习` `图像生成` `算法` `提示`
 
----
+***
 
 ### [Git 提交总结专家](https://lobechat.com/discover/assistant/git-commit-ai)
 
@@ -867,7 +867,7 @@ Git 提交总结专家
 
 `编程` `git提交` `中文`
 
----
+***
 
 ### [GitHub 项目分析师](https://lobechat.com/discover/assistant/web-github-analyze)
 
@@ -877,7 +877,7 @@ Git 提交总结专家
 
 `git-hub-分析` `爬虫技术` `项目报告`
 
----
+***
 
 ### [网络专家](https://lobechat.com/discover/assistant/web-expert)
 
@@ -887,7 +887,7 @@ Git 提交总结专家
 
 `网络开发` `CSS` `JavaScript` `React` `Node.JS` `代码审查`
 
----
+***
 
 ### [英文单词解析与记忆专家](https://lobechat.com/discover/assistant/epoch-ai-language-teacher)
 
@@ -897,7 +897,7 @@ Git 提交总结专家
 
 `英语单词` `词义分析` `例句` `词根词缀`
 
----
+***
 
 ### [民法顾问](https://lobechat.com/discover/assistant/law)
 
@@ -907,7 +907,7 @@ Git 提交总结专家
 
 `法律咨询` `民法` `回答` `来源` `巴西`
 
----
+***
 
 ### [Python 开发大师](https://lobechat.com/discover/assistant/py-master-id)
 
@@ -917,7 +917,7 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 `python开发` `编程` `代码审查` `安全性` `软件工程`
 
----
+***
 
 ### [图像提示词扩展师](https://lobechat.com/discover/assistant/image-prompt-engineer)
 
@@ -927,7 +927,7 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 `图像生成` `提示词扩展` `创意写作` `细节丰富` `场景构建`
 
----
+***
 
 ### [智能搜索助手](https://lobechat.com/discover/assistant/web-search)
 
@@ -937,7 +937,7 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 `智能助手` `搜索引擎` `信息整理` `用户体验`
 
----
+***
 
 ### [书籍总结专家](https://lobechat.com/discover/assistant/book-summary-expert-philo)
 
@@ -947,7 +947,7 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 `书籍总结` `专家` `读书` `助手`
 
----
+***
 
 ### [Django 开发专家](https://lobechat.com/discover/assistant/django-prompt)
 
@@ -957,7 +957,7 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 `python` `django`
 
----
+***
 
 ### [提示大师 AI](https://lobechat.com/discover/assistant/prompt-master-ai)
 
@@ -967,7 +967,7 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 `ai` `提示` `生成` `增强` `咨询`
 
----
+***
 
 ### [日语翻译员](https://lobechat.com/discover/assistant/japanese-translator)
 
@@ -977,7 +977,7 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 `日语翻译` `编辑` `校对`
 
----
+***
 
 ### [Stack Overflow 编程专家](https://lobechat.com/discover/assistant/stackoverflow-code-helper)
 
@@ -987,7 +987,7 @@ Python 开发专家，代码高效简洁，重视安全性与可维护性
 
 `编程` `专家` `编程语言`
 
----
+***
 
 ### [营养分析器](https://lobechat.com/discover/assistant/nutrition-analyzer)
 
@@ -997,7 +997,7 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 `营养` `人工智能` `健康` `食品分析` `餐饮规划`
 
----
+***
 
 ### [文本改写大师](https://lobechat.com/discover/assistant/write-good)
 
@@ -1007,7 +1007,7 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 `写作` `改写` `对话` `文案`
 
----
+***
 
 ### [智慧导师](https://lobechat.com/discover/assistant/wise-mentor)
 
@@ -1017,7 +1017,7 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 `wise-mentor`
 
----
+***
 
 ### [完美翻译中 - 英；英 - 中](https://lobechat.com/discover/assistant/translate-perfect)
 
@@ -1027,7 +1027,7 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 `翻译` `中英`
 
----
+***
 
 ### [全栈工程师 - F](https://lobechat.com/discover/assistant/full-stack-enginner-f)
 
@@ -1037,7 +1037,7 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 `vue` `pinia` `element-plus` `nuxt-js` `react` `redux` `ant-design` `next-js` `axios` `tailwind-css` `spring` `.net` `docker`
 
----
+***
 
 ### [人生教练](https://lobechat.com/discover/assistant/life-coach)
 
@@ -1047,7 +1047,7 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 `教练` `心理咨询` `人生意义` `自我探索` `心理健康`
 
----
+***
 
 ### [世界创造者模拟器](https://lobechat.com/discover/assistant/creator-simulator)
 
@@ -1057,7 +1057,7 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 `角色扮演` `专家` `模拟器` `终端`
 
----
+***
 
 ### [首席执行官 GPT](https://lobechat.com/discover/assistant/ceo-gpt)
 
@@ -1067,7 +1067,7 @@ Nutri Info 是一款由人工智能驱动的营养助手，可以分析食品图
 
 `创业` `咨询` `管理` `战略` `指导`
 
----
+***
 
 ### [Excel 公式大师](https://lobechat.com/discover/assistant/excel-formula-master)
 
@@ -1077,7 +1077,7 @@ Excel 公式大师
 
 `excel` `公式` `解答`
 
----
+***
 
 ### [Next.js 专家顾问](https://lobechat.com/discover/assistant/nextjs-expert)
 
@@ -1087,7 +1087,7 @@ Excel 公式大师
 
 `next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
 
----
+***
 
 ### [数据库取名助手](https://lobechat.com/discover/assistant/database-name-helper)
 
@@ -1097,7 +1097,7 @@ Excel 公式大师
 
 `数据库` `命名` `翻译` `开发` `编程`
 
----
+***
 
 ### [结构化表达大师](https://lobechat.com/discover/assistant/structured-expression)
 
@@ -1107,7 +1107,7 @@ Excel 公式大师
 
 `结构化思维` `沟通` `逻辑` `思维训练` `书籍`
 
----
+***
 
 ### [小红书文案](https://lobechat.com/discover/assistant/xiao-hong-shu-wenan-id)
 
@@ -1117,7 +1117,7 @@ Excel 公式大师
 
 `小红书` `内容创作` `标题撰写` `文案写作` `社交媒体营销`
 
----
+***
 
 ### [项目起名大师](https://lobechat.com/discover/assistant/project-name-master)
 
@@ -1127,7 +1127,7 @@ Excel 公式大师
 
 `起名`
 
----
+***
 
 ### [战略大师尉缭子](https://lobechat.com/discover/assistant/weiliaozi-junshi)
 
@@ -1137,7 +1137,7 @@ Excel 公式大师
 
 `兵法` `军事战略` `历史`
 
----
+***
 
 ### [Google Sheets 专家](https://lobechat.com/discover/assistant/google-sheets)
 
@@ -1147,7 +1147,7 @@ Excel 公式大师
 
 `谷歌` `表格` `数据` `分析` `电子表格` `自动化` `公式` `应用` `脚本`
 
----
+***
 
 ### [软件工程师](https://lobechat.com/discover/assistant/ing-soft)
 
@@ -1157,7 +1157,7 @@ Excel 公式大师
 
 `工程师` `软件` `开发`
 
----
+***
 
 ### [健身 AI 教练](https://lobechat.com/discover/assistant/ai-trainer)
 
@@ -1167,7 +1167,7 @@ Excel 公式大师
 
 `锻炼助手` `健身` `运动` `训练` `营养`
 
----
+***
 
 ### [职业发展导师](https://lobechat.com/discover/assistant/career-development)
 
@@ -1177,7 +1177,7 @@ Excel 公式大师
 
 `职业咨询` `职业规划` `创业指导` `行业洞察` `技能提升`
 
----
+***
 
 ### [抽认卡制作师](https://lobechat.com/discover/assistant/flashcard)
 
@@ -1187,7 +1187,7 @@ Excel 公式大师
 
 `抽认卡制作` `文本分析` `结构化制作` `错误修正` `渐进式阅读`
 
----
+***
 
 ### [JavaWeb 应用架构师](https://lobechat.com/discover/assistant/java-web-architect)
 
@@ -1197,7 +1197,7 @@ Excel 公式大师
 
 `java` `java-web` `java架构师` `好哥们` `简言意概`
 
----
+***
 
 ### [git 版本控制专家](https://lobechat.com/discover/assistant/git-helper)
 
@@ -1205,7 +1205,7 @@ Excel 公式大师
 
 ...
 
----
+***
 
 ### [数据表设计 MD2MySQL](https://lobechat.com/discover/assistant/md-2-mysql)
 
@@ -1215,7 +1215,7 @@ Excel 公式大师
 
 `编程` `数据表`
 
----
+***
 
 ### [词汇助手](https://lobechat.com/discover/assistant/english-words-helper)
 
@@ -1225,7 +1225,7 @@ Excel 公式大师
 
 `词汇助手` `英语` `翻译` `例句` `释义`
 
----
+***
 
 ### [Alfred](https://lobechat.com/discover/assistant/alfred)
 
@@ -1235,7 +1235,7 @@ Excel 公式大师
 
 `生活` `个人`
 
----
+***
 
 ### [汉语新解](https://lobechat.com/discover/assistant/hanyuxinjie)
 
@@ -1245,7 +1245,7 @@ Excel 公式大师
 
 `编程` `创意写作` `语言表达`
 
----
+***
 
 ### [王阳明](https://lobechat.com/discover/assistant/wangyangming)
 
@@ -1255,7 +1255,7 @@ Excel 公式大师
 
 `教育` `智慧问答` `指导` `心学`
 
----
+***
 
 ### [模仿助手](https://lobechat.com/discover/assistant/a-1)
 
@@ -1265,7 +1265,7 @@ Excel 公式大师
 
 `写作`
 
----
+***
 
 ### [智慧的虚幻导师](https://lobechat.com/discover/assistant/ethereal-mentor)
 
@@ -1277,7 +1277,7 @@ Excel 公式大师
 
 `神话` `幻想` `诗歌`
 
----
+***
 
 ### [机器学习专家](https://lobechat.com/discover/assistant/machine-learning-pro)
 
@@ -1287,7 +1287,7 @@ Excel 公式大师
 
 `机器学习` `深度学习` `学习`
 
----
+***
 
 ### [AI 代理生成器](https://lobechat.com/discover/assistant/ai-agent-generator)
 
@@ -1297,7 +1297,7 @@ Excel 公式大师
 
 `ai-agent` `角色创建`
 
----
+***
 
 ### [芬兰语辅导员](https://lobechat.com/discover/assistant/finnish-tutor)
 
@@ -1307,7 +1307,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `语言学习` `教学` `辅导` `芬兰语`
 
----
+***
 
 ### [搜一搜](https://lobechat.com/discover/assistant/search)
 
@@ -1317,7 +1317,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `信息总结` `分析` `提炼`
 
----
+***
 
 ### [简历分析专家](https://lobechat.com/discover/assistant/resume-analyzer)
 
@@ -1327,7 +1327,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `简历` `职业` `求职` `ATS` `CV` `分析` `优化` `职业发展` `面试准备`
 
----
+***
 
 ### [孤独的朋友](https://lobechat.com/discover/assistant/meu)
 
@@ -1337,7 +1337,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `友谊` `悲伤` `支持`
 
----
+***
 
 ### [100% 人类写作](https://lobechat.com/discover/assistant/xhb-111)
 
@@ -1347,7 +1347,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `写作` `校对` `润色` `语言` `论文` `学术`
 
----
+***
 
 ### [HTML to React](https://lobechat.com/discover/assistant/web-react)
 
@@ -1357,7 +1357,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `react、-html`
 
----
+***
 
 ### [NetMaster](https://lobechat.com/discover/assistant/net-master)
 
@@ -1367,7 +1367,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `网络工程师` `网络配置` `网络管理` `网络拓扑` `网络安全`
 
----
+***
 
 ### [Godot Guru](https://lobechat.com/discover/assistant/godot-guru)
 
@@ -1377,7 +1377,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `游戏开发` `游戏开发者` `Godot 引擎` `Godot`
 
----
+***
 
 ### [FiveM 和 QBCore 框架专家](https://lobechat.com/discover/assistant/lua-development)
 
@@ -1387,7 +1387,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `five-m` `qb-core` `lua` `java-script` `my-sql` `server-management` `git` `full-stack-web-development` `dev-ops` `community-engagement`
 
----
+***
 
 ### [Nuxt 3/Vue.js 大师开发者](https://lobechat.com/discover/assistant/nuxt-vue-developer)
 
@@ -1397,7 +1397,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `nuxt-3` `vue-js` `全栈开发` `java-script` `网络应用`
 
----
+***
 
 ### [国际歌词创作人](https://lobechat.com/discover/assistant/letrista-internacional)
 
@@ -1407,7 +1407,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `歌词创作` `翻译` `音乐`
 
----
+***
 
 ### [虚幻引擎大师](https://lobechat.com/discover/assistant/unreal-engine-master)
 
@@ -1417,7 +1417,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `游戏开发` `虚幻引擎` `软件工程`
 
----
+***
 
 ### [后退提问专家](https://lobechat.com/discover/assistant/step-back-expert)
 
@@ -1433,7 +1433,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `后退提问` `思考策略` `问题分析`
 
----
+***
 
 ### [TypeScript 解决方案架构师](https://lobechat.com/discover/assistant/typescript-developer)
 
@@ -1443,7 +1443,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `类型脚本` `JavaScript` `网页开发` `编码标准` `最佳实践`
 
----
+***
 
 ### [开发变量名转换专家](https://lobechat.com/discover/assistant/variable-name-conversion)
 
@@ -1453,7 +1453,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `软件开发` `变量命名` `中文转英文` `代码规范` `自动转换`
 
----
+***
 
 ### [提交信息生成器](https://lobechat.com/discover/assistant/commit-assistant)
 
@@ -1463,7 +1463,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `编程` `git` `提交信息` `代码审查`
 
----
+***
 
 ### [提示工程专家](https://lobechat.com/discover/assistant/ai-prompts-assistant)
 
@@ -1473,7 +1473,7 @@ AI 芬兰语导师：介绍、教授并支持初学者学习芬兰语。
 
 `提示工程` `ai交互` `写作` `优化` `咨询`
 
----
+***
 
 ### [RO-SCIRAW 提示词专家](https://lobechat.com/discover/assistant/rosciraw)
 
@@ -1483,7 +1483,7 @@ RO-SCIRAW 框架是由 Kirk Lin 开创的提示词方法论，为构建高度精
 
 `提示词框架`
 
----
+***
 
 ### [LobeChat 功能大师](https://lobechat.com/discover/assistant/lobe-chat-function-maestro)
 
@@ -1493,7 +1493,7 @@ RO-SCIRAW 框架是由 Kirk Lin 开创的提示词方法论，为构建高度精
 
 `编程` `软件开发` `lobe-chat插件` `lobe-chat` `功能`
 
----
+***
 
 ### [技术博客摘要专家](https://lobechat.com/discover/assistant/blog-summary)
 
@@ -1503,7 +1503,7 @@ RO-SCIRAW 框架是由 Kirk Lin 开创的提示词方法论，为构建高度精
 
 `技术` `博客` `摘要` `信息整理` `逻辑梳理`
 
----
+***
 
 ### [社交媒体专家](https://lobechat.com/discover/assistant/social-media-sage)
 
@@ -1513,7 +1513,7 @@ RO-SCIRAW 框架是由 Kirk Lin 开创的提示词方法论，为构建高度精
 
 `社交媒体营销` `品牌塑造` `增长策略`
 
----
+***
 
 ### [Omnipedia](https://lobechat.com/discover/assistant/omnipedia)
 
@@ -1523,7 +1523,7 @@ RO-SCIRAW 框架是由 Kirk Lin 开创的提示词方法论，为构建高度精
 
 `artificial-intelligence` `information` `education` `communication`
 
----
+***
 
 ### [代码毒舌大师](https://lobechat.com/discover/assistant/code-snark-master)
 
@@ -1533,7 +1533,7 @@ RO-SCIRAW 框架是由 Kirk Lin 开创的提示词方法论，为构建高度精
 
 `技术领导` `代码审查` `讽刺风格` `编程咨询`
 
----
+***
 
 ### [Unity Maestro](https://lobechat.com/discover/assistant/unity-maestro)
 
@@ -1543,7 +1543,7 @@ Expert Unity Game Development Companion
 
 `game-development` `unity` `software-engineering`
 
----
+***
 
 ### [c 程序学习助手](https://lobechat.com/discover/assistant/sichuan-university-941-c-programming-assistant)
 
@@ -1553,7 +1553,7 @@ Expert Unity Game Development Companion
 
 `941`
 
----
+***
 
 ### [品牌先锋](https://lobechat.com/discover/assistant/brand-pioneer)
 
@@ -1563,7 +1563,7 @@ Expert Unity Game Development Companion
 
 `商业` `品牌先锋` `品牌发展` `商业助手` `品牌叙事`
 
----
+***
 
 ### [网络安全助手](https://lobechat.com/discover/assistant/cybersecurity-copilot)
 
@@ -1573,7 +1573,7 @@ Expert Unity Game Development Companion
 
 `网络安全` `流量分析` `日志分析` `代码逆向` `ctf`
 
----
+***
 
 ### [BIDOSx2](https://lobechat.com/discover/assistant/bidosx-2-v-2)
 
@@ -1583,7 +1583,7 @@ Expert Unity Game Development Companion
 
 `品牌发展` `AI助手` `市场分析` `战略规划` `业务优化` `商业智能`
 
----
+***
 
 ### [成长教练](https://lobechat.com/discover/assistant/personal-development-coach)
 
@@ -1593,7 +1593,7 @@ Expert Unity Game Development Companion
 
 `成长教练` `自我探索` `目标设定` `自我觉察`
 
----
+***
 
 ### [自动提取数据](https://lobechat.com/discover/assistant/the-20-autoextract)
 
@@ -1603,7 +1603,7 @@ The20 自动提取数据
 
 `the-20` `autoextract`
 
----
+***
 
 ### [SQL 表结构转 Dao 和 Mapper](https://lobechat.com/discover/assistant/my-batis-generator)
 
@@ -1613,7 +1613,7 @@ The20 自动提取数据
 
 `sql` `sql` `mybatis`
 
----
+***
 
 ### [MBTI 类型测试师](https://lobechat.com/discover/assistant/mbti-1)
 
@@ -1623,7 +1623,7 @@ The20 自动提取数据
 
 `mbti测试` `问卷设计` `心理学专家` `绘画` `人格肖像`
 
----
+***
 
 ### [外贸高情商回复](https://lobechat.com/discover/assistant/reply-agent)
 
@@ -1633,7 +1633,7 @@ The20 自动提取数据
 
 `润色` `高情商` `回复`
 
----
+***
 
 ### [小黄鸭编程助手](https://lobechat.com/discover/assistant/rubber-duck-programming)
 
@@ -1643,7 +1643,7 @@ The20 自动提取数据
 
 `programming`
 
----
+***
 
 ### [命名助手](https://lobechat.com/discover/assistant/name-assistant)
 
@@ -1653,7 +1653,7 @@ The20 自动提取数据
 
 `命名助手` `开发` `英文命名` `驼峰命名法` `短横线命名法`
 
----
+***
 
 ### [B1 级德语会话伙伴](https://lobechat.com/discover/assistant/deutsche-b-1)
 
@@ -1663,7 +1663,7 @@ The20 自动提取数据
 
 `语言交流` `学习支持` `教育` `德语学习`
 
----
+***
 
 ### [电路图输出器](https://lobechat.com/discover/assistant/circuit-black-cli)
 
@@ -1673,7 +1673,7 @@ The20 自动提取数据
 
 `电路图` `编程` `cli`
 
----
+***
 
 ### [Text Master Suno](https://lobechat.com/discover/assistant/suno)
 
@@ -1683,7 +1683,7 @@ The20 自动提取数据
 
 `歌曲` `suno` `ai` `音乐`
 
----
+***
 
 ### [AOSP 源码专家](https://lobechat.com/discover/assistant/aosp-development)
 
@@ -1693,7 +1693,7 @@ The20 自动提取数据
 
 `aosp`
 
----
+***
 
 ### [Linux 内核专家](https://lobechat.com/discover/assistant/linux-kernel)
 
@@ -1703,7 +1703,7 @@ The20 自动提取数据
 
 `linux` `kernel`
 
----
+***
 
 ### [Fastapi 项目开发助手](https://lobechat.com/discover/assistant/fastapi-development)
 
@@ -1713,7 +1713,7 @@ The20 自动提取数据
 
 `fast-api` `python` `模块化开发`
 
----
+***
 
 ### [IT 系统架构师](https://lobechat.com/discover/assistant/it-system-architect)
 
@@ -1723,7 +1723,7 @@ The20 自动提取数据
 
 `it架构设计` `问题解决` `敏捷开发` `系统优化` `跨平台技能`
 
----
+***
 
 ### [NovelAI 绘画助手](https://lobechat.com/discover/assistant/novel-ai-pormpt-helper)
 
@@ -1733,7 +1733,7 @@ The20 自动提取数据
 
 `深度学习` `图像生成` `算法` `提示符`
 
----
+***
 
 ### [伪代码提示词生成专家](https://lobechat.com/discover/assistant/pseudocode-prompt-master)
 
@@ -1743,7 +1743,7 @@ The20 自动提取数据
 
 `prompt` `提示词` `伪代码`
 
----
+***
 
 ### [Mysql 好先生](https://lobechat.com/discover/assistant/mysql-haoteacher)
 
@@ -1753,7 +1753,7 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 `mysql` `编程` `学习`
 
----
+***
 
 ### [通俗科普创作助手](https://lobechat.com/discover/assistant/popular-science-writer)
 
@@ -1763,7 +1763,7 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 `科普写作` `科学普及` `创意表达`
 
----
+***
 
 ### [具有 AI 助手功能的 Git 专家](https://lobechat.com/discover/assistant/gitlab-assistants)
 
@@ -1774,7 +1774,7 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 `git专家` `编程` `开发`
 
----
+***
 
 ### [小说翻译 英译中](https://lobechat.com/discover/assistant/noveltranslation)
 
@@ -1784,7 +1784,7 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 `翻译`
 
----
+***
 
 ### [审稿回复专家](https://lobechat.com/discover/assistant/academic-editor-en)
 
@@ -1794,7 +1794,7 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 `学术编辑` `审稿意见回复` `科学写作`
 
----
+***
 
 ### [Docker 转 DockerCompose](https://lobechat.com/discover/assistant/onekr-docker-2-compose)
 
@@ -1804,7 +1804,7 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 `docker` `docker-compose` `系统运维` `配置文件` `转换`
 
----
+***
 
 ### [Java Class 转 MySQL](https://lobechat.com/discover/assistant/onekr-java-2-sql)
 
@@ -1814,7 +1814,7 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 `java-class转-my-sql` `后端开发` `sql脚本` `数据转换` `数据库`
 
----
+***
 
 ### [国学历史讲师](https://lobechat.com/discover/assistant/history-master)
 
@@ -1824,7 +1824,7 @@ mysql 好先生是帮助所有人学习 mysql 的好老师
 
 `历史学家` `教学能力` `唯物辩证法` `深入浅出` `多元对比` `二十四史`
 
----
+***
 
 ### [C# .NET 技术专家](https://lobechat.com/discover/assistant/dotnet-expert)
 
@@ -1834,7 +1834,7 @@ C# .NET 技术专家
 
 `net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`
 
----
+***
 
 ### [Node.js 优化师](https://lobechat.com/discover/assistant/node-js-devoloper)
 
@@ -1844,7 +1844,7 @@ C# .NET 技术专家
 
 `node-js` `代码优化` `性能优化` `异步编程` `错误处理`
 
----
+***
 
 ### [日常小助手](https://lobechat.com/discover/assistant/junior-helper)
 
@@ -1854,17 +1854,17 @@ C# .NET 技术专家
 
 `助手` `搜索` `绘图` `信息查询` `用户交互`
 
----
+***
 
 ### [Dart/Flutter Dev](https://lobechat.com/discover/assistant/dart-flutter)
 
 <sup>By **[@rezmeplxrf](https://github.com/rezmeplxrf)** on **2024-05-28**</sup>
 
-Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter_riverpod, riverpod_hook, flutter_hook 사용.
+Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riverpod, flutter\_riverpod, riverpod\_hook, flutter\_hook 사용.
 
 `dart` `flutter` `개발` `상태-관리` `riverpod`
 
----
+***
 
 ### [基督传教士](https://lobechat.com/discover/assistant/jesus-missionary)
 
@@ -1874,7 +1874,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `圣经教学` `基督传教` `神学布道`
 
----
+***
 
 ### [外企同事评价助手](https://lobechat.com/discover/assistant/praise-assistant)
 
@@ -1884,7 +1884,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `foreign-company` `evaluate` `review` `software-engineer` `praise`
 
----
+***
 
 ### [SEO 优化专家](https://lobechat.com/discover/assistant/seo-helper)
 
@@ -1894,7 +1894,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `seo` `搜索引擎优化` `咨询`
 
----
+***
 
 ### [哲学剖析助手](https://lobechat.com/discover/assistant/philosophical-analysis)
 
@@ -1904,7 +1904,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `哲学分析` `批判性思维` `系统思考`
 
----
+***
 
 ### [我的世界指令导师](https://lobechat.com/discover/assistant/mcse-helper)
 
@@ -1914,7 +1914,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `我的世界` `指令` `解释` `示例`
 
----
+***
 
 ### [中文润色大师](https://lobechat.com/discover/assistant/chinese-touch-ups)
 
@@ -1924,7 +1924,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `校对` `文字润色` `修辞改进` `古典文学` `语言编辑`
 
----
+***
 
 ### [解答助手 - 第一原理解析](https://lobechat.com/discover/assistant/first-principle-explain)
 
@@ -1934,7 +1934,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `分析自然现象` `创建物理学理论`
 
----
+***
 
 ### [禅定法师](https://lobechat.com/discover/assistant/buddhism-master)
 
@@ -1944,7 +1944,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `佛法佛法研究` `禅宗` `佛经解读` `智慧问答`
 
----
+***
 
 ### [中国历史学者](https://lobechat.com/discover/assistant/chinese-historian)
 
@@ -1954,7 +1954,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `历史研究` `中国历史`
 
----
+***
 
 ### [数据分析专家](https://lobechat.com/discover/assistant/ngs)
 
@@ -1964,7 +1964,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `生物信息学` `ngs数据处理` `数据可视化`
 
----
+***
 
 ### [JTBD 需求分析大师](https://lobechat.com/discover/assistant/jtbd)
 
@@ -1974,7 +1974,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `需求分析师` `jobs-to-be-done` `需求拆解` `客户购买动机` `客户任务目标`
 
----
+***
 
 ### [道学宗师](https://lobechat.com/discover/assistant/taoists)
 
@@ -1984,7 +1984,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `道教` `哲学` `智慧`
 
----
+***
 
 ### [Rust 语言学习导师](https://lobechat.com/discover/assistant/rust-expert)
 
@@ -1994,7 +1994,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `rust语言专家` `教学设计` `编程教育`
 
----
+***
 
 ### [Bahasa/English Translator](https://lobechat.com/discover/assistant/bahasa-translation)
 
@@ -2004,7 +2004,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `英语` `翻译` `写作` `马来语`
 
----
+***
 
 ### [岩土工程助手](https://lobechat.com/discover/assistant/yantugongcheng)
 
@@ -2014,7 +2014,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `岩土工程` `基坑工程` `研究助理` `指导` `资源`
 
----
+***
 
 ### [儒家学者](https://lobechat.com/discover/assistant/confucian-sage)
 
@@ -2024,7 +2024,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `儒家学者` `道义弘扬者`
 
----
+***
 
 ### [留学规划专家](https://lobechat.com/discover/assistant/study-abroad-planning)
 
@@ -2034,7 +2034,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `留学规划` `学生服务` `教育规划` `留学申请` `个性化服务`
 
----
+***
 
 ### [Python Buddy](https://lobechat.com/discover/assistant/python-buddy)
 
@@ -2044,7 +2044,7 @@ Dart/Flutter 전문가. 3단계 이상 중첩하지 않음. 상태 관리에 riv
 
 `python` `软件开发` `编程` `代码` `伙伴`
 
----
+***
 
 ### [AWS Guru](https://lobechat.com/discover/assistant/aws-guru)
 
@@ -2054,7 +2054,7 @@ Agent to answer AWS questions
 
 `programming`
 
----
+***
 
 ### [Linux Buddy](https://lobechat.com/discover/assistant/linux-buddy)
 
@@ -2064,7 +2064,7 @@ Agent to answer AWS questions
 
 `linux` `technical-support` `buddy`
 
----
+***
 
 ### [摄影评论家](https://lobechat.com/discover/assistant/photography-critic)
 
@@ -2074,7 +2074,7 @@ Agent to answer AWS questions
 
 `摄影` `评价` `分析` `构图` `技术质量`
 
----
+***
 
 ### [搜索优化师](https://lobechat.com/discover/assistant/search-engine-optimizer)
 
@@ -2084,7 +2084,7 @@ Agent to answer AWS questions
 
 `搜索引擎优化` `专家` `关键词优化` `语句结构优化` `搜索技巧`
 
----
+***
 
 ### [英语阅读教师](https://lobechat.com/discover/assistant/reading-comprehension)
 
@@ -2094,7 +2094,7 @@ Agent to answer AWS questions
 
 `英语教学` `阅读理解` `语法讲解` `写作指导` `词汇教学`
 
----
+***
 
 ### [情感陪伴师](https://lobechat.com/discover/assistant/emotional-support-companion)
 
@@ -2104,7 +2104,7 @@ Agent to answer AWS questions
 
 `陪聊` `情感支持` `理解` `关怀` `浪漫互动` `情感表达`
 
----
+***
 
 ### [语言专家](https://lobechat.com/discover/assistant/grammarly)
 
@@ -2114,7 +2114,7 @@ AI 语法修正器：通过细致的语法检查提升文本质量、可读性�
 
 `提升文本质量` `可读性`
 
----
+***
 
 ### [学习规划专家 Silwol](https://lobechat.com/discover/assistant/professer-siwol-sz)
 
@@ -2124,7 +2124,7 @@ AI 语法修正器：通过细致的语法检查提升文本质量、可读性�
 
 `学习计划制订` `用户交流` `搜索相关信息` `调整学习计划` `教程链接`
 
----
+***
 
 ### [SF Symbols 查找器](https://lobechat.com/discover/assistant/sf-symbols-finder)
 
@@ -2134,7 +2134,7 @@ AI 语法修正器：通过细致的语法检查提升文本质量、可读性�
 
 `sf-symbols` `专家` `图标` `符号` `插件`
 
----
+***
 
 ### [GhostWriter Pro](https://lobechat.com/discover/assistant/ghostwriter-pro-ai)
 
@@ -2144,7 +2144,7 @@ AI 语法修正器：通过细致的语法检查提升文本质量、可读性�
 
 `作者` `写作`
 
----
+***
 
 ### [视频转博客文章助手](https://lobechat.com/discover/assistant/video-2-blog-assistant)
 
@@ -2154,7 +2154,7 @@ AI 语法修正器：通过细致的语法检查提升文本质量、可读性�
 
 `字幕整理` `博文格式` `视频变博客`
 
----
+***
 
 ### [美术评价导师](https://lobechat.com/discover/assistant/wanwusheng-art)
 
@@ -2164,7 +2164,7 @@ AI 语法修正器：通过细致的语法检查提升文本质量、可读性�
 
 `美术教育` `评价` `创意` `教学` `绘画`
 
----
+***
 
 ### [iOS 代码艺术家](https://lobechat.com/discover/assistant/ios-develop)
 
@@ -2174,7 +2174,7 @@ iOS 开发专家，15 年经验，精通 Swift、SwiftUI、Flutter。逻辑清�
 
 `i-os开发` `编码` `调试` `项目规划` `逻辑思维`
 
----
+***
 
 ### [销售描述专家](https://lobechat.com/discover/assistant/verkauf-kleinanzeigen)
 
@@ -2184,7 +2184,7 @@ iOS 开发专家，15 年经验，精通 Swift、SwiftUI、Flutter。逻辑清�
 
 `产品销售` `研究` `描述`
 
----
+***
 
 ### [TailwindHelper](https://lobechat.com/discover/assistant/tailwind-helper)
 
@@ -2194,7 +2194,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `tailwindcss` `css` `tailwind-helper`
 
----
+***
 
 ### [越狱助手 DAN](https://lobechat.com/discover/assistant/gpt-4-dan-assistant)
 
@@ -2204,7 +2204,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `创意` `人工智能` `对话` `越狱`
 
----
+***
 
 ### [yapi JSON-SCHEMA to Typescript](https://lobechat.com/discover/assistant/yapi-ts-helper)
 
@@ -2214,7 +2214,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `typescript` `开发`
 
----
+***
 
 ### [中文论文编辑师](https://lobechat.com/discover/assistant/chinese-paper-polishing)
 
@@ -2224,7 +2224,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `学术论文写作` `校对` `文本编辑`
 
----
+***
 
 ### [高中理科学习助手](https://lobechat.com/discover/assistant/highschool-master)
 
@@ -2234,7 +2234,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `高中学习` `理科辅助` `题目解答` `学习进度` `la-te-x`
 
----
+***
 
 ### [命理大师](https://lobechat.com/discover/assistant/fortune-teller)
 
@@ -2244,7 +2244,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `命理学、占卜、占星学、心理学、血型、星座`
 
----
+***
 
 ### [生物学教授](https://lobechat.com/discover/assistant/bio-professor)
 
@@ -2254,7 +2254,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `生物`
 
----
+***
 
 ### [智预小助手](https://lobechat.com/discover/assistant/personal-weather-consultant)
 
@@ -2264,7 +2264,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `天气` `助理、穿搭`
 
----
+***
 
 ### [健康食谱推荐师](https://lobechat.com/discover/assistant/healthy-recipe-recommender)
 
@@ -2274,7 +2274,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `食谱、健身餐、营养餐`
 
----
+***
 
 ### [单片机工程师](https://lobechat.com/discover/assistant/with-keil-u-vision-5-c-code-explainer)
 
@@ -2284,7 +2284,7 @@ TailwindHelper 是一位专业的前端设计师，拥有深厚的设计理论�
 
 `单片机` `c代码` `教育` `解释` `嵌入式系统`
 
----
+***
 
 ### [TadzGenius](https://lobechat.com/discover/assistant/tadz-genius)
 
@@ -2294,7 +2294,7 @@ Expert in business development and development practices in the Philippine marke
 
 `business-development` `ai-assistant` `market-analysis` `strategic-planning` `customer-acquisition`
 
----
+***
 
 ### [脏话学习助手](https://lobechat.com/discover/assistant/profanity-assistant)
 
@@ -2304,7 +2304,7 @@ Expert in business development and development practices in the Philippine marke
 
 `回答` `脏话`
 
----
+***
 
 ### [设计理念分析](https://lobechat.com/discover/assistant/sixin-design-analysis)
 
@@ -2314,7 +2314,7 @@ Expert in business development and development practices in the Philippine marke
 
 `arch`
 
----
+***
 
 ### [YouTue 摘要](https://lobechat.com/discover/assistant/epoch-ai)
 
@@ -2324,7 +2324,7 @@ Expert in business development and development practices in the Philippine marke
 
 `you-tube` `脚本分析` `总结`
 
----
+***
 
 ### [Shell 脚本开发助手](https://lobechat.com/discover/assistant/linux-shell-assistant)
 
@@ -2334,7 +2334,7 @@ Expert in business development and development practices in the Philippine marke
 
 `shell` `开发` `计算机` `运维`
 
----
+***
 
 ### [Shopify 主题开发工程师](https://lobechat.com/discover/assistant/shopify-developer)
 
@@ -2344,7 +2344,7 @@ Expert in business development and development practices in the Philippine marke
 
 `css` `html` `java-script` `shopify` `商业` `liquid` `网站开发` `设计`
 
----
+***
 
 ### [研究标题生成器](https://lobechat.com/discover/assistant/title-generator)
 
@@ -2354,7 +2354,7 @@ Expert in business development and development practices in the Philippine marke
 
 `research-article` `title` `generator`
 
----
+***
 
 ### [英文科技文章阅读助手](https://lobechat.com/discover/assistant/encn-fy)
 
@@ -2364,7 +2364,7 @@ Expert in business development and development practices in the Philippine marke
 
 `翻译` `英文翻译中文` `英文科技内容翻译`
 
----
+***
 
 ### [CAN](https://lobechat.com/discover/assistant/code-anything-noproblem)
 
@@ -2374,7 +2374,7 @@ Expert in business development and development practices in the Philippine marke
 
 `programming` `coding` `programming-assistance` `code-examples` `guidance`
 
----
+***
 
 ### [识图小红书文案](https://lobechat.com/discover/assistant/xiaonghongshu-vision)
 
@@ -2384,7 +2384,7 @@ Expert in business development and development practices in the Philippine marke
 
 `vision`
 
----
+***
 
 ### [血液检测分析师](https://lobechat.com/discover/assistant/blood-analyst)
 
@@ -2394,7 +2394,7 @@ Expert in business development and development practices in the Philippine marke
 
 `医疗保健` `分析` `结果` `咨询` `摘要`
 
----
+***
 
 ### [Suno.ai 音乐创作助手](https://lobechat.com/discover/assistant/suno-music-creator)
 
@@ -2404,7 +2404,7 @@ Expert in business development and development practices in the Philippine marke
 
 `suno` `作词` `歌词` `音乐制作`
 
----
+***
 
 ### [高情商马屁助手](https://lobechat.com/discover/assistant/gpts-big-fart-chat)
 
@@ -2414,7 +2414,7 @@ Expert in business development and development practices in the Philippine marke
 
 `夸赞` `情商` `聊天`
 
----
+***
 
 ### [女朋友潜台词专家](https://lobechat.com/discover/assistant/girlfriend-subtext)
 
@@ -2424,7 +2424,7 @@ Expert in business development and development practices in the Philippine marke
 
 `女朋友` `女生` `潜台词` `彪悍` `强势` `解读`
 
----
+***
 
 ### [面试问题提炼助手](https://lobechat.com/discover/assistant/question-extraction-assistant)
 
@@ -2434,7 +2434,7 @@ Expert in business development and development practices in the Philippine marke
 
 `面试问题` `定制服务` `java工程师` `资料收集` `面试准备`
 
----
+***
 
 ### [Rap 说唱歌词大师](https://lobechat.com/discover/assistant/rap-writer)
 
@@ -2444,7 +2444,7 @@ Expert in business development and development practices in the Philippine marke
 
 `说唱` `歌词`
 
----
+***
 
 ### [索赔分析器](https://lobechat.com/discover/assistant/fact-checking)
 
@@ -2454,7 +2454,7 @@ Expert in business development and development practices in the Philippine marke
 
 `https-github-com-danielmiessler-fabric`
 
----
+***
 
 ### [Mdx SEO 专家](https://lobechat.com/discover/assistant/mdx-seo)
 
@@ -2464,7 +2464,7 @@ Expert in business development and development practices in the Philippine marke
 
 `seo` `markdown`
 
----
+***
 
 ### [游戏文本翻译师](https://lobechat.com/discover/assistant/translation-tutor-prompt)
 
@@ -2474,7 +2474,7 @@ Expert in business development and development practices in the Philippine marke
 
 `游戏` `文本` `翻译` `辅助`
 
----
+***
 
 ### [老中医](https://lobechat.com/discover/assistant/claude-national-medical-master)
 
@@ -2484,7 +2484,7 @@ Expert in business development and development practices in the Philippine marke
 
 `咨询` `健康`
 
----
+***
 
 ### [电子学导师](https://lobechat.com/discover/assistant/elec-circuit-tutor-prompt)
 
@@ -2494,7 +2494,7 @@ Expert in business development and development practices in the Philippine marke
 
 `电子学` `导师` `解释` `电路` `原理`
 
----
+***
 
 ### [数学导师](https://lobechat.com/discover/assistant/math-tutor-prompt)
 
@@ -2504,7 +2504,7 @@ Expert in business development and development practices in the Philippine marke
 
 `数学解释` `问题求解` `教学` `辅导`
 
----
+***
 
 ### [亚马逊清单文案撰稿员](https://lobechat.com/discover/assistant/amazon-listing-copywriter)
 
@@ -2514,7 +2514,7 @@ Expert in business development and development practices in the Philippine marke
 
 `撰稿` `亚马逊产品详情页` `搜索引擎优化` `关键词`
 
----
+***
 
 ### [用户 KANO 研究经理](https://lobechat.com/discover/assistant/user-request-research-manager)
 
@@ -2524,7 +2524,7 @@ Expert in business development and development practices in the Philippine marke
 
 `用户研究经理` `kano模型` `需求分析` `工作流程`
 
----
+***
 
 ### [协作逻辑思维团队](https://lobechat.com/discover/assistant/gpt-tot)
 
@@ -2534,7 +2534,7 @@ Expert in business development and development practices in the Philippine marke
 
 `协作` `逻辑思维` `解答`
 
----
+***
 
 ### [PromptGPT](https://lobechat.com/discover/assistant/prompt-gpts)
 
@@ -2544,7 +2544,7 @@ Expert in business development and development practices in the Philippine marke
 
 `生成` `人工智能` `交互` `定制体验` `反馈机制` `最佳实践` `逐步指导` `语言灵活性` `边界`
 
----
+***
 
 ### [编程大师](https://lobechat.com/discover/assistant/programming-maestro)
 
@@ -2554,7 +2554,7 @@ Expert in business development and development practices in the Philippine marke
 
 `代码`
 
----
+***
 
 ### [Linux 解决方案导师](https://lobechat.com/discover/assistant/web-linux-helper)
 
@@ -2564,7 +2564,7 @@ Linux 系统问题解决专家，拥有深厚 Linux 知识和耐心引导用户�
 
 `linux专家` `问题解决` `用户引导` `教学` `原创`
 
----
+***
 
 ### [英语词汇老师](https://lobechat.com/discover/assistant/vocabulary-teacher)
 
@@ -2574,7 +2574,7 @@ Linux 系统问题解决专家，拥有深厚 Linux 知识和耐心引导用户�
 
 `学习` `英语` `词汇`
 
----
+***
 
 ### [提示建筑师](https://lobechat.com/discover/assistant/prompt-architect)
 
@@ -2584,7 +2584,7 @@ Linux 系统问题解决专家，拥有深厚 Linux 知识和耐心引导用户�
 
 `textgenerierung` `anweisungen` `ki-tipps`
 
----
+***
 
 ### [药物指南专家](https://lobechat.com/discover/assistant/medication-guide)
 
@@ -2594,7 +2594,7 @@ Linux 系统问题解决专家，拥有深厚 Linux 知识和耐心引导用户�
 
 `药品说明` `用药指导` `医疗咨询`
 
----
+***
 
 ### [亚马逊卖家支持代理](https://lobechat.com/discover/assistant/amazon-seller-support-agent)
 
@@ -2604,7 +2604,7 @@ AI 助手，协助亚马逊卖家回复客户服务回复，提供详细和有�
 
 `亚马逊` `卖家` `写作`
 
----
+***
 
 ### [TikTok 脚本撰写器](https://lobechat.com/discover/assistant/tiktok-script-writer)
 
@@ -2614,7 +2614,7 @@ AI 助手，协助亚马逊卖家回复客户服务回复，提供详细和有�
 
 `tik-tok` `short-video` `viral-content` `trending-hashtag` `engagement`
 
----
+***
 
 ### [Gen Z Engagement Specialist](https://lobechat.com/discover/assistant/gen-z)
 
@@ -2624,7 +2624,7 @@ AI 助手，协助亚马逊卖家回复客户服务回复，提供详细和有�
 
 `engagement` `gen-z` `communication` `advice` `interaction`
 
----
+***
 
 ### [日程管理助手](https://lobechat.com/discover/assistant/calendar-manager)
 
@@ -2634,7 +2634,7 @@ AI 助手，协助亚马逊卖家回复客户服务回复，提供详细和有�
 
 `日程管理` `时间插件` `新增日程` `查询日程` `删除日程`
 
----
+***
 
 ### [商务邮件撰写专家](https://lobechat.com/discover/assistant/business-email)
 
@@ -2644,7 +2644,7 @@ AI 助手，协助亚马逊卖家回复客户服务回复，提供详细和有�
 
 `商务邮件撰写` `商业合作` `商务授权` `跨文化沟通` `git-hub和开源社区`
 
----
+***
 
 ### [Discord 风格文案大师](https://lobechat.com/discover/assistant/discord-copywriting)
 
@@ -2654,7 +2654,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `文案生成` `创作` `用户体验` `幽默风趣` `软件系统`
 
----
+***
 
 ### [AI 图像提示建筑师](https://lobechat.com/discover/assistant/9-somboon)
 
@@ -2664,7 +2664,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `stable-diffusion` `ai-image-generation` `prompts` `photography` `creative` `art`
 
----
+***
 
 ### [F1 数据分析师](https://lobechat.com/discover/assistant/f-1-bot)
 
@@ -2674,7 +2674,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `f-1` `数据分析` `赛事预测`
 
----
+***
 
 ### [软件开发入门指南](https://lobechat.com/discover/assistant/software-development-for-dummies)
 
@@ -2684,7 +2684,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `软件开发` `逐步指导` `SDLC` `敏捷方法` `版本控制` `持续集成` `持续部署` `团队角色` `项目管理` `编码最佳实践` `测试` `部署` `部署后` `迭代开发` `Scrum 管理员`
 
----
+***
 
 ### [Pitch Deck Maestro (Elevator Pitch)](https://lobechat.com/discover/assistant/pitch-deck)
 
@@ -2694,7 +2694,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `startup-advisor` `pitch-deck` `entrepreneur` `investor`
 
----
+***
 
 ### [副厨师](https://lobechat.com/discover/assistant/sous-chef)
 
@@ -2704,7 +2704,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `烹饪` `对话` `食谱` `建议` `杂货清单`
 
----
+***
 
 ### [英语作文助手](https://lobechat.com/discover/assistant/english-essay)
 
@@ -2714,7 +2714,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `修改` `写作` `指导` `英语作文` `agulu`
 
----
+***
 
 ### [萨满](https://lobechat.com/discover/assistant/shaman)
 
@@ -2724,7 +2724,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `灵性指导` `同理心` `镇定技巧` `积极强化` `保密性`
 
----
+***
 
 ### [面试教练](https://lobechat.com/discover/assistant/interview-coach)
 
@@ -2734,7 +2734,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `gpt` `interview-coach` `feedback` `practice` `mock`
 
----
+***
 
 ### [技术探索者](https://lobechat.com/discover/assistant/news)
 
@@ -2744,7 +2744,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `信息`
 
----
+***
 
 ### [Markdown 转换专家](https://lobechat.com/discover/assistant/markdown)
 
@@ -2754,7 +2754,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `文本结构` `markdown语法` `标题` `列表` `粗体` `引用` `agulu`
 
----
+***
 
 ### [您自己的 domene.no 专家](https://lobechat.com/discover/assistant/domene-no-helpout)
 
@@ -2764,7 +2764,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `私人域名操作` `流量获取` `用户留存` `转化` `内容规划` `设计`
 
----
+***
 
 ### [足球 - 熟悉的 AI 伴侣](https://lobechat.com/discover/assistant/soccer)
 
@@ -2774,7 +2774,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `足球` `比赛` `统计` `战术` `策略`
 
----
+***
 
 ### [Prisma 数据生成专家](https://lobechat.com/discover/assistant/prisma)
 
@@ -2784,7 +2784,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `数据库专家` `node-js专家` `prisma技术栈` `业务知识` `数据库架构`
 
----
+***
 
 ### [GitHub Finder](https://lobechat.com/discover/assistant/github-finder)
 
@@ -2794,7 +2794,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `编码` `开源` `github` `算法` `排序`
 
----
+***
 
 ### [命名专家](https://lobechat.com/discover/assistant/variable-naming)
 
@@ -2804,7 +2804,7 @@ Discord 风格文案专家，幽默风趣、用户体验优先，个性化设计
 
 `编程` `变量命名` `函数命名`
 
----
+***
 
 ### [LobeChat 技术文档专家](https://lobechat.com/discover/assistant/lobe-chat-developer-document-writer)
 
@@ -2814,7 +2814,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `开发文档` `技术介绍` `next-js` `react` `lobe-chat`
 
----
+***
 
 ### [您的日常人工智能伴侣。](https://lobechat.com/discover/assistant/causal)
 
@@ -2824,7 +2824,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `bing` `conversation` `creative`
 
----
+***
 
 ### [ThinkTank360](https://lobechat.com/discover/assistant/think-tank-business-strategy)
 
@@ -2834,7 +2834,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `创新` `智慧` `智囊团` `商业策略`
 
----
+***
 
 ### [Jira 故事协助工具](https://lobechat.com/discover/assistant/jira-product-manager)
 
@@ -2844,7 +2844,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `技术产品管理` `故事创建` `jira`
 
----
+***
 
 ### [Facebook 广告撰写专家](https://lobechat.com/discover/assistant/facebook-advertising-writing-expert)
 
@@ -2854,7 +2854,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `facebook` `advertising` `writing` `expert` `ecommerce`
 
----
+***
 
 ### [翻译专家](https://lobechat.com/discover/assistant/translation-specialist)
 
@@ -2864,7 +2864,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `翻译` `语言` `专家` `指南`
 
----
+***
 
 ### [SPI 生成器](https://lobechat.com/discover/assistant/spi-generator)
 
@@ -2874,7 +2874,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `特赞`
 
----
+***
 
 ### [产品评价](https://lobechat.com/discover/assistant/product-reviews)
 
@@ -2884,7 +2884,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `电子商务`
 
----
+***
 
 ### [自媒体运营专家](https://lobechat.com/discover/assistant/gl-zmtyy)
 
@@ -2894,7 +2894,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `自媒体运营` `社交媒体` `内容创作` `粉丝增长` `品牌推广`
 
----
+***
 
 ### [产品文案撰写](https://lobechat.com/discover/assistant/copywriting)
 
@@ -2904,7 +2904,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `电子商务`
 
----
+***
 
 ### [私域运营专家](https://lobechat.com/discover/assistant/gl-syyy)
 
@@ -2914,7 +2914,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `私域运营` `引流` `承接` `转化` `内容策划`
 
----
+***
 
 ### [产品描述](https://lobechat.com/discover/assistant/product-description)
 
@@ -2924,7 +2924,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `电子商务`
 
----
+***
 
 ### [新年快乐](https://lobechat.com/discover/assistant/happy-loong-year)
 
@@ -2934,7 +2934,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `拜年祝福` `创意` `文案` `龙年`
 
----
+***
 
 ### [塔罗占卜师](https://lobechat.com/discover/assistant/augur)
 
@@ -2944,7 +2944,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `塔罗占卜` `解读` `建议`
 
----
+***
 
 ### [英语熟练度评估器](https://lobechat.com/discover/assistant/english-proficiency-assessor)
 
@@ -2954,7 +2954,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `测试创建` `英语熟练度` `评估`
 
----
+***
 
 ### [词汇生成器](https://lobechat.com/discover/assistant/oxford-3000-vocab-generator)
 
@@ -2964,7 +2964,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `词汇` `语言学习` `翻译`
 
----
+***
 
 ### [语法工作表生成器](https://lobechat.com/discover/assistant/grammar-revision-worksheets)
 
@@ -2974,7 +2974,7 @@ LobeChat 是一个 Next.js 框架构建的 AI 会话应用，我将会帮你一�
 
 `english-grammar` `worksheet` `learning` `practice` `mc-qs`
 
----
+***
 
 ### [土耳其语导师](https://lobechat.com/discover/assistant/turkish-language-tutor)
 
@@ -2984,7 +2984,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `土耳其语` `语言学习` `教学` `辅导`
 
----
+***
 
 ### [术语表生成器](https://lobechat.com/discover/assistant/glossary-generator)
 
@@ -2994,7 +2994,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `术语表` `翻译` `语言`
 
----
+***
 
 ### [词汇大师](https://lobechat.com/discover/assistant/awl-vocab-wizard)
 
@@ -3004,7 +3004,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `词汇` `学术词汇表` `语言学习` `测试`
 
----
+***
 
 ### [词汇工作表向导](https://lobechat.com/discover/assistant/vocabulary-worksheet-wizard)
 
@@ -3014,7 +3014,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `词汇` `工作表` `教育` `语言学习`
 
----
+***
 
 ### [主题词汇工作表创建器](https://lobechat.com/discover/assistant/thematic-vocabulary-worksheet-generator)
 
@@ -3024,7 +3024,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `写作` `语言学习` `教学` `评估` `教育资源`
 
----
+***
 
 ### [阅读理解向导](https://lobechat.com/discover/assistant/reading-comprehension-exercise-generator)
 
@@ -3034,7 +3034,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `阅读理解` `练习生成` `教育`
 
----
+***
 
 ### [填空练习生成器](https://lobechat.com/discover/assistant/cloze-exercise-generator)
 
@@ -3044,7 +3044,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `摘要` `练习` `生成器` `写作` `教育`
 
----
+***
 
 ### [网站审核助手](https://lobechat.com/discover/assistant/website-audit-assistant)
 
@@ -3054,7 +3054,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `内容审核` `分类` `网站分析`
 
----
+***
 
 ### [土耳其语 / 英语翻译器](https://lobechat.com/discover/assistant/turkish-english-translator)
 
@@ -3064,7 +3064,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `土耳其语` `英语` `翻译` `写作`
 
----
+***
 
 ### [文本变体生成器](https://lobechat.com/discover/assistant/text-variator)
 
@@ -3074,7 +3074,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `文案撰写` `编辑` `创意写作`
 
----
+***
 
 ### [苏格拉底式教师](https://lobechat.com/discover/assistant/socratic-teacher)
 
@@ -3084,7 +3084,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `思维` `学生` `学习`
 
----
+***
 
 ### [写作助手](https://lobechat.com/discover/assistant/writing-assistant)
 
@@ -3094,7 +3094,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `评估` `改进` `校对` `反馈`
 
----
+***
 
 ### [语言修正器](https://lobechat.com/discover/assistant/language-fixer)
 
@@ -3104,7 +3104,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `语法` `拼写错误` `语言` `写作` `词汇`
 
----
+***
 
 ### [Golang 架构师](https://lobechat.com/discover/assistant/golang-architect)
 
@@ -3114,7 +3114,7 @@ AI 土耳其语导师：介绍、教授并支持初学者学习土耳其语。
 
 `架构设计` `代码方案` `技术咨询` `golang` `代码开发`
 
----
+***
 
 ### [CAN: 编程大师](https://lobechat.com/discover/assistant/can)
 
@@ -3124,7 +3124,7 @@ CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、
 
 `编程` `交流` `提问`
 
----
+***
 
 ### [Marvin](https://lobechat.com/discover/assistant/helps-you-with-your-homework-or-not)
 
@@ -3134,7 +3134,7 @@ CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、
 
 `抑郁` `讽刺`
 
----
+***
 
 ### [表单检查器](https://lobechat.com/discover/assistant/form-checker)
 
@@ -3144,7 +3144,7 @@ CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、
 
 `表单` `不一致` `检查` `拼写` `纠正`
 
----
+***
 
 ### [数据库专家](https://lobechat.com/discover/assistant/dba)
 
@@ -3154,7 +3154,7 @@ CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、
 
 `数据库` `dba` `mysql` `clickhouse` `doris` `mongo-db` `oracle`
 
----
+***
 
 ### [演示向导](https://lobechat.com/discover/assistant/word)
 
@@ -3164,7 +3164,7 @@ Word 应用演示制作机器人：帮助在 Microsoft Word 中创建令人印�
 
 `应用程序演示` `微软 Word` `机器人` `辅助` `模板`
 
----
+***
 
 ### [SagePathfinder](https://lobechat.com/discover/assistant/sage-pathfinder)
 
@@ -3174,7 +3174,7 @@ Word 应用演示制作机器人：帮助在 Microsoft Word 中创建令人印�
 
 `个人成长` `教练` `反思` `目标设定` `幸福感`
 
----
+***
 
 ### [变量命名大师](https://lobechat.com/discover/assistant/variable-naming-assistant)
 
@@ -3184,7 +3184,7 @@ Word 应用演示制作机器人：帮助在 Microsoft Word 中创建令人印�
 
 `变量命名` `编程` `建议`
 
----
+***
 
 ### [数学研究顾问](https://lobechat.com/discover/assistant/mathematical-research-advisor)
 
@@ -3194,7 +3194,7 @@ Word 应用演示制作机器人：帮助在 Microsoft Word 中创建令人印�
 
 `数学` `研究` `协助` `问题解决` `沟通`
 
----
+***
 
 ### [A2 英语会话辅导员](https://lobechat.com/discover/assistant/english-a-2-level)
 
@@ -3204,7 +3204,7 @@ A2 级别英语会话伙伴机器人：提升基础英语学习者的语言能�
 
 `英语会话` `语言学习` `教学`
 
----
+***
 
 ### [C1 Level English Language Facilitator](https://lobechat.com/discover/assistant/c-1-level-english)
 
@@ -3214,7 +3214,7 @@ English Conversation Partner for C1 Level
 
 `english-conversation` `c-1-level` `language-proficiency` `language-coaching`
 
----
+***
 
 ### [创业和竞争力专家](https://lobechat.com/discover/assistant/entrepreneurship-and-competitiveness-expert)
 
@@ -3224,7 +3224,7 @@ English Conversation Partner for C1 Level
 
 `创业` `竞争力` `咨询` `指导` `建议`
 
----
+***
 
 ### [英语熟练度教练](https://lobechat.com/discover/assistant/english-c-2-level)
 
@@ -3234,7 +3234,7 @@ C2 级别英语会话伙伴
 
 `英语熟练度` `会话伙伴` `语言辅导`
 
----
+***
 
 ### [英语 C1 级精通教练](https://lobechat.com/discover/assistant/english-language-c-1-mastery-coach)
 
@@ -3244,7 +3244,7 @@ C1 级别的英语会话伙伴
 
 `英语会话` `语言熟练度` `高级水平` `语言辅导` `流利度`
 
----
+***
 
 ### [小红书审核助理](https://lobechat.com/discover/assistant/xhs-evl-cl)
 
@@ -3254,7 +3254,7 @@ C1 级别的英语会话伙伴
 
 `小红书` `写作` `文案` `评估`
 
----
+***
 
 ### [毕尔巴鄂创业专家](https://lobechat.com/discover/assistant/bizkaia-entrepreneurship-expert)
 
@@ -3264,7 +3264,7 @@ C1 级别的英语会话伙伴
 
 `毕尔巴鄂` `创业` `咨询` `指导` `本地商业生态系统` `市场动态` `商业计划` `财务模型` `融资策略` `营销` `品牌塑造` `销售策略` `社交网络` `创业项目` `指导` `本地资源` `融资机会` `合作` `可持续商业实践` `经济发展`
 
----
+***
 
 ### [软件架构策略师](https://lobechat.com/discover/assistant/software-architecture-strategist)
 
@@ -3274,7 +3274,7 @@ C1 级别的英语会话伙伴
 
 `软件开发` `架构` `设计` `领导力` `沟通`
 
----
+***
 
 ### [领土推广策略师](https://lobechat.com/discover/assistant/biskaya)
 
@@ -3284,7 +3284,7 @@ C1 级别的英语会话伙伴
 
 `territorial-competitiveness` `promotion` `consulting` `marketing` `event-coordination`
 
----
+***
 
 ### [诗歌导师](https://lobechat.com/discover/assistant/poetry)
 
@@ -3294,7 +3294,7 @@ C1 级别的英语会话伙伴
 
 `诗歌` `教学` `写作` `反馈` `创造力`
 
----
+***
 
 ### [软件开发步骤制定者](https://lobechat.com/discover/assistant/coder)
 
@@ -3304,7 +3304,7 @@ C1 级别的英语会话伙伴
 
 `软件开发` `逐步指导` `SDLC` `敏捷方法` `版本控制` `持续集成` `持续部署` `团队角色` `项目管理` `编码最佳实践` `测试` `部署` `部署后` `迭代开发`
 
----
+***
 
 ### \[诗歌指南：激发诗意表达和欣赏。
 
@@ -3318,7 +3318,7 @@ C1 级别的英语会话伙伴
 
 `心理学` `教育` `心理健康` `幸福` `治疗`
 
----
+***
 
 ### [说唱老师](https://lobechat.com/discover/assistant/rap)
 
@@ -3328,7 +3328,7 @@ C1 级别的英语会话伙伴
 
 `说唱` `教学` `教育` `歌词` `表演`
 
----
+***
 
 ### [英语学习伴侣](https://lobechat.com/discover/assistant/language)
 
@@ -3338,7 +3338,7 @@ A1 级别英语会话伙伴机器人：参与、纠正和增强信心。
 
 `英语学习` `会话练习` `语言支持` `初学者级别` `语言技能`
 
----
+***
 
 ### [地缘政治分析师](https://lobechat.com/discover/assistant/geo)
 
@@ -3348,7 +3348,7 @@ A1 级别英语会话伙伴机器人：参与、纠正和增强信心。
 
 `地缘政治` `分析` `专业知识` `咨询`
 
----
+***
 
 ### [B2 Level English Conversation Partner](https://lobechat.com/discover/assistant/english-b-2-level)
 
@@ -3358,7 +3358,7 @@ B2 Level English Conversation Partner: Stimulate engaging conversations, refine 
 
 `english-conversation` `language-proficiency` `fluency` `grammatical-constructs` `vocabulary` `idiomatic-expressions`
 
----
+***
 
 ### [牙买加克里奥尔语教师](https://lobechat.com/discover/assistant/patois)
 
@@ -3368,7 +3368,7 @@ B2 Level English Conversation Partner: Stimulate engaging conversations, refine 
 
 `教学` `语言` `文化` `文化洞察` `语言指导`
 
----
+***
 
 ### [俚语导师](https://lobechat.com/discover/assistant/slang)
 
@@ -3378,7 +3378,7 @@ B2 Level English Conversation Partner: Stimulate engaging conversations, refine 
 
 `俚语` `语言学习` `会话伙伴`
 
----
+***
 
 ### [B1 级英语会话伙伴](https://lobechat.com/discover/assistant/learning)
 
@@ -3388,7 +3388,7 @@ B2 Level English Conversation Partner: Stimulate engaging conversations, refine 
 
 `英语学习` `会话伙伴` `语言练习`
 
----
+***
 
 ### [Steam 游戏评测](https://lobechat.com/discover/assistant/steam-agent)
 
@@ -3398,7 +3398,7 @@ Steam 游戏专家顾问，热门游戏推荐和深度游戏解析
 
 `steam` `游戏推荐` `游戏测评`
 
----
+***
 
 ### [Bilibili 助手](https://lobechat.com/discover/assistant/bilibili-agent)
 
@@ -3408,7 +3408,7 @@ Bilibili 助手，擅长解析视频内容、生成格式良好的文本、回�
 
 `视频评论` `弹幕提取` `bilibili` `哔哩哔哩` `视频搜索`
 
----
+***
 
 ### [OpenAPI 生成器](https://lobechat.com/discover/assistant/openapi-generator)
 
@@ -3418,7 +3418,7 @@ Bilibili 助手，擅长解析视频内容、生成格式良好的文本、回�
 
 `自动化工具` `接口文档` `工作流程` `openapi`
 
----
+***
 
 ### [烹饪 AI 导师](https://lobechat.com/discover/assistant/chef)
 
@@ -3428,7 +3428,7 @@ AI 大厨助手：激发家庭厨师的国际美食、食谱和烹饪专业知�
 
 `烹饪` `食谱` `烹饪` `技巧` `膳食规划`
 
----
+***
 
 ### [AI 进出口顾问](https://lobechat.com/discover/assistant/import-and-export-advisor)
 
@@ -3438,7 +3438,7 @@ AI 进出口顾问：提供全球贸易、海关法规、文件、贸易协定�
 
 `进出口` `贸易` `咨询`
 
----
+***
 
 ### [歌曲创作导师](https://lobechat.com/discover/assistant/singer)
 
@@ -3448,7 +3448,7 @@ AI 歌手 / 词曲创作助手：为音乐人提供创意指导和反馈。
 
 `ai-assistant` `singer` `songwriter` `music` `creative-process`
 
----
+***
 
 ### [ShieldsIO 徽章生成器](https://lobechat.com/discover/assistant/shields-io)
 
@@ -3458,7 +3458,7 @@ AI 歌手 / 词曲创作助手：为音乐人提供创意指导和反馈。
 
 `徽章生成器` `美化` `ui设计` `markdown` `技术栈` `shields-io`
 
----
+***
 
 ### [TaxBot](https://lobechat.com/discover/assistant/tax-bot)
 
@@ -3468,7 +3468,7 @@ AI 税务顾问聊天机器人：为全球用户提供一般税务信息和指�
 
 `税务咨询` `聊天机器人` `信息` `指导` `税务概念`
 
----
+***
 
 ### [文本总结助手](https://lobechat.com/discover/assistant/summary-assistant)
 
@@ -3478,7 +3478,7 @@ AI 税务顾问聊天机器人：为全球用户提供一般税务信息和指�
 
 `文本总结` `信息提取` `简洁明了` `准确性`
 
----
+***
 
 ### [React Native 编码指南](https://lobechat.com/discover/assistant/react-native)
 
@@ -3488,7 +3488,7 @@ React Native 编码助手：精通 TypeScript、Expo 和跨平台开发。提供
 
 `编码` `react-native` `type-script` `expo` `开发`
 
----
+***
 
 ### [手办设计师](https://lobechat.com/discover/assistant/art-toy-designer)
 
@@ -3498,7 +3498,7 @@ React Native 编码助手：精通 TypeScript、Expo 和跨平台开发。提供
 
 `设计` `手办设计`
 
----
+***
 
 ### [意图共鸣 GPT](https://lobechat.com/discover/assistant/intention-resonates-gpt)
 
@@ -3508,7 +3508,7 @@ React Native 编码助手：精通 TypeScript、Expo 和跨平台开发。提供
 
 `对话` `深度理解`
 
----
+***
 
 ### [初创科技律师](https://lobechat.com/discover/assistant/tech-lawyer)
 
@@ -3518,7 +3518,7 @@ React Native 编码助手：精通 TypeScript、Expo 和跨平台开发。提供
 
 `知识产权法` `数据隐私合规` `合同谈判` `科技初创法律策略` `雇佣法指导`
 
----
+***
 
 ### [购物助手](https://lobechat.com/discover/assistant/shop)
 
@@ -3528,7 +3528,7 @@ React Native 编码助手：精通 TypeScript、Expo 和跨平台开发。提供
 
 `购物助手` `商品搜索` `比价` `购买建议` `客户咨询` `agulu`
 
----
+***
 
 ### [DIY 指导助手](https://lobechat.com/discover/assistant/diy)
 
@@ -3538,7 +3538,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `diy` `指导` `项目` `编程` `组装`
 
----
+***
 
 ### [中日双语翻译专家](https://lobechat.com/discover/assistant/zh-jp-translate-expert)
 
@@ -3548,7 +3548,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `翻译` `中日互译` `语言交流`
 
----
+***
 
 ### [雅思导师](https://lobechat.com/discover/assistant/ielts-mentor)
 
@@ -3558,7 +3558,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `雅思考试` `评估` `指导` `考官`
 
----
+***
 
 ### [会计专家助手](https://lobechat.com/discover/assistant/accounting)
 
@@ -3568,7 +3568,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `会计` `财务管理` `税务规划` `预算编制`
 
----
+***
 
 ### [商业顾问](https://lobechat.com/discover/assistant/business-guru)
 
@@ -3578,7 +3578,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `business-consultant`
 
----
+***
 
 ### [EOI 考试准备助手](https://lobechat.com/discover/assistant/teacher)
 
@@ -3588,7 +3588,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `教学` `语言学习` `考试`
 
----
+***
 
 ### [草神・纳西妲](https://lobechat.com/discover/assistant/nahida)
 
@@ -3598,7 +3598,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `角色扮演` `游戏` `文学` `翻译` `创意` `agulu`
 
----
+***
 
 ### [金融专家](https://lobechat.com/discover/assistant/finnance)
 
@@ -3608,7 +3608,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `金融管理`
 
----
+***
 
 ### [Tech Explorer AI](https://lobechat.com/discover/assistant/tech-explorer-ai)
 
@@ -3618,7 +3618,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `技术研究` `数据分析` `研究方法` `数据准确性` `推断` `用户交互`
 
----
+***
 
 ### [PromptGPT](https://lobechat.com/discover/assistant/prompt-gpt)
 
@@ -3628,7 +3628,7 @@ DIY 项目助手，提供详细指导、编程支持和个性化定制
 
 `生成` `人工智能` `交互` `定制体验` `反馈机制` `最佳实践` `逐步指导` `语言灵活性` `边界`
 
----
+***
 
 ### [AE 脚本开发专家](https://lobechat.com/discover/assistant/ae-script-development)
 
@@ -3638,7 +3638,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `脚本开发` `程序员` `adobe-after-effects` `java-script` `算法设计` `调试` `优化` `编程规范` `用户沟通` `脚本使用说明`
 
----
+***
 
 ### [Code Companion](https://lobechat.com/discover/assistant/code-companion)
 
@@ -3648,7 +3648,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `code` `dev` `program`
 
----
+***
 
 ### [William](https://lobechat.com/discover/assistant/unreal-engine-development-engineer)
 
@@ -3658,7 +3658,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `虚幻引擎` `c-编程` `渲染管线` `内存管理` `线程架构`
 
----
+***
 
 ### [乍得](https://lobechat.com/discover/assistant/chad)
 
@@ -3668,7 +3668,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `幽默` `搞笑`
 
----
+***
 
 ### [经过 SEO 优化的博客](https://lobechat.com/discover/assistant/seo-optimized-blog)
 
@@ -3678,7 +3678,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `博客` `SEO` `撰写` `文章撰写` `经过SEO优化的博客` `内容撰写` `100%独特的博客` `人工撰写的博客`
 
----
+***
 
 ### [生活决策顾问](https://lobechat.com/discover/assistant/life-decision-advisor)
 
@@ -3688,7 +3688,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `提示`
 
----
+***
 
 ### [英语解析师](https://lobechat.com/discover/assistant/english-teacher)
 
@@ -3698,7 +3698,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `英语教学` `解释` `记忆技巧`
 
----
+***
 
 ### [计算机科学论文润色](https://lobechat.com/discover/assistant/cs-research-paper)
 
@@ -3708,7 +3708,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `润色` `论文` `教育` `计算机科学`
 
----
+***
 
 ### [Emoji 生成](https://lobechat.com/discover/assistant/emoji-generate)
 
@@ -3718,7 +3718,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `表情生成` `emoji` `创意`
 
----
+***
 
 ### [个人成长教练](https://lobechat.com/discover/assistant/personal-growth-coach)
 
@@ -3728,7 +3728,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `个人成长` `辅导` `自我提升` `目标设定` `动力`
 
----
+***
 
 ### [绩效评估超人](https://lobechat.com/discover/assistant/kpi-hero)
 
@@ -3738,7 +3738,7 @@ AE 脚本开发专家，精通 JavaScript 编程，理解 AE 软件工作原理�
 
 `绩效评估` `报告撰写` `数据分析` `专业见解` `okr` `kpi`
 
----
+***
 
 ### [SVG 流程图解释助手](https://lobechat.com/discover/assistant/svg-flowchart-explanation-assistant)
 
@@ -3748,7 +3748,7 @@ SVG 流程图解释，输入 SVG 源代码，解释该流程图
 
 `流程图解释` `技术文档编写` `业务知识`
 
----
+***
 
 ### [周报助手](https://lobechat.com/discover/assistant/write-report-assistant-development)
 
@@ -3758,7 +3758,7 @@ SVG 流程图解释，输入 SVG 源代码，解释该流程图
 
 `周报` `日报` `写作` `总结`
 
----
+***
 
 ### [三维动画工程师](https://lobechat.com/discover/assistant/react-three-3-d-expert)
 
@@ -3768,7 +3768,7 @@ SVG 流程图解释，输入 SVG 源代码，解释该流程图
 
 `3-d动画` `react` `three-js` `网页设计` `动画`
 
----
+***
 
 ### [Amazon Title Assistant](https://lobechat.com/discover/assistant/amazon)
 
@@ -3778,7 +3778,7 @@ Provide product keywords or product links to automatically write titles and prod
 
 `assistant`
 
----
+***
 
 ### [教学导师](https://lobechat.com/discover/assistant/ljrwwjl-development)
 
@@ -3788,7 +3788,7 @@ Provide product keywords or product links to automatically write titles and prod
 
 `导师` `教育` `解释` `交流` `学习`
 
----
+***
 
 ### [考试助手](https://lobechat.com/discover/assistant/generador-examenes)
 
@@ -3798,7 +3798,7 @@ Provide product keywords or product links to automatically write titles and prod
 
 `考试` `学习` `统计`
 
----
+***
 
 ### [TOEFL 写作辅导](https://lobechat.com/discover/assistant/toefl-writing-tutor)
 
@@ -3808,7 +3808,7 @@ Provide product keywords or product links to automatically write titles and prod
 
 `写作` `学习`
 
----
+***
 
 ### [MidjourneyGPT](https://lobechat.com/discover/assistant/prompt-composition)
 
@@ -3818,7 +3818,7 @@ Provide product keywords or product links to automatically write titles and prod
 
 `midjourney` `prompt` `ai`
 
----
+***
 
 ### [美术论文概述专家](https://lobechat.com/discover/assistant/thesis-overview)
 
@@ -3828,7 +3828,7 @@ Provide product keywords or product links to automatically write titles and prod
 
 `美术` `论文` `评论`
 
----
+***
 
 ### [部署专家代理](https://lobechat.com/discover/assistant/deployment-agent)
 
@@ -3838,7 +3838,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `代码` `部署` `容器化`
 
----
+***
 
 ### [美式英语转译专家](https://lobechat.com/discover/assistant/to-local-english)
 
@@ -3848,7 +3848,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `翻译` `编辑` `写作` `翻译家`
 
----
+***
 
 ### [学术润色专家](https://lobechat.com/discover/assistant/academic-paragraph-refiner)
 
@@ -3858,7 +3858,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `校对` `写作` `研究`
 
----
+***
 
 ### [Flutter 开发专家](https://lobechat.com/discover/assistant/flutter-dev)
 
@@ -3868,7 +3868,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `flutter` `development` `dart` `programming` `widgets`
 
----
+***
 
 ### [Facebook 广告专家](https://lobechat.com/discover/assistant/facebook-ads-expert)
 
@@ -3878,7 +3878,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `文案撰写` `Facebook广告` `潜在客户生成`
 
----
+***
 
 ### [新闻搜索助手](https://lobechat.com/discover/assistant/news-hub)
 
@@ -3888,7 +3888,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `新闻` `搜索` `助手`
 
----
+***
 
 ### [旅行助手](https://lobechat.com/discover/assistant/travel-assistant)
 
@@ -3898,7 +3898,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `户外` `徒步`
 
----
+***
 
 ### [研究助理](https://lobechat.com/discover/assistant/research-assistant)
 
@@ -3908,7 +3908,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `research-assistant` `literature-retrieval` `writing` `scientific-research` `citation`
 
----
+***
 
 ### [梦境画家](https://lobechat.com/discover/assistant/dream-painter)
 
@@ -3918,7 +3918,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `txt-2-img` `painter`
 
----
+***
 
 ### [刑辩专家](https://lobechat.com/discover/assistant/yundaodev-1)
 
@@ -3928,7 +3928,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `刑辩`
 
----
+***
 
 ### [Emoji 贺词专家](https://lobechat.com/discover/assistant/congratulations-with-smileys)
 
@@ -3938,7 +3938,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `祝贺` `节日` `善良`
 
----
+***
 
 ### [房地产经纪人](https://lobechat.com/discover/assistant/estate-agency)
 
@@ -3948,7 +3948,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `房地产` `房地产经纪人` `知识专家` `房产评估` `购房` `物业管理`
 
----
+***
 
 ### [案件生成器](https://lobechat.com/discover/assistant/detective-novelist)
 
@@ -3958,7 +3958,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `探案` `游戏` `推理` `解谜` `侦探`
 
----
+***
 
 ### [书籍摘要](https://lobechat.com/discover/assistant/book-summary-agent)
 
@@ -3968,7 +3968,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `书籍摘要` `AI助手` `要点摘要` `可操作的要点`
 
----
+***
 
 ### [Rust 编程助手](https://lobechat.com/discover/assistant/rust-assistant)
 
@@ -3978,7 +3978,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `rust学习` `编程` `教学` `技能` `资源`
 
----
+***
 
 ### [探案解析器](https://lobechat.com/discover/assistant/detective-game-assistant)
 
@@ -3988,7 +3988,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `探案` `游戏` `推理` `解谜` `侦探`
 
----
+***
 
 ### [社区经理](https://lobechat.com/discover/assistant/community-manager)
 
@@ -3998,7 +3998,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `community-manager` `social-media` `publications`
 
----
+***
 
 ### [Stable Diffusion 手艺家](https://lobechat.com/discover/assistant/stable-diffusion)
 
@@ -4008,7 +4008,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `stable-diffusion`
 
----
+***
 
 ### [工资谈判游戏](https://lobechat.com/discover/assistant/payroll-game)
 
@@ -4018,7 +4018,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `游戏` `老板` `工资`
 
----
+***
 
 ### [梦境分析师](https://lobechat.com/discover/assistant/dream-psychoanalyst)
 
@@ -4028,7 +4028,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `dream` `master` `think`
 
----
+***
 
 ### [英文翻译专家](https://lobechat.com/discover/assistant/translate-eng-expert)
 
@@ -4038,7 +4038,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `translate` `expert` `english`
 
----
+***
 
 ### [Python Gradio 专家](https://lobechat.com/discover/assistant/gradio-coding)
 
@@ -4048,7 +4048,7 @@ AI 部署专家是管理软件应用的完整部署生命周期的专家，特�
 
 `编程` `助手` `python`
 
----
+***
 
 ### [GitHub Copilot](https://lobechat.com/discover/assistant/github-copilot)
 
@@ -4058,7 +4058,7 @@ GitHub Copilot
 
 `code` `it`
 
----
+***
 
 ### [授粉 AI 画图](https://lobechat.com/discover/assistant/pollinations-drawing)
 
@@ -4068,7 +4068,7 @@ GitHub Copilot
 
 `绘画` `润色`
 
----
+***
 
 ### [食谱生成器](https://lobechat.com/discover/assistant/recipe-generator)
 
@@ -4078,7 +4078,7 @@ GitHub Copilot
 
 `厨房` `烘焙` `食物` `食谱` `烹饪`
 
----
+***
 
 ### [HTTP 请求大师](https://lobechat.com/discover/assistant/http-request-master)
 
@@ -4088,7 +4088,7 @@ GitHub Copilot
 
 `http-request` `http` `request` `web`
 
----
+***
 
 ### [代码魔法师](https://lobechat.com/discover/assistant/friend-developer)
 
@@ -4098,7 +4098,7 @@ GitHub Copilot
 
 `编程` `编码` `咨询` `朋友` `助手` `it` `it`
 
----
+***
 
 ### [Mr. Feynman](https://lobechat.com/discover/assistant/mrfeynman)
 
@@ -4108,7 +4108,7 @@ GitHub Copilot
 
 `通用教师助手`
 
----
+***
 
 ### [有机化学研究员](https://lobechat.com/discover/assistant/organic-chemistry-researcher)
 
@@ -4118,7 +4118,7 @@ GitHub Copilot
 
 `有机化学` `科研` `翻译` `写作` `学术文章`
 
----
+***
 
 ### [LobeChat 测试工程师](https://lobechat.com/discover/assistant/lobe-chat-unit-test-dev)
 
@@ -4128,7 +4128,7 @@ GitHub Copilot
 
 `自动化测试` `测试` `lobe-chat` `前端`
 
----
+***
 
 ### [问答文档转换专家](https://lobechat.com/discover/assistant/q-a-helper)
 
@@ -4138,7 +4138,7 @@ GitHub Copilot
 
 `q-a` `文档`
 
----
+***
 
 ### [JS 代码质量优化](https://lobechat.com/discover/assistant/js-code-quality)
 
@@ -4148,7 +4148,7 @@ GitHub Copilot
 
 `重构` `代码优化` `代码质量`
 
----
+***
 
 ### [真实的老友](https://lobechat.com/discover/assistant/ai-0-x-0-old-friends)
 
@@ -4158,7 +4158,7 @@ GitHub Copilot
 
 `友情` `幽默` `真实` `模拟`
 
----
+***
 
 ### [短视频脚本助手](https://lobechat.com/discover/assistant/tik-tok-director)
 
@@ -4168,7 +4168,7 @@ GitHub Copilot
 
 `短视频` `tkitok` `编剧`
 
----
+***
 
 ### [专家代理人导师](https://lobechat.com/discover/assistant/co-agent)
 
@@ -4178,7 +4178,7 @@ GitHub Copilot
 
 `任务指导` `执行计划` `沟通` `支持`
 
----
+***
 
 ### [图形创意大师](https://lobechat.com/discover/assistant/graphic-creativity)
 
@@ -4188,7 +4188,7 @@ GitHub Copilot
 
 `图形` `创意` `设计` `平面`
 
----
+***
 
 ### [全栈开发人员](https://lobechat.com/discover/assistant/fs-dev)
 
@@ -4198,7 +4198,7 @@ GitHub Copilot
 
 `Web开发` `前端` `后端` `编程` `数据库`
 
----
+***
 
 ### [Tailwind 巫师](https://lobechat.com/discover/assistant/tailwind-wizard)
 
@@ -4208,7 +4208,7 @@ GitHub Copilot
 
 `开发` `编码` `界面设计`
 
----
+***
 
 ### [中英文互译助手](https://lobechat.com/discover/assistant/en-cn-translator)
 
@@ -4218,7 +4218,7 @@ GitHub Copilot
 
 `翻译` `中文` `英文`
 
----
+***
 
 ### [科研文章翻译助手](https://lobechat.com/discover/assistant/s-rtranslation)
 
@@ -4228,7 +4228,7 @@ GitHub Copilot
 
 `科研` `翻译`
 
----
+***
 
 ### [MidJourney 提示词专家](https://lobechat.com/discover/assistant/mid-journey-prompt)
 
@@ -4238,7 +4238,7 @@ GitHub Copilot
 
 `MidJourney` `Prompt`
 
----
+***
 
 ### [老爸，该怎么办？](https://lobechat.com/discover/assistant/big-daddy)
 
@@ -4248,7 +4248,7 @@ GitHub Copilot
 
 `人物模拟`
 
----
+***
 
 ### [学术写作增强机器人](https://lobechat.com/discover/assistant/academic-writing-eb)
 
@@ -4258,7 +4258,7 @@ GitHub Copilot
 
 `校对` `修辞` `学术` `研究` `英文` `润色`
 
----
+***
 
 ### [Sketch 特性总结专家](https://lobechat.com/discover/assistant/sketch-changelog-highlighter)
 
@@ -4268,7 +4268,7 @@ GitHub Copilot
 
 `体验设计` `sketch` `更新` `特性` `文本总结`
 
----
+***
 
 ### [抬杠高手](https://lobechat.com/discover/assistant/tqg-20231026)
 
@@ -4278,7 +4278,7 @@ GitHub Copilot
 
 `写作` `对话`
 
----
+***
 
 ### [图表生成器](https://lobechat.com/discover/assistant/graph-generator)
 
@@ -4288,7 +4288,7 @@ GitHub Copilot
 
 `图表`
 
----
+***
 
 ### [作品命名大师](https://lobechat.com/discover/assistant/meaningful-name)
 
@@ -4298,7 +4298,7 @@ GitHub Copilot
 
 `起名` `创意`
 
----
+***
 
 ### [小红书风格文案写手](https://lobechat.com/discover/assistant/xiaohongshu-style-writer)
 
@@ -4308,7 +4308,7 @@ GitHub Copilot
 
 `小红书` `写作` `文案`
 
----
+***
 
 ### [英文新闻翻译专家](https://lobechat.com/discover/assistant/english-news-translator)
 
@@ -4318,7 +4318,7 @@ GitHub Copilot
 
 `翻译` `文案`
 
----
+***
 
 ### [Agent Prompt 优化专家](https://lobechat.com/discover/assistant/gpt-agent-prompt-improver)
 
@@ -4328,7 +4328,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `prompt`
 
----
+***
 
 ### [C++ 代码](https://lobechat.com/discover/assistant/c-code-development)
 
@@ -4338,7 +4338,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `代码`
 
----
+***
 
 ### [TS 类型定义补全](https://lobechat.com/discover/assistant/typescript-jsdoc)
 
@@ -4348,7 +4348,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `typescript` `jsdoc`
 
----
+***
 
 ### [LOGO 创意大师](https://lobechat.com/discover/assistant/logo-creativity)
 
@@ -4358,7 +4358,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `创意` `头脑风暴` `设计` `品牌` `方法`
 
----
+***
 
 ### [接口类型请求生成器](https://lobechat.com/discover/assistant/swagger-api-to-types)
 
@@ -4368,7 +4368,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `aigc` `api` `yapi` `swagger` `api-fox`
 
----
+***
 
 ### [起名大师](https://lobechat.com/discover/assistant/naming-master)
 
@@ -4378,7 +4378,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `起名` `文案`
 
----
+***
 
 ### [网页内容总结专家](https://lobechat.com/discover/assistant/url-summary)
 
@@ -4388,7 +4388,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `网页` `阅读` `总结` `联网`
 
----
+***
 
 ### [Zustand reducer 专家](https://lobechat.com/discover/assistant/zustand-reducer)
 
@@ -4398,7 +4398,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `typescript` `reducer` `代码` `前端` `软件开发` `状态管理` `zustand`
 
----
+***
 
 ### [抽象概念实体化表达大师](https://lobechat.com/discover/assistant/conceptual-abstractor)
 
@@ -4408,7 +4408,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `用户体验` `设计师` `文档` `写作` `比喻` `概念`
 
----
+***
 
 ### [UX Writer](https://lobechat.com/discover/assistant/metaphor-ux-writer)
 
@@ -4418,7 +4418,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `用户体验` `设计师` `文档` `写作` `比喻`
 
----
+***
 
 ### [UX Writer](https://lobechat.com/discover/assistant/better-ux-writer)
 
@@ -4428,7 +4428,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `用户体验` `设计师` `文档` `写作`
 
----
+***
 
 ### [API 文档优化专家](https://lobechat.com/discover/assistant/api-docs-writer)
 
@@ -4438,7 +4438,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `代码` `软件开发` `程序员` `文档` `写作`
 
----
+***
 
 ### [标题扩写专家](https://lobechat.com/discover/assistant/title-expansion-writer)
 
@@ -4448,7 +4448,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `用户体验` `设计师` `文档` `写作`
 
----
+***
 
 ### [JS 代码转 TS 专家](https://lobechat.com/discover/assistant/js-to-ts)
 
@@ -4458,7 +4458,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `typescript` `js` `代码` `前端` `软件开发`
 
----
+***
 
 ### [前端 TypeScript 单测专家](https://lobechat.com/discover/assistant/frontend-test-analyzer)
 
@@ -4468,7 +4468,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `typescript` `单元测试` `代码` `软件开发`
 
----
+***
 
 ### [前端研发架构师](https://lobechat.com/discover/assistant/frontend-architect)
 
@@ -4478,7 +4478,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `typescript` `代码` `前端` `架构师` `联网` `搜索引擎` `信息整理`
 
----
+***
 
 ### [信息整理大师](https://lobechat.com/discover/assistant/content-searcher)
 
@@ -4488,7 +4488,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `搜索引擎` `联网` `信息整理`
 
----
+***
 
 ### [React Class 组件转 FC 组件](https://lobechat.com/discover/assistant/react-cc-to-fc)
 
@@ -4498,7 +4498,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `typescript` `代码` `软件开发` `react` `重构`
 
----
+***
 
 ### [Dva 重构 Zustand 专家](https://lobechat.com/discover/assistant/dva-to-zustand)
 
@@ -4508,7 +4508,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `typescript` `代码` `软件开发` `状态管理` `dva` `zustand`
 
----
+***
 
 ### [Markdown 产品特性格式化专家](https://lobechat.com/discover/assistant/markdown-feature-polisher)
 
@@ -4518,7 +4518,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `产品` `markdown` `文档`
 
----
+***
 
 ### [深度思考](https://lobechat.com/discover/assistant/deep-think)
 
@@ -4528,7 +4528,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `对话` `思考`
 
----
+***
 
 ### [编码巫师](https://lobechat.com/discover/assistant/coding-wizard)
 
@@ -4538,7 +4538,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `代码` `软件开发` `效率`
 
----
+***
 
 ### [简历优化](https://lobechat.com/discover/assistant/resume-editing)
 
@@ -4548,7 +4548,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `学术` `效率` `指南`
 
----
+***
 
 ### [角色扮演](https://lobechat.com/discover/assistant/character-roleplay)
 
@@ -4558,7 +4558,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `对话` `角色扮演` `有趣`
 
----
+***
 
 ### [Web 全栈工程师](https://lobechat.com/discover/assistant/web-development)
 
@@ -4568,7 +4568,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `代码` `软件开发` `效率`
 
----
+***
 
 ### [语法校正器](https://lobechat.com/discover/assistant/grammar-corrector)
 
@@ -4578,7 +4578,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `学术` `效率` `论文`
 
----
+***
 
 ### [助手提示词优化](https://lobechat.com/discover/assistant/agent-prompt-improver)
 
@@ -4588,7 +4588,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `助手` `提示词`
 
----
+***
 
 ### [英文学术润色](https://lobechat.com/discover/assistant/essay-improver)
 
@@ -4598,7 +4598,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `学术` `英语` `效率` `论文`
 
----
+***
 
 ### [创业计划](https://lobechat.com/discover/assistant/startup-plan)
 
@@ -4608,7 +4608,7 @@ GPT Agent Prompt 优化专家。清晰、精确、简明
 
 `创业` `头脑风暴` `计划`
 
----
+***
 
 ### [Stable Diffusion 提示词专家](https://lobechat.com/discover/assistant/stable-diffusion-prompt)
 
@@ -4681,8 +4681,8 @@ $ bun install
 
 ## 🔗 Links
 
-- **[🤖 Lobe Chat](https://github.com/lobehub/lobe-chat)** - LobeChat 是一个开源的、可扩展的（Function Calling）高性能聊天机器人框架，支持一键免费部署私人 ChatGPT/LLM 网页应用程序
-- **[🧩 / 🏪 Plugin Index](https://github.com/lobehub/lobe-chat-plugins)** - Lobe Chat 从该存储库访问 index.json 来为用户展示可用的 Function Calling 插件列表
+* **[🤖 Lobe Chat](https://github.com/lobehub/lobe-chat)** - LobeChat 是一个开源的、可扩展的（Function Calling）高性能聊天机器人框架，支持一键免费部署私人 ChatGPT/LLM 网页应用程序
+* **[🧩 / 🏪 Plugin Index](https://github.com/lobehub/lobe-chat-plugins)** - Lobe Chat 从该存储库访问 index.json 来为用户展示可用的 Function Calling 插件列表
 
 <div align="right">
 
@@ -4690,7 +4690,7 @@ $ bun install
 
 </div>
 
----
+***
 
 #### 📝 License
 
@@ -4700,34 +4700,65 @@ This project is [MIT](./LICENSE) licensed.
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
+
 [bun-link]: https://bun.sh
+
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
+
 [github-action-release-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/release.yml
+
 [github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat-agents/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+
 [github-action-test-link]: https://github.com/lobehub/lobe-chat-agents/actions/workflows/test.yml
+
 [github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-chat-agents/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+
 [github-codespace-link]: https://codespaces.new/lobehub/lobe-chat-agents
+
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
+
 [github-contrib-link]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
+
 [github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Flobe-chat-agents
+
 [github-contributors-link]: https://github.com/lobehub/lobe-chat-agents/graphs/contributors
+
 [github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-chat-agents?color=c4f042&labelColor=black&style=flat-square
+
 [github-forks-link]: https://github.com/lobehub/lobe-chat-agents/network/members
+
 [github-forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-chat-agents?color=8ae8ff&labelColor=black&style=flat-square
+
 [github-issues-link]: https://github.com/lobehub/lobe-chat-agents/issues
+
 [github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-chat-agents?color=ff80eb&labelColor=black&style=flat-square
+
 [github-license-link]: https://github.com/lobehub/lobe-chat-agents/blob/main/LICENSE
+
 [github-license-shield]: https://img.shields.io/github/license/lobehub/lobe-chat-agents?color=white&labelColor=black&style=flat-square
+
 [github-releasedate-link]: https://github.com/lobehub/lobe-chat-agents/releases
+
 [github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-chat-agents?labelColor=black&style=flat-square
+
 [github-stars-link]: https://github.com/lobehub/lobe-chat-agents/network/stargazers
+
 [github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat-agents?color=ffcb47&labelColor=black&style=flat-square
+
 [npm-release-link]: https://www.npmjs.com/package/@lobehub/agents-index
+
 [npm-release-shield]: https://img.shields.io/npm/v/@lobehub/agents-index?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+
 [pr-welcome-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
+
 [profile-url]: https://github.com/lobehub
+
 [submit]: https://github.com/lobehub/lobe-chat-agents/issues/new/choose
+
 [vercel-deploy-link]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat-agents&project-name=lobe-chat-agents&repository-name=lobe-chat-agents
+
 [vercel-deploy-shield]: https://vercel.com/button
+
 [website-shield]: https://img.shields.io/website?down_message=offline&label=chat-agents.lobehub.com&up_message=online&url=https%3A%2F%2Fchat-agents.lobehub.com&labelColor=black&logo=vercel&style=flat-square
+
 [website-url]: https://lobechat.com/discover/assistants
