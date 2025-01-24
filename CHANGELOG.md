@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.21.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.20.0...v1.21.0) (2025-01-24)
+
+
+### ✨ Features
+
+* **agent**: Finance-news-analyser [@towertop](https://github.com/towertop), closes [#1220](https://github.com/lobehub/lobe-chat-agents/issues/1220) [#1219](https://github.com/lobehub/lobe-chat-agents/issues/1219) ([fd04fec](https://github.com/lobehub/lobe-chat-agents/commit/fd04fec))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([351d148](https://github.com/lobehub/lobe-chat-agents/commit/351d148))
+
 # [1.20.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.19.0...v1.20.0) (2025-01-24)
 
 ### ✨ Features
