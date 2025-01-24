@@ -2,7 +2,90 @@
 
 # Changelog
 
-# [1.6.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.5.0...v1.6.0) (2024-11-20)
+# [1.18.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.17.0...v1.18.0) (2024-12-15)
+
+### ✨ Features
+
+- Update build ([b9c3141](https://github.com/lobehub/lobe-chat-agents/commit/b9c3141))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([64297f1](https://github.com/lobehub/lobe-chat-agents/commit/64297f1))
+
+# [1.17.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.16.0...v1.17.0) (2024-12-15)
+
+### ✨ Features
+
+- Update outputLocales ([3528b6b](https://github.com/lobehub/lobe-chat-agents/commit/3528b6b))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([47f3e15](https://github.com/lobehub/lobe-chat-agents/commit/47f3e15))
+
+# [1.16.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.15.0...v1.16.0) (2024-12-04)
+
+### ✨ Features
+
+- **agent**: Instructer [@yuyun2000](https://github.com/yuyun2000), closes [#1160](https://github.com/lobehub/lobe-chat-agents/issues/1160) [#1154](https://github.com/lobehub/lobe-chat-agents/issues/1154) ([cd6f059](https://github.com/lobehub/lobe-chat-agents/commit/cd6f059))
+- **agent**: Japan-language-helper [@sharkbear212](https://github.com/sharkbear212), closes [#1159](https://github.com/lobehub/lobe-chat-agents/issues/1159) [#1158](https://github.com/lobehub/lobe-chat-agents/issues/1158) ([b55267f](https://github.com/lobehub/lobe-chat-agents/commit/b55267f))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([8fdb4c2](https://github.com/lobehub/lobe-chat-agents/commit/8fdb4c2))
+
+# [1.15.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.14.0...v1.15.0) (2024-12-04)
+
+### ✨ Features
+
+- **agent**: Poetry-card-designer [@lianxin255](https://github.com/lianxin255), closes [#1157](https://github.com/lobehub/lobe-chat-agents/issues/1157) [#1156](https://github.com/lobehub/lobe-chat-agents/issues/1156) ([6a8e6ce](https://github.com/lobehub/lobe-chat-agents/commit/6a8e6ce))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([99f883f](https://github.com/lobehub/lobe-chat-agents/commit/99f883f))
+
+# [1.14.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.13.0...v1.14.0) (2024-12-02)
+
+### ✨ Features
+
+- **agent**: Liusai-qibaoba [@liusai0820](https://github.com/liusai0820), closes [#1139](https://github.com/lobehub/lobe-chat-agents/issues/1139) [#1138](https://github.com/lobehub/lobe-chat-agents/issues/1138) ([12251d1](https://github.com/lobehub/lobe-chat-agents/commit/12251d1))
+- **agent**: Yunchat [@yuyun2000](https://github.com/yuyun2000), closes [#1151](https://github.com/lobehub/lobe-chat-agents/issues/1151) [#1147](https://github.com/lobehub/lobe-chat-agents/issues/1147) ([f072d3c](https://github.com/lobehub/lobe-chat-agents/commit/f072d3c))
+- **agent**: Yunchat-docter [@yuyun2000](https://github.com/yuyun2000), closes [#1152](https://github.com/lobehub/lobe-chat-agents/issues/1152) [#1148](https://github.com/lobehub/lobe-chat-agents/issues/1148) ([2e2dc75](https://github.com/lobehub/lobe-chat-agents/commit/2e2dc75))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([d7d765c](https://github.com/lobehub/lobe-chat-agents/commit/d7d765c))
+
+# [1.12.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.11.0...v1.12.0) (2024-11-30)
+
+### ✨ Features
+
+- **agent**: Course-prep-teaching-guide-ai @HNaga, closes [#1150](https://github.com/lobehub/lobe-chat-agents/issues/1150) [#1149](https://github.com/lobehub/lobe-chat-agents/issues/1149) ([371fb8d](https://github.com/lobehub/lobe-chat-agents/commit/371fb8d))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([b7ca1fd](https://github.com/lobehub/lobe-chat-agents/commit/b7ca1fd))
+
+# [1.11.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.10.0...v1.11.0) (2024-11-27)
+
+### ✨ Features
+
+- **agent**: English-chinese-dictionary-expert [@swarfte](https://github.com/swarfte), closes [#1146](https://github.com/lobehub/lobe-chat-agents/issues/1146) [#1096](https://github.com/lobehub/lobe-chat-agents/issues/1096) ([6e94a83](https://github.com/lobehub/lobe-chat-agents/commit/6e94a83))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([9aac806](https://github.com/lobehub/lobe-chat-agents/commit/9aac806))
+
+# [1.10.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.9.0...v1.10.0) (2024-11-26)
+
+### ✨ Features
+
+- **agent**: Backend-assistant [@zeno980](https://github.com/zeno980), closes [#1145](https://github.com/lobehub/lobe-chat-agents/issues/1145) [#1124](https://github.com/lobehub/lobe-chat-agents/issues/1124) ([74ef5e9](https://github.com/lobehub/lobe-chat-agents/commit/74ef5e9))
+- **agent**: Rebecca-therapy-assistant @Kod3c, closes [#1144](https://github.com/lobehub/lobe-chat-agents/issues/1144) [#1128](https://github.com/lobehub/lobe-chat-agents/issues/1128) ([dd6e02c](https://github.com/lobehub/lobe-chat-agents/commit/dd6e02c))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([703307f](https://github.com/lobehub/lobe-chat-agents/commit/703307f))
+- Auto format and add i18n json files ([27fbc2a](https://github.com/lobehub/lobe-chat-agents/commit/27fbc2a))
 
 ### ✨ Features
 
