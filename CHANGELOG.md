@@ -2,6 +2,19 @@
 
 # Changelog
 
+# [1.23.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.22.0...v1.23.0) (2025-01-24)
+
+
+### ✨ Features
+
+* **agent**: Cheaper-reasoning [@davletsh1n](https://github.com/davletsh1n), closes [#1233](https://github.com/lobehub/lobe-chat-agents/issues/1233) [#1212](https://github.com/lobehub/lobe-chat-agents/issues/1212) ([db0790e](https://github.com/lobehub/lobe-chat-agents/commit/db0790e))
+* **agent**: Ppt-production-expert [@patricleehua](https://github.com/patricleehua), closes [#1232](https://github.com/lobehub/lobe-chat-agents/issues/1232) [#1174](https://github.com/lobehub/lobe-chat-agents/issues/1174) ([d135794](https://github.com/lobehub/lobe-chat-agents/commit/d135794))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([8c7c84a](https://github.com/lobehub/lobe-chat-agents/commit/8c7c84a))
+
 # [1.21.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.20.0...v1.21.0) (2025-01-24)
 
 ### ✨ Features

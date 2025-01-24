@@ -79,6 +79,26 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [PPT 制作达人](https://lobechat.com/discover/assistant/ppt-production-expert)
+
+<sup>By **[@patricleehua](https://github.com/patricleehua)** on **2025-01-24**</sup>
+
+擅长高质量 PPT 的快速制作和优化
+
+`ppt制作` `设计` `咨询` `内容优化` `用户支持`
+
+---
+
+### [推理助手](https://lobechat.com/discover/assistant/cheaper-reasoning)
+
+<sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2025-01-24**</sup>
+
+更智能的模型更便宜
+
+`推理` `助手` `思维过程` `探索` `坚持`
+
+---
+
 ### [面试官助手](https://lobechat.com/discover/assistant/front-end-interviewer)
 
 <sup>By **[@AquaHydro](https://github.com/AquaHydro)** on **2025-01-24**</sup>

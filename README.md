@@ -79,6 +79,26 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [PPT Production Expert](https://lobechat.com/discover/assistant/ppt-production-expert)
+
+<sup>By **[@patricleehua](https://github.com/patricleehua)** on **2025-01-24**</sup>
+
+Skilled in the rapid production and optimization of high-quality PPTs
+
+`ppt production` `design` `consulting` `content optimization` `user support`
+
+---
+
+### [Reasoning assistant](https://lobechat.com/discover/assistant/cheaper-reasoning)
+
+<sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2025-01-24**</sup>
+
+The smarter model is cheaper
+
+`reasoning` `assistant` `thought-process` `exploration` `persistence`
+
+---
+
 ### [Interviewer's Assistant](https://lobechat.com/discover/assistant/front-end-interviewer)
 
 <sup>By **[@AquaHydro](https://github.com/AquaHydro)** on **2025-01-24**</sup>
