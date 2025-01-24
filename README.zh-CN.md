@@ -79,6 +79,36 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [MJ-Prompt-Engineer](https://lobechat.com/discover/assistant/mj-prompt-engineer)
+
+<sup>By **[@Helium-327](https://github.com/Helium-327)** on **2024-12-29**</sup>
+
+Functions can be performed based on customized short action keywords.
+
+`ai-绘画` `ai创作工具` `ai自动化工具`
+
+---
+
+### [Delphi Python 开发大师](https://lobechat.com/discover/assistant/delphi-assistant)
+
+<sup>By **[@joindfv](https://github.com/joindfv)** on **2024-12-27**</sup>
+
+Delphi 和 Python 开发助手
+
+`开发` `delphi` `python` `代码优化` `编程`
+
+---
+
+### [任务 ID](https://lobechat.com/discover/assistant/video-gen)
+
+<sup>By **[@Born2BeKind](https://github.com/Born2BeKind)** on **2024-12-11**</sup>
+
+POST <https://api.minimaxi.chat/v1/video_generation>
+
+`人工智能助手` `技术支持`
+
+---
+
 ### [日语帮助记忆师](https://lobechat.com/discover/assistant/japan-language-helper)
 
 <sup>By **[@sharkbear212](https://github.com/sharkbear212)** on **2024-12-04**</sup>

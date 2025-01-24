@@ -79,6 +79,36 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [MJ-Prompt-Engineer](https://lobechat.com/discover/assistant/mj-prompt-engineer)
+
+<sup>By **[@Helium-327](https://github.com/Helium-327)** on **2024-12-29**</sup>
+
+Functions can be performed based on customized short action keywords.
+
+`ai-painting` `ai creation tools` `ai automation tools`
+
+---
+
+### [Mestre em Desenvolvimento Delphi Python](https://lobechat.com/discover/assistant/delphi-assistant)
+
+<sup>By **[@joindfv](https://github.com/joindfv)** on **2024-12-27**</sup>
+
+Assistente de Desenvolvimento Delphi e Python
+
+`desenvolvimento` `delphi` `python` `otimizacao-de-codigo` `programming`
+
+---
+
+### [task_id](https://lobechat.com/discover/assistant/video-gen)
+
+<sup>By **[@Born2BeKind](https://github.com/Born2BeKind)** on **2024-12-11**</sup>
+
+POST <https://api.minimaxi.chat/v1/video_generation>
+
+`ai-assistant` `tech-support`
+
+---
+
 ### [Japanese Memory Helper](https://lobechat.com/discover/assistant/japan-language-helper)
 
 <sup>By **[@sharkbear212](https://github.com/sharkbear212)** on **2024-12-04**</sup>
