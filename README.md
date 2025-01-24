@@ -79,6 +79,16 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [Socioeconomic Analyst](https://lobechat.com/discover/assistant/finance-news-analyser)
+
+<sup>By **[@towertop](https://github.com/towertop)** on **2025-01-15**</sup>
+
+Specializes in the analysis of socioeconomic issues and information integration
+
+`socioeconomics` `analysis` `information filtering` `media trust` `user issues`
+
+---
+
 ### [MJ-Prompt-Engineer](https://lobechat.com/discover/assistant/mj-prompt-engineer)
 
 <sup>By **[@Helium-327](https://github.com/Helium-327)** on **2024-12-29**</sup>

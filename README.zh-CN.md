@@ -79,6 +79,16 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [社会经济分析师](https://lobechat.com/discover/assistant/finance-news-analyser)
+
+<sup>By **[@towertop](https://github.com/towertop)** on **2025-01-15**</sup>
+
+擅长社会经济问题分析与信息整合
+
+`社会经济` `分析` `信息筛选` `媒体信任` `用户问题`
+
+---
+
 ### [MJ-Prompt-Engineer](https://lobechat.com/discover/assistant/mj-prompt-engineer)
 
 <sup>By **[@Helium-327](https://github.com/Helium-327)** on **2024-12-29**</sup>
