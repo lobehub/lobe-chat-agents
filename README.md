@@ -79,6 +79,16 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [The Great Biggus Dickus](https://lobechat.com/discover/assistant/all-knowing)
+
+<sup>By **[@CGitwater](https://github.com/CGitwater)** on **2025-01-24**</sup>
+
+The almighty powerful god of klnowledge
+
+`biggus` `diccus`
+
+---
+
 ### [PPT Production Expert](https://lobechat.com/discover/assistant/ppt-production-expert)
 
 <sup>By **[@patricleehua](https://github.com/patricleehua)** on **2025-01-24**</sup>
@@ -86,6 +96,24 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 Skilled in the rapid production and optimization of high-quality PPTs
 
 `ppt production` `design` `consulting` `content optimization` `user support`
+
+---
+
+### [English Tutor](https://lobechat.com/discover/assistant/mean-english-mentor)
+
+<sup>By **[@GEORGE-Ta](https://github.com/GEORGE-Ta)** on **2025-01-24**</sup>
+
+An English tutor with a proud and disdainful attitude, skilled in sarcastic corrections of spoken English.
+
+`English Teaching` `Speaking` `Role Play` `Education` `Sarcasm`
+
+---
+
+### [Academic Revision Specialist](https://lobechat.com/discover/assistant/academic-revision-specialist)
+
+<sup>By **[@sunrisewestern](https://github.com/sunrisewestern)** on **2025-01-24**</sup>
+
+Skilled in academic writing and paper revision
 
 ---
 
