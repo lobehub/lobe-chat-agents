@@ -2,6 +2,22 @@
 
 # Changelog
 
+# [1.25.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.24.0...v1.25.0) (2025-01-28)
+
+
+### ✨ Features
+
+* **agent**: Beginner-mentor @Wulao0825, closes [#1240](https://github.com/lobehub/lobe-chat-agents/issues/1240) [#1208](https://github.com/lobehub/lobe-chat-agents/issues/1208) ([3e4b9ee](https://github.com/lobehub/lobe-chat-agents/commit/3e4b9ee))
+* **agent**: Github-issue-helper @AirboZH, closes [#1238](https://github.com/lobehub/lobe-chat-agents/issues/1238) [#1171](https://github.com/lobehub/lobe-chat-agents/issues/1171) ([594e0ea](https://github.com/lobehub/lobe-chat-agents/commit/594e0ea))
+* **agent**: Juwudashi [@dappweb](https://github.com/dappweb), closes [#1234](https://github.com/lobehub/lobe-chat-agents/issues/1234) [#1168](https://github.com/lobehub/lobe-chat-agents/issues/1168) ([1529383](https://github.com/lobehub/lobe-chat-agents/commit/1529383))
+* **agent**: Ocr-markdown @Liangpi000, closes [#1239](https://github.com/lobehub/lobe-chat-agents/issues/1239) [#1176](https://github.com/lobehub/lobe-chat-agents/issues/1176) ([b2ceeb1](https://github.com/lobehub/lobe-chat-agents/commit/b2ceeb1))
+* **agent**: Suno-lyrics-assistant [@sqkkyzx](https://github.com/sqkkyzx), closes [#1242](https://github.com/lobehub/lobe-chat-agents/issues/1242) [#1241](https://github.com/lobehub/lobe-chat-agents/issues/1241) ([24e3b30](https://github.com/lobehub/lobe-chat-agents/commit/24e3b30))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([fbd0437](https://github.com/lobehub/lobe-chat-agents/commit/fbd0437))
+
 # [1.24.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.23.0...v1.24.0) (2025-01-24)
 
 ### ✨ Features
