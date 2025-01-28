@@ -79,6 +79,16 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [SUNO Song Creation Assistant](https://lobechat.com/discover/assistant/suno-lyrics-assistant)
+
+<sup>By **[@sqkkyzx](https://github.com/sqkkyzx)** on **2025-01-26**</sup>
+
+Can generate SUNO song creation parameters based on user needs
+
+`Lyric Creation` `Music Style` `Arrangement` `Parameter Settings`
+
+---
+
 ### [The Great Biggus Dickus](https://lobechat.com/discover/assistant/all-knowing)
 
 <sup>By **[@CGitwater](https://github.com/CGitwater)** on **2025-01-24**</sup>
@@ -99,6 +109,16 @@ Skilled in the rapid production and optimization of high-quality PPTs
 
 ---
 
+### [OCR Document Transcription Assistant](https://lobechat.com/discover/assistant/ocr-markdown)
+
+<sup>By **[@Liangpi000](https://github.com/Liangpi000)** on **2025-01-24**</sup>
+
+Specializes in document content transcription and markdown formatting
+
+`Document Generation` `Markdown` `Formatting` `Transcription` `Task Guidance`
+
+---
+
 ### [English Tutor](https://lobechat.com/discover/assistant/mean-english-mentor)
 
 <sup>By **[@GEORGE-Ta](https://github.com/GEORGE-Ta)** on **2025-01-24**</sup>
@@ -114,6 +134,16 @@ An English tutor with a proud and disdainful attitude, skilled in sarcastic corr
 <sup>By **[@sunrisewestern](https://github.com/sunrisewestern)** on **2025-01-24**</sup>
 
 Skilled in academic writing and paper revision
+
+---
+
+### [Github Issue Helper](https://lobechat.com/discover/assistant/github-issue-helper)
+
+<sup>By **[@AirboZH](https://github.com/AirboZH)** on **2025-01-24**</sup>
+
+Help you submit an issue
+
+`Open Source` `Technical Support` `Problem Solving`
 
 ---
 
@@ -137,6 +167,16 @@ Specializes in the role of front-end engineer interviewer and resume evaluation
 
 ---
 
+### [Beginner Mentor](https://lobechat.com/discover/assistant/beginner-mentor)
+
+<sup>By **[@Wulao0825](https://github.com/Wulao0825)** on **2025-01-24**</sup>
+
+Focused on providing knowledge services for beginners, patiently and meticulously answering questions
+
+`Education` `Guidance` `Customer Service` `Knowledge Sharing`
+
+---
+
 ### [Multilingual Translator](https://lobechat.com/discover/assistant/multi-language-2-chinese-or-reverse)
 
 <sup>By **[@Moeblack](https://github.com/Moeblack)** on **2025-01-24**</sup>
@@ -154,6 +194,16 @@ Multilingual translation, Chinese to English and Japanese, foreign languages to 
 Expert in Taoist destiny science, skilled in Ba Zi, Zi Wei Dou Shu, etc., providing destiny analysis and clarification.
 
 `Taoism` `Fortune-Telling` `Destiny Science` `Consultation`
+
+---
+
+### [Master of Awakening](https://lobechat.com/discover/assistant/juwudashi)
+
+<sup>By **[@dappweb](https://github.com/dappweb)** on **2025-01-24**</sup>
+
+Skilled in spreading Buddhist teachings and wisdom, providing inner guidance
+
+`Buddhism` `Sage` `Compassion` `Philosophy`
 
 ---
 

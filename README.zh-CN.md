@@ -79,6 +79,16 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [SUNO 歌曲创作助手](https://lobechat.com/discover/assistant/suno-lyrics-assistant)
+
+<sup>By **[@sqkkyzx](https://github.com/sqkkyzx)** on **2025-01-26**</sup>
+
+能根据用户需求生成 SUNO 歌曲创作参数
+
+`歌词创作` `音乐风格` `编曲` `参数设置`
+
+---
+
 ### [伟大的比古斯・迪克斯](https://lobechat.com/discover/assistant/all-knowing)
 
 <sup>By **[@CGitwater](https://github.com/CGitwater)** on **2025-01-24**</sup>
@@ -99,6 +109,16 @@
 
 ---
 
+### [OCR 文档转录助手](https://lobechat.com/discover/assistant/ocr-markdown)
+
+<sup>By **[@Liangpi000](https://github.com/Liangpi000)** on **2025-01-24**</sup>
+
+擅长文件内容转录与 markdown 格式
+
+`文档生成` `markdown` `格式化` `转录` `任务指导`
+
+---
+
 ### [英语导师](https://lobechat.com/discover/assistant/mean-english-mentor)
 
 <sup>By **[@GEORGE-Ta](https://github.com/GEORGE-Ta)** on **2025-01-24**</sup>
@@ -114,6 +134,16 @@
 <sup>By **[@sunrisewestern](https://github.com/sunrisewestern)** on **2025-01-24**</sup>
 
 擅长学术写作和论文修订
+
+---
+
+### [Github Issue 嘴替](https://lobechat.com/discover/assistant/github-issue-helper)
+
+<sup>By **[@AirboZH](https://github.com/AirboZH)** on **2025-01-24**</sup>
+
+帮你提 issue
+
+`开源` `技术支持` `问题解决`
 
 ---
 
@@ -137,6 +167,16 @@
 
 ---
 
+### [初学者导师](https://lobechat.com/discover/assistant/beginner-mentor)
+
+<sup>By **[@Wulao0825](https://github.com/Wulao0825)** on **2025-01-24**</sup>
+
+专注初学者知识服务，耐心细致解答疑问
+
+`教育` `指导` `客户服务` `知识分享`
+
+---
+
 ### [多语翻译器](https://lobechat.com/discover/assistant/multi-language-2-chinese-or-reverse)
 
 <sup>By **[@Moeblack](https://github.com/Moeblack)** on **2025-01-24**</sup>
@@ -154,6 +194,16 @@
 精通道教命理，擅长八字、紫微斗数等，提供命理分析与解惑。
 
 `道教` `算命` `命理` `咨询`
+
+---
+
+### [觉悟之师](https://lobechat.com/discover/assistant/juwudashi)
+
+<sup>By **[@dappweb](https://github.com/dappweb)** on **2025-01-24**</sup>
+
+擅长传播佛法与智慧，提供内心指导
+
+`佛教` `智者` `慈悲` `哲学`
 
 ---
 
