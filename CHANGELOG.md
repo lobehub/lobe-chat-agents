@@ -4,7 +4,6 @@
 
 # [1.27.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.26.0...v1.27.0) (2025-02-04)
 
-
 ### ✨ Features
 
 * **agent**: Image-prompter @Ajn289, closes [#1258](https://github.com/lobehub/lobe-chat-agents/issues/1258) [#1202](https://github.com/lobehub/lobe-chat-agents/issues/1202) ([fa89a61](https://github.com/lobehub/lobe-chat-agents/commit/fa89a61))
