@@ -4,17 +4,15 @@
 
 # [1.26.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.25.0...v1.26.0) (2025-02-04)
 
-
 ### ✨ Features
 
-* **agent**: Ruipingshi @Zippland, closes [#1256](https://github.com/lobehub/lobe-chat-agents/issues/1256) [#1252](https://github.com/lobehub/lobe-chat-agents/issues/1252) ([9d0f014](https://github.com/lobehub/lobe-chat-agents/commit/9d0f014))
-* **agent**: Sat-teaching [@i](https://github.com/i)Bz-04, closes [#1257](https://github.com/lobehub/lobe-chat-agents/issues/1257) [#1251](https://github.com/lobehub/lobe-chat-agents/issues/1251) ([eae8312](https://github.com/lobehub/lobe-chat-agents/commit/eae8312))
-* **agent**: Web-blessings-dsq @Shen-Chris, closes [#1255](https://github.com/lobehub/lobe-chat-agents/issues/1255) [#1243](https://github.com/lobehub/lobe-chat-agents/issues/1243) ([2f8b1b0](https://github.com/lobehub/lobe-chat-agents/commit/2f8b1b0))
-
+- **agent**: Ruipingshi @Zippland, closes [#1256](https://github.com/lobehub/lobe-chat-agents/issues/1256) [#1252](https://github.com/lobehub/lobe-chat-agents/issues/1252) ([9d0f014](https://github.com/lobehub/lobe-chat-agents/commit/9d0f014))
+- **agent**: Sat-teaching [@i](https://github.com/i)Bz-04, closes [#1257](https://github.com/lobehub/lobe-chat-agents/issues/1257) [#1251](https://github.com/lobehub/lobe-chat-agents/issues/1251) ([eae8312](https://github.com/lobehub/lobe-chat-agents/commit/eae8312))
+- **agent**: Web-blessings-dsq @Shen-Chris, closes [#1255](https://github.com/lobehub/lobe-chat-agents/issues/1255) [#1243](https://github.com/lobehub/lobe-chat-agents/issues/1243) ([2f8b1b0](https://github.com/lobehub/lobe-chat-agents/commit/2f8b1b0))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([45d7242](https://github.com/lobehub/lobe-chat-agents/commit/45d7242))
+- Auto format and add i18n json files ([45d7242](https://github.com/lobehub/lobe-chat-agents/commit/45d7242))
 
 # [1.25.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.24.0...v1.25.0) (2025-01-28)
 
