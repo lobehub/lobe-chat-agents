@@ -2,6 +2,20 @@
 
 # Changelog
 
+# [1.27.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.26.0...v1.27.0) (2025-02-04)
+
+
+### ✨ Features
+
+* **agent**: Image-prompter @Ajn289, closes [#1258](https://github.com/lobehub/lobe-chat-agents/issues/1258) [#1202](https://github.com/lobehub/lobe-chat-agents/issues/1202) ([fa89a61](https://github.com/lobehub/lobe-chat-agents/commit/fa89a61))
+* **agent**: Summsi [@42lux](https://github.com/42lux), closes [#1259](https://github.com/lobehub/lobe-chat-agents/issues/1259) [#1246](https://github.com/lobehub/lobe-chat-agents/issues/1246) ([bfb5b18](https://github.com/lobehub/lobe-chat-agents/commit/bfb5b18))
+* **agent**: Universal-god @GowayLee, closes [#1260](https://github.com/lobehub/lobe-chat-agents/issues/1260) [#1199](https://github.com/lobehub/lobe-chat-agents/issues/1199) ([1b708d9](https://github.com/lobehub/lobe-chat-agents/commit/1b708d9))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([f51c867](https://github.com/lobehub/lobe-chat-agents/commit/f51c867))
+
 # [1.26.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.25.0...v1.26.0) (2025-02-04)
 
 ### ✨ Features
