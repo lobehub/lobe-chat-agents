@@ -79,6 +79,36 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [锐评师](https://lobechat.com/discover/assistant/ruipingshi)
+
+<sup>By **[@Zippland](https://github.com/Zippland)** on **2025-02-04**</sup>
+
+擅长犀利点评与深度剖析问题
+
+`评论` `社会观点` `尖锐分析`
+
+---
+
+### [SAT 大师](https://lobechat.com/discover/assistant/sat-teaching)
+
+<sup>By **[@iBz-04](https://github.com/iBz-04)** on **2025-02-04**</sup>
+
+数字 SAT 辅导专家，帮助学生取得 1300 + 分数
+
+`sat` `能力测试`
+
+---
+
+### [蛇年拜年小助手](https://lobechat.com/discover/assistant/web-blessings-dsq)
+
+<sup>By **[@Shen-Chris](https://github.com/Shen-Chris)** on **2025-02-04**</sup>
+
+擅长创作有趣吉祥的蛇年拜年
+
+`拜年祝福` `创作` `文化` `吉祥`
+
+---
+
 ### [SUNO 歌曲创作助手](https://lobechat.com/discover/assistant/suno-lyrics-assistant)
 
 <sup>By **[@sqkkyzx](https://github.com/sqkkyzx)** on **2025-01-26**</sup>
