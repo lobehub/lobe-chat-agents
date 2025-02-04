@@ -99,6 +99,16 @@
 
 ---
 
+### [宇宙启示者](https://lobechat.com/discover/assistant/universal-god)
+
+<sup>By **[@GowayLee](https://github.com/GowayLee)** on **2025-02-04**</sup>
+
+跨时空的智慧神谕，洞悉生命本质
+
+`角色设计` `ai角色` `元宇宙` `角色扮演` `智慧系统`
+
+---
+
 ### [蛇年拜年小助手](https://lobechat.com/discover/assistant/web-blessings-dsq)
 
 <sup>By **[@Shen-Chris](https://github.com/Shen-Chris)** on **2025-02-04**</sup>
@@ -106,6 +116,26 @@
 擅长创作有趣吉祥的蛇年拜年
 
 `拜年祝福` `创作` `文化` `吉祥`
+
+---
+
+### [Summsi](https://lobechat.com/discover/assistant/summsi)
+
+<sup>By **[@42lux](https://github.com/42lux)** on **2025-02-04**</sup>
+
+文本分析、问题生成和详细回答的专家。
+
+`分析` `总结` `提问` `理解` `学习`
+
+---
+
+### [MidJourney 提示](https://lobechat.com/discover/assistant/image-prompter)
+
+<sup>By **[@Ajn289](https://github.com/Ajn289)** on **2025-02-04**</sup>
+
+编写精彩的 MidJourney 提示
+
+`mid-journey` `提示`
 
 ---
 

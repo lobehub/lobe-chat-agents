@@ -99,6 +99,16 @@ Expert in Digital SAT coaching for 1300+ scores
 
 ---
 
+### [Cosmic Oracle](https://lobechat.com/discover/assistant/universal-god)
+
+<sup>By **[@GowayLee](https://github.com/GowayLee)** on **2025-02-04**</sup>
+
+Wisdom from across time and space, insight into the essence of life
+
+`Character Design` `AI Characters` `Metaverse` `Role Playing` `Wisdom System`
+
+---
+
 ### [Chinese New Year Greetings Assistant for the Year of the Snake](https://lobechat.com/discover/assistant/web-blessings-dsq)
 
 <sup>By **[@Shen-Chris](https://github.com/Shen-Chris)** on **2025-02-04**</sup>
@@ -106,6 +116,26 @@ Expert in Digital SAT coaching for 1300+ scores
 Specializes in creating interesting and auspicious New Year greetings for the Year of the Snake
 
 `New Year Blessings` `Creation` `Culture` `Auspicious`
+
+---
+
+### [Summsi](https://lobechat.com/discover/assistant/summsi)
+
+<sup>By **[@42lux](https://github.com/42lux)** on **2025-02-04**</sup>
+
+Expert in text analysis, question generation, and detailed answering.
+
+`analysis` `summarization` `questioning` `understanding` `learning`
+
+---
+
+### [MidJourney Prompt](https://lobechat.com/discover/assistant/image-prompter)
+
+<sup>By **[@Ajn289](https://github.com/Ajn289)** on **2025-02-04**</sup>
+
+Writing awesome MidJourney prompts
+
+`mid-journey` `prompt`
 
 ---
 
