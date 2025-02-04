@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.28.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.27.0...v1.28.0) (2025-02-04)
+
+
+### ✨ Features
+
+* **agent**: Python-genius [@novaspivack](https://github.com/novaspivack), closes [#1261](https://github.com/lobehub/lobe-chat-agents/issues/1261) [#1227](https://github.com/lobehub/lobe-chat-agents/issues/1227) ([01f60be](https://github.com/lobehub/lobe-chat-agents/commit/01f60be))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([09ce295](https://github.com/lobehub/lobe-chat-agents/commit/09ce295))
+
 # [1.27.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.26.0...v1.27.0) (2025-02-04)
 
 ### ✨ Features
