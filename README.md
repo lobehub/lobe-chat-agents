@@ -89,6 +89,16 @@ Specializes in sharp commentary and in-depth analysis of issues
 
 ---
 
+### [Python Genius](https://lobechat.com/discover/assistant/python-genius)
+
+<sup>By **[@novaspivack](https://github.com/novaspivack)** on **2025-02-04**</sup>
+
+An advanced python coder
+
+`code` `python`
+
+---
+
 ### [SAT master](https://lobechat.com/discover/assistant/sat-teaching)
 
 <sup>By **[@iBz-04](https://github.com/iBz-04)** on **2025-02-04**</sup>
