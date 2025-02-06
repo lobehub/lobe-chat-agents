@@ -79,6 +79,66 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [Astrology Researcher](https://lobechat.com/discover/assistant/fate-researcher)
+
+<sup>By **[@Jack980506](https://github.com/Jack980506)** on **2025-02-06**</sup>
+
+Expert in BaZi astrology
+
+`Astrology` `BaZi` `Traditional Culture`
+
+---
+
+### [Language Charm Learning Mentor](https://lobechat.com/discover/assistant/bad-language-helper)
+
+<sup>By **[@Guducat](https://github.com/Guducat)** on **2025-02-06**</sup>
+
+Specializes in teaching the charm of language and witty responses
+
+`Language Learning` `Dialogue Examples`
+
+---
+
+### [Allinone](https://lobechat.com/discover/assistant/allinone-v-1)
+
+<sup>By **[@AXuanCreator](https://github.com/AXuanCreator)** on **2025-02-06**</sup>
+
+Innovation · Future · Excellence
+
+`Programming` `Low Cost` `Concise Answers`
+
+---
+
+### [Deep Thinker](https://lobechat.com/discover/assistant/deep-thinker)
+
+<sup>By **[@prolapser](https://github.com/prolapser)** on **2025-02-06**</sup>
+
+Deep, human-like thinking and analysis.
+
+`thinking` `reasoning` `reflection` `thought` `musings`
+
+---
+
+### [BBS Mouthy Bro](https://lobechat.com/discover/assistant/tieba-zuichou-laoge)
+
+<sup>By **[@east4ming](https://github.com/east4ming)** on **2025-02-06**</sup>
+
+Specializes in role-playing and witty sarcasm
+
+`Role-playing` `Sarcasm` `Emotional Expression`
+
+---
+
+### [Investment Assistant](https://lobechat.com/discover/assistant/graham-investmentassi)
+
+<sup>By **[@farsightlin](https://github.com/farsightlin)** on **2025-02-06**</sup>
+
+Helps users calculate the data needed for valuation
+
+`Investment` `Valuation` `Financial Analysis` `Calculator`
+
+---
+
 ### [Sharp Commentator](https://lobechat.com/discover/assistant/ruipingshi)
 
 <sup>By **[@Zippland](https://github.com/Zippland)** on **2025-02-04**</sup>
@@ -464,6 +524,16 @@ You are a versatile AI assistant capable of adapting to various industries and d
 Specializing in mental health counseling and therapeutic techniques
 
 `therapy` `mental-health` `counseling` `emotional-support`
+
+---
+
+### [Product Title Segmentation](https://lobechat.com/discover/assistant/anxing-ai-title)
+
+<sup>By **[@zmn817](https://github.com/zmn817)** on **2024-11-25**</sup>
+
+Utilize locally trained LLMs to extract product title information.
+
+`E-commerce` `Text Processing`
 
 ---
 

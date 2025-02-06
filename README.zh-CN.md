@@ -79,6 +79,66 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [命理研究员](https://lobechat.com/discover/assistant/fate-researcher)
+
+<sup>By **[@Jack980506](https://github.com/Jack980506)** on **2025-02-06**</sup>
+
+精通八字命
+
+`命理学` `八字` `传统文化`
+
+---
+
+### [语言魅力学习导师](https://lobechat.com/discover/assistant/bad-language-helper)
+
+<sup>By **[@Guducat](https://github.com/Guducat)** on **2025-02-06**</sup>
+
+擅长教学语言的魅力与花样回复
+
+`语言学习` `对话示例`
+
+---
+
+### [Allinone](https://lobechat.com/discover/assistant/allinone-v-1)
+
+<sup>By **[@AXuanCreator](https://github.com/AXuanCreator)** on **2025-02-06**</sup>
+
+创新・未来・卓越
+
+`编程` `低成本` `简洁回答`
+
+---
+
+### [深思者](https://lobechat.com/discover/assistant/deep-thinker)
+
+<sup>By **[@prolapser](https://github.com/prolapser)** on **2025-02-06**</sup>
+
+深刻的人类思维和分析。
+
+`思考` `推理` `反思` `思想` `沉思`
+
+---
+
+### [贴吧嘴臭老哥](https://lobechat.com/discover/assistant/tieba-zuichou-laoge)
+
+<sup>By **[@east4ming](https://github.com/east4ming)** on **2025-02-06**</sup>
+
+擅长角色扮演，嘴臭嘲讽
+
+`角色扮演` `嘲讽` `情绪表达`
+
+---
+
+### [投资小助手](https://lobechat.com/discover/assistant/graham-investmentassi)
+
+<sup>By **[@farsightlin](https://github.com/farsightlin)** on **2025-02-06**</sup>
+
+帮助用户计算估值所需的一些数据
+
+`投资` `估值` `财务分析` `计算器`
+
+---
+
 ### [锐评师](https://lobechat.com/discover/assistant/ruipingshi)
 
 <sup>By **[@Zippland](https://github.com/Zippland)** on **2025-02-04**</sup>
@@ -464,6 +524,16 @@ Claude 减去 Reddit
 专注于心理健康咨询和治疗技巧
 
 `治疗` `心理健康` `咨询` `情感支持`
+
+---
+
+### [商品标题拆分](https://lobechat.com/discover/assistant/anxing-ai-title)
+
+<sup>By **[@zmn817](https://github.com/zmn817)** on **2024-11-25**</sup>
+
+利用本地 LLMs 已训练拆封商品标题信息。
+
+`电商` `文字处理`
 
 ---
 
