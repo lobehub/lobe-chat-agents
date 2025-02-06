@@ -6,6 +6,8 @@
 
 ### ✨ Features
 
+### ✨ Features
+
 - **agent**: Python-genius [@novaspivack](https://github.com/novaspivack), closes [#1261](https://github.com/lobehub/lobe-chat-agents/issues/1261) [#1227](https://github.com/lobehub/lobe-chat-agents/issues/1227) ([01f60be](https://github.com/lobehub/lobe-chat-agents/commit/01f60be))
 
 ### 🎫 Chores
