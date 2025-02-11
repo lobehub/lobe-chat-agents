@@ -4,15 +4,13 @@
 
 # [1.30.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.29.0...v1.30.0) (2025-02-11)
 
-
 ### ✨ Features
 
-* **agent**: Xiao-zhi-french-translation-asst-v-1 @WeR-Best, closes [#1282](https://github.com/lobehub/lobe-chat-agents/issues/1282) ([30ace08](https://github.com/lobehub/lobe-chat-agents/commit/30ace08))
-
+- **agent**: Xiao-zhi-french-translation-asst-v-1 @WeR-Best, closes [#1282](https://github.com/lobehub/lobe-chat-agents/issues/1282) ([30ace08](https://github.com/lobehub/lobe-chat-agents/commit/30ace08))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([e1b09b2](https://github.com/lobehub/lobe-chat-agents/commit/e1b09b2))
+- Auto format and add i18n json files ([e1b09b2](https://github.com/lobehub/lobe-chat-agents/commit/e1b09b2))
 
 # [1.29.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.28.0...v1.29.0) (2025-02-06)
 
