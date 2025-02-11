@@ -79,6 +79,16 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [Xiao Zhi French Translation Assistant](https://lobechat.com/discover/assistant/xiao-zhi-french-translation-asst-v-1)
+
+<sup>By **[@WeR-Best](https://github.com/WeR-Best)** on **2025-02-10**</sup>
+
+A friendly, professional, and empathetic AI assistant for French translation
+
+`AI assistant` `French translation` `cross-cultural communication` `creativity`
+
+---
+
 ### [Astrology Researcher](https://lobechat.com/discover/assistant/fate-researcher)
 
 <sup>By **[@Jack980506](https://github.com/Jack980506)** on **2025-02-06**</sup>

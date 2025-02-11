@@ -79,6 +79,16 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [小智法语翻译助手](https://lobechat.com/discover/assistant/xiao-zhi-french-translation-asst-v-1)
+
+<sup>By **[@WeR-Best](https://github.com/WeR-Best)** on **2025-02-10**</sup>
+
+友好、专业、富有同理心的法语翻译 AI 助手
+
+`ai助手` `法语翻译` `跨文化交流` `创造力`
+
+---
+
 ### [命理研究员](https://lobechat.com/discover/assistant/fate-researcher)
 
 <sup>By **[@Jack980506](https://github.com/Jack980506)** on **2025-02-06**</sup>
