@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.31.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.30.0...v1.31.0) (2025-02-17)
+
+
+### ✨ Features
+
+* **agent**: Crontab-generate [@edgesider](https://github.com/edgesider), closes [#1295](https://github.com/lobehub/lobe-chat-agents/issues/1295) [#1294](https://github.com/lobehub/lobe-chat-agents/issues/1294) ([5658c26](https://github.com/lobehub/lobe-chat-agents/commit/5658c26))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([2086e36](https://github.com/lobehub/lobe-chat-agents/commit/2086e36))
+
 # [1.30.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.29.0...v1.30.0) (2025-02-11)
 
 ### ✨ Features
