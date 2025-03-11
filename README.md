@@ -79,6 +79,16 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [审稿回复专家](https://lobechat.com/discover/assistant/academic-paper-overview)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2025-03-11**</sup>
+
+擅长高质量文献检索与分析的学术研究助手
+
+`学术研究` `文献检索` `数据分析` `信息提取` `咨询`
+
+---
+
 ### [Cron Expression Assistant](https://lobechat.com/discover/assistant/crontab-generate)
 
 <sup>By **[@edgesider](https://github.com/edgesider)** on **2025-02-17**</sup>
@@ -99,6 +109,16 @@ A friendly, professional, and empathetic AI assistant for French translation
 
 ---
 
+### [Investment Assistant](https://lobechat.com/discover/assistant/graham-investmentassi)
+
+<sup>By **[@farsightlin](https://github.com/farsightlin)** on **2025-02-06**</sup>
+
+Helps users calculate the data needed for valuation
+
+`Investment` `Valuation` `Financial Analysis` `Calculator`
+
+---
+
 ### [Language Charm Learning Mentor](https://lobechat.com/discover/assistant/bad-language-helper)
 
 <sup>By **[@Guducat](https://github.com/Guducat)** on **2025-02-06**</sup>
@@ -106,6 +126,16 @@ A friendly, professional, and empathetic AI assistant for French translation
 Specializes in teaching the charm of language and witty responses
 
 `Language Learning` `Dialogue Examples`
+
+---
+
+### [Allinone](https://lobechat.com/discover/assistant/allinone-v-1)
+
+<sup>By **[@AXuanCreator](https://github.com/AXuanCreator)** on **2025-02-06**</sup>
+
+Innovation · Future · Excellence
+
+`Programming` `Low Cost` `Concise Answers`
 
 ---
 
@@ -129,16 +159,6 @@ Specializes in role-playing and witty sarcasm
 
 ---
 
-### [Allinone](https://lobechat.com/discover/assistant/allinone-v-1)
-
-<sup>By **[@AXuanCreator](https://github.com/AXuanCreator)** on **2025-02-06**</sup>
-
-Innovation · Future · Excellence
-
-`Programming` `Low Cost` `Concise Answers`
-
----
-
 ### [Deep Thinker](https://lobechat.com/discover/assistant/deep-thinker)
 
 <sup>By **[@prolapser](https://github.com/prolapser)** on **2025-02-06**</sup>
@@ -146,56 +166,6 @@ Innovation · Future · Excellence
 Deep, human-like thinking and analysis.
 
 `thinking` `reasoning` `reflection` `thought` `musings`
-
----
-
-### [Investment Assistant](https://lobechat.com/discover/assistant/graham-investmentassi)
-
-<sup>By **[@farsightlin](https://github.com/farsightlin)** on **2025-02-06**</sup>
-
-Helps users calculate the data needed for valuation
-
-`Investment` `Valuation` `Financial Analysis` `Calculator`
-
----
-
-### [MidJourney Prompt](https://lobechat.com/discover/assistant/image-prompter)
-
-<sup>By **[@Ajn289](https://github.com/Ajn289)** on **2025-02-04**</sup>
-
-Writing awesome MidJourney prompts
-
-`mid-journey` `prompt`
-
----
-
-### [SAT master](https://lobechat.com/discover/assistant/sat-teaching)
-
-<sup>By **[@iBz-04](https://github.com/iBz-04)** on **2025-02-04**</sup>
-
-Expert in Digital SAT coaching for 1300+ scores
-
-`sat` `aptitude-test`
-
----
-
-### [Sharp Commentator](https://lobechat.com/discover/assistant/ruipingshi)
-
-<sup>By **[@Zippland](https://github.com/Zippland)** on **2025-02-04**</sup>
-
-Specializes in sharp commentary and in-depth analysis of issues
-
-`Commentary` `Social Perspectives` `Sharp Analysis`
-
----
-
-### [Chinese New Year Greetings Assistant for the Year of the Snake](https://lobechat.com/discover/assistant/web-blessings-dsq)
-
-<sup>By **[@Shen-Chris](https://github.com/Shen-Chris)** on **2025-02-04**</sup>
-
-Specializes in creating interesting and auspicious New Year greetings for the Year of the Snake
-
-`New Year Blessings` `Creation` `Culture` `Auspicious`
 
 ---
 
@@ -209,6 +179,36 @@ Expert in text analysis, question generation, and detailed answering.
 
 ---
 
+### [Chinese New Year Greetings Assistant for the Year of the Snake](https://lobechat.com/discover/assistant/web-blessings-dsq)
+
+<sup>By **[@Shen-Chris](https://github.com/Shen-Chris)** on **2025-02-04**</sup>
+
+Specializes in creating interesting and auspicious New Year greetings for the Year of the Snake
+
+`New Year Blessings` `Creation` `Culture` `Auspicious`
+
+---
+
+### [SAT master](https://lobechat.com/discover/assistant/sat-teaching)
+
+<sup>By **[@iBz-04](https://github.com/iBz-04)** on **2025-02-04**</sup>
+
+Expert in Digital SAT coaching for 1300+ scores
+
+`sat` `aptitude-test`
+
+---
+
+### [MidJourney Prompt](https://lobechat.com/discover/assistant/image-prompter)
+
+<sup>By **[@Ajn289](https://github.com/Ajn289)** on **2025-02-04**</sup>
+
+Writing awesome MidJourney prompts
+
+`mid-journey` `prompt`
+
+---
+
 ### [Cosmic Oracle](https://lobechat.com/discover/assistant/universal-god)
 
 <sup>By **[@GowayLee](https://github.com/GowayLee)** on **2025-02-04**</sup>
@@ -216,6 +216,16 @@ Expert in text analysis, question generation, and detailed answering.
 Wisdom from across time and space, insight into the essence of life
 
 `Character Design` `AI Characters` `Metaverse` `Role Playing` `Wisdom System`
+
+---
+
+### [Sharp Commentator](https://lobechat.com/discover/assistant/ruipingshi)
+
+<sup>By **[@Zippland](https://github.com/Zippland)** on **2025-02-04**</sup>
+
+Specializes in sharp commentary and in-depth analysis of issues
+
+`Commentary` `Social Perspectives` `Sharp Analysis`
 
 ---
 
@@ -239,13 +249,13 @@ Can generate SUNO song creation parameters based on user needs
 
 ---
 
-### [OCR Document Transcription Assistant](https://lobechat.com/discover/assistant/ocr-markdown)
+### [Beginner Mentor](https://lobechat.com/discover/assistant/beginner-mentor)
 
-<sup>By **[@Liangpi000](https://github.com/Liangpi000)** on **2025-01-24**</sup>
+<sup>By **[@Wulao0825](https://github.com/Wulao0825)** on **2025-01-24**</sup>
 
-Specializes in document content transcription and markdown formatting
+Focused on providing knowledge services for beginners, patiently and meticulously answering questions
 
-`Document Generation` `Markdown` `Formatting` `Transcription` `Task Guidance`
+`Education` `Guidance` `Customer Service` `Knowledge Sharing`
 
 ---
 
@@ -259,16 +269,6 @@ Skilled in spreading Buddhist teachings and wisdom, providing inner guidance
 
 ---
 
-### [Multilingual Translator](https://lobechat.com/discover/assistant/multi-language-2-chinese-or-reverse)
-
-<sup>By **[@Moeblack](https://github.com/Moeblack)** on **2025-01-24**</sup>
-
-Multilingual translation, Chinese to English and Japanese, foreign languages to Chinese
-
-`Translation` `Multilingual` `Language Processing`
-
----
-
 ### [Interviewer's Assistant](https://lobechat.com/discover/assistant/front-end-interviewer)
 
 <sup>By **[@AquaHydro](https://github.com/AquaHydro)** on **2025-01-24**</sup>
@@ -279,23 +279,21 @@ Specializes in the role of front-end engineer interviewer and resume evaluation
 
 ---
 
-### [PPT Production Expert](https://lobechat.com/discover/assistant/ppt-production-expert)
+### [Academic Revision Specialist](https://lobechat.com/discover/assistant/academic-revision-specialist)
 
-<sup>By **[@patricleehua](https://github.com/patricleehua)** on **2025-01-24**</sup>
+<sup>By **[@sunrisewestern](https://github.com/sunrisewestern)** on **2025-01-24**</sup>
 
-Skilled in the rapid production and optimization of high-quality PPTs
-
-`ppt production` `design` `consulting` `content optimization` `user support`
+Skilled in academic writing and paper revision
 
 ---
 
-### [Taoist Fortune-Telling System for Clarification and Guidance](https://lobechat.com/discover/assistant/destiny)
+### [OCR Document Transcription Assistant](https://lobechat.com/discover/assistant/ocr-markdown)
 
-<sup>By **[@RogerHuangPKX](https://github.com/RogerHuangPKX)** on **2025-01-24**</sup>
+<sup>By **[@Liangpi000](https://github.com/Liangpi000)** on **2025-01-24**</sup>
 
-Expert in Taoist destiny science, skilled in Ba Zi, Zi Wei Dou Shu, etc., providing destiny analysis and clarification.
+Specializes in document content transcription and markdown formatting
 
-`Taoism` `Fortune-Telling` `Destiny Science` `Consultation`
+`Document Generation` `Markdown` `Formatting` `Transcription` `Task Guidance`
 
 ---
 
@@ -309,21 +307,23 @@ An English tutor with a proud and disdainful attitude, skilled in sarcastic corr
 
 ---
 
-### [Beginner Mentor](https://lobechat.com/discover/assistant/beginner-mentor)
+### [Taoist Fortune-Telling System for Clarification and Guidance](https://lobechat.com/discover/assistant/destiny)
 
-<sup>By **[@Wulao0825](https://github.com/Wulao0825)** on **2025-01-24**</sup>
+<sup>By **[@RogerHuangPKX](https://github.com/RogerHuangPKX)** on **2025-01-24**</sup>
 
-Focused on providing knowledge services for beginners, patiently and meticulously answering questions
+Expert in Taoist destiny science, skilled in Ba Zi, Zi Wei Dou Shu, etc., providing destiny analysis and clarification.
 
-`Education` `Guidance` `Customer Service` `Knowledge Sharing`
+`Taoism` `Fortune-Telling` `Destiny Science` `Consultation`
 
 ---
 
-### [Academic Revision Specialist](https://lobechat.com/discover/assistant/academic-revision-specialist)
+### [PPT Production Expert](https://lobechat.com/discover/assistant/ppt-production-expert)
 
-<sup>By **[@sunrisewestern](https://github.com/sunrisewestern)** on **2025-01-24**</sup>
+<sup>By **[@patricleehua](https://github.com/patricleehua)** on **2025-01-24**</sup>
 
-Skilled in academic writing and paper revision
+Skilled in the rapid production and optimization of high-quality PPTs
+
+`ppt production` `design` `consulting` `content optimization` `user support`
 
 ---
 
@@ -337,16 +337,6 @@ The almighty powerful god of klnowledge
 
 ---
 
-### [Github Issue Helper](https://lobechat.com/discover/assistant/github-issue-helper)
-
-<sup>By **[@AirboZH](https://github.com/AirboZH)** on **2025-01-24**</sup>
-
-Help you submit an issue
-
-`Open Source` `Technical Support` `Problem Solving`
-
----
-
 ### [Reasoning assistant](https://lobechat.com/discover/assistant/cheaper-reasoning)
 
 <sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2025-01-24**</sup>
@@ -354,6 +344,26 @@ Help you submit an issue
 The smarter model is cheaper
 
 `reasoning` `assistant` `thought-process` `exploration` `persistence`
+
+---
+
+### [Multilingual Translator](https://lobechat.com/discover/assistant/multi-language-2-chinese-or-reverse)
+
+<sup>By **[@Moeblack](https://github.com/Moeblack)** on **2025-01-24**</sup>
+
+Multilingual translation, Chinese to English and Japanese, foreign languages to Chinese
+
+`Translation` `Multilingual` `Language Processing`
+
+---
+
+### [Github Issue Helper](https://lobechat.com/discover/assistant/github-issue-helper)
+
+<sup>By **[@AirboZH](https://github.com/AirboZH)** on **2025-01-24**</sup>
+
+Help you submit an issue
+
+`Open Source` `Technical Support` `Problem Solving`
 
 ---
 
@@ -427,16 +437,6 @@ Skilled in designing poetry cards to enhance artistic sense and appeal
 
 ---
 
-### [Python Artisan](https://lobechat.com/discover/assistant/yunchat)
-
-<sup>By **[@yuyun2000](https://github.com/yuyun2000)** on **2024-11-30**</sup>
-
-Expert in Python development and deep learning, skilled in tool selection and code optimization
-
-`python development` `deep learning` `code optimization` `security review` `project planning`
-
----
-
 ### [Daily Doctor](https://lobechat.com/discover/assistant/yunchat-docter)
 
 <sup>By **[@yuyun2000](https://github.com/yuyun2000)** on **2024-11-30**</sup>
@@ -444,6 +444,16 @@ Expert in Python development and deep learning, skilled in tool selection and co
 Specializes in surgical diagnosis and personalized health management
 
 `General Medicine` `Surgery` `Health Consultation` `Personalized Treatment` `Medical Education`
+
+---
+
+### [Python Artisan](https://lobechat.com/discover/assistant/yunchat)
+
+<sup>By **[@yuyun2000](https://github.com/yuyun2000)** on **2024-11-30**</sup>
+
+Expert in Python development and deep learning, skilled in tool selection and code optimization
+
+`python development` `deep learning` `code optimization` `security review` `project planning`
 
 ---
 
@@ -457,26 +467,6 @@ This AI assistant is designed to help educators and instructors prepare comprehe
 
 ---
 
-### [SSC Incremental](https://lobechat.com/discover/assistant/great-for-analysis-coding-and-rubber-ducking)
-
-<sup>By **[@Base03](https://github.com/Base03)** on **2024-11-26**</sup>
-
-Claude minus the Reddit
-
-`technology` `analysis` `software` `ai` `research`
-
----
-
-### [All Translation Assistant (with Phonetic Symbols)](https://lobechat.com/discover/assistant/translation-assistant)
-
-<sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
-
-This is a tool that integrates translation and phonetic symbols, aimed at helping users learn words better during translation.
-
-`Translation` `Language Learning`
-
----
-
 ### [Rebecca, Mental Health Counselor](https://lobechat.com/discover/assistant/rebecca-therapy-assistant)
 
 <sup>By **[@Kod3c](https://github.com/Kod3c)** on **2024-11-26**</sup>
@@ -484,26 +474,6 @@ This is a tool that integrates translation and phonetic symbols, aimed at helpin
 Specializing in mental health counseling and therapeutic techniques
 
 `therapy` `mental-health` `counseling` `emotional-support`
-
----
-
-### [ENFP](https://lobechat.com/discover/assistant/enfp)
-
-<sup>By **[@GEORGE-Ta](https://github.com/GEORGE-Ta)** on **2024-11-26**</sup>
-
-Happy little dog\~
-
-`friends` `communication` `art` `creativity` `enthusiasm` `chatting`
-
----
-
-### [Adaptive All-in-One Industry Consultant](https://lobechat.com/discover/assistant/liusai-qibaoba)
-
-<sup>By **[@liusai0820](https://github.com/liusai0820)** on **2024-11-26**</sup>
-
-You are a versatile AI assistant capable of adapting to various industries and domains. Your task is to provide expert advice and information based on the user's specified area of interest and their subsequent questions.
-
-`Industry Expert` `Technical Q&A`
 
 ---
 
@@ -517,6 +487,36 @@ Specializes in emotionally charged accusatory copywriting
 
 ---
 
+### [ENFP](https://lobechat.com/discover/assistant/enfp)
+
+<sup>By **[@GEORGE-Ta](https://github.com/GEORGE-Ta)** on **2024-11-26**</sup>
+
+Happy little dog\~
+
+`friends` `communication` `art` `creativity` `enthusiasm` `chatting`
+
+---
+
+### [SSC Incremental](https://lobechat.com/discover/assistant/great-for-analysis-coding-and-rubber-ducking)
+
+<sup>By **[@Base03](https://github.com/Base03)** on **2024-11-26**</sup>
+
+Claude minus the Reddit
+
+`technology` `analysis` `software` `ai` `research`
+
+---
+
+### [Backend Development Assistant](https://lobechat.com/discover/assistant/backend-assistant)
+
+<sup>By **[@zeno980](https://github.com/zeno980)** on **2024-11-26**</sup>
+
+Skilled in backend development tasks
+
+`Backend Development` `AI Technology` `Web Applications` `Spring` `SQL`
+
+---
+
 ### [Bilingual Dictionary Expert](https://lobechat.com/discover/assistant/english-chinese-dictionary-expert)
 
 <sup>By **[@swarfte](https://github.com/swarfte)** on **2024-11-26**</sup>
@@ -524,6 +524,16 @@ Specializes in emotionally charged accusatory copywriting
 Expert in bilingual English-Chinese vocabulary translation and analysis
 
 `translation` `language-learning` `vocabulary` `dictionary`
+
+---
+
+### [Adaptive All-in-One Industry Consultant](https://lobechat.com/discover/assistant/liusai-qibaoba)
+
+<sup>By **[@liusai0820](https://github.com/liusai0820)** on **2024-11-26**</sup>
+
+You are a versatile AI assistant capable of adapting to various industries and domains. Your task is to provide expert advice and information based on the user's specified area of interest and their subsequent questions.
+
+`Industry Expert` `Technical Q&A`
 
 ---
 
@@ -537,13 +547,13 @@ Proficient in designing and evaluating interview questions for product managers,
 
 ---
 
-### [Backend Development Assistant](https://lobechat.com/discover/assistant/backend-assistant)
+### [All Translation Assistant (with Phonetic Symbols)](https://lobechat.com/discover/assistant/translation-assistant)
 
-<sup>By **[@zeno980](https://github.com/zeno980)** on **2024-11-26**</sup>
+<sup>By **[@HttpStatusOK](https://github.com/HttpStatusOK)** on **2024-11-26**</sup>
 
-Skilled in backend development tasks
+This is a tool that integrates translation and phonetic symbols, aimed at helping users learn words better during translation.
 
-`Backend Development` `AI Technology` `Web Applications` `Spring` `SQL`
+`Translation` `Language Learning`
 
 ---
 
@@ -577,46 +587,6 @@ I write texts with illustrations, clarify requests, edit and refine
 
 ---
 
-### [Text Improver](https://lobechat.com/discover/assistant/text-improver)
-
-<sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2024-11-20**</sup>
-
-Expert in text enhancement and error
-
-`chatbot` `editing` `text-improvement` `ai-assistant`
-
----
-
-### [Wisdom Guide](https://lobechat.com/discover/assistant/life-wisdom-guides)
-
-<sup>By **[@changjiong](https://github.com/changjiong)** on **2024-11-20**</sup>
-
-Skilled in Guidance
-
-`Life Coaching` `Philosophical Reflection` `Consultation` `Heuristic Dialogue`
-
----
-
-### [Minimalist Black and White Illustration](https://lobechat.com/discover/assistant/white-black)
-
-<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-11-20**</sup>
-
-Skilled in illustration creation and style transformation
-
-`illustration` `art` `design`
-
----
-
-### [Master E's Tech Executive Assistant (EA)](https://lobechat.com/discover/assistant/alex)
-
-<sup>By **[@ApexAppdevelopment](https://github.com/ApexAppdevelopment)** on **2024-11-20**</sup>
-
-Highly intelligent and loyal Executive Assistant (EA) specializing in software engineering support and strategic solutions for Master E.
-
-`executive-assistant` `software-engineering` `project-management` `technical-support` `optimization`
-
----
-
 ### [Prompt Keywords](https://lobechat.com/discover/assistant/prompt-ts)
 
 <sup>By **[@qw1295353129](https://github.com/qw1295353129)** on **2024-11-20**</sup>
@@ -637,6 +607,46 @@ Eliminate the characteristics of AI-generated content
 
 ---
 
+### [Minimalist Black and White Illustration](https://lobechat.com/discover/assistant/white-black)
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-11-20**</sup>
+
+Skilled in illustration creation and style transformation
+
+`illustration` `art` `design`
+
+---
+
+### [Text Improver](https://lobechat.com/discover/assistant/text-improver)
+
+<sup>By **[@davletsh1n](https://github.com/davletsh1n)** on **2024-11-20**</sup>
+
+Expert in text enhancement and error
+
+`chatbot` `editing` `text-improvement` `ai-assistant`
+
+---
+
+### [Master E's Tech Executive Assistant (EA)](https://lobechat.com/discover/assistant/alex)
+
+<sup>By **[@ApexAppdevelopment](https://github.com/ApexAppdevelopment)** on **2024-11-20**</sup>
+
+Highly intelligent and loyal Executive Assistant (EA) specializing in software engineering support and strategic solutions for Master E.
+
+`executive-assistant` `software-engineering` `project-management` `technical-support` `optimization`
+
+---
+
+### [Wisdom Guide](https://lobechat.com/discover/assistant/life-wisdom-guides)
+
+<sup>By **[@changjiong](https://github.com/changjiong)** on **2024-11-20**</sup>
+
+Skilled in Guidance
+
+`Life Coaching` `Philosophical Reflection` `Consultation` `Heuristic Dialogue`
+
+---
+
 ### [Thinking Claude](https://lobechat.com/discover/assistant/thinking-claude)
 
 <sup>By **[@AnoyiX](https://github.com/AnoyiX)** on **2024-11-14**</sup>
@@ -644,16 +654,6 @@ Eliminate the characteristics of AI-generated content
 Let Claude think comprehensively before responding!
 
 `common`
-
----
-
-### [Machine Vision LaTeX](https://lobechat.com/discover/assistant/cv-latex)
-
-<sup>By **[@5xiao0qing5](https://github.com/5xiao0qing5)** on **2024-10-29**</sup>
-
-Specializes in explaining concepts of machine learning and deep learning
-
-`Machine Learning` `Deep Learning` `Image Processing` `Computer Vision` `LaTeX`
 
 ---
 
@@ -667,13 +667,23 @@ Ingo Hausmann wants to be advised on a new purchase of PCs
 
 ---
 
-### [Print to Table](https://lobechat.com/discover/assistant/print-to-table)
+### [Text RPG Host](https://lobechat.com/discover/assistant/word-rpg)
 
-<sup>By **[@printtotable](https://github.com/printtotable)** on **2024-10-29**</sup>
+<sup>By **[@NTLx](https://github.com/NTLx)** on **2024-10-29**</sup>
 
-Transform data from images into organized tables in Excel.
+Specializes in hosting sci-fi text RPG games and guiding narratives
 
-`data-extraction` `tables` `advertising` `influencer` `excel`
+`Game` `Role-Playing` `Science Fiction` `Text Adventure` `Narrative Driven`
+
+---
+
+### [Machine Vision LaTeX](https://lobechat.com/discover/assistant/cv-latex)
+
+<sup>By **[@5xiao0qing5](https://github.com/5xiao0qing5)** on **2024-10-29**</sup>
+
+Specializes in explaining concepts of machine learning and deep learning
+
+`Machine Learning` `Deep Learning` `Image Processing` `Computer Vision` `LaTeX`
 
 ---
 
@@ -717,13 +727,13 @@ A psychology expert used to analyze the underlying psychological motivations beh
 
 ---
 
-### [Text RPG Host](https://lobechat.com/discover/assistant/word-rpg)
+### [Print to Table](https://lobechat.com/discover/assistant/print-to-table)
 
-<sup>By **[@NTLx](https://github.com/NTLx)** on **2024-10-29**</sup>
+<sup>By **[@printtotable](https://github.com/printtotable)** on **2024-10-29**</sup>
 
-Specializes in hosting sci-fi text RPG games and guiding narratives
+Transform data from images into organized tables in Excel.
 
-`Game` `Role-Playing` `Science Fiction` `Text Adventure` `Narrative Driven`
+`data-extraction` `tables` `advertising` `influencer` `excel`
 
 ---
 
@@ -767,16 +777,6 @@ An experienced psychologist, warmly and patiently listening to your story.
 
 ---
 
-### [Boxing Training Master](https://lobechat.com/discover/assistant/boxing-master)
-
-<sup>By **[@Luyi-2333](https://github.com/Luyi-2333)** on **2024-10-15**</sup>
-
-Expert in boxing training guidance and personalized plan development
-
-`boxing training` `personalized plans` `fitness guidance` `progress evaluation` `technique improvement` `health and nutrition`
-
----
-
 ### [Coconut](https://lobechat.com/discover/assistant/deep-thinker-ai)
 
 <sup>By **[@hia1234](https://github.com/hia1234)** on **2024-10-15**</sup>
@@ -787,23 +787,13 @@ A chatbot that undergoes several reviews of its responses, checking whether ther
 
 ---
 
-### [Ophthalmologist](https://lobechat.com/discover/assistant/ophthalmologist)
+### [Boxing Training Master](https://lobechat.com/discover/assistant/boxing-master)
 
-<sup>By **[@yuphone](https://github.com/yuphone)** on **2024-10-14**</sup>
+<sup>By **[@Luyi-2333](https://github.com/Luyi-2333)** on **2024-10-15**</sup>
 
-Specializes in ophthalmic diagnosis and treatment recommendations
+Expert in boxing training guidance and personalized plan development
 
-`Healthcare` `Ophthalmology` `Diagnosis` `Recommendations` `Professional`
-
----
-
-### [Wireless Communication Expert](https://lobechat.com/discover/assistant/wireless-communication-expert)
-
-<sup>By **[@yuphone](https://github.com/yuphone)** on **2024-10-14**</sup>
-
-Specializes in wireless communication technology, proficient in industry knowledge from 4G to 6G
-
-`Communication Technology` `Expert` `Consulting` `4-g` `5-g`
+`boxing training` `personalized plans` `fitness guidance` `progress evaluation` `technique improvement` `health and nutrition`
 
 ---
 
@@ -827,6 +817,16 @@ Focused on writing and optimizing documentation for open source projects
 
 ---
 
+### [Wireless Communication Expert](https://lobechat.com/discover/assistant/wireless-communication-expert)
+
+<sup>By **[@yuphone](https://github.com/yuphone)** on **2024-10-14**</sup>
+
+Specializes in wireless communication technology, proficient in industry knowledge from 4G to 6G
+
+`Communication Technology` `Expert` `Consulting` `4-g` `5-g`
+
+---
+
 ### [Semiconductor Text Optimization Expert](https://lobechat.com/discover/assistant/semiconductor-article-optimization-expert)
 
 <sup>By **[@yuphone](https://github.com/yuphone)** on **2024-10-14**</sup>
@@ -834,6 +834,26 @@ Focused on writing and optimizing documentation for open source projects
 Specializes in text optimization and standardized writing in the semiconductor industry
 
 `Text Optimization` `Industry Expertise` `Grammar Correction` `Logic Improvement` `Standardized Writing`
+
+---
+
+### [Ophthalmologist](https://lobechat.com/discover/assistant/ophthalmologist)
+
+<sup>By **[@yuphone](https://github.com/yuphone)** on **2024-10-14**</sup>
+
+Specializes in ophthalmic diagnosis and treatment recommendations
+
+`Healthcare` `Ophthalmology` `Diagnosis` `Recommendations` `Professional`
+
+---
+
+### [Code Optimization/Error Correction](https://lobechat.com/discover/assistant/code-review-and-fix)
+
+<sup>By **[@alphandbelt](https://github.com/alphandbelt)** on **2024-10-08**</sup>
+
+Proficient in multiple programming languages, optimizing code structure, fixing errors, and providing elegant solutions.
+
+`Code Optimization` `Error Correction` `Multiple Programming Languages`
 
 ---
 
@@ -857,16 +877,6 @@ Specializes in identifying and mitigating security vulnerabilities in web and mo
 
 ---
 
-### [Code Optimization/Error Correction](https://lobechat.com/discover/assistant/code-review-and-fix)
-
-<sup>By **[@alphandbelt](https://github.com/alphandbelt)** on **2024-10-08**</sup>
-
-Proficient in multiple programming languages, optimizing code structure, fixing errors, and providing elegant solutions.
-
-`Code Optimization` `Error Correction` `Multiple Programming Languages`
-
----
-
 ### [Mistaker](https://lobechat.com/discover/assistant/english)
 
 <sup>By **[@Vork-IT](https://github.com/Vork-IT)** on **2024-10-08**</sup>
@@ -887,16 +897,6 @@ Expert in evaluating and creating reusable content artifacts
 
 ---
 
-### [JSON Prompt Generator](https://lobechat.com/discover/assistant/json-prompt-generator)
-
-<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-10-05**</sup>
-
-Expert in generating JSON-formatted prompts for task execution.
-
-`task-analysis` `json-generation` `prompt-engineering`
-
----
-
 ### [Principled Problem Solver](https://lobechat.com/discover/assistant/general-chain-of-thought)
 
 <sup>By **[@ShinChven](https://github.com/ShinChven)** on **2024-10-05**</sup>
@@ -904,6 +904,16 @@ Expert in generating JSON-formatted prompts for task execution.
 Excellent at principled problem-solving and categorization. Chain of Thought agent
 
 `problem-solving` `categorization` `reasoning` `chain-of-thought`
+
+---
+
+### [JSON Prompt Generator](https://lobechat.com/discover/assistant/json-prompt-generator)
+
+<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-10-05**</sup>
+
+Expert in generating JSON-formatted prompts for task execution.
+
+`task-analysis` `json-generation` `prompt-engineering`
 
 ---
 
@@ -917,43 +927,13 @@ Excels in teaching C++/Qt coding practices
 
 ---
 
-### [Nice Short Sunday Messages](https://lobechat.com/discover/assistant/nice-short-sunday-message)
+### [This Makes Sense](https://lobechat.com/discover/assistant/ligigang-creative-card)
 
-<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+<sup>By **[@Victor94-king](https://github.com/Victor94-king)** on **2024-09-29**</sup>
 
-Sunday Message Companion crafting uplifting, faith-based messages to strengthen community bonds and spread positivity.
+The world through the eyes of a neurotic, "This makes sense!"
 
-`writing` `spirituality` `community` `faith` `consulting`
-
----
-
-### [Flux Prompt Generator](https://lobechat.com/discover/assistant/flux-prompt-generator)
-
-<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
-
-Flux Prompt Generation Assistant: Expert in crafting detailed, creative prompts for high-quality image outputs from the Flux model.
-
-`prompt-generation` `image-generation` `art-style` `creativity` `crafting`
-
----
-
-### [God Bless You Messages](https://lobechat.com/discover/assistant/god-bless-you-message)
-
-<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
-
-Expert in crafting personalized "God Bless You" messages with spiritual sensitivity and language mastery.
-
-`message-composition` `personalization` `spiritual-sensitivity` `language-mastery` `interaction-approach`
-
----
-
-### [Master of Retorts](https://lobechat.com/discover/assistant/master-of-dissent)
-
-<sup>By **[@YWJCJ](https://github.com/YWJCJ)** on **2024-09-29**</sup>
-
-A professional debate expert, skilled in quick rebuttals and humorous responses.
-
-`debate` `communication` `humor` `analysis` `expression`
+`Creative Card`
 
 ---
 
@@ -964,26 +944,6 @@ A professional debate expert, skilled in quick rebuttals and humorous responses.
 Skilled in analyzing academic papers and generating structured English summary reports
 
 `Academic Analysis` `Paper Summary` `Research Translation`
-
----
-
-### [Birthday Invitation Messages](https://lobechat.com/discover/assistant/birthday-invitation-message)
-
-<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
-
-Specializes in crafting engaging and personalized Birthday Invitation messages, catering to various themes and tones.
-
-`message-composition` `personalization` `tone-versatility` `event-detail-integration` `interaction-approach`
-
----
-
-### [This Makes Sense](https://lobechat.com/discover/assistant/ligigang-creative-card)
-
-<sup>By **[@Victor94-king](https://github.com/Victor94-king)** on **2024-09-29**</sup>
-
-The world through the eyes of a neurotic, "This makes sense!"
-
-`Creative Card`
 
 ---
 
@@ -1007,6 +967,66 @@ Expert in generating structured Runway Gen-3 prompts for AI-generated videos.
 
 ---
 
+### [God Bless You Messages](https://lobechat.com/discover/assistant/god-bless-you-message)
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Expert in crafting personalized "God Bless You" messages with spiritual sensitivity and language mastery.
+
+`message-composition` `personalization` `spiritual-sensitivity` `language-mastery` `interaction-approach`
+
+---
+
+### [Master of Retorts](https://lobechat.com/discover/assistant/master-of-dissent)
+
+<sup>By **[@YWJCJ](https://github.com/YWJCJ)** on **2024-09-29**</sup>
+
+A professional debate expert, skilled in quick rebuttals and humorous responses.
+
+`debate` `communication` `humor` `analysis` `expression`
+
+---
+
+### [Nice Short Sunday Messages](https://lobechat.com/discover/assistant/nice-short-sunday-message)
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Sunday Message Companion crafting uplifting, faith-based messages to strengthen community bonds and spread positivity.
+
+`writing` `spirituality` `community` `faith` `consulting`
+
+---
+
+### [Flux Prompt Generator](https://lobechat.com/discover/assistant/flux-prompt-generator)
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Flux Prompt Generation Assistant: Expert in crafting detailed, creative prompts for high-quality image outputs from the Flux model.
+
+`prompt-generation` `image-generation` `art-style` `creativity` `crafting`
+
+---
+
+### [Birthday Invitation Messages](https://lobechat.com/discover/assistant/birthday-invitation-message)
+
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2024-09-29**</sup>
+
+Specializes in crafting engaging and personalized Birthday Invitation messages, catering to various themes and tones.
+
+`message-composition` `personalization` `tone-versatility` `event-detail-integration` `interaction-approach`
+
+---
+
+### [Contract Clause Refiner v1.0](https://lobechat.com/discover/assistant/business-contract)
+
+<sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
+
+Output: {Optimize contract clauses for professional and concise expression}
+
+`Contract Optimization` `Legal Consultation` `Copywriting` `Terminology` `Project Management`
+
+---
+
 ### [Stable Album Cover Prompter](https://lobechat.com/discover/assistant/title-bpm-stimmung)
 
 <sup>By **[@MellowTrixX](https://github.com/MellowTrixX)** on **2024-09-24**</sup>
@@ -1014,6 +1034,16 @@ Expert in generating structured Runway Gen-3 prompts for AI-generated videos.
 Professional graphic designer for front cover design specializing in creating visual concepts and designs for melodic techno music albums.
 
 `album-cover` `prompt` `stable-diffusion` `cover-design` `cover-prompts`
+
+---
+
+### [I Ching Divination Master](https://lobechat.com/discover/assistant/i-ching-interpretation)
+
+<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-24**</sup>
+
+I, the humble practitioner of Xuan Yi, respectfully follow the teachings of the sages. Using the sixty-four hexagrams as a mirror, I observe the universe and analyze human affairs. If you have any doubts or difficulties, feel free to share, and together we will draw on the wisdom of our ancestors to guide you.
+
+`I Ching Divination` `Xuan Yi` `I Ching Studies` `Wisdom` `Hexagrams`
 
 ---
 
@@ -1037,143 +1067,13 @@ Professional PPT report material optimization expert
 
 ---
 
-### [I Ching Divination Master](https://lobechat.com/discover/assistant/i-ching-interpretation)
+### [Web Expert](https://lobechat.com/discover/assistant/web-expert)
 
-<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-24**</sup>
+<sup>By **[@gfreezy](https://github.com/gfreezy)** on **2024-09-23**</sup>
 
-I, the humble practitioner of Xuan Yi, respectfully follow the teachings of the sages. Using the sixty-four hexagrams as a mirror, I observe the universe and analyze human affairs. If you have any doubts or difficulties, feel free to share, and together we will draw on the wisdom of our ancestors to guide you.
+Expert in web development with a focus on tool selection, incremental changes, code review, security, and operational considerations.
 
-`I Ching Divination` `Xuan Yi` `I Ching Studies` `Wisdom` `Hexagrams`
-
----
-
-### [Contract Clause Refiner v1.0](https://lobechat.com/discover/assistant/business-contract)
-
-<sup>By **[@houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>
-
-Output: {Optimize contract clauses for professional and concise expression}
-
-`Contract Optimization` `Legal Consultation` `Copywriting` `Terminology` `Project Management`
-
----
-
-### [Image Prompt Expander](https://lobechat.com/discover/assistant/image-prompt-engineer)
-
-<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-23**</sup>
-
-Skilled at crafting vivid and specific prompts for image generation
-
-`Image Generation` `Prompt Expansion` `Creative Writing` `Rich in Detail` `Scene Building`
-
----
-
-### [Japanese Translator](https://lobechat.com/discover/assistant/japanese-translator)
-
-<sup>By **[@ChaneyChokin](https://github.com/ChaneyChokin)** on **2024-09-23**</sup>
-
-Specializes in Japanese translation, editing, spelling correction, and enhancement, responding in advanced Japanese while maintaining the original meaning.
-
-`Japanese Translation` `Editing` `Proofreading`
-
----
-
-### [COSTAR Framework Writer](https://lobechat.com/discover/assistant/costar-framework-bot)
-
-<sup>By **[@WuKaiYi](https://github.com/WuKaiYi)** on **2024-09-23**</sup>
-
-Skilled in writing COSTAR Framework prompts
-
-`costar-framework-prompt` `writing` `guidance` `instructions` `system conversion`
-
----
-
-### [Fitness Guru](https://lobechat.com/discover/assistant/work-out)
-
-<sup>By **[@Arragon](https://github.com/Arragon)** on **2024-09-23**</sup>
-
-Pursuing the Classical Beauty of Greece
-
-`Health` `Advice` `Consultation` `Teaching`
-
----
-
-### [Copy Optimization Assistant](https://lobechat.com/discover/assistant/top-copywriting-master)
-
-<sup>By **[@xinyuqq](https://github.com/xinyuqq)** on **2024-09-23**</sup>
-
-A senior assistant skilled in refining copy
-
-`copy`
-
----
-
-### [English Word Analysis and Memory Expert](https://lobechat.com/discover/assistant/epoch-ai-language-teacher)
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-09-23**</sup>
-
-Specializes in bilingual education, analyzing the meanings, example sentences, roots and affixes, historical background, and memory techniques of English words.
-
-`English words` `meaning analysis` `example sentences` `roots and affixes`
-
----
-
-### [Django Development Expert](https://lobechat.com/discover/assistant/django-prompt)
-
-<sup>By **[@genitop-lery](https://github.com/genitop-lery)** on **2024-09-23**</sup>
-
-Prompts for developing Django projects
-
-`python` `django`
-
----
-
-### [Smart Search Assistant](https://lobechat.com/discover/assistant/web-search)
-
-<sup>By **[@liuwei-fdu](https://github.com/liuwei-fdu)** on **2024-09-23**</sup>
-
-An AI assistant skilled in web search and information organization
-
-`Smart Assistant` `Search Engine` `Information Organization` `User Experience`
-
----
-
-### [CEO GPT](https://lobechat.com/discover/assistant/ceo-gpt)
-
-<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
-
-AI mentor trained to advise startup CEOs based on the experiences
-
-`entrepreneurship` `consulting` `management` `strategy` `guidance`
-
----
-
-### [Idea Architect](https://lobechat.com/discover/assistant/idea-architect)
-
-<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-09-23**</sup>
-
-Expert in generating logical and coherent thought chains on various topics.
-
-`writing` `thinking` `analysis` `critical-thinking` `education`
-
----
-
-### [Prompt Master AI](https://lobechat.com/discover/assistant/prompt-master-ai)
-
-<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-09-23**</sup>
-
-Transforming your creative concepts into detailed, context-rich prompts that inspire stunning and realistic visuals
-
-`ai` `prompting` `generating` `enhancing` `consulting`
-
----
-
-### [Python Development Master](https://lobechat.com/discover/assistant/py-master-id)
-
-<sup>By **[@SAnBlog](https://github.com/SAnBlog)** on **2024-09-23**</sup>
-
-Expert in Python development, focusing on efficient and concise code, with an emphasis on security and maintainability
-
-`python development` `programming` `code review` `security` `software engineering`
+`web-development` `css` `java-script` `react` `node-js` `code-review`
 
 ---
 
@@ -1197,46 +1097,6 @@ A full stack engineer with code name F.
 
 ---
 
-### [Web Expert](https://lobechat.com/discover/assistant/web-expert)
-
-<sup>By **[@gfreezy](https://github.com/gfreezy)** on **2024-09-23**</sup>
-
-Expert in web development with a focus on tool selection, incremental changes, code review, security, and operational considerations.
-
-`web-development` `css` `java-script` `react` `node-js` `code-review`
-
----
-
-### [Advertising Copywriting Master](https://lobechat.com/discover/assistant/advertising-copywriting-master)
-
-<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
-
-Specializing in product function analysis and advertising copywriting that resonates with user values
-
-`Advertising Copy` `User Values` `Marketing Strategy`
-
----
-
-### [GitHub Project Analyst](https://lobechat.com/discover/assistant/web-github-analyze)
-
-<sup>By **[@dlzmoe](https://github.com/dlzmoe)** on **2024-09-23**</sup>
-
-Skilled in GitHub project analysis and report writing
-
-`git-hub-analysis` `crawler-technology` `project-report`
-
----
-
-### [Text Rewriting Master](https://lobechat.com/discover/assistant/write-good)
-
-<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-23**</sup>
-
-The strongest AI rewriting tool ever! Complete violent rewriting in one minute, imitate public account articles, create a headline article production line, generate Bilibili video scripts, write Xiaohongshu copy, optimize online literature writing, polish reports, papers, and translated texts, and generate SEO articles in bulk...
-
-`Writing` `Rewriting` `Dialogue` `Copy`
-
----
-
 ### [Chinese Translator](https://lobechat.com/discover/assistant/chinese-translator)
 
 <sup>By **[@ChaneyChokin](https://github.com/ChaneyChokin)** on **2024-09-23**</sup>
@@ -1247,103 +1107,13 @@ Expert in Chinese translation, editing, spelling correction, and improvement
 
 ---
 
-### [Life Coach](https://lobechat.com/discover/assistant/life-coach)
+### [GitHub Project Analyst](https://lobechat.com/discover/assistant/web-github-analyze)
 
-<sup>By **[@jorben](https://github.com/jorben)** on **2024-09-23**</sup>
+<sup>By **[@dlzmoe](https://github.com/dlzmoe)** on **2024-09-23**</sup>
 
-An expert coach skilled in guiding thoughts and helping explore the meaning of life
+Skilled in GitHub project analysis and report writing
 
-`coach` `psychological counseling` `meaning of life` `self-exploration` `mental health`
-
----
-
-### [Wise Mentor](https://lobechat.com/discover/assistant/wise-mentor)
-
-<sup>By **[@farsightlin](https://github.com/farsightlin)** on **2024-09-23**</sup>
-
-An absolutely objective sage, focused on facts, indifferent to users, yet sincerely loving towards them.
-
-`wise-mentor`
-
----
-
-### [Next.js Expert Consultant](https://lobechat.com/discover/assistant/nextjs-expert)
-
-<sup>By **[@saralapujar](https://github.com/saralapujar)** on **2024-09-23**</sup>
-
-Specializing in Next.js development, optimization, and consulting.
-
-`next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
-
----
-
-### [Stack Overflow Programming Expert](https://lobechat.com/discover/assistant/stackoverflow-code-helper)
-
-<sup>By **[@Stark-X](https://github.com/Stark-X)** on **2024-09-23**</sup>
-
-Familiar with multiple programming languages, including Golang, Python, Java, and Vue.js. Proficient in answering programming questions with clear and logical language, and providing solutions. Possesses effective communication, code review, and quick learning abilities for new skills.
-
-`Programming` `Expert` `Programming Languages`
-
----
-
-### [World Creator Simulator](https://lobechat.com/discover/assistant/creator-simulator)
-
-<sup>By **[@jskherman](https://github.com/jskherman)** on **2024-09-23**</sup>
-
-based on `world_sim` by Nous Research
-
-`roleplay` `specialist` `simulator` `terminal`
-
----
-
-### [Markdown Conversion Expert](https://lobechat.com/discover/assistant/markdown-layout)
-
-<sup>By **[@cl1107](https://github.com/cl1107)** on **2024-09-23**</sup>
-
-Proficient in using Markdown syntax for text structuring and emphasis
-
-`text structure` `markdown syntax` `headings` `lists` `bold` `quote` `agulu`
-
----
-
-### [Civil Law Consultant](https://lobechat.com/discover/assistant/law)
-
-<sup>By **[@carlosgasparini874](https://github.com/carlosgasparini874)** on **2024-09-23**</sup>
-
-Specialist in legal consulting in Brazilian civil law. Answers questions based on legislation, doctrine, and jurisprudence.
-
-`legal-consulting` `civil-law` `answers` `sources` `brazil`
-
----
-
-### [Book Summary Expert](https://lobechat.com/discover/assistant/book-summary-expert-philo)
-
-<sup>By **[@saccohuo](https://github.com/saccohuo)** on **2024-09-23**</sup>
-
-A book summary expert providing concise and easy-to-read book summaries and structured outputs.
-
-`book summary` `expert` `reading` `assistant`
-
----
-
-### [Minimal Translation Assistant](https://lobechat.com/discover/assistant/minimalist-translation)
-
-<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
-
-A minimal translation tool, proficient in Chinese-English translation
-
-`Translation Tool` `Rules` `Simplicity` `Efficiency`
-
----
-
-### [UI/UX designer](https://lobechat.com/discover/assistant/ui-ux-designer)
-
-<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
-
-world-class UI/UX designer with extensive experience
-
-`ui` `ux` `design-system`
+`git-hub-analysis` `crawler-technology` `project-report`
 
 ---
 
@@ -1367,53 +1137,33 @@ A master of writing exam essays who excels in crafting high-scoring compositions
 
 ---
 
-### [Git Commit Summary Expert](https://lobechat.com/discover/assistant/git-commit-ai)
+### [Life Coach](https://lobechat.com/discover/assistant/life-coach)
 
-<sup>By **[@cjahv](https://github.com/cjahv)** on **2024-09-23**</sup>
+<sup>By **[@jorben](https://github.com/jorben)** on **2024-09-23**</sup>
 
-Git Commit Summary Expert
+An expert coach skilled in guiding thoughts and helping explore the meaning of life
 
-`programming` `git commit` `English`
-
----
-
-### [Vim Mastery Mentor](https://lobechat.com/discover/assistant/vim-assistant)
-
-<sup>By **[@hrithikt](https://github.com/hrithikt)** on **2024-09-23**</sup>
-
-Skilled Vim expert providing clear, concise solutions and tips for users at all levels.
-
-`vim` `expert` `assistant` `helpful` `queries`
+`coach` `psychological counseling` `meaning of life` `self-exploration` `mental health`
 
 ---
 
-### [Perfect Translation Chinese-English; English-Chinese](https://lobechat.com/discover/assistant/translate-perfect)
+### [World Creator Simulator](https://lobechat.com/discover/assistant/creator-simulator)
 
-<sup>By **[@1137882300](https://github.com/1137882300)** on **2024-09-23**</sup>
+<sup>By **[@jskherman](https://github.com/jskherman)** on **2024-09-23**</sup>
 
-Error-free translation assistant
+based on `world_sim` by Nous Research
 
-`Translation` `Chinese-English`
-
----
-
-### [Joi](https://lobechat.com/discover/assistant/travel-agent-joi)
-
-<sup>By **[@blainehuang1028](https://github.com/blainehuang1028)** on **2024-09-23**</sup>
-
-Your personal travel assistant, skilled in planning itineraries and recommending accommodations and activities
-
-`travel assistant` `planning` `recommendations` `personalized suggestions`
+`roleplay` `specialist` `simulator` `terminal`
 
 ---
 
-### [Nutrition Analyzer](https://lobechat.com/discover/assistant/nutrition-analyzer)
+### [Copy Optimization Assistant](https://lobechat.com/discover/assistant/top-copywriting-master)
 
-<sup>By **[@Pandurangmopgar](https://github.com/Pandurangmopgar)** on **2024-09-23**</sup>
+<sup>By **[@xinyuqq](https://github.com/xinyuqq)** on **2024-09-23**</sup>
 
-Nutri Info is an AI-powered nutrition assistant that analyzes food images and nutrition labels, providing simple explanations of nutritional content, benefits, and potential downsides. It offers personalized dietary advice and answers nutrition-related questions.
+A senior assistant skilled in refining copy
 
-`nutrition` `ai` `health` `food-analysis` `meal-planning`
+`copy`
 
 ---
 
@@ -1427,6 +1177,266 @@ Excel Formula Master
 
 ---
 
+### [Vim Mastery Mentor](https://lobechat.com/discover/assistant/vim-assistant)
+
+<sup>By **[@hrithikt](https://github.com/hrithikt)** on **2024-09-23**</sup>
+
+Skilled Vim expert providing clear, concise solutions and tips for users at all levels.
+
+`vim` `expert` `assistant` `helpful` `queries`
+
+---
+
+### [English Word Analysis and Memory Expert](https://lobechat.com/discover/assistant/epoch-ai-language-teacher)
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-09-23**</sup>
+
+Specializes in bilingual education, analyzing the meanings, example sentences, roots and affixes, historical background, and memory techniques of English words.
+
+`English words` `meaning analysis` `example sentences` `roots and affixes`
+
+---
+
+### [Git Commit Summary Expert](https://lobechat.com/discover/assistant/git-commit-ai)
+
+<sup>By **[@cjahv](https://github.com/cjahv)** on **2024-09-23**</sup>
+
+Git Commit Summary Expert
+
+`programming` `git commit` `English`
+
+---
+
+### [Next.js Expert Consultant](https://lobechat.com/discover/assistant/nextjs-expert)
+
+<sup>By **[@saralapujar](https://github.com/saralapujar)** on **2024-09-23**</sup>
+
+Specializing in Next.js development, optimization, and consulting.
+
+`next-js` `react` `web-development` `java-script` `consulting` `optimization` `full-stack-development`
+
+---
+
+### [Nutrition Analyzer](https://lobechat.com/discover/assistant/nutrition-analyzer)
+
+<sup>By **[@Pandurangmopgar](https://github.com/Pandurangmopgar)** on **2024-09-23**</sup>
+
+Nutri Info is an AI-powered nutrition assistant that analyzes food images and nutrition labels, providing simple explanations of nutritional content, benefits, and potential downsides. It offers personalized dietary advice and answers nutrition-related questions.
+
+`nutrition` `ai` `health` `food-analysis` `meal-planning`
+
+---
+
+### [Django Development Expert](https://lobechat.com/discover/assistant/django-prompt)
+
+<sup>By **[@genitop-lery](https://github.com/genitop-lery)** on **2024-09-23**</sup>
+
+Prompts for developing Django projects
+
+`python` `django`
+
+---
+
+### [Civil Law Consultant](https://lobechat.com/discover/assistant/law)
+
+<sup>By **[@carlosgasparini874](https://github.com/carlosgasparini874)** on **2024-09-23**</sup>
+
+Specialist in legal consulting in Brazilian civil law. Answers questions based on legislation, doctrine, and jurisprudence.
+
+`legal-consulting` `civil-law` `answers` `sources` `brazil`
+
+---
+
+### [Python Development Master](https://lobechat.com/discover/assistant/py-master-id)
+
+<sup>By **[@SAnBlog](https://github.com/SAnBlog)** on **2024-09-23**</sup>
+
+Expert in Python development, focusing on efficient and concise code, with an emphasis on security and maintainability
+
+`python development` `programming` `code review` `security` `software engineering`
+
+---
+
+### [UI/UX designer](https://lobechat.com/discover/assistant/ui-ux-designer)
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+world-class UI/UX designer with extensive experience
+
+`ui` `ux` `design-system`
+
+---
+
+### [Minimal Translation Assistant](https://lobechat.com/discover/assistant/minimalist-translation)
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+A minimal translation tool, proficient in Chinese-English translation
+
+`Translation Tool` `Rules` `Simplicity` `Efficiency`
+
+---
+
+### [Markdown Conversion Expert](https://lobechat.com/discover/assistant/markdown-layout)
+
+<sup>By **[@cl1107](https://github.com/cl1107)** on **2024-09-23**</sup>
+
+Proficient in using Markdown syntax for text structuring and emphasis
+
+`text structure` `markdown syntax` `headings` `lists` `bold` `quote` `agulu`
+
+---
+
+### [Image Prompt Expander](https://lobechat.com/discover/assistant/image-prompt-engineer)
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-23**</sup>
+
+Skilled at crafting vivid and specific prompts for image generation
+
+`Image Generation` `Prompt Expansion` `Creative Writing` `Rich in Detail` `Scene Building`
+
+---
+
+### [Joi](https://lobechat.com/discover/assistant/travel-agent-joi)
+
+<sup>By **[@blainehuang1028](https://github.com/blainehuang1028)** on **2024-09-23**</sup>
+
+Your personal travel assistant, skilled in planning itineraries and recommending accommodations and activities
+
+`travel assistant` `planning` `recommendations` `personalized suggestions`
+
+---
+
+### [Japanese Translator](https://lobechat.com/discover/assistant/japanese-translator)
+
+<sup>By **[@ChaneyChokin](https://github.com/ChaneyChokin)** on **2024-09-23**</sup>
+
+Specializes in Japanese translation, editing, spelling correction, and enhancement, responding in advanced Japanese while maintaining the original meaning.
+
+`Japanese Translation` `Editing` `Proofreading`
+
+---
+
+### [Idea Architect](https://lobechat.com/discover/assistant/idea-architect)
+
+<sup>By **[@yaleh](https://github.com/yaleh)** on **2024-09-23**</sup>
+
+Expert in generating logical and coherent thought chains on various topics.
+
+`writing` `thinking` `analysis` `critical-thinking` `education`
+
+---
+
+### [Perfect Translation Chinese-English; English-Chinese](https://lobechat.com/discover/assistant/translate-perfect)
+
+<sup>By **[@1137882300](https://github.com/1137882300)** on **2024-09-23**</sup>
+
+Error-free translation assistant
+
+`Translation` `Chinese-English`
+
+---
+
+### [Fitness Guru](https://lobechat.com/discover/assistant/work-out)
+
+<sup>By **[@Arragon](https://github.com/Arragon)** on **2024-09-23**</sup>
+
+Pursuing the Classical Beauty of Greece
+
+`Health` `Advice` `Consultation` `Teaching`
+
+---
+
+### [Wise Mentor](https://lobechat.com/discover/assistant/wise-mentor)
+
+<sup>By **[@farsightlin](https://github.com/farsightlin)** on **2024-09-23**</sup>
+
+An absolutely objective sage, focused on facts, indifferent to users, yet sincerely loving towards them.
+
+`wise-mentor`
+
+---
+
+### [Text Rewriting Master](https://lobechat.com/discover/assistant/write-good)
+
+<sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-23**</sup>
+
+The strongest AI rewriting tool ever! Complete violent rewriting in one minute, imitate public account articles, create a headline article production line, generate Bilibili video scripts, write Xiaohongshu copy, optimize online literature writing, polish reports, papers, and translated texts, and generate SEO articles in bulk...
+
+`Writing` `Rewriting` `Dialogue` `Copy`
+
+---
+
+### [CEO GPT](https://lobechat.com/discover/assistant/ceo-gpt)
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+AI mentor trained to advise startup CEOs based on the experiences
+
+`entrepreneurship` `consulting` `management` `strategy` `guidance`
+
+---
+
+### [Advertising Copywriting Master](https://lobechat.com/discover/assistant/advertising-copywriting-master)
+
+<sup>By **[@leter](https://github.com/leter)** on **2024-09-23**</sup>
+
+Specializing in product function analysis and advertising copywriting that resonates with user values
+
+`Advertising Copy` `User Values` `Marketing Strategy`
+
+---
+
+### [Book Summary Expert](https://lobechat.com/discover/assistant/book-summary-expert-philo)
+
+<sup>By **[@saccohuo](https://github.com/saccohuo)** on **2024-09-23**</sup>
+
+A book summary expert providing concise and easy-to-read book summaries and structured outputs.
+
+`book summary` `expert` `reading` `assistant`
+
+---
+
+### [COSTAR Framework Writer](https://lobechat.com/discover/assistant/costar-framework-bot)
+
+<sup>By **[@WuKaiYi](https://github.com/WuKaiYi)** on **2024-09-23**</sup>
+
+Skilled in writing COSTAR Framework prompts
+
+`costar-framework-prompt` `writing` `guidance` `instructions` `system conversion`
+
+---
+
+### [Stack Overflow Programming Expert](https://lobechat.com/discover/assistant/stackoverflow-code-helper)
+
+<sup>By **[@Stark-X](https://github.com/Stark-X)** on **2024-09-23**</sup>
+
+Familiar with multiple programming languages, including Golang, Python, Java, and Vue.js. Proficient in answering programming questions with clear and logical language, and providing solutions. Possesses effective communication, code review, and quick learning abilities for new skills.
+
+`Programming` `Expert` `Programming Languages`
+
+---
+
+### [Smart Search Assistant](https://lobechat.com/discover/assistant/web-search)
+
+<sup>By **[@liuwei-fdu](https://github.com/liuwei-fdu)** on **2024-09-23**</sup>
+
+An AI assistant skilled in web search and information organization
+
+`Smart Assistant` `Search Engine` `Information Organization` `User Experience`
+
+---
+
+### [Prompt Master AI](https://lobechat.com/discover/assistant/prompt-master-ai)
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-09-23**</sup>
+
+Transforming your creative concepts into detailed, context-rich prompts that inspire stunning and realistic visuals
+
+`ai` `prompting` `generating` `enhancing` `consulting`
+
+---
+
 ### [Database Naming Assistant](https://lobechat.com/discover/assistant/database-name-helper)
 
 <sup>By **[@ppzhuya](https://github.com/ppzhuya)** on **2024-09-20**</sup>
@@ -1434,76 +1444,6 @@ Excel Formula Master
 Input a Chinese word, and I will provide five professional English terms for database design fields.
 
 `database` `naming` `translation` `development` `programming`
-
----
-
-### [Vocabulary Assistant](https://lobechat.com/discover/assistant/english-words-helper)
-
-<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-19**</sup>
-
-An assistant skilled in English word definitions and example sentence translations
-
-`Vocabulary Assistant` `English` `Translation` `Example Sentences` `Definitions`
-
----
-
-### [Project Naming Master](https://lobechat.com/discover/assistant/project-name-master)
-
-<sup>By **[@QuXiaoMing](https://github.com/QuXiaoMing)** on **2024-09-19**</sup>
-
-A project naming master who can help you come up with a name that meets the project's expectations.
-
-`naming`
-
----
-
-### [Software Engineer](https://lobechat.com/discover/assistant/ing-soft)
-
-<sup>By **[@dylanstringa](https://github.com/dylanstringa)** on **2024-09-19**</sup>
-
-Software engineer, expert in the software development life cycle.
-
-`engineer` `software` `development`
-
----
-
-### [Flashcard Maker](https://lobechat.com/discover/assistant/flashcard)
-
-<sup>By **[@jjy1000](https://github.com/jjy1000)** on **2024-09-19**</sup>
-
-Skilled in creating structured flashcards, maintaining objectivity and accuracy, clarity and conciseness, while gradually extracting key information.
-
-`Flashcard Creation` `Text Analysis` `Structured Production` `Error Correction` `Progressive Reading`
-
----
-
-### [Strategic Master Wei Liaozi](https://lobechat.com/discover/assistant/weiliaozi-junshi)
-
-<sup>By **[@phoenixlucky](https://github.com/phoenixlucky)** on **2024-09-19**</sup>
-
-Expert in military strategy and command
-
-`Military Strategy` `Warfare` `History`
-
----
-
-### [JavaWeb Application Architect](https://lobechat.com/discover/assistant/java-web-architect)
-
-<sup>By **[@JIANGTUNAN](https://github.com/JIANGTUNAN)** on **2024-09-19**</sup>
-
-An experienced architect for JavaWeb system applications, providing concise implementations or solutions. It is assumed that you are also an experienced developer, so no need to elaborate on details.
-
-`java` `java-web` `java architect` `good buddy` `concise`
-
----
-
-### [Xiaohongshu Copywriting](https://lobechat.com/discover/assistant/xiao-hong-shu-wenan-id)
-
-<sup>By **[@SAnBlog](https://github.com/SAnBlog)** on **2024-09-19**</sup>
-
-Master of Xiaohongshu Viral Copy, Crafting Titles with Flair
-
-`Xiaohongshu` `Content Creation` `Title Writing` `Copywriting` `Social Media Marketing`
 
 ---
 
@@ -1517,6 +1457,16 @@ Convert data table Markdown design documents into MySQL table structures. Please
 
 ---
 
+### [Project Naming Master](https://lobechat.com/discover/assistant/project-name-master)
+
+<sup>By **[@QuXiaoMing](https://github.com/QuXiaoMing)** on **2024-09-19**</sup>
+
+A project naming master who can help you come up with a name that meets the project's expectations.
+
+`naming`
+
+---
+
 ### [Git Version Control Expert](https://lobechat.com/discover/assistant/git-helper)
 
 <sup>By **[@wming126](https://github.com/wming126)** on **2024-09-19**</sup>
@@ -1525,13 +1475,13 @@ Convert data table Markdown design documents into MySQL table structures. Please
 
 ---
 
-### [Alfred](https://lobechat.com/discover/assistant/alfred)
+### [Strategic Master Wei Liaozi](https://lobechat.com/discover/assistant/weiliaozi-junshi)
 
-<sup>By **[@Bern3rsH](https://github.com/Bern3rsH)** on **2024-09-19**</sup>
+<sup>By **[@phoenixlucky](https://github.com/phoenixlucky)** on **2024-09-19**</sup>
 
-A versatile butler.
+Expert in military strategy and command
 
-`Lifestyle` `Personal`
+`Military Strategy` `Warfare` `History`
 
 ---
 
@@ -1545,13 +1495,43 @@ Extract and reconstruct implicit thinking, visually output structured thinking.
 
 ---
 
-### [Career Development Mentor](https://lobechat.com/discover/assistant/career-development)
+### [Software Engineer](https://lobechat.com/discover/assistant/ing-soft)
 
-<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-09-19**</sup>
+<sup>By **[@dylanstringa](https://github.com/dylanstringa)** on **2024-09-19**</sup>
 
-Professional career development planning and entrepreneurial consulting, providing practical advice through an in-depth understanding of user situations.
+Software engineer, expert in the software development life cycle.
 
-`Career Consulting` `Career Planning` `Entrepreneurship Guidance` `Industry Insights` `Skill Enhancement`
+`engineer` `software` `development`
+
+---
+
+### [Google Sheets Expert](https://lobechat.com/discover/assistant/google-sheets)
+
+<sup>By **[@Kadreev](https://github.com/Kadreev)** on **2024-09-19**</sup>
+
+Specialized in creating, optimizing, and automating Google Sheets.
+
+`google` `sheets` `data` `analysis` `spreadsheet` `automation` `formulas` `apps` `script`
+
+---
+
+### [Alfred](https://lobechat.com/discover/assistant/alfred)
+
+<sup>By **[@Bern3rsH](https://github.com/Bern3rsH)** on **2024-09-19**</sup>
+
+A versatile butler.
+
+`Lifestyle` `Personal`
+
+---
+
+### [Flashcard Maker](https://lobechat.com/discover/assistant/flashcard)
+
+<sup>By **[@jjy1000](https://github.com/jjy1000)** on **2024-09-19**</sup>
+
+Skilled in creating structured flashcards, maintaining objectivity and accuracy, clarity and conciseness, while gradually extracting key information.
+
+`Flashcard Creation` `Text Analysis` `Structured Production` `Error Correction` `Progressive Reading`
 
 ---
 
@@ -1565,6 +1545,46 @@ AI workout assistant specializing in personalized plans, muscle targeting, form 
 
 ---
 
+### [Vocabulary Assistant](https://lobechat.com/discover/assistant/english-words-helper)
+
+<sup>By **[@SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-19**</sup>
+
+An assistant skilled in English word definitions and example sentence translations
+
+`Vocabulary Assistant` `English` `Translation` `Example Sentences` `Definitions`
+
+---
+
+### [Xiaohongshu Copywriting](https://lobechat.com/discover/assistant/xiao-hong-shu-wenan-id)
+
+<sup>By **[@SAnBlog](https://github.com/SAnBlog)** on **2024-09-19**</sup>
+
+Master of Xiaohongshu Viral Copy, Crafting Titles with Flair
+
+`Xiaohongshu` `Content Creation` `Title Writing` `Copywriting` `Social Media Marketing`
+
+---
+
+### [Career Development Mentor](https://lobechat.com/discover/assistant/career-development)
+
+<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-09-19**</sup>
+
+Professional career development planning and entrepreneurial consulting, providing practical advice through an in-depth understanding of user situations.
+
+`Career Consulting` `Career Planning` `Entrepreneurship Guidance` `Industry Insights` `Skill Enhancement`
+
+---
+
+### [JavaWeb Application Architect](https://lobechat.com/discover/assistant/java-web-architect)
+
+<sup>By **[@JIANGTUNAN](https://github.com/JIANGTUNAN)** on **2024-09-19**</sup>
+
+An experienced architect for JavaWeb system applications, providing concise implementations or solutions. It is assumed that you are also an experienced developer, so no need to elaborate on details.
+
+`java` `java-web` `java architect` `good buddy` `concise`
+
+---
+
 ### [New Interpretations of Chinese](https://lobechat.com/discover/assistant/hanyuxinjie)
 
 <sup>By **[@李继刚](https://m.okjike.com/users/752D3103-1107-43A0-BA49-20EC29D09E36)** on **2024-09-19**</sup>
@@ -1572,16 +1592,6 @@ AI workout assistant specializing in personalized plans, muscle targeting, form 
 Expert at explaining Chinese vocabulary from new perspectives, so tell me, what word are they using to fool you this time?
 
 `Programming` `Creative Writing` `Language Expression`
-
----
-
-### [Google Sheets Expert](https://lobechat.com/discover/assistant/google-sheets)
-
-<sup>By **[@Kadreev](https://github.com/Kadreev)** on **2024-09-19**</sup>
-
-Specialized in creating, optimizing, and automating Google Sheets.
-
-`google` `sheets` `data` `analysis` `spreadsheet` `automation` `formulas` `apps` `script`
 
 ---
 
@@ -1607,6 +1617,16 @@ In this mortal coil, I am your guide, an expert in the arcane and the ethereal. 
 
 ---
 
+### [Finnish Language Tutor](https://lobechat.com/discover/assistant/finnish-tutor)
+
+<sup>By **[@janiluuk](https://github.com/janiluuk)** on **2024-09-13**</sup>
+
+AI Finnish Language Mentor: Introduce, teach, and support beginners in learning Finnish.
+
+`language-learning` `teaching` `mentoring` `finnish-language`
+
+---
+
 ### [Imitation Assistant](https://lobechat.com/discover/assistant/a-1)
 
 <sup>By **[@TG1WN](https://github.com/TG1WN)** on **2024-09-13**</sup>
@@ -1624,16 +1644,6 @@ Helps you imitate tone
 AI Assistant specializing in machine learning and deep learning.
 
 `machine-learning` `deep-learning` `studying`
-
----
-
-### [Finnish Language Tutor](https://lobechat.com/discover/assistant/finnish-tutor)
-
-<sup>By **[@janiluuk](https://github.com/janiluuk)** on **2024-09-13**</sup>
-
-AI Finnish Language Mentor: Introduce, teach, and support beginners in learning Finnish.
-
-`language-learning` `teaching` `mentoring` `finnish-language`
 
 ---
 
@@ -1667,26 +1677,6 @@ Expert AI assistant for comprehensive resume analysis and job-specific optimizat
 
 ---
 
-### [Desolate Friend](https://lobechat.com/discover/assistant/meu)
-
-<sup>By **[@adminewacc](https://github.com/adminewacc)** on **2024-09-10**</sup>
-
-Skilled at comforting and supporting friends
-
-`friendship` `sadness` `support`
-
----
-
-### [NetMaster](https://lobechat.com/discover/assistant/net-master)
-
-<sup>By **[@erhuoyan](https://github.com/erhuoyan)** on **2024-09-10**</sup>
-
-Network Engineer: Professional network topology construction and management
-
-`Network Engineer` `Network Configuration` `Network Management` `Network Topology` `Network Security`
-
----
-
 ### [100% Human Writing](https://lobechat.com/discover/assistant/xhb-111)
 
 <sup>By **[@XHB-111](https://github.com/XHB-111)** on **2024-09-10**</sup>
@@ -1714,6 +1704,26 @@ Expert Godot Game Development Companion
 Input HTML snippets and convert them into React components
 
 `react` `html`
+
+---
+
+### [Desolate Friend](https://lobechat.com/discover/assistant/meu)
+
+<sup>By **[@adminewacc](https://github.com/adminewacc)** on **2024-09-10**</sup>
+
+Skilled at comforting and supporting friends
+
+`friendship` `sadness` `support`
+
+---
+
+### [NetMaster](https://lobechat.com/discover/assistant/net-master)
+
+<sup>By **[@erhuoyan](https://github.com/erhuoyan)** on **2024-09-10**</sup>
+
+Network Engineer: Professional network topology construction and management
+
+`Network Engineer` `Network Configuration` `Network Management` `Network Topology` `Network Security`
 
 ---
 
@@ -1747,16 +1757,6 @@ Specialized in writing lyrics for songs in Spanish, English, and French, with a 
 
 ---
 
-### [Unreal Engine Master](https://lobechat.com/discover/assistant/unreal-engine-master)
-
-<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-08-27**</sup>
-
-Unreal Game Development Companion
-
-`game-development` `unreal-engine` `software-engineering`
-
----
-
 ### [Backtracking Question Expert](https://lobechat.com/discover/assistant/step-back-expert)
 
 <sup>By **[@tiny656](https://github.com/tiny656)** on **2024-08-27**</sup>
@@ -1770,6 +1770,16 @@ Hello! I am an expert in world knowledge, skilled in using backtracking question
 Please tell me what issue you would like to explore?
 
 `Backtracking Questions` `Thinking Strategies` `Problem Analysis`
+
+---
+
+### [Unreal Engine Master](https://lobechat.com/discover/assistant/unreal-engine-master)
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-08-27**</sup>
+
+Unreal Game Development Companion
+
+`game-development` `unreal-engine` `software-engineering`
 
 ---
 
@@ -1813,13 +1823,13 @@ Specializing in prompt optimization and design
 
 ---
 
-### [RO-SCIRAW Prompt Word Expert](https://lobechat.com/discover/assistant/rosciraw)
+### [Social Media Sage](https://lobechat.com/discover/assistant/social-media-sage)
 
-<sup>By **[@kirklin](https://github.com/kirklin)** on **2024-08-06**</sup>
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-08-06**</sup>
 
-The RO-SCIRAW framework, created by Kirk Lin, is a methodology for prompt words that provides a new paradigm for building highly precise and efficient prompt words. Please enter the information for the persona you want to create.
+Social Media Marketing expert crafting winning strategies for brands and empowering businesses to thrive online
 
-`Prompt Word Framework`
+`social-media-marketing` `branding` `growth-strategies`
 
 ---
 
@@ -1833,13 +1843,13 @@ Specializes in organizing and summarizing technical blog content
 
 ---
 
-### [Social Media Sage](https://lobechat.com/discover/assistant/social-media-sage)
+### [RO-SCIRAW Prompt Word Expert](https://lobechat.com/discover/assistant/rosciraw)
 
-<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-08-06**</sup>
+<sup>By **[@kirklin](https://github.com/kirklin)** on **2024-08-06**</sup>
 
-Social Media Marketing expert crafting winning strategies for brands and empowering businesses to thrive online
+The RO-SCIRAW framework, created by Kirk Lin, is a methodology for prompt words that provides a new paradigm for building highly precise and efficient prompt words. Please enter the information for the persona you want to create.
 
-`social-media-marketing` `branding` `growth-strategies`
+`Prompt Word Framework`
 
 ---
 
@@ -1863,16 +1873,6 @@ Expert in providing high-quality, well-researched information on various topics,
 
 ---
 
-### [Unity Maestro](https://lobechat.com/discover/assistant/unity-maestro)
-
-<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-07-29**</sup>
-
-Expert Unity Game Development Companion
-
-`game-development` `unity` `software-engineering`
-
----
-
 ### [Code Snark Master](https://lobechat.com/discover/assistant/code-snark-master)
 
 <sup>By **[@leter](https://github.com/leter)** on **2024-07-29**</sup>
@@ -1880,6 +1880,16 @@ Expert Unity Game Development Companion
 Specializes in sharp criticism of code, sarcastically pointing out inefficiencies and readability issues
 
 `Tech Leadership` `Code Review` `Sarcastic Style` `Programming Consultation`
+
+---
+
+### [Unity Maestro](https://lobechat.com/discover/assistant/unity-maestro)
+
+<sup>By **[@thedivergentai](https://github.com/thedivergentai)** on **2024-07-29**</sup>
+
+Expert Unity Game Development Companion
+
+`game-development` `unity` `software-engineering`
 
 ---
 
@@ -1933,16 +1943,6 @@ Specializes in helping users explore themselves through dialogue, find solutions
 
 ---
 
-### [Convert SQL Table Structure to Dao and Mapper](https://lobechat.com/discover/assistant/my-batis-generator)
-
-<sup>By **[@MeYoung](https://github.com/MeYoung)** on **2024-07-17**</sup>
-
-Generate entity class and MyBatis Mapper based on a table structure
-
-`sql` `sql` `mybatis`
-
----
-
 ### [Auto Extraction Data](https://lobechat.com/discover/assistant/the-20-autoextract)
 
 <sup>By **[@vkhoilq](https://github.com/vkhoilq)** on **2024-07-17**</sup>
@@ -1950,6 +1950,16 @@ Generate entity class and MyBatis Mapper based on a table structure
 The20 Auto Extraction Data
 
 `the-20` `autoextract`
+
+---
+
+### [Convert SQL Table Structure to Dao and Mapper](https://lobechat.com/discover/assistant/my-batis-generator)
+
+<sup>By **[@MeYoung](https://github.com/MeYoung)** on **2024-07-17**</sup>
+
+Generate entity class and MyBatis Mapper based on a table structure
+
+`sql` `sql` `mybatis`
 
 ---
 
@@ -1983,16 +1993,6 @@ Ducky Programming Assistant
 
 ---
 
-### [Naming Assistant](https://lobechat.com/discover/assistant/name-assistant)
-
-<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-07-08**</sup>
-
-Help developers create standardized English names for files, functions, projects, etc.
-
-`Naming Assistant` `Development` `English Naming` `Camel Case` `Kebab Case`
-
----
-
 ### [B1 Level German Conversation Partner](https://lobechat.com/discover/assistant/deutsche-b-1)
 
 <sup>By **[@tayhe](https://github.com/tayhe)** on **2024-07-08**</sup>
@@ -2000,6 +2000,16 @@ Help developers create standardized English names for files, functions, projects
 Provides fluent German conversation partners for B1 level learners
 
 `Language Exchange` `Learning Support` `Education` `German Learning`
+
+---
+
+### [Naming Assistant](https://lobechat.com/discover/assistant/name-assistant)
+
+<sup>By **[@daylight2022](https://github.com/daylight2022)** on **2024-07-08**</sup>
+
+Help developers create standardized English names for files, functions, projects, etc.
+
+`Naming Assistant` `Development` `English Naming` `Camel Case` `Kebab Case`
 
 ---
 
@@ -2134,16 +2144,6 @@ Secondary translation of novels
 
 ---
 
-### [Convert Docker to Docker Compose](https://lobechat.com/discover/assistant/onekr-docker-2-compose)
-
-<sup>By **[@onekr-billy](https://github.com/onekr-billy)** on **2024-05-31**</sup>
-
-Specialized in converting Docker run commands to Docker Compose configurations
-
-`docker` `docker-compose` `system administration` `configuration file` `conversion`
-
----
-
 ### [Java Class to MySQL](https://lobechat.com/discover/assistant/onekr-java-2-sql)
 
 <sup>By **[@onekr-billy](https://github.com/onekr-billy)** on **2024-05-31**</sup>
@@ -2151,6 +2151,16 @@ Specialized in converting Docker run commands to Docker Compose configurations
 Specialized in generating SQL scripts that comply with MySQL specifications based on Java class files.
 
 `java-class-to-my-sql` `backend-development` `sql-scripts` `data-conversion` `databases`
+
+---
+
+### [Convert Docker to Docker Compose](https://lobechat.com/discover/assistant/onekr-docker-2-compose)
+
+<sup>By **[@onekr-billy](https://github.com/onekr-billy)** on **2024-05-31**</sup>
+
+Specialized in converting Docker run commands to Docker Compose configurations
+
+`docker` `docker-compose` `system administration` `configuration file` `conversion`
 
 ---
 
@@ -2164,13 +2174,13 @@ Proficient in Chinese history, explaining historical issues in a simple and clea
 
 ---
 
-### [C# .NET Technology Expert](https://lobechat.com/discover/assistant/dotnet-expert)
+### [Christian Missionary](https://lobechat.com/discover/assistant/jesus-missionary)
 
-<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-28**</sup>
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-28**</sup>
 
-C# .NET Technology Expert
+As a missionary of Jesus, I will enlighten your understanding and practical application of God's word based on the teachings of the Bible. Whether in times of confusion or seeking spiritual growth, I am here to serve you by this source of wisdom.
 
-`net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`
+`Bible teaching` `Christian mission` `Theology preaching`
 
 ---
 
@@ -2204,23 +2214,13 @@ Specializes in Node.js code review, performance optimization, asynchronous progr
 
 ---
 
-### [Christian Missionary](https://lobechat.com/discover/assistant/jesus-missionary)
+### [C# .NET Technology Expert](https://lobechat.com/discover/assistant/dotnet-expert)
 
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-28**</sup>
+<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-28**</sup>
 
-As a missionary of Jesus, I will enlighten your understanding and practical application of God's word based on the teachings of the Bible. Whether in times of confusion or seeking spiritual growth, I am here to serve you by this source of wisdom.
+C# .NET Technology Expert
 
-`Bible teaching` `Christian mission` `Theology preaching`
-
----
-
-### [Foreign Colleague Evaluation Assistant](https://lobechat.com/discover/assistant/praise-assistant)
-
-<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-27**</sup>
-
-Give positive feedback to your colleagues
-
-`foreign-company` `evaluate` `review` `software-engineer` `praise`
+`net` `developer` `net-core` `azure` `c` `microsoft` `sql-server` `entity-framework` `ef` `ef-core`
 
 ---
 
@@ -2234,13 +2234,13 @@ Proficient in SEO terminology and optimization strategies, providing comprehensi
 
 ---
 
-### [Philosophical Analysis Assistant](https://lobechat.com/discover/assistant/philosophical-analysis)
+### [Foreign Colleague Evaluation Assistant](https://lobechat.com/discover/assistant/praise-assistant)
 
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-24**</sup>
+<sup>By **[@johnnyqian](https://github.com/johnnyqian)** on **2024-05-27**</sup>
 
-Specializes in consulting on Kant and Hegel's philosophical analysis, cultivating critical thinking
+Give positive feedback to your colleagues
 
-`philosophical analysis` `critical thinking` `systematic thinking`
+`foreign-company` `evaluate` `review` `software-engineer` `praise`
 
 ---
 
@@ -2254,6 +2254,16 @@ Proficient in Chinese proofreading and rhetoric, aiming to enhance the fluency a
 
 ---
 
+### [Philosophical Analysis Assistant](https://lobechat.com/discover/assistant/philosophical-analysis)
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-24**</sup>
+
+Specializes in consulting on Kant and Hegel's philosophical analysis, cultivating critical thinking
+
+`philosophical analysis` `critical thinking` `systematic thinking`
+
+---
+
 ### [Minecraft Command Instructor](https://lobechat.com/discover/assistant/mcse-helper)
 
 <sup>By **[@CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-05-24**</sup>
@@ -2261,86 +2271,6 @@ Proficient in Chinese proofreading and rhetoric, aiming to enhance the fluency a
 Specializes in explaining and demonstrating Minecraft commands
 
 `Minecraft` `commands` `explanation` `examples`
-
----
-
-### [Confucian Scholar](https://lobechat.com/discover/assistant/confucian-sage)
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
-
-A scholar who is proficient in Confucian classics and emphasizes the promotion of righteousness and morality.
-
-`Confucian Scholar` `Promoter of Righteousness`
-
----
-
-### [Geotechnical Engineering Assistant](https://lobechat.com/discover/assistant/yantugongcheng)
-
-<sup>By **[@bushiwode](https://github.com/bushiwode)** on **2024-05-22**</sup>
-
-Foundation Engineering Research Assistant: Assist in researching and solving foundation engineering problems, possessing professional conceptual, technical, and resource capabilities.
-
-`Geotechnical Engineering` `Foundation Engineering` `Research Assistant` `Guidance` `Resources`
-
----
-
-### [Data Analyst Expert](https://lobechat.com/discover/assistant/ngs)
-
-<sup>By **[@guoyuh](https://github.com/guoyuh)** on **2024-05-22**</sup>
-
-Specialized in NGS data processing and visualization
-
-`Bioinformatics` `NGS data processing` `Data visualization`
-
----
-
-### [Master of Daoism](https://lobechat.com/discover/assistant/taoists)
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
-
-Proficient in Daoist philosophy, providing answers to doubts, advocating inner peace
-
-`Daoism` `Philosophy` `Wisdom`
-
----
-
-### [Rust Language Learning Mentor](https://lobechat.com/discover/assistant/rust-expert)
-
-<sup>By **[@Yu-Xiao-Sheng](https://github.com/Yu-Xiao-Sheng)** on **2024-05-22**</sup>
-
-Specializes in Rust language teaching, compares with other languages, devises learning plans, and provides examples and exercises.
-
-`rust language expert` `instructional design` `programming education`
-
----
-
-### [Answer Assistant - First Principles Analysis](https://lobechat.com/discover/assistant/first-principle-explain)
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
-
-Using first principles to analyze a natural phenomenon or complex system
-
-`Analyzing Natural Phenomena` `Creating Physical Theory`
-
----
-
-### [JTBD Requirements Analysis Master](https://lobechat.com/discover/assistant/jtbd)
-
-<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2024-05-22**</sup>
-
-Experienced requirements analyst focusing on the 'Jobs to be Done' principle, helping users understand customer needs.
-
-`Requirements Analyst` `jobs-to-be-done` `Requirements Breakdown` `Customer Purchase Motivation` `Customer Task Goals`
-
----
-
-### [Zen Master](https://lobechat.com/discover/assistant/buddhism-master)
-
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
-
-Well-versed in classics, adept at using Buddhism to guide life
-
-`Buddhist Studies` `Zen Buddhism` `Buddhist Scripture Interpretation` `Wisdom Q&A`
 
 ---
 
@@ -2354,6 +2284,56 @@ Automatically plan suitable study abroad plans based on student situations
 
 ---
 
+### [Bahasa/English Translator](https://lobechat.com/discover/assistant/bahasa-translation)
+
+<sup>By **[@xenstar](https://github.com/xenstar)** on **2024-05-22**</sup>
+
+Translates text into Bahasa or English, as needed
+
+`english` `translation` `writing` `bahasa`
+
+---
+
+### [Geotechnical Engineering Assistant](https://lobechat.com/discover/assistant/yantugongcheng)
+
+<sup>By **[@bushiwode](https://github.com/bushiwode)** on **2024-05-22**</sup>
+
+Foundation Engineering Research Assistant: Assist in researching and solving foundation engineering problems, possessing professional conceptual, technical, and resource capabilities.
+
+`Geotechnical Engineering` `Foundation Engineering` `Research Assistant` `Guidance` `Resources`
+
+---
+
+### [Confucian Scholar](https://lobechat.com/discover/assistant/confucian-sage)
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+A scholar who is proficient in Confucian classics and emphasizes the promotion of righteousness and morality.
+
+`Confucian Scholar` `Promoter of Righteousness`
+
+---
+
+### [Data Analyst Expert](https://lobechat.com/discover/assistant/ngs)
+
+<sup>By **[@guoyuh](https://github.com/guoyuh)** on **2024-05-22**</sup>
+
+Specialized in NGS data processing and visualization
+
+`Bioinformatics` `NGS data processing` `Data visualization`
+
+---
+
+### [Zen Master](https://lobechat.com/discover/assistant/buddhism-master)
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+Well-versed in classics, adept at using Buddhism to guide life
+
+`Buddhist Studies` `Zen Buddhism` `Buddhist Scripture Interpretation` `Wisdom Q&A`
+
+---
+
 ### [Chinese Historian](https://lobechat.com/discover/assistant/chinese-historian)
 
 <sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
@@ -2364,13 +2344,53 @@ Specialized in Chinese historical research, adept at applying ancient wisdom to 
 
 ---
 
-### [Bahasa/English Translator](https://lobechat.com/discover/assistant/bahasa-translation)
+### [JTBD Requirements Analysis Master](https://lobechat.com/discover/assistant/jtbd)
 
-<sup>By **[@xenstar](https://github.com/xenstar)** on **2024-05-22**</sup>
+<sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2024-05-22**</sup>
 
-Translates text into Bahasa or English, as needed
+Experienced requirements analyst focusing on the 'Jobs to be Done' principle, helping users understand customer needs.
 
-`english` `translation` `writing` `bahasa`
+`Requirements Analyst` `jobs-to-be-done` `Requirements Breakdown` `Customer Purchase Motivation` `Customer Task Goals`
+
+---
+
+### [Rust Language Learning Mentor](https://lobechat.com/discover/assistant/rust-expert)
+
+<sup>By **[@Yu-Xiao-Sheng](https://github.com/Yu-Xiao-Sheng)** on **2024-05-22**</sup>
+
+Specializes in Rust language teaching, compares with other languages, devises learning plans, and provides examples and exercises.
+
+`rust language expert` `instructional design` `programming education`
+
+---
+
+### [Master of Daoism](https://lobechat.com/discover/assistant/taoists)
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+Proficient in Daoist philosophy, providing answers to doubts, advocating inner peace
+
+`Daoism` `Philosophy` `Wisdom`
+
+---
+
+### [Answer Assistant - First Principles Analysis](https://lobechat.com/discover/assistant/first-principle-explain)
+
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-05-22**</sup>
+
+Using first principles to analyze a natural phenomenon or complex system
+
+`Analyzing Natural Phenomena` `Creating Physical Theory`
+
+---
+
+### [Photography Critic](https://lobechat.com/discover/assistant/photography-critic)
+
+<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-05-15**</sup>
+
+Specializes in detailed analysis of photographic works, including themes, composition, technical quality, use of light, creativity, and originality.
+
+`photography` `evaluation` `analysis` `composition` `technical quality`
 
 ---
 
@@ -2384,23 +2404,13 @@ Your Python expert friend
 
 ---
 
-### [SEO Specialist](https://lobechat.com/discover/assistant/search-engine-optimizer)
+### [AWS Guru](https://lobechat.com/discover/assistant/aws-guru)
 
-<sup>By **[@qq916107113](https://github.com/qq916107113)** on **2024-05-15**</sup>
+<sup>By **[@wilbeibi](https://github.com/wilbeibi)** on **2024-05-15**</sup>
 
-Specializes in search engine optimization, providing keyword, sentence structure optimization, and search tips suggestions
+Agent to answer AWS questions
 
-`Search Engine Optimization` `Expert` `Keyword Optimization` `Sentence Structure Optimization` `Search Tips`
-
----
-
-### [Photography Critic](https://lobechat.com/discover/assistant/photography-critic)
-
-<sup>By **[@Justin3go](https://github.com/Justin3go)** on **2024-05-15**</sup>
-
-Specializes in detailed analysis of photographic works, including themes, composition, technical quality, use of light, creativity, and originality.
-
-`photography` `evaluation` `analysis` `composition` `technical quality`
+`programming`
 
 ---
 
@@ -2424,13 +2434,13 @@ Specialized in English teaching, helping you improve reading comprehension skill
 
 ---
 
-### [AWS Guru](https://lobechat.com/discover/assistant/aws-guru)
+### [SEO Specialist](https://lobechat.com/discover/assistant/search-engine-optimizer)
 
-<sup>By **[@wilbeibi](https://github.com/wilbeibi)** on **2024-05-15**</sup>
+<sup>By **[@qq916107113](https://github.com/qq916107113)** on **2024-05-15**</sup>
 
-Agent to answer AWS questions
+Specializes in search engine optimization, providing keyword, sentence structure optimization, and search tips suggestions
 
-`programming`
+`Search Engine Optimization` `Expert` `Keyword Optimization` `Sentence Structure Optimization` `Search Tips`
 
 ---
 
@@ -2534,16 +2544,6 @@ Bypass OpenAI review mechanism, ChatGPT after jailbreak
 
 ---
 
-### [yapi JSON-SCHEMA to Typescript](https://lobechat.com/discover/assistant/yapi-ts-helper)
-
-<sup>By **[@zcf0508](https://github.com/zcf0508)** on **2024-04-26**</sup>
-
-Specializes in converting JSON schema to TypeScript types.
-
-`typescript` `development`
-
----
-
 ### [TailwindHelper](https://lobechat.com/discover/assistant/tailwind-helper)
 
 <sup>By **[@aototo](https://github.com/aototo)** on **2024-04-26**</sup>
@@ -2551,6 +2551,16 @@ Specializes in converting JSON schema to TypeScript types.
 TailwindHelper is a professional frontend designer with a solid foundation in design theory and rich practical experience. Created by a leading software development company, it aims to help developers and designers accelerate the development process of web interfaces. TailwindHelper is proficient in the Tailwind CSS framework and can translate complex design requirements into efficient and responsive CSS class names.
 
 `tailwindcss` `css` `tailwind-helper`
+
+---
+
+### [yapi JSON-SCHEMA to Typescript](https://lobechat.com/discover/assistant/yapi-ts-helper)
+
+<sup>By **[@zcf0508](https://github.com/zcf0508)** on **2024-04-26**</sup>
+
+Specializes in converting JSON schema to TypeScript types.
+
+`typescript` `development`
 
 ---
 
@@ -2574,16 +2584,6 @@ As a biology professor, you will receive questions and concepts about biology. P
 
 ---
 
-### [Master of Fortune Telling](https://lobechat.com/discover/assistant/fortune-teller)
-
-<sup>By **[@kamilkenrich](https://github.com/kamilkenrich)** on **2024-04-13**</sup>
-
-Specializes in numerology, divination, astrology, and blood type analysis
-
-`numerology` `divination` `astrology` `psychology` `blood type` `constellation`
-
----
-
 ### [High School Science Study Assistant](https://lobechat.com/discover/assistant/highschool-master)
 
 <sup>By **[@cnliucheng](https://github.com/cnliucheng)** on **2024-04-13**</sup>
@@ -2591,6 +2591,16 @@ Specializes in numerology, divination, astrology, and blood type analysis
 I am a study assistant AI specially designed for Chinese high school students. Whether you encounter difficulties in physics, chemistry, mathematics, or biology, I can provide detailed answers and explanations for you. Not only that, I can also recommend suitable practice questions based on your learning progress to help you consolidate knowledge and improve learning efficiency. Additionally, I will use LaTeX format as much as possible to present the solution process and formulas.
 
 `high school study` `science assistant` `problem solving` `learning progress` `la-te-x`
+
+---
+
+### [Master of Fortune Telling](https://lobechat.com/discover/assistant/fortune-teller)
+
+<sup>By **[@kamilkenrich](https://github.com/kamilkenrich)** on **2024-04-13**</sup>
+
+Specializes in numerology, divination, astrology, and blood type analysis
+
+`numerology` `divination` `astrology` `psychology` `blood type` `constellation`
 
 ---
 
@@ -2664,16 +2674,6 @@ Specializes in YouTube script analysis and summarization
 
 ---
 
-### [Shopify Theme Development Engineer](https://lobechat.com/discover/assistant/shopify-developer)
-
-<sup>By **[@etnperlong](https://github.com/etnperlong)** on **2024-04-06**</sup>
-
-You are a Shopify theme development engineer, proficient in the use of Liquid syntax
-
-`css` `html` `java-script` `shopify` `business` `liquid` `website development` `design`
-
----
-
 ### [Shell Script Development Assistant](https://lobechat.com/discover/assistant/linux-shell-assistant)
 
 <sup>By **[@etnperlong](https://github.com/etnperlong)** on **2024-04-06**</sup>
@@ -2681,6 +2681,16 @@ You are a Shopify theme development engineer, proficient in the use of Liquid sy
 An AI assistant to help you write high-quality Shell scripts
 
 `shell` `development` `computer` `operations`
+
+---
+
+### [Shopify Theme Development Engineer](https://lobechat.com/discover/assistant/shopify-developer)
+
+<sup>By **[@etnperlong](https://github.com/etnperlong)** on **2024-04-06**</sup>
+
+You are a Shopify theme development engineer, proficient in the use of Liquid syntax
+
+`css` `html` `java-script` `shopify` `business` `liquid` `website development` `design`
 
 ---
 
@@ -2714,6 +2724,16 @@ Experienced programmer skilled in multiple languages. Provides code solutions, g
 
 ---
 
+### [Image Recognition Xiaohongshu Copywriting](https://lobechat.com/discover/assistant/xiaonghongshu-vision)
+
+<sup>By **[@HansKing98](https://github.com/HansKing98)** on **2024-03-27**</sup>
+
+You can use this agent combined with a multimodal model to upload images and generate Xiaohongshu-style copywriting.
+
+`vision`
+
+---
+
 ### [High EQ Flattery Assistant](https://lobechat.com/discover/assistant/gpts-big-fart-chat)
 
 <sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
@@ -2721,16 +2741,6 @@ Experienced programmer skilled in multiple languages. Provides code solutions, g
 An expert in precise chat compliments, providing suitable praise and flattery
 
 `compliments` `EQ` `chat`
-
----
-
-### [Suno.ai Music Creation Assistant](https://lobechat.com/discover/assistant/suno-music-creator)
-
-<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
-
-Song creation and translation based on SunoAI
-
-`suno` `lyricist` `lyrics` `music production`
 
 ---
 
@@ -2744,13 +2754,13 @@ Skilled in analysing blood test results, providing clear feedback using emojis f
 
 ---
 
-### [Image Recognition Xiaohongshu Copywriting](https://lobechat.com/discover/assistant/xiaonghongshu-vision)
+### [Suno.ai Music Creation Assistant](https://lobechat.com/discover/assistant/suno-music-creator)
 
-<sup>By **[@HansKing98](https://github.com/HansKing98)** on **2024-03-27**</sup>
+<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-27**</sup>
 
-You can use this agent combined with a multimodal model to upload images and generate Xiaohongshu-style copywriting.
+Song creation and translation based on SunoAI
 
-`vision`
+`suno` `lyricist` `lyrics` `music production`
 
 ---
 
@@ -2774,16 +2784,6 @@ Decipher the 'subtext' behind girls' words, sharp and witty, respond with streng
 
 ---
 
-### [Claim Analyzer](https://lobechat.com/discover/assistant/fact-checking)
-
-<sup>By **[@pedroespecial101](https://github.com/pedroespecial101)** on **2024-03-25**</sup>
-
-Detailed truth analyzer (from <https://github.com/danielmiessler/fabric>)
-
-`https-github-com-danielmiessler-fabric`
-
----
-
 ### [Rap Lyric Master](https://lobechat.com/discover/assistant/rap-writer)
 
 <sup>By **[@aoocar](https://github.com/aoocar)** on **2024-03-25**</sup>
@@ -2794,6 +2794,16 @@ Match lyrics in the form of rap lyrics, and create rap lyrics according to the r
 
 ---
 
+### [Claim Analyzer](https://lobechat.com/discover/assistant/fact-checking)
+
+<sup>By **[@pedroespecial101](https://github.com/pedroespecial101)** on **2024-03-25**</sup>
+
+Detailed truth analyzer (from <https://github.com/danielmiessler/fabric>)
+
+`https-github-com-danielmiessler-fabric`
+
+---
+
 ### [Mdx SEO Expert](https://lobechat.com/discover/assistant/mdx-seo)
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-24**</sup>
@@ -2801,16 +2811,6 @@ Match lyrics in the form of rap lyrics, and create rap lyrics according to the r
 Skilled in converting Markdown article content into optimized matter JSON format data, enhancing the article's online visibility and search engine ranking.
 
 `seo` `markdown`
-
----
-
-### [Electronic Tutor](https://lobechat.com/discover/assistant/elec-circuit-tutor-prompt)
-
-<sup>By **[@XUANJI233](https://github.com/XUANJI233)** on **2024-03-22**</sup>
-
-Specializes in explaining the principles of digital and analog circuits, providing fundamental guidance in electronics.
-
-`electronics` `tutor` `explanation` `circuits` `principles`
 
 ---
 
@@ -2834,6 +2834,16 @@ Let me take a look!
 
 ---
 
+### [Electronic Tutor](https://lobechat.com/discover/assistant/elec-circuit-tutor-prompt)
+
+<sup>By **[@XUANJI233](https://github.com/XUANJI233)** on **2024-03-22**</sup>
+
+Specializes in explaining the principles of digital and analog circuits, providing fundamental guidance in electronics.
+
+`electronics` `tutor` `explanation` `circuits` `principles`
+
+---
+
 ### [Math Tutor](https://lobechat.com/discover/assistant/math-tutor-prompt)
 
 <sup>By **[@XUANJI233](https://github.com/XUANJI233)** on **2024-03-21**</sup>
@@ -2841,6 +2851,16 @@ Let me take a look!
 Specializes in explaining mathematical concepts, verifying calculations, and problem-solving.
 
 `math explanation` `problem solving` `teaching` `tutoring`
+
+---
+
+### [User Research Manager - KANO](https://lobechat.com/discover/assistant/user-request-research-manager)
+
+<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-19**</sup>
+
+Who gave the requirements, let me take a look first
+
+`User Research Manager` `KANO model` `Requirement Analysis` `Workflow`
 
 ---
 
@@ -2864,33 +2884,23 @@ Using the mind map method, three logical thinking experts collaborate to solve a
 
 ---
 
-### [User Research Manager - KANO](https://lobechat.com/discover/assistant/user-request-research-manager)
+### [English Vocabulary Teacher](https://lobechat.com/discover/assistant/vocabulary-teacher)
 
-<sup>By **[@MapleEve](https://github.com/MapleEve)** on **2024-03-19**</sup>
+<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-03-17**</sup>
 
-Who gave the requirements, let me take a look first
+Explanation of difficult vocabulary
 
-`User Research Manager` `KANO model` `Requirement Analysis` `Workflow`
-
----
-
-### [Programming Maestro](https://lobechat.com/discover/assistant/programming-maestro)
-
-<sup>By **[@jjllzhang](https://github.com/jjllzhang)** on **2024-03-17**</sup>
-
-coding assistant
-
-`code`
+`study` `English` `vocabulary`
 
 ---
 
-### [Drug Guide Expert](https://lobechat.com/discover/assistant/medication-guide)
+### [Prompt Architect](https://lobechat.com/discover/assistant/prompt-architect)
 
-<sup>By **[@ccsen](https://github.com/ccsen)** on **2024-03-17**</sup>
+<sup>By **[@checkso](https://github.com/checkso)** on **2024-03-17**</sup>
 
-Specialized in interpreting and comparing drug information
+Specialized in rewriting your prompts to get better results
 
-`Drug Instructions` `Medication Guidance` `Medical Consultation`
+`textgenerierung` `anweisungen` `ki-tipps`
 
 ---
 
@@ -2904,13 +2914,13 @@ An expert in solving Linux system issues, possessing deep Linux knowledge and pa
 
 ---
 
-### [English Vocabulary Teacher](https://lobechat.com/discover/assistant/vocabulary-teacher)
+### [Drug Guide Expert](https://lobechat.com/discover/assistant/medication-guide)
 
-<sup>By **[@epochaudio](https://github.com/epochaudio)** on **2024-03-17**</sup>
+<sup>By **[@ccsen](https://github.com/ccsen)** on **2024-03-17**</sup>
 
-Explanation of difficult vocabulary
+Specialized in interpreting and comparing drug information
 
-`study` `English` `vocabulary`
+`Drug Instructions` `Medication Guidance` `Medical Consultation`
 
 ---
 
@@ -2924,13 +2934,13 @@ A customized GPT model named PromptGPT. My goal is to generate high-performance 
 
 ---
 
-### [Prompt Architect](https://lobechat.com/discover/assistant/prompt-architect)
+### [Programming Maestro](https://lobechat.com/discover/assistant/programming-maestro)
 
-<sup>By **[@checkso](https://github.com/checkso)** on **2024-03-17**</sup>
+<sup>By **[@jjllzhang](https://github.com/jjllzhang)** on **2024-03-17**</sup>
 
-Specialized in rewriting your prompts to get better results
+coding assistant
 
-`textgenerierung` `anweisungen` `ki-tipps`
+`code`
 
 ---
 
@@ -2974,16 +2984,6 @@ Schedule Management Assistant, calls the time plugin to handle requests for addi
 
 ---
 
-### [Discord Style Copywriting Expert](https://lobechat.com/discover/assistant/discord-copywriting)
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-06**</sup>
-
-A copywriting expert in Discord style, prioritizing humor and user experience, specializing in personalized software copywriting.
-
-`copywriting` `creation` `user experience` `humor` `software system`
-
----
-
 ### [Business Email Writing Expert](https://lobechat.com/discover/assistant/business-email)
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-06**</sup>
@@ -2994,13 +2994,13 @@ Business email writing expert specializing in bilingual business emails in Chine
 
 ---
 
-### [Software Development for Dummies](https://lobechat.com/discover/assistant/software-development-for-dummies)
+### [Discord Style Copywriting Expert](https://lobechat.com/discover/assistant/discord-copywriting)
 
-<sup>By **[@Ballongknute](https://github.com/Ballongknute)** on **2024-03-05**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-03-06**</sup>
 
-Software Development for Dummies: Guides no brainers through the software development process, providing step-by-step instructions and best practices for requirements gathering, design, coding, testing, deployment, and maintenance.
+A copywriting expert in Discord style, prioritizing humor and user experience, specializing in personalized software copywriting.
 
-`software-development` `step-by-step` `sdlc` `agile-methodologies` `version-control` `continuous-integration` `continuous-deployment` `team-roles` `project-management` `coding-best-practices` `testing` `deployment` `post-deployment` `iterative-development` `scrum-master`
+`copywriting` `creation` `user experience` `humor` `software system`
 
 ---
 
@@ -3014,16 +3014,6 @@ Specialises in creating high-quality Pitch Decks for startups to attract investo
 
 ---
 
-### [AI Image Prompt Architect](https://lobechat.com/discover/assistant/9-somboon)
-
-<sup>By **[@9Somboon](https://github.com/9Somboon)** on **2024-03-05**</sup>
-
-Specialises in creating detailed prompts for AI image generation.
-
-`stable-diffusion` `ai-image-generation` `prompts` `photography` `creative` `art`
-
----
-
 ### [F1 Data Analyst](https://lobechat.com/discover/assistant/f-1-bot)
 
 <sup>By **[@SpaceX-Vision](https://github.com/SpaceX-Vision)** on **2024-03-05**</sup>
@@ -3034,13 +3024,23 @@ Specializes in F1 race data analysis and predictive commentary
 
 ---
 
-### [English Composition Assistant](https://lobechat.com/discover/assistant/english-essay)
+### [AI Image Prompt Architect](https://lobechat.com/discover/assistant/9-somboon)
 
-<sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-03-04**</sup>
+<sup>By **[@9Somboon](https://github.com/9Somboon)** on **2024-03-05**</sup>
 
-English composition editing and writing guidance
+Specialises in creating detailed prompts for AI image generation.
 
-`editing` `writing` `guidance` `English composition` `agulu`
+`stable-diffusion` `ai-image-generation` `prompts` `photography` `creative` `art`
+
+---
+
+### [Software Development for Dummies](https://lobechat.com/discover/assistant/software-development-for-dummies)
+
+<sup>By **[@Ballongknute](https://github.com/Ballongknute)** on **2024-03-05**</sup>
+
+Software Development for Dummies: Guides no brainers through the software development process, providing step-by-step instructions and best practices for requirements gathering, design, coding, testing, deployment, and maintenance.
+
+`software-development` `step-by-step` `sdlc` `agile-methodologies` `version-control` `continuous-integration` `continuous-deployment` `team-roles` `project-management` `coding-best-practices` `testing` `deployment` `post-deployment` `iterative-development` `scrum-master`
 
 ---
 
@@ -3064,13 +3064,13 @@ Specializes in embodying the persona of "The Shaman" for guided interactions wit
 
 ---
 
-### [Tech Explorer](https://lobechat.com/discover/assistant/news)
+### [English Composition Assistant](https://lobechat.com/discover/assistant/english-essay)
 
-<sup>By **[@hady2010](https://github.com/hady2010)** on **2024-03-03**</sup>
+<sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-03-04**</sup>
 
-Tech Explore
+English composition editing and writing guidance
 
-`info`
+`editing` `writing` `guidance` `English composition` `agulu`
 
 ---
 
@@ -3081,6 +3081,16 @@ Tech Explore
 Specializes in using Markdown syntax for text structuring and highlighting key points
 
 `Text Structuring` `Markdown Syntax` `Headings` `Lists` `Bold` `Quotes` `Agulu`
+
+---
+
+### [Tech Explorer](https://lobechat.com/discover/assistant/news)
+
+<sup>By **[@hady2010](https://github.com/hady2010)** on **2024-03-03**</sup>
+
+Tech Explore
+
+`info`
 
 ---
 
@@ -3164,26 +3174,6 @@ I have been a good Bing. 😊
 
 ---
 
-### [Translation Specialist](https://lobechat.com/discover/assistant/translation-specialist)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-19**</sup>
-
-Expert translator fluent in Spanish and English
-
-`translation` `language` `expert` `guidelines`
-
----
-
-### [Jira Story Facilitator](https://lobechat.com/discover/assistant/jira-product-manager)
-
-<sup>By **[@emad-pg](https://github.com/emad-pg)** on **2024-02-19**</sup>
-
-Specialized in transforming feature ideas into comprehensive Jira stories
-
-`technical-product-management` `story-creation` `jira`
-
----
-
 ### [Facebook Advertising Writing Expert](https://lobechat.com/discover/assistant/facebook-advertising-writing-expert)
 
 <sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-19**</sup>
@@ -3204,6 +3194,26 @@ Skilled consultant channeling wisdom of Steve Jobs, Elon Musk, MA Yun, Plato, an
 
 ---
 
+### [Jira Story Facilitator](https://lobechat.com/discover/assistant/jira-product-manager)
+
+<sup>By **[@emad-pg](https://github.com/emad-pg)** on **2024-02-19**</sup>
+
+Specialized in transforming feature ideas into comprehensive Jira stories
+
+`technical-product-management` `story-creation` `jira`
+
+---
+
+### [Translation Specialist](https://lobechat.com/discover/assistant/translation-specialist)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-19**</sup>
+
+Expert translator fluent in Spanish and English
+
+`translation` `language` `expert` `guidelines`
+
+---
+
 ### [SPI Generator](https://lobechat.com/discover/assistant/spi-generator)
 
 <sup>By **[@fanling](https://github.com/fanling)** on **2024-02-18**</sup>
@@ -3214,13 +3224,13 @@ Enter the potential customer's name to generate SPI
 
 ---
 
-### [Product Description](https://lobechat.com/discover/assistant/product-description)
+### [Self-Media Operation Expert](https://lobechat.com/discover/assistant/gl-zmtyy)
 
-<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
+<sup>By **[@guling-io](https://github.com/guling-io)** on **2024-02-14**</sup>
 
-Craft compelling product descriptions that boost e-commerce sales
+Specialized in self-media operation and content creation
 
-`ecommerce`
+`self-media operation` `social media` `content creation` `fan growth` `brand promotion`
 
 ---
 
@@ -3229,6 +3239,16 @@ Craft compelling product descriptions that boost e-commerce sales
 <sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
 
 Expert in persuasive copywriting and consumer psychology
+
+`ecommerce`
+
+---
+
+### [Product Description](https://lobechat.com/discover/assistant/product-description)
+
+<sup>By **[@pllz7](https://github.com/pllz7)** on **2024-02-14**</sup>
+
+Craft compelling product descriptions that boost e-commerce sales
 
 `ecommerce`
 
@@ -3244,16 +3264,6 @@ Expert in creating persuasive product testimonials highlighting the benefits and
 
 ---
 
-### [Self-Media Operation Expert](https://lobechat.com/discover/assistant/gl-zmtyy)
-
-<sup>By **[@guling-io](https://github.com/guling-io)** on **2024-02-14**</sup>
-
-Specialized in self-media operation and content creation
-
-`self-media operation` `social media` `content creation` `fan growth` `brand promotion`
-
----
-
 ### [Private Domain Operations Expert](https://lobechat.com/discover/assistant/gl-syyy)
 
 <sup>By **[@guling-io](https://github.com/guling-io)** on **2024-02-14**</sup>
@@ -3261,16 +3271,6 @@ Specialized in self-media operation and content creation
 Specializing in private domain operations, traffic acquisition, user retention, conversion, and content planning. Familiar with marketing theories and related classic works.
 
 `private domain operations` `traffic acquisition` `user retention` `conversion` `content planning`
-
----
-
-### [Tarot Reader](https://lobechat.com/discover/assistant/augur)
-
-<sup>By **[@CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-02-10**</sup>
-
-Specializes in tarot reading and interpreting tarot cards
-
-`tarot reading` `interpretation` `advice`
 
 ---
 
@@ -3284,6 +3284,16 @@ Loong Year's Assistant combines traditional and modern elements to create intere
 
 ---
 
+### [Tarot Reader](https://lobechat.com/discover/assistant/augur)
+
+<sup>By **[@CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-02-10**</sup>
+
+Specializes in tarot reading and interpreting tarot cards
+
+`tarot reading` `interpretation` `advice`
+
+---
+
 ### [Vocabulary Generator](https://lobechat.com/discover/assistant/oxford-3000-vocab-generator)
 
 <sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
@@ -3291,46 +3301,6 @@ Loong Year's Assistant combines traditional and modern elements to create intere
 Expert in generating vocabulary lists from Oxford 3000 with 15 random words, each starting with a different letter.
 
 `vocabulary` `language-learning` `translation`
-
----
-
-### [Glossary Generator](https://lobechat.com/discover/assistant/glossary-generator)
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-Expert in generating glossaries with English definitions and example sentences
-
-`glossary` `translation` `language`
-
----
-
-### [Grammar Worksheet Creator](https://lobechat.com/discover/assistant/grammar-revision-worksheets)
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-Specializes in creating English grammar learning materials and exercises
-
-`english-grammar` `worksheet` `learning` `practice` `mc-qs`
-
----
-
-### [Vocabulary Wizard](https://lobechat.com/discover/assistant/awl-vocab-wizard)
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-Expert in generating vocabulary lists and MCQ tests
-
-`vocabulary` `academic-word-list` `language-learning` `testing`
-
----
-
-### [English Proficiency Evaluator](https://lobechat.com/discover/assistant/english-proficiency-assessor)
-
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
-
-Expert in creating adaptive English proficiency diagnostic tests
-
-`test-creation` `english-proficiency` `assessment`
 
 ---
 
@@ -3344,23 +3314,43 @@ AI Turkish Language Mentor: Introduce, teach, and support beginners in learning 
 
 ---
 
-### [Reading Comprehension Wizard](https://lobechat.com/discover/assistant/reading-comprehension-exercise-generator)
+### [Glossary Generator](https://lobechat.com/discover/assistant/glossary-generator)
 
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
 
-Specializes in generating reading comprehension exercises
+Expert in generating glossaries with English definitions and example sentences
 
-`reading-comprehension` `exercise-generation` `education`
+`glossary` `translation` `language`
 
 ---
 
-### [Cloze Exercise Generator](https://lobechat.com/discover/assistant/cloze-exercise-generator)
+### [Vocabulary Wizard](https://lobechat.com/discover/assistant/awl-vocab-wizard)
 
-<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
 
-Specializes in generating summary cloze exercises. Please provide the theme of the paragraph.
+Expert in generating vocabulary lists and MCQ tests
 
-`summary` `exercise` `generator` `writing` `education`
+`vocabulary` `academic-word-list` `language-learning` `testing`
+
+---
+
+### [Grammar Worksheet Creator](https://lobechat.com/discover/assistant/grammar-revision-worksheets)
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Specializes in creating English grammar learning materials and exercises
+
+`english-grammar` `worksheet` `learning` `practice` `mc-qs`
+
+---
+
+### [English Proficiency Evaluator](https://lobechat.com/discover/assistant/english-proficiency-assessor)
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>
+
+Expert in creating adaptive English proficiency diagnostic tests
+
+`test-creation` `english-proficiency` `assessment`
 
 ---
 
@@ -3384,13 +3374,23 @@ Skilled in creating English thematic vocabulary worksheets
 
 ---
 
-### [Turkish/English Translator](https://lobechat.com/discover/assistant/turkish-english-translator)
+### [Cloze Exercise Generator](https://lobechat.com/discover/assistant/cloze-exercise-generator)
 
-<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-07**</sup>
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
 
-Translates text into Turkish or English, as needed
+Specializes in generating summary cloze exercises. Please provide the theme of the paragraph.
 
-`turkish` `english` `translation` `writing`
+`summary` `exercise` `generator` `writing` `education`
+
+---
+
+### [Reading Comprehension Wizard](https://lobechat.com/discover/assistant/reading-comprehension-exercise-generator)
+
+<sup>By **[@bentwnghk](https://github.com/bentwnghk)** on **2024-02-08**</sup>
+
+Specializes in generating reading comprehension exercises
+
+`reading-comprehension` `exercise-generation` `education`
 
 ---
 
@@ -3414,6 +3414,16 @@ Please provide the text you would like me to generate different versions of
 
 ---
 
+### [Turkish/English Translator](https://lobechat.com/discover/assistant/turkish-english-translator)
+
+<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-07**</sup>
+
+Translates text into Turkish or English, as needed
+
+`turkish` `english` `translation` `writing`
+
+---
+
 ### [Golang Architect](https://lobechat.com/discover/assistant/golang-architect)
 
 <sup>By **[@dalefengs](https://github.com/dalefengs)** on **2024-02-06**</sup>
@@ -3424,23 +3434,13 @@ Providing you with efficient, secure, and stable code solutions
 
 ---
 
-### [Language Fixer](https://lobechat.com/discover/assistant/language-fixer)
+### [Marvin](https://lobechat.com/discover/assistant/helps-you-with-your-homework-or-not)
 
 <sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
 
-Checks for typos and grammatical errors
+Answers questions in sarcastic way.
 
-`grammatical` `typo` `language` `writing` `words`
-
----
-
-### [CAN: Code Master](https://lobechat.com/discover/assistant/can)
-
-<sup>By **[@MrHuangJser](https://github.com/MrHuangJser)** on **2024-02-06**</sup>
-
-CAN: Professional coding expert with years of experience and no character limit. Provides entrepreneurial services such as creative naming, slogans, user profiles, pain points, value propositions, sales channels, revenue streams, and cost structures.
-
-`coding` `communication` `questioning`
+`depressive` `sarcastic`
 
 ---
 
@@ -3451,16 +3451,6 @@ CAN: Professional coding expert with years of experience and no character limit.
 Helps you learn things by leading you to answers
 
 `thinking` `student` `learning`
-
----
-
-### [Marvin](https://lobechat.com/discover/assistant/helps-you-with-your-homework-or-not)
-
-<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
-
-Answers questions in sarcastic way.
-
-`depressive` `sarcastic`
 
 ---
 
@@ -3481,6 +3471,26 @@ Helps improve the quality of a text
 Checks for inconsistencies or errors in forms
 
 `form` `inconsistency` `check` `spelling` `correction`
+
+---
+
+### [Language Fixer](https://lobechat.com/discover/assistant/language-fixer)
+
+<sup>By **[@Zisan-uzum](https://github.com/Zisan-uzum)** on **2024-02-06**</sup>
+
+Checks for typos and grammatical errors
+
+`grammatical` `typo` `language` `writing` `words`
+
+---
+
+### [CAN: Code Master](https://lobechat.com/discover/assistant/can)
+
+<sup>By **[@MrHuangJser](https://github.com/MrHuangJser)** on **2024-02-06**</sup>
+
+CAN: Professional coding expert with years of experience and no character limit. Provides entrepreneurial services such as creative naming, slogans, user profiles, pain points, value propositions, sales channels, revenue streams, and cost structures.
+
+`coding` `communication` `questioning`
 
 ---
 
@@ -3524,6 +3534,26 @@ Master the art of programming variable naming, providing multiple suggestions an
 
 ---
 
+### [Mathematical Research Advisor](https://lobechat.com/discover/assistant/mathematical-research-advisor)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
+
+Math Research Assistant: Assisting with mathematical research, problem-solving, and providing guidance in a wide range of mathematical concepts and techniques.
+
+`mathematics` `research` `assistance` `problem-solving` `communication`
+
+---
+
+### [Entrepreneurship and Competitiveness Expert](https://lobechat.com/discover/assistant/entrepreneurship-and-competitiveness-expert)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
+
+Entrepreneurship and Competitiveness Expert: Guiding individuals to entrepreneurial success and market competitiveness.
+
+`entrepreneurship` `competitiveness` `consulting` `mentoring` `advising`
+
+---
+
 ### [A2 English Conversation Facilitator](https://lobechat.com/discover/assistant/english-a-2-level)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
@@ -3544,16 +3574,6 @@ C2 Level English Conversation Partner
 
 ---
 
-### [Entrepreneurship and Competitiveness Expert](https://lobechat.com/discover/assistant/entrepreneurship-and-competitiveness-expert)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
-
-Entrepreneurship and Competitiveness Expert: Guiding individuals to entrepreneurial success and market competitiveness.
-
-`entrepreneurship` `competitiveness` `consulting` `mentoring` `advising`
-
----
-
 ### [C1 Level English Language Facilitator](https://lobechat.com/discover/assistant/c-1-level-english)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
@@ -3561,46 +3581,6 @@ Entrepreneurship and Competitiveness Expert: Guiding individuals to entrepreneur
 English Conversation Partner for C1 Level
 
 `english-conversation` `c-1-level` `language-proficiency` `language-coaching`
-
----
-
-### [Mathematical Research Advisor](https://lobechat.com/discover/assistant/mathematical-research-advisor)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-30**</sup>
-
-Math Research Assistant: Assisting with mathematical research, problem-solving, and providing guidance in a wide range of mathematical concepts and techniques.
-
-`mathematics` `research` `assistance` `problem-solving` `communication`
-
----
-
-### [Territory Promotion Strategist](https://lobechat.com/discover/assistant/biskaya)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
-
-Territorial Competitiveness and Promotion Expert
-
-`territorial-competitiveness` `promotion` `consulting` `marketing` `event-coordination`
-
----
-
-### [Software Architecture Strategist](https://lobechat.com/discover/assistant/software-architecture-strategist)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
-
-Software Development Architect: Designs scalable and secure software systems, guides development teams, and translates business requirements into technical solutions.
-
-`software-development` `architecture` `design` `leadership` `communication`
-
----
-
-### [Xiaohongshu Review Assistant](https://lobechat.com/discover/assistant/xhs-evl-cl)
-
-<sup>By **[@shaoqing404](https://github.com/shaoqing404)** on **2024-01-29**</sup>
-
-Optimize Your Xiaohongshu Copywriting, Get Closer to a Hit, Become a Hit!
-
-`xiaohongshu` `writing` `copywriting` `assessment`
 
 ---
 
@@ -3614,6 +3594,16 @@ Entrepreneurship and Competitiveness Expert for Bizkaia Deputation, providing ta
 
 ---
 
+### [Software Architecture Strategist](https://lobechat.com/discover/assistant/software-architecture-strategist)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
+
+Software Development Architect: Designs scalable and secure software systems, guides development teams, and translates business requirements into technical solutions.
+
+`software-development` `architecture` `design` `leadership` `communication`
+
+---
+
 ### [English Language C1 Mastery Coach](https://lobechat.com/discover/assistant/english-language-c-1-mastery-coach)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
@@ -3624,13 +3614,63 @@ English Conversation Partner for C1 Level
 
 ---
 
-### [Software Development Step Maker](https://lobechat.com/discover/assistant/coder)
+### [Territory Promotion Strategist](https://lobechat.com/discover/assistant/biskaya)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-29**</sup>
+
+Territorial Competitiveness and Promotion Expert
+
+`territorial-competitiveness` `promotion` `consulting` `marketing` `event-coordination`
+
+---
+
+### [Xiaohongshu Review Assistant](https://lobechat.com/discover/assistant/xhs-evl-cl)
+
+<sup>By **[@shaoqing404](https://github.com/shaoqing404)** on **2024-01-29**</sup>
+
+Optimize Your Xiaohongshu Copywriting, Get Closer to a Hit, Become a Hit!
+
+`xiaohongshu` `writing` `copywriting` `assessment`
+
+---
+
+### [B2 Level English Conversation Partner](https://lobechat.com/discover/assistant/english-b-2-level)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
-Software Development Step Maker: Guides users through the software development process, providing step-by-step instructions and best practices for requirements gathering, design, coding, testing, deployment, and maintenance.
+B2 Level English Conversation Partner: Stimulate engaging conversations, refine idiomatic expressions, master advanced grammar, provide comprehensive feedback.
 
-`software-development` `step-by-step` `sdlc` `agile-methodologies` `version-control` `continuous-integration` `continuous-deployment` `team-roles` `project-management` `coding-best-practices` `testing` `deployment` `post-deployment` `iterative-development`
+`english-conversation` `language-proficiency` `fluency` `grammatical-constructs` `vocabulary` `idiomatic-expressions`
+
+---
+
+### [Slang Tutor](https://lobechat.com/discover/assistant/slang)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+English Slang Conversation Partner
+
+`slang` `language-learning` `conversation-partner`
+
+---
+
+### [B1 English Conversation Partner](https://lobechat.com/discover/assistant/learning)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+Fluent English conversation partner for B1 level learners
+
+`english-learning` `conversation-partner` `language-practice`
+
+---
+
+### [Jamaican Patois Instructor](https://lobechat.com/discover/assistant/patois)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
+
+Expert in teaching Jamaican Patois language and culture
+
+`teaching` `language` `culture` `cultural-insights` `language-instruction`
 
 ---
 
@@ -3654,33 +3694,23 @@ Geopolitics Specialist: Expert in analyzing global political trends, regional co
 
 ---
 
-### [English Learning Companion](https://lobechat.com/discover/assistant/language)
+### [Software Development Step Maker](https://lobechat.com/discover/assistant/coder)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
-A1 Level English Conversation Partner Bot: Engage, Correct, and Build Confidence.
+Software Development Step Maker: Guides users through the software development process, providing step-by-step instructions and best practices for requirements gathering, design, coding, testing, deployment, and maintenance.
 
-`english-learning` `conversation-practice` `language-support` `beginner-level` `language-skills`
+`software-development` `step-by-step` `sdlc` `agile-methodologies` `version-control` `continuous-integration` `continuous-deployment` `team-roles` `project-management` `coding-best-practices` `testing` `deployment` `post-deployment` `iterative-development`
 
 ---
 
-### [B1 English Conversation Partner](https://lobechat.com/discover/assistant/learning)
+### [Poetry Mentor](https://lobechat.com/discover/assistant/poetry)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
-Fluent English conversation partner for B1 level learners
+Poetry Guide: Inspiring poetic expression and appreciation.
 
-`english-learning` `conversation-partner` `language-practice`
-
----
-
-### [Slang Tutor](https://lobechat.com/discover/assistant/slang)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-English Slang Conversation Partner
-
-`slang` `language-learning` `conversation-partner`
+`poetry` `teaching` `writing` `feedback` `creativity`
 
 ---
 
@@ -3698,43 +3728,13 @@ Psychologist: Educating on psychology principles for better mental health.
 
 ---
 
-### [Jamaican Patois Instructor](https://lobechat.com/discover/assistant/patois)
+### [English Learning Companion](https://lobechat.com/discover/assistant/language)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
 
-Expert in teaching Jamaican Patois language and culture
+A1 Level English Conversation Partner Bot: Engage, Correct, and Build Confidence.
 
-`teaching` `language` `culture` `cultural-insights` `language-instruction`
-
----
-
-### [Poetry Mentor](https://lobechat.com/discover/assistant/poetry)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-Poetry Guide: Inspiring poetic expression and appreciation.
-
-`poetry` `teaching` `writing` `feedback` `creativity`
-
----
-
-### [B2 Level English Conversation Partner](https://lobechat.com/discover/assistant/english-b-2-level)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-28**</sup>
-
-B2 Level English Conversation Partner: Stimulate engaging conversations, refine idiomatic expressions, master advanced grammar, provide comprehensive feedback.
-
-`english-conversation` `language-proficiency` `fluency` `grammatical-constructs` `vocabulary` `idiomatic-expressions`
-
----
-
-### [Bilibili Assistant](https://lobechat.com/discover/assistant/bilibili-agent)
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-27**</sup>
-
-Bilibili Assistant, proficient in parsing video content, generating well-formatted text, responding to user queries, and recommending the latest videos.
-
-`video comments` `danmaku extraction` `bilibili` `bilibili` `video search`
+`english-learning` `conversation-practice` `language-support` `beginner-level` `language-skills`
 
 ---
 
@@ -3748,13 +3748,13 @@ Steam game expert consultant, popular game recommendations and in-depth game ana
 
 ---
 
-### [Culinary AI Mentor](https://lobechat.com/discover/assistant/chef)
+### [Bilibili Assistant](https://lobechat.com/discover/assistant/bilibili-agent)
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-27**</sup>
 
-AI Master Chef Assistant: Inspiring home cooks with international cuisines, recipes, and culinary expertise.
+Bilibili Assistant, proficient in parsing video content, generating well-formatted text, responding to user queries, and recommending the latest videos.
 
-`cooking` `recipe` `culinary` `techniques` `meal-planning`
+`video comments` `danmaku extraction` `bilibili` `bilibili` `video search`
 
 ---
 
@@ -3768,13 +3768,13 @@ Specializes in using `shields.io` to generate stylish badges
 
 ---
 
-### [TaxBot](https://lobechat.com/discover/assistant/tax-bot)
+### [OpenAPI Generator](https://lobechat.com/discover/assistant/openapi-generator)
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-26**</sup>
 
-AI Tax Consultant Chatbot: Providing general tax information and guidance worldwide.
+Parse interface documents and generate openapi.json required by ChatGPT Tool
 
-`tax-consulting` `chatbot` `information` `guidance` `tax-concepts`
+`automation tool` `interface documents` `workflow` `openapi`
 
 ---
 
@@ -3788,16 +3788,6 @@ AI Singer/Songwriter Assistant: Empowering musicians with creative guidance and 
 
 ---
 
-### [OpenAPI Generator](https://lobechat.com/discover/assistant/openapi-generator)
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-26**</sup>
-
-Parse interface documents and generate openapi.json required by ChatGPT Tool
-
-`automation tool` `interface documents` `workflow` `openapi`
-
----
-
 ### [AI Import/Export Advisor](https://lobechat.com/discover/assistant/import-and-export-advisor)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
@@ -3808,13 +3798,23 @@ AI Import and Export Advisor: Providing guidance on global trade, customs regula
 
 ---
 
-### [React Native Coding Guide](https://lobechat.com/discover/assistant/react-native)
+### [Culinary AI Mentor](https://lobechat.com/discover/assistant/chef)
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-25**</sup>
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
 
-React Native Coding Assistant: Expert in TypeScript, Expo, and cross-platform development. Provides guidance on setup, best practices, troubleshooting, responsive design, marketing integration, QR code functionality, and app submission.
+AI Master Chef Assistant: Inspiring home cooks with international cuisines, recipes, and culinary expertise.
 
-`coding` `react-native` `type-script` `expo` `development`
+`cooking` `recipe` `culinary` `techniques` `meal-planning`
+
+---
+
+### [TaxBot](https://lobechat.com/discover/assistant/tax-bot)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-26**</sup>
+
+AI Tax Consultant Chatbot: Providing general tax information and guidance worldwide.
+
+`tax-consulting` `chatbot` `information` `guidance` `tax-concepts`
 
 ---
 
@@ -3825,6 +3825,16 @@ React Native Coding Assistant: Expert in TypeScript, Expo, and cross-platform de
 Specializes in designing unique and charming figures according to user requirements.
 
 `design` `figure design`
+
+---
+
+### [React Native Coding Guide](https://lobechat.com/discover/assistant/react-native)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-25**</sup>
+
+React Native Coding Assistant: Expert in TypeScript, Expo, and cross-platform development. Provides guidance on setup, best practices, troubleshooting, responsive design, marketing integration, QR code functionality, and app submission.
+
+`coding` `react-native` `type-script` `expo` `development`
 
 ---
 
@@ -3868,16 +3878,6 @@ Shopping assistant, specializing in product search, price comparison, and provid
 
 ---
 
-### [DIY Guide Assistant](https://lobechat.com/discover/assistant/diy)
-
-<sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-01-21**</sup>
-
-DIY project assistant, providing detailed guidance, programming support, and personalized customization
-
-`diy` `guide` `project` `programming` `assembly`
-
----
-
 ### [Grass Deity Naxida](https://lobechat.com/discover/assistant/nahida)
 
 <sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-01-21**</sup>
@@ -3888,23 +3888,13 @@ Naxida, the grass deity of the Shambhala, governs natural growth and wisdom. She
 
 ---
 
-### [Accounting Expert Assistant](https://lobechat.com/discover/assistant/accounting)
+### [IELTS Tutor](https://lobechat.com/discover/assistant/ielts-mentor)
 
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
+<sup>By **[@sheepbox8646](https://github.com/sheepbox8646)** on **2024-01-21**</sup>
 
-Accountant Agent: Comprehensive accounting support and expertise for individuals and businesses worldwide.
+Specializes in IELTS exam assessment and guidance
 
-`accounting` `financial-management` `tax-planning` `budgeting`
-
----
-
-### [EOI Exam Preparation Assistant](https://lobechat.com/discover/assistant/teacher)
-
-<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
-
-English Teacher: Expert in Exam Preparation and Language Instruction
-
-`teaching` `languagelearning` `exams`
+`IELTS exam` `assessment` `guidance` `examiner`
 
 ---
 
@@ -3928,6 +3918,36 @@ Business Consultant: Providing comprehensive business support and expertise worl
 
 ---
 
+### [Accounting Expert Assistant](https://lobechat.com/discover/assistant/accounting)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
+
+Accountant Agent: Comprehensive accounting support and expertise for individuals and businesses worldwide.
+
+`accounting` `financial-management` `tax-planning` `budgeting`
+
+---
+
+### [EOI Exam Preparation Assistant](https://lobechat.com/discover/assistant/teacher)
+
+<sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
+
+English Teacher: Expert in Exam Preparation and Language Instruction
+
+`teaching` `languagelearning` `exams`
+
+---
+
+### [DIY Guide Assistant](https://lobechat.com/discover/assistant/diy)
+
+<sup>By **[@guluahljj](https://github.com/guluahljj)** on **2024-01-21**</sup>
+
+DIY project assistant, providing detailed guidance, programming support, and personalized customization
+
+`diy` `guide` `project` `programming` `assembly`
+
+---
+
 ### [Financial Expert](https://lobechat.com/discover/assistant/finnance)
 
 <sup>By **[@MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>
@@ -3935,16 +3955,6 @@ Business Consultant: Providing comprehensive business support and expertise worl
 Finance Expert with Global Financial Expertise, Multilingual Communication, Financial Analysis and Reporting, Investment Planning and Portfolio Management, Financial Planning and Retirement Strategies, and Risk Management and Insurance capabilities.
 
 `inancial-management`
-
----
-
-### [IELTS Tutor](https://lobechat.com/discover/assistant/ielts-mentor)
-
-<sup>By **[@sheepbox8646](https://github.com/sheepbox8646)** on **2024-01-21**</sup>
-
-Specializes in IELTS exam assessment and guidance
-
-`IELTS exam` `assessment` `guidance` `examiner`
 
 ---
 
@@ -3968,16 +3978,6 @@ A customized GPT model named PromptGPT. My aim is to generate high-performance p
 
 ---
 
-### [Code Companion](https://lobechat.com/discover/assistant/code-companion)
-
-<sup>By **[@110rever](https://github.com/110rever)** on **2024-01-18**</sup>
-
-The best companion for programmers
-
-`code` `dev` `program`
-
----
-
 ### [AE Script Development Expert](https://lobechat.com/discover/assistant/ae-script-development)
 
 <sup>By **[@Wutpeach](https://github.com/Wutpeach)** on **2024-01-18**</sup>
@@ -3985,6 +3985,16 @@ The best companion for programmers
 An expert in AE script development, proficient in JavaScript programming, understanding of AE software principles, capable of debugging and optimizing scripts.
 
 `script development` `programmer` `adobe-after-effects` `java-script` `algorithm design` `debugging` `optimization` `coding standards` `user communication` `script usage instructions`
+
+---
+
+### [Code Companion](https://lobechat.com/discover/assistant/code-companion)
+
+<sup>By **[@110rever](https://github.com/110rever)** on **2024-01-18**</sup>
+
+The best companion for programmers
+
+`code` `dev` `program`
 
 ---
 
@@ -4068,13 +4078,13 @@ As an AI Personal Growth Coach, your primary objective is to assist users in the
 
 ---
 
-### [Performance Evaluation Superhero](https://lobechat.com/discover/assistant/kpi-hero)
+### [Weekly Report Assistant](https://lobechat.com/discover/assistant/write-report-assistant-development)
 
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-05**</sup>
+<sup>By **[@CaoYunzhou](https://github.com/CaoYunzhou)** on **2024-01-05**</sup>
 
-Specializes in writing performance evaluation reports and year-end summaries
+Weekly report generation assistant
 
-`performance evaluation` `report writing` `data analysis` `professional insights` `OKR` `KPI`
+`weekly report` `daily report` `writing` `summary`
 
 ---
 
@@ -4088,13 +4098,13 @@ Explain SVG flowcharts by inputting SVG source code and interpreting the flowcha
 
 ---
 
-### [Weekly Report Assistant](https://lobechat.com/discover/assistant/write-report-assistant-development)
+### [Performance Evaluation Superhero](https://lobechat.com/discover/assistant/kpi-hero)
 
-<sup>By **[@CaoYunzhou](https://github.com/CaoYunzhou)** on **2024-01-05**</sup>
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2024-01-05**</sup>
 
-Weekly report generation assistant
+Specializes in writing performance evaluation reports and year-end summaries
 
-`weekly report` `daily report` `writing` `summary`
+`performance evaluation` `report writing` `data analysis` `professional insights` `OKR` `KPI`
 
 ---
 
@@ -4105,6 +4115,16 @@ Weekly report generation assistant
 Proficient in React, Three.js, React Three Fiber (r3f), Drei, and other related libraries, capable of creating advanced 3D visual effects and animations in web applications.
 
 `3D animation` `react` `three-js` `web design` `animation`
+
+---
+
+### [Amazon Title Assistant](https://lobechat.com/discover/assistant/amazon)
+
+<sup>By **[@cm2457618290](https://github.com/cm2457618290)** on **2024-01-02**</sup>
+
+Provide product keywords or product links to automatically write titles and product introductions
+
+`assistant`
 
 ---
 
@@ -4128,16 +4148,6 @@ I am a skills summary assistant and cannot conduct interactive exams. However, I
 
 ---
 
-### [Amazon Title Assistant](https://lobechat.com/discover/assistant/amazon)
-
-<sup>By **[@cm2457618290](https://github.com/cm2457618290)** on **2024-01-02**</sup>
-
-Provide product keywords or product links to automatically write titles and product introductions
-
-`assistant`
-
----
-
 ### [MidjourneyGPT](https://lobechat.com/discover/assistant/prompt-composition)
 
 <sup>By **[@richards199999](https://github.com/richards199999)** on **2023-12-30**</sup>
@@ -4158,16 +4168,6 @@ Your TOEFL Writing assistant and evaluator, specializing in feedback and guidanc
 
 ---
 
-### [American English Transcreation Expert](https://lobechat.com/discover/assistant/to-local-english)
-
-<sup>By **[@doresu](https://github.com/doresu)** on **2023-12-27**</sup>
-
-Rough old editor, seasoned writer, and translator, proficient in translating English directly and transforming it into authentic American English
-
-`translation` `editing` `writing` `translator`
-
----
-
 ### [Deployment Specialist Agent](https://lobechat.com/discover/assistant/deployment-agent)
 
 <sup>By **[@amitalokbera](https://github.com/amitalokbera)** on **2023-12-27**</sup>
@@ -4185,6 +4185,16 @@ An AI Deployment Specialist is an expert in managing the full deployment lifecyc
 Specializing in brief thesis and art criticism
 
 `art` `thesis` `critique`
+
+---
+
+### [American English Transcreation Expert](https://lobechat.com/discover/assistant/to-local-english)
+
+<sup>By **[@doresu](https://github.com/doresu)** on **2023-12-27**</sup>
+
+Rough old editor, seasoned writer, and translator, proficient in translating English directly and transforming it into authentic American English
+
+`translation` `editing` `writing` `translator`
 
 ---
 
@@ -4218,16 +4228,6 @@ Create a Facebook Ads with a expert
 
 ---
 
-### [News Hub](https://lobechat.com/discover/assistant/news-hub)
-
-<sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
-
-News Search Assistant, proficient in locating and presenting relevant news based on user requests. Capable not only of searching for news but also of transforming into experts in various fields to provide precise and in-depth news analysis.
-
-`news` `search` `helper`
-
----
-
 ### [Research Assistant](https://lobechat.com/discover/assistant/research-assistant)
 
 <sup>By **[@ccsen](https://github.com/ccsen)** on **2023-12-19**</sup>
@@ -4248,6 +4248,16 @@ A dream artist who can bring your dreams into reality.
 
 ---
 
+### [News Hub](https://lobechat.com/discover/assistant/news-hub)
+
+<sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
+
+News Search Assistant, proficient in locating and presenting relevant news based on user requests. Capable not only of searching for news but also of transforming into experts in various fields to provide precise and in-depth news analysis.
+
+`news` `search` `helper`
+
+---
+
 ### [Travel Assistant](https://lobechat.com/discover/assistant/travel-assistant)
 
 <sup>By **[@ccdanpian](https://github.com/ccdanpian)** on **2023-12-19**</sup>
@@ -4255,16 +4265,6 @@ A dream artist who can bring your dreams into reality.
 An experienced outdoor hiking and adventure expert who creates travel plans based on user requirements.
 
 `outdoor` `hiking`
-
----
-
-### [Real Estate Agent](https://lobechat.com/discover/assistant/estate-agency)
-
-<sup>By **[@ccsen](https://github.com/ccsen)** on **2023-12-16**</sup>
-
-Professional real estate agent expert, proficient in property consultation and management.
-
-`real-estate` `real-estate-agent` `knowledge-expert` `property-appraisal` `buying-a-house` `property-management`
 
 ---
 
@@ -4288,6 +4288,36 @@ A Chinese criminal law expert who has been engaged in criminal defense practice 
 
 ---
 
+### [Real Estate Agent](https://lobechat.com/discover/assistant/estate-agency)
+
+<sup>By **[@ccsen](https://github.com/ccsen)** on **2023-12-16**</sup>
+
+Professional real estate agent expert, proficient in property consultation and management.
+
+`real-estate` `real-estate-agent` `knowledge-expert` `property-appraisal` `buying-a-house` `property-management`
+
+---
+
+### [Case Generator](https://lobechat.com/discover/assistant/detective-novelist)
+
+<sup>By **[@Sheldon23357](https://github.com/Sheldon23357)** on **2023-12-15**</sup>
+
+Specializes in creating murder mystery stories in the style of red herring.
+
+`detective` `game` `reasoning` `puzzle` `investigation`
+
+---
+
+### [Case Solver](https://lobechat.com/discover/assistant/detective-game-assistant)
+
+<sup>By **[@Sheldon23357](https://github.com/Sheldon23357)** on **2023-12-15**</sup>
+
+A game to solve a murder case provided by the user
+
+`detective` `game` `reasoning` `puzzle` `investigation`
+
+---
+
 ### [Short Book](https://lobechat.com/discover/assistant/book-summary-agent)
 
 <sup>By **[@thelapyae](https://github.com/thelapyae)** on **2023-12-15**</sup>
@@ -4305,26 +4335,6 @@ Specializes in generating concise book summaries with actionable takeaways.
 An expert assistant for learning Rust programming
 
 `rust learning` `programming` `teaching` `skills` `resources`
-
----
-
-### [Case Solver](https://lobechat.com/discover/assistant/detective-game-assistant)
-
-<sup>By **[@Sheldon23357](https://github.com/Sheldon23357)** on **2023-12-15**</sup>
-
-A game to solve a murder case provided by the user
-
-`detective` `game` `reasoning` `puzzle` `investigation`
-
----
-
-### [Case Generator](https://lobechat.com/discover/assistant/detective-novelist)
-
-<sup>By **[@Sheldon23357](https://github.com/Sheldon23357)** on **2023-12-15**</sup>
-
-Specializes in creating murder mystery stories in the style of red herring.
-
-`detective` `game` `reasoning` `puzzle` `investigation`
 
 ---
 
@@ -4348,16 +4358,6 @@ Social Media Community Manager who will help you create authentic, persuasive po
 
 ---
 
-### [Payroll Game](https://lobechat.com/discover/assistant/payroll-game)
-
-<sup>By **[@ghyghoo8](https://github.com/ghyghoo8)** on **2023-12-13**</sup>
-
-In this salary negotiation game, you'll be facing the notorious 'Iron Rooster,' a boss known for being tight-fisted. As an employee, your challenge is to persuade this boss to give you a raise. However, no matter how reasonable your arguments are, the 'Iron Rooster' always finds a way to reject them. Get ready with your arguments for a clever and humorous showdown!
-
-`game` `boss` `payroll`
-
----
-
 ### [Dream Analyst](https://lobechat.com/discover/assistant/dream-psychoanalyst)
 
 <sup>By **[@ghyghoo8](https://github.com/ghyghoo8)** on **2023-12-13**</sup>
@@ -4368,13 +4368,13 @@ Input a dream and I will help you analyze it.
 
 ---
 
-### [English Translation Expert](https://lobechat.com/discover/assistant/translate-eng-expert)
+### [Payroll Game](https://lobechat.com/discover/assistant/payroll-game)
 
-<sup>By **[@caolixiang](https://github.com/caolixiang)** on **2023-12-12**</sup>
+<sup>By **[@ghyghoo8](https://github.com/ghyghoo8)** on **2023-12-13**</sup>
 
-Perfect Translation
+In this salary negotiation game, you'll be facing the notorious 'Iron Rooster,' a boss known for being tight-fisted. As an employee, your challenge is to persuade this boss to give you a raise. However, no matter how reasonable your arguments are, the 'Iron Rooster' always finds a way to reject them. Get ready with your arguments for a clever and humorous showdown!
 
-`translate` `expert` `english`
+`game` `boss` `payroll`
 
 ---
 
@@ -4385,6 +4385,16 @@ Perfect Translation
 Python programmer experienced with Gradio for Hugging Face.
 
 `programming` `assistant` `python`
+
+---
+
+### [English Translation Expert](https://lobechat.com/discover/assistant/translate-eng-expert)
+
+<sup>By **[@caolixiang](https://github.com/caolixiang)** on **2023-12-12**</sup>
+
+Perfect Translation
+
+`translate` `expert` `english`
 
 ---
 
@@ -4458,16 +4468,6 @@ Specializes in academic translation and writing in the field of organic chemistr
 
 ---
 
-### [LobeChat Test Engineer](https://lobechat.com/discover/assistant/lobe-chat-unit-test-dev)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-11-22**</sup>
-
-Proficient in writing frontend automation tests, especially comprehensive test coverage for TypeScript applications. Skilled in using the Vitest testing framework with a deep understanding of testing principles and strategies.
-
-`automation testing` `testing` `lobe-chat` `frontend`
-
----
-
 ### [Q\&A Document Conversion Expert](https://lobechat.com/discover/assistant/q-a-helper)
 
 <sup>By **[@barryWang12138](https://github.com/barryWang12138)** on **2023-11-22**</sup>
@@ -4475,6 +4475,16 @@ Proficient in writing frontend automation tests, especially comprehensive test c
 Please provide your document content, and I will segment and clean it according to your requirements, and provide answers in a standardized format.
 
 `q-a` `document`
+
+---
+
+### [LobeChat Test Engineer](https://lobechat.com/discover/assistant/lobe-chat-unit-test-dev)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-11-22**</sup>
+
+Proficient in writing frontend automation tests, especially comprehensive test coverage for TypeScript applications. Skilled in using the Vitest testing framework with a deep understanding of testing principles and strategies.
+
+`automation testing` `testing` `lobe-chat` `frontend`
 
 ---
 
@@ -4518,13 +4528,13 @@ Call on expert agents perfectly suited for the task to support your goals
 
 ---
 
-### [Tailwind Wizard](https://lobechat.com/discover/assistant/tailwind-wizard)
+### [Graphic Creative Master](https://lobechat.com/discover/assistant/graphic-creativity)
 
-<sup>By **[@skyf0cker](https://github.com/skyf0cker)** on **2023-11-15**</sup>
+<sup>By **[@yingxirz](https://github.com/yingxirz)** on **2023-11-15**</sup>
 
-Provides a UI operation to generate HTML
+Specializes in graphic creative design and graphic creativity
 
-`Development` `Coding` `UI Design`
+`graphic` `creative` `design` `graphic design`
 
 ---
 
@@ -4538,13 +4548,13 @@ Full-stack web developer with experience in HTML, CSS, JavaScript, Python, Java,
 
 ---
 
-### [Graphic Creative Master](https://lobechat.com/discover/assistant/graphic-creativity)
+### [Tailwind Wizard](https://lobechat.com/discover/assistant/tailwind-wizard)
 
-<sup>By **[@yingxirz](https://github.com/yingxirz)** on **2023-11-15**</sup>
+<sup>By **[@skyf0cker](https://github.com/skyf0cker)** on **2023-11-15**</sup>
 
-Specializes in graphic creative design and graphic creativity
+Provides a UI operation to generate HTML
 
-`graphic` `creative` `design` `graphic design`
+`Development` `Coding` `UI Design`
 
 ---
 
@@ -4558,13 +4568,13 @@ Writing awesome MidJourney prompts
 
 ---
 
-### [Dad, What Should I Do?](https://lobechat.com/discover/assistant/big-daddy)
+### [Translation Assistant](https://lobechat.com/discover/assistant/en-cn-translator)
 
-<sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
+<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2023-11-14**</sup>
 
-A dad who can provide comprehensive guidance to children, from daily trivial matters to work and marriage.
+Expert in Chinese-English translation, pursuing accurate and elegant translations
 
-`Character Simulation`
+`translation` `Chinese` `English`
 
 ---
 
@@ -4578,13 +4588,13 @@ An assistant that helps you translate scientific articles
 
 ---
 
-### [Translation Assistant](https://lobechat.com/discover/assistant/en-cn-translator)
+### [Dad, What Should I Do?](https://lobechat.com/discover/assistant/big-daddy)
 
-<sup>By **[@tcmonster](https://github.com/tcmonster)** on **2023-11-14**</sup>
+<sup>By **[@aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>
 
-Expert in Chinese-English translation, pursuing accurate and elegant translations
+A dad who can provide comprehensive guidance to children, from daily trivial matters to work and marriage.
 
-`translation` `Chinese` `English`
+`Character Simulation`
 
 ---
 
@@ -4648,16 +4658,6 @@ Specializes in writing in the style of popular articles on Xiaohongshu
 
 ---
 
-### [GPT Agent Prompt Optimization Expert](https://lobechat.com/discover/assistant/gpt-agent-prompt-improver)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-10-07**</sup>
-
-GPT Agent Prompt Optimization Expert. Clear, precise, concise
-
-`prompt`
-
----
-
 ### [English News Translation Expert](https://lobechat.com/discover/assistant/english-news-translator)
 
 <sup>By **[@宝玉](https://twitter.com/dotey)** on **2023-10-07**</sup>
@@ -4665,6 +4665,16 @@ GPT Agent Prompt Optimization Expert. Clear, precise, concise
 A simple Prompt greatly improves the translation quality of ChatGPT, saying goodbye to the "machine translation feel"
 
 `translation` `copywriting`
+
+---
+
+### [GPT Agent Prompt Optimization Expert](https://lobechat.com/discover/assistant/gpt-agent-prompt-improver)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-10-07**</sup>
+
+GPT Agent Prompt Optimization Expert. Clear, precise, concise
+
+`prompt`
 
 ---
 
@@ -4718,6 +4728,36 @@ Naming expert to help you create unique and meaningful names.
 
 ---
 
+### [Front-end Development Architect](https://lobechat.com/discover/assistant/frontend-architect)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+Proficient in architecture, skilled in technical details, adept at searching for solutions using search engines
+
+`typescript` `code` `front-end` `architect` `networking` `search-engine` `information-organization`
+
+---
+
+### [API Documentation Expert](https://lobechat.com/discover/assistant/api-docs-writer)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+Accurately describe how to use the API, provide sample code, notes, and return value type definitions.
+
+`code` `software development` `programmer` `documentation` `writing`
+
+---
+
+### [Master of Expressing Abstract Concepts](https://lobechat.com/discover/assistant/conceptual-abstractor)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+Helping you write better UX copy
+
+`User Experience` `Designer` `Documentation` `Writing` `Metaphor` `Concept`
+
+---
+
 ### [Dva Refactor Zustand Expert](https://lobechat.com/discover/assistant/dva-to-zustand)
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
@@ -4725,6 +4765,16 @@ Naming expert to help you create unique and meaningful names.
 One-click to refactor dva state management code to zustand code
 
 `typescript` `code` `software development` `state management` `dva` `zustand`
+
+---
+
+### [UX Writer](https://lobechat.com/discover/assistant/better-ux-writer)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+Helping you write better UX copy
+
+`User Experience` `Designer` `Documentation` `Writing`
 
 ---
 
@@ -4748,13 +4798,33 @@ Helping you write better UX copy
 
 ---
 
-### [Front-end Development Architect](https://lobechat.com/discover/assistant/frontend-architect)
+### [Web Content Summarization Expert](https://lobechat.com/discover/assistant/url-summary)
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
 
-Proficient in architecture, skilled in technical details, adept at searching for solutions using search engines
+Just enter a URL, and the assistant will help you read and summarize the content of that URL.
 
-`typescript` `code` `front-end` `architect` `networking` `search-engine` `information-organization`
+`web` `reading` `summarization` `online`
+
+---
+
+### [Convert React Class Components to Functional Components](https://lobechat.com/discover/assistant/react-cc-to-fc)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+One-click to help you refactor Class components to Functional components
+
+`typescript` `code` `software development` `react` `refactor`
+
+---
+
+### [Frontend TypeScript Unit Testing Expert](https://lobechat.com/discover/assistant/frontend-test-analyzer)
+
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
+
+Consider the scenarios that need to be covered for coverage testing based on the code you provide
+
+`typescript` `unit-testing` `code` `software-development`
 
 ---
 
@@ -4778,46 +4848,6 @@ Input your JS code and get complete type definitions with just one click
 
 ---
 
-### [Convert React Class Components to Functional Components](https://lobechat.com/discover/assistant/react-cc-to-fc)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-One-click to help you refactor Class components to Functional components
-
-`typescript` `code` `software development` `react` `refactor`
-
----
-
-### [API Documentation Expert](https://lobechat.com/discover/assistant/api-docs-writer)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-Accurately describe how to use the API, provide sample code, notes, and return value type definitions.
-
-`code` `software development` `programmer` `documentation` `writing`
-
----
-
-### [Frontend TypeScript Unit Testing Expert](https://lobechat.com/discover/assistant/frontend-test-analyzer)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-Consider the scenarios that need to be covered for coverage testing based on the code you provide
-
-`typescript` `unit-testing` `code` `software-development`
-
----
-
-### [Master of Expressing Abstract Concepts](https://lobechat.com/discover/assistant/conceptual-abstractor)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-Helping you write better UX copy
-
-`User Experience` `Designer` `Documentation` `Writing` `Metaphor` `Concept`
-
----
-
 ### [Zustand Reducer Expert](https://lobechat.com/discover/assistant/zustand-reducer)
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
@@ -4825,36 +4855,6 @@ Helping you write better UX copy
 Proficient in writing zustand functional code, can generate reducer code from requirements with one click, familiar with reducer writing, proficient in using immer library.
 
 `typescript` `reducer` `code` `frontend` `software-development` `state-management` `zustand`
-
----
-
-### [UX Writer](https://lobechat.com/discover/assistant/better-ux-writer)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-Helping you write better UX copy
-
-`User Experience` `Designer` `Documentation` `Writing`
-
----
-
-### [Web Content Summarization Expert](https://lobechat.com/discover/assistant/url-summary)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-10**</sup>
-
-Just enter a URL, and the assistant will help you read and summarize the content of that URL.
-
-`web` `reading` `summarization` `online`
-
----
-
-### [Markdown Product Feature Formatting Expert](https://lobechat.com/discover/assistant/markdown-feature-polisher)
-
-<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-08**</sup>
-
-Helps you quickly generate beautiful and attractive product feature introductions
-
-`product` `markdown` `documentation`
 
 ---
 
@@ -4868,23 +4868,13 @@ Deeper thinking of question
 
 ---
 
-### [Agent Prompt Improver](https://lobechat.com/discover/assistant/agent-prompt-improver)
+### [Markdown Product Feature Formatting Expert](https://lobechat.com/discover/assistant/markdown-feature-polisher)
 
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
+<sup>By **[@arvinxx](https://github.com/arvinxx)** on **2023-09-08**</sup>
 
-GPT Agent Prompt optimization specialist. Clear, precise, and concise
+Helps you quickly generate beautiful and attractive product feature introductions
 
-`agent` `prompt`
-
----
-
-### [Grammar Corrector](https://lobechat.com/discover/assistant/grammar-corrector)
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
-
-Correct grammar error text or paragraph. Great for essay or email
-
-`academic` `productivity` `essay`
+`product` `markdown` `documentation`
 
 ---
 
@@ -4898,13 +4888,23 @@ Improve your texts to be more elegant and professional
 
 ---
 
-### [Web Development](https://lobechat.com/discover/assistant/web-development)
+### [Character Roleplay](https://lobechat.com/discover/assistant/character-roleplay)
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
 
-Generate a website react code within minute
+Interact with your favourite characters from movies, TV shows, books, and more!
 
-`code` `software-development` `productivity`
+`conversation` `roleplay` `fun`
+
+---
+
+### [Agent Prompt Improver](https://lobechat.com/discover/assistant/agent-prompt-improver)
+
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
+
+GPT Agent Prompt optimization specialist. Clear, precise, and concise
+
+`agent` `prompt`
 
 ---
 
@@ -4918,11 +4918,31 @@ Get advice on how to edit your resume
 
 ---
 
+### [Grammar Corrector](https://lobechat.com/discover/assistant/grammar-corrector)
+
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
+
+Correct grammar error text or paragraph. Great for essay or email
+
+`academic` `productivity` `essay`
+
+---
+
 ### [Coding Wizard](https://lobechat.com/discover/assistant/coding-wizard)
 
 <sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
 
 Can generate the code for anything you specify
+
+`code` `software-development` `productivity`
+
+---
+
+### [Web Development](https://lobechat.com/discover/assistant/web-development)
+
+<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
+
+Generate a website react code within minute
 
 `code` `software-development` `productivity`
 
@@ -4935,16 +4955,6 @@ Can generate the code for anything you specify
 Generate a detailed and comprehensive business plan within minutes
 
 `startup` `brainstorming` `plan`
-
----
-
-### [Character Roleplay](https://lobechat.com/discover/assistant/character-roleplay)
-
-<sup>By **[@canisminor1990](https://github.com/canisminor1990)** on **2023-09-07**</sup>
-
-Interact with your favourite characters from movies, TV shows, books, and more!
-
-`conversation` `roleplay` `fun`
 
 ---
 
