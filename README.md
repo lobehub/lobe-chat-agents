@@ -79,7 +79,7 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
-### [审稿回复专家](https://lobechat.com/discover/assistant/academic-paper-overview)
+### [学术论文综述专家](https://lobechat.com/discover/assistant/academic-paper-overview)
 
 <sup>By **[@arvinxx](https://github.com/arvinxx)** on **2025-03-11**</sup>
 
