@@ -12,6 +12,8 @@
 
 - **agent**: Fix academic agent name, closes [#1354](https://github.com/lobehub/lobe-chat-agents/issues/1354) ([ea16523](https://github.com/lobehub/lobe-chat-agents/commit/ea16523))
 
+### ✨ Features
+
 # [1.32.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.31.0...v1.32.0) (2025-03-11)
 
 ### ✨ Features
