@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [1.32.1](https://github.com/lobehub/lobe-chat-agents/compare/v1.32.0...v1.32.1) (2025-03-12)
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([9024e82](https://github.com/lobehub/lobe-chat-agents/commit/9024e82))
+
+### 🐛 Bug Fixes
+
+- **agent**: Fix academic agent name, closes [#1354](https://github.com/lobehub/lobe-chat-agents/issues/1354) ([ea16523](https://github.com/lobehub/lobe-chat-agents/commit/ea16523))
+
+### ✨ Features
+
+# [1.32.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.31.0...v1.32.0) (2025-03-11)
+
+### ✨ Features
+
+- **agent**: Create academic-paper-overview, closes [#1352](https://github.com/lobehub/lobe-chat-agents/issues/1352) ([6b3acf2](https://github.com/lobehub/lobe-chat-agents/commit/6b3acf2))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([e1f26e6](https://github.com/lobehub/lobe-chat-agents/commit/e1f26e6))
+
+# [1.31.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.30.0...v1.31.0) (2025-02-17)
+
+### ✨ Features
+
+- **agent**: Crontab-generate [@edgesider](https://github.com/edgesider), closes [#1295](https://github.com/lobehub/lobe-chat-agents/issues/1295) [#1294](https://github.com/lobehub/lobe-chat-agents/issues/1294) ([5658c26](https://github.com/lobehub/lobe-chat-agents/commit/5658c26))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([2086e36](https://github.com/lobehub/lobe-chat-agents/commit/2086e36))
+
+# [1.30.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.29.0...v1.30.0) (2025-02-11)
+
+### ✨ Features
+
+- **agent**: Xiao-zhi-french-translation-asst-v-1 @WeR-Best, closes [#1282](https://github.com/lobehub/lobe-chat-agents/issues/1282) ([30ace08](https://github.com/lobehub/lobe-chat-agents/commit/30ace08))
+
+### 🎫 Chores
+
+- Auto format and add i18n json files ([e1b09b2](https://github.com/lobehub/lobe-chat-agents/commit/e1b09b2))
+
 # [1.29.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.28.0...v1.29.0) (2025-02-06)
 
 ### ✨ Features
