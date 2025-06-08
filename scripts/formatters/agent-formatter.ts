@@ -89,6 +89,51 @@ class AgentFormatter {
   };
 
   /**
+   * 获取对应的 en-US 兜底文件路径
+   * @param agentId Agent ID
+   * @returns en-US 文件路径
+   */
+  private getEnUsFallbackPath = (agentId: string): string => {
+    return resolve(localesDir, `${agentId}/index.json`);
+  };
+
+  /**
+   * 获取 en-US 兜底数据
+   * @param agentId Agent ID
+   * @param dataToTranslate 需要翻译的数据结构
+   * @returns en-US 兜底数据，如果不存在则返回 null
+   */
+  private getEnUsFallbackData = (agentId: string, dataToTranslate: any): any | null => {
+    try {
+      const enUsPath = this.getEnUsFallbackPath(agentId);
+
+      if (!existsSync(enUsPath)) {
+        Logger.warn(`en-US 兜底文件不存在`, enUsPath);
+        return null;
+      }
+
+      const enUsData = readJSONSync(enUsPath);
+
+      // 从 en-US 数据中提取与 dataToTranslate 相同结构的数据
+      const fallbackData = {};
+
+      for (const key of config.selectors) {
+        const sourceValue = get(dataToTranslate, key);
+        const fallbackValue = get(enUsData, key);
+
+        if (sourceValue !== undefined && fallbackValue !== undefined) {
+          set(fallbackData, key, fallbackValue);
+        }
+      }
+
+      return Object.keys(fallbackData).length > 0 ? fallbackData : null;
+    } catch (error) {
+      Logger.error(`获取 en-US 兜底数据失败`, error);
+      return null;
+    }
+  };
+
+  /**
    * 从翻译文件中提取可检测的文本内容
    * @param data 翻译数据对象
    * @returns 可检测的文本内容字符串
@@ -208,12 +253,6 @@ class AgentFormatter {
           const localeFilePath = resolve(localesDir, localeFileName);
           const relativeFilePath = `locales/${localeFileName}`;
 
-          // 检查文件是否在忽略列表中
-          if (this.isIgnored(relativeFilePath)) {
-            Logger.info('跳过被忽略的文件', relativeFilePath);
-            return;
-          }
-
           // 检查是否需要增量翻译
           let dataToTranslate = rawData;
           let existingTranslation = {};
@@ -239,14 +278,28 @@ class AgentFormatter {
             }
           }
 
+          // 检查文件是否在忽略列表中
+          if (this.isIgnored(relativeFilePath)) {
+            Logger.info('跳过被忽略的文件', relativeFilePath);
+            return;
+          }
+
           Logger.translate(id, defaultLocale, locale, 'start');
 
-          const translateResult = await translateJSON(
-            localeFileName,
-            dataToTranslate,
-            locale,
-            defaultLocale,
-          );
+          let translateResult;
+
+          // 如果 locale 是 defaultLocale，直接使用原数据不走 AI 翻译
+          if (locale === defaultLocale) {
+            translateResult = dataToTranslate;
+            Logger.info(`跳过 AI 翻译`, `${id} (${locale}) - 使用默认语言数据`);
+          } else {
+            translateResult = await translateJSON(
+              localeFileName,
+              dataToTranslate,
+              locale,
+              defaultLocale,
+            );
+          }
 
           if (translateResult) {
             let finalResult = translateResult;
@@ -265,8 +318,6 @@ class AgentFormatter {
               );
             }
 
-            if (locale === defaultLocale) return;
-
             // 验证翻译语言是否匹配
             let validationResult = await validateTranslationLanguage(localeFilePath);
 
@@ -278,12 +329,20 @@ class AgentFormatter {
 
               // 重新翻译
               Logger.translate(id, defaultLocale, locale, 'start');
-              const retryTranslateResult = await translateJSON(
-                localeFileName,
-                dataToTranslate,
-                locale,
-                defaultLocale,
-              );
+              let retryTranslateResult;
+
+              // 如果 locale 是 defaultLocale，直接使用原数据不走 AI 翻译
+              if (locale === defaultLocale) {
+                retryTranslateResult = dataToTranslate;
+                Logger.info(`跳过 AI 重新翻译`, `${id} (${locale}) - 使用默认语言数据`);
+              } else {
+                retryTranslateResult = await translateJSON(
+                  localeFileName,
+                  dataToTranslate,
+                  locale,
+                  defaultLocale,
+                );
+              }
 
               if (retryTranslateResult) {
                 let retryFinalResult = retryTranslateResult;
@@ -312,19 +371,52 @@ class AgentFormatter {
                   );
                   Logger.translate(id, defaultLocale, locale, 'success');
                 } else {
-                  // 两次验证都失败，添加到忽略列表并跳过翻译
-                  Logger.error(
-                    '重新翻译仍验证失败，添加到忽略列表',
-                    `${localeFileName}: 期望 ${retryValidationResult.expectedLanguage}, 检测到 ${retryValidationResult.detectedLanguage}`,
-                  );
+                  // 两次验证都失败，使用 en-US 兜底
+                  Logger.warn('重新翻译仍验证失败，尝试使用 en-US 兜底', localeFileName);
+
+                  const fallbackData = this.getEnUsFallbackData(id, dataToTranslate);
+                  if (fallbackData) {
+                    let fallbackFinalResult = fallbackData;
+
+                    // 如果是增量翻译，合并已有翻译
+                    if (isIncremental) {
+                      fallbackFinalResult = merge({}, existingTranslation, fallbackData);
+                    }
+
+                    writeJSON(localeFilePath, fallbackFinalResult);
+                    this.addToIgnoreList(relativeFilePath);
+                    Logger.success('使用 en-US 兜底完成并添加到忽略列表', localeFileName);
+                    Logger.translate(id, defaultLocale, locale, 'success');
+                  } else {
+                    // en-US 兜底也失败，添加到忽略列表
+                    Logger.error('en-US 兜底失败，添加到忽略列表', localeFileName);
+                    this.addToIgnoreList(relativeFilePath);
+                    Logger.translate(id, defaultLocale, locale, 'error');
+                  }
+                }
+              } else {
+                // 重新翻译失败，使用 en-US 兜底
+                Logger.warn('重新翻译失败，尝试使用 en-US 兜底', localeFileName);
+
+                const fallbackData = this.getEnUsFallbackData(id, dataToTranslate);
+                if (fallbackData) {
+                  let fallbackFinalResult = fallbackData;
+
+                  // 如果是增量翻译，合并已有翻译
+                  if (isIncremental) {
+                    fallbackFinalResult = merge({}, existingTranslation, fallbackData);
+                  }
+
+                  writeJSON(localeFilePath, fallbackFinalResult);
+                  this.addToIgnoreList(relativeFilePath);
+                  Logger.success('使用 en-US 兜底完成并添加到忽略列表', localeFileName);
+                  Logger.translate(id, defaultLocale, locale, 'success');
+                } else {
+                  // en-US 兜底也失败，添加到忽略列表
+                  Logger.error('en-US 兜底失败，添加到忽略列表', localeFileName);
                   this.addToIgnoreList(relativeFilePath);
                   Logger.translate(id, defaultLocale, locale, 'error');
                 }
-              } else {
-                // 重新翻译失败，添加到忽略列表并跳过翻译
-                Logger.error('重新翻译失败，添加到忽略列表', localeFileName);
-                this.addToIgnoreList(relativeFilePath);
-                Logger.translate(id, defaultLocale, locale, 'error');
               }
             } else {
               Logger.success(
@@ -335,10 +427,28 @@ class AgentFormatter {
               Logger.translate(id, defaultLocale, locale, 'success');
             }
           } else {
-            // 翻译失败，添加到忽略列表
-            Logger.error('翻译失败，添加到忽略列表', localeFileName);
-            this.addToIgnoreList(relativeFilePath);
-            Logger.translate(id, defaultLocale, locale, 'error');
+            // 初次翻译失败，使用 en-US 兜底
+            Logger.warn('翻译失败，尝试使用 en-US 兜底', localeFileName);
+
+            const fallbackData = this.getEnUsFallbackData(id, dataToTranslate);
+            if (fallbackData) {
+              let fallbackFinalResult = fallbackData;
+
+              // 如果是增量翻译，合并已有翻译
+              if (isIncremental) {
+                fallbackFinalResult = merge({}, existingTranslation, fallbackData);
+              }
+
+              writeJSON(localeFilePath, fallbackFinalResult);
+              this.addToIgnoreList(relativeFilePath);
+              Logger.success('使用 en-US 兜底完成并添加到忽略列表', localeFileName);
+              Logger.translate(id, defaultLocale, locale, 'success');
+            } else {
+              // en-US 兜底也失败，添加到忽略列表
+              Logger.error('en-US 兜底失败，添加到忽略列表', localeFileName);
+              this.addToIgnoreList(relativeFilePath);
+              Logger.translate(id, defaultLocale, locale, 'error');
+            }
           }
         },
         { concurrency: config.concurrency }, // 使用配置中的并发数控制

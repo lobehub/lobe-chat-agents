@@ -188,7 +188,6 @@ function addToIgnoreList(filePath: string): void {
 
     try {
       require('node:fs').writeFileSync(I18N_IGNORE_FILE, content, 'utf8');
-      Logger.info(`已添加到忽略列表: ${relativePath}`);
     } catch (error) {
       Logger.error(`写入 ${I18N_IGNORE_FILE} 失败: ${error}`);
     }
@@ -503,20 +502,23 @@ export async function validateTranslationLanguage(
         valid: false,
         confidence: 0,
         issues: hasFieldIssues ? fieldIssues : undefined,
-        fixable: hasFieldIssues,
+        fixable: true, // 无法检测语言的文件都可以用兜底修复
       };
     }
 
     // 语言匹配检查
     if (languageMatches) {
+      // 即使语言匹配，如果置信度很低，也可以用兜底修复
+      const isLowConfidence = confidence < 0.4;
+
       return {
         filePath,
         expectedLanguage,
-        valid: true,
+        valid: !isLowConfidence, // 低置信度视为验证失败
         confidence,
         detectedLanguage,
         issues: hasFieldIssues ? fieldIssues : undefined,
-        fixable: hasFieldIssues,
+        fixable: hasFieldIssues || isLowConfidence, // 字段问题或低置信度都可以修复
       };
     }
 
@@ -528,7 +530,7 @@ export async function validateTranslationLanguage(
       confidence,
       detectedLanguage,
       issues: hasFieldIssues ? fieldIssues : undefined,
-      fixable: hasFieldIssues,
+      fixable: true, // 所有语言不匹配的文件都可以用兜底修复
     };
   } catch (error) {
     Logger.error(`验证文件失败: ${filePath} - ${error}`);
@@ -570,6 +572,37 @@ function getFieldValue(obj: any, path: string): any {
   }
 
   return current;
+}
+
+/**
+ * 使用 en-US 兜底替换整个文件
+ * @param filePath - 文件路径
+ * @returns 是否成功修复
+ */
+export async function fixLanguageWithFallback(filePath: string): Promise<boolean> {
+  try {
+    const enUsPath = getEnUsFallbackPath(filePath);
+
+    // 检查 en-US 兜底文件是否存在
+    if (!existsSync(enUsPath)) {
+      Logger.error(`兜底文件不存在: ${enUsPath}`);
+      return false;
+    }
+
+    const enUsData = readJSONSync(enUsPath);
+
+    // 用 en-US 数据替换当前文件
+    await writeJSON(filePath, enUsData);
+
+    // 将修复后的文件添加到忽略列表
+    addToIgnoreList(filePath);
+
+    Logger.success(`  使用 en-US 兜底修复: ${filePath}`);
+    return true;
+  } catch (error) {
+    Logger.error(`兜底修复失败: ${filePath} - ${error}`);
+    return false;
+  }
 }
 
 /**
@@ -635,7 +668,7 @@ export async function fixLanguageIssues(
       // 将修复后的文件添加到忽略列表
       addToIgnoreList(filePath);
 
-      Logger.success(`  修复完成并添加到忽略列表: ${filePath}`);
+      Logger.success(`  修复完成: ${filePath}`);
       return true;
     }
 

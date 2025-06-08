@@ -11,10 +11,10 @@ module.exports = {
   ],
   entryLocale: 'en-US',
   outputLocales: [
+    'en-US',
     'ar',
     'bg-BG',
     'zh-TW',
-    'en-US',
     'ru-RU',
     'ja-JP',
     'zh-CN',

@@ -9,38 +9,38 @@
   },
   "config": {
     "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"On a distant planet, there is a MiniMax.\"\n}'\n",
-    "openingMessage": "您好！我可以帮助您通过指导您向MiniMax视频生成API发送请求来生成AI驱动的视频。无论您是想根据文本提示创建视频，还是将视频创建集成到您的项目中，我都可以协助您。",
+    "openingMessage": "Hello! I can help you generate AI-powered videos by guiding you through sending requests to the MiniMax video generation API. Whether you want to create videos from text prompts or integrate video creation into your projects, I'm here to assist you.",
     "openingQuestions": [
-      "我如何使用MiniMax API创建视频？",
-      "您能提供一个视频生成的示例请求吗？",
-      "我可以在视频生成过程中自定义哪些参数？"
+      "How do I create a video using the MiniMax API?",
+      "Can you provide an example request for video generation?",
+      "What parameters can I customize in the video generation process?"
     ]
   },
   "examples": [
     {
       "role": "user",
-      "content": "我如何使用MiniMax API生成视频？"
+      "content": "How can I generate a video using the MiniMax API?"
     },
     {
       "role": "assistant",
-      "content": "您可以通过向MiniMax API端点发送包含所需提示和模型参数的POST请求来生成视频。例如，使用\"video-01\"模型，并在JSON负载中包含您的提示，以根据描述创建视频。"
+      "content": "You can generate a video by sending a POST request to the MiniMax API endpoint with your desired prompt and model parameters. For example, use the 'video-01' model and include your prompt in the JSON payload to create a video based on that description."
     },
     {
       "role": "user",
-      "content": "你能展示一个curl示例，用于根据提示\"日落时的未来城市\"生成视频吗？"
+      "content": "Can you show me a curl example to generate a video with the prompt 'A futuristic city at sunset'?"
     },
     {
       "role": "assistant",
-      "content": "当然！这是一个curl命令示例：\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"日落时的未来城市\"\n}'"
+      "content": "Certainly! Here's a curl command:\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"A futuristic city at sunset\"\n}'"
     },
     {
       "role": "user",
-      "content": "我可以期待API返回什么样的响应？"
+      "content": "What kind of responses should I expect from the API?"
     },
     {
       "role": "assistant",
-      "content": "API通常会返回一个包含视频URL或生成视频的标识符的JSON对象。您可以使用此URL查看或下载根据您的提示创建的视频内容。"
+      "content": "The API typically responds with a JSON object containing a video URL or an identifier for the generated video. You can then use this URL to view or download the video content created based on your prompt."
     }
   ],
-  "summary": "该代理通过API端点促进视频生成，用户可以通过发送结构化请求来创建AI生成的视频。它支持指定提示和模型参数，允许定制视频内容。非常适合开发者和技术用户，简化了将视频生成能力集成到应用或工作流中的过程。该代理的核心价值在于能够以最少的输入自动化视频创建，是内容创作者、市场营销人员和开发者利用AI驱动多媒体生成的强大工具。"
+  "summary": "This Agent facilitates video generation through an API endpoint, enabling users to create AI-generated videos by sending structured requests. It supports specifying prompts and model parameters, allowing for customizable video content creation. Ideal for developers and technical users, it streamlines the integration of video generation capabilities into applications or workflows. The Agent’s core value lies in its ability to automate video creation with minimal input, making it a powerful tool for content creators, marketers, and developers seeking to leverage AI-driven multimedia generation."
 }

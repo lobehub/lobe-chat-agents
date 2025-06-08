@@ -13,6 +13,7 @@ import {
   ValidationStats,
   ensureELDInitialized,
   fixLanguageIssues,
+  fixLanguageWithFallback,
   validateTranslationLanguage,
 } from '../validators/language-validator';
 
@@ -112,10 +113,12 @@ async function validateAllLanguages(
       // 检查是否被忽略
       if (result.expectedLanguage === 'ignored') {
         stats.ignored++;
-        if (files.length <= 20) {
-          Logger.info(`🚫 ${clickablePath} - 已忽略`);
-        }
         return result;
+      }
+
+      // 检查是否可以修复
+      if (result.fixable) {
+        fixableFiles.push(result);
       }
 
       if (!result.valid) {
@@ -126,16 +129,22 @@ async function validateAllLanguages(
         const issuesSummary =
           result.issues && result.issues.length > 0 ? ` (${result.issues.length} 个字段问题)` : '';
 
-        Logger.error(
-          `❌ ${clickablePath} - 期望 ${result.expectedLanguage}, 检测到 ${result.detectedLanguage} (${result.confidence.toFixed(3)})${issuesSummary}`,
-        );
+        // 如果可以修复，显示不同的提示
+        if (result.fixable) {
+          Logger.warn(
+            `⚠️  ${clickablePath} - 期望 ${result.expectedLanguage}, 检测到 ${result.detectedLanguage} (${result.confidence.toFixed(3)})${issuesSummary} [可修复]`,
+          );
+        } else {
+          Logger.error(
+            `❌ ${clickablePath} - 期望 ${result.expectedLanguage}, 检测到 ${result.detectedLanguage} (${result.confidence.toFixed(3)})${issuesSummary}`,
+          );
+        }
       } else {
         stats.passed++;
 
         // 检查是否有字段级问题需要修复
         if (result.fixable && result.issues && result.issues.length > 0) {
-          fixableFiles.push(result);
-          Logger.warn(`⚠️  ${clickablePath} - ${result.issues.length} 个字段语言问题`);
+          Logger.warn(`⚠️  ${clickablePath} - ${result.issues.length} 个字段语言问题 [可修复]`);
         }
         // 低置信度警告 (只对很低置信度的警告)
         else if (result.confidence < 0.4 && result.confidence >= 0.2) {
@@ -155,17 +164,35 @@ async function validateAllLanguages(
 
   // 如果需要修复，处理可修复的文件
   if (shouldFix && fixableFiles.length > 0) {
-    Logger.split('🔧 开始修复部分语言不匹配的文件');
+    Logger.split('🔧 开始修复语言不匹配的文件');
     Logger.info(`发现 ${fixableFiles.length} 个文件需要修复`);
 
     for (const result of fixableFiles) {
-      if (result.issues && result.issues.length > 0) {
-        const clickablePath = formatClickablePath(result.filePath);
-        Logger.info(`修复 ${clickablePath}`);
-        const fixed = await fixLanguageIssues(result.filePath, result.issues);
-        if (fixed) {
-          stats.fixed++;
-        }
+      const clickablePath = formatClickablePath(result.filePath);
+      Logger.info(`修复 ${clickablePath}`);
+
+      let fixed = false;
+
+      // 判断使用哪种修复方式
+      const shouldUseFallback =
+        !result.valid && // 验证失败
+        (!result.detectedLanguage || // 无法检测语言
+          result.detectedLanguage !== result.expectedLanguage || // 语言不匹配
+          result.confidence < 0.4); // 置信度很低
+
+      if (shouldUseFallback) {
+        // 使用 en-US 兜底修复整个文件
+        fixed = await fixLanguageWithFallback(result.filePath);
+      } else if (result.issues && result.issues.length > 0) {
+        // 有具体字段问题，使用字段级修复
+        fixed = await fixLanguageIssues(result.filePath, result.issues);
+      } else {
+        // 兜底情况：其他可修复问题也使用兜底修复
+        fixed = await fixLanguageWithFallback(result.filePath);
+      }
+
+      if (fixed) {
+        stats.fixed++;
       }
     }
 
@@ -218,7 +245,7 @@ async function validateAllLanguages(
   }
 
   if (fixableFiles.length > 0 && !shouldFix) {
-    Logger.warn(`可修复字段问题: ${fixableFiles.length} 个文件`);
+    Logger.warn(`可修复问题: ${fixableFiles.length} 个文件`);
     Logger.info('使用 --fix 参数来修复这些问题');
   }
 

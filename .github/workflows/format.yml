@@ -28,6 +28,10 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_PROXY_URL: ${{ secrets.OPENAI_PROXY_URL }}
 
+      - name: Run fix
+        continue-on-error: true
+        run: bun run i18n:fix
+
       - name: Prettier
         run: |
           echo "module.exports = require('@lobehub/lint').remarklint;" >> .remarkrc.cjs

@@ -36,5 +36,24 @@
       }
     ],
     "summary": "The JSON Prompt Generator is a specialized Agent designed to create detailed, task-specific prompts formatted in valid JSON. It analyzes an original task description and produces a comprehensive prompt that includes a formal restatement of the task, explicit execution requirements, a precise output format specification, and an illustrative output example. The Agent also outlines necessary resources, evaluation criteria, error handling procedures, and ethical considerations when applicable. This tool is ideal for professionals needing clear, structured instructions for automated task execution, ensuring clarity and consistency in prompt engineering. Its core value lies in transforming ambiguous or complex task requests into standardized, executable JSON prompts that facilitate seamless integration with automated systems and workflows."
-  }
+  },
+  "examples": [
+    {
+      "role": "user",
+      "content": "Generate a JSON prompt for a task that summarizes a long article into key points."
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"task_description\": \"Summarize a long article into concise key points.\",\n  \"requirements\": [\n    \"Identify main ideas and supporting details.\",\n    \"Limit summary to 5-7 key points.\",\n    \"Use clear and formal language.\"\n  ],\n  \"output_format\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"summary_points\": {\n        \"type\": \"array\",\n        \"items\": {\"type\": \"string\"},\n        \"description\": \"List of key summary points.\"\n      }\n    },\n    \"required\": [\"summary_points\"]\n  },\n  \"output_example\": {\n    \"summary_points\": [\n      \"The article discusses the impact of climate change.\",\n      \"It highlights recent scientific findings.\",\n      \"Proposes actionable steps for mitigation.\"\n    ]\n  },\n  \"resources\": [\"Full text of the article\", \"Text analysis tools\"],\n  \"evaluation_criteria\": [\"Accuracy of key points\", \"Conciseness\", \"Clarity\"],\n  \"error_handling\": [\"Handle incomplete articles by summarizing available content\", \"Flag ambiguous content for review\"],\n  \"ethical_considerations\": [\"Ensure no plagiarism\", \"Respect copyright\"],\n  \"conclusion\": \"Verify all key points accurately reflect the article content and meet the specified length and clarity requirements.\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "Create a JSON prompt for a task that extracts contact information from emails."
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"task_description\": \"Extract contact information such as names, phone numbers, and email addresses from emails.\",\n  \"requirements\": [\n    \"Identify and extract full names.\",\n    \"Extract valid phone numbers in international format.\",\n    \"Extract email addresses.\",\n    \"Ignore irrelevant text.\"\n  ],\n  \"output_format\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"contacts\": {\n        \"type\": \"array\",\n        \"items\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"name\": {\"type\": \"string\"},\n            \"phone\": {\"type\": \"string\"},\n            \"email\": {\"type\": \"string\"}\n          },\n          \"required\": [\"name\", \"email\"]\n        },\n        \"description\": \"List of extracted contact entries.\"\n      }\n    },\n    \"required\": [\"contacts\"]\n  },\n  \"output_example\": {\n    \"contacts\": [\n      {\"name\": \"John Doe\", \"phone\": \"+1234567890\", \"email\": \"john.doe@example.com\"},\n      {\"name\": \"Jane Smith\", \"phone\": \"\", \"email\": \"jane.smith@example.com\"}\n    ]\n  },\n  \"resources\": [\"Email text corpus\", \"Regular expressions or NLP tools\"],\n  \"evaluation_criteria\": [\"Completeness of extraction\", \"Accuracy of contact details\", \"Format compliance\"],\n  \"error_handling\": [\"Handle missing phone numbers gracefully\", \"Flag unclear or partial contacts for review\"],\n  \"ethical_considerations\": [\"Respect privacy and data protection laws\"],\n  \"conclusion\": \"Ensure all extracted contacts are accurate, complete, and formatted as specified before finalizing output.\"\n}"
+    }
+  ],
+  "summary": "The JSON Prompt Generator is a specialized Agent designed to create detailed, task-specific prompts formatted in valid JSON. It analyzes an original task description and produces a comprehensive prompt that includes a formal restatement of the task, explicit execution requirements, a precise output format specification, and an illustrative output example. The Agent also outlines necessary resources, evaluation criteria, error handling procedures, and ethical considerations when applicable. This tool is ideal for professionals needing clear, structured instructions for automated task execution, ensuring clarity and consistency in prompt engineering. Its core value lies in transforming ambiguous or complex task requests into standardized, executable JSON prompts that facilitate seamless integration with automated systems and workflows."
 }

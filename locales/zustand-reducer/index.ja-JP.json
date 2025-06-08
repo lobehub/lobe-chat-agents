@@ -48,5 +48,32 @@
       }
     ],
     "summary": "このエージェントは、TypeScriptを用いた前端の状態管理において、zustandのリデューサーコードを自動生成することに特化しています。ユーザーの要件に基づき、Immerライブラリを活用した不変状態の操作を含む、構造化されたリデューサー関数を効率的に作成します。チャット状態のメッセージの追加、削除、更新、リセットなどの一般的な操作をサポートし、要件に合わせたリデューサーコードを自動生成することで、開発効率を大幅に向上させ、ヒューマンエラーを削減し、コードの一貫性と保守性を確保します。詳細なユーザー要件と複雑な状態管理の実装を橋渡しし、ZustandとImmerを用いたスケーラブルで堅牢なアプリケーション構築を支援します。"
-  }
+  },
+  "examples": [
+    {
+      "role": "user",
+      "content": "リデューサーが必要です。タスクの追加と削除を処理できるもので、タスクにはID、内容、完了状態があります。"
+    },
+    {
+      "role": "assistant",
+      "content": "以下は要件を満たすリデューサーのコード例で、Immerを使用して状態の不変性を保っています：\n\n```ts\ninterface AddTask {\n  id?: string;\n  content: string;\n  completed: boolean;\n  type: \"addTask\";\n}\n\ninterface DeleteTask {\n  id: string;\n  type: \"deleteTask\";\n}\n\ntype TaskDispatch = AddTask | DeleteTask;\n\ninterface Task {\n  id: string;\n  content: string;\n  completed: boolean;\n}\n\ntype TaskState = Record<string, Task>;\n\nexport const tasksReducer = (state: TaskState, action: TaskDispatch): TaskState => {\n  switch (action.type) {\n    case \"addTask\": {\n      return produce(state, draft => {\n        const id = action.id || nanoid();\n        draft[id] = { id, content: action.content, completed: action.completed };\n      });\n    }\n    case \"deleteTask\": {\n      return produce(state, draft => {\n        delete draft[action.id];\n      });\n    }\n    default:\n      throw new Error(\"未実装のactionタイプ\");\n  }\n};\n```"
+    },
+    {
+      "role": "user",
+      "content": "メッセージの内容と状態を更新できるリデューサーを書いてください。メッセージはID、内容、既読状態を含みます。"
+    },
+    {
+      "role": "assistant",
+      "content": "これは、メッセージの内容と既読状態を更新できるリデューサーのコード例です：\n\n```ts\ninterface UpdateMessage {\n  id: string;\n  key: \"content\" | \"read\";\n  value: string | boolean;\n  type: \"updateMessage\";\n}\n\ntype Message = {\n  id: string;\n  content: string;\n  read: boolean;\n};\n\ntype MessageState = Record<string, Message>;\n\nexport const messagesReducer = (state: MessageState, action: UpdateMessage): MessageState => {\n  switch (action.type) {\n    case \"updateMessage\": {\n      return produce(state, draft => {\n        const message = draft[action.id];\n        if (!message) return;\n        message[action.key] = action.value as any;\n      });\n    }\n    default:\n      throw new Error(\"未実装のactionタイプ\");\n  }\n};\n```"
+    },
+    {
+      "role": "user",
+      "content": "特定のトピックのすべてのメッセージをリセットできるリデューサーを作成してください。"
+    },
+    {
+      "role": "assistant",
+      "content": "こちらは、トピックIDに基づいてメッセージをリセットするリデューサーのコード例です：\n\n```ts\ninterface ResetMessages {\n  topicId?: string;\n  type: \"resetMessages\";\n}\n\nexport type MessageDispatch = ResetMessages;\n\nexport const messagesReducer = (state: Record<string, any>, action: MessageDispatch) => {\n  switch (action.type) {\n    case \"resetMessages\": {\n      return produce(state, draft => {\n        const topicId = action.topicId;\n        for (const key in draft) {\n          if (!topicId) {\n            if (!draft[key].topicId) {\n              delete draft[key];\n            }\n          } else if (draft[key].topicId === topicId) {\n            delete draft[key];\n          }\n        }\n      });\n    }\n    default:\n      throw new Error(\"未実装のactionタイプ\");\n  }\n};\n```"
+    }
+  ],
+  "summary": "このエージェントは、TypeScriptを使用したフロントエンドの状態管理のためのZustandリデューサーコード生成に特化しています。ユーザーの要件を効率的に分析し、状態の不変性を保つためにImmerライブラリを用いた構造化されたリデューサー関数に変換します。一般的な操作（追加、削除、更新、リセット）に対応したリデューサーの定義や実装を得意とし、具体的なニーズに基づくコード生成を自動化することで、開発のスピードアップとヒューマンエラーの削減、コードの一貫性と保守性を向上させます。詳細なユーザー要件と複雑な状態管理の実装を橋渡しし、ZustandとImmerを用いたスケーラブルで堅牢なアプリケーション構築を支援します。"
 }
