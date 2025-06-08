@@ -2,7 +2,7 @@ import { consola } from 'consola';
 import 'dotenv/config';
 import { HumanMessage, SystemMessage } from 'langchain/schema';
 
-import { category, config } from './const';
+import { category } from './const';
 import { model } from './model';
 
 export const addCategory = async (json) => {

@@ -1,7 +1,7 @@
 import { consola } from 'consola';
 import { colors } from 'consola/utils';
-import { readFileSync, readdirSync, statSync, unlinkSync } from 'fs';
-import { extname, resolve } from 'path';
+import { readFileSync, readdirSync, statSync, unlinkSync } from 'node:fs';
+import { extname, resolve } from 'node:path';
 
 export const deleteEmptyJsonFiles = (dir: string) => {
   const files = readdirSync(dir);
