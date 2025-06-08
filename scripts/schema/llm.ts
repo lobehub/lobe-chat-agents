@@ -58,3 +58,21 @@ export const lLMParamsSchema = z.object({
    */
   top_p: z.number().optional().default(1),
 });
+
+/**
+ * Knowledge Base Item Schema
+ */
+export const knowledgeBaseItemSchema = z.object({
+  avatar: z.string().nullable(),
+  createdAt: z.date(),
+  description: z.string().optional().nullable(),
+  enabled: z.boolean().optional(),
+  id: z.string(),
+  isPublic: z.boolean().nullable(),
+  name: z.string(),
+  settings: z.any(),
+  type: z.string().nullable(),
+  updatedAt: z.date(),
+});
+
+export type KnowledgeBaseItem = z.infer<typeof knowledgeBaseItemSchema>;

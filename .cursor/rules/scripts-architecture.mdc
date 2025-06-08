@@ -1,0 +1,82 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Scripts Directory Architecture Guide
+
+This project uses a modular scripts directory structure for maintainability and clear separation of concerns.
+
+## 📁 Directory Structure
+
+### Core Module (`scripts/core/`)
+- **[scripts/core/constants.ts](mdc:scripts/core/constants.ts)** - Central configuration, paths, and constants
+- **[scripts/core/model.ts](mdc:scripts/core/model.ts)** - OpenAI model configuration and API calls
+
+### Utility Modules (`scripts/utils/`)
+- **[scripts/utils/file.ts](mdc:scripts/utils/file.ts)** - File operations (read, write, directory management)
+- **[scripts/utils/common.ts](mdc:scripts/utils/common.ts)** - General utility functions (string processing, arrays)
+- **[scripts/utils/logger.ts](mdc:scripts/utils/logger.ts)** - Custom logging system with structured output
+
+### Processing Modules
+- **[scripts/parsers/agent-parser.ts](mdc:scripts/parsers/agent-parser.ts)** - Parse Agent configuration files
+- **[scripts/processors/category-processor.ts](mdc:scripts/processors/category-processor.ts)** - AI-powered category assignment
+- **[scripts/processors/i18n-processor.ts](mdc:scripts/processors/i18n-processor.ts)** - Translation and internationalization
+
+### Validation Modules
+- **[scripts/validators/agent-validator.ts](mdc:scripts/validators/agent-validator.ts)** - Schema validation and formatting
+- **[scripts/validators/language-validator.ts](mdc:scripts/validators/language-validator.ts)** - Language detection and validation using @yutengjing/eld
+
+### Build System
+- **[scripts/builders/agent-builder.ts](mdc:scripts/builders/agent-builder.ts)** - Build all language versions of Agent files
+- **[scripts/formatters/agent-formatter.ts](mdc:scripts/formatters/agent-formatter.ts)** - Format and process Agent configurations
+
+### Command Line Tools (`scripts/commands/`)
+- **[scripts/commands/build.ts](mdc:scripts/commands/build.ts)** - Main build command
+- **[scripts/commands/format.ts](mdc:scripts/commands/format.ts)** - Format Agent files
+- **[scripts/commands/test.ts](mdc:scripts/commands/test.ts)** - Validation tests
+- **[scripts/commands/test-locale.ts](mdc:scripts/commands/test-locale.ts)** - Multi-language validation
+- **[scripts/commands/update-awesome.ts](mdc:scripts/commands/update-awesome.ts)** - Update README
+- **[scripts/commands/auto-submit.ts](mdc:scripts/commands/auto-submit.ts)** - GitHub automation
+- **[scripts/commands/validate-language.ts](mdc:scripts/commands/validate-language.ts)** - Language validation command
+
+### Schema Definitions (`scripts/schema/`)
+- **[scripts/schema/agentMeta.ts](mdc:scripts/schema/agentMeta.ts)** - Agent metadata schema definitions
+- **[scripts/schema/llm.ts](mdc:scripts/schema/llm.ts)** - LLM-related type definitions
+
+## 🔄 Import Patterns
+
+```typescript
+// Core configurations - Always import from constants first
+import { config, agentsDir } from '../core/constants';
+import { model } from '../core/model';
+
+// Utilities - File operations and common functions
+import { writeJSON, checkDir } from '../utils/file';
+import { split, findDuplicates } from '../utils/common';
+import { Logger } from '../utils/logger';
+
+// Processing modules
+import { AgentParser } from '../parsers/agent-parser';
+import { addCategory } from '../processors/category-processor';
+import { translateJSON } from '../processors/i18n-processor';
+import { formatAgentJSON } from '../validators/agent-validator';
+```
+
+## 📝 Architectural Principles
+
+### Single Responsibility
+- Each module has one clear purpose and responsibility
+- Commands depend on builders/formatters, which depend on processors/validators
+- Shared utilities are centralized in `utils/`
+
+### Dependency Direction
+- Commands → Builders/Formatters → Processors/Validators → Utils → Core
+- Never import upwards in the dependency chain
+- Core modules should have minimal dependencies
+
+### File Naming Conventions
+- Use kebab-case for file names
+- Include module type in name (e.g., `agent-parser.ts`, `category-processor.ts`)
+- Commands are simple action names (e.g., `build.ts`, `format.ts`)
+

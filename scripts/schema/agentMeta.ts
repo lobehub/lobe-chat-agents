@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { lLMChatsSchema, lLMParamsSchema } from './llm';
+import { knowledgeBaseItemSchema, lLMChatsSchema, lLMParamsSchema } from './llm';
 
 export const metaDataSchema = z.object({
   /**
@@ -62,6 +62,12 @@ const lobeAgentConfigSchema = z.object({
    * Input template for message formatting
    */
   inputTemplate: z.string().optional(),
+
+  /**
+   * knowledge bases
+   */
+  knowledgeBases: z.array(knowledgeBaseItemSchema).optional(),
+
   /**
    * Language model used by the agent
    */
@@ -120,14 +126,31 @@ export const lobeAgentSchema = z.object({
    * Unique identifier for the agent
    */
   identifier: z.string(),
+
+  /**
+   * knowledge count
+   */
+  knowledgeCount: z.number(),
+
   /**
    * Metadata information
    */
   meta: metaDataSchema,
+
+  /**
+   * Plugins count
+   */
+  pluginCount: z.number(),
+
   /**
    * Schema version number
    */
   schemaVersion: z.number(),
+
+  /**
+   * Summary or brief description of the agent
+   */
+  summary: z.string().optional(),
 });
 
 export type LobeAgent = z.infer<typeof lobeAgentSchema>;

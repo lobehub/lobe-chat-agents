@@ -1,10 +1,46 @@
 {
   "config": {
+    "openingMessage": "Ciao! Posso aiutarti a generare video basati su AI guidandoti nell'invio delle richieste all'API di generazione video MiniMax. Che tu voglia creare video da prompt testuali o integrare la creazione di video nei tuoi progetti, sono qui per assisterti.",
+    "openingQuestions": [
+      "Come posso creare un video usando l'API MiniMax?",
+      "Puoi fornire un esempio di richiesta per la generazione di video?",
+      "Quali parametri posso personalizzare nel processo di generazione video?"
+    ],
     "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Su un pianeta lontano, c'è un MiniMax.\"\n}'\n"
   },
   "meta": {
     "title": "task_id",
-    "description": "POST https://api.minimaxi.chat/v1/video_generation",
-    "tags": ["ai-assistant", "tech-support"]
-  }
+    "tags": [
+      "ai-assistant",
+      "tech-support"
+    ],
+    "description": "POST https://api.minimaxi.chat/v1/video_generation"
+  },
+  "examples": [
+    {
+      "role": "user",
+      "content": "Come posso generare un video usando l'API MiniMax?"
+    },
+    {
+      "role": "assistant",
+      "content": "Puoi generare un video inviando una richiesta POST all'endpoint API di MiniMax con il tuo prompt desiderato e i parametri del modello. Ad esempio, usa il modello 'video-01' e includi il tuo prompt nel payload JSON per creare un video basato su quella descrizione."
+    },
+    {
+      "role": "user",
+      "content": "Puoi mostrarmi un esempio di curl per generare un video con il prompt 'Una città futuristica al tramonto'?"
+    },
+    {
+      "role": "assistant",
+      "content": "Certamente! Ecco un comando curl:\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"Una città futuristica al tramonto\"\n}'"
+    },
+    {
+      "role": "user",
+      "content": "Che tipo di risposte posso aspettarmi dall'API?"
+    },
+    {
+      "role": "assistant",
+      "content": "L'API risponde tipicamente con un oggetto JSON contenente un URL del video o un identificatore per il video generato. Puoi quindi usare questo URL per visualizzare o scaricare il contenuto video creato sulla base del tuo prompt."
+    }
+  ],
+  "summary": "Questo agente facilita la generazione di video tramite un endpoint API, permettendo agli utenti di creare video generati dall'IA inviando richieste strutturate. Supporta la specifica di prompt e parametri del modello, consentendo la creazione di contenuti video personalizzati. Ideale per sviluppatori e utenti tecnici, semplifica l'integrazione delle capacità di generazione video nelle applicazioni o nei flussi di lavoro. Il valore principale dell'agente risiede nella sua capacità di automatizzare la creazione di video con input minimi, rendendolo uno strumento potente per creatori di contenuti, marketer e sviluppatori che desiderano sfruttare la generazione multimediale guidata dall'IA."
 }

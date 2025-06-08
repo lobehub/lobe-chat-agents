@@ -1,0 +1,120 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# I18n Translation System Guide
+
+This project implements an intelligent translation system with incremental detection and language validation.
+
+## 🌍 Translation Workflow
+
+### Core Components
+- **[scripts/processors/i18n-processor.ts](mdc:scripts/processors/i18n-processor.ts)** - Handles OpenAI-based translation
+- **[scripts/formatters/agent-formatter.ts](mdc:scripts/formatters/agent-formatter.ts)** - Manages incremental translation logic
+- **[scripts/validators/language-validator.ts](mdc:scripts/validators/language-validator.ts)** - Validates translation quality
+
+### Translation Process Flow
+1. **Source Detection**: Extract translatable fields from source files
+2. **Incremental Check**: Compare with existing translations to detect changes
+3. **Translation**: Use OpenAI to translate only new/changed content
+4. **Merge**: Combine new translations with existing ones
+5. **Validation**: Verify translation language matches expected locale
+6. **Format**: Apply formatting and save results
+
+## 🔄 Incremental Translation Logic
+
+### Key Method: `getIncrementalData()`
+Located in [scripts/formatters/agent-formatter.ts](mdc:scripts/formatters/agent-formatter.ts):
+
+```typescript
+private getIncrementalData = (sourceData: any, existingData: any) => {
+  const needsTranslation = {};
+  let hasUpdates = false;
+
+  for (const key of config.selectors) {
+    const sourceValue = get(sourceData, key);
+    const existingValue = get(existingData, key);
+
+    if (sourceValue && !isEqual(sourceValue, existingValue)) {
+      set(needsTranslation, key, sourceValue);
+      hasUpdates = true;
+    }
+  }
+
+  return { hasUpdates, needsTranslation };
+};
+```
+
+### Translation Strategy
+- **Full Translation**: When no existing translation file exists
+- **Incremental Translation**: When changes detected in source content
+- **Skip Translation**: When no changes detected (content unchanged)
+- **Merge Results**: Combine new translations with existing using `lodash.merge`
+
+## 🛡️ Language Validation
+
+### Validation Process
+Uses `@yutengjing/eld` library for language detection:
+
+```typescript
+import { validateTranslationLanguage } from '../validators/language-validator';
+
+const validationResult = validateTranslationLanguage(
+  translatedData,
+  expectedLocale,
+  fileName
+);
+```
+
+### Validation Command
+Use [scripts/commands/validate-language.ts](mdc:scripts/commands/validate-language.ts):
+
+```bash
+pnpm run validate:lang                    # Validate all files
+pnpm run validate:lang --delete           # Validate and delete invalid files
+pnpm run validate:lang <file_path>        # Validate single file
+```
+
+## 📋 Configuration
+
+### Translation Fields
+Defined in [scripts/core/constants.ts](mdc:scripts/core/constants.ts) as `config.selectors`:
+- `meta.title`
+- `meta.description`
+- `meta.tags`
+- `config.systemRole`
+- `summary`
+- `examples`
+- `config.openingMessage`
+- `config.openingQuestions`
+
+### Supported Locales
+Available in `config.outputLocales`:
+- `zh-CN`, `en-US`, `ja-JP`, `ko-KR`
+- `fr-FR`, `de-DE`, `es-ES`, `pt-BR`
+- `ru-RU`, `it-IT`, `nl-NL`, `pl-PL`
+- `ar`, `tr-TR`, `vi-VN`, `ms-MY`
+- `th-TH`, `hi-IN`, `bg-BG`, `cs-CZ`
+- `da-DK`, `fi-FI`, `he-IL`, `hu-HU`
+- `id-ID`, `no-NO`, `ro-RO`, `sk-SK`
+- `sl-SI`, `sv-SE`, `uk-UA`
+
+## 🚀 Best Practices
+
+### OpenAI Translation Prompts
+- Preserve role fields (`user`, `assistant`, `system`, `function`)
+- Translate only content fields, not structural elements
+- Maintain JSON structure and format
+- Follow BCP 47 language standards
+
+### Error Handling
+- Use dirty-json as fallback for malformed JSON responses
+- Log translation failures with detailed error information
+- Gracefully handle API rate limits and timeouts
+
+### File Management
+- Create locale directories as needed
+- Use consistent file naming: `agent-id.locale.json`
+- Clean up empty JSON files automatically
+
