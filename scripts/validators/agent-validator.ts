@@ -7,6 +7,7 @@ import pangu from 'remark-pangu';
 import { config, meta } from '../core/constants';
 import { LobeAgent, lobeAgentSchema } from '../schema/agentMeta';
 import { Logger } from '../utils/logger';
+import { calculateTokenUsage } from '../utils/token';
 
 /**
  * 验证和修复 examples 字段
@@ -134,6 +135,12 @@ export const formatAgentJSON = async (agent: LobeAgent, locale: string = config.
   // 验证和修复 examples 字段
   // eslint-disable-next-line no-param-reassign
   agent = validateAndFixExamples(agent);
+
+  // 计算 token 使用量（仅在未计算过时才计算）
+  if (!agent.tokenUsage || agent.tokenUsage === 0) {
+    agent.tokenUsage = calculateTokenUsage(agent);
+    Logger.info('已计算 token 使用量', `${agent.identifier}: ${agent.tokenUsage} tokens`);
+  }
 
   formatAndCheckSchema(agent);
 

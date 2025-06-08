@@ -151,6 +151,11 @@ export const lobeAgentSchema = z.object({
    * Summary or brief description of the agent
    */
   summary: z.string().optional(),
+
+  /**
+   * Token usage statistics for the agent
+   */
+  tokenUsage: z.number(),
 });
 
 export type LobeAgent = z.infer<typeof lobeAgentSchema>;

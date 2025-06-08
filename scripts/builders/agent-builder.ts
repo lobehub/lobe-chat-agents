@@ -16,6 +16,7 @@ import {
   getLocaleAgentFileName,
 } from '../utils/file';
 import { Logger } from '../utils/logger';
+import { updateAgentWithTokenUsage } from '../utils/token';
 
 /**
  * Agent 构建器类
@@ -53,6 +54,9 @@ class AgentBuilder {
         const data = readJSONSync(filePath);
         agent = merge({}, content, data);
 
+        // 计算并添加 token 使用量
+        agent = updateAgentWithTokenUsage(agent);
+
         // 写入 Agent 文件到 public 目录
         if (locale === config.entryLocale) {
           writeJSONSync(resolve(publicDir, `${id}.en-US.json`), agent);
@@ -69,6 +73,7 @@ class AgentBuilder {
           meta: agent.meta,
           pluginCount: agent.pluginCount || 0,
           schemaVersion: agent.schemaVersion,
+          tokenUsage: agent.tokenUsage,
         };
       },
       { concurrency: config.concurrency }, // 使用配置中的并发数控制
