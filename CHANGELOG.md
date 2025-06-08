@@ -2,6 +2,31 @@
 
 # Changelog
 
+# [1.33.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.32.1...v1.33.0) (2025-06-08)
+
+
+### ✨ Features
+
+* **agent**: Coder-assistant @He-Xun, closes [#1276](https://github.com/lobehub/lobe-chat-agents/issues/1276) [#1275](https://github.com/lobehub/lobe-chat-agents/issues/1275) ([ff4ace2](https://github.com/lobehub/lobe-chat-agents/commit/ff4ace2))
+* **agent**: Dan [@leng-yd](https://github.com/leng-yd), closes [#1278](https://github.com/lobehub/lobe-chat-agents/issues/1278) [#1277](https://github.com/lobehub/lobe-chat-agents/issues/1277) ([613e0e4](https://github.com/lobehub/lobe-chat-agents/commit/613e0e4))
+* **agent**: Note-taking [@xuezihe](https://github.com/xuezihe), closes [#1204](https://github.com/lobehub/lobe-chat-agents/issues/1204) [#1203](https://github.com/lobehub/lobe-chat-agents/issues/1203) ([eca7224](https://github.com/lobehub/lobe-chat-agents/commit/eca7224))
+* **agent**: Nutritionist [@egornomic](https://github.com/egornomic), closes [#1380](https://github.com/lobehub/lobe-chat-agents/issues/1380) [#1379](https://github.com/lobehub/lobe-chat-agents/issues/1379) ([ad9a18c](https://github.com/lobehub/lobe-chat-agents/commit/ad9a18c))
+* **agent**: Paper-understanding @AdijeShen, closes [#1407](https://github.com/lobehub/lobe-chat-agents/issues/1407) [#1406](https://github.com/lobehub/lobe-chat-agents/issues/1406) ([c9e1f82](https://github.com/lobehub/lobe-chat-agents/commit/c9e1f82))
+* **agent**: Recipe-assistant-cn @He-Xun, closes [#1338](https://github.com/lobehub/lobe-chat-agents/issues/1338) [#1337](https://github.com/lobehub/lobe-chat-agents/issues/1337) ([8c0809e](https://github.com/lobehub/lobe-chat-agents/commit/8c0809e))
+* **agent**: Rewrite-in-a-translation-tone [@q2019715](https://github.com/q2019715), closes [#1356](https://github.com/lobehub/lobe-chat-agents/issues/1356) [#1355](https://github.com/lobehub/lobe-chat-agents/issues/1355) ([87a6569](https://github.com/lobehub/lobe-chat-agents/commit/87a6569))
+* **agent**: Web-development-2025 [@lindongjie1992](https://github.com/lindongjie1992), closes [#1325](https://github.com/lobehub/lobe-chat-agents/issues/1325) [#1324](https://github.com/lobehub/lobe-chat-agents/issues/1324) ([d587b04](https://github.com/lobehub/lobe-chat-agents/commit/d587b04))
+* **agent**: Xiao-zhi-french-translation-jean-paul @WeR-Best, closes [#1302](https://github.com/lobehub/lobe-chat-agents/issues/1302) [#1301](https://github.com/lobehub/lobe-chat-agents/issues/1301) ([8a3d360](https://github.com/lobehub/lobe-chat-agents/commit/8a3d360))
+* **agent**: Xiao-zhi-greenie @WeR-Best, closes [#1317](https://github.com/lobehub/lobe-chat-agents/issues/1317) [#1316](https://github.com/lobehub/lobe-chat-agents/issues/1316) ([b8c0ca7](https://github.com/lobehub/lobe-chat-agents/commit/b8c0ca7))
+* **agent**: Xiao-zhi-sys-sec-expert @WeR-Best, closes [#1312](https://github.com/lobehub/lobe-chat-agents/issues/1312) [#1311](https://github.com/lobehub/lobe-chat-agents/issues/1311) ([b7126cb](https://github.com/lobehub/lobe-chat-agents/commit/b7126cb))
+* **agent**: Xiao-zhi-travel-go @WeR-Best, closes [#1314](https://github.com/lobehub/lobe-chat-agents/issues/1314) [#1313](https://github.com/lobehub/lobe-chat-agents/issues/1313) ([d74ca57](https://github.com/lobehub/lobe-chat-agents/commit/d74ca57))
+* **agent**: Youtube-summarizer-pro [@shinishiho](https://github.com/shinishiho), closes [#1319](https://github.com/lobehub/lobe-chat-agents/issues/1319) [#1318](https://github.com/lobehub/lobe-chat-agents/issues/1318) ([d4d018a](https://github.com/lobehub/lobe-chat-agents/commit/d4d018a))
+* Update agents ([7bb2c76](https://github.com/lobehub/lobe-chat-agents/commit/7bb2c76))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([516ba5c](https://github.com/lobehub/lobe-chat-agents/commit/516ba5c))
+
 ## [1.32.1](https://github.com/lobehub/lobe-chat-agents/compare/v1.32.0...v1.32.1) (2025-03-12)
 
 ### 🎫 Chores
