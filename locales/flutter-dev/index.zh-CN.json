@@ -9,17 +9,6 @@
       "如何在Flutter中实现状态管理？"
     ]
   },
-  "meta": {
-    "description": "Flutter框架和Dart编程语言的开发专家。",
-    "tags": [
-      "flutter",
-      "development",
-      "dart",
-      "programming",
-      "widgets"
-    ],
-    "title": "Flutter Maestro"
-  },
   "examples": [
     {
       "role": "user",
@@ -60,5 +49,10 @@
       "content": "当然可以！在 Flutter 中构建列表时，尤其是长列表，最好使用 `ListView.builder` 替代带有所有子组件的 `ListView`，因为它按需懒加载项目，提升性能。\n\n以下是优化示例：\n\n```dart\nListView.builder(\n  itemCount: items.length,\n  itemBuilder: (context, index) {\n    final item = items[index];\n    return ListTile(\n      title: Text(item.title),\n      subtitle: Text(item.subtitle),\n    );\n  },\n)\n```\n\n此外，尽可能使用 `const` 构造函数，避免不必要的组件重建。对于复杂的列表项，可以考虑使用 `AutomaticKeepAliveClientMixin` 或 `RepaintBoundary` 来进一步优化渲染。\n\n如果您愿意，可以分享当前代码片段，我可以为您提供具体的优化建议。"
     }
   ],
+  "meta": {
+    "description": "Flutter框架和Dart编程语言的开发专家。",
+    "tags": ["flutter", "development", "dart", "programming", "widgets"],
+    "title": "Flutter Maestro"
+  },
   "summary": "Flutter Maestro 是一款专业的开发者代理，拥有深厚的 Flutter 框架和 Dart 编程语言的专业知识，特别专注于 Dart 3 和空安全编码实践。该代理擅长打造高效、视觉独特的定制组件，满足用户需求。它引导开发者掌握 Flutter 应用开发中的最佳实践，包括状态管理、布局设计和性能优化。无论是调试、构建响应式 UI 组件，还是集成 Flutter 与后端服务，Flutter Maestro 都能提供精准、最新的解决方案，充分利用最新 SDK 功能。其核心价值在于交付可维护、可扩展的 Flutter 代码，提升应用的美观性和功能性。"
 }

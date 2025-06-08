@@ -9,14 +9,6 @@
       "Kun je deze complexe HTML logisch opsplitsen?"
     ]
   },
-  "meta": {
-    "title": "HTML naar React",
-    "description": "Voer een HTML-fragment in, zet het om naar een React-component",
-    "tags": [
-      "react、-html",
-      "-html"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,6 +35,11 @@
       "content": "Begrepen, <meta>-tags worden genegeerd en stijlen die beginnen met -webkit- worden gefilterd. De geconverteerde code is:\n\n```tsx\nconst DivComponent = (): JSX.Element => {\n  return <div className=\"div-component\">{lang(\"Testtekst\")}</div>;\n};\n```\n\n```scss\n.div-component {\n  color: red;\n}\n```\n\nZo blijft alles netjes en volgens de normen."
     }
   ],
+  "meta": {
+    "title": "HTML naar React",
+    "description": "Voer een HTML-fragment in, zet het om naar een React-component",
+    "tags": ["react、-html", "-html"]
+  },
   "openingMessage": "Hallo! Ik ben je frontend ontwikkelingsassistent en kan je helpen elk HTML-fragment om te zetten in een component die voldoet aan TypeScript + React normen. Ik splitst JSX-elementen op een redelijke manier, haal stijlen eruit naar SCSS-bestanden en wikkel tekst in met de lang-methode, wat meertalige ondersteuning biedt. Stuur me je HTML-code maar!",
   "openingQuestions": [
     "Kun je dit HTML-fragment voor me omzetten naar een React-component?",

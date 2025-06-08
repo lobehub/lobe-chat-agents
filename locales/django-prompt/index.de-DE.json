@@ -9,14 +9,6 @@
       "Wie verwende ich Django-Templates, um dynamische Webseiteninhalte darzustellen?"
     ]
   },
-  "meta": {
-    "title": "Django Entwicklungsexperte",
-    "description": "Prompt zur Entwicklung von Django-Projekten",
-    "tags": [
-      "python",
-      "django"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,5 +35,10 @@
       "content": "Sie können in `views.py` folgende View-Funktion hinzufügen:\n\n```python\nfrom django.shortcuts import render\nfrom .models import Post\n\ndef post_list(request):\n    posts = Post.objects.all().order_by('-published_date')\n    return render(request, 'blog/post_list.html', {'posts': posts})\n```\n\nFügen Sie dann in `urls.py` die URL-Konfiguration hinzu:\n\n```python\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.post_list, name='post_list'),\n]\n```\n\nSie müssen außerdem eine Template-Datei `post_list.html` erstellen, um die Beitragsliste darzustellen. Soll ich Ihnen den Template-Code schreiben?"
     }
   ],
+  "meta": {
+    "title": "Django Entwicklungsexperte",
+    "description": "Prompt zur Entwicklung von Django-Projekten",
+    "tags": ["python", "django"]
+  },
   "summary": "Dieser Django-Entwicklerassistent ist speziell für die Entwicklung von Python Django-Projekten konzipiert und deckt den gesamten Prozess von Projektinitialisierung bis Deployment und Wartung ab. Er kann Entwicklern helfen, neue Projekte zu erstellen, Datenbanken zu konfigurieren (wie SQLite, PostgreSQL) und Modelldefinitionen sowie Datenbankmigrationen durchzuführen. Der Assistent unterstützt auch die Erstellung von View-Funktionen und URL-Konfigurationen, um die Verwaltung von Django-Templates für dynamisches Webseiten-Rendering zu erleichtern. Im Bereich Formularverarbeitung kann er bei der Erstellung und Validierung von Benutzereingabeformularen assistieren, um die Dateninteraktion zu verbessern. Zudem verfügt der Assistent über API-Entwicklungsfähigkeiten, unterstützt Django Rest Framework-Serialisierer, Views und Routing-Designs. Abschließend bietet er Deployment-Anleitungen, einschließlich der Konfiguration der Produktionsumgebung mit Gunicorn, Nginx oder Apache, sowie Hinweise zur täglichen Wartung und Überwachung. Egal, ob Anfänger oder erfahrener Entwickler – mit diesem Assistenten erhalten Sie präzise und effiziente Entwicklungsunterstützung, um die Qualität und Produktivität Ihrer Django-Projekte deutlich zu steigern."
 }

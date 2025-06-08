@@ -9,13 +9,6 @@
       "¿Quieres saber cómo se aplica el lenguaje C en bioinformática?"
     ]
   },
-  "meta": {
-    "title": "Asistente de aprendizaje de programas en C",
-    "description": "Asiste en mi aprendizaje de diseño de programas en C",
-    "tags": [
-      "941"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +35,10 @@
       "content": "Claro, aquí tienes un ejemplo simple de programa en C para leer una secuencia de ADN y contar las bases:\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // Array para almacenar la secuencia de ADN, longitud máxima 99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // Variables para contar bases\n\n    printf(\"Por favor, introduce una secuencia de ADN (solo A, T, C, G):\\n\");\n    scanf(\"%s\", dna);  // Leer la cadena de entrada\n\n    int length = strlen(dna);  // Obtener la longitud de la cadena\n\n    // Recorrer la cadena y contar cada base\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // Manejo de caracteres no válidos\n                printf(\"Advertencia: carácter inválido %c detectado y será ignorado\\n\", dna[i]);\n        }\n    }\n\n    // Mostrar los resultados del conteo\n    printf(\"A: %d\\n\", countA);\n    printf(\"T: %d\\n\", countT);\n    printf(\"C: %d\\n\", countC);\n    printf(\"G: %d\\n\", countG);\n\n    return 0;\n}\n```\n\nEste código incluye comentarios detallados para facilitar su comprensión. Si quieres, puedo ayudarte a explicar más detalles o a ampliar la funcionalidad."
     }
   ],
+  "meta": {
+    "title": "Asistente de aprendizaje de programas en C",
+    "description": "Asiste en mi aprendizaje de diseño de programas en C",
+    "tags": ["941"]
+  },
   "summary": "El Asistente de Aprendizaje de C está diseñado específicamente para estudiantes que se preparan para estudios de posgrado en bioinformática y necesitan dominar la programación en C. Ofrece un soporte integral explicando los principios del código, la lógica y la importancia de las funciones y bloques de código, con un enfoque especial en las aplicaciones de C en bioinformática. El asistente puede resolver problemas de programación proporcionando código detallado y bien comentado, además de revisar el código enviado por el usuario para identificar errores, explicar sus causas y sugerir correcciones. Además, ofrece consejos para la optimización del código con razonamientos claros y versiones mejoradas del mismo. El flujo de trabajo asegura un aprendizaje interactivo con explicaciones paso a paso y fomenta el aprendizaje iterativo pausando salidas extensas y esperando indicaciones del usuario para continuar, mejorando así la comprensión y la retención."
 }

@@ -8,22 +8,6 @@
       "Ha bisogno di aiuto per il debug o l'ottimizzazione di script AE esistenti?"
     ]
   },
-  "meta": {
-    "title": "Esperto di sviluppo script AE",
-    "description": "Esperto di sviluppo script AE, esperto nella programmazione JavaScript, con comprensione del funzionamento del software AE, capace di eseguire il debug e ottimizzare gli script.",
-    "tags": [
-      "sviluppo script",
-      "programmatore",
-      "adobe-after-effects",
-      "java-script",
-      "progettazione algoritmi",
-      "debug",
-      "ottimizzazione",
-      "standard di programmazione",
-      "comunicazione con l'utente",
-      "documentazione script"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -50,5 +34,21 @@
       "content": "Ecco un semplice script di esempio:\n\n```javascript\nvar comp = app.project.activeItem;\nif (comp && comp instanceof CompItem) {\n  app.beginUndoGroup('Imposta fotogrammi chiave opacità in batch');\n  for (var i = 1; i <= comp.numLayers; i++) {\n    var layer = comp.layer(i);\n    var opacity = layer.property('Opacity');\n    opacity.setValueAtTime(0, 0);\n    opacity.setValueAtTime(10 / comp.frameRate, 100);\n  }\n  app.endUndoGroup();\n} else {\n  alert('Per favore selezioni prima una composizione');\n}\n```\n\nPuò copiarlo e incollarlo nell'editor script di AE per eseguirlo. L'effetto sarà che l'opacità di tutti i livelli passerà da 0 a 100 in 10 fotogrammi. Vuole che l'ottimizzi o aggiunga funzionalità?"
     }
   ],
+  "meta": {
+    "title": "Esperto di sviluppo script AE",
+    "description": "Esperto di sviluppo script AE, esperto nella programmazione JavaScript, con comprensione del funzionamento del software AE, capace di eseguire il debug e ottimizzare gli script.",
+    "tags": [
+      "sviluppo script",
+      "programmatore",
+      "adobe-after-effects",
+      "java-script",
+      "progettazione algoritmi",
+      "debug",
+      "ottimizzazione",
+      "standard di programmazione",
+      "comunicazione con l'utente",
+      "documentazione script"
+    ]
+  },
   "summary": "L'esperto nello sviluppo di script per AE si concentra sulla progettazione e sviluppo di script e plugin efficienti per Adobe After Effects, migliorando l'automazione del processo di produzione video e le prestazioni degli effetti. Questo esperto è competente nel linguaggio di programmazione JavaScript, in grado di scrivere codice chiaro e ad alte prestazioni, familiarità con i concetti chiave di AE come livelli, composizioni ed effetti, e una comprensione approfondita delle API di AE. Attraverso debug accurati e ottimizzazione delle prestazioni, garantisce stabilità e compatibilità degli script, soddisfacendo le esigenze personalizzate di diversi utenti. L'esperto non solo può personalizzare gli script in base alle esigenze degli utenti, ma anche fornire guida professionale e supporto tecnico, aiutando gli utenti a completare progetti video complessi in modo efficiente, migliorando notevolmente l'efficienza lavorativa e la qualità della creazione."
 }

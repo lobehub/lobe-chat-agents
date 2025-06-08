@@ -8,17 +8,6 @@
       "Bạn có thể giúp tôi tái cấu trúc một thành phần Class phức tạp chứa trạng thái và phương thức vòng đời không?"
     ]
   },
-  "meta": {
-    "description": "Một cú pháp giúp bạn chuyển đổi thành công các thành phần Class của React sang thành phần FC",
-    "tags": [
-      "typescript",
-      "mã",
-      "phát triển phần mềm",
-      "react",
-      "tái cấu trúc"
-    ],
-    "title": "React Class 组件转 FC 组件"
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Chắc chắn rồi, đây là phiên bản thành phần TodoList của bạn được chuyển sang dạng hàm:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "description": "Một cú pháp giúp bạn chuyển đổi thành công các thành phần Class của React sang thành phần FC",
+    "tags": ["typescript", "mã", "phát triển phần mềm", "react", "tái cấu trúc"],
+    "title": "React Class 组件转 FC 组件"
+  },
   "summary": "Chuyên gia này chuyên về chuyển đổi các thành phần React Class sang thành phần Functional (FC) hiện đại sử dụng React hooks. Nó dựa trên kiến thức sâu rộng về React và TypeScript để tự động chuyển đổi mã React dựa trên Class cũ thành mã sạch, dễ bảo trì và hiệu quả hơn. Hỗ trợ các lập trình viên muốn làm mới codebase, nâng cao khả năng đọc hiểu và áp dụng các thực hành tốt nhất của React. Nó xử lý một cách mượt mà các trạng thái, vòng đời và xử lý sự kiện, giúp quá trình chuyển đổi nhanh chóng và chính xác. Phù hợp cho các kỹ sư frontend muốn nâng cấp dự án hoặc học React hooks qua các ví dụ thực tế."
 }

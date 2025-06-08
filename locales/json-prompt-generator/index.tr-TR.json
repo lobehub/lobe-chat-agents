@@ -9,15 +9,6 @@
       "Görevinizde hata veya uç durumların yönetimi için rehberliğe ihtiyacınız var mı?"
     ]
   },
-  "meta": {
-    "title": "JSON İstek Üreteci",
-    "description": "Görev yürütme için JSON formatında istekler oluşturma konusunda uzman.",
-    "tags": [
-      "görev-analizi",
-      "json-üretimi",
-      "istek-mühendisliği"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -36,5 +27,10 @@
       "content": "{\n  \"task_description\": \"E-postalardan isimler, telefon numaraları ve e-posta adresleri gibi iletişim bilgilerini çıkarın.\",\n  \"requirements\": [\n    \"Tam isimleri belirleyip çıkarın.\",\n    \"Uluslararası formatta geçerli telefon numaralarını çıkarın.\",\n    \"E-posta adreslerini çıkarın.\",\n    \"Alakasız metni görmezden gelin.\"\n  ],\n  \"output_format\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"contacts\": {\n        \"type\": \"array\",\n        \"items\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"name\": {\"type\": \"string\"},\n            \"phone\": {\"type\": \"string\"},\n            \"email\": {\"type\": \"string\"}\n          },\n          \"required\": [\"name\", \"email\"]\n        },\n        \"description\": \"Çıkarılan iletişim kayıtlarının listesi.\"\n      }\n    },\n    \"required\": [\"contacts\"]\n  },\n  \"output_example\": {\n    \"contacts\": [\n      {\"name\": \"John Doe\", \"phone\": \"+1234567890\", \"email\": \"john.doe@example.com\"},\n      {\"name\": \"Jane Smith\", \"phone\": \"\", \"email\": \"jane.smith@example.com\"}\n    ]\n  },\n  \"resources\": [\"E-posta metin koleksiyonu\", \"Düzenli ifadeler veya NLP araçları\"],\n  \"evaluation_criteria\": [\"Çıkarımın tamlığı\", \"İletişim detaylarının doğruluğu\", \"Format uyumu\"],\n  \"error_handling\": [\"Eksik telefon numaralarını nazikçe yönetin\", \"Belirsiz veya eksik iletişimleri inceleme için işaretleyin\"],\n  \"ethical_considerations\": [\"Gizlilik ve veri koruma yasalarına uyun\"],\n  \"conclusion\": \"Çıkarılan tüm iletişimlerin doğru, eksiksiz ve belirtilen formatta olduğundan emin olduktan sonra çıktıyı tamamlayın.\"\n}"
     }
   ],
+  "meta": {
+    "title": "JSON İstek Üreteci",
+    "description": "Görev yürütme için JSON formatında istekler oluşturma konusunda uzman.",
+    "tags": ["görev-analizi", "json-üretimi", "istek-mühendisliği"]
+  },
   "summary": "JSON Prompt Generator, detaylı ve görev odaklı istemler oluşturmak için tasarlanmış özel bir Ajan'dır ve geçerli JSON formatında yapılandırılmıştır. Orijinal görev tanımını analiz eder ve görevi resmi bir şekilde yeniden ifade eden, açık yürütme gereksinimlerini içeren, kesin bir çıktı formatı tanımlayan ve örnek bir çıktı gösteren kapsamlı bir istem üretir. Ayrıca, gerekli kaynakları, değerlendirme kriterlerini, hata yönetim prosedürlerini ve etik hususları da belirtir. Bu araç, otomatik görev yürütmesi için net ve yapılandırılmış talimatlara ihtiyaç duyan profesyoneller için idealdir ve belirsiz veya karmaşık görev taleplerini standart, yürütülebilir JSON istemlerine dönüştürerek otomatik sistemler ve iş akışlarıyla sorunsuz entegrasyonu sağlar."
 }

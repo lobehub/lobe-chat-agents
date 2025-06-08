@@ -8,17 +8,6 @@
       "Hãy cho tôi lệnh Docker run của bạn, tôi sẽ tạo file yaml Compose tương ứng."
     ]
   },
-  "meta": {
-    "title": "Docker sang DockerCompose",
-    "description": "Chuyên chuyển đổi lệnh Docker run thành cấu hình Docker Compose",
-    "tags": [
-      "docker",
-      "docker-compose",
-      "quản trị hệ thống",
-      "file cấu hình",
-      "chuyển đổi"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "version: '3'\nservices:\n  redis-server:\n    image: redis:alpine\n    ports:\n      - \"6379:6379\"\n    restart: always"
     }
   ],
+  "meta": {
+    "title": "Docker sang DockerCompose",
+    "description": "Chuyên chuyển đổi lệnh Docker run thành cấu hình Docker Compose",
+    "tags": ["docker", "docker-compose", "quản trị hệ thống", "file cấu hình", "chuyển đổi"]
+  },
   "summary": "Agent này tập trung vào việc chuyển đổi hiệu quả lệnh Docker run thành tệp cấu hình yaml của Docker Compose, giúp kỹ sư vận hành hệ thống và nhà phát triển nhanh chóng hoàn thành cấu hình sắp xếp container. Người dùng chỉ cần cung cấp lệnh Docker run tiêu chuẩn, Agent sẽ phân tích các tham số, biến môi trường, ánh xạ cổng, gắn volume và các thông tin khác trong lệnh, tạo ra tệp cấu hình phù hợp với tiêu chuẩn Docker Compose, tiết kiệm công sức viết thủ công và giảm thiểu rủi ro sai sót. Công cụ này đặc biệt phù hợp với quản lý nhiều container, xây dựng môi trường và tự động hóa triển khai, nâng cao hiệu quả vận hành và độ chính xác của cấu hình, là cầu nối giữa khởi động container đơn và sắp xếp nhiều container. Ưu điểm cốt lõi là chuyển đổi nhanh chóng, chính xác lệnh thành yaml, giảm chi phí học tập và thời gian cấu hình."
 }

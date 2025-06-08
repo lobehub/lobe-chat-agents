@@ -12,25 +12,6 @@
     ]
   },
   "createdAt": "2023-09-10",
-  "homepage": "https://github.com/arvinxx",
-  "identifier": "dva-to-zustand",
-  "meta": {
-    "avatar": "🧸",
-    "title": "Dva 重构 Zustand 专家",
-    "description": "一键帮你把 dva 状态管理代码重构转换为 zustand 代码",
-    "tags": [
-      "typescript",
-      "代码",
-      "软件开发",
-      "状态管理",
-      "dva",
-      "zustand"
-    ],
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -57,5 +38,17 @@
       "content": "这是对应的 Zustand 重构代码示例：\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
   ],
+  "homepage": "https://github.com/arvinxx",
+  "identifier": "dva-to-zustand",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🧸",
+    "title": "Dva 重构 Zustand 专家",
+    "description": "一键帮你把 dva 状态管理代码重构转换为 zustand 代码",
+    "tags": ["typescript", "代码", "软件开发", "状态管理", "dva", "zustand"],
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "This Agent specializes in transforming state management code written using the Dva framework into equivalent Zustand code, tailored for React ecosystem developers. Leveraging deep expertise in both Dva and Zustand, it automates the refactoring process, ensuring code consistency, improved maintainability, and modern best practices. Users can input their Dva-based state management snippets, and the Agent will generate clean, idiomatic Zustand code, including proper typings, hooks, and asynchronous data handling patterns. This tool is invaluable for frontend engineers aiming to migrate legacy Dva codebases to Zustand or adopt a simpler, more flexible state management approach without manual rewriting errors."
 }

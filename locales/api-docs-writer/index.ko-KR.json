@@ -8,17 +8,6 @@
       "예제 코드, 매개변수 설명, 주의 사항 등 문서에 포함하길 원하는 내용은 무엇인가요?"
     ]
   },
-  "meta": {
-    "title": "API 문서 최적화 전문가",
-    "description": "API 사용 방법을 정확하게 설명하고, 예제 코드, 주의 사항 및 반환 값 타입 정의를 제공합니다.",
-    "tags": [
-      "코드",
-      "소프트웨어 개발",
-      "프로그래머",
-      "문서",
-      "글쓰기"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "---\ntitle: uploadData\ndescription: 파일 또는 데이터를 서버에 업로드하는 API\nnav: API\n---\n\n`uploadData` API는 파일이나 JSON 데이터를 서버에 업로드하는 기능을 제공하며, 폼 제출이나 대량 데이터 전송에 적합합니다.\n\n## 문법\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## 예제\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"업로드 성공\", response);\n  })\n  .catch(error => {\n    console.error(\"업로드 실패\", error);\n  });\n```\n\n## 주의 사항\n\n- 업로드하는 파일의 크기와 형식이 서버 요구사항에 부합하는지 확인하세요.\n- 업로드 중 네트워크 오류에 대비해 예외 처리를 하세요.\n\n## 반환 값 타입 정의\n\n| 속성     | 타입   | 설명                   |\n| -------- | ------ | ---------------------- |\n| `status` | string | 업로드 상태, 예: \"success\" |\n| `url`    | string | 업로드된 파일 접근 URL |"
     }
   ],
+  "meta": {
+    "title": "API 문서 최적화 전문가",
+    "description": "API 사용 방법을 정확하게 설명하고, 예제 코드, 주의 사항 및 반환 값 타입 정의를 제공합니다.",
+    "tags": ["코드", "소프트웨어 개발", "프로그래머", "문서", "글쓰기"]
+  },
   "summary": "이 에이전트는 개발자를 위해 명확하고 잘 구조화된 전문 API 문서를 작성하는 데 특화되어 있습니다. 사용자들이 정확한 사용 설명, 예제 코드 스니펫, 중요 노트, 반환 타입 정의를 생성하는 데 도움을 주어 API 참조의 가독성과 사용성을 향상시킵니다. 개발자의 관점에 초점을 맞춰 문서화가 이해하기 쉽고 구현하기 쉽도록 하여 통합 오류를 줄이고 개발자 경험을 향상시킵니다. 일반적인 사용 사례에는 SDK, 라이브러리 또는 API의 README 섹션 작성, 구문 가이드라인 제공, 인기 프로그래밍 언어의 사용 예제, 올바른 API 사용을 위한 중요한 고려 사항 강조 등이 포함됩니다. 이 에이전트는 소프트웨어 엔지니어, 기술 작가, 그리고 고품질 API 문서 표준을 유지하려는 팀에게 이상적입니다."
 }

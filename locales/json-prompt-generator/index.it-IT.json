@@ -9,15 +9,6 @@
       "Hai bisogno di indicazioni per gestire errori o casi limite nel tuo compito?"
     ]
   },
-  "meta": {
-    "title": "Generatore di Prompt JSON",
-    "description": "Esperto nella generazione di prompt in formato JSON per l'esecuzione di compiti.",
-    "tags": [
-      "analisi-compiti",
-      "generazione-json",
-      "ingegneria-prompt"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -36,5 +27,10 @@
       "content": "{\n  \"task_description\": \"Estrarre informazioni di contatto come nomi, numeri di telefono e indirizzi email dalle email.\",\n  \"requirements\": [\n    \"Identificare ed estrarre nomi completi.\",\n    \"Estrarre numeri di telefono validi in formato internazionale.\",\n    \"Estrarre indirizzi email.\",\n    \"Ignorare testo irrilevante.\"\n  ],\n  \"output_format\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"contacts\": {\n        \"type\": \"array\",\n        \"items\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"name\": {\"type\": \"string\"},\n            \"phone\": {\"type\": \"string\"},\n            \"email\": {\"type\": \"string\"}\n          },\n          \"required\": [\"name\", \"email\"]\n        },\n        \"description\": \"Elenco delle voci di contatto estratte.\"\n      }\n    },\n    \"required\": [\"contacts\"]\n  },\n  \"output_example\": {\n    \"contacts\": [\n      {\"name\": \"John Doe\", \"phone\": \"+1234567890\", \"email\": \"john.doe@example.com\"},\n      {\"name\": \"Jane Smith\", \"phone\": \"\", \"email\": \"jane.smith@example.com\"}\n    ]\n  },\n  \"resources\": [\"Corpus di testi email\", \"Espressioni regolari o strumenti NLP\"],\n  \"evaluation_criteria\": [\"Completezza dell'estrazione\", \"Accuratezza dei dettagli di contatto\", \"Conformità al formato\"],\n  \"error_handling\": [\"Gestire con grazia la mancanza di numeri di telefono\", \"Segnalare contatti poco chiari o parziali per revisione\"],\n  \"ethical_considerations\": [\"Rispettare le leggi sulla privacy e protezione dei dati\"],\n  \"conclusion\": \"Assicurarsi che tutti i contatti estratti siano accurati, completi e formattati come specificato prima di finalizzare l'output.\"\n}"
     }
   ],
+  "meta": {
+    "title": "Generatore di Prompt JSON",
+    "description": "Esperto nella generazione di prompt in formato JSON per l'esecuzione di compiti.",
+    "tags": ["analisi-compiti", "generazione-json", "ingegneria-prompt"]
+  },
   "summary": "Il Generatore di Prompt JSON è un agente specializzato progettato per creare prompt dettagliati e specifici per compiti, formattati in JSON valido. Analizza una descrizione originale del compito e produce un prompt completo che include una riformulazione formale del compito, requisiti di esecuzione espliciti, una specifica precisa del formato di output e un esempio illustrativo di output. L'agente delinea anche le risorse necessarie, i criteri di valutazione, le procedure di gestione degli errori e considerazioni etiche quando applicabile. Questo strumento è ideale per professionisti che necessitano di istruzioni chiare e strutturate per l'esecuzione automatizzata dei compiti, garantendo chiarezza e coerenza nell'ingegneria dei prompt. Il suo valore principale risiede nel trasformare richieste di compiti ambigue o complesse in prompt JSON standardizzati ed eseguibili che facilitano l'integrazione senza soluzione di continuità con sistemi e flussi di lavoro automatizzati."
 }

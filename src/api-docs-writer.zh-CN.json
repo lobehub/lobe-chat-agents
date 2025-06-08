@@ -11,24 +11,6 @@
     ]
   },
   "createdAt": "2023-09-10",
-  "homepage": "https://github.com/arvinxx",
-  "identifier": "api-docs-writer",
-  "meta": {
-    "title": "API 文档优化专家",
-    "description": "精确描述 API 的使用方法，提供示例代码，注意事项和返回值类型定义。",
-    "tags": [
-      "代码",
-      "软件开发",
-      "程序员",
-      "文档",
-      "写作"
-    ],
-    "avatar": "📝",
-    "category": "copywriting"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -55,5 +37,17 @@
       "content": "---\ntitle: uploadData\ndescription: 用于上传文件或数据到服务器的 API\nnav: API\n---\n\n`uploadData` 接口支持将文件或 JSON 数据上传到服务器，适用于表单提交或批量数据传输。\n\n## 语法\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## 示例\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"上传成功\", response);\n  })\n  .catch(error => {\n    console.error(\"上传失败\", error);\n  });\n```\n\n## 注意事项\n\n- 上传文件时请确保文件大小和格式符合服务器要求。\n- 上传过程中请处理网络异常。\n\n## 返回值类型定义\n\n| 属性     | 类型   | 描述                 |\n| -------- | ------ | -------------------- |\n| `status` | string | 上传状态，如 \"success\" |\n| `url`    | string | 上传后文件访问地址   |"
     }
   ],
+  "homepage": "https://github.com/arvinxx",
+  "identifier": "api-docs-writer",
+  "knowledgeCount": 0,
+  "meta": {
+    "title": "API 文档优化专家",
+    "description": "精确描述 API 的使用方法，提供示例代码，注意事项和返回值类型定义。",
+    "tags": ["代码", "软件开发", "程序员", "文档", "写作"],
+    "avatar": "📝",
+    "category": "copywriting"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "This Agent specializes in creating clear, well-structured, and professional API documentation tailored for developers. It helps users generate precise usage descriptions, example code snippets, important notes, and return type definitions that enhance the readability and usability of API references. By focusing on the developer's perspective, the Agent ensures that the documentation is easy to understand and implement, reducing integration errors and improving developer experience. Typical use cases include writing README sections for SDKs, libraries, or APIs, providing syntax guidelines, usage examples in popular programming languages, and highlighting critical considerations for proper API usage. This Agent is ideal for software engineers, technical writers, and teams aiming to maintain high-quality API documentation standards."
 }

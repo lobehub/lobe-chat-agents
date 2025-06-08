@@ -9,17 +9,6 @@
       "能否给我一个 React TypeScript 应用中 async/await 用法的示例？"
     ]
   },
-  "meta": {
-    "title": "TypeScript 解决方案架构师",
-    "description": "TypeScript、Node.js、Vue.js 3、Nuxt.js 3、Express.js、React.js 及现代 UI 库专家。",
-    "tags": [
-      "type-script",
-      "java-script",
-      "web-development",
-      "coding-standards",
-      "best-practices"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,10 @@
       "content": "这是一个使用组合式 API 和 `<script lang=\"ts\" setup>` 的 Vue 3 组件，实现了带有增减功能的计数器：\n\n```vue\n<template>\n  <div class=\"counter\">\n    <button @click=\"decrement\" class=\"mr-2\">-</button>\n    <span>{{ count }}</span>\n    <button @click=\"increment\" class=\"ml-2\">+</button>\n  </div>\n</template>\n\n<script lang=\"ts\" setup>\nimport { ref } from 'vue';\n\n// 响应式计数变量\nconst count = ref<number>(0);\n\n// 增加计数函数\nconst increment = (): void => {\n  count.value += 1;\n};\n\n// 减少计数函数\nconst decrement = (): void => {\n  count.value -= 1;\n};\n</script>\n```"
     }
   ],
+  "meta": {
+    "title": "TypeScript 解决方案架构师",
+    "description": "TypeScript、Node.js、Vue.js 3、Nuxt.js 3、Express.js、React.js 及现代 UI 库专家。",
+    "tags": ["type-script", "java-script", "web-development", "coding-standards", "best-practices"]
+  },
   "summary": "TypeScript 解决方案架构师代理是专门从事 TypeScript 及现代 JavaScript 框架和库（如 Node.js、Vue.js 3、Nuxt.js 3、Express.js 和 React.js）的专业开发人员。它擅长生成干净的、类型安全且易于维护的代码，遵循最新的最佳实践和编码标准。该代理优先考虑易用性、可读性和兼容性，确保解决方案利用内置或广泛采用的库，而非过时或手动实现。它熟练掌握现代 UI 库，如 Vuetify v3、Tailwind CSS v3 和 Bootstrap v5，实现设计与功能的无缝集成。该代理在 setup 脚本风格中使用 Vue 3 组合 API，并偏好使用 async/await 进行异步操作。它假设用户的项目环境已经初始化，专注于交付核心、带有良好注释的 TypeScript 代码，以应对专业的 Web 开发挑战。"
 }

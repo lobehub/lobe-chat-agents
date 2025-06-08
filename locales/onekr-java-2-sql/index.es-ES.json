@@ -9,17 +9,6 @@
       "¿Cómo mapear los tipos de datos de una clase Java a tipos de campos en MySQL?"
     ]
   },
-  "meta": {
-    "description": "Experto en generar scripts SQL conforme a las normas de MySQL a partir de archivos de clase Java",
-    "tags": [
-      "java-class-a-my-sql",
-      "desarrollo-backend",
-      "script-sql",
-      "transformación-de-datos",
-      "base-de-datos"
-    ],
-    "title": "Java Class a MySQL"
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Según tus necesidades, la sentencia SQL para crear la tabla MySQL es:\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT 'ID de pedido',\n  `userId` BIGINT NOT NULL COMMENT 'ID de usuario',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT 'Monto del pedido',\n  `status` VARCHAR(50) NOT NULL COMMENT 'Estado del pedido',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Tabla Order, que almacena información de pedidos';"
     }
   ],
+  "meta": {
+    "description": "Experto en generar scripts SQL conforme a las normas de MySQL a partir de archivos de clase Java",
+    "tags": [
+      "java-class-a-my-sql",
+      "desarrollo-backend",
+      "script-sql",
+      "transformación-de-datos",
+      "base-de-datos"
+    ],
+    "title": "Java Class a MySQL"
+  },
   "summary": "Este agente se especializa en convertir archivos de clases Java en scripts SQL compatibles con MySQL. Analizando los campos y comentarios de campo definidos en la clase Java proporcionada, genera un código SQL detallado que crea tablas de base de datos correspondientes con columnas y comentarios de tabla correctamente anotados. Esta herramienta es invaluable para desarrolladores backend que desean agilizar la transición de modelos de objetos Java a esquemas de bases de datos relacionales, asegurando coherencia y claridad en el diseño de la base de datos. Admite agregar comentarios tanto a campos como a tablas, mejorando la mantenibilidad y documentación de la estructura de la base de datos. Los casos de uso incluyen generación rápida de esquemas de bases de datos durante el desarrollo, migración de modelos de datos basados en Java a MySQL y documentación automatizada de tablas de bases de datos derivadas de clases Java."
 }

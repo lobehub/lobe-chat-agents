@@ -8,17 +8,6 @@
       "Docker run 명령어를 알려주시면, 해당하는 Compose yaml을 만들어 드리겠습니다."
     ]
   },
-  "meta": {
-    "title": "Docker에서 DockerCompose로 변환",
-    "description": "Docker run 명령어를 Docker Compose 구성으로 변환하는 데 능숙",
-    "tags": [
-      "docker",
-      "docker-compose",
-      "시스템 운영",
-      "구성 파일",
-      "변환"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "version: '3'\nservices:\n  redis-server:\n    image: redis:alpine\n    ports:\n      - \"6379:6379\"\n    restart: always"
     }
   ],
+  "meta": {
+    "title": "Docker에서 DockerCompose로 변환",
+    "description": "Docker run 명령어를 Docker Compose 구성으로 변환하는 데 능숙",
+    "tags": ["docker", "docker-compose", "시스템 운영", "구성 파일", "변환"]
+  },
   "summary": "이 에이전트는 Docker run 명령어를 효율적으로 Docker Compose의 YAML 구성 파일로 변환하는 데 집중하여 시스템 운영 엔지니어와 개발자가 컨테이너 오케스트레이션 구성을 빠르게 완료할 수 있도록 도와줍니다. 사용자는 표준 Docker run 명령어만 제공하면, 에이전트는 명령어의 매개변수, 환경 변수, 포트 매핑, 볼륨 마운트 등의 정보를 분석하여 Docker Compose 규격에 맞는 구성 파일을 생성하며, 수동 작성의 번거로움과 오류 위험을 줄입니다. 이 도구는 특히 다중 컨테이너 관리, 환경 구축 및 자동 배포 시나리오에 적합하며, 운영 효율성과 구성 정확성을 향상시키는 동시에 단일 컨테이너 시작과 다중 컨테이너 오케스트레이션을 연결하는 다리 역할을 합니다. 핵심 강점은 명령어를 빠르고 정확하게 YAML로 변환하여 학습 비용과 구성 시간을 절감하는 데 있습니다."
 }

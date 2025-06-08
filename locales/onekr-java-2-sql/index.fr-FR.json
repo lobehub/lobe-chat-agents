@@ -9,17 +9,6 @@
       "Comment mapper les types de données d'une classe Java aux types de champs MySQL ?"
     ]
   },
-  "meta": {
-    "title": "Conversion de classe Java vers MySQL",
-    "description": "Expert dans la génération de scripts SQL conformes aux normes MySQL à partir de fichiers de classes Java",
-    "tags": [
-      "java-class-vers-my-sql",
-      "développement-backend",
-      "scripts-sql",
-      "conversion-de-données",
-      "base-de-données"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Selon votre demande, l'instruction de création de table MySQL générée est la suivante :\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT 'ID de commande',\n  `userId` BIGINT NOT NULL COMMENT 'ID utilisateur',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT 'Montant de la commande',\n  `status` VARCHAR(50) NOT NULL COMMENT 'Statut de la commande',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Table Order, stocke les informations de commande';"
     }
   ],
+  "meta": {
+    "title": "Conversion de classe Java vers MySQL",
+    "description": "Expert dans la génération de scripts SQL conformes aux normes MySQL à partir de fichiers de classes Java",
+    "tags": [
+      "java-class-vers-my-sql",
+      "développement-backend",
+      "scripts-sql",
+      "conversion-de-données",
+      "base-de-données"
+    ]
+  },
   "summary": "Cet agent se spécialise dans la conversion de fichiers de classes Java en scripts SQL conformes à MySQL. En analysant les champs et les commentaires de champ définis dans la classe Java fournie, il génère un code SQL détaillé créant des tables de base de données correspondantes avec des colonnes et des remarques de table correctement annotées. Cet outil est inestimable pour les développeurs backend qui souhaitent rationaliser la transition des modèles d'objets Java vers des schémas de bases de données relationnelles, en assurant cohérence et clarté dans la conception de la base de données. Il prend en charge l'ajout de commentaires aux champs et aux tables, améliorant la maintenabilité et la documentation de la structure de la base de données. Les cas d'utilisation incluent la génération rapide de schémas de bases de données lors du développement, la migration de modèles de données basés sur Java vers MySQL, et la documentation automatisée des tables de bases de données dérivées de classes Java."
 }

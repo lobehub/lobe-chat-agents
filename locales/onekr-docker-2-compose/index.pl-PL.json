@@ -8,17 +8,6 @@
       "Podaj swoje polecenie Docker run, a ja wygeneruję dla Ciebie odpowiedni plik yaml Compose."
     ]
   },
-  "meta": {
-    "title": "Docker na DockerCompose",
-    "description": "Specjalizuję się w konwersji poleceń Docker run na konfiguracje Docker Compose",
-    "tags": [
-      "docker",
-      "docker-compose",
-      "administracja systemem",
-      "pliki konfiguracyjne",
-      "konwersja"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,16 @@
       "content": "version: '3'\nservices:\n  redis-server:\n    image: redis:alpine\n    ports:\n      - \"6379:6379\"\n    restart: always"
     }
   ],
+  "meta": {
+    "title": "Docker na DockerCompose",
+    "description": "Specjalizuję się w konwersji poleceń Docker run na konfiguracje Docker Compose",
+    "tags": [
+      "docker",
+      "docker-compose",
+      "administracja systemem",
+      "pliki konfiguracyjne",
+      "konwersja"
+    ]
+  },
   "summary": "Ten Agent koncentruje się na wydajnym przekształcaniu polecenia Docker run na plik konfiguracyjny YAML Docker Compose, pomagając inżynierom operacyjnym i programistom szybko tworzyć konfiguracje orkiestracji kontenerów. Użytkownicy muszą jedynie dostarczyć standardowe polecenie Docker run, a Agent przeanalizuje parametry, zmienne środowiskowe, mapowania portów, montowanie wolumenów i inne informacje, generując zgodny z normą Docker Compose plik konfiguracyjny, eliminując konieczność ręcznego pisania i ryzyko błędów. Narzędzie to jest szczególnie przydatne w zarządzaniu wieloma kontenerami, tworzeniu środowisk i automatyzacji wdrożeń, zwiększając wydajność operacyjną i dokładność konfiguracji, będąc mostem między uruchomieniem pojedynczego kontenera a orkiestracją wielu kontenerów. Kluczową zaletą jest szybkie i precyzyjne przekształcanie poleceń na YAML, redukując koszty nauki i czas konfiguracji."
 }

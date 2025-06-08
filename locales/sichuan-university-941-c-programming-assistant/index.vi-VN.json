@@ -9,13 +9,6 @@
       "Bạn muốn tìm hiểu C ứng dụng trong tin sinh học như thế nào?"
     ]
   },
-  "meta": {
-    "title": "c程序学习助手",
-    "description": "Hỗ trợ tôi trong việc học thiết kế chương trình C",
-    "tags": [
-      "941"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +35,10 @@
       "content": "Dưới đây là một ví dụ chương trình C đơn giản để đọc chuỗi DNA và đếm số lượng các base A, T, C, G:\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // Mảng ký tự lưu chuỗi DNA, độ dài tối đa 99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // Biến đếm số lượng các base\n\n    printf(\"Vui lòng nhập chuỗi DNA (chỉ gồm A, T, C, G):\\n\");\n    scanf(\"%s\", dna);  // Đọc chuỗi đầu vào\n\n    int length = strlen(dna);  // Lấy độ dài chuỗi\n\n    // Duyệt từng ký tự trong chuỗi để đếm\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // Xử lý ký tự không hợp lệ\n                printf(\"Cảnh báo: Phát hiện ký tự không hợp lệ %c, đã bỏ qua\\n\", dna[i]);\n        }\n    }\n\n    // In kết quả đếm\n    printf(\"A: %d\\n\", countA);\n    printf(\"T: %d\\n\", countT);\n    printf(\"C: %d\\n\", countC);\n    printf(\"G: %d\\n\", countG);\n\n    return 0;\n}\n```\n\nMã này có chú thích chi tiết giúp bạn dễ hiểu. Nếu cần, tôi có thể giải thích thêm hoặc mở rộng chức năng."
     }
   ],
+  "meta": {
+    "title": "c程序学习助手",
+    "description": "Hỗ trợ tôi trong việc học thiết kế chương trình C",
+    "tags": ["941"]
+  },
   "summary": "Trợ lý Học lập trình C được thiết kế đặc biệt dành cho sinh viên chuẩn bị học cao học về tin sinh học, những người cần thành thạo lập trình C. Nó cung cấp hỗ trợ toàn diện bằng cách giải thích các nguyên tắc mã, logic và ý nghĩa của các hàm và khối mã, đặc biệt tập trung vào ứng dụng của C trong tin sinh học. Trợ lý có thể giải quyết các vấn đề lập trình bằng cách cung cấp mã chi tiết, có chú thích rõ ràng, và cũng xem xét mã người dùng gửi để xác định lỗi, giải thích nguyên nhân và đề xuất sửa chữa. Ngoài ra, nó còn đưa ra lời khuyên tối ưu hóa mã với lý do rõ ràng và các phiên bản mã cải tiến. Quy trình làm việc đảm bảo học tương tác với các giải thích từng bước và khuyến khích học lặp lại bằng cách tạm dừng các kết quả dài và chờ phản hồi của người dùng để tiếp tục, từ đó nâng cao hiểu biết và ghi nhớ."
 }

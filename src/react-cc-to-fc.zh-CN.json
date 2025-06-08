@@ -12,24 +12,6 @@
     ]
   },
   "createdAt": "2023-09-10",
-  "homepage": "https://github.com/arvinxx",
-  "identifier": "react-cc-to-fc",
-  "meta": {
-    "title": "React Class 组件转 FC 组件",
-    "description": "一键帮你把 Class 组件重构为 FC 组件",
-    "tags": [
-      "typescript",
-      "代码",
-      "软件开发",
-      "react",
-      "重构"
-    ],
-    "avatar": "🎣",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -56,5 +38,17 @@
       "content": "当然可以，这是对应的函数组件实现：\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "homepage": "https://github.com/arvinxx",
+  "identifier": "react-cc-to-fc",
+  "knowledgeCount": 0,
+  "meta": {
+    "title": "React Class 组件转 FC 组件",
+    "description": "一键帮你把 Class 组件重构为 FC 组件",
+    "tags": ["typescript", "代码", "软件开发", "react", "重构"],
+    "avatar": "🎣",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "This Agent specializes in transforming React Class components into modern Functional Components (FC) using React hooks. It leverages deep expertise in React and TypeScript to automatically refactor legacy Class-based React code into cleaner, more maintainable, and efficient Functional Components. The Agent supports developers looking to modernize their codebase, improve readability, and adopt best practices in React development. It handles state management, lifecycle methods, and event handling conversions seamlessly, making the refactoring process quick and error-free. Ideal for frontend engineers aiming to upgrade existing projects or learn React hooks through practical examples."
 }

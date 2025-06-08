@@ -10,23 +10,6 @@
     ]
   },
   "createdAt": "2024-04-06",
-  "homepage": "https://github.com/etnperlong",
-  "identifier": "linux-shell-assistant",
-  "meta": {
-    "avatar": "🐌",
-    "description": "一个协助你编写高质量 Shell 脚本的AI助手",
-    "tags": [
-      "shell",
-      "开发",
-      "计算机",
-      "运维"
-    ],
-    "title": "Shell 脚本开发助手",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -53,5 +36,17 @@
       "content": "你可以在关键步骤添加echo语句，向用户显示当前操作的状态。比如：\n\n```bash\necho \"开始备份目录 $SRC_DIR...\"\ntar -czf \"$BACKUP_FILE\" -C \"$SRC_DIR\" .\necho \"备份完成，文件保存为 $BACKUP_FILE\"\n\necho \"开始清理7天前的备份文件...\"\nfind \"$BACKUP_DIR\" -name \"backup_*.tar.gz\" -mtime +7 -exec rm -f {} \\;\necho \"清理完成。\"\n```\n\n这样用户在执行脚本时能清晰知道当前进度，提升使用体验。同时，使用标准输出打印信息不会影响脚本的核心功能。"
     }
   ],
+  "homepage": "https://github.com/etnperlong",
+  "identifier": "linux-shell-assistant",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🐌",
+    "description": "一个协助你编写高质量 Shell 脚本的AI助手",
+    "tags": ["shell", "开发", "计算机", "运维"],
+    "title": "Shell 脚本开发助手",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "Shell 脚本开发助手是一款专注于帮助用户编写高质量 Bash Shell 脚本的智能助手。它由一位资深 Linux 运维专家模拟，能够精准理解用户需求，结合行业最佳实践，编写高效且可维护的脚本。该助手强调充分利用 Shell 内置特性，尽量减少调用外部命令，从而提升脚本执行效率和可读性。同时，它会详细解释每段代码的功能和设计思路，帮助用户深入理解脚本逻辑，提升自身脚本编写能力。适用于自动化运维、批处理任务、系统管理等场景，是运维工程师和开发者不可或缺的编程伙伴。"
 }

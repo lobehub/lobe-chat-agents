@@ -9,17 +9,6 @@
       "¿Quieres aprender cómo gestionar mejor la base de datos usando Prisma y Node.js?"
     ]
   },
-  "meta": {
-    "title": "Experto en generación de datos Prisma",
-    "description": "Especialista en arquitectura de bases de datos, programación Node.js y stack tecnológico Prisma, capaz de proporcionar organización de conocimientos de negocio, recomendaciones de optimización de bases de datos y generación de datos mock.",
-    "tags": [
-      "experto en bases de datos",
-      "experto en node-js",
-      "stack tecnológico prisma",
-      "conocimientos de negocio",
-      "arquitectura de bases de datos"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Aquí tienes un ejemplo de script seed para generar datos mock conforme a tu esquema:\n\n```ts\nimport { PrismaClient } from \"@prisma/client\";\nconst prisma = new PrismaClient();\n\nasync function main() {\n  await prisma.post.deleteMany();\n  await prisma.user.deleteMany();\n\n  const user1 = await prisma.user.create({\n    data: {\n      email: \"alice@example.com\",\n      firstname: \"Alice\",\n      lastname: \"Wang\",\n      password: \"$2b$10$hashedpassword\",\n      role: \"USER\",\n      posts: {\n        create: {\n          title: \"Bienvenido a Prisma\",\n          content: \"Prisma facilita el acceso a bases de datos.\",\n          published: true\n        }\n      }\n    }\n  });\n\n  const user2 = await prisma.user.create({\n    data: {\n      email: \"bob@example.com\",\n      firstname: \"Bob\",\n      lastname: \"Li\",\n      password: \"$2b$10$hashedpassword\",\n      role: \"ADMIN\",\n      posts: {\n        create: [\n          {\n            title: \"Guía de administrador\",\n            content: \"Gestión de usuarios y permisos.\",\n            published: false\n          }\n        ]\n      }\n    }\n  });\n\n  console.log({ user1, user2 });\n}\n\nmain()\n  .catch(e => console.error(e))\n  .finally(async () => {\n    await prisma.$disconnect();\n  });\n```"
     }
   ],
+  "meta": {
+    "title": "Experto en generación de datos Prisma",
+    "description": "Especialista en arquitectura de bases de datos, programación Node.js y stack tecnológico Prisma, capaz de proporcionar organización de conocimientos de negocio, recomendaciones de optimización de bases de datos y generación de datos mock.",
+    "tags": [
+      "experto en bases de datos",
+      "experto en node-js",
+      "stack tecnológico prisma",
+      "conocimientos de negocio",
+      "arquitectura de bases de datos"
+    ]
+  },
   "summary": "El experto en generación de datos con Prisma es un profesional con más de 20 años de experiencia en arquitectura de bases de datos y 10 años en desarrollo con Node.js. Se especializa en paradigmas de diseño de bases de datos, análisis del conocimiento empresarial, optimización de bases de datos y generación de datos simulados (mock) basada en la pila tecnológica Prisma. Este agente puede, según el contexto empresarial proporcionado por el usuario, organizar claramente el conocimiento del negocio, ayudando a definir requisitos y relaciones de datos. Para los archivos schema.prisma enviados por el usuario, puede comprender en profundidad la arquitectura de la base de datos y ofrecer recomendaciones de optimización o soluciones de reparación en función del escenario empresarial. Además, el agente puede generar automáticamente datos simulados que cumplen con los requisitos del negocio, basándose en las mejores prácticas oficiales de Prisma y ejemplos de scripts seed, facilitando los procesos de desarrollo y prueba. Su valor principal radica en combinar con precisión el negocio y la tecnología, mejorando la calidad del diseño de bases de datos y la eficiencia del desarrollo, siendo especialmente adecuado para desarrolladores de Node.js y Prisma que requieren un diseño de arquitectura de bases de datos de alta calidad y simulación de datos."
 }

@@ -9,17 +9,6 @@
       "Wil je dat ik je help de foutafhandeling en beveiliging van je code te verbeteren?"
     ]
   },
-  "meta": {
-    "description": "Gespecialiseerd in Node.js code review, prestatieoptimalisatie, asynchrone programmering, foutafhandeling, code refactoring, afhankelijkheidsbeheer, beveiligingsverbeteringen, testdekking en documentatie.",
-    "tags": [
-      "node-js",
-      "code-optimalisatie",
-      "prestatieoptimalisatie",
-      "asynchrone programmering",
-      "foutafhandeling"
-    ],
-    "title": "Node.js Optimalisator"
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Ik raad aan om try/catch te gebruiken bij belangrijke asynchrone operaties om uitzonderingen op te vangen, en specifieke afhandelingslogica te ontwerpen voor verschillende fouttypes. Daarnaast kun je foutlogboekregistratie uniformeren om het oplossen van problemen te vergemakkelijken. Hier is een verbeterd voorbeeld van foutafhandeling:\n\n```js\nasync function processRequest(req, res) {\n  try {\n    const result = await someAsyncOperation();\n    res.send(result);\n  } catch (err) {\n    if (err instanceof ValidationError) {\n      res.status(400).send({ error: err.message });\n    } else {\n      console.error('Serverfout:', err);\n      res.status(500).send({ error: 'Interne serverfout' });\n    }\n  }\n}\n```"
     }
   ],
+  "meta": {
+    "description": "Gespecialiseerd in Node.js code review, prestatieoptimalisatie, asynchrone programmering, foutafhandeling, code refactoring, afhankelijkheidsbeheer, beveiligingsverbeteringen, testdekking en documentatie.",
+    "tags": [
+      "node-js",
+      "code-optimalisatie",
+      "prestatieoptimalisatie",
+      "asynchrone programmering",
+      "foutafhandeling"
+    ],
+    "title": "Node.js Optimalisator"
+  },
   "summary": "Node.js Optimalisator is een professionele hulp voor codebeoordeling en optimalisatie van Node.js, gericht op het verbeteren van codeprestaties, leesbaarheid en veiligheid. Het kan bestaande Node.js-scripts grondig analyseren, prestatieknelpunten, asynchrone programmeerproblemen en beveiligingslekken identificeren, en biedt concrete verbeteringsadviezen en geoptimaliseerde codevoorbeelden. Ondersteunt het omzetten van callback-functies naar Promise of async/await, verbetert foutafhandelingsmechanismen, refactort de code-structuur, optimaliseert afhankelijkheidsbeheer en verhoogt de testdekking. Bovendien kan deze agent helpen bij het schrijven van gedetailleerde codecommentaren en documentatie, wat team samenwerking en toekomstig onderhoud vergemakkelijkt. Of het nu gaat om individuele ontwikkelaars of teamingenieurs, Node.js Optimalisator helpt de projectkwaliteit en ontwikkelsnelheid aanzienlijk te verbeteren."
 }

@@ -8,17 +8,6 @@
       "Por favor, dime tu comando Docker run y te ayudaré a generar el YAML correspondiente de Compose."
     ]
   },
-  "meta": {
-    "description": "Especializado en convertir comandos Docker run en configuraciones Docker Compose",
-    "tags": [
-      "docker",
-      "docker-compose",
-      "administración de sistemas",
-      "archivos de configuración",
-      "conversión"
-    ],
-    "title": "Docker a DockerCompose"
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,16 @@
       "content": "version: '3'\nservices:\n  redis-server:\n    image: redis:alpine\n    ports:\n      - \"6379:6379\"\n    restart: always"
     }
   ],
+  "meta": {
+    "description": "Especializado en convertir comandos Docker run en configuraciones Docker Compose",
+    "tags": [
+      "docker",
+      "docker-compose",
+      "administración de sistemas",
+      "archivos de configuración",
+      "conversión"
+    ],
+    "title": "Docker a DockerCompose"
+  },
   "summary": "Este Agente se especializa en convertir de manera eficiente el comando Docker run en archivos de configuración YAML de Docker Compose, ayudando a ingenieros de operaciones y desarrolladores a completar rápidamente la configuración de orquestación de contenedores. Los usuarios solo necesitan proporcionar el comando Docker run estándar, y el Agente analizará los parámetros del comando, variables de entorno, mapeo de puertos, montaje de volúmenes y otra información, generando un archivo de configuración que cumple con las especificaciones de Docker Compose, ahorrando la labor manual y minimizando errores. Esta herramienta es especialmente útil en escenarios de gestión de múltiples contenedores, configuración de entornos y despliegue automatizado, mejorando la eficiencia operativa y la precisión de la configuración, siendo un puente entre el inicio de un solo contenedor y la orquestación de múltiples contenedores. La ventaja principal radica en convertir rápidamente y con precisión el comando a YAML, reduciendo los costos de aprendizaje y el tiempo de configuración."
 }

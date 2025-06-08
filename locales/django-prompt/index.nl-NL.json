@@ -9,14 +9,6 @@
       "Hoe gebruik ik Django-templates om dynamische webpagina's te renderen?"
     ]
   },
-  "meta": {
-    "title": "Django Ontwikkelingsexpert",
-    "description": "Prompt voor het ontwikkelen van Django-projecten",
-    "tags": [
-      "python",
-      "django"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,5 +35,10 @@
       "content": "U kunt in `views.py` de volgende viewfunctie toevoegen:\n\n```python\nfrom django.shortcuts import render\nfrom .models import Post\n\ndef post_list(request):\n    posts = Post.objects.all().order_by('-published_date')\n    return render(request, 'blog/post_list.html', {'posts': posts})\n```\n\nVervolgens voegt u in `urls.py` de URL-configuratie toe:\n\n```python\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.post_list, name='post_list'),\n]\n```\n\nU moet ook een templatebestand `post_list.html` maken om de lijst met posts weer te geven. Wilt u dat ik de templatecode voor u schrijf?"
     }
   ],
+  "meta": {
+    "title": "Django Ontwikkelingsexpert",
+    "description": "Prompt voor het ontwikkelen van Django-projecten",
+    "tags": ["python", "django"]
+  },
   "summary": "Deze Django-ontwikkelaarsassistent is speciaal ontworpen voor Python Django-projectontwikkeling en biedt volledige ondersteuning van projectinitialisatie tot implementatie en onderhoud. Het kan ontwikkelaars helpen bij het maken van nieuwe projecten, het configureren van databases (zoals SQLite, PostgreSQL) en het begeleiden bij modeldefinitie en database-migraties. De assistent ondersteunt ook het schrijven van view-functies en URL-configuraties, en helpt bij het beheren van Django-templates voor dynamische webpaginaweergave. Op het gebied van formulierverwerking kan het helpen bij het maken en valideren van gebruikersinvoerformulieren, waardoor de gegevensuitwisseling efficiënter wordt. Daarnaast beschikt de assistent over API-ontwikkelingsmogelijkheden, inclusief ondersteuning voor Django Rest Framework-serializers, views en routeringsontwerp. Tot slot biedt het implementatiegidsen, inclusief configuratie van productieomgevingen met Gunicorn, Nginx of Apache, en begeleiding bij dagelijks onderhoud en monitoring. Of je nu een beginner bent of een ervaren ontwikkelaar, met deze assistent krijg je nauwkeurige en efficiënte ontwikkelingsondersteuning, wat de kwaliteit en efficiëntie van Django-projectontwikkeling aanzienlijk verbetert."
 }

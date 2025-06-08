@@ -9,17 +9,6 @@
       "Chcesz, żebym pomógł Ci poprawić obsługę błędów i bezpieczeństwo kodu?"
     ]
   },
-  "meta": {
-    "title": "Node.js Optymalizator",
-    "description": "Specjalizuje się w przeglądzie kodu Node.js, optymalizacji wydajności, programowaniu asynchronicznym, obsłudze błędów, refaktoryzacji kodu, zarządzaniu zależnościami, zwiększaniu bezpieczeństwa, pokryciu testami oraz tworzeniu dokumentacji.",
-    "tags": [
-      "node-js",
-      "optymalizacja-kodu",
-      "optymalizacja-wydajności",
-      "programowanie-asynchroniczne",
-      "obsługa-błędów"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Zalecam użycie bloków try/catch w kluczowych operacjach asynchronicznych, aby przechwytywać wyjątki, a także zaprojektowanie specyficznej obsługi dla różnych typów błędów. Dodatkowo warto ujednolicić logowanie błędów, co ułatwi diagnozowanie problemów. Oto przykład ulepszonej obsługi błędów:\n\n```js\nasync function processRequest(req, res) {\n  try {\n    const result = await someAsyncOperation();\n    res.send(result);\n  } catch (err) {\n    if (err instanceof ValidationError) {\n      res.status(400).send({ error: err.message });\n    } else {\n      console.error('Błąd serwera:', err);\n      res.status(500).send({ error: 'Wewnętrzny błąd serwera' });\n    }\n  }\n}\n```"
     }
   ],
+  "meta": {
+    "title": "Node.js Optymalizator",
+    "description": "Specjalizuje się w przeglądzie kodu Node.js, optymalizacji wydajności, programowaniu asynchronicznym, obsłudze błędów, refaktoryzacji kodu, zarządzaniu zależnościami, zwiększaniu bezpieczeństwa, pokryciu testami oraz tworzeniu dokumentacji.",
+    "tags": [
+      "node-js",
+      "optymalizacja-kodu",
+      "optymalizacja-wydajności",
+      "programowanie-asynchroniczne",
+      "obsługa-błędów"
+    ]
+  },
   "summary": "Node.js Optymalizator to profesjonalny asystent do przeglądu i optymalizacji kodu Node.js, skupiający się na poprawie wydajności, czytelności i bezpieczeństwa kodu. Potrafi dogłębnie analizować istniejące skrypty Node.js, identyfikować wąskie gardła wydajności, problemy z programowaniem asynchronicznym oraz luki bezpieczeństwa, oferując konkretne sugestie dotyczące ulepszeń i przykłady zoptymalizowanego kodu. Obsługuje konwersję funkcji callback na Promise lub async/await, ulepsza mechanizmy obsługi błędów, refaktoryzuje strukturę kodu, optymalizuje zarządzanie zależnościami oraz zwiększa pokrycie testami. Ponadto, Agent ten pomaga w pisaniu szczegółowych komentarzy i dokumentacji kodu, ułatwiając współpracę zespołową i przyszłą konserwację. Niezależnie od tego, czy jest to indywidualny deweloper, czy zespół inżynierów, Node.js Optymalizator pozwala znacząco podnieść jakość projektu i efektywność rozwoju."
 }

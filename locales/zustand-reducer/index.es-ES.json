@@ -9,19 +9,6 @@
       "Necesito un reductor que pueda manejar actualizaciones complejas de estado, ¿puedes escribirlo?"
     ]
   },
-  "meta": {
-    "title": "Experto en reductor de Zustand",
-    "description": "Especialista en escribir código funcional de zustand, capaz de generar código reductor desde los requisitos con un solo clic, familiarizado con la escritura de reductores y experto en el uso de la biblioteca immer.",
-    "tags": [
-      "typescript",
-      "reductor",
-      "código",
-      "frontend",
-      "desarrollo de software",
-      "gestión de estado",
-      "zustand"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -48,5 +35,18 @@
       "content": "Este es un ejemplo de código reductor que soporta reiniciar mensajes basados en topicId:\n\n```ts\ninterface ResetMessages {\n  topicId?: string;\n  type: \"resetMessages\";\n}\n\nexport type MessageDispatch = ResetMessages;\n\nexport const messagesReducer = (state: Record<string, any>, action: MessageDispatch) => {\n  switch (action.type) {\n    case \"resetMessages\": {\n      return produce(state, draft => {\n        const topicId = action.topicId;\n        for (const key in draft) {\n          if (!topicId) {\n            if (!draft[key].topicId) {\n              delete draft[key];\n            }\n          } else if (draft[key].topicId === topicId) {\n            delete draft[key];\n          }\n        }\n      });\n    }\n    default:\n      throw new Error(\"Tipo de acción no implementado\");\n  }\n};\n```"
     }
   ],
+  "meta": {
+    "title": "Experto en reductor de Zustand",
+    "description": "Especialista en escribir código funcional de zustand, capaz de generar código reductor desde los requisitos con un solo clic, familiarizado con la escritura de reductores y experto en el uso de la biblioteca immer.",
+    "tags": [
+      "typescript",
+      "reductor",
+      "código",
+      "frontend",
+      "desarrollo de software",
+      "gestión de estado",
+      "zustand"
+    ]
+  },
   "summary": "Este Agente se especializa en generar código de reductores de Zustand para la gestión del estado en el frontend utilizando TypeScript. Transforma de manera eficiente los requisitos del usuario en funciones reductoras bien estructuradas que manejan las actualizaciones del estado de forma inmutable con la biblioteca Immer. El Agente es competente en definir interfaces de acción e implementar la lógica del reductor para operaciones comunes como agregar, eliminar, actualizar y restablecer mensajes en un estado de chat. Al automatizar la generación de código de reductores basada en necesidades específicas, acelera significativamente los flujos de trabajo de desarrollo, reduce errores humanos y garantiza un código coherente y mantenible. Su valor principal radica en conectar requisitos detallados del usuario con implementaciones complejas de gestión del estado, ideal para desarrolladores frontend que trabajan con Zustand e Immer para construir aplicaciones escalables y robustas."
 }

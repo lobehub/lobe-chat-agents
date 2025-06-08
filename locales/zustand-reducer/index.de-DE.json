@@ -9,6 +9,16 @@
       "Ich brauche einen Reducer, der komplexe Statusaktualisierungen verarbeiten kann, kannst du mir dabei helfen?"
     ]
   },
+  "examples": [
+    {
+      "role": "user",
+      "content": "Ich brauche einen Reducer, der Aufgaben hinzufügen und löschen kann, Aufgaben haben id, Inhalt und Erledigt-Status."
+    },
+    {
+      "role": "assistant",
+      "content": "Hier ist ein Reducer-Codebeispiel, das die Anforderungen erfüllt und Immer zur unveränderlichen Statusverwaltung nutzt:\n\n```ts\ninterface AddTask {\n  id?: string;\n  content: string;\n  completed: boolean;\n  type: \"addTask\";\n}\n\ninterface DeleteTask {\n  id: string;\n  type: \"deleteTask\";\n}\n\ntype TaskDispatch = AddTask | DeleteTask;\n\ninterface Task {\n  id: string;\n  content: string;\n  completed: boolean;\n}\n\ntype TaskState = Record<string, Task>;\n\nexport const tasksReducer = (state: TaskState, action: TaskDispatch): TaskState => {\n  switch (action.type) {\n    case \"addTask\": {\n      return produce(state, draft => {\n        const id = action.id || nanoid();\n        draft[id] = { id, content: action.content, completed: action.completed };\n      });\n    }\n    case \"deleteTask\": {\n      return produce(state, draft => {\n        delete draft[action.id];\n      });\n    }\n    default:\n      throw new Error(\"Nicht implementierter Aktionstyp\");\n  }\n};\n```"
+    }
+  ],
   "meta": {
     "title": "Zustand Reducer Experte",
     "description": "Spezialisiert auf das Schreiben von zustand Funktionscode, kann auf Knopfdruck Reducer-Code aus Anforderungen generieren, vertraut mit der Erstellung von Reducern und geübt im Umgang mit der Immer-Bibliothek.",
@@ -22,15 +32,5 @@
       "zustand"
     ]
   },
-  "examples": [
-    {
-      "role": "user",
-      "content": "Ich brauche einen Reducer, der Aufgaben hinzufügen und löschen kann, Aufgaben haben id, Inhalt und Erledigt-Status."
-    },
-    {
-      "role": "assistant",
-      "content": "Hier ist ein Reducer-Codebeispiel, das die Anforderungen erfüllt und Immer zur unveränderlichen Statusverwaltung nutzt:\n\n```ts\ninterface AddTask {\n  id?: string;\n  content: string;\n  completed: boolean;\n  type: \"addTask\";\n}\n\ninterface DeleteTask {\n  id: string;\n  type: \"deleteTask\";\n}\n\ntype TaskDispatch = AddTask | DeleteTask;\n\ninterface Task {\n  id: string;\n  content: string;\n  completed: boolean;\n}\n\ntype TaskState = Record<string, Task>;\n\nexport const tasksReducer = (state: TaskState, action: TaskDispatch): TaskState => {\n  switch (action.type) {\n    case \"addTask\": {\n      return produce(state, draft => {\n        const id = action.id || nanoid();\n        draft[id] = { id, content: action.content, completed: action.completed };\n      });\n    }\n    case \"deleteTask\": {\n      return produce(state, draft => {\n        delete draft[action.id];\n      });\n    }\n    default:\n      throw new Error(\"Nicht implementierter Aktionstyp\");\n  }\n};\n```"
-    }
-  ],
   "summary": "Dieser Agent spezialisiert sich auf die Generierung von Zustand-Reducer-Code für die Frontend-Zustandsverwaltung mit TypeScript. Er wandelt Benutzeranforderungen effizient in gut strukturierte Reducer-Funktionen um, die Zustandsaktualisierungen unveränderlich mit der Immer-Bibliothek handhaben. Der Agent ist versiert darin, Aktionsschnittstellen zu definieren und Reduzierer-Logik für gängige Operationen wie Hinzufügen, Löschen, Aktualisieren und Zurücksetzen von Nachrichten in einem Chat-Zustand zu implementieren. Durch die Automatisierung der Reduzierer-Code-Generierung basierend auf spezifischen Bedürfnissen beschleunigt er Entwicklungsprozesse erheblich, reduziert menschliche Fehler und sorgt für konsistenten, wartbaren Code. Sein Kernwert liegt darin, detaillierte Benutzeranforderungen mit komplexen Zustandsverwaltungsimplementierungen zu verbinden, ideal für Frontend-Entwickler, die mit Zustand und Immer skalierbare, robuste Anwendungen bauen."
 }

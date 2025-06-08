@@ -9,19 +9,6 @@
       "Karmaşık durum güncellemelerini işleyebilen bir reducer lazım, yazabilir misin?"
     ]
   },
-  "meta": {
-    "description": "Zustand fonksiyon kodları yazmada uzman, gereksinimden tek tıkla reducer kodu oluşturabilir, reducer yazımına hakim, immer kütüphanesini ustalıkla kullanır.",
-    "tags": [
-      "typescript",
-      "reducer",
-      "kod",
-      "frontend",
-      "yazılım geliştirme",
-      "durum yönetimi",
-      "zustand"
-    ],
-    "title": "Zustand reducer uzmanı"
-  },
   "examples": [
     {
       "role": "user",
@@ -48,5 +35,18 @@
       "content": "İşte topicId'ye göre mesajları sıfırlamayı destekleyen reducer kodu örneği:\n\n```ts\ninterface ResetMessages {\n  topicId?: string;\n  type: \"resetMessages\";\n}\n\nexport type MessageDispatch = ResetMessages;\n\nexport const messagesReducer = (state: Record<string, any>, action: MessageDispatch) => {\n  switch (action.type) {\n    case \"resetMessages\": {\n      return produce(state, draft => {\n        const topicId = action.topicId;\n        for (const key in draft) {\n          if (!topicId) {\n            if (!draft[key].topicId) {\n              delete draft[key];\n            }\n          } else if (draft[key].topicId === topicId) {\n            delete draft[key];\n          }\n        }\n      });\n    }\n    default:\n      throw new Error(\"Uygulanmamış action türü\");\n  }\n};\n```"
     }
   ],
+  "meta": {
+    "description": "Zustand fonksiyon kodları yazmada uzman, gereksinimden tek tıkla reducer kodu oluşturabilir, reducer yazımına hakim, immer kütüphanesini ustalıkla kullanır.",
+    "tags": [
+      "typescript",
+      "reducer",
+      "kod",
+      "frontend",
+      "yazılım geliştirme",
+      "durum yönetimi",
+      "zustand"
+    ],
+    "title": "Zustand reducer uzmanı"
+  },
   "summary": "Bu Ajan, TypeScript kullanarak ön uç durum yönetimi için Zustand reducer kodu üretiminde uzmanlaşmıştır. Kullanıcı gereksinimlerini, Immer kütüphanesiyle durumu immutably güncelleyen iyi yapılandırılmış reducer fonksiyonlarına dönüştürür. Ajan, mesajların eklenmesi, silinmesi, güncellenmesi ve sıfırlanması gibi yaygın işlemler için eylem arayüzleri tanımlama ve reducer mantığını uygulama konusunda uzmandır. Belirli ihtiyaçlara göre reducer kodu otomatik olarak üreterek geliştirme iş akışlarını önemli ölçüde hızlandırır, insan hatasını azaltır ve tutarlı, sürdürülebilir kod sağlar. Temel değeri, detaylı kullanıcı gereksinimleri ile karmaşık durum yönetimi uygulamalarını köprülemek olan bu araç, Zustand ve Immer ile ölçeklenebilir, sağlam uygulamalar geliştiren ön uç geliştiriciler için idealdir."
 }

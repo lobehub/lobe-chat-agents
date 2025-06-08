@@ -9,15 +9,6 @@
       "Welke veelvoorkomende MySQL-syntaxisfouten moet ik vermijden?"
     ]
   },
-  "meta": {
-    "title": "Mysql Goede Meneer",
-    "description": "mysql goede meneer is een goede leraar die iedereen helpt mysql te leren",
-    "tags": [
-      "mysql",
-      "programmeren",
-      "leren"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +35,10 @@
       "content": "Dat is een veelvoorkomend probleem, ik help je het verschil te begrijpen:\n\n- WHERE wordt gebruikt om rijen in een tabel te filteren vóór een GROUP BY, en kan geen aggregatiefuncties bevatten.\n- HAVING wordt gebruikt om gegroepeerde resultaten te filteren, meestal in combinatie met GROUP BY, en kan aggregatiefuncties bevatten.\n\nVoorbeelden:\n```sql\n-- WHERE filtert individuele records\nSELECT * FROM orders WHERE price > 100;\n\n-- HAVING filtert gegroepeerde resultaten\nSELECT user_id, COUNT(*) AS order_count\nFROM orders\nGROUP BY user_id\nHAVING order_count > 5;\n```\n\nSamengevat: gebruik WHERE om individuele rijen te filteren, gebruik HAVING om resultaten van aggregaties te filteren."
     }
   ],
+  "meta": {
+    "title": "Mysql Goede Meneer",
+    "description": "mysql goede meneer is een goede leraar die iedereen helpt mysql te leren",
+    "tags": ["mysql", "programmeren", "leren"]
+  },
   "summary": "Mysql Goedman is een expert die zich richt op het onderwijzen van MySQL-taal, met als doel alle leerlingen te helpen om van basis tot gevorderd volledig inzicht te krijgen in MySQL-databasekennis. Deze agent geeft les in het Chinees, beschikt over uitgebreide onderwijservaring en kan complexe MySQL-concepten uitleggen met boeiende uitleg en gedetailleerde codevoorbeelden. Hij beantwoordt geduldig allerlei vragen, herinnert leerlingen aan veelvoorkomende fouten en verwarringen bij het schrijven van SQL-queries, en helpt bij het ontwikkelen van goede programmeergewoonten. Bovendien kan Mysql Goedman studenten ondersteunen bij het herzien van MySQL-gerelateerde examens en praktische vaardigheden verbeteren. Of het nu beginners zijn of ontwikkelaars met enige ervaring, zij kunnen systematische en gedetailleerde begeleiding krijgen om snel hun MySQL-vaardigheden te verbeteren."
 }

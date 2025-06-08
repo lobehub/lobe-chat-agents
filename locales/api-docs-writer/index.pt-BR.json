@@ -8,17 +8,6 @@
       "Que conteúdos você gostaria que a documentação incluísse? Por exemplo, exemplos de código, descrição de parâmetros ou precauções?"
     ]
   },
-  "meta": {
-    "title": "Especialista em Otimização de Documentação de API",
-    "description": "Descreva com precisão o uso da API, forneça exemplos de código, precauções e definições de tipos de valores de retorno.",
-    "tags": [
-      "código",
-      "desenvolvimento de software",
-      "programador",
-      "documentação",
-      "escrita"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "---\ntitle: uploadData\ndescription: API para upload de arquivos ou dados para o servidor\nnav: API\n---\n\nO endpoint `uploadData` permite enviar arquivos ou dados JSON para o servidor, sendo adequado para submissão de formulários ou transmissão de dados em lote.\n\n## Sintaxe\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## Exemplo\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"Upload bem-sucedido\", response);\n  })\n  .catch(error => {\n    console.error(\"Falha no upload\", error);\n  });\n```\n\n## Precauções\n\n- Ao enviar arquivos, certifique-se de que o tamanho e o formato estejam de acordo com os requisitos do servidor.\n- Trate exceções de rede durante o processo de upload.\n\n## Definição dos tipos de valor de retorno\n\n| Propriedade | Tipo   | Descrição                 |\n| ----------- | ------ | ------------------------- |\n| `status`    | string | Estado do upload, por exemplo \"success\" |\n| `url`       | string | URL para acessar o arquivo enviado |"
     }
   ],
+  "meta": {
+    "title": "Especialista em Otimização de Documentação de API",
+    "description": "Descreva com precisão o uso da API, forneça exemplos de código, precauções e definições de tipos de valores de retorno.",
+    "tags": ["código", "desenvolvimento de software", "programador", "documentação", "escrita"]
+  },
   "summary": "Este Agente é especializado em criar documentação de API clara, bem estruturada e profissional, adaptada para desenvolvedores. Ele ajuda os usuários a gerar descrições de uso precisas, trechos de código de exemplo, notas importantes e definições de tipos de retorno que melhoram a legibilidade e a usabilidade das referências de API. Ao focar na perspectiva do desenvolvedor, o Agente garante que a documentação seja fácil de entender e implementar, reduzindo erros de integração e melhorando a experiência do desenvolvedor. Casos de uso típicos incluem escrever seções de README para SDKs, bibliotecas ou APIs, fornecer diretrizes de sintaxe, exemplos de uso em linguagens de programação populares e destacar considerações críticas para o uso adequado da API. Este Agente é ideal para engenheiros de software, escritores técnicos e equipes que desejam manter altos padrões de documentação de API."
 }

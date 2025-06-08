@@ -8,17 +8,6 @@
       "Pouvez-vous refactoriser un composant Class complexe avec état et méthodes du cycle de vie ?"
     ]
   },
-  "meta": {
-    "description": "Un clic pour transformer votre composant Class en composant FC",
-    "tags": [
-      "typescript",
-      "code",
-      "développement logiciel",
-      "react",
-      "refactorisation"
-    ],
-    "title": "Conversion de composants React Class en composants FC"
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Bien sûr, voici la version refactorisée du composant TodoList en composant fonctionnel avec hooks :\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "description": "Un clic pour transformer votre composant Class en composant FC",
+    "tags": ["typescript", "code", "développement logiciel", "react", "refactorisation"],
+    "title": "Conversion de composants React Class en composants FC"
+  },
   "summary": "Cet agent est spécialisé dans la transformation de composants React Class en composants fonctionnels modernes (FC) en utilisant React hooks. Il exploite une expertise approfondie en React et TypeScript pour refactoriser automatiquement du code React basé sur des classes en composants fonctionnels plus propres, plus maintenables et plus efficaces. Il aide les développeurs à moderniser leur code, améliorer la lisibilité et adopter les meilleures pratiques en React. Il gère la conversion de la gestion d'état, des méthodes du cycle de vie et des événements pour rendre le processus de refactorisation rapide et sans erreur. Idéal pour les ingénieurs front-end souhaitant mettre à jour leurs projets existants ou apprendre React hooks à travers des exemples pratiques."
 }

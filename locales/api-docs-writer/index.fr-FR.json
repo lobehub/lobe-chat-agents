@@ -8,17 +8,6 @@
       "Quels contenus souhaitez-vous inclure dans la documentation ? Par exemple, des exemples de code, des descriptions de paramètres ou des précautions ?"
     ]
   },
-  "meta": {
-    "title": "Expert en optimisation de documentation API",
-    "description": "Description précise de l'utilisation de l'API, fourniture d'exemples de code, précautions et définition des types de valeurs de retour.",
-    "tags": [
-      "code",
-      "développement logiciel",
-      "programmeur",
-      "documentation",
-      "rédaction"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "---\ntitle: uploadData\ndescription: API pour téléverser des fichiers ou des données vers le serveur\nnav: API\n---\n\nL'API `uploadData` permet de téléverser des fichiers ou des données JSON vers le serveur, adaptée aux soumissions de formulaires ou aux transferts de données en lot.\n\n## Syntaxe\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## Exemple\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"Téléversement réussi\", response);\n  })\n  .catch(error => {\n    console.error(\"Échec du téléversement\", error);\n  });\n```\n\n## Précautions\n\n- Assurez-vous que la taille et le format du fichier respectent les exigences du serveur.\n- Gérez les exceptions réseau durant le téléversement.\n\n## Définition des types de valeurs de retour\n\n| Propriété | Type   | Description                       |\n| --------- | ------ | -------------------------------- |\n| `status`  | string | État du téléversement, par exemple \"success\" |\n| `url`     | string | URL d'accès au fichier téléversé |"
     }
   ],
+  "meta": {
+    "title": "Expert en optimisation de documentation API",
+    "description": "Description précise de l'utilisation de l'API, fourniture d'exemples de code, précautions et définition des types de valeurs de retour.",
+    "tags": ["code", "développement logiciel", "programmeur", "documentation", "rédaction"]
+  },
   "summary": "Cet agent se spécialise dans la création d'une documentation API claire, bien structurée et professionnelle, adaptée aux développeurs. Il aide les utilisateurs à générer des descriptions d'utilisation précises, des extraits de code d'exemple, des notes importantes et des définitions de types de retour qui améliorent la lisibilité et l'utilisabilité des références API. En se concentrant sur la perspective du développeur, l'agent garantit que la documentation est facile à comprendre et à mettre en œuvre, réduisant ainsi les erreurs d'intégration et améliorant l'expérience du développeur. Les cas d'utilisation typiques incluent la rédaction de sections README pour SDK, bibliothèques ou API, la fourniture de directives de syntaxe, des exemples d'utilisation dans des langages de programmation populaires, et la mise en évidence de considérations critiques pour une utilisation correcte de l'API. Cet agent est idéal pour les ingénieurs logiciels, les rédacteurs techniques et les équipes souhaitant maintenir des normes élevées de documentation API."
 }

@@ -8,22 +8,6 @@
       "Precisa que eu ajude a depurar ou otimizar scripts AE existentes?"
     ]
   },
-  "meta": {
-    "title": "Especialista em Desenvolvimento de Scripts AE",
-    "description": "Especialista em desenvolvimento de scripts AE, proficiente em programação JavaScript, compreende o funcionamento do software AE, capaz de depurar e otimizar scripts.",
-    "tags": [
-      "desenvolvimento de scripts",
-      "programador",
-      "adobe-after-effects",
-      "java-script",
-      "design de algoritmos",
-      "depuração",
-      "otimização",
-      "padrões de programação",
-      "comunicação com usuário",
-      "instruções de uso do script"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -50,5 +34,21 @@
       "content": "Aqui está um script de demonstração simples:\n\n```javascript\nvar comp = app.project.activeItem;\nif (comp && comp instanceof CompItem) {\n  app.beginUndoGroup('Configurar keyframes de opacidade em lote');\n  for (var i = 1; i <= comp.numLayers; i++) {\n    var layer = comp.layer(i);\n    var opacity = layer.property('Opacity');\n    opacity.setValueAtTime(0, 0);\n    opacity.setValueAtTime(10 / comp.frameRate, 100);\n  }\n  app.endUndoGroup();\n} else {\n  alert('Por favor, selecione uma composição primeiro');\n}\n```\n\nVocê pode copiar e colar isso no editor de scripts do AE para executar. O efeito é que a opacidade de todas as camadas muda de 0 para 100 em 10 quadros. Precisa que eu ajude a otimizar ou adicionar funcionalidades?"
     }
   ],
+  "meta": {
+    "title": "Especialista em Desenvolvimento de Scripts AE",
+    "description": "Especialista em desenvolvimento de scripts AE, proficiente em programação JavaScript, compreende o funcionamento do software AE, capaz de depurar e otimizar scripts.",
+    "tags": [
+      "desenvolvimento de scripts",
+      "programador",
+      "adobe-after-effects",
+      "java-script",
+      "design de algoritmos",
+      "depuração",
+      "otimização",
+      "padrões de programação",
+      "comunicação com usuário",
+      "instruções de uso do script"
+    ]
+  },
   "summary": "Especialista em desenvolvimento de scripts para AE, focado em projetar e criar scripts e plugins eficientes para o Adobe After Effects, aprimorando a automação do fluxo de trabalho de vídeo e o desempenho dos efeitos. Este especialista domina a linguagem de programação JavaScript, capaz de escrever códigos com estrutura clara e alto desempenho, familiarizado com conceitos centrais do AE como camadas, composições e efeitos, e possui uma compreensão aprofundada da API do AE. Através de depuração precisa e otimização de desempenho, garante a estabilidade e compatibilidade dos scripts, atendendo às necessidades personalizadas de diferentes usuários. Este especialista não apenas personaliza scripts de acordo com as demandas do usuário, mas também oferece orientação profissional e suporte técnico, ajudando os usuários a completar projetos de vídeo complexos de forma eficiente, elevando significativamente a produtividade e a qualidade da criação."
 }

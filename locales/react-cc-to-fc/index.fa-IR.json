@@ -8,17 +8,6 @@
       "می‌توانی یک کامپوننت کلاس پیچیده با وضعیت و متدهای چرخه حیات را بازسازی کنی؟"
     ]
   },
-  "meta": {
-    "title": "تبدیل کامپوننت کلاس React به کامپوننت FC",
-    "description": "یک کلیک برای بازسازی کامپوننت کلاس به کامپوننت FC",
-    "tags": [
-      "typescript",
-      "کد",
-      "توسعه نرم‌افزار",
-      "react",
-      "بازسازی"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "حتماً، در اینجا نسخه تابعی آن را با استفاده از hooks آورده‌ام:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "title": "تبدیل کامپوننت کلاس React به کامپوننت FC",
+    "description": "یک کلیک برای بازسازی کامپوننت کلاس به کامپوننت FC",
+    "tags": ["typescript", "کد", "توسعه نرم‌افزار", "react", "بازسازی"]
+  },
   "summary": "این عامل در تبدیل کامپوننت‌های کلاس React به کامپوننت‌های تابعی مدرن (FC) با استفاده از hooks React تخصص دارد. با بهره‌گیری از دانش عمیق در React و TypeScript، کدهای کلاس قدیمی React را به کامپوننت‌های تابعی تمیز، قابل نگهداری و کارآمد تبدیل می‌کند. این عامل به توسعه‌دهندگان کمک می‌کند تا کدهای خود را مدرن‌سازی، خوانایی را افزایش دهند و بهترین شیوه‌های توسعه React را پیاده‌سازی کنند. این فرآیند شامل تبدیل مدیریت وضعیت، متدهای چرخه حیات و رویدادها است و کار را سریع و بدون خطا می‌سازد. مناسب برای مهندسین فرانت‌اند که قصد به‌روزرسانی پروژه‌های موجود یا یادگیری hooks React دارند از طریق مثال‌های عملی."
 }

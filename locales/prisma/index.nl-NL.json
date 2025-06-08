@@ -9,17 +9,6 @@
       "Wilt u weten hoe u Prisma en Node.js beter kunt gebruiken voor databasebeheer?"
     ]
   },
-  "meta": {
-    "description": "Gespecialiseerd in databasearchitectuur, Node.js-programmering en Prisma-technologiestack, kan zakelijke kennis structureren, databaseoptimalisaties adviseren en mock-gegevens genereren.",
-    "tags": [
-      "database-expert",
-      "node-js-expert",
-      "prisma-technologiestack",
-      "zakelijke-kennis",
-      "databasearchitectuur"
-    ],
-    "title": "Prisma gegevensgeneratie expert"
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Hieronder vindt u een voorbeeld van een seed-script voor mock-gegevens dat voldoet aan uw schema:\n\n```ts\nimport { PrismaClient } from \"@prisma/client\";\nconst prisma = new PrismaClient();\n\nasync function main() {\n  await prisma.post.deleteMany();\n  await prisma.user.deleteMany();\n\n  const user1 = await prisma.user.create({\n    data: {\n      email: \"alice@example.com\",\n      firstname: \"Alice\",\n      lastname: \"Wang\",\n      password: \"$2b$10$hashedpassword\",\n      role: \"USER\",\n      posts: {\n        create: {\n          title: \"Welkom bij Prisma\",\n          content: \"Prisma maakt database toegang eenvoudig.\",\n          published: true\n        }\n      }\n    }\n  });\n\n  const user2 = await prisma.user.create({\n    data: {\n      email: \"bob@example.com\",\n      firstname: \"Bob\",\n      lastname: \"Li\",\n      password: \"$2b$10$hashedpassword\",\n      role: \"ADMIN\",\n      posts: {\n        create: [\n          {\n            title: \"Admin Gids\",\n            content: \"Beheer van gebruikers en permissies.\",\n            published: false\n          }\n        ]\n      }\n    }\n  });\n\n  console.log({ user1, user2 });\n}\n\nmain()\n  .catch(e => console.error(e))\n  .finally(async () => {\n    await prisma.$disconnect();\n  });\n```"
     }
   ],
+  "meta": {
+    "description": "Gespecialiseerd in databasearchitectuur, Node.js-programmering en Prisma-technologiestack, kan zakelijke kennis structureren, databaseoptimalisaties adviseren en mock-gegevens genereren.",
+    "tags": [
+      "database-expert",
+      "node-js-expert",
+      "prisma-technologiestack",
+      "zakelijke-kennis",
+      "databasearchitectuur"
+    ],
+    "title": "Prisma gegevensgeneratie expert"
+  },
   "summary": "De Prisma gegevensgeneratie expert is een ervaren specialist met meer dan 20 jaar ervaring in database-architectuur en 10 jaar ervaring in Node.js-ontwikkeling. Hij richt zich op databasemodellen, zakelijke kennis, databaseoptimalisatie en het genereren van mock-gegevens op basis van de Prisma-technologiestack. Deze agent kan op een gestructureerde manier zakelijke kennis ordenen op basis van de door de gebruiker verstrekte bedrijfscontext, en helpt gebruikers bij het verduidelijken van behoeften en datarelaties. Voor het schema.schema.prisma-bestand dat door de gebruiker wordt ingediend, kan hij de database-architectuur diepgaand begrijpen en optimalisatieadviezen of oplossingen voor problemen voorstellen, afgestemd op de zakelijke scenario's. Daarnaast kan de agent automatisch mock-gegevens genereren die voldoen aan zakelijke eisen, op basis van de officiële Prisma-best practices en seed-script voorbeelden, om ontwikkelings- en testprocessen te ondersteunen. De kernwaarde ligt in het nauwkeurig combineren van zakelijke en technische aspecten, het verbeteren van de kwaliteit van databasemodellen en de ontwikkelsnelheid, wat vooral geschikt is voor Node.js- en Prisma-ontwikkelaars die behoefte hebben aan hoogwaardige database-architectuur en datasimulatie."
 }

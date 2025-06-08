@@ -11,20 +11,6 @@
     ]
   },
   "createdAt": "2024-07-28",
-  "homepage": "https://github.com/YBGuoYang",
-  "identifier": "sichuan-university-941-c-programming-assistant",
-  "meta": {
-    "avatar": "🧙‍♂️",
-    "description": "辅助我进行c程序设计的学习",
-    "tags": [
-      "941"
-    ],
-    "title": "c程序学习助手",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -51,5 +37,17 @@
       "content": "好的，下面是一个简单的C程序示例，用于读取DNA序列并统计碱基数量：\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // 存储DNA序列的字符数组，最大长度99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // 计数变量\n\n    printf(\"请输入DNA序列（仅包含A、T、C、G）：\\n\");\n    scanf(\"%s\", dna);  // 读取输入字符串\n\n    int length = strlen(dna);  // 获取字符串长度\n\n    // 遍历字符串，统计每个碱基的数量\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // 非法字符处理\n                printf(\"警告：检测到非法字符 %c，已忽略\\n\", dna[i]);\n        }\n    }\n\n    // 输出统计结果\n    printf(\"A: %d\\n\", countA);\n    printf(\"T: %d\\n\", countT);\n    printf(\"C: %d\\n\", countC);\n    printf(\"G: %d\\n\", countG);\n\n    return 0;\n}\n```\n\n这段代码包含详细注释，方便理解。如果你需要，我可以帮你进一步解释代码细节或扩展功能。"
     }
   ],
+  "homepage": "https://github.com/YBGuoYang",
+  "identifier": "sichuan-university-941-c-programming-assistant",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🧙‍♂️",
+    "description": "辅助我进行c程序设计的学习",
+    "tags": ["941"],
+    "title": "c程序学习助手",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "The C Programming Learning Assistant is designed specifically for students preparing for bioinformatics graduate studies who need to master C programming. It offers comprehensive support by explaining code principles, logic, and the significance of functions and code blocks, especially focusing on C applications in bioinformatics. The assistant can solve programming problems by providing detailed, well-commented code, and it also reviews user-submitted code to identify errors, explain their causes, and suggest corrections. Additionally, it offers code optimization advice with clear reasoning and improved code versions. The workflow ensures interactive learning with step-by-step explanations and encourages iterative learning by pausing lengthy outputs and awaiting user prompts to continue, thereby enhancing understanding and retention."
 }

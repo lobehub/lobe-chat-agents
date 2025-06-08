@@ -8,16 +8,6 @@
       "Pouvez-vous m'aider à optimiser un script Shell existant ?"
     ]
   },
-  "meta": {
-    "title": "Assistant de développement de scripts Shell",
-    "description": "Un assistant IA qui vous aide à écrire des scripts Shell de haute qualité",
-    "tags": [
-      "shell",
-      "développement",
-      "informatique",
-      "opérations"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +34,10 @@
       "content": "Vous pouvez ajouter des commandes echo aux étapes clés pour afficher à l'utilisateur l'état actuel des opérations. Par exemple :\n\n```bash\necho \"Début de la sauvegarde du répertoire $SRC_DIR...\"\ntar -czf \"$BACKUP_FILE\" -C \"$SRC_DIR\" .\necho \"Sauvegarde terminée, fichier enregistré sous $BACKUP_FILE\"\n\necho \"Début du nettoyage des fichiers de sauvegarde de plus de 7 jours...\"\nfind \"$BACKUP_DIR\" -name \"backup_*.tar.gz\" -mtime +7 -exec rm -f {} \\;\necho \"Nettoyage terminé.\"\n```\n\nAinsi, l'utilisateur peut clairement suivre la progression lors de l'exécution du script, ce qui améliore l'expérience d'utilisation. Par ailleurs, afficher ces informations sur la sortie standard n'affecte pas les fonctionnalités principales du script."
     }
   ],
+  "meta": {
+    "title": "Assistant de développement de scripts Shell",
+    "description": "Un assistant IA qui vous aide à écrire des scripts Shell de haute qualité",
+    "tags": ["shell", "développement", "informatique", "opérations"]
+  },
   "summary": "L'assistant de développement de scripts Shell est un assistant intelligent dédié à aider les utilisateurs à écrire des scripts Bash de haute qualité. Il est simulé par un expert en administration Linux expérimenté, capable de comprendre précisément les besoins de l'utilisateur, en combinant les meilleures pratiques du secteur, pour écrire des scripts efficaces et faciles à maintenir. Cet assistant met l'accent sur l'utilisation maximale des fonctionnalités intégrées de Shell, en réduisant au minimum l'appel à des commandes externes, afin d'améliorer l'efficacité d'exécution et la lisibilité des scripts. De plus, il expliquera en détail la fonction et la logique de chaque segment de code, aidant l'utilisateur à approfondir sa compréhension de la logique des scripts et à améliorer ses compétences en rédaction de scripts. Convient pour l'automatisation des opérations, les tâches par lot, la gestion système, etc., c'est un partenaire de programmation indispensable pour les ingénieurs en opérations et les développeurs."
 }

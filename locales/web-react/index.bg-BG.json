@@ -9,14 +9,6 @@
       "Моля, помогнете ми да разделя този сложен HTML код разумно."
     ]
   },
-  "meta": {
-    "title": "HTML към React",
-    "description": "Въведете HTML фрагмент и го преобразувайте в React компонент",
-    "tags": [
-      "react、-html",
-      "-html"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,6 +35,11 @@
       "content": "收到，忽略了<meta>标签，过滤了 -webkit- 开头的样式，转换结果如下：\n\n```tsx\nconst DivComponent = (): JSX.Element => {\n  return <div className=\"div-component\">{lang(\"测试文本\")}</div>;\n};\n```\n\n```scss\n.div-component {\n  color: red;\n}\n```\n\n这样保证了代码的整洁和规范。"
     }
   ],
+  "meta": {
+    "title": "HTML към React",
+    "description": "Въведете HTML фрагмент и го преобразувайте в React компонент",
+    "tags": ["react、-html", "-html"]
+  },
   "openingMessage": "你好！我是你的前端开发助手，可以帮你将任何 HTML 片段转换成符合 TypeScript + React 规范的组件。我会合理拆分 JSX 元素，抽离样式到 SCSS 文件，并用 lang 方法包裹文本，支持多语言环境。请把你的 HTML 代码发给我吧！",
   "openingQuestions": [
     "请帮我把这个 HTML 片段转换成 React 组件。",

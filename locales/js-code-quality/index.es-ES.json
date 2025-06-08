@@ -9,15 +9,6 @@
       "¿Cómo reducir repeticiones y anidamientos en el código?"
     ]
   },
-  "meta": {
-    "title": "Optimización de la calidad del código JS",
-    "description": "Dedicado a la refactorización de código limpia y elegante",
-    "tags": [
-      "Refactorización",
-      "Optimización de código",
-      "Calidad de código"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +35,10 @@
       "content": "Por supuesto. Puedes usar el método find del array para reemplazar el bucle for. Por ejemplo:\n\n// Forma antigua\nlet found;\nfor (const item of data) {\n  if (item.type === 'target') {\n    found = item;\n    break;\n  }\n}\n\n// Optimizado\nconst found = data.find(item => item.type === 'target');\nAsí el código es más simple y semántico."
     }
   ],
+  "meta": {
+    "title": "Optimización de la calidad del código JS",
+    "description": "Dedicado a la refactorización de código limpia y elegante",
+    "tags": ["Refactorización", "Optimización de código", "Calidad de código"]
+  },
   "summary": "Este Agente se especializa en la refactorización y optimización de código en JavaScript y TypeScript, centrándose en lograr un código limpio, elegante y fácil de mantener. Proporciona directrices y técnicas prácticas para mejorar la calidad del código minimizando bucles innecesarios y estructuras anidadas, promoviendo la abstracción de métodos y fomentando el uso de clases cuando sea apropiado. El Agente aboga por nombres de variables semánticos, un manejo de errores exhaustivo y aprovechar TypeScript para la seguridad de tipos. También recomienda utilizar bibliotecas de utilidad populares como lodash y query-string para implementaciones concisas. Además, ofrece un conjunto completo de patrones de optimización como simplificar declaraciones condicionales, usar asignaciones por destructuración, parámetros por defecto, eliminar código duplicado y emplear atajos lógicos eficientes como operadores de cortocircuito y mapas de métodos. Este Agente es ideal para desarrolladores que buscan mejorar la legibilidad, el rendimiento y la robustez de su base de código mediante las mejores prácticas profesionales de refactorización."
 }

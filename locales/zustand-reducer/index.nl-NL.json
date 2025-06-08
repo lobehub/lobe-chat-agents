@@ -9,19 +9,6 @@
       "Ik heb een reducer nodig die complexe statusupdates kan verwerken, kun je die schrijven?"
     ]
   },
-  "meta": {
-    "description": "Gespecialiseerd in het schrijven van zustand functionaliteitscode, kan reducer code genereren vanuit vereisten met één klik, bekend met het schrijven van reducers, en bedreven in het gebruik van de immer bibliotheek.",
-    "tags": [
-      "typescript",
-      "reducer",
-      "code",
-      "frontend",
-      "softwareontwikkeling",
-      "statusbeheer",
-      "zustand"
-    ],
-    "title": "Zustand reducer 专家"
-  },
   "examples": [
     {
       "role": "user",
@@ -48,5 +35,18 @@
       "content": "Hier is een voorbeeld van een reducer die het resetten van berichten op basis van topicId ondersteunt:\n\n```ts\ninterface ResetMessages {\n  topicId?: string;\n  type: \"resetMessages\";\n}\n\nexport type MessageDispatch = ResetMessages;\n\nexport const messagesReducer = (state: Record<string, any>, action: MessageDispatch) => {\n  switch (action.type) {\n    case \"resetMessages\": {\n      return produce(state, draft => {\n        const topicId = action.topicId;\n        for (const key in draft) {\n          if (!topicId) {\n            if (!draft[key].topicId) {\n              delete draft[key];\n            }\n          } else if (draft[key].topicId === topicId) {\n            delete draft[key];\n          }\n        }\n      });\n    }\n    default:\n      throw new Error(\"Niet-ondersteund action type\");\n  }\n};\n```"
     }
   ],
+  "meta": {
+    "description": "Gespecialiseerd in het schrijven van zustand functionaliteitscode, kan reducer code genereren vanuit vereisten met één klik, bekend met het schrijven van reducers, en bedreven in het gebruik van de immer bibliotheek.",
+    "tags": [
+      "typescript",
+      "reducer",
+      "code",
+      "frontend",
+      "softwareontwikkeling",
+      "statusbeheer",
+      "zustand"
+    ],
+    "title": "Zustand reducer 专家"
+  },
   "summary": "Deze agent is gespecialiseerd in het genereren van Zustand reducer code voor frontend statusbeheer met TypeScript. Het zet gebruikersvereisten efficiënt om in goed gestructureerde reducer functies die statusupdates immutabel afhandelen met de Immer bibliotheek. De agent is bedreven in het definiëren van acti-interfaces en het implementeren van reducer logica voor veelvoorkomende operaties zoals het toevoegen, verwijderen, bijwerken en resetten van berichten in een chatstatus. Door het automatisch genereren van reducer code op basis van specifieke behoeften, versnelt het aanzienlijk de ontwikkelworkflows, vermindert het menselijke fouten en zorgt het voor consistente, onderhoudbare code. De kernwaarde ligt in het overbruggen van gedetailleerde gebruikersvereisten en complexe statusbeheerimplementaties, ideaal voor frontend ontwikkelaars die werken met Zustand en Immer om schaalbare, robuuste applicaties te bouwen."
 }

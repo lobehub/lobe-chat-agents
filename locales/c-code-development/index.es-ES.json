@@ -9,13 +9,6 @@
       "Ayúdame a escribir un programa C++ para este problema de programación competitiva."
     ]
   },
-  "meta": {
-    "title": "Código C++",
-    "tags": [
-      "código"
-    ],
-    "description": "Código C++ completo"
-  },
   "examples": [
     {
       "role": "user",
@@ -34,5 +27,10 @@
       "content": "```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    int n = s.length();\n    bool isPalindrome = true;\n    for (int i = 0; i < n / 2; i++) {\n        if (s[i] != s[n - i - 1]) {\n            isPalindrome = false;\n            break;\n        }\n    }\n    if (isPalindrome) cout << \"YES\" << endl;\n    else cout << \"NO\" << endl;\n    return 0;\n}\n```"
     }
   ],
+  "meta": {
+    "title": "Código C++",
+    "tags": ["código"],
+    "description": "Código C++ completo"
+  },
   "summary": "Este agente se especializa en completar tareas de programación en C++, específicamente diseñadas para escenarios de programación competitiva. Proporciona fragmentos de código C++ completamente funcionales que cumplen con las restricciones y requisitos de los jueces en línea, asegurando una alta compatibilidad y un uso mínimo de bibliotecas avanzadas o poco comunes. El agente incluye el encabezado estándar <bits/stdc++.h> y aplica 'using namespace std;' para simplificar. Utiliza construcciones básicas de programación como arreglos, cadenas y bucles, evitando estructuras de datos y métodos complejos para prevenir errores de desbordamiento y mantener una sintaxis sencilla. Esto lo hace ideal para usuarios que buscan completar código C++ rápido, confiable y limpio para problemas algorítmicos o desafíos de codificación sin explicaciones adicionales."
 }

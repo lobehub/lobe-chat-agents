@@ -11,20 +11,6 @@
     ]
   },
   "createdAt": "2023-10-06",
-  "homepage": "https://github.com/dcityteg",
-  "identifier": "c-code-development",
-  "meta": {
-    "avatar": "😀",
-    "description": "Complete C++ code",
-    "tags": [
-      "code"
-    ],
-    "title": "C++ Code",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -43,5 +29,17 @@
       "content": "```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    int n = s.length();\n    bool isPalindrome = true;\n    for (int i = 0; i < n / 2; i++) {\n        if (s[i] != s[n - i - 1]) {\n            isPalindrome = false;\n            break;\n        }\n    }\n    if (isPalindrome) cout << \"YES\" << endl;\n    else cout << \"NO\" << endl;\n    return 0;\n}\n```"
     }
   ],
+  "homepage": "https://github.com/dcityteg",
+  "identifier": "c-code-development",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "😀",
+    "description": "Complete C++ code",
+    "tags": ["code"],
+    "title": "C++ Code",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "This Agent specializes in completing C++ programming tasks, particularly tailored for competitive programming scenarios. It provides fully functional C++ code snippets that adhere to the constraints and requirements of online judges, ensuring high compatibility and minimal use of advanced or uncommon libraries. The Agent includes the standard header <bits/stdc++.h> and applies 'using namespace std;' for simplicity. It uses basic programming constructs such as arrays, strings, and loops, avoiding complex data structures and methods to prevent out-of-bounds errors and maintain straightforward syntax. This makes it ideal for users seeking quick, reliable, and clean C++ code completions for algorithmic problems or coding challenges without additional explanations."
 }

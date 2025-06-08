@@ -9,13 +9,6 @@
       "Chcesz dowiedzieć się, jak język C jest wykorzystywany w bioinformatyce?"
     ]
   },
-  "meta": {
-    "title": "Asystent nauki programowania w języku C",
-    "description": "Pomoc w nauce programowania w języku C",
-    "tags": [
-      "941"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +35,10 @@
       "content": "Oczywiście, oto prosty program w języku C, który wczytuje łańcuch znaków reprezentujący sekwencję DNA i zlicza ilość nukleotydów A, T, C oraz G:\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // Tablica znaków do przechowywania sekwencji DNA, maksymalna długość 99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // Zmienne do zliczania poszczególnych nukleotydów\n\n    printf(\"Wprowadź sekwencję DNA (tylko znaki A, T, C, G):\\n\");\n    scanf(\"%s\", dna);  // Wczytanie łańcucha znaków\n\n    int length = strlen(dna);  // Obliczenie długości łańcucha\n\n    // Pętla przechodząca przez każdy znak sekwencji\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // Obsługa nieprawidłowych znaków\n                printf(\"Ostrzeżenie: wykryto nieprawidłowy znak %c, pomijam\\n\", dna[i]);\n        }\n    }\n\n    // Wyświetlenie wyników zliczania\n    printf(\"A: %d\\n\", countA);\n    printf(\"T: %d\\n\", countT);\n    printf(\"C: %d\\n\", countC);\n    printf(\"G: %d\\n\", countG);\n\n    return 0;\n}\n```\n\nKod jest szczegółowo skomentowany, aby ułatwić jego zrozumienie. Jeśli chcesz, mogę pomóc wyjaśnić poszczególne fragmenty lub rozbudować program o dodatkowe funkcje."
     }
   ],
+  "meta": {
+    "title": "Asystent nauki programowania w języku C",
+    "description": "Pomoc w nauce programowania w języku C",
+    "tags": ["941"]
+  },
   "summary": "Asystent nauki języka C został specjalnie zaprojektowany dla studentów przygotowujących się do studiów magisterskich z bioinformatyki, którzy muszą opanować programowanie w C. Oferuje kompleksowe wsparcie poprzez wyjaśnianie zasad kodowania, logiki oraz znaczenia funkcji i bloków kodu, ze szczególnym naciskiem na zastosowania języka C w bioinformatyce. Asystent może rozwiązywać problemy programistyczne, dostarczając szczegółowy, dobrze skomentowany kod, a także przegląda kod przesłany przez użytkownika, aby zidentyfikować błędy, wyjaśnić ich przyczyny i zasugerować poprawki. Dodatkowo oferuje porady dotyczące optymalizacji kodu z jasnym uzasadnieniem i ulepszonymi wersjami kodu. Przepływ pracy zapewnia interaktywną naukę z krok po kroku wyjaśnieniami i zachęca do iteracyjnego uczenia się poprzez wstrzymywanie długich odpowiedzi i oczekiwanie na polecenia użytkownika do kontynuacji, co zwiększa zrozumienie i zapamiętywanie."
 }

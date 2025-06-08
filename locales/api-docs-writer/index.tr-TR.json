@@ -8,17 +8,6 @@
       "Dokümanda hangi içeriklerin olmasını istersiniz? Örneğin örnek kod, parametre açıklamaları veya dikkat edilmesi gerekenler?"
     ]
   },
-  "meta": {
-    "title": "API Dokümantasyon Optimizasyon Uzmanı",
-    "description": "API kullanım yöntemini hassas bir şekilde tanımlar, örnek kodlar, dikkat edilmesi gerekenler ve dönüş değeri türü tanımları sağlar.",
-    "tags": [
-      "kod",
-      "yazılım geliştirme",
-      "programcı",
-      "dokümantasyon",
-      "yazma"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "---\ntitle: uploadData\ndescription: Dosya veya verileri sunucuya yüklemek için API\nnav: API\n---\n\n`uploadData` API'si, dosya veya JSON verilerini sunucuya yüklemeyi destekler, form gönderimi veya toplu veri aktarımı için uygundur.\n\n## Sözdizimi\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## Örnek\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"Yükleme başarılı\", response);\n  })\n  .catch(error => {\n    console.error(\"Yükleme başarısız\", error);\n  });\n```\n\n## Dikkat Edilmesi Gerekenler\n\n- Dosya yüklerken dosya boyutu ve formatının sunucu gereksinimlerine uygun olduğundan emin olun.\n- Yükleme sırasında ağ hataları uygun şekilde ele alınmalıdır.\n\n## Dönüş Değeri Tür Tanımı\n\n| Özellik   | Tür     | Açıklama                     |\n| -------- | ------- | ---------------------------- |\n| `status` | string  | Yükleme durumu, örn: \"success\" |\n| `url`    | string  | Yüklenen dosyanın erişim adresi |\n"
     }
   ],
+  "meta": {
+    "title": "API Dokümantasyon Optimizasyon Uzmanı",
+    "description": "API kullanım yöntemini hassas bir şekilde tanımlar, örnek kodlar, dikkat edilmesi gerekenler ve dönüş değeri türü tanımları sağlar.",
+    "tags": ["kod", "yazılım geliştirme", "programcı", "dokümantasyon", "yazma"]
+  },
   "summary": "Bu Ajan, geliştiricilere yönelik açık, iyi yapılandırılmış ve profesyonel API belgeleri oluşturmada uzmanlaşmıştır. Kullanıcıların kesin kullanım açıklamaları, örnek kod parçacıkları, önemli notlar ve dönüş türü tanımları oluşturmalarına yardımcı olur; bu da API referanslarının okunabilirliğini ve kullanılabilirliğini artırır. Geliştiricinin perspektifine odaklanarak, Ajan belgelerin kolay anlaşılır ve uygulanabilir olmasını sağlar, entegrasyon hatalarını azaltır ve geliştirici deneyimini iyileştirir. Tipik kullanım alanları arasında SDK'lar, kütüphaneler veya API'ler için README bölümleri yazmak, sözdizimi yönergeleri sağlamak, popüler programlama dillerinde kullanım örnekleri sunmak ve doğru API kullanımı için kritik hususları vurgulamak bulunur. Bu Ajan, yüksek kaliteli API belgeleme standartlarını korumayı amaçlayan yazılım mühendisleri, teknik yazarlar ve takımlar için idealdir."
 }

@@ -8,18 +8,6 @@
       "Kun je me helpen deze Dva statusbeheercode te optimaliseren?"
     ]
   },
-  "meta": {
-    "description": "Met één klik helpt u Dva statusbeheercode te refactoren en om te zetten naar Zustand code",
-    "tags": [
-      "typescript",
-      "code",
-      "softwareontwikkeling",
-      "statusbeheer",
-      "dva",
-      "zustand"
-    ],
-    "title": "Dva Refactor Zustand Expert"
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +34,10 @@
       "content": "Hier is een voorbeeld van de corresponderende Zustand refactorcode:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
   ],
+  "meta": {
+    "description": "Met één klik helpt u Dva statusbeheercode te refactoren en om te zetten naar Zustand code",
+    "tags": ["typescript", "code", "softwareontwikkeling", "statusbeheer", "dva", "zustand"],
+    "title": "Dva Refactor Zustand Expert"
+  },
   "summary": "Deze Agent is gespecialiseerd in het transformeren van state management-code geschreven met het Dva-framework naar equivalente Zustand-code, op maat gemaakt voor ontwikkelaars in het React-ecosysteem. Met diepgaande expertise in zowel Dva als Zustand automatiseert het het refactoringsproces, waardoor codeconsistentie, verbeterde onderhoudbaarheid en moderne best practices worden gegarandeerd. Gebruikers kunnen hun Dva-gebaseerde state management-snippets invoeren, en de Agent genereert schone, idiomatische Zustand-code, inclusief juiste typings, hooks en patronen voor asynchrone gegevensafhandeling. Deze tool is onmisbaar voor frontend-ontwikkelaars die legacy Dva-codebases willen migreren naar Zustand of een eenvoudigere, flexibelere state management-benadering willen adopteren zonder handmatige herschrijffouten."
 }

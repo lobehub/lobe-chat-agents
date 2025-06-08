@@ -9,17 +9,6 @@
       "Java sınıfındaki veri tipleri MySQL alan tiplerine nasıl eşlenir?"
     ]
   },
-  "meta": {
-    "title": "Java Sınıfını MySQL'e Dönüştürme",
-    "description": "Java sınıf dosyasına göre MySQL standartlarına uygun SQL betiği oluşturma konusunda uzmandır",
-    "tags": [
-      "java-sınıfı-to-my-sql",
-      "arka uç geliştirme",
-      "sql betiği",
-      "veri dönüşümü",
-      "veritabanı"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "İsteğiniz doğrultusunda oluşturulan MySQL tablo oluşturma ifadesi aşağıdadır:\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT 'Sipariş ID',\n  `userId` BIGINT NOT NULL COMMENT 'Kullanıcı ID',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT 'Sipariş tutarı',\n  `status` VARCHAR(50) NOT NULL COMMENT 'Sipariş durumu',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Order tablosu, sipariş bilgilerini saklar';"
     }
   ],
+  "meta": {
+    "title": "Java Sınıfını MySQL'e Dönüştürme",
+    "description": "Java sınıf dosyasına göre MySQL standartlarına uygun SQL betiği oluşturma konusunda uzmandır",
+    "tags": [
+      "java-sınıfı-to-my-sql",
+      "arka uç geliştirme",
+      "sql betiği",
+      "veri dönüşümü",
+      "veritabanı"
+    ]
+  },
   "summary": "Bu Ajans, Java sınıf dosyalarını MySQL uyumlu SQL betiklerine dönüştürmede uzmanlaşmıştır. Sağlanan Java sınıfında tanımlanan alanlar ve alan yorumlarını analiz ederek, uygun şekilde açıklanmış sütunlar ve tablo notlarıyla karşılık gelen veritabanı tablolarını oluşturan detaylı SQL kodları üretir. Bu araç, Java nesne modellerinden ilişkisel veritabanı şemalarına geçişi kolaylaştırmak isteyen arka uç geliştiricileri için çok değerlidir; veritabanı tasarımında tutarlılık ve açıklık sağlar. Hem alanlara hem de tablolara yorum eklemeyi destekler, veritabanı yapısının bakımını ve belgelenmesini iyileştirir. Kullanım alanları arasında geliştirme sırasında hızlı veritabanı şeması oluşturma, Java tabanlı veri modellerinin MySQL'e taşınması ve Java sınıflarından türetilen veritabanı tablolarının otomatik belgelendirilmesi bulunur."
 }

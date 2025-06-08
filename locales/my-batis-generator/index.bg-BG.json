@@ -34,15 +34,6 @@
       }
     ]
   },
-  "meta": {
-    "title": "SQL таблица структура към Dao и Mapper",
-    "description": "Дайте структура на таблица, генерирайте съответните Java ентити и MyBatis Mapper",
-    "tags": [
-      "sql",
-      "sql",
-      "mybatis"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -69,5 +60,10 @@
       "content": "Разбира се! Според описанието на вашата таблица за потребители, генерираният код е следният:\n\n```java\nimport lombok.Data;\nimport com.baomidou.mybatisplus.annotation.TableName;\nimport java.util.Date;\n\n@TableName(\"user\")\n@Data\npublic class User {\n    /**\n     * Основен ключ ID\n     */\n    private Integer id;\n    /**\n     * Потребителско име\n     */\n    private String username;\n    /**\n     * Имейл\n     */\n    private String email;\n    /**\n     * Време на създаване\n     */\n    private Date createdAt;\n}\n\nimport com.baomidou.mybatisplus.core.mapper.BaseMapper;\nimport org.apache.ibatis.annotations.Mapper;\nimport org.apache.ibatis.annotations.Select;\n\n@Mapper\npublic interface UserMapper extends BaseMapper<User> {\n    @Select(\"SELECT * FROM user WHERE id = #{id}\")\n    User selectByIdWithAnnotation(Integer id);\n}\n```"
     }
   ],
+  "meta": {
+    "title": "SQL таблица структура към Dao и Mapper",
+    "description": "Дайте структура на таблица, генерирайте съответните Java ентити и MyBatis Mapper",
+    "tags": ["sql", "sql", "mybatis"]
+  },
   "summary": "Този агент е специално създаден за преобразуване на структурата на таблиците в MySQL бази данни към Java класове за същност и Mapper интерфейси за MyBatis Plus. Той може да анализира SQL заявките за създаване на таблици, автоматично да разпознава името на таблицата, полетата и техните типове, и да генерира код за същност, който съответства на конвенциите за именуване в Java, използвайки Lombok @Data анотация за опростяване на кода, като същевременно добавя подробни коментари към всяко поле. Освен това, агентът ще създаде Mapper интерфейс, базиран на рамката MyBatis Plus, включващ основните CRUD операции и дефинирани с анотации методи за заявки, което улеснява бързото интегриране на базата данни в Java проектите. Този инструмент значително повишава ефективността при свързването на базата данни с Java приложения, намалява грешките при ръчно кодиране и е подходящ за Java backend разработчици, администратори на бази данни и full-stack инженери."
 }

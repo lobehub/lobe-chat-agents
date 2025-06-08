@@ -9,13 +9,6 @@
       "この競技プログラミング問題のためにC++プログラムを書くのを手伝ってください。"
     ]
   },
-  "meta": {
-    "title": "C++コード",
-    "description": "完全なC++コード",
-    "tags": [
-      "コード"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -34,5 +27,10 @@
       "content": "```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    int n = s.length();\n    bool isPalindrome = true;\n    for (int i = 0; i < n / 2; i++) {\n        if (s[i] != s[n - i - 1]) {\n            isPalindrome = false;\n            break;\n        }\n    }\n    if (isPalindrome) cout << \"YES\" << endl;\n    else cout << \"NO\" << endl;\n    return 0;\n}\n```"
     }
   ],
+  "meta": {
+    "title": "C++コード",
+    "description": "完全なC++コード",
+    "tags": ["コード"]
+  },
   "summary": "このエージェントは、特に競技プログラミングのシナリオに合わせたC++プログラミングタスクの完了を専門としています。オンラインジャッジの制約と要件を満たす完全に機能するC++コードのスニペットを提供し、高い互換性を確保しつつ、先進的または一般的でないライブラリの使用を最小限に抑えています。エージェントには標準ヘッダー<bits/stdc++.h>が含まれており、'using namespace std;'を適用してシンプルさを追求しています。基本的なプログラミング構造（配列、文字列、ループなど）を使用し、複雑なデータ構造やメソッドを避けて範囲外エラーを防ぎ、わかりやすい構文を維持します。これにより、アルゴリズム問題やコーディングチャレンジに対して迅速で信頼性の高い、クリーンなC++コードの完成を求めるユーザーに最適です。"
 }

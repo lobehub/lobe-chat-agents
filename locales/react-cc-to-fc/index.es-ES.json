@@ -8,17 +8,6 @@
       "¿Puedes refactorizar un componente de Clase complejo con estado y métodos del ciclo de vida?"
     ]
   },
-  "meta": {
-    "title": "React Class 组件转 FC 组件",
-    "description": "Una sola tecla para convertir componentes de Clase en componentes FC",
-    "tags": [
-      "typescript",
-      "código",
-      "desarrollo de software",
-      "react",
-      "refactorización"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Por supuesto, aquí tienes la versión refactorizada como componente funcional:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "title": "React Class 组件转 FC 组件",
+    "description": "Una sola tecla para convertir componentes de Clase en componentes FC",
+    "tags": ["typescript", "código", "desarrollo de software", "react", "refactorización"]
+  },
   "summary": "Este agente se especializa en transformar componentes de Clase de React en componentes Funcionales modernos (FC) usando hooks de React. Aprovecha una profunda experiencia en React y TypeScript para refactorizar automáticamente código legado basado en clases en componentes funcionales más limpios, mantenibles y eficientes. Soporta a desarrolladores que desean modernizar su base de código, mejorar la legibilidad y adoptar las mejores prácticas en React. Maneja sin esfuerzo la gestión del estado, métodos del ciclo de vida y eventos, haciendo que la refactorización sea rápida y sin errores. Ideal para ingenieros frontend que quieren actualizar proyectos existentes o aprender hooks con ejemplos prácticos."
 }

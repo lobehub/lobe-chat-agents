@@ -9,17 +9,6 @@
       "Javaクラスのデータ型をMySQLのフィールド型にマッピングする方法は？"
     ]
   },
-  "meta": {
-    "title": "JavaクラスからMySQLへの変換",
-    "description": "Javaクラスファイルに基づいてMySQL規格に準拠したSQLスクリプトを生成することに長けています",
-    "tags": [
-      "java-classから-my-sqlへ",
-      "バックエンド開発",
-      "sqlスクリプト",
-      "データ変換",
-      "データベース"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "ご要望に基づき、生成したMySQLのテーブル作成文は以下の通りです：\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT '注文ID',\n  `userId` BIGINT NOT NULL COMMENT 'ユーザーID',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT '注文金額',\n  `status` VARCHAR(50) NOT NULL COMMENT '注文状態',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Orderテーブル、注文情報を格納';"
     }
   ],
+  "meta": {
+    "title": "JavaクラスからMySQLへの変換",
+    "description": "Javaクラスファイルに基づいてMySQL規格に準拠したSQLスクリプトを生成することに長けています",
+    "tags": [
+      "java-classから-my-sqlへ",
+      "バックエンド開発",
+      "sqlスクリプト",
+      "データ変換",
+      "データベース"
+    ]
+  },
   "summary": "このエージェントは、JavaクラスファイルをMySQL準拠のSQLスクリプトに変換することに特化しています。提供されたJavaクラスで定義されたフィールドとフィールドコメントを分析することで、対応するデータベーステーブルを作成し、適切に注釈されたカラムとテーブルの備考を持つ詳細なSQLコードを生成します。このツールは、Javaのオブジェクトモデルからリレーショナルデータベーススキーマへの移行を効率化し、一貫性と明確さを確保したいバックエンド開発者にとって非常に有用です。フィールドとテーブルの両方にコメントを追加できるため、データベース構造の保守性とドキュメント化が向上します。用途には、開発中の迅速なデータベーススキーマ生成、JavaベースのデータモデルのMySQLへの移行、Javaクラスから派生したデータベーステーブルの自動ドキュメント化などがあります。"
 }

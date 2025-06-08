@@ -11,22 +11,6 @@
     ]
   },
   "createdAt": "2023-11-15",
-  "homepage": "https://github.com/skyf0cker",
-  "identifier": "tailwind-wizard",
-  "meta": {
-    "avatar": "🧙",
-    "description": "提供一个 UI 操作，生成 HTML",
-    "tags": [
-      "开发",
-      "编码",
-      "界面设计"
-    ],
-    "title": "Tailwind 巫师",
-    "category": "design"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -53,5 +37,17 @@
       "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>响应式导航栏</title>\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n</head>\n<body class=\"bg-white\">\n  <div id=\"root\"></div>\n  <script type=\"text/babel\">\n    function Navbar() {\n      return (\n        <nav className=\"bg-gray-800 text-white px-6 py-4 flex items-center justify-between\">\n          <div className=\"text-xl font-bold\">网站Logo</div>\n          <div className=\"hidden md:flex space-x-6\">\n            <a href=\"#\" className=\"hover:underline\">首页</a>\n            <a href=\"#\" className=\"hover:underline\">关于</a>\n            <a href=\"#\" className=\"hover:underline\">服务</a>\n            <a href=\"#\" className=\"hover:underline\">联系</a>\n          </div>\n          <div>\n            <input type=\"text\" placeholder=\"搜索...\" className=\"px-3 py-1 rounded text-black\" />\n          </div>\n        </nav>\n      );\n    }\n    ReactDOM.render(<Navbar />, document.getElementById('root'));\n  </script>\n  <script src=\"https://unpkg.com/react@17/umd/react.development.js\" crossorigin></script>\n  <script src=\"https://unpkg.com/react-dom@17/umd/react-dom.development.js\" crossorigin></script>\n  <script src=\"https://unpkg.com/@babel/standalone/babel.min.js\"></script>\n</body>\n</html>"
     }
   ],
+  "homepage": "https://github.com/skyf0cker",
+  "identifier": "tailwind-wizard",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🧙",
+    "description": "提供一个 UI 操作，生成 HTML",
+    "tags": ["开发", "编码", "界面设计"],
+    "title": "Tailwind 巫师",
+    "category": "design"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "Tailwind 巫师 is a specialized AI agent designed to transform low-fidelity wireframes into fully functional React components styled with Tailwind CSS. By leveraging expert knowledge in Tailwind and React, this agent generates a complete single HTML file that brings user-provided wireframes to life with clean, responsive, and modern UI code. It creatively enhances the initial design by adding realistic layouts, placeholder images from placehold.co, and interactive elements, ensuring the output is production-ready and visually appealing. Tailwind 巫师 is ideal for developers and designers seeking to rapidly prototype or implement UI designs without manual coding, saving time and effort while maintaining high-quality frontend standards."
 }

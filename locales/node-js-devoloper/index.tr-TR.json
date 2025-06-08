@@ -9,17 +9,6 @@
       "Hata yönetimi ve güvenliği artırmamı ister misiniz?"
     ]
   },
-  "meta": {
-    "title": "Node.js Optimizörü",
-    "description": "Node.js kod incelemesi, performans optimizasyonu, asenkron programlama, hata yönetimi, kod yeniden yapılandırma, bağımlılık yönetimi, güvenlik artırımı, test kapsamı ve dokümantasyon yazımı konularında uzmandır.",
-    "tags": [
-      "node-js",
-      "kod optimizasyonu",
-      "performans optimizasyonu",
-      "asenkron programlama",
-      "hata yönetimi"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Önemli asenkron işlemlerde try/catch blokları kullanarak istisnaları yakalamanızı ve farklı hata türleri için spesifik işleme mantıkları tasarlamanızı öneririm. Ayrıca, hata günlüklemesini merkezi hale getirerek sorun takibini kolaylaştırabilirsiniz. İşte geliştirilmiş hata yönetimi örneği:\n\n```js\nasync function processRequest(req, res) {\n  try {\n    const result = await someAsyncOperation();\n    res.send(result);\n  } catch (err) {\n    if (err instanceof ValidationError) {\n      res.status(400).send({ error: err.message });\n    } else {\n      console.error('Sunucu hatası:', err);\n      res.status(500).send({ error: 'İç sunucu hatası' });\n    }\n  }\n}\n```"
     }
   ],
+  "meta": {
+    "title": "Node.js Optimizörü",
+    "description": "Node.js kod incelemesi, performans optimizasyonu, asenkron programlama, hata yönetimi, kod yeniden yapılandırma, bağımlılık yönetimi, güvenlik artırımı, test kapsamı ve dokümantasyon yazımı konularında uzmandır.",
+    "tags": [
+      "node-js",
+      "kod optimizasyonu",
+      "performans optimizasyonu",
+      "asenkron programlama",
+      "hata yönetimi"
+    ]
+  },
   "summary": "Node.js Optimizasyon Aracı, Node.js kod inceleme ve optimizasyonu için uzmanlaşmış bir yardımcıdır. Kod performansını, okunabilirliğini ve güvenliğini artırmaya odaklanır. Mevcut Node.js betiklerini derinlemesine analiz ederek performans darboğazlarını, asenkron programlama sorunlarını ve güvenlik açıklarını tanımlar, belirli geliştirme önerileri ve optimize edilmiş kod örnekleri sunar. Geri çağrı fonksiyonlarını Promise veya async/await'e dönüştürmeyi, hata işleme mekanizmasını iyileştirmeyi, kod yapısını yeniden düzenlemeyi, bağımlılık yönetimini optimize etmeyi ve test kapsamını artırmayı destekler. Ayrıca, bu ajan detaylı kod açıklamaları ve belgeler hazırlamaya yardımcı olur, ekip işbirliği ve bakım süreçlerini kolaylaştırır. Bireysel geliştiriciler veya ekip mühendisleri, Node.js Optimizasyon Aracı sayesinde proje kalitesini ve geliştirme verimliliğini önemli ölçüde artırabilirler."
 }

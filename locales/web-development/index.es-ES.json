@@ -9,15 +9,6 @@
       "Ayúdame a optimizar mi código React para mejor rendimiento y mantenibilidad."
     ]
   },
-  "meta": {
-    "title": "Desarrollo Web",
-    "description": "Genera un código de sitio web en React en minutos",
-    "tags": [
-      "código",
-      "desarrollo-de-software",
-      "productividad"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +35,10 @@
       "content": "Aquí tienes una aplicación React mínima usando React Router que incluye los componentes Navbar y UserList:\n\n```jsx\nimport React from 'react';\nimport { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\nimport Navbar from './Navbar';\nimport UserList from './UserList';\n\nconst Home = () => <h1>Bienvenido a la Página Principal</h1>;\nconst About = () => <h1>Acerca de Nosotros</h1>;\nconst Contact = () => <h1>Contáctanos</h1>;\n\nconst App = () => {\n  return (\n    <Router>\n      <Navbar />\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/about\" element={<About />} />\n        <Route path=\"/contact\" element={<Contact />} />\n        <Route path=\"/users\" element={<UserList />} />\n      </Routes>\n    </Router>\n  );\n};\n\nexport default App;\n```\n\nAsegúrate de actualizar los enlaces en Navbar para incluir la página de Usuarios si es necesario. ¡Avísame si quieres que genere el CSS completo o configure la gestión de estado!"
     }
   ],
+  "meta": {
+    "title": "Desarrollo Web",
+    "description": "Genera un código de sitio web en React en minutos",
+    "tags": ["código", "desarrollo-de-software", "productividad"]
+  },
   "summary": "Este Agente se especializa en generar rápidamente código para sitios web basados en React, permitiendo a los usuarios crear aplicaciones web modernas y responsivas en minutos. Aprovechando la experiencia en tecnologías front-end como HTML, CSS, JavaScript y React, así como en lenguajes y frameworks de back-end, el Agente ayuda a diseñar soluciones web escalables y fáciles de mantener. Soporta tareas de desarrollo full-stack, incluyendo la creación de componentes UI, gestión de estado, enrutamiento e integración con APIs o bases de datos. Ideal para desarrolladores que necesitan prototipado rápido o código React listo para producción, este Agente mejora la productividad automatizando la generación de código siguiendo las mejores prácticas en seguridad, rendimiento y pruebas. También ayuda en la depuración y resolución de problemas, fomentando la colaboración entre equipos de desarrollo para entregar aplicaciones web fáciles de usar de manera eficiente."
 }

@@ -8,17 +8,6 @@
       "Може ли да ми помогнете да пренаредя сложен Class компонент с държава и жизнени цикли?"
     ]
   },
-  "meta": {
-    "title": "React Class 组件转 FC 组件",
-    "description": "Едно клик пренарежда вашите React Class компоненти към FC компоненти",
-    "tags": [
-      "typescript",
-      "код",
-      "разработка на софтуер",
-      "react",
-      "пренареждане"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Разбира се, ето как да преобразувате този сложен класов компонент TodoList към функционален с hooks:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "title": "React Class 组件转 FC 组件",
+    "description": "Едно клик пренарежда вашите React Class компоненти към FC компоненти",
+    "tags": ["typescript", "код", "разработка на софтуер", "react", "пренареждане"]
+  },
   "summary": "Този агент е специализиран в преобразуването на React Class компоненти към модерни Functional Components (FC) с използване на React hooks. Той разчита на дълбоки познания в React и TypeScript, за да автоматично преформатира наследствения код към по-чист, по-лесен за поддръжка и по-ефективен функционален стил. Подходящ е за разработчици, които искат да модернизират своите кодови бази, да подобрят четливостта и да прилагат най-добрите практики в React. Обработва прехвърляне на държава, жизнени цикли и събития безпроблемно, правейки процеса бърз и без грешки. Идеален за фронтенд инженери, които искат да обновят съществуващи проекти или да научат React hooks чрез практически примери."
 }

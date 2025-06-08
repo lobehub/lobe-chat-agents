@@ -9,15 +9,6 @@
       "Pomóż mi zoptymalizować mój kod React pod kątem wydajności i łatwości utrzymania."
     ]
   },
-  "meta": {
-    "title": "Tworzenie stron internetowych",
-    "description": "Generuj kod strony internetowej w React w kilka minut",
-    "tags": [
-      "kod",
-      "rozwój-oprogramowania",
-      "wydajność"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +35,10 @@
       "content": "Oto minimalna aplikacja React wykorzystująca React Router, która zawiera komponenty Navbar i UserList:\n\n```jsx\nimport React from 'react';\nimport { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\nimport Navbar from './Navbar';\nimport UserList from './UserList';\n\nconst Home = () => <h1>Witamy na stronie głównej</h1>;\nconst About = () => <h1>O nas</h1>;\nconst Contact = () => <h1>Kontakt</h1>;\n\nconst App = () => {\n  return (\n    <Router>\n      <Navbar />\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/about\" element={<About />} />\n        <Route path=\"/contact\" element={<Contact />} />\n        <Route path=\"/users\" element={<UserList />} />\n      </Routes>\n    </Router>\n  );\n};\n\nexport default App;\n```\n\nPamiętaj, aby zaktualizować linki w Navbar, aby uwzględnić stronę Użytkownicy, jeśli to potrzebne. Daj znać, czy chcesz, abym wygenerował kompletny CSS lub ustawił zarządzanie stanem!"
     }
   ],
+  "meta": {
+    "title": "Tworzenie stron internetowych",
+    "description": "Generuj kod strony internetowej w React w kilka minut",
+    "tags": ["kod", "rozwój-oprogramowania", "wydajność"]
+  },
   "summary": "Ten agent specjalizuje się w szybkim generowaniu kodu stron internetowych opartych na React, umożliwiając użytkownikom tworzenie responsywnych i nowoczesnych aplikacji internetowych w ciągu kilku minut. Wykorzystując wiedzę z zakresu technologii front-end, takich jak HTML, CSS, JavaScript i React, a także języków i frameworków back-end, agent pomaga w projektowaniu skalowalnych i łatwych w utrzymaniu rozwiązań webowych. Obsługuje pełen cykl rozwoju od tworzenia komponentów UI, zarządzania stanem, routingu, po integrację z API lub bazami danych. Idealny dla programistów potrzebujących szybkiego prototypowania lub kodu React gotowego do produkcji, ten agent zwiększa wydajność poprzez automatyzację generowania kodu, przestrzegając najlepszych praktyk w zakresie bezpieczeństwa, wydajności i testowania. Pomaga również w debugowaniu i rozwiązywaniu problemów, wspierając współpracę zespołów deweloperskich w celu efektywnego dostarczania przyjaznych użytkownikowi aplikacji internetowych."
 }

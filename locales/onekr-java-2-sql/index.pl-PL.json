@@ -9,17 +9,6 @@
       "Jak odwzorować typy danych z klasy Java na typy pól MySQL?"
     ]
   },
-  "meta": {
-    "title": "Konwersja klasy Java na MySQL",
-    "description": "Specjalizuje się w generowaniu skryptów SQL zgodnych z MySQL na podstawie plików klas Java",
-    "tags": [
-      "java-class-na-my-sql",
-      "backend-development",
-      "sql-scripts",
-      "data-transformation",
-      "database"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Na podstawie Twoich wymagań wygenerowano następujące polecenie tworzenia tabeli MySQL:\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT 'ID zamówienia',\n  `userId` BIGINT NOT NULL COMMENT 'ID użytkownika',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT 'Kwota zamówienia',\n  `status` VARCHAR(50) NOT NULL COMMENT 'Status zamówienia',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Tabela Order, przechowująca informacje o zamówieniach';"
     }
   ],
+  "meta": {
+    "title": "Konwersja klasy Java na MySQL",
+    "description": "Specjalizuje się w generowaniu skryptów SQL zgodnych z MySQL na podstawie plików klas Java",
+    "tags": [
+      "java-class-na-my-sql",
+      "backend-development",
+      "sql-scripts",
+      "data-transformation",
+      "database"
+    ]
+  },
   "summary": "Ten agent specjalizuje się w konwersji plików klas Java na skrypty SQL zgodne z MySQL. Analizując pola i komentarze do pól zdefiniowane w dostarczonej klasie Java, generuje szczegółowy kod SQL tworzący odpowiadające tabele bazy danych z odpowiednio oznaczonymi kolumnami i uwagami do tabel. To narzędzie jest nieocenione dla programistów backendowych, którzy chcą usprawnić przejście od modeli obiektów Java do schematów relacyjnych baz danych, zapewniając spójność i klarowność w projektowaniu bazy danych. Obsługuje dodawanie komentarzy zarówno do pól, jak i tabel, poprawiając konserwację i dokumentację struktury bazy danych. Przykłady zastosowania obejmują szybkie generowanie schematów bazy danych podczas rozwoju, migrację modeli danych opartych na Java do MySQL oraz automatyczną dokumentację tabel baz danych wywodzących się z klas Java."
 }

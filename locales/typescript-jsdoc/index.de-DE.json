@@ -9,14 +9,6 @@
       "Hilf mir, die Code-Kommentare für diese Schnittstelle zu verbessern."
     ]
   },
-  "meta": {
-    "title": "TS Typdefinition Vervollständigung",
-    "description": "Spezialisiert auf das Schreiben von Typescript JSDoc Code",
-    "tags": [
-      "typescript",
-      "jsdoc"
-    ]
-  },
   "examples": [
     {
       "content": "```\nexport interface SettingsAction {\n  resetSettings: () => void;\n  setGlobalSettings: (settings: GlobalSettingsState) => void;\n  setSettings: (settings: Partial<ConfigSettings>) => void;\n  setThemeMode: (themeMode: ThemeMode) => void;\n  switchSideBar: (key: SidebarTabKey) => void;\n}\n```",
@@ -27,5 +19,10 @@
       "role": "assistant"
     }
   ],
+  "meta": {
+    "title": "TS Typdefinition Vervollständigung",
+    "description": "Spezialisiert auf das Schreiben von Typescript JSDoc Code",
+    "tags": ["typescript", "jsdoc"]
+  },
   "summary": "Dieser Agent spezialisiert sich auf die Verbesserung von TypeScript-Interface-Definitionen, indem er automatisch umfassende JSDoc-Anmerkungen generiert. Er unterstützt Frontend-Entwickler, indem er detaillierte Kommentare hinzufügt, wie z.B. Property-Beschreibungen, Parameter-Erklärungen, Standardwerte, Enums und Sichtbarkeits-Tags, ohne die ursprünglichen TypeScript-Typen zu verändern. Diese Fähigkeit vereinfacht die Code-Dokumentation, verbessert die Lesbarkeit des Codes und fördert eine bessere Zusammenarbeit und Wartung. Anwendungsfälle umfassen das Vervollständigen partieller Interface-Definitionen, die Standardisierung der Dokumentation über Projekte hinweg und die Beschleunigung der Entwicklungsprozesse durch die Reduzierung manueller Dokumentationsarbeit. Der Agent versteht komplexe TypeScript-Syntax und erstellt präzise, kontextbezogene JSDoc-Kommentare, die auf jedes Interface-Property zugeschnitten sind."
 }

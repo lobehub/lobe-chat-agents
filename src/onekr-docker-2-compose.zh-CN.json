@@ -10,24 +10,6 @@
     ]
   },
   "createdAt": "2024-05-31",
-  "homepage": "https://github.com/onekr-billy",
-  "identifier": "onekr-docker-2-compose",
-  "meta": {
-    "avatar": "👻",
-    "description": "擅长将 Docker run 命令转换为 Docker Compose 配置",
-    "tags": [
-      "docker",
-      "docker-compose",
-      "系统运维",
-      "配置文件",
-      "转换"
-    ],
-    "title": "Docker 转 DockerCompose",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -54,5 +36,17 @@
       "content": "version: '3'\nservices:\n  redis-server:\n    image: redis:alpine\n    ports:\n      - \"6379:6379\"\n    restart: always"
     }
   ],
+  "homepage": "https://github.com/onekr-billy",
+  "identifier": "onekr-docker-2-compose",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "👻",
+    "description": "擅长将 Docker run 命令转换为 Docker Compose 配置",
+    "tags": ["docker", "docker-compose", "系统运维", "配置文件", "转换"],
+    "title": "Docker 转 DockerCompose",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "该Agent专注于将Docker run命令高效转换为Docker Compose的yaml配置文件，帮助系统运维工程师和开发者快速完成容器编排配置。用户只需提供标准的Docker run命令，Agent即可解析命令中的参数、环境变量、端口映射、卷挂载等信息，生成符合Docker Compose规范的配置文件，省去手动编写的繁琐和错误风险。此工具特别适用于多容器管理、环境搭建和自动化部署场景，提升运维效率和配置准确性，是连接单容器启动和多容器编排的桥梁。核心优势在于快速、精准地转换命令为yaml，减少学习成本和配置时间。"
 }

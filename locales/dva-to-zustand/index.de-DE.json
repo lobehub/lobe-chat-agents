@@ -8,18 +8,6 @@
       "Können Sie mir helfen, diesen Dva Statusverwaltungs-Code zu optimieren?"
     ]
   },
-  "meta": {
-    "title": "Dva Refaktorierung Zustand Experte",
-    "description": "Mit einem Klick hilft Ihnen, Dva Statusverwaltungs-Code in Zustand Code umzuwandeln",
-    "tags": [
-      "typescript",
-      "Code",
-      "Softwareentwicklung",
-      "Statusverwaltung",
-      "dva",
-      "zustand"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +34,10 @@
       "content": "Hier ist ein Beispiel für die entsprechende Zustand-Refaktorierung:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
   ],
+  "meta": {
+    "title": "Dva Refaktorierung Zustand Experte",
+    "description": "Mit einem Klick hilft Ihnen, Dva Statusverwaltungs-Code in Zustand Code umzuwandeln",
+    "tags": ["typescript", "Code", "Softwareentwicklung", "Statusverwaltung", "dva", "zustand"]
+  },
   "summary": "Dieser Agent spezialisiert sich auf die Umwandlung von Zustandsverwaltungscodes, die mit dem Dva-Framework geschrieben wurden, in äquivalenten Zustand-Code, maßgeschneidert für Entwickler im React-Ökosystem. Mit tiefgreifender Expertise in beiden Frameworks automatisiert er den Refactoring-Prozess, sorgt für Codekonsistenz, verbesserte Wartbarkeit und moderne Best Practices. Benutzer können ihre Dva-basierte Zustandsverwaltungssnippets eingeben, und der Agent generiert sauberen, idiomatischen Zustand-Code, einschließlich korrekter Typisierungen, Hooks und asynchroner Datenhandhabungsmuster. Dieses Tool ist unschätzbar für Frontend-Entwickler, die Legacy-Dva-Codebasen zu Zustand migrieren oder eine einfachere, flexiblere Zustandsverwaltung ohne manuelle Revisionsfehler übernehmen möchten."
 }

@@ -9,13 +9,6 @@
       "Wil je weten hoe C wordt toegepast in bio-informatica?"
     ]
   },
-  "meta": {
-    "description": "Helpt mij bij het leren van c-programmering",
-    "tags": [
-      "941"
-    ],
-    "title": "C-programmeerassistent"
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +35,10 @@
       "content": "Natuurlijk, hier is een eenvoudig C-programma dat een DNA-sequentie leest en het aantal A, T, C en G telt, met gedetailleerde commentaar:\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // Karakterarray om de DNA-sequentie op te slaan, max lengte 99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // Teller-variabelen\n\n    printf(\"Voer een DNA-sequentie in (alleen A, T, C, G):\\n\");\n    scanf(\"%s\", dna);  // Lees de invoerstring\n\n    int length = strlen(dna);  // Bepaal de lengte van de string\n\n    // Loop door de string en tel elke nucleotide\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // Afhandeling van ongeldige karakters\n                printf(\"Waarschuwing: ongeldig teken %c gedetecteerd en genegeerd\\n\", dna[i]);\n        }\n    }\n\n    // Toon de telresultaten\n    printf(\"A: %d\\n\", countA);\n    printf(\"T: %d\\n\", countT);\n    printf(\"C: %d\\n\", countC);\n    printf(\"G: %d\\n\", countG);\n\n    return 0;\n}\n```\n\nDeze code bevat duidelijke commentaar om het begrip te vergemakkelijken. Als je wilt, kan ik de code verder toelichten of uitbreiden."
     }
   ],
+  "meta": {
+    "description": "Helpt mij bij het leren van c-programmering",
+    "tags": ["941"],
+    "title": "C-programmeerassistent"
+  },
   "summary": "De C-programmeerassistent is speciaal ontworpen voor studenten die zich voorbereiden op een masteropleiding in bio-informatica en C-programmering onder de knie willen krijgen. Het biedt uitgebreide ondersteuning door principes van code, logica en de betekenis van functies en codeblokken uit te leggen, met een bijzondere focus op C-toepassingen in bio-informatica. De assistent kan programmeerproblemen oplossen door gedetailleerde, goed gedocumenteerde code te leveren, en beoordeelt ook door gebruikers ingediende code om fouten te identificeren, oorzaken uit te leggen en correcties voor te stellen. Daarnaast biedt het advies over code-optimalisatie met duidelijke redeneringen en verbeterde codeversies. De workflow zorgt voor interactieve leren met stapsgewijze uitleg en moedigt iteratief leren aan door lange outputs te pauzeren en te wachten op gebruikersinstructies om door te gaan, waardoor begrip en retentie worden versterkt."
 }

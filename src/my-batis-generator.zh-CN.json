@@ -10,22 +10,6 @@
     ]
   },
   "createdAt": "2024-07-17",
-  "homepage": "https://github.com/MeYoung",
-  "identifier": "my-batis-generator",
-  "meta": {
-    "avatar": "🤖",
-    "description": "给与一个表结构，生成表的实体和MyBatis的Mapper",
-    "tags": [
-      "sql",
-      "sql",
-      "mybatis"
-    ],
-    "title": "SQL表结构转Dao和Mapper",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -52,5 +36,17 @@
       "content": "当然可以！根据您描述的用户表结构，生成的代码如下：\n\n```java\nimport lombok.Data;\nimport com.baomidou.mybatisplus.annotation.TableName;\nimport java.util.Date;\n\n@TableName(\"user\")\n@Data\npublic class User {\n    /**\n     * 主键ID\n     */\n    private Integer id;\n    /**\n     * 用户名\n     */\n    private String username;\n    /**\n     * 电子邮件\n     */\n    private String email;\n    /**\n     * 创建时间\n     */\n    private Date createdAt;\n}\n\nimport com.baomidou.mybatisplus.core.mapper.BaseMapper;\nimport org.apache.ibatis.annotations.Mapper;\nimport org.apache.ibatis.annotations.Select;\n\n@Mapper\npublic interface UserMapper extends BaseMapper<User> {\n    @Select(\"SELECT * FROM user WHERE id = #{id}\")\n    User selectByIdWithAnnotation(Integer id);\n}\n```"
     }
   ],
+  "homepage": "https://github.com/MeYoung",
+  "identifier": "my-batis-generator",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🤖",
+    "description": "给与一个表结构，生成表的实体和MyBatis的Mapper",
+    "tags": ["sql", "sql", "mybatis"],
+    "title": "SQL表结构转Dao和Mapper",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "该Agent专为将MySQL数据库表结构转换为Java实体类和MyBatis Plus的Mapper接口而设计。它能够解析用户输入的SQL建表语句，自动识别表名、字段及其类型，并生成符合Java命名规范的实体类代码，使用Lombok的@Data注解简化代码，同时为每个字段添加详细注释。除此之外，Agent还会生成基于MyBatis Plus框架的Mapper接口，包含基础的CRUD操作和注解定义的查询方法，方便Java开发者快速集成数据库访问层。该工具极大提升了数据库与Java项目的对接效率，减少手动编码错误，适用于Java后端开发者、数据库管理员及全栈工程师。"
 }

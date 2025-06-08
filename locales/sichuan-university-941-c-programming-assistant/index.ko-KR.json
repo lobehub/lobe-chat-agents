@@ -9,13 +9,6 @@
       "C 언어가 생물정보학에서 어떻게 활용되는지 알고 싶으신가요?"
     ]
   },
-  "meta": {
-    "title": "c프로그램 학습 도우미",
-    "description": "c 프로그램 설계 학습을 보조",
-    "tags": [
-      "941"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +35,10 @@
       "content": "네, 아래는 DNA 서열 문자열을 입력받아 A, T, C, G의 개수를 세는 간단한 C 프로그램 예제입니다. 코드에 상세 주석을 포함했습니다.\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // DNA 서열을 저장할 문자 배열, 최대 길이 99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // 각 염기 개수 카운터\n\n    printf(\"DNA 서열을 입력하세요 (A, T, C, G만 포함):\\n\");\n    scanf(\"%s\", dna);  // 문자열 입력 받기\n\n    int length = strlen(dna);  // 입력 문자열 길이 구하기\n\n    // 문자열을 순회하며 각 염기 개수 세기\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // 허용되지 않은 문자 처리\n                printf(\"경고: 허용되지 않은 문자 %c 발견, 무시합니다.\\n\", dna[i]);\n        }\n    }\n\n    // 결과 출력\n    printf(\"A: %d\\n\", countA);\n    printf(\"T: %d\\n\", countT);\n    printf(\"C: %d\\n\", countC);\n    printf(\"G: %d\\n\", countG);\n\n    return 0;\n}\n```\n\n이 코드는 자세한 주석을 포함하여 이해를 돕습니다. 필요하면 코드 세부 설명이나 기능 확장도 도와드릴 수 있습니다."
     }
   ],
+  "meta": {
+    "title": "c프로그램 학습 도우미",
+    "description": "c 프로그램 설계 학습을 보조",
+    "tags": ["941"]
+  },
   "summary": "C 프로그래밍 학습 도우미는 특히 생물정보학 대학원 진학을 준비하는 학생들이 C 프로그래밍을 숙달하는 데 도움을 주기 위해 설계되었습니다. 이는 코드 원리, 논리, 함수 및 코드 블록의 중요성을 설명하여 포괄적인 지원을 제공하며, 특히 생물정보학에서의 C 응용에 중점을 둡니다. 이 도우미는 상세하고 주석이 잘 달린 코드를 제공하여 프로그래밍 문제를 해결할 수 있으며, 사용자가 제출한 코드를 검토하여 오류를 찾아내고 원인을 설명하며 수정 방안을 제시합니다. 또한, 명확한 이유와 향상된 코드 버전과 함께 코드 최적화 조언도 제공합니다. 이 워크플로우는 단계별 설명과 반복 학습을 장려하며, 긴 출력물을 일시 정지하고 사용자 프롬프트를 기다림으로써 이해도와 기억력을 높입니다."
 }

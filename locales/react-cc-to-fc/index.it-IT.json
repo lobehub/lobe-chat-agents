@@ -8,17 +8,6 @@
       "Puoi rifattorizzare un componente Class complesso con stato e metodi di ciclo di vita?"
     ]
   },
-  "meta": {
-    "title": "React Class 组件转 FC 组件",
-    "description": "Una volta clic, ti aiuta a rifattorizzare i componenti Class di React in componenti FC",
-    "tags": [
-      "typescript",
-      "codice",
-      "sviluppo software",
-      "react",
-      "rifattorizzazione"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Certamente, ecco come rifattorizzare il componente TodoList in una funzione usando React hooks:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "title": "React Class 组件转 FC 组件",
+    "description": "Una volta clic, ti aiuta a rifattorizzare i componenti Class di React in componenti FC",
+    "tags": ["typescript", "codice", "sviluppo software", "react", "rifattorizzazione"]
+  },
   "summary": "Questo agente è specializzato nel trasformare componenti React Class in componenti funzionali (FC) moderni usando React hooks. Utilizza una profonda expertise in React e TypeScript per rifattorizzare automaticamente codice React legacy basato su Class in componenti più puliti, manutenibili ed efficienti. Supporta gli sviluppatori che vogliono modernizzare il loro codebase, migliorare la leggibilità e adottare le migliori pratiche di React. Gestisce senza problemi la conversione di gestione dello stato, metodi di ciclo di vita e gestione degli eventi, rendendo il processo di rifattorizzazione rapido e senza errori. Ideale per ingegneri frontend che vogliono aggiornare progetti esistenti o imparare React hooks attraverso esempi pratici."
 }

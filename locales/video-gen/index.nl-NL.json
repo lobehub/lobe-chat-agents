@@ -8,14 +8,6 @@
     ],
     "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Op een ver planet, is er een MiniMax.\"\n}'\n"
   },
-  "meta": {
-    "title": "task_id",
-    "tags": [
-      "ai-assistant",
-      "tech-support"
-    ],
-    "description": "POST https://api.minimaxi.chat/v1/video_generation"
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +34,10 @@
       "content": "De API reageert meestal met een JSON-object dat een video-URL of een identificator voor de gegenereerde video bevat. Je kunt deze URL gebruiken om de video te bekijken of te downloaden die is gemaakt op basis van jouw prompt."
     }
   ],
+  "meta": {
+    "title": "task_id",
+    "tags": ["ai-assistant", "tech-support"],
+    "description": "POST https://api.minimaxi.chat/v1/video_generation"
+  },
   "summary": "Deze Agent faciliteert videogenereatie via een API-eindpunt, waardoor gebruikers AI-gegenereerde video's kunnen maken door gestructureerde verzoeken te sturen. Het ondersteunt het specificeren van prompts en modelparameters, waardoor aanpasbare videoinhoudscreatie mogelijk is. Ideaal voor ontwikkelaars en technische gebruikers, het stroomlijnt de integratie van videogenereercapaciteiten in applicaties of workflows. De kernwaarde van de Agent ligt in zijn vermogen om videoproductie te automatiseren met minimale invoer, waardoor het een krachtig hulpmiddel is voor contentmakers, marketeers en ontwikkelaars die AI-gestuurde multimedia-generatie willen benutten."
 }

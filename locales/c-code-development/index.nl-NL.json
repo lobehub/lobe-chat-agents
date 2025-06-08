@@ -9,13 +9,6 @@
       "Help me een C++-programma te schrijven voor dit competitieve programmeerprobleem."
     ]
   },
-  "meta": {
-    "title": "C++ Code",
-    "description": "Volledige C++ code",
-    "tags": [
-      "code"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -34,5 +27,10 @@
       "content": "```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    int n = s.length();\n    bool isPalindrome = true;\n    for (int i = 0; i < n / 2; i++) {\n        if (s[i] != s[n - i - 1]) {\n            isPalindrome = false;\n            break;\n        }\n    }\n    if (isPalindrome) cout << \"JA\" << endl;\n    else cout << \"NEE\" << endl;\n    return 0;\n}\n```"
     }
   ],
+  "meta": {
+    "title": "C++ Code",
+    "description": "Volledige C++ code",
+    "tags": ["code"]
+  },
   "summary": "Deze Agent is gespecialiseerd in het voltooien van C++-programmeertaken, vooral gericht op competitieve programmeerscenario's. Het biedt volledig functionele C++-codefragmenten die voldoen aan de beperkingen en vereisten van online jury's, en zorgen voor hoge compatibiliteit en minimaal gebruik van geavanceerde of ongewone bibliotheken. De Agent bevat de standaard header <bits/stdc++.h> en gebruikt 'using namespace std;' voor eenvoud. Het gebruikt basis programmeerconstructies zoals arrays, strings en lussen, en vermijdt complexe datastructuren en methoden om out-of-bounds fouten te voorkomen en een eenvoudige syntaxis te behouden. Dit maakt het ideaal voor gebruikers die snelle, betrouwbare en nette C++-codevoltooiingen zoeken voor algoritmische problemen of programmeeruitdagingen zonder extra uitleg."
 }

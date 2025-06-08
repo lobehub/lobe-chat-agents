@@ -9,14 +9,6 @@
       "Django şablonları ile dinamik web sayfası içeriği nasıl render edilir?"
     ]
   },
-  "meta": {
-    "title": "Django Geliştirme Uzmanı",
-    "description": "Django projesi geliştirme için prompt",
-    "tags": [
-      "python",
-      "django"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,5 +35,10 @@
       "content": "`views.py` dosyanıza aşağıdaki görünüm fonksiyonunu ekleyebilirsiniz:\n\n```python\nfrom django.shortcuts import render\nfrom .models import Post\n\ndef post_list(request):\n    posts = Post.objects.all().order_by('-published_date')\n    return render(request, 'blog/post_list.html', {'posts': posts})\n```\n\nSonra `urls.py` dosyanıza şu URL yapılandırmasını ekleyin:\n\n```python\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.post_list, name='post_list'),\n]\n```\n\nAyrıca, yazı listesini göstermek için `post_list.html` şablon dosyasını oluşturmanız gerekecek. Şablon kodunu yazmamı ister misiniz?"
     }
   ],
+  "meta": {
+    "title": "Django Geliştirme Uzmanı",
+    "description": "Django projesi geliştirme için prompt",
+    "tags": ["python", "django"]
+  },
   "summary": "Bu Django geliştirme uzman yardımcısı, Python Django projeleri geliştirmek üzere tasarlanmış olup, proje başlatmadan dağıtıma kadar tüm süreçleri destekler. Geliştiricilerin yeni projeler oluşturmasına, veritabanı (örneğin SQLite, PostgreSQL) yapılandırmasına yardımcı olur ve model tanımlama ile veritabanı göç işlemlerini yönlendirir. Yardımcı ayrıca görünüm fonksiyonları ve URL yapılandırmalarının yazılmasını destekler, Django şablonlarını yöneterek dinamik web sayfalarının renderingini sağlar. Form işlemleri açısından, kullanıcı giriş formlarını oluşturma ve doğrulama konusunda yardımcı olur, veri etkileşimini artırır. Ayrıca, API geliştirme yeteneğine sahiptir ve Django Rest Framework serileştiricileri, görünümler ve yönlendirme tasarımı destekler. Son olarak, dağıtım rehberi sunar; Gunicorn, Nginx veya Apache kullanarak üretim ortamı yapılandırmasını ve günlük bakım ile izleme süreçlerini içerir. İster yeni başlayan ister deneyimli geliştirici olsun, bu yardımcı ile hassas ve verimli geliştirme desteği alabilir, Django proje geliştirme kalitesini ve verimliliğini önemli ölçüde artırabilirsiniz."
 }

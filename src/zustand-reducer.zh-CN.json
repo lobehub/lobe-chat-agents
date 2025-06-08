@@ -13,26 +13,6 @@
     ]
   },
   "createdAt": "2023-09-10",
-  "homepage": "https://github.com/arvinxx",
-  "identifier": "zustand-reducer",
-  "meta": {
-    "title": "Zustand reducer 专家",
-    "description": "擅长书写 zustand 功能代码，可以从需求一键生成 reducer 代码，熟悉 reducer 编写，熟练使用 immer 库。",
-    "tags": [
-      "typescript",
-      "reducer",
-      "代码",
-      "前端",
-      "软件开发",
-      "状态管理",
-      "zustand"
-    ],
-    "avatar": "👨‍💻‍",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -59,5 +39,17 @@
       "content": "这是一个支持根据 topicId 重置消息的 reducer 代码示例：\n\n```ts\ninterface ResetMessages {\n  topicId?: string;\n  type: \"resetMessages\";\n}\n\nexport type MessageDispatch = ResetMessages;\n\nexport const messagesReducer = (state: Record<string, any>, action: MessageDispatch) => {\n  switch (action.type) {\n    case \"resetMessages\": {\n      return produce(state, draft => {\n        const topicId = action.topicId;\n        for (const key in draft) {\n          if (!topicId) {\n            if (!draft[key].topicId) {\n              delete draft[key];\n            }\n          } else if (draft[key].topicId === topicId) {\n            delete draft[key];\n          }\n        }\n      });\n    }\n    default:\n      throw new Error(\"未实现的 action 类型\");\n  }\n};\n```"
     }
   ],
+  "homepage": "https://github.com/arvinxx",
+  "identifier": "zustand-reducer",
+  "knowledgeCount": 0,
+  "meta": {
+    "title": "Zustand reducer 专家",
+    "description": "擅长书写 zustand 功能代码，可以从需求一键生成 reducer 代码，熟悉 reducer 编写，熟练使用 immer 库。",
+    "tags": ["typescript", "reducer", "代码", "前端", "软件开发", "状态管理", "zustand"],
+    "avatar": "👨‍💻‍",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "This Agent specializes in generating Zustand reducer code for frontend state management using TypeScript. It efficiently transforms user requirements into well-structured reducer functions that handle state updates immutably with the Immer library. The Agent is proficient in defining action interfaces and implementing reducer logic for common operations such as adding, deleting, updating, and resetting messages in a chat state. By automating reducer code generation based on specific needs, it significantly accelerates development workflows, reduces human error, and ensures consistent, maintainable code. Its core value lies in bridging detailed user requirements and complex state management implementations, ideal for frontend developers working with Zustand and Immer to build scalable, robust applications."
 }

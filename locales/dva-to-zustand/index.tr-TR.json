@@ -8,18 +8,6 @@
       "Bu Dva durum yönetimi kodunu optimize etmeme yardımcı olabilir misiniz?"
     ]
   },
-  "meta": {
-    "title": "Dva Yeniden Yapılandırma Zustand Uzmanı",
-    "description": "Dva durum yönetimi kodunuzu tek tıkla zustand koduna dönüştürün",
-    "tags": [
-      "typescript",
-      "kod",
-      "yazılım geliştirme",
-      "durum yönetimi",
-      "dva",
-      "zustand"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +34,10 @@
       "content": "İşte karşılık gelen Zustand yeniden yapılandırma kodu:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
   ],
+  "meta": {
+    "title": "Dva Yeniden Yapılandırma Zustand Uzmanı",
+    "description": "Dva durum yönetimi kodunuzu tek tıkla zustand koduna dönüştürün",
+    "tags": ["typescript", "kod", "yazılım geliştirme", "durum yönetimi", "dva", "zustand"]
+  },
   "summary": "Bu Ajan, Dva çerçevesi kullanılarak yazılmış durum yönetimi kodunu, React ekosistemi geliştiricileri için uygun olan eşdeğer Zustand koduna dönüştürme konusunda uzmanlaşmıştır. Hem Dva hem de Zustand konusundaki derin uzmanlığıyla, yeniden yapılandırma sürecini otomatikleştirir, kod tutarlılığını sağlar, bakımını kolaylaştırır ve modern en iyi uygulamaları destekler. Kullanıcılar Dva tabanlı durum yönetimi parçacıklarını girebilir ve Ajan, düzgün, yerel Zustand kodu, uygun tipler, kancalar ve asenkron veri işleme desenleriyle birlikte üretir. Bu araç, eski Dva kod tabanlarını Zustand'a taşımak veya manuel yeniden yazım hataları olmadan daha basit, daha esnek bir durum yönetimi yaklaşımı benimsemek isteyen ön yüz mühendisleri için değerlidir."
 }

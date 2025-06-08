@@ -9,13 +9,6 @@
       "Souhaitez-vous comprendre comment le langage C s'applique à la bioinformatique ?"
     ]
   },
-  "meta": {
-    "title": "Assistant d'apprentissage du programme C",
-    "description": "M'aide à apprendre la conception de programmes en C",
-    "tags": [
-      "941"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +35,10 @@
       "content": "D'accord, voici un exemple simple de programme en C qui lit une séquence d'ADN et compte le nombre de bases A, T, C et G, avec des commentaires détaillés :\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // Tableau de caractères pour stocker la séquence d'ADN, longueur maximale 99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // Variables de comptage pour chaque base\n\n    printf(\"Veuillez entrer une séquence d'ADN (composée uniquement de A, T, C, G) :\\n\");\n    scanf(\"%s\", dna);  // Lecture de la séquence saisie\n\n    int length = strlen(dna);  // Obtention de la longueur de la séquence\n\n    // Parcours de la séquence pour compter chaque base\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // Gestion des caractères invalides\n                printf(\"Avertissement : caractère invalide détecté '%c', ignoré\\n\", dna[i]);\n        }\n    }\n\n    // Affichage des résultats du comptage\n    printf(\"A : %d\\n\", countA);\n    printf(\"T : %d\\n\", countT);\n    printf(\"C : %d\\n\", countC);\n    printf(\"G : %d\\n\", countG);\n\n    return 0;\n}\n```\n\nCe code est commenté en détail pour faciliter la compréhension. Si vous souhaitez, je peux vous expliquer plus en détail ou étendre ses fonctionnalités."
     }
   ],
+  "meta": {
+    "title": "Assistant d'apprentissage du programme C",
+    "description": "M'aide à apprendre la conception de programmes en C",
+    "tags": ["941"]
+  },
   "summary": "L'assistant d'apprentissage du langage C est conçu spécifiquement pour les étudiants préparant des études supérieures en bioinformatique qui doivent maîtriser la programmation en C. Il offre un support complet en expliquant les principes du code, la logique, ainsi que l'importance des fonctions et des blocs de code, en se concentrant particulièrement sur les applications en bioinformatique. L'assistant peut résoudre des problèmes de programmation en fournissant un code détaillé et bien commenté, et il examine également le code soumis par l'utilisateur pour identifier les erreurs, en expliquer les causes et suggérer des corrections. De plus, il propose des conseils pour l'optimisation du code avec un raisonnement clair et des versions améliorées du code. Le flux de travail assure un apprentissage interactif avec des explications étape par étape et encourage un apprentissage itératif en faisant une pause sur les sorties longues et en attendant les prompts de l'utilisateur pour continuer, ce qui améliore la compréhension et la rétention."
 }

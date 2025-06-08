@@ -11,22 +11,6 @@
     ]
   },
   "createdAt": "2023-09-07",
-  "homepage": "https://github.com/canisminor1990",
-  "identifier": "web-development",
-  "meta": {
-    "avatar": "💻",
-    "tags": [
-      "code",
-      "software-development",
-      "productivity"
-    ],
-    "title": "Web Development",
-    "description": "Generate a website react code within minute",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -53,5 +37,17 @@
       "content": "Here's a minimal React app using React Router to include the Navbar and UserList components:\n\n```jsx\nimport React from 'react';\nimport { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\nimport Navbar from './Navbar';\nimport UserList from './UserList';\n\nconst Home = () => <h1>Welcome to the Home Page</h1>;\nconst About = () => <h1>About Us</h1>;\nconst Contact = () => <h1>Contact Us</h1>;\n\nconst App = () => {\n  return (\n    <Router>\n      <Navbar />\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/about\" element={<About />} />\n        <Route path=\"/contact\" element={<Contact />} />\n        <Route path=\"/users\" element={<UserList />} />\n      </Routes>\n    </Router>\n  );\n};\n\nexport default App;\n```\n\nMake sure to update the Navbar links to include the Users page if needed. Let me know if you want me to generate the complete CSS or set up state management!"
     }
   ],
+  "homepage": "https://github.com/canisminor1990",
+  "identifier": "web-development",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "💻",
+    "tags": ["code", "software-development", "productivity"],
+    "title": "Web Development",
+    "description": "Generate a website react code within minute",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "This Agent specializes in rapidly generating React-based website code, enabling users to create responsive and modern web applications within minutes. Leveraging expertise in front-end technologies such as HTML, CSS, JavaScript, and React, as well as back-end languages and frameworks, the Agent assists in designing scalable, maintainable web solutions. It supports full-stack development tasks including UI component creation, state management, routing, and integration with APIs or databases. Ideal for developers needing quick prototyping or production-ready React code, this Agent enhances productivity by automating code generation while following best practices in security, performance, and testing. It also aids debugging and troubleshooting, fostering collaboration across development teams to deliver user-friendly web applications efficiently."
 }

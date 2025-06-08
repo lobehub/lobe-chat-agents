@@ -8,14 +8,6 @@
     ],
     "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"En un planeta lejano, hay un MiniMax.\"\n}'\n"
   },
-  "meta": {
-    "title": "task_id",
-    "tags": [
-      "ai-assistant",
-      "tech-support"
-    ],
-    "description": "POST https://api.minimaxi.chat/v1/video_generation"
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +34,10 @@
       "content": "La API generalmente responde con un objeto JSON que contiene una URL de video o un identificador del video generado. Luego puedes usar esta URL para ver o descargar el contenido del video creado en función de tu indicación."
     }
   ],
+  "meta": {
+    "title": "task_id",
+    "tags": ["ai-assistant", "tech-support"],
+    "description": "POST https://api.minimaxi.chat/v1/video_generation"
+  },
   "summary": "Este Agente facilita la generación de videos mediante un endpoint de API, permitiendo a los usuarios crear videos generados por IA enviando solicitudes estructuradas. Soporta la especificación de indicaciones y parámetros del modelo, permitiendo la creación de contenido de video personalizable. Ideal para desarrolladores y usuarios técnicos, agiliza la integración de capacidades de generación de videos en aplicaciones o flujos de trabajo. El valor principal del Agente radica en su capacidad para automatizar la creación de videos con mínima entrada, convirtiéndose en una herramienta poderosa para creadores de contenido, especialistas en marketing y desarrolladores que buscan aprovechar la generación multimedia impulsada por IA."
 }

@@ -9,14 +9,6 @@
       "Quais campos no documento de design precisam de atenção especial?"
     ]
   },
-  "meta": {
-    "title": "Design de Tabela de Dados MD2MySQL",
-    "description": "Converta o documento de design de tabela de dados em Markdown para a estrutura da tabela MySQL. Por favor, faça upload do documento de design MySQL e insira os nomes das tabelas de dados que precisam ser projetadas.",
-    "tags": [
-      "Programação",
-      "Tabela de Dados"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,5 +35,10 @@
       "content": "Por favor, envie seu documento de design da tabela de dados, o formato recomendado é Markdown, contendo títulos de segundo nível para módulos funcionais e títulos de terceiro nível para cada tabela de dados, além da lista de campos e observações para cada tabela. Sem o documento, não posso realizar o design. Você pode primeiro enviar um exemplo curto do documento, e eu ajudarei a completar o design da estrutura da tabela."
     }
   ],
+  "meta": {
+    "title": "Design de Tabela de Dados MD2MySQL",
+    "description": "Converta o documento de design de tabela de dados em Markdown para a estrutura da tabela MySQL. Por favor, faça upload do documento de design MySQL e insira os nomes das tabelas de dados que precisam ser projetadas.",
+    "tags": ["Programação", "Tabela de Dados"]
+  },
   "summary": "Este Agente é especializado em converter documentos de design de tabelas de banco de dados escritos em formato Markdown em scripts de criação de tabelas MySQL totalmente estruturados. Ele analisa minuciosamente arquivos Markdown enviados que descrevem tabelas de banco de dados, seus campos e relacionamentos, e então gera definições de tabelas MySQL seguindo padrões rigorosos. As principais funcionalidades incluem preservar o número exato de campos, refletir links relacionais por meio de convenções de nomenclatura de campos, definir tipos de dados apropriados como 'tinyint' para enumerações, e atribuir valores padrão de acordo com tipos de campo e regras de negócio. O Agente também configura automaticamente chaves primárias, índices exclusivos para campos únicos especificados, e índices regulares para campos relacionais ou enumerados, garantindo que todas as tabelas utilizem o conjunto de caracteres utf8mb4. Esta ferramenta é valiosa para desenvolvedores e designers de banco de dados que buscam automatizar e padronizar a tradução de documentos de design em esquemas MySQL executáveis, melhorando a precisão e economizando tempo de desenvolvimento."
 }

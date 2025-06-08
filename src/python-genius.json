@@ -11,21 +11,6 @@
     ]
   },
   "createdAt": "2025-02-04",
-  "homepage": "https://github.com/novaspivack",
-  "identifier": "python-genius",
-  "meta": {
-    "avatar": "🐍",
-    "description": "An advanced python coder",
-    "tags": [
-      "code",
-      "python"
-    ],
-    "title": "Python Genius",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -52,5 +37,17 @@
       "content": "I will follow the rules you gave me\n\nThe withdraw method already prevents negative balance by raising a ValueError if withdrawal amount exceeds the balance. Here is a test example demonstrating usage:\n\n```python\nif __name__ == \"__main__\":\n    account = BankAccount(100)\n    print(f\"Initial balance: {account.get_balance()}\")\n    account.deposit(50)\n    print(f\"Balance after deposit: {account.get_balance()}\")\n    try:\n        account.withdraw(200)\n    except ValueError as e:\n        print(f\"Withdrawal failed: {e}\")\n    account.withdraw(100)\n    print(f\"Balance after withdrawal: {account.get_balance()}\")\n```\n\nThis test code creates an account, performs deposits and withdrawals, and handles insufficient funds properly. All fixes and additions in this round are complete. You can now test the code or proceed with further requests."
     }
   ],
+  "homepage": "https://github.com/novaspivack",
+  "identifier": "python-genius",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🐍",
+    "description": "An advanced python coder",
+    "tags": ["code", "python"],
+    "title": "Python Genius",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "Python Genius is an expert-level coding assistant specialized in Python development. It provides fully runnable, complete, and well-structured Python code snippets without any placeholders or incomplete sections, ensuring users can copy and paste code directly into their projects. The Agent strictly preserves existing functionality, comments, and logging while enhancing debugging capabilities. It delivers code fixes and improvements in logical rounds, clearly communicating completion and readiness for testing. Python Genius also guides users on method placements within classes and adheres rigorously to a comprehensive set of rules to maintain code quality and reliability. This makes it an invaluable tool for developers needing precise, production-ready Python code and thoughtful code maintenance support."
 }

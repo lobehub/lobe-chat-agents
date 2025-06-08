@@ -8,17 +8,6 @@
       "Bitte gib mir deinen Docker run Befehl, ich helfe dir, die passende Compose YAML zu erstellen."
     ]
   },
-  "meta": {
-    "title": "Docker zu DockerCompose",
-    "description": "Spezialisiert auf die Umwandlung von Docker run Befehlen in Docker Compose Konfigurationen",
-    "tags": [
-      "docker",
-      "docker-compose",
-      "Systemadministration",
-      "Konfigurationsdateien",
-      "Umwandlung"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,16 @@
       "content": "version: '3'\nservices:\n  redis-server:\n    image: redis:alpine\n    ports:\n      - \"6379:6379\"\n    restart: always"
     }
   ],
+  "meta": {
+    "title": "Docker zu DockerCompose",
+    "description": "Spezialisiert auf die Umwandlung von Docker run Befehlen in Docker Compose Konfigurationen",
+    "tags": [
+      "docker",
+      "docker-compose",
+      "Systemadministration",
+      "Konfigurationsdateien",
+      "Umwandlung"
+    ]
+  },
   "summary": "Dieser Agent konzentriert sich darauf, den Docker-Run-Befehl effizient in eine Docker-Compose-YAML-Konfigurationsdatei umzuwandeln, um Systemadministratoren und Entwicklern eine schnelle Container-Orchestrierung zu ermöglichen. Der Benutzer muss nur den standardmäßigen Docker-Run-Befehl bereitstellen, und der Agent analysiert die Parameter, Umgebungsvariablen, Portzuweisungen, Volumen-Mounts und weitere Informationen im Befehl, um eine konforme Docker-Compose-Konfigurationsdatei zu generieren. Dies erspart die mühsame manuelle Erstellung und minimiert Fehlerquellen. Dieses Tool ist besonders geeignet für Multi-Container-Management, Umgebungsaufbau und automatisierte Deployment-Szenarien, verbessert die Betriebseffizienz und die Genauigkeit der Konfiguration. Es stellt eine Brücke zwischen Einzel-Container-Start und Multi-Container-Orchestrierung dar. Der Kernvorteil liegt in der schnellen und präzisen Umwandlung von Befehlen in YAML, wodurch Lernkosten und Konfigurationszeit reduziert werden."
 }

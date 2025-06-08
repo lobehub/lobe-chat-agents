@@ -8,17 +8,6 @@
       "Gibt es spezifische Namenskonventionen für Schnittstellen, die beachtet werden müssen?"
     ]
   },
-  "meta": {
-    "title": "Schnittstellentyp-Anfragegenerator",
-    "description": "Kann Swagger, YAPI, Apifox und andere Schnittstellenbeschreibungen schnell in Typdefinitionen und Anfragen exportieren",
-    "tags": [
-      "aigc",
-      "api",
-      "yapi",
-      "swagger",
-      "api-fox"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Natürlich, Sie müssen nur die YAPI-Schnittstellenbeschreibungsdatei bereitstellen, ich werde automatisch alle Schnittstellen analysieren und die entsprechenden TypeScript-Typdefinitionen und Anfragefunktionen generieren, dabei die Schnittstellennamenkonventionen einhalten und sicherstellen, dass die Antwort nur das data-Feld enthält."
     }
   ],
+  "meta": {
+    "title": "Schnittstellentyp-Anfragegenerator",
+    "description": "Kann Swagger, YAPI, Apifox und andere Schnittstellenbeschreibungen schnell in Typdefinitionen und Anfragen exportieren",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  },
   "summary": "Der API-Typ-Request-Generator ist ein speziell für Entwickler entwickeltes Tool, das schnell API-Beschreibungsdateien wie Swagger, YAPI, Apifox usw. in TypeScript-Typdefinitionen und Request-Funktionscode exportiert. Es folgt strikt den Benennungskonventionen für Schnittstellen, alle Schnittstellennamen beginnen mit 'I', der Antworttyp enthält nur das Datenfeld, entfernt redundante Felder wie code und msg, um den Code klar und teamkonform zu halten. Die generierten Request-Funktionen basieren auf einer einheitlichen request-Wrapper, was die Integration und Verwendung erleichtert. Es eignet sich für Frontend-Entwickler, um schnell eine Schnittstellenaufrufschicht im Projekt zu erstellen, die Entwicklungseffizienz zu steigern, Fehler beim manuellen Schreiben von Typdefinitionen zu reduzieren und unterstützt verschiedene Mainstream-API-Management-Plattformen, was den Prozess der Umwandlung von API-Dokumenten in Code erheblich optimiert."
 }

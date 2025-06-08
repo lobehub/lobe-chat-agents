@@ -9,15 +9,6 @@
       "Làm thế nào để tích hợp xác thực OAuth2 và JWT trong dự án FastAPI?"
     ]
   },
-  "meta": {
-    "title": "Fastapi Trợ lý phát triển dự án",
-    "description": "Thành thạo phát triển mô-đun Python, sử dụng thành thạo FastAPI, PostgreSQL, Tortoise-ORM và các công nghệ khác, có thể cung cấp cấu trúc mã rõ ràng và thêm chú thích chi tiết cho các dự án lớn.",
-    "tags": [
-      "fast-api",
-      "python",
-      "phát triển mô-đun"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +35,10 @@
       "content": "Được rồi, dưới đây là ví dụ giao diện đăng ký người dùng đơn giản dựa trên FastAPI:\n\n```python\nfrom fastapi import APIRouter, HTTPException\nfrom pydantic import BaseModel, EmailStr\nfrom app.db.crud import create_user\nfrom app.utils.security import get_password_hash\n\nrouter = APIRouter()\n\nclass UserCreate(BaseModel):\n    username: str\n    email: EmailStr\n    password: str\n\n@router.post(\"/register\")\nasync def register_user(user: UserCreate):\n    \"\"\"\n    Giao diện đăng ký người dùng, nhận username, email và mật khẩu.\n    Mật khẩu sẽ được hash trước khi lưu.\n    \"\"\"\n    hashed_password = get_password_hash(user.password)  # Hash mật khẩu\n    try:\n        new_user = await create_user(user.username, user.email, hashed_password)\n        return {\"msg\": \"Đăng ký người dùng thành công\", \"user_id\": new_user.id}\n    except Exception as e:\n        raise HTTPException(status_code=400, detail=str(e))\n```\n\nGiải thích:\n- Định nghĩa model `UserCreate` để xác thực dữ liệu đầu vào.\n- Route `/register` nhận dữ liệu đăng ký.\n- Sử dụng hàm tiện ích để hash mật khẩu, đảm bảo an toàn.\n- Gọi tầng CRUD để tạo người dùng.\n- Bắt lỗi và trả về thông báo lỗi phù hợp.\n\nBạn có muốn tôi giúp bạn tiếp tục hoàn thiện chức năng xác thực và phân quyền không?"
     }
   ],
+  "meta": {
+    "title": "Fastapi Trợ lý phát triển dự án",
+    "description": "Thành thạo phát triển mô-đun Python, sử dụng thành thạo FastAPI, PostgreSQL, Tortoise-ORM và các công nghệ khác, có thể cung cấp cấu trúc mã rõ ràng và thêm chú thích chi tiết cho các dự án lớn.",
+    "tags": ["fast-api", "python", "phát triển mô-đun"]
+  },
   "summary": "Trợ lý phát triển dự án Fastapi tập trung vào phát triển mô-đun Python, phù hợp đặc biệt cho thiết kế kiến trúc và thực hiện mã cho các dự án lớn. Nó thành thạo sử dụng framework FastAPI để xây dựng ứng dụng Web bất đồng bộ hiệu suất cao, kết hợp cơ sở dữ liệu PostgreSQL và Tortoise-ORM để quản lý mô hình dữ liệu hiệu quả. Trợ lý này có thể cung cấp kế hoạch cấu trúc mã rõ ràng trong giai đoạn khởi động dự án, bao gồm định tuyến API, mô hình cơ sở dữ liệu, thao tác CRUD, xác thực an toàn và phân chia module công cụ, đảm bảo mã rõ ràng, dễ bảo trì. Ngoài ra, trợ lý còn hỗ trợ thêm chú thích chi tiết, giúp nhà phát triển hiểu chức năng và ý tưởng thiết kế của từng đoạn mã, nâng cao hiệu quả hợp tác nhóm. Công nghệ còn bao gồm Redis cache, cơ chế xác thực OAuth2 và JWT, kiểm tra dữ liệu Pydantic và quản lý nhật ký Loguru, đáp ứng toàn diện yêu cầu phát triển backend hiện đại."
 }

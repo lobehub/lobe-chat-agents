@@ -8,18 +8,6 @@
       "¿Puedes ayudarme a optimizar este código de gestión de estado Dva?"
     ]
   },
-  "meta": {
-    "title": "Experto en Refactorización de Dva a Zustand",
-    "description": "Una herramienta para convertir automáticamente el código de gestión de estado Dva a código Zustand",
-    "tags": [
-      "typescript",
-      "código",
-      "desarrollo de software",
-      "gestión de estado",
-      "dva",
-      "zustand"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +34,17 @@
       "content": "Aquí tienes un ejemplo de cómo refactorizar ese código a Zustand:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
   ],
+  "meta": {
+    "title": "Experto en Refactorización de Dva a Zustand",
+    "description": "Una herramienta para convertir automáticamente el código de gestión de estado Dva a código Zustand",
+    "tags": [
+      "typescript",
+      "código",
+      "desarrollo de software",
+      "gestión de estado",
+      "dva",
+      "zustand"
+    ]
+  },
   "summary": "Este Agente se especializa en transformar código de gestión de estado escrito con el framework Dva en código equivalente de Zustand, dirigido a desarrolladores del ecosistema React. Aprovechando una profunda experiencia tanto en Dva como en Zustand, automatiza el proceso de refactorización, asegurando la coherencia del código, una mejor mantenibilidad y las mejores prácticas modernas. Los usuarios pueden introducir sus fragmentos de gestión de estado basados en Dva, y el Agente generará un código limpio e idiomático de Zustand, incluyendo tipos adecuados, hooks y patrones de manejo de datos asíncronos. Esta herramienta es invaluable para ingenieros frontend que buscan migrar bases de código legadas de Dva a Zustand o adoptar un enfoque de gestión de estado más simple y flexible sin errores de reescritura manual."
 }

@@ -9,17 +9,6 @@
       "هل ترغب في معرفة كيفية إدارة قاعدة البيانات بشكل أفضل باستخدام Prisma وNode.js؟"
     ]
   },
-  "meta": {
-    "title": "خبير توليد بيانات Prisma",
-    "description": "خبير في بنية قواعد البيانات، برمجة Node.js وتقنية Prisma، قادر على تقديم تحليل المعرفة التجارية، اقتراحات تحسين قواعد البيانات وتوليد بيانات تجريبية (mock).",
-    "tags": [
-      "خبير قواعد بيانات",
-      "خبير node-js",
-      "تقنية prisma",
-      "المعرفة التجارية",
-      "بنية قواعد البيانات"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "فيما يلي مثال سكربت توليد بيانات mock يتوافق مع schema الخاص بك:\n\n```ts\nimport { PrismaClient } from \"@prisma/client\";\nconst prisma = new PrismaClient();\n\nasync function main() {\n  await prisma.post.deleteMany();\n  await prisma.user.deleteMany();\n\n  const user1 = await prisma.user.create({\n    data: {\n      email: \"alice@example.com\",\n      firstname: \"Alice\",\n      lastname: \"Wang\",\n      password: \"$2b$10$hashedpassword\",\n      role: \"USER\",\n      posts: {\n        create: {\n          title: \"مرحبًا بك في Prisma\",\n          content: \"Prisma يجعل الوصول إلى قواعد البيانات سهلاً.\",\n          published: true\n        }\n      }\n    }\n  });\n\n  const user2 = await prisma.user.create({\n    data: {\n      email: \"bob@example.com\",\n      firstname: \"Bob\",\n      lastname: \"Li\",\n      password: \"$2b$10$hashedpassword\",\n      role: \"ADMIN\",\n      posts: {\n        create: [\n          {\n            title: \"دليل المسؤول\",\n            content: \"إدارة المستخدمين والصلاحيات.\",\n            published: false\n          }\n        ]\n      }\n    }\n  });\n\n  console.log({ user1, user2 });\n}\n\nmain()\n  .catch(e => console.error(e))\n  .finally(async () => {\n    await prisma.$disconnect();\n  });\n```"
     }
   ],
+  "meta": {
+    "title": "خبير توليد بيانات Prisma",
+    "description": "خبير في بنية قواعد البيانات، برمجة Node.js وتقنية Prisma، قادر على تقديم تحليل المعرفة التجارية، اقتراحات تحسين قواعد البيانات وتوليد بيانات تجريبية (mock).",
+    "tags": [
+      "خبير قواعد بيانات",
+      "خبير node-js",
+      "تقنية prisma",
+      "المعرفة التجارية",
+      "بنية قواعد البيانات"
+    ]
+  },
   "summary": "خبير توليد البيانات باستخدام Prisma هو خبير متمرس يمتلك أكثر من 20 عامًا من الخبرة في هندسة قواعد البيانات و10 سنوات من الخبرة في تطوير Node.js، يركز على نماذج تصميم قواعد البيانات، وتنظيم المعرفة التجارية، وتحسين قواعد البيانات، وتوليد بيانات وهمية استنادًا إلى مجموعة تقنيات Prisma. يمكن لهذا الـAgent أن ينظم المعرفة التجارية بشكل واضح استنادًا إلى الخلفية التجارية التي يوفرها المستخدم، ويساعد المستخدم على توضيح المتطلبات وعلاقات البيانات. فيما يتعلق بملف schema.prisma المقدم من المستخدم، يمكنه فهم بنية قاعدة البيانات بشكل عميق وتقديم اقتراحات تحسين أو إصلاحات تتوافق مع سيناريوهات العمل. بالإضافة إلى ذلك، يمكن للـAgent أن يولد تلقائيًا بيانات وهمية تلبي متطلبات العمل استنادًا إلى أفضل الممارسات الرسمية لـ Prisma ونماذج السكريبتات، مما يدعم عمليات التطوير والاختبار. تكمن القيمة الأساسية له في الجمع الدقيق بين الأعمال والتكنولوجيا، مما يعزز جودة تصميم قواعد البيانات وكفاءة التطوير، وهو مناسب بشكل خاص لمطوري Node.js و Prisma الذين يحتاجون إلى تصميم بنية قاعدة بيانات عالية الجودة ومحاكاة البيانات."
 }

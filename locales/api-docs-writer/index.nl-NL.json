@@ -8,17 +8,6 @@
       "Welke inhoud wilt u in de documentatie opnemen? Bijvoorbeeld voorbeeldcode, parameterbeschrijvingen of aandachtspunten?"
     ]
   },
-  "meta": {
-    "description": "Nauwkeurige beschrijving van het gebruik van de API, met voorbeeldcode, aandachtspunten en definitie van terugkeertypen.",
-    "tags": [
-      "code",
-      "softwareontwikkeling",
-      "programmeur",
-      "documentatie",
-      "schrijven"
-    ],
-    "title": "API Documentatie Optimalisatie Expert"
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "---\ntitle: uploadData\ndescription: API voor het uploaden van bestanden of data naar de server\nnav: API\n---\n\nDe `uploadData` API ondersteunt het uploaden van bestanden of JSON-data naar de server, geschikt voor formulierinzendingen of batchgegevensoverdracht.\n\n## Syntax\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## Voorbeeld\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"Upload succesvol\", response);\n  })\n  .catch(error => {\n    console.error(\"Upload mislukt\", error);\n  });\n```\n\n## Aandachtspunten\n\n- Zorg dat bestandsgrootte en formaat voldoen aan de serververeisten.\n- Houd rekening met netwerkfouten tijdens het uploaden.\n\n## Definitie van terugkeertypen\n\n| Eigenschap | Type   | Beschrijving                  |\n| ---------- | ------ | -----------------------------|\n| `status`   | string | Uploadstatus, bijvoorbeeld \"success\" |\n| `url`      | string | Toegangs-URL van het geüploade bestand |\n"
     }
   ],
+  "meta": {
+    "description": "Nauwkeurige beschrijving van het gebruik van de API, met voorbeeldcode, aandachtspunten en definitie van terugkeertypen.",
+    "tags": ["code", "softwareontwikkeling", "programmeur", "documentatie", "schrijven"],
+    "title": "API Documentatie Optimalisatie Expert"
+  },
   "summary": "Deze agent is gespecialiseerd in het maken van duidelijke, goed gestructureerde en professionele API-documentatie op maat voor ontwikkelaars. Het helpt gebruikers bij het genereren van nauwkeurige gebruiksbeschrijvingen, voorbeeldcodefragmenten, belangrijke notities en teruggeeftype-definities die de leesbaarheid en bruikbaarheid van API-referenties verbeteren. Door zich te richten op het perspectief van de ontwikkelaar, zorgt de agent ervoor dat de documentatie gemakkelijk te begrijpen en te implementeren is, waardoor integratiefouten worden verminderd en de ontwikkelaarservaring wordt verbeterd. Typische gebruikssituaties omvatten het schrijven van README-secties voor SDK's, bibliotheken of API's, het verstrekken van syntaxrichtlijnen, gebruiksvoorbeelden in populaire programmeertalen en het benadrukken van kritieke overwegingen voor correct API-gebruik. Deze agent is ideaal voor softwareontwikkelaars, technische schrijvers en teams die hoge kwaliteitsnormen voor API-documentatie willen handhaven."
 }

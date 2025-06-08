@@ -8,18 +8,6 @@
       "Czy możesz pomóc mi zoptymalizować ten kod zarządzania stanem Dva?"
     ]
   },
-  "meta": {
-    "title": "Dva Ekspert ds. refaktoryzacji Zustand",
-    "description": "Jednym kliknięciem przekształć swój kod zarządzania stanem dva na kod zustand",
-    "tags": [
-      "typescript",
-      "kod",
-      "rozwój oprogramowania",
-      "zarządzanie stanem",
-      "dva",
-      "zustand"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +34,10 @@
       "content": "Oto odpowiadający kod refaktoryzacji Zustand:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
   ],
+  "meta": {
+    "title": "Dva Ekspert ds. refaktoryzacji Zustand",
+    "description": "Jednym kliknięciem przekształć swój kod zarządzania stanem dva na kod zustand",
+    "tags": ["typescript", "kod", "rozwój oprogramowania", "zarządzanie stanem", "dva", "zustand"]
+  },
   "summary": "Ten agent specjalizuje się w przekształcaniu kodu zarządzania stanem napisanego w frameworku Dva na równoważny kod Zustand, dostosowany do deweloperów ekosystemu React. Wykorzystując głęboką wiedzę zarówno o Dva, jak i Zustand, automatyzuje proces refaktoryzacji, zapewniając spójność kodu, lepszą konserwację i nowoczesne najlepsze praktyki. Użytkownicy mogą wprowadzić fragmenty zarządzania stanem oparte na Dva, a agent wygeneruje czysty, idiomatyczny kod Zustand, w tym odpowiednie typowania, hooki i wzorce obsługi danych asynchronicznych. To narzędzie jest nieocenione dla programistów frontendowych, którzy chcą migrować stare bazy kodu Dva do Zustand lub przyjąć prostsze, bardziej elastyczne podejście do zarządzania stanem bez ręcznego przepisywania błędów."
 }

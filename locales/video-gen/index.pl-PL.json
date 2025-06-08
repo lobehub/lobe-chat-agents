@@ -8,14 +8,6 @@
     ],
     "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Na odległej planecie znajduje się MiniMax.\"\n}'\n"
   },
-  "meta": {
-    "title": "task_id",
-    "tags": [
-      "ai-assistant",
-      "tech-support"
-    ],
-    "description": "POST https://api.minimaxi.chat/v1/video_generation"
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +34,10 @@
       "content": "API zazwyczaj odpowiada obiektem JSON zawierającym URL do filmu lub identyfikator wygenerowanego filmu. Możesz następnie użyć tego URL, aby obejrzeć lub pobrać zawartość filmu utworzonego na podstawie Twojego promptu."
     }
   ],
+  "meta": {
+    "title": "task_id",
+    "tags": ["ai-assistant", "tech-support"],
+    "description": "POST https://api.minimaxi.chat/v1/video_generation"
+  },
   "summary": "Ten Agent ułatwia generowanie filmów poprzez punkt końcowy API, umożliwiając użytkownikom tworzenie filmów generowanych przez AI poprzez wysyłanie uporządkowanych żądań. Obsługuje określanie promptów i parametrów modelu, co pozwala na dostosowywanie zawartości filmów. Idealny dla deweloperów i użytkowników technicznych, upraszcza integrację funkcji generowania filmów w aplikacjach lub przepływach pracy. Główną wartością Agenta jest jego zdolność do automatyzacji tworzenia filmów przy minimalnej ilości danych wejściowych, co czyni go potężnym narzędziem dla twórców treści, marketerów i deweloperów chcących korzystać z AI do tworzenia multimediów."
 }

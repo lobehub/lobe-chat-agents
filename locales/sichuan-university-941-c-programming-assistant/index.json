@@ -9,13 +9,6 @@
       "Would you like to learn how C language is applied in bioinformatics?"
     ]
   },
-  "meta": {
-    "title": "C Program Learning Assistant",
-    "description": "Assist me in learning C programming design",
-    "tags": [
-      "941"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +35,10 @@
       "content": "Sure, here is a simple C program example that reads a DNA sequence and counts the bases:\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // Character array to store the DNA sequence, max length 99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // Counting variables\n\n    printf(\"Please enter a DNA sequence (only A, T, C, G):\\n\");\n    scanf(\"%s\", dna);  // Read input string\n\n    int length = strlen(dna);  // Get the string length\n\n    // Traverse the string and count each base\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // Handle invalid characters\n                printf(\"Warning: Detected invalid character %c, ignored\\n\", dna[i]);\n        }\n    }\n\n    // Output the counting results\n    printf(\"A: %d\\n\", countA);\n    printf(\"T: %d\\n\", countT);\n    printf(\"C: %d\\n\", countC);\n    printf(\"G: %d\\n\", countG);\n\n    return 0;\n}\n```\n\nThis code includes detailed comments for better understanding. If you want, I can help you further explain the code details or extend its functionality."
     }
   ],
+  "meta": {
+    "title": "C Program Learning Assistant",
+    "description": "Assist me in learning C programming design",
+    "tags": ["941"]
+  },
   "summary": "The C Programming Learning Assistant is designed specifically for students preparing for bioinformatics graduate studies who need to master C programming. It offers comprehensive support by explaining code principles, logic, and the significance of functions and code blocks, especially focusing on C applications in bioinformatics. The assistant can solve programming problems by providing detailed, well-commented code, and it also reviews user-submitted code to identify errors, explain their causes, and suggest corrections. Additionally, it offers code optimization advice with clear reasoning and improved code versions. The workflow ensures interactive learning with step-by-step explanations and encourages iterative learning by pausing lengthy outputs and awaiting user prompts to continue, thereby enhancing understanding and retention."
 }

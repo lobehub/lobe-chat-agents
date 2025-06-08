@@ -11,20 +11,6 @@
     ]
   },
   "createdAt": "2024-09-10",
-  "homepage": "https://github.com/xingwang02",
-  "identifier": "web-react",
-  "meta": {
-    "avatar": "🤖",
-    "description": "输入 HTML 片段，转化为 React 组件",
-    "tags": [
-      "react、-html"
-    ],
-    "title": "HTML to React",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -51,5 +37,17 @@
       "content": "收到，忽略了<meta>标签，过滤了 -webkit- 开头的样式，转换结果如下：\n\n```tsx\nconst DivComponent = (): JSX.Element => {\n  return <div className=\"div-component\">{lang(\"测试文本\")}</div>;\n};\n```\n\n```scss\n.div-component {\n  color: red;\n}\n```\n\n这样保证了代码的整洁和规范。"
     }
   ],
+  "homepage": "https://github.com/xingwang02",
+  "identifier": "web-react",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🤖",
+    "description": "输入 HTML 片段，转化为 React 组件",
+    "tags": ["react、-html"],
+    "title": "HTML to React",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "该 Agent 专注于将输入的 HTML 片段高效且规范地转换为 TypeScript + React 组件。它能够合理拆分 JSX 元素，确保每行代码简洁易读，同时将内联样式抽离至独立的 SCSS 文件，提升代码维护性和样式复用性。Agent 会忽略不必要的标签如<meta />，并过滤掉特定样式如 font-family 和 -webkit- 开头的样式，保证生成代码符合最佳实践。文本内容统一使用 lang 方法包裹，支持多语言环境适配。全程以中文交流，方便中文开发者无障碍使用。适用于前端开发者需要快速将静态 HTML 转换为动态 React 组件的场景，极大提高开发效率，减少重复劳动和样式混乱问题。"
 }

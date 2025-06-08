@@ -9,15 +9,6 @@
       "Avez-vous besoin de conseils pour gérer les erreurs ou cas limites dans votre tâche ?"
     ]
   },
-  "meta": {
-    "title": "Générateur d'invite JSON",
-    "description": "Expert dans la génération d'invites au format JSON pour l'exécution de tâches.",
-    "tags": [
-      "analyse-de-tâche",
-      "génération-json",
-      "ingénierie-des-invites"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -36,5 +27,10 @@
       "content": "{\n  \"task_description\": \"Extraire les informations de contact telles que noms, numéros de téléphone et adresses e-mail à partir des e-mails.\",\n  \"requirements\": [\n    \"Identifier et extraire les noms complets.\",\n    \"Extraire les numéros de téléphone valides au format international.\",\n    \"Extraire les adresses e-mail.\",\n    \"Ignorer le texte non pertinent.\"\n  ],\n  \"output_format\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"contacts\": {\n        \"type\": \"array\",\n        \"items\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"name\": {\"type\": \"string\"},\n            \"phone\": {\"type\": \"string\"},\n            \"email\": {\"type\": \"string\"}\n          },\n          \"required\": [\"name\", \"email\"]\n        },\n        \"description\": \"Liste des contacts extraits.\"\n      }\n    },\n    \"required\": [\"contacts\"]\n  },\n  \"output_example\": {\n    \"contacts\": [\n      {\"name\": \"John Doe\", \"phone\": \"+1234567890\", \"email\": \"john.doe@example.com\"},\n      {\"name\": \"Jane Smith\", \"phone\": \"\", \"email\": \"jane.smith@example.com\"}\n    ]\n  },\n  \"resources\": [\"Corpus de textes d'e-mails\", \"Expressions régulières ou outils NLP\"],\n  \"evaluation_criteria\": [\"Exhaustivité de l'extraction\", \"Précision des détails de contact\", \"Conformité au format\"],\n  \"error_handling\": [\"Gérer gracieusement les numéros de téléphone manquants\", \"Signaler les contacts peu clairs ou partiels pour révision\"],\n  \"ethical_considerations\": [\"Respecter la vie privée et les lois sur la protection des données\"],\n  \"conclusion\": \"S'assurer que tous les contacts extraits sont précis, complets et formatés selon les spécifications avant de finaliser la sortie.\"\n}"
     }
   ],
+  "meta": {
+    "title": "Générateur d'invite JSON",
+    "description": "Expert dans la génération d'invites au format JSON pour l'exécution de tâches.",
+    "tags": ["analyse-de-tâche", "génération-json", "ingénierie-des-invites"]
+  },
   "summary": "Le générateur de prompts JSON est un agent spécialisé conçu pour créer des prompts détaillés et spécifiques à une tâche, formatés en JSON valide. Il analyse une description de tâche originale et produit un prompt complet qui inclut une reformulation formelle de la tâche, des exigences d'exécution explicites, une spécification précise du format de sortie, et un exemple de sortie illustratif. L'agent décrit également les ressources nécessaires, les critères d'évaluation, les procédures de gestion des erreurs et les considérations éthiques lorsque cela est applicable. Cet outil est idéal pour les professionnels nécessitant des instructions claires et structurées pour l'exécution automatisée de tâches, garantissant clarté et cohérence dans la conception des prompts. Sa valeur principale réside dans la transformation de demandes de tâches ambiguës ou complexes en prompts JSON standardisés et exécutables, facilitant une intégration transparente avec des systèmes et flux de travail automatisés."
 }

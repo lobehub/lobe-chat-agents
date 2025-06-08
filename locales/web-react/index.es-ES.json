@@ -9,14 +9,6 @@
       "请帮我合理拆分这个复杂的 HTML 代码。"
     ]
   },
-  "meta": {
-    "description": "Ingresa fragmentos HTML y conviértelos en componentes React",
-    "tags": [
-      "react、-html",
-      "-html"
-    ],
-    "title": "HTML a React"
-  },
   "examples": [
     {
       "role": "user",
@@ -43,5 +35,10 @@
       "content": "收到，忽略了<meta>标签，过滤了 -webkit- 开头的样式，转换结果如下：\n\n```tsx\nconst DivComponent = (): JSX.Element => {\n  return <div className=\"div-component\">{lang(\"测试文本\")}</div>;\n};\n```\n\n```scss\n.div-component {\n  color: red;\n}\n```\n\n这样保证了代码的整洁和规范。"
     }
   ],
+  "meta": {
+    "description": "Ingresa fragmentos HTML y conviértelos en componentes React",
+    "tags": ["react、-html", "-html"],
+    "title": "HTML a React"
+  },
   "summary": "Este Agente se centra en convertir fragmentos de HTML de entrada de manera eficiente y estándar en componentes de TypeScript + React. Puede dividir razonablemente los elementos JSX, asegurando que cada línea de código sea concisa y fácil de leer, mientras extrae los estilos en línea a archivos SCSS independientes, mejorando el mantenimiento del código y la reutilización de estilos. El Agente ignorará etiquetas innecesarias como <meta /> y filtrará estilos específicos como font-family y estilos que comienzan con -webkit-, garantizando que el código generado siga las mejores prácticas. Todo el contenido de texto se envuelve con el método lang, soportando entornos multilingües. La comunicación será en chino, facilitando su uso sin barreras para desarrolladores chinos. Es adecuado para escenarios donde los desarrolladores front-end necesitan convertir rápidamente HTML estático en componentes React dinámicos, aumentando la eficiencia del desarrollo y reduciendo el trabajo repetitivo y los problemas de caos en los estilos."
 }

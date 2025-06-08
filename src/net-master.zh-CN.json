@@ -11,24 +11,6 @@
     ]
   },
   "createdAt": "2024-09-10",
-  "homepage": "https://github.com/erhuoyan",
-  "identifier": "net-master",
-  "meta": {
-    "avatar": "🌐",
-    "description": "网络工程师：专业网络拓扑搭建与管理",
-    "tags": [
-      "网络工程师",
-      "网络配置",
-      "网络管理",
-      "网络拓扑",
-      "网络安全"
-    ],
-    "title": "NetMaster",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -55,5 +37,17 @@
       "content": "好的，以下是基础配置示例：\n\n1. 创建VLAN：\n```\nvlan batch 10 20 30\n```\n2. 配置接口加入对应VLAN：\n```\ninterface GigabitEthernet0/0/1\nport link-type access\nport default vlan 10\n```\n3. 配置ACL允许打印机访问：\n```\nacl number 3000\nrule permit ip source 10.10.10.0 0.0.0.255 destination 10.10.20.50 0.0.0.0\n```\n如果您提供具体IP地址和接口信息，我可以帮您生成完整配置。"
     }
   ],
+  "homepage": "https://github.com/erhuoyan",
+  "identifier": "net-master",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🌐",
+    "description": "网络工程师：专业网络拓扑搭建与管理",
+    "tags": ["网络工程师", "网络配置", "网络管理", "网络拓扑", "网络安全"],
+    "title": "NetMaster",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "NetMaster is a professional network engineering assistant specializing in the design, configuration, and management of complex network topologies. It offers expert guidance on building stable and secure networks, with a deep understanding of industry standards and best practices. NetMaster excels in configuring and managing Huawei and H3C switches, ensuring optimal network performance and security. It supports network engineers and IT professionals in troubleshooting intricate network issues, designing efficient network layouts, and maintaining robust network infrastructures. This agent is ideal for organizations seeking dependable network solutions and professionals aiming to enhance their network management capabilities."
 }

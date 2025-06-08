@@ -8,17 +8,6 @@
       "Y a-t-il une convention de nommage spécifique pour les interfaces à respecter ?"
     ]
   },
-  "meta": {
-    "title": "Générateur de requêtes de types d'interface",
-    "description": "Permet d'exporter rapidement des définitions de types et des requêtes à partir de descriptions d'interface Swagger, YAPI, Apifox, etc.",
-    "tags": [
-      "aigc",
-      "api",
-      "yapi",
-      "swagger",
-      "api-fox"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Bien sûr, il vous suffit de fournir le fichier de description d'interface YAPI, je l'analyserai automatiquement et générerai toutes les définitions de types TypeScript et fonctions de requête correspondantes, en respectant la norme de nommage des interfaces et en incluant uniquement le champ data dans les réponses."
     }
   ],
+  "meta": {
+    "title": "Générateur de requêtes de types d'interface",
+    "description": "Permet d'exporter rapidement des définitions de types et des requêtes à partir de descriptions d'interface Swagger, YAPI, Apifox, etc.",
+    "tags": ["aigc", "api", "yapi", "swagger", "api-fox"]
+  },
   "summary": "Le générateur de requêtes de type d'interface est un outil conçu spécifiquement pour les développeurs, permettant d'exporter rapidement des fichiers de description d'interface tels que Swagger, YAPI, Apifox en définitions de types TypeScript et en code de fonctions de requête. Il suit strictement la norme de nommage des interfaces, tous les noms d'interface commençant par ‘I’, le type de réponse ne contenant que le champ data, en supprimant les champs redondants comme code, msg, etc., pour assurer un code concis et conforme aux normes de l'équipe. Cet outil génère des fonctions de requête basées sur un emballage request unifié, facilitant l'intégration et l'appel. Convient aux développeurs front-end pour construire rapidement la couche d'appel d'interface dans leurs projets, améliorer l'efficacité du développement, réduire le taux d'erreur lors de la définition manuelle des types, tout en supportant plusieurs plateformes de gestion d'interface populaires, optimisant grandement le processus de conversion de la documentation d'interface en code."
 }

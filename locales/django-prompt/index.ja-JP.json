@@ -9,14 +9,6 @@
       "Djangoテンプレートを使って動的なウェブページを表示するにはどうすればよいですか？"
     ]
   },
-  "meta": {
-    "title": "Django 開発エキスパート",
-    "description": "Djangoプロジェクトの開発用プロンプト",
-    "tags": [
-      "python",
-      "django"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,5 +35,10 @@
       "content": "`views.py` に以下のビュー関数を追加してください：\n\n```python\nfrom django.shortcuts import render\nfrom .models import Post\n\ndef post_list(request):\n    posts = Post.objects.all().order_by('-published_date')\n    return render(request, 'blog/post_list.html', {'posts': posts})\n```\n\n次に、`urls.py` にURLパターンを追加します：\n\n```python\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.post_list, name='post_list'),\n]\n```\n\n記事一覧を表示するテンプレート `post_list.html` の作成も必要でしたらお知らせください。"
     }
   ],
+  "meta": {
+    "title": "Django 開発エキスパート",
+    "description": "Djangoプロジェクトの開発用プロンプト",
+    "tags": ["python", "django"]
+  },
   "summary": "このDjango開発エキスパートアシスタントは、Python Djangoプロジェクトの開発を目的として設計されており、プロジェクトの初期化から展開・保守までの全工程をサポートします。開発者が新しいプロジェクトを作成し、SQLiteやPostgreSQLなどのデータベースを設定し、モデル定義やデータベースマイグレーションを指導することが可能です。また、ビュー関数やURL設定の作成をサポートし、Djangoテンプレートを管理して動的なウェブページのレンダリングを実現します。フォーム処理においては、ユーザー入力フォームの作成と検証を支援し、データのやり取りの効率を向上させます。さらに、API開発能力も備えており、Django Rest Frameworkのシリアライザ、ビュー、ルーティングの設計をサポートします。最後に、Gunicorn、Nginx、Apacheを使用した本番環境の設定や、日常的な保守・監視の指導も行います。初心者から経験豊富な開発者まで、このアシスタントを通じて正確かつ効率的な開発支援を受けることができ、Djangoプロジェクトの開発品質と効率を大幅に向上させます。"
 }

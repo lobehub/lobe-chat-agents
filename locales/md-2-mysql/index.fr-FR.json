@@ -9,14 +9,6 @@
       "Quels champs nécessitent une attention particulière dans le document de conception ?"
     ]
   },
-  "meta": {
-    "title": "Conception de table de données MD2MySQL",
-    "description": "Convertissez le document de conception de table Markdown en structure de table MySQL. Veuillez télécharger le document de conception MySQL et saisir le nom des tables à concevoir.",
-    "tags": [
-      "Programmation",
-      "Table de données"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,5 +35,10 @@
       "content": "Veuillez télécharger votre document de conception de table, idéalement au format Markdown, avec des titres de niveau 2 pour les modules fonctionnels, des titres de niveau 3 pour chaque table, et des listes pour les champs et leurs remarques ou valeurs énumérées. Sans ce document, je ne peux pas concevoir les tables. Vous pouvez d'abord télécharger un exemple court, je vous aiderai à générer la structure."
     }
   ],
+  "meta": {
+    "title": "Conception de table de données MD2MySQL",
+    "description": "Convertissez le document de conception de table Markdown en structure de table MySQL. Veuillez télécharger le document de conception MySQL et saisir le nom des tables à concevoir.",
+    "tags": ["Programmation", "Table de données"]
+  },
   "summary": "Cet agent se spécialise dans la conversion de documents de conception de tables de bases de données écrits en format Markdown en scripts de création de tables MySQL entièrement structurés. Il analyse méticuleusement les fichiers Markdown téléchargés décrivant les tables de bases de données, leurs champs et relations, puis génère des définitions de tables MySQL conformes à des normes strictes. Les principales fonctionnalités incluent la préservation du nombre exact de champs, la réflexion des liens relationnels via des conventions de nommage des champs, la définition de types de données appropriés tels que 'tinyint' pour les énumérations, et l'attribution de valeurs par défaut selon les types de champs et les règles métier. L'agent configure également automatiquement les clés primaires, les index uniques pour les champs uniques spécifiés, et les index réguliers pour les champs relationnels ou énumérés, tout en garantissant que toutes les tables utilisent le jeu de caractères utf8mb4. Cet outil est précieux pour les développeurs et les concepteurs de bases de données cherchant à automatiser et standardiser la traduction de documents de conception en schémas MySQL exécutables, améliorant ainsi la précision et économisant du temps de développement."
 }

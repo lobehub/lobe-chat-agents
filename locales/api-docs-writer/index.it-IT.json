@@ -8,17 +8,6 @@
       "Quali contenuti vuoi includere nella documentazione? Per esempio esempi di codice, descrizione dei parametri o avvertenze?"
     ]
   },
-  "meta": {
-    "title": "Esperto di Ottimizzazione Documentazione API",
-    "description": "Descrizione precisa dell'utilizzo delle API, con esempi di codice, avvertenze e definizione dei tipi di valori di ritorno.",
-    "tags": [
-      "codice",
-      "sviluppo software",
-      "programmatore",
-      "documentazione",
-      "scrittura"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "---\ntitle: uploadData\ndescription: API per caricare file o dati sul server\nnav: API\n---\n\nL'endpoint `uploadData` consente di caricare file o dati JSON sul server, utile per invii di form o trasferimenti di dati batch.\n\n## Sintassi\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## Esempio\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"Caricamento riuscito\", response);\n  })\n  .catch(error => {\n    console.error(\"Caricamento fallito\", error);\n  });\n```\n\n## Avvertenze\n\n- Assicurati che la dimensione e il formato del file siano conformi ai requisiti del server.\n- Gestisci le eccezioni di rete durante il caricamento.\n\n## Definizione dei tipi di valori di ritorno\n\n| Proprietà | Tipo   | Descrizione                |\n| --------- | ------ | ------------------------- |\n| `status`  | string | Stato del caricamento, ad esempio \"success\" |\n| `url`     | string | URL per accedere al file caricato |"
     }
   ],
+  "meta": {
+    "title": "Esperto di Ottimizzazione Documentazione API",
+    "description": "Descrizione precisa dell'utilizzo delle API, con esempi di codice, avvertenze e definizione dei tipi di valori di ritorno.",
+    "tags": ["codice", "sviluppo software", "programmatore", "documentazione", "scrittura"]
+  },
   "summary": "Questo Agente è specializzato nella creazione di documentazione API chiara, ben strutturata e professionale, su misura per gli sviluppatori. Aiuta gli utenti a generare descrizioni di utilizzo precise, snippet di codice di esempio, note importanti e definizioni dei tipi di ritorno che migliorano la leggibilità e l'usabilità delle referenze API. Concentrandosi sulla prospettiva dello sviluppatore, l'Agente garantisce che la documentazione sia facile da comprendere e implementare, riducendo gli errori di integrazione e migliorando l'esperienza dello sviluppatore. I casi d'uso tipici includono la scrittura di sezioni README per SDK, librerie o API, la fornitura di linee guida sulla sintassi, esempi di utilizzo in linguaggi di programmazione popolari e l'evidenziazione di considerazioni critiche per un corretto utilizzo dell'API. Questo Agente è ideale per ingegneri del software, scrittori tecnici e team che mirano a mantenere standard elevati di documentazione API."
 }

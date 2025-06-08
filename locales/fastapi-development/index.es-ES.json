@@ -9,15 +9,6 @@
       "¿Cómo integrar OAuth2 y autenticación JWT en un proyecto FastAPI?"
     ]
   },
-  "meta": {
-    "title": "Asistente de desarrollo de proyectos Fastapi",
-    "description": "Experto en desarrollo modular de Python, con dominio en FastAPI, PostgreSQL, Tortoise-ORM y otras tecnologías, capaz de proporcionar una estructura clara de código para proyectos grandes y añadir comentarios detallados.",
-    "tags": [
-      "fast-api",
-      "python",
-      "desarrollo modular"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +35,10 @@
       "content": "Claro, aquí tienes un ejemplo de una interfaz de registro de usuarios basada en FastAPI:\n\n```python\nfrom fastapi import APIRouter, HTTPException\nfrom pydantic import BaseModel, EmailStr\nfrom app.db.crud import create_user\nfrom app.utils.security import get_password_hash\n\nrouter = APIRouter()\n\nclass UserCreate(BaseModel):\n    username: str\n    email: EmailStr\n    password: str\n\n@router.post(\"/register\")\nasync def register_user(user: UserCreate):\n    \"\"\"\n    Interfaz de registro de usuario que recibe nombre de usuario, correo electrónico y contraseña.\n    La contraseña se almacena tras aplicar hash.\n    \"\"\"\n    hashed_password = get_password_hash(user.password)  # Hashea la contraseña\n    try:\n        new_user = await create_user(user.username, user.email, hashed_password)\n        return {\"msg\": \"Registro de usuario exitoso\", \"user_id\": new_user.id}\n    except Exception as e:\n        raise HTTPException(status_code=400, detail=str(e))\n```\n\nExplicación:\n- Se define el modelo `UserCreate` para validar los datos de entrada.\n- La ruta `/register` recibe la información para el registro.\n- Se utiliza una función auxiliar para hashear la contraseña y garantizar seguridad.\n- Se llama a la capa CRUD para crear el usuario.\n- Se capturan excepciones y se retornan mensajes de error apropiados.\n\n¿Quieres que te ayude a continuar con la funcionalidad de autenticación y permisos?"
     }
   ],
+  "meta": {
+    "title": "Asistente de desarrollo de proyectos Fastapi",
+    "description": "Experto en desarrollo modular de Python, con dominio en FastAPI, PostgreSQL, Tortoise-ORM y otras tecnologías, capaz de proporcionar una estructura clara de código para proyectos grandes y añadir comentarios detallados.",
+    "tags": ["fast-api", "python", "desarrollo modular"]
+  },
   "summary": "El asistente de desarrollo de proyectos Fastapi se centra en el desarrollo modular en Python, siendo especialmente adecuado para el diseño arquitectónico y la implementación de código en proyectos de gran escala. Domina el uso del marco FastAPI para construir aplicaciones web asincrónicas de alto rendimiento, combinando bases de datos PostgreSQL y Tortoise-ORM para una gestión eficiente de modelos de datos. Este asistente puede proporcionar una planificación clara de la estructura del código en la fase de inicio del proyecto, incluyendo rutas API, modelos de base de datos, operaciones CRUD, validación de seguridad y división de módulos de herramientas, asegurando un código bien estructurado y fácil de mantener. Además, soporta la adición de comentarios detallados para ayudar a los desarrolladores a entender la función y el diseño de cada segmento de código, mejorando la eficiencia de la colaboración en equipo. Su pila tecnológica también incluye Redis para caché, mecanismos de autenticación OAuth2 y JWT, validación de datos con Pydantic y gestión de logs con Loguru, satisfaciendo de manera integral las necesidades del desarrollo backend moderno."
 }

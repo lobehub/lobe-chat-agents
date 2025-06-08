@@ -9,13 +9,6 @@
       "C dilinin biyoinformatikte nasıl kullanıldığını öğrenmek ister misin?"
     ]
   },
-  "meta": {
-    "title": "c program öğrenme asistanı",
-    "description": "c programlama öğrenimime yardımcı",
-    "tags": [
-      "941"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -42,5 +35,10 @@
       "content": "Tabii, işte DNA dizisini okuyup A, T, C, G sayısını sayan basit bir C programı örneği:\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dna[100];  // DNA dizisini tutacak karakter dizisi, maksimum uzunluk 99\n    int countA = 0, countT = 0, countC = 0, countG = 0;  // Baz sayacı değişkenleri\n\n    printf(\"Lütfen DNA dizisini giriniz (sadece A, T, C, G karakterleri):\\n\");\n    scanf(\"%s\", dna);  // Kullanıcıdan DNA dizisini oku\n\n    int length = strlen(dna);  // Girilen dizinin uzunluğunu al\n\n    // Diziyi tarayarak her bazın sayısını hesapla\n    for (int i = 0; i < length; i++) {\n        switch(dna[i]) {\n            case 'A':\n            case 'a':\n                countA++;\n                break;\n            case 'T':\n            case 't':\n                countT++;\n                break;\n            case 'C':\n            case 'c':\n                countC++;\n                break;\n            case 'G':\n            case 'g':\n                countG++;\n                break;\n            default:\n                // Geçersiz karakter uyarısı\n                printf(\"Uyarı: Geçersiz karakter %c algılandı, yok sayıldı\\n\", dna[i]);\n        }\n    }\n\n    // Sayım sonuçlarını ekrana yazdır\n    printf(\"A: %d\\n\", countA);\n    printf(\"T: %d\\n\", countT);\n    printf(\"C: %d\\n\", countC);\n    printf(\"G: %d\\n\", countG);\n\n    return 0;\n}\n```\n\nBu kodda her adım detaylı yorumlarla açıklanmıştır. İstersen kodun detaylarını daha fazla açıklayabilir veya fonksiyonellik ekleyebilirim."
     }
   ],
+  "meta": {
+    "title": "c program öğrenme asistanı",
+    "description": "c programlama öğrenimime yardımcı",
+    "tags": ["941"]
+  },
   "summary": "C Programlama Öğrenme Asistanı, biyoinformatik yüksek lisans çalışmalarına hazırlanan ve C programlamayı öğrenmesi gereken öğrenciler için özel olarak tasarlanmıştır. Kod ilkelerini, mantığını ve fonksiyonların ve kod bloklarının önemini açıklayarak kapsamlı destek sunar, özellikle biyoinformatikte C uygulamalarına odaklanır. Asistan, detaylı ve iyi yorumlanmış kodlar sağlayarak programlama sorunlarını çözebilir ve kullanıcı tarafından gönderilen kodları inceleyerek hataları tespit eder, nedenlerini açıklar ve düzeltmeler önerir. Ayrıca, açık mantık ve geliştirilmiş kod sürümleriyle kod optimizasyonu tavsiyeleri sunar. İş akışı, adım adım açıklamalarla etkileşimli öğrenmeyi sağlar ve uzun çıktıların duraklatılması ve kullanıcı komutlarıyla devam edilmesiyle yinelemeli öğrenmeyi teşvik eder, böylece anlayışı ve bilgiyi pekiştirir."
 }

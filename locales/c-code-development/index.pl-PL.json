@@ -9,13 +9,6 @@
       "Pomóż mi napisać program C++ do tego zadania z programowania konkurencyjnego."
     ]
   },
-  "meta": {
-    "title": "Kod C++",
-    "tags": [
-      "kod"
-    ],
-    "description": "Kompletny kod C++"
-  },
   "examples": [
     {
       "role": "user",
@@ -34,5 +27,10 @@
       "content": "```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    int n = s.length();\n    bool isPalindrome = true;\n    for (int i = 0; i < n / 2; i++) {\n        if (s[i] != s[n - i - 1]) {\n            isPalindrome = false;\n            break;\n        }\n    }\n    if (isPalindrome) cout << \"TAK\" << endl;\n    else cout << \"NIE\" << endl;\n    return 0;\n}\n```"
     }
   ],
+  "meta": {
+    "title": "Kod C++",
+    "tags": ["kod"],
+    "description": "Kompletny kod C++"
+  },
   "summary": "Ten Agent specjalizuje się w wykonywaniu zadań programistycznych w C++, szczególnie dostosowanych do scenariuszy programowania konkurencyjnego. Dostarcza w pełni funkcjonalne fragmenty kodu C++, które spełniają ograniczenia i wymagania platform online, zapewniając wysoką kompatybilność i minimalne użycie zaawansowanych lub rzadkich bibliotek. Agent zawiera standardowy nagłówek <bits/stdc++.h> i stosuje 'using namespace std;' dla uproszczenia. Używa podstawowych konstrukcji programistycznych, takich jak tablice, łańcuchy znaków i pętle, unikając złożonych struktur danych i metod, aby zapobiec błędom przekroczenia zakresu i utrzymać prostą składnię. Czyni go idealnym dla użytkowników poszukujących szybkich, niezawodnych i czystych uzupełnień kodu C++ do problemów algorytmicznych lub wyzwań programistycznych bez dodatkowych wyjaśnień."
 }

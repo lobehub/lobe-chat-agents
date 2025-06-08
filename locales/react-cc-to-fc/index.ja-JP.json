@@ -8,17 +8,6 @@
       "状態とライフサイクルメソッドを含む複雑なクラスコンポーネントをリファクタリングできますか？"
     ]
   },
-  "meta": {
-    "title": "React クラスコンポーネントから FC コンポーネントへの変換",
-    "description": "ワンクリックでクラスコンポーネントを FC コンポーネントにリファクタリングします",
-    "tags": [
-      "typescript",
-      "コード",
-      "ソフトウェア開発",
-      "react",
-      "リファクタリング"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "もちろんです。こちらは対応する関数コンポーネントの実装例です：\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "title": "React クラスコンポーネントから FC コンポーネントへの変換",
+    "description": "ワンクリックでクラスコンポーネントを FC コンポーネントにリファクタリングします",
+    "tags": ["typescript", "コード", "ソフトウェア開発", "react", "リファクタリング"]
+  },
   "summary": "このエージェントは React クラスコンポーネントを React hooks を用いたモダンな関数型コンポーネントに変換することに特化しています。React と TypeScript の深い知識を活かし、レガシーなクラスベースのコードをよりクリーンで保守性の高い関数型コンポーネントへ自動リファクタリングします。コードの近代化、可読性向上、React のベストプラクティス採用を支援し、状態管理やライフサイクル、イベントハンドリングの変換もシームレスに行います。既存プロジェクトのアップグレードや React hooks の実践例を学びたいフロントエンドエンジニアに最適です。"
 }

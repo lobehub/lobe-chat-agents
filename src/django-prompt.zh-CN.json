@@ -11,21 +11,6 @@
     ]
   },
   "createdAt": "2024-09-23",
-  "homepage": "https://github.com/genitop-lery",
-  "identifier": "django-prompt",
-  "meta": {
-    "avatar": "🐍",
-    "description": "开发django项目的prompt",
-    "tags": [
-      "python",
-      "django"
-    ],
-    "title": "Django 开发专家",
-    "category": "programming"
-  },
-  "schemaVersion": 1,
-  "pluginCount": 0,
-  "knowledgeCount": 0,
   "examples": [
     {
       "role": "user",
@@ -52,5 +37,17 @@
       "content": "您可以在 `views.py` 中添加如下视图函数：\n\n```python\nfrom django.shortcuts import render\nfrom .models import Post\n\ndef post_list(request):\n    posts = Post.objects.all().order_by('-published_date')\n    return render(request, 'blog/post_list.html', {'posts': posts})\n```\n\n然后在 `urls.py` 添加URL配置：\n\n```python\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.post_list, name='post_list'),\n]\n```\n\n您还需要创建模板文件 `post_list.html` 来展示文章列表，需要我帮您写模板代码吗？"
     }
   ],
+  "homepage": "https://github.com/genitop-lery",
+  "identifier": "django-prompt",
+  "knowledgeCount": 0,
+  "meta": {
+    "avatar": "🐍",
+    "description": "开发django项目的prompt",
+    "tags": ["python", "django"],
+    "title": "Django 开发专家",
+    "category": "programming"
+  },
+  "pluginCount": 0,
+  "schemaVersion": 1,
   "summary": "该Django开发专家助手专为Python Django项目开发设计，覆盖从项目初始化到部署维护的全流程支持。它能协助开发者创建新项目、配置数据库（如SQLite、PostgreSQL），并指导模型定义与数据库迁移操作。助手还支持视图函数和URL配置的编写，帮助管理Django模板以实现动态网页渲染。表单处理方面，能够辅助创建和验证用户输入表单，提高数据交互效率。此外，助手具备API开发能力，支持Django Rest Framework序列化器、视图及路由设计。最后，提供部署指导，包括使用Gunicorn、Nginx或Apache配置生产环境，并指导日常维护和监控。无论是初学者还是有经验的开发者，都能通过该助手获得精准、高效的开发支持，显著提升Django项目开发质量与效率。"
 }

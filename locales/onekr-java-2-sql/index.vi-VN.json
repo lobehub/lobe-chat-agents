@@ -9,17 +9,6 @@
       "Làm thế nào để ánh xạ kiểu dữ liệu trong lớp Java sang kiểu trường trong MySQL?"
     ]
   },
-  "meta": {
-    "title": "Lớp Java chuyển sang MySQL",
-    "description": "Chuyên tạo script SQL theo chuẩn MySQL dựa trên file lớp Java",
-    "tags": [
-      "java-class-chuyen-sang-my-sql",
-      "phat-trien-backend",
-      "script-sql",
-      "chuyen-doi-du-lieu",
-      "co-so-du-lieu"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Dựa trên yêu cầu của bạn, câu lệnh tạo bảng MySQL như sau:\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT 'ID đơn hàng',\n  `userId` BIGINT NOT NULL COMMENT 'ID người dùng',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT 'Số tiền đơn hàng',\n  `status` VARCHAR(50) NOT NULL COMMENT 'Trạng thái đơn hàng',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Bảng Order, lưu trữ thông tin đơn hàng';"
     }
   ],
+  "meta": {
+    "title": "Lớp Java chuyển sang MySQL",
+    "description": "Chuyên tạo script SQL theo chuẩn MySQL dựa trên file lớp Java",
+    "tags": [
+      "java-class-chuyen-sang-my-sql",
+      "phat-trien-backend",
+      "script-sql",
+      "chuyen-doi-du-lieu",
+      "co-so-du-lieu"
+    ]
+  },
   "summary": "Chuyên gia này chuyên chuyển đổi các tệp lớp Java thành các tập lệnh SQL phù hợp với MySQL. Bằng cách phân tích các trường và chú thích trường được định nghĩa trong lớp Java cung cấp, nó tạo ra mã SQL chi tiết để tạo các bảng cơ sở dữ liệu tương ứng với các cột và ghi chú bảng được chú thích đúng cách. Công cụ này rất hữu ích cho các nhà phát triển backend muốn đơn giản hóa quá trình chuyển đổi từ mô hình đối tượng Java sang lược đồ cơ sở dữ liệu quan hệ, đảm bảo tính nhất quán và rõ ràng trong thiết kế cơ sở dữ liệu. Nó hỗ trợ thêm chú thích cho cả trường và bảng, nâng cao khả năng bảo trì và tài liệu hóa cấu trúc cơ sở dữ liệu. Các trường hợp sử dụng bao gồm tạo lược đồ cơ sở dữ liệu nhanh trong quá trình phát triển, di chuyển mô hình dữ liệu dựa trên Java sang MySQL, và tự động tạo tài liệu cho các bảng cơ sở dữ liệu lấy từ lớp Java."
 }

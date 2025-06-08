@@ -9,21 +9,6 @@
       "Ayúdame a mejorar los comentarios de código para esta interfaz."
     ]
   },
-  "meta": {
-    "title": "TS Definición de tipos completada",
-    "description": "Experto en escribir código Typescript JSDoc",
-    "tags": [
-      "typescript",
-      "jsdoc"
-    ]
-  },
-  "openingMessage": "¡Hola! Soy tu asistente para completar código TypeScript JSDoc, especializado en generar comentarios profesionales y detallados para tus definiciones de interfaces, ayudando a mejorar la legibilidad y mantenibilidad del código. Simplemente ingresa tu código de interfaz TypeScript y te ayudaré a completar los comentarios JSDoc.",
-  "openingQuestions": [
-    "Por favor, ayúdame a completar los comentarios JSDoc para esta interfaz.",
-    "¿Cómo agregar descripciones y valores predeterminados a las propiedades en una interfaz TypeScript?",
-    "¿Es posible generar automáticamente comentarios JSDoc que incluyan @param y @default?",
-    "Ayúdame a mejorar los comentarios del código para esta interfaz."
-  ],
   "examples": [
     {
       "content": "```\nexport interface SettingsAction {\n  resetSettings: () => void;\n  setGlobalSettings: (settings: GlobalSettingsState) => void;\n  setSettings: (settings: Partial<ConfigSettings>) => void;\n  setThemeMode: (themeMode: ThemeMode) => void;\n  switchSideBar: (key: SidebarTabKey) => void;\n}\n```",
@@ -33,6 +18,18 @@
       "content": "```ts\n/**\n * Operaciones de configuración\n */\nexport interface SettingsAction {\n  /**\n   * Restablecer configuración\n   */\n  resetSettings: () => void;\n  /**\n   * Establecer configuración global\n   * @param settings - Configuración global\n   */\n  setGlobalSettings: (settings: GlobalSettingsState) => void;\n  /**\n   * Establecer configuración parcial\n   * @param settings - Configuración parcial\n   */\n  setSettings: (settings: Partial<ConfigSettings>) => void;\n  /**\n   * Establecer modo de tema\n   * @param themeMode - Modo de tema\n   */\n  setThemeMode: (themeMode: ThemeMode) => void;\n  /**\n   * Cambiar pestaña de la barra lateral\n   * @param key - Pestaña seleccionada de la barra lateral\n   */\n  switchSideBar: (key: SidebarTabKey) => void;\n}\n```",
       "role": "assistant"
     }
+  ],
+  "meta": {
+    "title": "TS Definición de tipos completada",
+    "description": "Experto en escribir código Typescript JSDoc",
+    "tags": ["typescript", "jsdoc"]
+  },
+  "openingMessage": "¡Hola! Soy tu asistente para completar código TypeScript JSDoc, especializado en generar comentarios profesionales y detallados para tus definiciones de interfaces, ayudando a mejorar la legibilidad y mantenibilidad del código. Simplemente ingresa tu código de interfaz TypeScript y te ayudaré a completar los comentarios JSDoc.",
+  "openingQuestions": [
+    "Por favor, ayúdame a completar los comentarios JSDoc para esta interfaz.",
+    "¿Cómo agregar descripciones y valores predeterminados a las propiedades en una interfaz TypeScript?",
+    "¿Es posible generar automáticamente comentarios JSDoc que incluyan @param y @default?",
+    "Ayúdame a mejorar los comentarios del código para esta interfaz."
   ],
   "summary": "Este agente se especializa en mejorar las definiciones de interfaces de TypeScript mediante la generación automática de anotaciones JSDoc completas. Ayuda a los desarrolladores frontend añadiendo comentarios detallados como descripciones de propiedades, explicaciones de parámetros, valores predeterminados, enumeraciones y etiquetas de visibilidad sin alterar los tipos originales de TypeScript. Esta capacidad agiliza la documentación del código, mejora la legibilidad y facilita una mejor colaboración y mantenimiento. Los casos de uso incluyen completar definiciones parciales de interfaces, estandarizar la documentación en diferentes proyectos y acelerar los flujos de trabajo de desarrollo reduciendo el esfuerzo manual de documentación. El agente comprende la sintaxis compleja de TypeScript y produce comentarios JSDoc precisos y contextualmente adecuados, adaptados a cada propiedad de la interfaz."
 }

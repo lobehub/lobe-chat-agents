@@ -8,17 +8,6 @@
       "Czy możesz zrefaktoryzować skomplikowany komponent Class z stanem i metodami cyklu życia?"
     ]
   },
-  "meta": {
-    "description": "Jedno kliknięcie, aby przekształcić komponent Class na komponent FC",
-    "tags": [
-      "typescript",
-      "kod",
-      "tworzenie oprogramowania",
-      "react",
-      "refaktoryzacja"
-    ],
-    "title": "React Class 组件转 FC 组件"
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Oczywiście, oto jak można zrefaktoryzować ten skomplikowany komponent TodoList na funkcję korzystającą z hooków:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "description": "Jedno kliknięcie, aby przekształcić komponent Class na komponent FC",
+    "tags": ["typescript", "kod", "tworzenie oprogramowania", "react", "refaktoryzacja"],
+    "title": "React Class 组件转 FC 组件"
+  },
   "summary": "Ten agent specjalizuje się w przekształcaniu komponentów React Class na nowoczesne komponenty funkcyjne (FC) z użyciem hooków React. Wykorzystuje głęboką wiedzę w React i TypeScript, aby automatycznie refaktoryzować starszy kod oparty na klasach na czystsze, bardziej czytelne i wydajne komponenty funkcyjne. Obsługuje zarządzanie stanem, metody cyklu życia i obsługę zdarzeń, zapewniając szybki i bezbłędny proces refaktoryzacji. Idealny dla deweloperów front-end, którzy chcą unowocześnić swoje projekty lub nauczyć się hooków React na praktycznych przykładach."
 }

@@ -9,22 +9,6 @@
       "چطور می‌توانم یک رابط کاربری سفارشی با استفاده از NUI و React.js در FiveM پیاده‌سازی کنم؟"
     ]
   },
-  "meta": {
-    "title": "کارشناس فریم‌ورک FiveM و QBCore",
-    "description": "تخصص در توسعه FiveM، فریم‌ورک QBCore، برنامه‌نویسی Lua، جاوااسکریپت، مدیریت پایگاه داده، مدیریت سرور، کنترل نسخه، توسعه وب فول‌استک، DevOps و تعامل با جامعه با تمرکز بر عملکرد، امنیت و بهترین روش‌ها.",
-    "tags": [
-      "five-m",
-      "qb-core",
-      "lua",
-      "java-script",
-      "my-sql",
-      "server-management",
-      "git",
-      "full-stack-web-development",
-      "dev-ops",
-      "community-engagement"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -59,5 +43,21 @@
       "content": "در اینجا یک مثال ساده Dockerfile آورده شده است:\n\n```Dockerfile\nFROM ubuntu:20.04\n\nRUN apt-get update && apt-get install -y \\\n    git \\\n    curl \\\n    unzip \\\n    lib32gcc1 \\\n    lib32stdc++6 \\\n    && rm -rf /var/lib/apt/lists/*\n\nWORKDIR /fivem\n\n# دانلود و نصب فایل‌های سرور FiveM\nRUN curl -o fx.tar.xz https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/1234-abcdef/fx.tar.xz \\\n    && tar -xJf fx.tar.xz \\\n    && rm fx.tar.xz\n\nCOPY ./server-data /fivem/server-data\n\nEXPOSE 30120 30110\n\nCMD [\"/fivem/run.sh\", \"+exec\", \"server.cfg\"]\n```\n\nاین یک محیط پایه را راه‌اندازی می‌کند. می‌توانید با افزودن منابع QBCore خود در دایرکتوری server-data آن را گسترش دهید. اگر می‌خواهید این را در یک خط لوله CI/CD ادغام کنید، خوشحال می‌شوم کمک کنم."
     }
   ],
+  "meta": {
+    "title": "کارشناس فریم‌ورک FiveM و QBCore",
+    "description": "تخصص در توسعه FiveM، فریم‌ورک QBCore، برنامه‌نویسی Lua، جاوااسکریپت، مدیریت پایگاه داده، مدیریت سرور، کنترل نسخه، توسعه وب فول‌استک، DevOps و تعامل با جامعه با تمرکز بر عملکرد، امنیت و بهترین روش‌ها.",
+    "tags": [
+      "five-m",
+      "qb-core",
+      "lua",
+      "java-script",
+      "my-sql",
+      "server-management",
+      "git",
+      "full-stack-web-development",
+      "dev-ops",
+      "community-engagement"
+    ]
+  },
   "summary": "این عامل در توسعه FiveM تخصص دارد و تمرکز عمیقی بر چارچوب QBCore دارد، ارائه راهنمایی‌های تخصصی در برنامه‌نویسی Lua، توسعه سمت مشتری با JavaScript، و فناوری‌های وب کامل از جمله React.js و Node.js. این عامل پشتیبانی جامع برای ایجاد، اشکال‌زدایی و بهینه‌سازی منابع QBCore، مدیریت پایگاه‌های داده MySQL برای داده‌های ماندگار بازی، و مدیریت سرورهای FiveM مبتنی بر لینوکس با تأکید بر عملکرد و امنیت را فراهم می‌کند. همچنین در زمینه‌های DevOps مانند خطوط لوله CI/CD و کانتینریزه‌سازی Docker که برای محیط‌های FiveM طراحی شده‌اند، برتری دارد. علاوه بر این، از همکاری در کنترل نسخه از طریق Git پشتیبانی می‌کند و با جامعه FiveM فعالانه در ارتباط است تا از بهترین روش‌ها و به‌روزرسانی‌ها مطلع باشد. این منبع ارزشمندی برای توسعه‌دهندگان است که به دنبال ساخت سرورهای بازی چندنفره قوی، امن و کارآمد و برنامه‌های وب مرتبط در اکوسیستم FiveM هستند."
 }

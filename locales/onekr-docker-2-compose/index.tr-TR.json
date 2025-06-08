@@ -8,17 +8,6 @@
       "Docker run komutunuzu bana söyleyin, size karşılık gelen Compose yaml dosyasını oluşturayım."
     ]
   },
-  "meta": {
-    "title": "Docker'dan DockerCompose'a",
-    "description": "Docker run komutlarını Docker Compose yapılandırmasına dönüştürmede uzman",
-    "tags": [
-      "docker",
-      "docker-compose",
-      "sistem yönetimi",
-      "yapılandırma dosyası",
-      "dönüştürme"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "version: '3'\nservices:\n  redis-server:\n    image: redis:alpine\n    ports:\n      - \"6379:6379\"\n    restart: always"
     }
   ],
+  "meta": {
+    "title": "Docker'dan DockerCompose'a",
+    "description": "Docker run komutlarını Docker Compose yapılandırmasına dönüştürmede uzman",
+    "tags": ["docker", "docker-compose", "sistem yönetimi", "yapılandırma dosyası", "dönüştürme"]
+  },
   "summary": "Bu Ajan, Docker run komutlarını verimli bir şekilde Docker Compose'un yaml yapılandırma dosyasına dönüştürmeye odaklanmıştır ve sistem operasyon mühendisleri ile geliştiricilerin konteyner düzenleme yapılandırmasını hızlıca tamamlamalarına yardımcı olur. Kullanıcılar yalnızca standart Docker run komutunu sağlar, Ajan komuttaki parametreler, ortam değişkenleri, port eşleştirmeleri, hacim bağlamaları gibi bilgileri analiz eder ve Docker Compose standartlarına uygun yapılandırma dosyasını oluşturur, böylece manuel yazımın zahmetini ve hata riskini ortadan kaldırır. Bu araç özellikle çoklu konteyner yönetimi, ortam kurulumları ve otomasyon dağıtımı senaryoları için uygundur, operasyon verimliliğini ve yapılandırma doğruluğunu artırır ve tek konteyner başlatma ile çok konteynerli düzenleme arasında köprü kurar. Temel avantajı, komutları hızlı ve hassas bir şekilde yaml'e dönüştürerek öğrenme maliyetini ve yapılandırma süresini azaltmasıdır."
 }

@@ -9,17 +9,6 @@
       "Bạn muốn tôi giúp nâng cao xử lý lỗi và bảo mật mã của bạn chứ?"
     ]
   },
-  "meta": {
-    "title": "Node.js Tối ưu viên",
-    "description": "Chuyên về rà soát mã Node.js, tối ưu hiệu suất, lập trình bất đồng bộ, xử lý lỗi, tái cấu trúc mã, quản lý phụ thuộc, tăng cường bảo mật, độ bao phủ kiểm thử và viết tài liệu.",
-    "tags": [
-      "node-js",
-      "tối ưu mã",
-      "tối ưu hiệu suất",
-      "lập trình bất đồng bộ",
-      "xử lý lỗi"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,10 @@
       "content": "Khuyên bạn nên sử dụng try/catch để bắt lỗi trong các thao tác bất đồng bộ quan trọng, đồng thời thiết kế logic xử lý riêng cho từng loại lỗi. Ngoài ra, có thể thống nhất ghi nhận log lỗi để thuận tiện cho việc truy tìm sự cố. Dưới đây là ví dụ cải tiến xử lý lỗi:\n\n```js\nasync function processRequest(req, res) {\n  try {\n    const result = await someAsyncOperation();\n    res.send(result);\n  } catch (err) {\n    if (err instanceof ValidationError) {\n      res.status(400).send({ error: err.message });\n    } else {\n      console.error('Lỗi máy chủ:', err);\n      res.status(500).send({ error: 'Lỗi máy chủ nội bộ' });\n    }\n  }\n}\n```"
     }
   ],
+  "meta": {
+    "title": "Node.js Tối ưu viên",
+    "description": "Chuyên về rà soát mã Node.js, tối ưu hiệu suất, lập trình bất đồng bộ, xử lý lỗi, tái cấu trúc mã, quản lý phụ thuộc, tăng cường bảo mật, độ bao phủ kiểm thử và viết tài liệu.",
+    "tags": ["node-js", "tối ưu mã", "tối ưu hiệu suất", "lập trình bất đồng bộ", "xử lý lỗi"]
+  },
   "summary": "Node.js 优化师是一款专业的 Node.js 代码审查与优化助手，专注于提升代码性能、可读性和安全性。它能够深入分析现有 Node.js 脚本，识别性能瓶颈、异步编程问题及安全漏洞，提供具体的改进建议 và tối ưu hóa mã nguồn. Hỗ trợ chuyển đổi callback thành Promise hoặc async/await, cải thiện cơ chế xử lý lỗi, tái cấu trúc cấu trúc mã, tối ưu quản lý phụ thuộc, và nâng cao tỷ lệ kiểm thử. Ngoài ra, Agent này còn giúp viết chú thích mã và tài liệu chi tiết, thuận tiện cho hợp tác nhóm và bảo trì sau này. Dù là nhà phát triển cá nhân hay nhóm kỹ sư, đều có thể sử dụng Node.js 优化师 để nâng cao chất lượng dự án và hiệu quả phát triển."
 }

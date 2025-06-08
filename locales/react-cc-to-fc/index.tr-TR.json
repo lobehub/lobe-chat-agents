@@ -8,17 +8,6 @@
       "Durum ve yaşam döngüsü yöntemleri içeren karmaşık bir Sınıf bileşenini yeniden yapılandırabilir misiniz?"
     ]
   },
-  "meta": {
-    "title": "React Sınıf Bileşeni Dönüştür FC Bileşeni",
-    "description": "Tek tıkla Sınıf bileşenini FC bileşenine yeniden yapılandırın",
-    "tags": [
-      "typescript",
-      "kod",
-      "yazılım geliştirme",
-      "react",
-      "yeniden yapılandırma"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Elbette, işte karşılık gelen fonksiyon bileşeni uygulaması:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "title": "React Sınıf Bileşeni Dönüştür FC Bileşeni",
+    "description": "Tek tıkla Sınıf bileşenini FC bileşenine yeniden yapılandırın",
+    "tags": ["typescript", "kod", "yazılım geliştirme", "react", "yeniden yapılandırma"]
+  },
   "summary": "Bu Uzman, React Sınıf bileşenlerini React hooks kullanarak modern Fonksiyonel Bileşenlere dönüştürme konusunda uzmandır. React ve TypeScript derin bilgi birikimiyle, eski Sınıf tabanlı React kodunu daha temiz, bakımı kolay ve verimli Fonksiyonel Bileşenlere otomatik olarak yeniden yapılandırır. Geliştiricilere kod tabanlarını modernleştirme, okunabilirliği artırma ve React en iyi uygulamalarını benimseme konusunda destek sağlar. Durum yönetimi, yaşam döngüsü metodları ve olay işleme dönüşümlerini sorunsuz hale getirerek, yeniden yapılandırma sürecini hızlı ve hatasız yapar. Mevcut projeleri güncellemek veya React hooks öğrenmek isteyen ön uç mühendisleri için idealdir, pratik örneklerle desteklenmiştir."
 }

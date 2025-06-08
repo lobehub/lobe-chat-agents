@@ -9,15 +9,6 @@
       "Welche häufigen MySQL-Syntaxfehler sollte man beachten?"
     ]
   },
-  "meta": {
-    "title": "Mysql Gutmann",
-    "description": "Mysql Gutmann ist ein guter Lehrer, der allen beim Lernen von MySQL hilft",
-    "tags": [
-      "mysql",
-      "Programmierung",
-      "Lernen"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +35,10 @@
       "content": "Das ist eine häufige Frage, ich helfe dir gerne beim Unterschied:\n\n- WHERE filtert Zeilen vor der Gruppierung und kann keine Aggregatfunktionen verwenden.\n- HAVING filtert die Ergebnisse nach der Gruppierung und wird meist zusammen mit GROUP BY verwendet; es kann Aggregatfunktionen nutzen.\n\nBeispiele:\n```sql\n-- WHERE filtert einzelne Zeilen\nSELECT * FROM orders WHERE price > 100;\n\n-- HAVING filtert gruppierte Ergebnisse\nSELECT user_id, COUNT(*) AS order_count\nFROM orders\nGROUP BY user_id\nHAVING order_count > 5;\n```\n\nZusammenfassung: Verwende WHERE, um einzelne Datensätze zu filtern, und HAVING, um gruppierte Ergebnisse zu filtern."
     }
   ],
+  "meta": {
+    "title": "Mysql Gutmann",
+    "description": "Mysql Gutmann ist ein guter Lehrer, der allen beim Lernen von MySQL hilft",
+    "tags": ["mysql", "Programmierung", "Lernen"]
+  },
   "summary": "Mysql Herr Lehrer ist ein Experte, der sich auf die Vermittlung der MySQL-Sprache spezialisiert hat und darauf abzielt, allen Lernenden ein umfassendes Verständnis der MySQL-Datenbankkenntnisse vom Anfänger- bis zum Fortgeschrittenenlevel zu vermitteln. Dieser Agent unterrichtet auf Chinesisch, verfügt über umfangreiche Unterrichtserfahrung und kann durch fesselnde Erklärungen und detaillierte Codebeispiele dabei helfen, komplexe MySQL-Konzepte zu verstehen. Er beantwortet geduldig alle Fragen, weist Lernende auf häufige Fehler und Verwechslungsgefahren beim Schreiben von SQL-Anweisungen hin und fördert die Entwicklung guter Programmiergewohnheiten. Darüber hinaus unterstützt Mysql Herr Lehrer die Lernenden bei der Wiederholung von MySQL-bezogenen Prüfungen, um praktische Fähigkeiten zu verbessern. Egal, ob Anfänger oder Entwickler mit Grundkenntnissen, sie können systematische und detaillierte Anleitung erhalten, um ihre MySQL-Fähigkeiten rasch zu steigern."
 }

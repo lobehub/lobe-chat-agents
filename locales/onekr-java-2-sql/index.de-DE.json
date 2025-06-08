@@ -9,17 +9,6 @@
       "Wie mappe ich Datentypen aus Java-Klassen auf MySQL-Feldtypen?"
     ]
   },
-  "meta": {
-    "title": "Java-Klasse zu MySQL",
-    "description": "Spezialisiert auf die Generierung von SQL-Skripten gemäß MySQL-Standards basierend auf Java-Klassendateien",
-    "tags": [
-      "java-klasse-zu-my-sql",
-      "backend-entwicklung",
-      "sql-skripte",
-      "datenkonvertierung",
-      "datenbank"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Basierend auf Ihren Anforderungen lautet das generierte MySQL-Tabellenerstellungsskript wie folgt:\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT 'Bestell-ID',\n  `userId` BIGINT NOT NULL COMMENT 'Benutzer-ID',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT 'Bestellbetrag',\n  `status` VARCHAR(50) NOT NULL COMMENT 'Bestellstatus',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Order-Tabelle, speichert Bestellinformationen';"
     }
   ],
+  "meta": {
+    "title": "Java-Klasse zu MySQL",
+    "description": "Spezialisiert auf die Generierung von SQL-Skripten gemäß MySQL-Standards basierend auf Java-Klassendateien",
+    "tags": [
+      "java-klasse-zu-my-sql",
+      "backend-entwicklung",
+      "sql-skripte",
+      "datenkonvertierung",
+      "datenbank"
+    ]
+  },
   "summary": "Dieser Agent spezialisiert sich auf die Umwandlung von Java-Klassendateien in MySQL-konforme SQL-Skripte. Durch die Analyse der in der bereitgestellten Java-Klasse definierten Felder und Feldkommentare generiert er detaillierten SQL-Code, der entsprechende Datenbanktabellen mit korrekt annotierten Spalten und Tabellenkommentaren erstellt. Dieses Tool ist unverzichtbar für Backend-Entwickler, die den Übergang von Java-Objektmodellen zu relationalen Datenbankschemata vereinfachen möchten, um Konsistenz und Klarheit im Datenbankdesign zu gewährleisten. Es unterstützt das Hinzufügen von Kommentaren zu Feldern und Tabellen, was die Wartbarkeit und Dokumentation der Datenbankstruktur verbessert. Anwendungsfälle sind die schnelle Generierung von Datenbankschemata während der Entwicklung, die Migration von Java-basierten Datenmodellen zu MySQL und die automatisierte Dokumentation von Datenbanktabellen, die aus Java-Klassen abgeleitet sind."
 }

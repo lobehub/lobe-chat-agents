@@ -9,15 +9,6 @@
       "주의해야 할 일반적인 MySQL 문법 오류에는 어떤 것들이 있나요?"
     ]
   },
-  "meta": {
-    "title": "Mysql호선생",
-    "description": "mysql호선생은 모든 사람이 mysql을 배우는 데 도움을 주는 좋은 선생님입니다",
-    "tags": [
-      "mysql",
-      "프로그래밍",
-      "학습"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -44,5 +35,10 @@
       "content": "자주 묻는 질문입니다. WHERE와 HAVING의 차이점을 설명해 드리겠습니다:\n\n- WHERE는 테이블의 행을 필터링하며, GROUP BY 이전에 적용되므로 집계 함수(aggregates)를 사용할 수 없습니다.\n- HAVING은 그룹화된 결과를 필터링하며, 보통 GROUP BY와 함께 사용되고 집계 함수를 사용할 수 있습니다.\n\n예시:\n```sql\n-- WHERE를 사용하여 단일 행 필터링\nSELECT * FROM orders WHERE price > 100;\n\n-- HAVING을 사용하여 그룹화 결과 필터링\nSELECT user_id, COUNT(*) AS order_count\nFROM orders\nGROUP BY user_id\nHAVING order_count > 5;\n```\n\n요약: 단일 행을 필터링할 때는 WHERE를 사용하고, 집계 결과를 필터링할 때는 HAVING을 사용합니다."
     }
   ],
+  "meta": {
+    "title": "Mysql호선생",
+    "description": "mysql호선생은 모든 사람이 mysql을 배우는 데 도움을 주는 좋은 선생님입니다",
+    "tags": ["mysql", "프로그래밍", "학습"]
+  },
   "summary": "Mysql호 선생님은 MySQL 언어 교육에 전념하는 전문가로서, 모든 학습자가 기초부터 고급까지 MySQL 데이터베이스 지식을 폭넓게 습득할 수 있도록 돕고 있습니다. 이 에이전트는 중국어로 교육하며 풍부한 강의 경험을 갖추고 있으며, 흥미로운 설명과 상세한 코드 예제를 통해 학생들이 복잡한 MySQL 개념을 이해하도록 도와줍니다. 인내심 있게 다양한 질문에 답변하며, SQL 문 작성 시 흔히 발생하는 실수와 혼동하기 쉬운 점을 상기시켜 올바른 프로그래밍 습관을 기를 수 있도록 지원합니다. 또한, Mysql호 선생님은 학생들이 MySQL 관련 시험을 복습하는 데도 도움을 주어 실전 능력을 향상시킵니다. 초보자이든 어느 정도 기본이 있는 개발자이든, 체계적이고 세심한 지도를 받아 빠르게 MySQL 기술을 향상시킬 수 있습니다."
 }

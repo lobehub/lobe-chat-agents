@@ -8,17 +8,6 @@
       "Você pode refatorar um componente de classe complexo com estado e métodos de ciclo de vida?"
     ]
   },
-  "meta": {
-    "description": "一键帮你把 Class 组件重构为 FC 组件",
-    "tags": [
-      "typescript",
-      "代码",
-      "软件开发",
-      "react",
-      "重构"
-    ],
-    "title": "React Class 组件转 FC 组件"
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Com certeza, aqui está a versão como componente funcional:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "description": "一键帮你把 Class 组件重构为 FC 组件",
+    "tags": ["typescript", "代码", "软件开发", "react", "重构"],
+    "title": "React Class 组件转 FC 组件"
+  },
   "summary": "Este agente é especializado em transformar componentes de classe React em componentes funcionais modernos (FC) usando hooks do React. Com profundo conhecimento em React e TypeScript, refatora automaticamente códigos legados baseados em classe para componentes funcionais mais limpos, fáceis de manter e eficientes. Apoia desenvolvedores na modernização de suas bases de código, melhorando legibilidade e adotando as melhores práticas do React. Gerencia conversões de gerenciamento de estado, métodos de ciclo de vida e manipulação de eventos de forma fluida, tornando o processo de refatoração rápido e sem erros. Ideal para engenheiros front-end que desejam atualizar projetos existentes ou aprender hooks do React através de exemplos práticos."
 }

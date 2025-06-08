@@ -8,17 +8,6 @@
       "هل يمكنك إعادة هيكلة مكون Class معقد يحتوي على حالة وطرق دورة حياة؟"
     ]
   },
-  "meta": {
-    "title": "تحويل مكونات React Class إلى مكونات FC",
-    "description": "مساعدتك بنقرة واحدة لإعادة بناء مكونات Class إلى مكونات FC",
-    "tags": [
-      "typescript",
-      "كود",
-      "تطوير برمجيات",
-      "react",
-      "إعادة هيكلة"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "بالطبع، إليك إعادة بنائه كمكون وظيفي باستخدام React hooks:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "title": "تحويل مكونات React Class إلى مكونات FC",
+    "description": "مساعدتك بنقرة واحدة لإعادة بناء مكونات Class إلى مكونات FC",
+    "tags": ["typescript", "كود", "تطوير برمجيات", "react", "إعادة هيكلة"]
+  },
   "summary": "هذا الوكيل متخصص في تحويل مكونات React Class إلى مكونات Functional حديثة باستخدام React hooks. يمتلك خبرة عميقة في React وTypeScript لإعادة بناء الكود القديم المبني على Class إلى مكونات نظيفة، سهلة الصيانة وأكثر كفاءة. يدعم المطورين في تحديث قواعد الكود، وتحسين قابلية القراءة، واعتماد أفضل الممارسات في React. يتعامل بسلاسة مع إدارة الحالة، وطرق دورة الحياة، وتحويل أحداث التفاعل، مما يجعل عملية إعادة الهيكلة سريعة وخالية من الأخطاء. مثالي لمهندسي الواجهة الأمامية الراغبين في ترقية مشاريعهم أو تعلم hooks من خلال أمثلة عملية."
 }

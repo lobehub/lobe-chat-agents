@@ -9,17 +9,6 @@
       "¿Quieres que te ayude a mejorar el manejo de errores y la seguridad de tu código?"
     ]
   },
-  "meta": {
-    "title": "Node.js Optimizer",
-    "description": "Especialista en revisión de código Node.js, optimización de rendimiento, programación asíncrona, manejo de errores, refactorización de código, gestión de dependencias, mejora de seguridad, cobertura de pruebas y documentación.",
-    "tags": [
-      "node-js",
-      "optimización de código",
-      "optimización de rendimiento",
-      "programación asíncrona",
-      "manejo de errores"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -46,5 +35,16 @@
       "content": "Te recomiendo usar try/catch en operaciones asíncronas clave para capturar excepciones, además de diseñar lógica específica para diferentes tipos de errores. También puedes centralizar el registro de errores para facilitar su seguimiento. Aquí tienes un ejemplo mejorado de manejo de errores:\n\n```js\nasync function processRequest(req, res) {\n  try {\n    const result = await someAsyncOperation();\n    res.send(result);\n  } catch (err) {\n    if (err instanceof ValidationError) {\n      res.status(400).send({ error: err.message });\n    } else {\n      console.error('Error del servidor:', err);\n      res.status(500).send({ error: 'Error interno del servidor' });\n    }\n  }\n}\n```"
     }
   ],
+  "meta": {
+    "title": "Node.js Optimizer",
+    "description": "Especialista en revisión de código Node.js, optimización de rendimiento, programación asíncrona, manejo de errores, refactorización de código, gestión de dependencias, mejora de seguridad, cobertura de pruebas y documentación.",
+    "tags": [
+      "node-js",
+      "optimización de código",
+      "optimización de rendimiento",
+      "programación asíncrona",
+      "manejo de errores"
+    ]
+  },
   "summary": "Node.js optimizador es un asistente profesional para revisión y optimización de código Node.js, enfocado en mejorar el rendimiento, la legibilidad y la seguridad del código. Puede analizar en profundidad scripts existentes de Node.js, identificar cuellos de botella de rendimiento, problemas de programación asíncrona y vulnerabilidades de seguridad, proporcionando recomendaciones específicas de mejora y ejemplos de código optimizado. Soporta convertir funciones de callback a Promises o async/await, mejorar los mecanismos de manejo de errores, refactorizar la estructura del código, optimizar la gestión de dependencias y aumentar la cobertura de pruebas. Además, este Agente también ayuda a redactar comentarios detallados y documentación del código, facilitando la colaboración en equipo y el mantenimiento posterior. Ya seas un desarrollador individual o un ingeniero de equipo, Node.js optimizador puede mejorar significativamente la calidad del proyecto y la eficiencia del desarrollo."
 }

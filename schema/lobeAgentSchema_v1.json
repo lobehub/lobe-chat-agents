@@ -1,1 +1,104 @@
-{"type":"object","properties":{"author":{"type":"string"},"config":{"type":"object","properties":{"model":{"type":"string"},"params":{"type":"object","properties":{"frequency_penalty":{"type":"number"},"presence_penalty":{"type":"number"},"temperature":{"type":"number"},"top_p":{"type":"number"}},"additionalProperties":false},"plugins":{"type":"array","items":{"type":"string"}},"systemRole":{"type":"string"},"tts":{"type":"object","properties":{"showAllLocaleVoice":{"type":"boolean"},"sttLocale":{"type":"string"},"ttsService":{"type":"string"},"voice":{"type":"object","properties":{"file":{"type":"string"},"value":{"type":"string"}},"additionalProperties":false}},"additionalProperties":false}},"required":["systemRole"],"additionalProperties":false},"createdAt":{"type":"string"},"homepage":{"type":"string"},"identifier":{"type":"string"},"meta":{"type":"object","properties":{"avatar":{"type":"string"},"category":{"type":"string"},"description":{"type":"string"},"tags":{"type":"array","items":{"type":"string"}},"title":{"type":"string"}},"required":["description","title"],"additionalProperties":false},"schemaVersion":{"type":"number"}},"required":["author","config","createdAt","homepage","identifier","meta","schemaVersion"],"additionalProperties":false,"$schema":"http://json-schema.org/draft-07/schema#"}
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "author": { "type": "string" },
+    "config": {
+      "type": "object",
+      "properties": {
+        "compressThreshold": { "type": "number" },
+        "displayMode": { "type": "string", "enum": ["chat", "docs"] },
+        "enableCompressThreshold": { "type": "boolean" },
+        "enableHistoryCount": { "type": "boolean" },
+        "enableMaxTokens": { "type": "boolean" },
+        "fewShots": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "content": { "type": "string" },
+              "role": { "type": "string", "enum": ["user", "system", "assistant", "function"] }
+            },
+            "required": ["content", "role"],
+            "additionalProperties": false
+          }
+        },
+        "historyCount": { "type": "number" },
+        "inputTemplate": { "type": "string" },
+        "knowledgeBases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "avatar": { "type": ["string", "null"] },
+              "createdAt": { "type": "string", "format": "date-time" },
+              "description": {
+                "anyOf": [{ "anyOf": [{ "not": {} }, { "type": "string" }] }, { "type": "null" }]
+              },
+              "enabled": { "type": "boolean" },
+              "id": { "type": "string" },
+              "isPublic": { "type": ["boolean", "null"] },
+              "name": { "type": "string" },
+              "settings": {},
+              "type": { "type": ["string", "null"] },
+              "updatedAt": { "type": "string", "format": "date-time" }
+            },
+            "required": ["avatar", "createdAt", "id", "isPublic", "name", "type", "updatedAt"],
+            "additionalProperties": false
+          }
+        },
+        "model": { "type": "string" },
+        "openingMessage": { "type": "string" },
+        "openingQuestions": { "type": "array", "items": { "type": "string" } },
+        "params": {
+          "type": "object",
+          "properties": {
+            "frequency_penalty": { "type": "number", "default": 0 },
+            "max_tokens": { "type": "number" },
+            "presence_penalty": { "type": "number", "default": 0 },
+            "temperature": { "type": "number", "default": 0 },
+            "top_p": { "type": "number", "default": 1 }
+          },
+          "additionalProperties": false
+        },
+        "plugins": { "type": "array", "items": { "type": "string" } },
+        "systemRole": { "type": "string" }
+      },
+      "required": ["systemRole"],
+      "additionalProperties": false
+    },
+    "createdAt": { "type": "string" },
+    "examples": { "$ref": "#/properties/config/properties/fewShots" },
+    "homepage": { "type": "string" },
+    "identifier": { "type": "string" },
+    "knowledgeCount": { "type": "number" },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "avatar": { "type": "string" },
+        "backgroundColor": { "type": "string" },
+        "category": { "type": "string" },
+        "description": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "title": { "type": "string" }
+      },
+      "required": ["avatar", "description", "tags", "title"],
+      "additionalProperties": false
+    },
+    "pluginCount": { "type": "number" },
+    "schemaVersion": { "type": "number" },
+    "summary": { "type": "string" }
+  },
+  "required": [
+    "author",
+    "config",
+    "createdAt",
+    "homepage",
+    "identifier",
+    "knowledgeCount",
+    "meta",
+    "pluginCount",
+    "schemaVersion"
+  ],
+  "type": "object"
+}

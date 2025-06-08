@@ -8,17 +8,6 @@
       "Kun je een complexe Class-component met state en levenscyclusmethoden refactoren?"
     ]
   },
-  "meta": {
-    "title": "React Class 组件转 FC 组件",
-    "description": "Een klik helpt je om Class-componenten te herstructureren naar FC-componenten",
-    "tags": [
-      "typescript",
-      "code",
-      "softwareontwikkeling",
-      "react",
-      "herstructurering"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "Natuurlijk, hier is de herstructurering van de complexe TodoList-klasse naar een functionele component met hooks:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
   ],
+  "meta": {
+    "title": "React Class 组件转 FC 组件",
+    "description": "Een klik helpt je om Class-componenten te herstructureren naar FC-componenten",
+    "tags": ["typescript", "code", "softwareontwikkeling", "react", "herstructurering"]
+  },
   "summary": "Deze agent is gespecialiseerd in het omzetten van React Class-componenten naar moderne Functionele Componenten (FC) met gebruik van React hooks. Het gebruikt diepgaande expertise in React en TypeScript om legacy Class-gebaseerde React-code automatisch te refactoren naar schonere, beter onderhoudbare en efficiëntere Functionele Componenten. De agent ondersteunt ontwikkelaars bij het moderniseren van hun codebasis, het verbeteren van de leesbaarheid en het toepassen van best practices in React-ontwikkeling. Het behandelt conversies van statebeheer, levenscyclusmethoden en event handling naadloos, waardoor het refactoringsproces snel en foutloos verloopt. Ideaal voor front-end engineers die bestaande projecten willen upgraden of React hooks willen leren via praktische voorbeelden."
 }

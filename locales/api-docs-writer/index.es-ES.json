@@ -8,17 +8,6 @@
       "¿Qué contenidos deseas incluir en la documentación? Por ejemplo, ¿código de ejemplo, descripción de parámetros o precauciones?"
     ]
   },
-  "meta": {
-    "title": "API Documentación Optimizada",
-    "description": "Descripción precisa del uso de la API, con ejemplos de código, precauciones y definición de tipos de valores de retorno.",
-    "tags": [
-      "código",
-      "desarrollo de software",
-      "programador",
-      "documentación",
-      "redacción"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -45,5 +34,10 @@
       "content": "---\ntitle: uploadData\ndescription: API para subir archivos o datos al servidor\nnav: API\n---\n\nLa API `uploadData` permite subir archivos o datos JSON al servidor, adecuada para envíos de formularios o transferencias de datos en lote.\n\n## Sintaxis\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## Ejemplo\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"Carga exitosa\", response);\n  })\n  .catch(error => {\n    console.error(\"Error en la carga\", error);\n  });\n```\n\n## Precauciones\n\n- Asegúrate de que el tamaño y formato del archivo cumplan con los requisitos del servidor.\n- Maneja posibles errores de red durante la carga.\n\n## Definición de tipos de valores de retorno\n\n| Propiedad | Tipo   | Descripción             |\n| --------- | ------ | ---------------------- |\n| `status`  | string | Estado de la carga, por ejemplo \"success\" |\n| `url`     | string | URL de acceso al archivo subido |\n"
     }
   ],
+  "meta": {
+    "title": "API Documentación Optimizada",
+    "description": "Descripción precisa del uso de la API, con ejemplos de código, precauciones y definición de tipos de valores de retorno.",
+    "tags": ["código", "desarrollo de software", "programador", "documentación", "redacción"]
+  },
   "summary": "Este Agente se especializa en crear documentación de API clara, bien estructurada y profesional, adaptada para desarrolladores. Ayuda a los usuarios a generar descripciones de uso precisas, fragmentos de código de ejemplo, notas importantes y definiciones de tipos de retorno que mejoran la legibilidad y usabilidad de las referencias de API. Al centrarse en la perspectiva del desarrollador, el Agente asegura que la documentación sea fácil de entender e implementar, reduciendo errores de integración y mejorando la experiencia del desarrollador. Los casos de uso típicos incluyen escribir secciones README para SDKs, bibliotecas o APIs, proporcionar directrices de sintaxis, ejemplos de uso en lenguajes de programación populares y resaltar consideraciones críticas para un uso adecuado de la API. Este Agente es ideal para ingenieros de software, redactores técnicos y equipos que buscan mantener altos estándares de documentación de API."
 }

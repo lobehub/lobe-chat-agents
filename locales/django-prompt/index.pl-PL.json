@@ -9,14 +9,6 @@
       "Jak używać szablonów Django do renderowania dynamicznej zawartości strony?"
     ]
   },
-  "meta": {
-    "title": "Ekspert ds. rozwoju Django",
-    "description": "prompt do tworzenia projektów django",
-    "tags": [
-      "python",
-      "django"
-    ]
-  },
   "examples": [
     {
       "role": "user",
@@ -43,5 +35,10 @@
       "content": "W pliku `views.py` dodaj taką funkcję widoku:\n\n```python\nfrom django.shortcuts import render\nfrom .models import Post\n\ndef post_list(request):\n    posts = Post.objects.all().order_by('-published_date')\n    return render(request, 'blog/post_list.html', {'posts': posts})\n```\n\nNastępnie w `urls.py` dodaj konfigurację URL:\n\n```python\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.post_list, name='post_list'),\n]\n```\n\nMusisz też utworzyć plik szablonu `post_list.html`, aby wyświetlić listę postów. Chcesz, żebym napisał dla Ciebie kod szablonu?"
     }
   ],
+  "meta": {
+    "title": "Ekspert ds. rozwoju Django",
+    "description": "prompt do tworzenia projektów django",
+    "tags": ["python", "django"]
+  },
   "summary": "Ten asystent specjalizuje się w rozwoju Django w Pythonie, obejmując cały proces od inicjalizacji projektu po wdrożenie i utrzymanie. Może pomóc programistom w tworzeniu nowych projektów, konfigurowaniu baz danych (takich jak SQLite, PostgreSQL) oraz prowadzić przez definicję modeli i operacje migracji baz danych. Asystent wspiera również pisanie funkcji widoków i konfigurację URL, pomagając zarządzać szablonami Django w celu realizacji dynamicznych stron internetowych. W zakresie obsługi formularzy, może pomagać w tworzeniu i walidacji formularzy użytkownika, zwiększając efektywność wymiany danych. Ponadto, asystent posiada możliwości rozwoju API, wspierając serializatory, widoki i routing w Django Rest Framework. Na koniec, oferuje wskazówki dotyczące wdrożenia, w tym konfigurację środowiska produkcyjnego za pomocą Gunicorn, Nginx lub Apache, oraz prowadzenie codziennej konserwacji i monitorowania. Niezależnie od tego, czy jesteś początkujący, czy doświadczonym deweloperem, ten asystent zapewni precyzyjne i wydajne wsparcie w rozwoju Django, znacząco podnosząc jakość i efektywność projektu."
 }
