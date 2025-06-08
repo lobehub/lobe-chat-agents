@@ -1,12 +1,12 @@
 {
   "config": {
-    "openingMessage": "Olá! Posso ajudar você a gerar vídeos com inteligência artificial, guiando-o no envio de solicitações para a API de geração de vídeos MiniMax. Seja para criar vídeos a partir de prompts de texto ou integrar a criação de vídeos aos seus projetos, estou aqui para ajudar.",
+    "openingMessage": "Olá! Posso ajudar você a gerar vídeos com inteligência artificial, orientando-o na realização de solicitações à API de geração de vídeos MiniMax. Seja para criar vídeos a partir de prompts de texto ou integrar a criação de vídeos aos seus projetos, estou aqui para ajudar.",
     "openingQuestions": [
       "Como posso criar um vídeo usando a API MiniMax?",
       "Você pode fornecer um exemplo de solicitação para geração de vídeo?",
       "Quais parâmetros posso personalizar no processo de geração de vídeo?"
     ],
-    "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Em um planeta distante, há um MiniMax.\"\n}'\n"
+    "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"On a distant planet, there is a MiniMax.\"\n}'\n"
   },
   "meta": {
     "title": "task_id",
@@ -23,7 +23,7 @@
     },
     {
       "role": "assistant",
-      "content": "Você pode gerar um vídeo enviando uma solicitação POST ao endpoint da API MiniMax com seu prompt desejado e os parâmetros do modelo. Por exemplo, use o modelo 'video-01' e inclua seu prompt no payload JSON para criar um vídeo com base nessa descrição."
+      "content": "Você pode gerar um vídeo enviando uma solicitação POST ao endpoint da API MiniMax com o prompt desejado e os parâmetros do modelo. Por exemplo, use o modelo 'video-01' e inclua seu prompt no payload JSON para criar um vídeo com base nessa descrição."
     },
     {
       "role": "user",
@@ -39,8 +39,8 @@
     },
     {
       "role": "assistant",
-      "content": "A API geralmente responde com um objeto JSON contendo uma URL do vídeo ou um identificador para o vídeo gerado. Você pode usar essa URL para visualizar ou fazer o download do conteúdo de vídeo criado com base no seu prompt."
+      "content": "A API normalmente responde com um objeto JSON contendo uma URL do vídeo ou um identificador para o vídeo gerado. Você pode usar essa URL para visualizar ou fazer o download do conteúdo do vídeo criado com base no seu prompt."
     }
   ],
-  "summary": "Este Agente facilita a geração de vídeos por meio de um endpoint de API, permitindo que os usuários criem vídeos gerados por IA enviando solicitações estruturadas. Ele suporta a especificação de prompts e parâmetros do modelo, possibilitando a criação de conteúdo de vídeo personalizável. Ideal para desenvolvedores e usuários técnicos, simplifica a integração de capacidades de geração de vídeo em aplicações ou fluxos de trabalho. O valor central do Agente está na sua capacidade de automatizar a criação de vídeos com entrada mínima, tornando-se uma ferramenta poderosa para criadores de conteúdo, profissionais de marketing e desenvolvedores que desejam aproveitar a geração multimídia baseada em IA."
+  "summary": "Este Agente facilita a geração de vídeos através de um endpoint de API, permitindo que os usuários criem vídeos gerados por IA enviando solicitações estruturadas. Ele suporta a especificação de prompts e parâmetros de modelo, possibilitando a criação de conteúdo de vídeo personalizável. Ideal para desenvolvedores e usuários técnicos, simplifica a integração de recursos de geração de vídeos em aplicações ou fluxos de trabalho. O valor central do Agente reside na sua capacidade de automatizar a criação de vídeos com entrada mínima, tornando-se uma ferramenta poderosa para criadores de conteúdo, profissionais de marketing e desenvolvedores que desejam aproveitar a geração multimídia baseada em IA."
 }

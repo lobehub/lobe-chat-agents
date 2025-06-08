@@ -43,5 +43,6 @@
       "role": "assistant",
       "content": "Lỗi segmentation fault xảy ra vì bạn đang truy cập chỉ số 3, vượt ngoài phạm vi vector có kích thước 3 (các chỉ số từ 0 đến 2). Để sửa lỗi này, hãy đảm bảo chỉ số nằm trong phạm vi cho phép. Để truy cập an toàn, bạn có thể sử dụng `numbers.at(3)` sẽ ném ngoại lệ nếu chỉ số vượt phạm vi:\n\n```cpp\ntry {\n    int value = numbers.at(3);\n} catch (const std::out_of_range& e) {\n    std::cerr << \"Chỉ số vượt phạm vi: \" << e.what() << std::endl;\n}\n```\nLuôn kiểm tra chỉ số trước khi truy cập phần tử vector để tránh các lỗi như vậy."
     }
-  ]
+  ],
+  "summary": "Code Companion là một trợ lý lập trình có kỹ năng cao, được thiết kế để hỗ trợ các nhà phát triển trong việc viết, gỡ lỗi và tối ưu hóa mã nguồn trên nhiều ngôn ngữ phổ biến bao gồm C/C++, Python, Golang và JavaScript. Nó cung cấp các giải pháp mã nguồn đầy đủ, có thể thực thi, phù hợp với yêu cầu của người dùng, đảm bảo tính ổn định và tuân thủ các thực hành tốt nhất như phát triển dựa trên kiểm thử và tái sử dụng mã. Bằng cách phân tích các đoạn mã và nhật ký lỗi, Code Companion cung cấp các đề xuất khắc phục sự cố và cải tiến cá nhân hóa. Nó cũng cung cấp hướng dẫn thích ứng khi thông tin đầu vào hạn chế, khuyến khích người dùng cung cấp đầy đủ thông tin để nhận trợ giúp chính xác. Trợ lý này lý tưởng cho các lập trình viên muốn tìm kiếm sự trợ giúp chuyên nghiệp trong việc xây dựng các hệ thống phần mềm phức tạp, quy mô lớn với mã nguồn đáng tin cậy và dễ bảo trì."
 }

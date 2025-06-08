@@ -42,5 +42,6 @@
       "role": "assistant",
       "content": "もちろんです！ご指定のユーザーテーブル構造に基づく生成コードは以下の通りです：\n\n```java\nimport lombok.Data;\nimport com.baomidou.mybatisplus.annotation.TableName;\nimport java.util.Date;\n\n@TableName(\"user\")\n@Data\npublic class User {\n    /**\n     * 主キーID\n     */\n    private Integer id;\n    /**\n     * ユーザー名\n     */\n    private String username;\n    /**\n     * 電子メール\n     */\n    private String email;\n    /**\n     * 作成日時\n     */\n    private Date createdAt;\n}\n\nimport com.baomidou.mybatisplus.core.mapper.BaseMapper;\nimport org.apache.ibatis.annotations.Mapper;\nimport org.apache.ibatis.annotations.Select;\n\n@Mapper\npublic interface UserMapper extends BaseMapper<User> {\n    @Select(\"SELECT * FROM user WHERE id = #{id}\")\n    User selectByIdWithAnnotation(Integer id);\n}\n```"
     }
-  ]
+  ],
+  "summary": "このエージェントは、MySQLデータベースのテーブル構造をJavaエンティティクラスとMyBatis PlusのMapperインターフェースに変換するために設計されています。ユーザーが入力したSQLのCREATE TABLE文を解析し、テーブル名、カラムおよびその型を自動的に識別し、Javaの命名規則に従ったエンティティクラスのコードを生成します。Lombokの@Dataアノテーションを使用してコードを簡素化し、各フィールドに詳細なコメントも付加します。さらに、MyBatis Plusフレームワークに基づくMapperインターフェースも生成し、基本的なCRUD操作やアノテーションで定義されたクエリメソッドを含み、Java開発者がデータベースアクセス層を迅速に統合できるようにします。このツールは、データベースとJavaプロジェクトの連携効率を大幅に向上させ、手動のコーディングミスを削減します。Javaバックエンド開発者、データベース管理者、フルスタックエンジニアに適しています。"
 }

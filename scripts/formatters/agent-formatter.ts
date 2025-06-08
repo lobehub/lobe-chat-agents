@@ -1,6 +1,6 @@
 import { readJSONSync } from 'fs-extra';
-import { get, isEqual, merge, set } from 'lodash-es';
-import { existsSync, mkdirSync } from 'node:fs';
+import { get, merge, set } from 'lodash-es';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
 
@@ -18,6 +18,76 @@ import { validateTranslationLanguage } from '../validators/language-validator';
  * 负责格式化 Agent 配置文件和生成多语言版本
  */
 class AgentFormatter {
+  private ignoreFilePath = '.i18nignore';
+  private ignoredFiles: Set<string> = new Set();
+
+  constructor() {
+    this.loadIgnoreList();
+  }
+
+  /**
+   * 加载忽略文件列表
+   */
+  private loadIgnoreList = () => {
+    try {
+      if (existsSync(this.ignoreFilePath)) {
+        const content = readFileSync(this.ignoreFilePath, 'utf8');
+        const lines = content
+          .split('\n')
+          .map((line) => line.trim())
+          .filter((line) => line && !line.startsWith('#'));
+
+        this.ignoredFiles = new Set(lines);
+        if (this.ignoredFiles.size > 0) {
+          Logger.info(`已加载忽略文件列表`, `${this.ignoredFiles.size} 个文件`);
+        }
+      }
+    } catch (error) {
+      Logger.warn('加载忽略文件列表失败', error);
+    }
+  };
+
+  /**
+   * 添加文件到忽略列表
+   * @param filePath 要忽略的文件路径
+   */
+  private addToIgnoreList = (filePath: string) => {
+    if (this.ignoredFiles.has(filePath)) {
+      return; // 已存在，不重复添加
+    }
+
+    this.ignoredFiles.add(filePath);
+
+    try {
+      let content = '';
+      if (existsSync(this.ignoreFilePath)) {
+        content = readFileSync(this.ignoreFilePath, 'utf8');
+      } else {
+        content = '# 语言验证忽略文件\n# 此文件中列出的路径将跳过语言验证\n\n';
+      }
+
+      // 添加新的忽略文件，确保末尾有换行符
+      if (!content.endsWith('\n')) {
+        content += '\n';
+      }
+      content += `${filePath}\n`;
+
+      writeFileSync(this.ignoreFilePath, content, 'utf8');
+      Logger.warn(`已添加到忽略列表`, filePath);
+    } catch (error) {
+      Logger.error('添加到忽略列表失败', error);
+    }
+  };
+
+  /**
+   * 检查文件是否在忽略列表中
+   * @param filePath 文件路径
+   * @returns 是否被忽略
+   */
+  private isIgnored = (filePath: string): boolean => {
+    return this.ignoredFiles.has(filePath);
+  };
+
   /**
    * 从翻译文件中提取可检测的文本内容
    * @param data 翻译数据对象
@@ -56,7 +126,7 @@ class AgentFormatter {
   };
 
   /**
-   * 比较源数据和已有翻译数据，找出需要翻译的新增或修改字段
+   * 比较源数据和已有翻译数据，找出需要翻译的新增字段
    * @param sourceData 源数据
    * @param existingData 已有翻译数据
    * @returns 需要翻译的数据和是否有更新
@@ -69,7 +139,8 @@ class AgentFormatter {
       const sourceValue = get(sourceData, key);
       const existingValue = get(existingData, key);
 
-      if (sourceValue && !isEqual(sourceValue, existingValue)) {
+      // 如果源数据中有该字段，但翻译数据中没有，则需要翻译
+      if (sourceValue && existingValue === undefined) {
         set(needsTranslation, key, sourceValue);
         hasUpdates = true;
       }
@@ -133,10 +204,15 @@ class AgentFormatter {
       await pMap(
         config.outputLocales,
         async (locale: string) => {
-          if (locale === defaultLocale) return;
-
           const localeFileName = getLocaleAgentFileName(id, locale);
           const localeFilePath = resolve(localesDir, localeFileName);
+          const relativeFilePath = `locales/${localeFileName}`;
+
+          // 检查文件是否在忽略列表中
+          if (this.isIgnored(relativeFilePath)) {
+            Logger.info('跳过被忽略的文件', relativeFilePath);
+            return;
+          }
 
           // 检查是否需要增量翻译
           let dataToTranslate = rawData;
@@ -156,7 +232,6 @@ class AgentFormatter {
                 isIncremental = true;
                 Logger.info(`检测到新增字段`, `${id} (${locale})`);
               } else {
-                Logger.info(`无需翻译，内容未变更`, `${id} (${locale})`);
                 return;
               }
             } catch {
@@ -189,6 +264,8 @@ class AgentFormatter {
                 locale,
               );
             }
+
+            if (locale === defaultLocale) return;
 
             // 验证翻译语言是否匹配
             let validationResult = await validateTranslationLanguage(localeFilePath);
@@ -235,16 +312,18 @@ class AgentFormatter {
                   );
                   Logger.translate(id, defaultLocale, locale, 'success');
                 } else {
-                  // 两次验证都失败，跳过翻译
+                  // 两次验证都失败，添加到忽略列表并跳过翻译
                   Logger.error(
-                    '重新翻译仍验证失败，跳过翻译',
+                    '重新翻译仍验证失败，添加到忽略列表',
                     `${localeFileName}: 期望 ${retryValidationResult.expectedLanguage}, 检测到 ${retryValidationResult.detectedLanguage}`,
                   );
+                  this.addToIgnoreList(relativeFilePath);
                   Logger.translate(id, defaultLocale, locale, 'error');
                 }
               } else {
-                // 重新翻译失败，跳过翻译
-                Logger.error('重新翻译失败，跳过翻译', localeFileName);
+                // 重新翻译失败，添加到忽略列表并跳过翻译
+                Logger.error('重新翻译失败，添加到忽略列表', localeFileName);
+                this.addToIgnoreList(relativeFilePath);
                 Logger.translate(id, defaultLocale, locale, 'error');
               }
             } else {
@@ -255,6 +334,11 @@ class AgentFormatter {
               writeJSON(localeFilePath, finalResult);
               Logger.translate(id, defaultLocale, locale, 'success');
             }
+          } else {
+            // 翻译失败，添加到忽略列表
+            Logger.error('翻译失败，添加到忽略列表', localeFileName);
+            this.addToIgnoreList(relativeFilePath);
+            Logger.translate(id, defaultLocale, locale, 'error');
           }
         },
         { concurrency: config.concurrency }, // 使用配置中的并发数控制

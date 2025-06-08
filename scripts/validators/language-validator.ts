@@ -187,7 +187,7 @@ function addToIgnoreList(filePath: string): void {
       '\n';
 
     try {
-      require('node:fs').writeFileSync(I18N_IGNORE_FILE, content, 'utf-8');
+      require('node:fs').writeFileSync(I18N_IGNORE_FILE, content, 'utf8');
       Logger.info(`已添加到忽略列表: ${relativePath}`);
     } catch (error) {
       Logger.error(`写入 ${I18N_IGNORE_FILE} 失败: ${error}`);
@@ -363,6 +363,7 @@ function getExpectedLanguage(locale: string): string {
  * @param path - 字段路径 (如: "config.systemRole" 或 "examples[0].content")
  * @returns 是否成功删除
  */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 async function removeFieldByPath(obj: any, path: string): Promise<boolean> {
   const pathParts = path.split(/[.[\]]+/).filter(Boolean);
 

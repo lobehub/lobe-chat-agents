@@ -39,22 +39,19 @@ class AgentBuilder {
     const agentIndex = await pMap(
       this.agents.filter((file) => checkJSON(file)),
       async (file) => {
-        const { content, locale: defaultLocale, id } = AgentParser.parseFile(file.name);
+        const { content, id } = AgentParser.parseFile(file.name);
         const localeFileName = getLocaleAgentFileName(id, locale);
 
         // 查找正确的 Agent 内容
         let agent: LobeAgent;
-        if (defaultLocale === locale) {
-          agent = content;
-        } else {
-          // 如果本地化文件不存在，跳过
-          const filePath = resolve(localesDir, localeFileName);
-          if (!existsSync(filePath)) return null;
 
-          // 合并默认 Agent 与本地化数据
-          const data = readJSONSync(filePath);
-          agent = merge({}, content, data);
-        }
+        // 如果本地化文件不存在，跳过
+        const filePath = resolve(localesDir, localeFileName);
+        if (!existsSync(filePath)) return null;
+
+        // 合并默认 Agent 与本地化数据
+        const data = readJSONSync(filePath);
+        agent = merge({}, content, data);
 
         // 写入 Agent 文件到 public 目录
         if (locale === config.entryLocale) {

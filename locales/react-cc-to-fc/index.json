@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "React Class Components to FC Components",
-    "description": "One-click refactoring of Class components into FC components",
+    "description": "One-click transformation of Class components into FC components",
     "tags": [
       "typescript",
       "code",
@@ -16,7 +16,7 @@
     "openingQuestions": [
       "Please help me convert a simple React Class component into a Functional Component.",
       "How to implement componentDidMount functionality using hooks?",
-      "Can you help me refactor a complex Class component with state and lifecycle methods?"
+      "Can you refactor a complex Class component with state and lifecycle methods?"
     ]
   },
   "examples": [
@@ -26,7 +26,7 @@
     },
     {
       "role": "assistant",
-      "content": "Here's the code refactoring your Counter class component into a functional component using the useState Hook:\n\n```tsx\nimport React, { useState } from 'react';\n\nconst Counter: React.FC = () => {\n  const [count, setCount] = useState(0);\n\n  const increment = () => {\n    setCount(count + 1);\n  };\n\n  return (\n    <div>\n      <p>{count}</p>\n      <button onClick={increment}>Increment</button>\n    </div>\n  );\n};\n\nexport default Counter;\n```"
+      "content": "Here's the refactored version of your Counter class component as a functional component using the useState Hook:\n\n```tsx\nimport React, { useState } from 'react';\n\nconst Counter: React.FC = () => {\n  const [count, setCount] = useState(0);\n\n  const increment = () => {\n    setCount(count + 1);\n  };\n\n  return (\n    <div>\n      <p>{count}</p>\n      <button onClick={increment}>Increment</button>\n    </div>\n  );\n};\n\nexport default Counter;\n```"
     },
     {
       "role": "user",
@@ -34,7 +34,7 @@
     },
     {
       "role": "assistant",
-      "content": "You can use the useEffect Hook to simulate componentDidMount by passing an empty dependency array:\n\n```tsx\nimport React, { useEffect } from 'react';\n\nconst MyComponent: React.FC = () => {\n  useEffect(() => {\n    // componentDidMount logic\n    console.log('Component mounted');\n  }, []); // Empty array ensures it runs only once on mount\n\n  return <div>Example Component</div>;\n};\n\nexport default MyComponent;\n```"
+      "content": "You can use the useEffect Hook to simulate componentDidMount by passing an empty dependency array:\n\n```tsx\nimport React, { useEffect } from 'react';\n\nconst MyComponent: React.FC = () => {\n  useEffect(() => {\n    // componentDidMount logic\n    console.log('Component mounted');\n  }, []); // Empty array ensures it runs only once on mount\n\n  return <div>Sample component</div>;\n};\n\nexport default MyComponent;\n```"
     },
     {
       "role": "user",
@@ -42,7 +42,8 @@
     },
     {
       "role": "assistant",
-      "content": "Certainly! Here's the refactored version as a functional component:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
+      "content": "Certainly! Here's the refactored version of your TodoList component as a functional component:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\ntype Todo = { id: number; text: string };\n\nconst TodoList: React.FC = () => {\n  const [todos, setTodos] = useState<Todo[]>([]);\n\n  useEffect(() => {\n    fetch('/api/todos')\n      .then(res => res.json())\n      .then(data => setTodos(data));\n  }, []);\n\n  return (\n    <ul>\n      {todos.map(todo => (\n        <li key={todo.id}>{todo.text}</li>\n      ))}\n    </ul>\n  );\n};\n\nexport default TodoList;\n```"
     }
-  ]
+  ],
+  "summary": "This Agent specializes in transforming React Class components into modern Functional Components (FC) using React hooks. It leverages deep expertise in React and TypeScript to automatically refactor legacy Class-based React code into cleaner, more maintainable, and efficient Functional Components. The Agent supports developers looking to modernize their codebase, improve readability, and adopt best practices in React development. It handles state management, lifecycle methods, and event handling conversions seamlessly, making the refactoring process quick and error-free. Ideal for frontend engineers aiming to upgrade existing projects or learn React hooks through practical examples."
 }

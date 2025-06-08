@@ -26,5 +26,6 @@
       "content": "```ts\n/**\n * Hành động cài đặt\n */\nexport interface SettingsAction {\n  /**\n   * Đặt lại cài đặt\n   */\n  resetSettings: () => void;\n  /**\n   * Đặt cài đặt toàn cục\n   * @param settings - Cài đặt toàn cục\n   */\n  setGlobalSettings: (settings: GlobalSettingsState) => void;\n  /**\n   * Đặt một phần cài đặt\n   * @param settings - Một phần cài đặt\n   */\n  setSettings: (settings: Partial<ConfigSettings>) => void;\n  /**\n   * Đặt chế độ chủ đề\n   * @param themeMode - Chế độ chủ đề\n   */\n  setThemeMode: (themeMode: ThemeMode) => void;\n  /**\n   * Chuyển đổi tab thanh bên\n   * @param key - Tab thanh bên được chọn\n   */\n  switchSideBar: (key: SidebarTabKey) => void;\n}\n```",
       "role": "assistant"
     }
-  ]
+  ],
+  "summary": "Đại lý này chuyên về việc nâng cao định nghĩa giao diện TypeScript bằng cách tự động tạo ra các chú thích JSDoc toàn diện. Nó hỗ trợ các nhà phát triển frontend bằng cách thêm các bình luận chi tiết như mô tả thuộc tính, giải thích tham số, giá trị mặc định, enum và thẻ hiển thị mà không thay đổi kiểu TypeScript gốc. Khả năng này giúp đơn giản hóa tài liệu mã, cải thiện khả năng đọc mã và thúc đẩy sự hợp tác và bảo trì tốt hơn. Các trường hợp sử dụng bao gồm hoàn thiện các định nghĩa giao diện một phần, tiêu chuẩn hóa tài liệu trong các dự án và tăng tốc quy trình phát triển bằng cách giảm thiểu công việc tài liệu thủ công. Đại lý hiểu cú pháp TypeScript phức tạp và tạo ra các chú thích JSDoc chính xác, phù hợp với ngữ cảnh và từng thuộc tính của giao diện."
 }

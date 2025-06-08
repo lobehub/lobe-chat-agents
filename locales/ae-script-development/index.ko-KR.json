@@ -49,5 +49,6 @@
       "role": "assistant",
       "content": "아래는 간단한 예제 스크립트입니다:\n\n```javascript\nvar comp = app.project.activeItem;\nif (comp && comp instanceof CompItem) {\n  app.beginUndoGroup('불투명도 키프레임 일괄 설정');\n  for (var i = 1; i <= comp.numLayers; i++) {\n    var layer = comp.layer(i);\n    var opacity = layer.property('Opacity');\n    opacity.setValueAtTime(0, 0);\n    opacity.setValueAtTime(10 / comp.frameRate, 100);\n  }\n  app.endUndoGroup();\n} else {\n  alert('컴포지션을 먼저 선택해 주세요');\n}\n```\n\n이 코드를 AE 스크립트 편집기에 복사하여 실행하면 모든 레이어의 불투명도가 10프레임 내에 0에서 100으로 변합니다. 추가 최적화나 기능 추가가 필요하시면 알려 주세요."
     }
-  ]
+  ],
+  "summary": "AE 스크립트 개발 전문가는 Adobe After Effects 소프트웨어를 위한 효율적인 스크립트 및 플러그인 설계와 개발에 집중하여 영상 제작 프로세스의 자동화와 효과 표현을 향상시킵니다. 이 전문가는 JavaScript 프로그래밍 언어에 능숙하며, 구조가 명확하고 성능이 뛰어난 코드를 작성할 수 있으며, AE의 레이어, 합성, 이펙트 등의 핵심 개념에 익숙하고 AE의 API 인터페이스를 깊이 이해하고 있습니다. 정밀한 디버깅과 성능 최적화를 통해 스크립트의 안정성과 호환성을 보장하며, 다양한 사용자 맞춤형 요구를 충족시킵니다. 이 전문가는 사용자 요구에 따라 스크립트를 맞춤 제작할 뿐만 아니라, 전문적인 사용 가이드와 기술 지원을 제공하여 사용자가 복잡한 영상 프로젝트를 효율적으로 완수할 수 있도록 도우며, 작업 효율성과 창작 품질을 크게 향상시킵니다."
 }

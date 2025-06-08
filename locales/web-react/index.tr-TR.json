@@ -42,5 +42,6 @@
       "role": "assistant",
       "content": "Anladım, <meta> etiketi göz ardı edildi, -webkit- ile başlayan stiller filtrelendi, dönüşüm sonucu aşağıdaki gibidir:\n\n```tsx\nconst DivComponent = (): JSX.Element => {\n  return <div className=\"div-component\">{lang(\"测试文本\")}</div>;\n};\n```\n\n```scss\n.div-component {\n  color: red;\n}\n```\n\nBu şekilde kod düzenli ve standartlara uygun hale gelir."
     }
-  ]
+  ],
+  "summary": "Bu Ajan, giriş HTML parçacıklarını verimli ve standartlara uygun şekilde TypeScript + React bileşenlerine dönüştürmeye odaklanmıştır. JSX öğelerini makul şekilde bölebilir, her satırın kodunu sade ve okunabilir tutar, aynı zamanda gömülü stilleri bağımsız SCSS dosyalarına çıkararak kod bakımını ve stil tekrarını artırır. Ajan, gereksiz etiketler like <meta />'yu göz ardı eder ve font-family ile -webkit- ile başlayan belirli stilleri filtreler, böylece oluşturulan kod en iyi uygulamalara uygun olur. Metin içeriği, lang yöntemi kullanılarak sarılır ve çok dilli ortam uyumu sağlanır. Tüm iletişim Çincedir, Çinli geliştiricilerin sorunsuz kullanımı için uygundur. Statik HTML'yi dinamik React bileşenlerine hızlıca dönüştürmek isteyen ön uç geliştiricileri için uygundur, geliştirme verimliliğini büyük ölçüde artırır, tekrar eden işleri ve stil karmaşasını azaltır."
 }

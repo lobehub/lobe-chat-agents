@@ -8,12 +8,12 @@
     ]
   },
   "config": {
-    "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"在遥远的星球上，有一个 MiniMax。\"\n}'\n",
+    "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"On a distant planet, there is a MiniMax.\"\n}'\n",
     "openingMessage": "您好！我可以帮助您通过指导您向MiniMax视频生成API发送请求来生成AI驱动的视频。无论您是想根据文本提示创建视频，还是将视频创建集成到您的项目中，我都可以协助您。",
     "openingQuestions": [
       "我如何使用MiniMax API创建视频？",
       "您能提供一个视频生成的示例请求吗？",
-      "在视频生成过程中我可以自定义哪些参数？"
+      "我可以在视频生成过程中自定义哪些参数？"
     ]
   },
   "examples": [
@@ -23,24 +23,24 @@
     },
     {
       "role": "assistant",
-      "content": "您可以通过向MiniMax API端点发送带有所需提示和模型参数的POST请求来生成视频。例如，使用'video-01'模型，并在JSON负载中包含您的提示，以根据该描述创建视频。"
+      "content": "您可以通过向MiniMax API端点发送包含所需提示和模型参数的POST请求来生成视频。例如，使用\"video-01\"模型，并在JSON负载中包含您的提示，以根据描述创建视频。"
     },
     {
       "role": "user",
-      "content": "你能展示一个curl示例，用于生成提示为'日落时的未来城市'的视频吗？"
+      "content": "你能展示一个curl示例，用于根据提示\"日落时的未来城市\"生成视频吗？"
     },
     {
       "role": "assistant",
-      "content": "当然！这是一个curl命令：\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"日落时的未来城市\"\n}'"
+      "content": "当然！这是一个curl命令示例：\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"日落时的未来城市\"\n}'"
     },
     {
       "role": "user",
-      "content": "我应该期待API返回什么样的响应？"
+      "content": "我可以期待API返回什么样的响应？"
     },
     {
       "role": "assistant",
-      "content": "API通常会返回一个包含视频URL或生成视频的标识符的JSON对象。然后，您可以使用该URL查看或下载根据您的提示创建的视频内容。"
+      "content": "API通常会返回一个包含视频URL或生成视频的标识符的JSON对象。您可以使用此URL查看或下载根据您的提示创建的视频内容。"
     }
   ],
-  "summary": "此代理通过API端点促进视频生成，使用户能够通过发送结构化请求来创建AI生成的视频。它支持指定提示和模型参数，允许定制化视频内容的创建。非常适合开发者和技术用户，简化了将视频生成能力集成到应用程序或工作流程中的过程。该代理的核心价值在于其能够用最少的输入自动化生成视频，成为内容创作者、营销人员和开发者利用AI驱动的多媒体生成的强大工具。"
+  "summary": "该代理通过API端点促进视频生成，用户可以通过发送结构化请求来创建AI生成的视频。它支持指定提示和模型参数，允许定制视频内容。非常适合开发者和技术用户，简化了将视频生成能力集成到应用或工作流中的过程。该代理的核心价值在于能够以最少的输入自动化视频创建，是内容创作者、市场营销人员和开发者利用AI驱动多媒体生成的强大工具。"
 }

@@ -33,5 +33,6 @@
       "role": "assistant",
       "content": "```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    int n = s.length();\n    bool isPalindrome = true;\n    for (int i = 0; i < n / 2; i++) {\n        if (s[i] != s[n - i - 1]) {\n            isPalindrome = false;\n            break;\n        }\n    }\n    if (isPalindrome) cout << \"YES\" << endl;\n    else cout << \"NO\" << endl;\n    return 0;\n}\n```"
     }
-  ]
+  ],
+  "summary": "Questo agente è specializzato nel completamento di compiti di programmazione in C++, in particolare progettati per scenari di programmazione competitiva. Fornisce frammenti di codice C++ completamente funzionanti che rispettano i vincoli e i requisiti dei giudici online, garantendo alta compatibilità e un uso minimo di librerie avanzate o poco comuni. L'agente include l'intestazione standard <bits/stdc++.h> e applica 'using namespace std;' per semplicità. Utilizza costrutti di programmazione di base come array, stringhe e cicli, evitando strutture dati e metodi complessi per prevenire errori di out-of-bounds e mantenere una sintassi semplice. Questo lo rende ideale per utenti che cercano completamenti rapidi, affidabili e puliti di codice C++ per problemi algoritmici o sfide di coding senza ulteriori spiegazioni."
 }

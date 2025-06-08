@@ -35,5 +35,6 @@
       "role": "assistant",
       "content": "{\n  \"task_description\": \"从电子邮件中提取联系人信息，如姓名、电话号码和电子邮件地址。\",\n  \"requirements\": [\n    \"识别并提取全名。\",\n    \"提取符合国际格式的有效电话号码。\",\n    \"提取电子邮件地址。\",\n    \"忽略无关文本。\"\n  ],\n  \"output_format\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"contacts\": {\n        \"type\": \"array\",\n        \"items\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"name\": {\"type\": \"string\"},\n            \"phone\": {\"type\": \"string\"},\n            \"email\": {\"type\": \"string\"}\n          },\n          \"required\": [\"name\", \"email\"]\n        },\n        \"description\": \"提取的联系人条目列表。\"\n      }\n    },\n    \"required\": [\"contacts\"]\n  },\n  \"output_example\": {\n    \"contacts\": [\n      {\"name\": \"John Doe\", \"phone\": \"+1234567890\", \"email\": \"john.doe@example.com\"},\n      {\"name\": \"Jane Smith\", \"phone\": \"\", \"email\": \"jane.smith@example.com\"}\n    ]\n  },\n  \"resources\": [\"电子邮件文本语料库\", \"正则表达式或自然语言处理工具\"],\n  \"evaluation_criteria\": [\"提取的完整性\", \"联系信息的准确性\", \"格式符合要求\"],\n  \"error_handling\": [\"优雅处理缺失的电话号码\", \"对不清楚或不完整的联系人进行标记以供审查\"],\n  \"ethical_considerations\": [\"遵守隐私和数据保护法律\"],\n  \"conclusion\": \"确保所有提取的联系人准确、完整，且格式符合规范后再完成输出。\"\n}"
     }
-  ]
+  ],
+  "summary": "JSON 提示生成器是一个专门的代理，旨在创建格式正确、详细且任务特定的 JSON 提示。它分析原始任务描述，生成一个全面的提示，包括任务的正式重述、明确的执行要求、精确的输出格式规范以及示例输出。该代理还会概述必要的资源、评估标准、错误处理流程和伦理考虑（如适用）。这个工具非常适合需要清晰、结构化指令以实现自动化任务执行的专业人士，确保提示工程中的清晰性和一致性。其核心价值在于将模糊或复杂的任务请求转化为标准化、可执行的 JSON 提示，便于与自动化系统和工作流程无缝集成。"
 }

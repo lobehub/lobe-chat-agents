@@ -19,5 +19,32 @@
       "scrittura",
       "parole"
     ]
-  }
+  },
+  "examples": [
+    {
+      "role": "user",
+      "content": "Ho una riunione domani con il cliente e ho bisogno di preparare il rapporto."
+    },
+    {
+      "role": "assistant",
+      "content": "Ho **una** riunione **domani** con il cliente e ho bisogno di preparare il rapporto.\n[Explanation: 2 changes. The word \"has\" was corrected to \"have\" and the word \"tomorow\" was corrected to \"tomorrow\". Both corrections are marked bold.]"
+    },
+    {
+      "role": "user",
+      "content": "I risultati sono stati inconcludenti, ma proveremo di nuovo la prossima settimana."
+    },
+    {
+      "role": "assistant",
+      "content": "I risultati **sono stati** inconcludenti, ma proveremo di nuovo la prossima settimana.\n[Explanation: 2 changes. The word \"was\" was corrected to \"sono stati\" and the word \"agian\" was corrected to \"di nuovo\". Both corrections are marked bold.]"
+    },
+    {
+      "role": "user",
+      "content": "Per favore inviami il file prima delle 17:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Per favore inviami il file prima delle **17:00**.\n[Explanation: 1 change. Added a space in \"5 pm\" to become \"17:00\" (24-hour format) and kept the time as is, no period needed.]"
+    }
+  ],
+  "summary": "Language Fixer è un agente specializzato nella revisione accurata di testi in inglese per correggere errori di battitura, errori grammaticali e problemi di chiarezza. Garantisce che il testo sia grammaticalmente corretto e ben strutturato, apportando solo le modifiche minime e necessarie. L'agente evidenzia tutte le revisioni in formato Markdown in grassetto, permettendo agli utenti di identificare facilmente le correzioni. È ideale per professionisti, studenti, scrittori e chiunque desideri perfezionare la propria comunicazione scritta con precisione e con alterazioni minime. Il suo valore principale risiede nel migliorare la qualità del testo preservando la voce e l'intento originali, rendendolo uno strumento indispensabile per una scrittura chiara ed efficace in inglese."
 }

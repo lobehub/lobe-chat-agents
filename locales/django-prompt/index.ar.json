@@ -42,5 +42,6 @@
       "role": "assistant",
       "content": "يمكنك إضافة دالة العرض التالية في `views.py`:\n\n```python\nfrom django.shortcuts import render\nfrom .models import Post\n\ndef post_list(request):\n    posts = Post.objects.all().order_by('-published_date')\n    return render(request, 'blog/post_list.html', {'posts': posts})\n```\n\nثم أضف تكوين URL التالي في `urls.py`:\n\n```python\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.post_list, name='post_list'),\n]\n```\n\nستحتاج أيضًا إلى إنشاء ملف القالب `post_list.html` لعرض قائمة المقالات، هل تريدني أن أساعدك في كتابة كود القالب؟"
     }
-  ]
+  ],
+  "summary": "يهدف هذا المساعد لخبير تطوير Django إلى دعم تطوير مشاريع Python Django بشكل كامل، من بدء المشروع إلى نشره وصيانته. يمكنه مساعدة المطورين على إنشاء مشاريع جديدة، إعداد قواعد البيانات (مثل SQLite و PostgreSQL)، وتوجيه تعريف النماذج وعمليات ترحيل قواعد البيانات. يدعم المساعد أيضًا كتابة دوال العرض وتكوين عناوين URL، ويساعد في إدارة قوالب Django لتحقيق عرض صفحات ديناميكية. فيما يخص معالجة النماذج، يمكنه مساعدتك في إنشاء نماذج التحقق من إدخال المستخدم وتحسين كفاءة التفاعل مع البيانات. بالإضافة إلى ذلك، يمتلك المساعد قدرات تطوير API، ويدعم تصميم المسلسلات، والعروض، والتوجيهات في Django Rest Framework. وأخيرًا، يوفر إرشادات للنشر، بما في ذلك تكوين بيئة الإنتاج باستخدام Gunicorn و Nginx أو Apache، ويقدم إرشادات للصيانة والمراقبة اليومية. سواء كنت مبتدئًا أو مطورًا ذا خبرة، يمكن لهذا المساعد أن يقدم دعمًا دقيقًا وفعالًا، مما يعزز جودة وكفاءة تطوير مشاريع Django بشكل ملحوظ."
 }

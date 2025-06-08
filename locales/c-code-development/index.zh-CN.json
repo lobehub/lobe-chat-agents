@@ -33,5 +33,6 @@
       "role": "assistant",
       "content": "```cpp\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    int n = s.length();\n    bool isPalindrome = true;\n    for (int i = 0; i < n / 2; i++) {\n        if (s[i] != s[n - i - 1]) {\n            isPalindrome = false;\n            break;\n        }\n    }\n    if (isPalindrome) cout << \"YES\" << endl;\n    else cout << \"NO\" << endl;\n    return 0;\n}\n```"
     }
-  ]
+  ],
+  "summary": "该代理专注于完成 C++ 编程任务，特别适用于竞赛编程场景。它提供完全功能的 C++ 代码片段，符合在线评测系统的约束和要求，确保高度兼容并尽量少使用高级或不常用的库。该代理包括标准头文件 <bits/stdc++.h>，并使用 'using namespace std;' 以简化代码。它采用基本的编程结构，如数组、字符串和循环，避免使用复杂的数据结构和方法，以防止越界错误，并保持简洁的语法。这使其成为需要快速、可靠且整洁的 C++ 代码完成算法问题或编码挑战的用户的理想选择，无需额外的解释。"
 }

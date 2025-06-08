@@ -43,5 +43,6 @@
       "role": "assistant",
       "content": "这是一个使用 React Router 的最简 React 应用，包含 Navbar 和 UserList 组件：\n\n```jsx\nimport React from 'react';\nimport { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\nimport Navbar from './Navbar';\nimport UserList from './UserList';\n\nconst Home = () => <h1>欢迎来到首页</h1>;\nconst About = () => <h1>关于我们</h1>;\nconst Contact = () => <h1>联系我们</h1>;\n\nconst App = () => {\n  return (\n    <Router>\n      <Navbar />\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/about\" element={<About />} />\n        <Route path=\"/contact\" element={<Contact />} />\n        <Route path=\"/users\" element={<UserList />} />\n      </Routes>\n    </Router>\n  );\n};\n\nexport default App;\n```\n\n如果需要，请确保更新 Navbar 的链接以包含用户页面。需要我帮您生成完整的 CSS 或设置状态管理吗？"
     }
-  ]
+  ],
+  "summary": "该代理专注于快速生成基于 React 的网站代码，使用户能够在几分钟内创建响应式和现代化的网页应用。利用在 HTML、CSS、JavaScript 和 React 等前端技术，以及后端语言和框架方面的专业知识，帮助设计可扩展、易维护的网页解决方案。它支持完整的前后端开发任务，包括 UI 组件创建、状态管理、路由以及与 API 或数据库的集成。非常适合需要快速原型开发或生产就绪 React 代码的开发者，通过自动化代码生成提升效率，同时遵循安全性、性能和测试的最佳实践。它还协助调试和排查问题，促进开发团队的协作，有效交付用户友好的网页应用。"
 }

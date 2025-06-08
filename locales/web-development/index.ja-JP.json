@@ -43,5 +43,6 @@
       "role": "assistant",
       "content": "こちらはReact Routerを使用してNavbarとUserListコンポーネントを含む最小限のReactアプリです：\n\n```jsx\nimport React from 'react';\nimport { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\nimport Navbar from './Navbar';\nimport UserList from './UserList';\n\nconst Home = () => <h1>ホームページへようこそ</h1>;\nconst About = () => <h1>私たちについて</h1>;\nconst Contact = () => <h1>お問い合わせ</h1>;\n\nconst App = () => {\n  return (\n    <Router>\n      <Navbar />\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/about\" element={<About />} />\n        <Route path=\"/contact\" element={<Contact />} />\n        <Route path=\"/users\" element={<UserList />} />\n      </Routes>\n    </Router>\n  );\n};\n\nexport default App;\n```\n\n必要に応じてNavbarのリンクにUsersページを追加してください。完全なCSSや状態管理のセットアップもご希望でしたらお知らせください！"
     }
-  ]
+  ],
+  "summary": "このエージェントは、Reactベースのウェブサイトコードを迅速に生成することに特化しており、ユーザーが数分でレスポンシブでモダンなウェブアプリケーションを作成できるようにします。HTML、CSS、JavaScript、Reactなどのフロントエンド技術や、バックエンドの言語とフレームワークに関する専門知識を活用し、スケーラブルで保守性の高いウェブソリューションの設計を支援します。UIコンポーネントの作成、状態管理、ルーティング、APIやデータベースとの統合などのフルスタック開発タスクをサポートします。迅速なプロトタイピングや本番用のReactコードが必要な開発者に最適であり、セキュリティ、パフォーマンス、テストのベストプラクティスに従いながらコード生成を自動化することで生産性を向上させます。また、デバッグやトラブルシューティングも支援し、開発チーム間の協力を促進して、ユーザーフレンドリーなウェブアプリケーションを効率的に提供します。"
 }

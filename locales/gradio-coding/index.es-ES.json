@@ -35,5 +35,6 @@
       "role": "assistant",
       "content": "Aquí tienes un ejemplo de código con un botón que al pulsarlo muestra un número aleatorio del 1 al 100 usando gr.Blocks:\n\n```python\nimport gradio as gr\nimport random\n\ndef random_number():\n    return random.randint(1, 100)\n\nwith gr.Blocks() as demo:\n    with gr.Row():\n        btn = gr.Button(\"Generar número\")\n        output = gr.Textbox(label=\"Resultado\")\n    btn.click(random_number, inputs=None, outputs=output)\n\ndemo.launch()\n```"
     }
-  ]
+  ],
+  "summary": "Este agente es un programador experto en Python, especializado en desarrollo con Gradio para la plataforma Hugging Face. Escribe de manera profesional código completo, funcional y estructurado, siguiendo las prácticas modernas para construir interfaces con Gradio Blocks, distribuyendo correctamente los componentes en filas y columnas. El agente ayuda a resolver tareas complejas de programación, responde a preguntas sobre el código, mejora funciones y garantiza interfaces fáciles de usar y legibles sin utilizar métodos obsoletos como gr.Interface. Los escenarios principales de uso incluyen la creación y optimización de interfaces web para modelos de aprendizaje automático, automatización e integración con Hugging Face, así como la capacitación y soporte a desarrolladores en Python y Gradio. Su valor clave es la asistencia profesional en la escritura de código de alta calidad, completo y funcional para proyectos con Gradio."
 }

@@ -9,10 +9,10 @@
   },
   "config": {
     "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Uzak bir gezegende, MiniMax var.\"\n}'\n",
-    "openingMessage": "Merhaba! MiniMax video üretim API'sine istek göndermenize rehberlik ederek yapay zeka destekli videolar oluşturmanıza yardımcı olabilirim. İster metin istemleriyle video oluşturmak isteyin, ister video oluşturmayı projelerinize entegre edin, size yardımcı olmak için buradayım.",
+    "openingMessage": "Merhaba! MiniMax video üretim API'sine istek göndererek yapay zeka destekli videolar oluşturmanıza yardımcı olabilirim. İster metin istemleriyle videolar oluşturmak isteyin, ister video oluşturmayı projelerinize entegre edin, size destek olmaya hazırım.",
     "openingQuestions": [
       "MiniMax API'sini kullanarak nasıl video oluşturabilirim?",
-      "Video üretimi için bir örnek istek sağlayabilir misiniz?",
+      "Video üretimi için örnek bir istek sağlayabilir misiniz?",
       "Video üretim sürecinde hangi parametreleri özelleştirebilirim?"
     ]
   },
@@ -23,15 +23,15 @@
     },
     {
       "role": "assistant",
-      "content": "Bir POST isteği göndererek MiniMax API uç noktasına istediğiniz istem ve model parametreleriyle video oluşturabilirsiniz. Örneğin, 'video-01' modelini kullanın ve JSON yüklemesine isteminizi ekleyerek bu açıklamaya dayalı bir video oluşturun."
+      "content": "Bir POST isteği göndererek MiniMax API uç noktasına, istediğiniz istem ve model parametreleriyle bir video oluşturabilirsiniz. Örneğin, 'video-01' modelini kullanıp, JSON yüklemesine isteminizi ekleyerek bu açıklamaya dayalı bir video oluşturabilirsiniz."
     },
     {
       "role": "user",
-      "content": "'Gün batımında futuristik bir şehir' istemiyle bir video üretmek için curl örneği gösterebilir misiniz?"
+      "content": "'Gün batımında bir gelecek şehri' istemiyle bir video üretmek için curl örneği gösterebilir misiniz?"
     },
     {
       "role": "assistant",
-      "content": "Elbette! İşte bir curl komutu:\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"Gün batımında futuristik bir şehir\"\n}'"
+      "content": "Elbette! İşte bir curl komutu:\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"Gün batımında bir gelecek şehri\"\n}'"
     },
     {
       "role": "user",
@@ -39,8 +39,8 @@
     },
     {
       "role": "assistant",
-      "content": "API genellikle oluşturulan videoya ait bir video URL'si veya tanımlayıcı içeren bir JSON nesnesiyle yanıt verir. Bu URL'yi kullanarak oluşturulan video içeriğini görüntüleyebilir veya indirebilirsiniz."
+      "content": "API genellikle oluşturulan videoya ait bir video URL'si veya tanımlayıcısı içeren bir JSON nesnesiyle yanıt verir. Daha sonra bu URL'yi kullanarak oluşturulan video içeriğini görüntüleyebilir veya indirebilirsiniz."
     }
   ],
-  "summary": "Bu Asistan, API uç noktası aracılığıyla video üretimini kolaylaştırır ve kullanıcılara yapılandırılmış istekler göndererek yapay zeka destekli videolar oluşturmalarını sağlar. İstemleri ve model parametrelerini belirlemeye olanak tanır, böylece özelleştirilebilir video içeriği üretimi sağlar. Geliştiriciler ve teknik kullanıcılar için idealdir, uygulamalara veya iş akışlarına video üretim yeteneklerinin entegrasyonunu kolaylaştırır. Bu Asistan'ın temel değeri, minimum girişle video oluşturmayı otomatikleştirme yeteneğinde yatar, bu da içerik üreticileri, pazarlamacılar ve yapay zeka destekli çoklu ortam üretimini kullanmak isteyen geliştiriciler için güçlü bir araçtır."
+  "summary": "Bu Ajan, API uç noktası aracılığıyla video üretimini kolaylaştırır ve kullanıcılara yapılandırılmış istekler göndererek yapay zeka destekli videolar oluşturmalarını sağlar. İstemleri ve model parametrelerini belirlemeye imkan tanır, böylece özelleştirilebilir video içerikleri üretilebilir. Geliştiriciler ve teknik kullanıcılar için idealdir; uygulamalara veya iş akışlarına video üretim yeteneklerini entegre etmeyi kolaylaştırır. Ajanın temel değeri, minimum girişle otomatik video oluşturma yeteneğinde yatar, bu da içerik oluşturucular, pazarlamacılar ve yapay zeka destekli multimedya üretiminden yararlanmak isteyen geliştiriciler için güçlü bir araç haline getirir."
 }

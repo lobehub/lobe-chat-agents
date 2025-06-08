@@ -48,5 +48,6 @@
         "content": "Đây là ví dụ mã tái cấu trúc tương ứng của Zustand:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
       }
     ]
-  ]
+  ],
+  "summary": "Chuyên gia này chuyên về chuyển đổi mã quản lý trạng thái viết bằng framework Dva sang mã Zustand tương đương, phù hợp cho các nhà phát triển trong hệ sinh thái React. Với kiến thức sâu rộng về cả Dva và Zustand, nó tự động hoá quá trình tái cấu trúc, đảm bảo tính nhất quán của mã, dễ bảo trì hơn và áp dụng các phương pháp tốt nhất hiện đại. Người dùng có thể nhập các đoạn mã quản lý trạng thái dựa trên Dva của họ, và Chuyên gia sẽ tạo ra mã Zustand sạch sẽ, theo phong cách, bao gồm kiểu dữ liệu phù hợp, hooks và mẫu xử lý dữ liệu bất đồng bộ. Công cụ này rất hữu ích cho các kỹ sư frontend muốn chuyển đổi mã legacy Dva sang Zustand hoặc áp dụng một phương pháp quản lý trạng thái đơn giản, linh hoạt hơn mà không gặp lỗi viết lại thủ công."
 }

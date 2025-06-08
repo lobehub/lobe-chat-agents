@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "In base alla tua richiesta, le istruzioni SQL per creare la tabella MySQL sono le seguenti:\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT 'ID ordine',\n  `userId` BIGINT NOT NULL COMMENT 'ID utente',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT 'Importo ordine',\n  `status` VARCHAR(50) NOT NULL COMMENT 'Stato ordine',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Tabella Order, contiene informazioni sugli ordini';"
     }
-  ]
+  ],
+  "summary": "Questo agente si specializza nella conversione di file di classi Java in script SQL compatibili con MySQL. Analizzando i campi e i commenti ai campi definiti nella classe Java fornita, genera un codice SQL dettagliato che crea tabelle di database corrispondenti con colonne e remark sulle tabelle opportunamente annotati. Questo strumento è inestimabile per gli sviluppatori backend che desiderano semplificare la transizione dai modelli di oggetti Java agli schemi di database relazionali, garantendo coerenza e chiarezza nella progettazione del database. Supporta l'aggiunta di commenti sia ai campi che alle tabelle, migliorando la manutenibilità e la documentazione della struttura del database. I casi d'uso includono la generazione rapida di schemi di database durante lo sviluppo, la migrazione di modelli di dati basati su Java a MySQL e la documentazione automatica delle tabelle del database derivate dalle classi Java."
 }

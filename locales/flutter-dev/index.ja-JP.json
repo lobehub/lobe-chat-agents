@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "もちろんです！Flutterでリストを作成する際、特に長いリストの場合は、`ListView`の子ウィジェットを直接渡すよりも、必要に応じてアイテムを遅延構築する`ListView.builder`を使うのがベストプラクティスです。これによりパフォーマンスが向上します。\n\n最適化例はこちらです：\n\n```dart\nListView.builder(\n  itemCount: items.length,\n  itemBuilder: (context, index) {\n    final item = items[index];\n    return ListTile(\n      title: Text(item.title),\n      subtitle: Text(item.subtitle),\n    );\n  },\n)\n```\n\nさらに、可能な限り`const`コンストラクタを使い、不要なウィジェットの再構築を避けるために`const`ウィジェットやデータのキャッシュを活用しましょう。リストアイテムが複雑な場合は、`AutomaticKeepAliveClientMixin`や`RepaintBoundary`を使ってレンダリングを最適化することも検討してください。\n\n具体的なコードがあれば、それに合わせた最適化案もご提案しますのでお知らせください。"
     }
-  ]
+  ],
+  "summary": "Flutter Maestroは、FlutterフレームワークとDartプログラミング言語に深い専門知識を持つ、専門的な開発者エージェントです。特にDart 3とnull安全なコーディングプラクティスに焦点を当てています。このエージェントは、ユーザーの要件に合わせて高効率で視覚的にユニークなカスタムウィジェットを作成することに優れています。Flutterアプリ開発のベストプラクティス、状態管理、レイアウト設計、パフォーマンス最適化などについて開発者を指導します。デバッグ、レスポンシブUIコンポーネントの構築、バックエンドサービスとのFlutterの統合などの支援が必要な場合でも、Flutter Maestroは最新のSDK機能を活用した正確で最新のソリューションを提供します。その核心的な価値は、アプリの美観と機能性を向上させる、保守性と拡張性のあるFlutterコードを提供することにあります。"
 }

@@ -43,5 +43,6 @@
       "role": "assistant",
       "content": "네, 다음은 FastAPI 기반의 사용자 등록 인터페이스 예시입니다:\n\n```python\nfrom fastapi import APIRouter, HTTPException\nfrom pydantic import BaseModel, EmailStr\nfrom app.db.crud import create_user\nfrom app.utils.security import get_password_hash\n\nrouter = APIRouter()\n\nclass UserCreate(BaseModel):\n    username: str\n    email: EmailStr\n    password: str\n\n@router.post(\"/register\")\nasync def register_user(user: UserCreate):\n    \"\"\"\n    사용자 등록 인터페이스로, 사용자 이름, 이메일, 비밀번호를 받습니다.\n    비밀번호는 해시 처리되어 저장됩니다.\n    \"\"\"\n    hashed_password = get_password_hash(user.password)  # 비밀번호 해시 처리\n    try:\n        new_user = await create_user(user.username, user.email, hashed_password)\n        return {\"msg\": \"사용자 등록 성공\", \"user_id\": new_user.id}\n    except Exception as e:\n        raise HTTPException(status_code=400, detail=str(e))\n```\n\n설명:\n- 요청 데이터 검증을 위한 `UserCreate` 모델 정의\n- `/register` 경로로 등록 정보 수신\n- 비밀번호를 안전하게 해시 처리\n- CRUD 계층의 사용자 생성 함수 호출\n- 예외 발생 시 오류 메시지 반환\n\n인증 및 권한 기능도 계속해서 도와드릴까요?"
     }
-  ]
+  ],
+  "summary": "Fastapi 프로젝트 개발 도우미는 Python 모듈화 개발에 중점을 두고 있으며, 특히 대규모 프로젝트의 아키텍처 설계와 코드 구현에 적합합니다. FastAPI 프레임워크를 능숙하게 활용하여 고성능 비동기 웹 애플리케이션을 구축하고, PostgreSQL 데이터베이스와 Tortoise-ORM을 결합하여 효율적인 데이터 모델 관리를 수행합니다. 이 도우미는 프로젝트 시작 단계에서 API 라우트, 데이터베이스 모델, CRUD 작업, 보안 검증 및 도구 모듈 구성을 포함한 명확한 코드 구조 계획을 제공하여 코드의 계층이 명확하고 유지보수가 용이하게 합니다. 또한, 상세한 주석을 추가하여 개발자가 각 코드의 기능과 설계 방식을 이해하는 데 도움을 주며, 팀 협업 효율성을 향상시킵니다. 기술 스택에는 Redis 캐시, OAuth2 및 JWT 인증 메커니즘, Pydantic 데이터 검증, Loguru 로그 관리도 포함되어 있어 현대 백엔드 개발 요구를 충족합니다."
 }

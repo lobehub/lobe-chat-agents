@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "Voici un exemple de refactorisation en Zustand correspondant :\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
-  ]
+  ],
+  "summary": "Cet agent se spécialise dans la transformation du code de gestion d'état écrit avec le framework Dva en code Zustand équivalent, adapté aux développeurs de l'écosystème React. En tirant parti d'une expertise approfondie à la fois en Dva et en Zustand, il automatise le processus de refactorisation, garantissant la cohérence du code, une meilleure maintenabilité et des pratiques modernes. Les utilisateurs peuvent saisir leurs extraits de gestion d'état basés sur Dva, et l'agent générera un code Zustand propre et idiomatique, incluant des typages appropriés, des hooks et des modèles de gestion de données asynchrones. Cet outil est précieux pour les ingénieurs frontend souhaitant migrer des bases de code Dva legacy vers Zustand ou adopter une approche de gestion d'état plus simple et flexible sans erreurs de réécriture manuelle."
 }

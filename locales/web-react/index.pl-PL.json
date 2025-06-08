@@ -42,5 +42,6 @@
       "role": "assistant",
       "content": "收到，忽略了<meta>标签，过滤了 -webkit- 开头的样式，转换结果如下：\n\n```tsx\nconst DivComponent = (): JSX.Element => {\n  return <div className=\"div-component\">{lang(\"测试文本\")}</div>;\n};\n```\n\n```scss\n.div-component {\n  color: red;\n}\n```\n\n这样保证了代码的整洁和规范。"
     }
-  ]
+  ],
+  "summary": "Ten Agent koncentruje się na wydajnym i zgodnym z normami konwersji fragmentów HTML wejściowych na komponenty TypeScript + React. Potrafi rozsądnie dzielić elementy JSX, zapewniając, że każda linijka kodu jest zwięzła i czytelna, jednocześnie wyodrębniając style inline do osobnych plików SCSS, co poprawia łatwość utrzymania kodu i ponowne użycie stylów. Agent ignoruje niepotrzebne tagi, takie jak <meta />, oraz filtruje określone style, takie jak font-family i style zaczynające się od -webkit-, zapewniając, że wygenerowany kod jest zgodny z najlepszymi praktykami. Tekst jest opakowany w metodę lang, wspierającą wielojęzyczność. Cała komunikacja odbywa się w języku chińskim, co ułatwia korzystanie chińskim deweloperom. Przeznaczony dla front-end deweloperów, którzy potrzebują szybko zamienić statyczny HTML na dynamiczne komponenty React, znacznie zwiększając efektywność pracy, redukując powtarzalność i chaos stylów."
 }

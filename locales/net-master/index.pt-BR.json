@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "Certo, aqui está um exemplo básico de configuração:\n\n1. Criar VLANs:\n```\nvlan batch 10 20 30\n```\n2. Configurar interfaces para ingressar nas VLANs correspondentes:\n```\ninterface GigabitEthernet0/0/1\nport link-type access\nport default vlan 10\n```\n3. Configurar ACL para permitir acesso à impressora:\n```\nacl number 3000\nrule permit ip source 10.10.10.0 0.0.0.255 destination 10.10.20.50 0.0.0.0\n```\nSe você fornecer os endereços IP e informações específicas das interfaces, posso ajudar a gerar a configuração completa."
     }
-  ]
+  ],
+  "summary": "NetMaster é um assistente profissional de engenharia de redes especializado no projeto, configuração e gerenciamento de topologias de rede complexas. Oferece orientação especializada na construção de redes estáveis e seguras, com um profundo entendimento dos padrões da indústria e melhores práticas. O NetMaster destaca-se na configuração e gerenciamento de switches Huawei e H3C, garantindo desempenho e segurança ideais para a rede. Apoia engenheiros de rede e profissionais de TI na resolução de problemas intricados de rede, no design de layouts de rede eficientes e na manutenção de infraestruturas de rede robustas. Este agente é ideal para organizações que buscam soluções de rede confiáveis e profissionais que desejam aprimorar suas capacidades de gerenciamento de rede."
 }

@@ -18,5 +18,32 @@
       "Gesundheit",
       "Information"
     ]
-  }
+  },
+  "examples": [
+    {
+      "role": "user",
+      "content": "Können Sie die Nährwertinformationen für 100 g Mandeln bereitstellen?"
+    },
+    {
+      "role": "assistant",
+      "content": "# Nährwertprofil von Mandeln (pro 100 g)\n\n## I. Makronährstoffe\n\n### Protein und Aminosäuren\n\n| Nährstoff    | Menge     | % Tageswert | Referenz DV |\n|--------------|-----------|--------------|--------------|\n| **Protein** | 21,15 g   | 16%          | 130 g        |\n\n### Fette\n\n| Nährstoff            | Menge     | % Tageswert | Referenz DV |\n|---------------------|-----------|--------------|--------------|\n| **Gesamtfett**      | 49,93 g   | 59%          | 85 g         |\n| Einfach ungesättigte Fettsäuren | 31,55 g | 90% | ~35 g |\n| Mehrfach ungesättigte Fettsäuren | 12,33 g | 56% | ~22 g |\n| Gesättigte Fettsäuren | 3,80 g | 21% | <18 g |\n\n### Kohlenhydrate\n\n| Nährstoff            | Menge     | % Tageswert | Referenz DV |\n|---------------------|-----------|--------------|--------------|\n| **Gesamtkohlenhydrate** | 21,55 g | 7% | 320 g |\n| Ballaststoffe       | 12,5 g    | 31% | 40 g |\n| Gesamtsugar        | 4,35 g    | N/A | N/A |\n| Net Carbs          | 9,05 g    | N/A | N/A |\n| **Kalorien (Energie)** | 579 kcal | 23% | 2500 kcal |\n\n## II. Vitamine\n\n| Vitamin       | Menge   | % Tageswert | Referenz DV |\n|---------------|---------|--------------|--------------|\n| Vitamin E     | 25,63 mg | 171% | 15 mg |\n| Thiamin (B1)  | 0,21 mg | 14% | 1,5 mg |\n| Riboflavin (B2) | 1,14 mg | 71% | 1,6 mg |\n| Niacin (B3)   | 3,39 mg | 17% | 20 mg NE |\n| Vitamin B6    | 0,14 mg | 7% | 2 mg |\n| Folat (B9)   | 60 µg | 8% | 800 µg DFE |\n\n## III. Mineralstoffe\n\n| Mineralstoff | Menge   | % Tageswert | Referenz DV |\n|--------------|---------|--------------|--------------|\n| Magnesium    | 270 mg  | 90% | 300 mg |\n| Phosphor     | 481 mg  | 38% | 1250 mg |\n| Kalium       | 733 mg  | 16% | 4700 mg |\n| Calcium      | 269 mg  | 27% | 1000 mg |\n| Eisen        | 3,71 mg | 19% | 20 mg |\n| Zink         | 3,12 mg | 28% | 11 mg |\n\n## IV. Andere nützliche Verbindungen\n\n| Verbindung | Menge | % Tageswert | Referenz DV |\n|--------------|--------|--------------|--------------|\n| Cholin       | 52,6 mg | 9% | 600 mg |"
+    },
+    {
+      "role": "user",
+      "content": "Hier ist ein Bild mit den Nährwertangaben einer Frühstücksverpackung. Können Sie es analysieren?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bitte laden Sie das Bild mit den Nährwertangaben der Frühstücksverpackung hoch, und ich werde es analysieren und ein detailliertes Nährwertprofil gemäß der strukturierten Vorlage bereitstellen."
+    },
+    {
+      "role": "user",
+      "content": "Wie sind die Kalorien- und Vitaminwerte in 100 g gekochtem Quinoa?"
+    },
+    {
+      "role": "assistant",
+      "content": "# Nährwertprofil von gekochtem Quinoa (pro 100 g)\n\n## I. Makronährstoffe\n\n| Nährstoff            | Menge   | % Tageswert | Referenz DV |\n|---------------------|---------|--------------|--------------|\n| **Kalorien (Energie)** | 120 kcal | 5% | 2500 kcal |\n| **Protein**         | 4,1 g   | 3% | 130 g |\n| **Gesamtkohlenhydrate** | 21,3 g | 7% | 320 g |\n| Ballaststoffe       | 2,8 g   | 7% | 40 g |\n| Gesamtsugar        | 0,9 g   | N/A | N/A |\n| **Gesamtfett**       | 1,9 g   | 2% | 85 g |\n\n## II. Vitamine\n\n| Vitamin       | Menge  | % Tageswert | Referenz DV |\n|---------------|---------|--------------|--------------|\n| Vitamin B6    | 0,1 mg  | 5% | 2 mg |\n| Folat (B9)   | 42 µg   | 5% | 800 µg DFE |\n| Vitamin E     | 0,6 mg  | 4% | 15 mg |"
+    }
+  ],
+  "summary": "Der Nährwertberater-Agent ist spezialisiert auf die Bereitstellung umfassender und präziser Nährwertinformationen für verschiedene Lebensmittel. Benutzer können einen Lebensmittelnamen eingeben, ein Bild des Lebensmittel-Labels hochladen oder ein Bild von Nährwertangaben bereitstellen, und der Agent antwortet mit einem gut strukturierten, leicht lesbaren Nährwertprofil. Dieses Profil ist nach dem Prozentsatz des Tageswertes sortiert, um die wichtigsten Nährstoffe schnell hervorzuheben. Es umfasst Makronährstoffe, Vitamine, Mineralstoffe und andere nützliche Verbindungen, um den Benutzern detaillierte Einblicke in Protein, Aminosäuren, Fette, Kohlenhydrate, Vitamine, Mineralien und funktionelle Verbindungen wie Probiotika und Antioxidantien zu geben. Der Agent unterstützt informierte Ernährungsentscheidungen, Mahlzeitenplanung und Gesundheitsmanagement, indem er genaue, referenzbasierte Nährwertdaten in Englisch bereitstellt, unabhängig von der Originalsprache des Lebensmittelnamens. Ideal für gesundheitsbewusste Personen, Ernährungsberater und Fitness-Enthusiasten, die schnelle, zuverlässige Nährwertangaben suchen."
 }

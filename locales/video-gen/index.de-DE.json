@@ -1,10 +1,10 @@
 {
   "config": {
-    "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Auf einem fernen Planeten gibt es einen MiniMax.\"\n}'\n",
-    "openingMessage": "Hallo! Ich kann Ihnen dabei helfen, KI-gestützte Videos zu erstellen, indem ich Sie durch das Senden von Anfragen an die MiniMax-Videoerzeugungs-API leite. Egal, ob Sie Videos aus Textaufforderungen erstellen oder die Videoerstellung in Ihre Projekte integrieren möchten – ich bin hier, um Sie zu unterstützen.",
+    "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Auf einem entfernten Planeten gibt es einen MiniMax.\"\n}'\n",
+    "openingMessage": "Hallo! Ich kann Ihnen dabei helfen, KI-gesteuerte Videos zu erstellen, indem ich Sie durch das Senden von Anfragen an die MiniMax-Video-Generierungs-API leite. Ob Sie Videos aus Textprompts erstellen oder die Videoerstellung in Ihre Projekte integrieren möchten, ich bin hier, um Sie zu unterstützen.",
     "openingQuestions": [
       "Wie erstelle ich ein Video mit der MiniMax-API?",
-      "Können Sie ein Beispiel für eine Anfrage zur Videoerzeugung geben?",
+      "Können Sie ein Beispiel für eine Anfrage zur Videoerstellung geben?",
       "Welche Parameter kann ich im Videoerstellungsprozess anpassen?"
     ]
   },
@@ -23,11 +23,11 @@
     },
     {
       "role": "assistant",
-      "content": "Sie können ein Video erstellen, indem Sie eine POST-Anfrage an den MiniMax-API-Endpunkt mit Ihrer gewünschten Aufforderung und Modellparametern senden. Verwenden Sie beispielsweise das Modell 'video-01' und fügen Sie Ihre Aufforderung im JSON-Payload hinzu, um ein Video basierend auf dieser Beschreibung zu erstellen."
+      "content": "Sie können ein Video erstellen, indem Sie eine POST-Anfrage an den MiniMax-API-Endpunkt mit Ihrem gewünschten Prompt und Modellparametern senden. Verwenden Sie zum Beispiel das Modell 'video-01' und fügen Sie Ihren Prompt im JSON-Payload hinzu, um ein Video basierend auf dieser Beschreibung zu erstellen."
     },
     {
       "role": "user",
-      "content": "Können Sie mir ein curl-Beispiel zeigen, um ein Video mit der Aufforderung 'Eine futuristische Stadt bei Sonnenuntergang' zu generieren?"
+      "content": "Können Sie mir ein curl-Beispiel zeigen, um ein Video mit dem Prompt 'Eine futuristische Stadt bei Sonnenuntergang' zu generieren?"
     },
     {
       "role": "assistant",
@@ -39,8 +39,8 @@
     },
     {
       "role": "assistant",
-      "content": "Die API antwortet in der Regel mit einem JSON-Objekt, das eine Video-URL oder eine Kennung für das generierte Video enthält. Sie können diese URL verwenden, um das Video anzusehen oder herunterzuladen, das basierend auf Ihrer Aufforderung erstellt wurde."
+      "content": "Die API antwortet in der Regel mit einem JSON-Objekt, das eine Video-URL oder eine Kennung für das generierte Video enthält. Sie können diese URL verwenden, um das Video anzusehen oder herunterzuladen, das basierend auf Ihrem Prompt erstellt wurde."
     }
   ],
-  "summary": "Dieser Agent erleichtert die Videoerstellung über einen API-Endpunkt, sodass Nutzer KI-generierte Videos erstellen können, indem sie strukturierte Anfragen senden. Er unterstützt die Angabe von Aufforderungen und Modellparametern, was die Erstellung anpassbarer Videoinhalte ermöglicht. Ideal für Entwickler und technische Nutzer, vereinfacht er die Integration von Videoerstellungsfunktionen in Anwendungen oder Arbeitsabläufe. Der Kernwert des Agents liegt in seiner Fähigkeit, die Videoerstellung mit minimalem Aufwand zu automatisieren, was ihn zu einem leistungsstarken Werkzeug für Content-Ersteller, Marketer und Entwickler macht, die KI-gesteuerte Multimedia-Generierung nutzen möchten."
+  "summary": "Dieser Agent erleichtert die Videogenerierung über einen API-Endpunkt, sodass Benutzer KI-generierte Videos erstellen können, indem sie strukturierte Anfragen senden. Er unterstützt die Angabe von Prompts und Modellparametern, um anpassbare Videoinhalte zu erstellen. Ideal für Entwickler und technische Nutzer vereinfacht er die Integration von Videoerstellungsfunktionen in Anwendungen oder Arbeitsabläufe. Der Kernwert des Agents liegt in seiner Fähigkeit, die Videoerstellung mit minimalem Aufwand zu automatisieren, was ihn zu einem leistungsstarken Werkzeug für Content-Ersteller, Marketer und Entwickler macht, die KI-gesteuerte Multimedia-Generierung nutzen möchten."
 }

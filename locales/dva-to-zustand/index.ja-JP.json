@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "こちらが対応する Zustand リファクタリングコードの例です：\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
-  ]
+  ],
+  "summary": "このエージェントは、Dvaフレームワークを使用して書かれた状態管理コードを、Reactエコシステムの開発者向けに同等のZustandコードに変換することに特化しています。DvaとZustandの両方に深い専門知識を活用し、リファクタリングプロセスを自動化して、コードの一貫性、保守性の向上、最新のベストプラクティスを保証します。ユーザーはDvaベースの状態管理スニペットを入力すると、エージェントは適切な型付け、フック、非同期データ処理パターンを含むクリーンで慣用的なZustandコードを生成します。このツールは、レガシーのDvaコードベースをZustandに移行したり、手動の書き換えミスなくよりシンプルで柔軟な状態管理アプローチを採用したいフロントエンドエンジニアにとって非常に価値があります。"
 }

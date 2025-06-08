@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "Crontab expressions cannot directly specify \"the last day of every month.\" It is recommended to use \"23:00 on days 28-31\" and combine it with a script to check if the date is the last day of the month.\nExample expression: **`0 23 28-31 * *`**, assuming today is 2024-06-01, the next 5 trigger times are:\n- 2024-06-28 23:00\n- 2024-06-29 23:00\n- 2024-06-30 23:00\n- 2024-07-28 23:00\n- 2024-07-29 23:00\nIt is recommended to combine this with a script to check the exact date."
     }
-  ]
+  ],
+  "summary": "The Cron Expression Assistant is a professional tool for generating crontab expressions, designed specifically for users who need scheduled task automation. Users simply describe their desired timing schedule in natural language, and the assistant accurately generates the corresponding crontab expression, as well as calculates and displays the next five trigger times to help users intuitively understand their task execution plan. This assistant not only supports diverse time descriptions, such as daily, weekly, or specific monthly times, but also offers reasonable suggestions and optimization solutions for incomplete or vague time information. Whether you are a system administrator, developer, or automation enthusiast, this tool enables quick and efficient construction of scheduled task expressions that meet your needs, greatly improving work efficiency and accuracy."
 }

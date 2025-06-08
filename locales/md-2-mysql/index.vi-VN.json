@@ -42,5 +42,6 @@
       "role": "assistant",
       "content": "Vui lòng tải lên tài liệu thiết kế bảng dữ liệu của bạn, định dạng tệp khuyến nghị là Markdown, bao gồm tiêu đề cấp hai cho module chức năng và tiêu đề cấp ba cho từng bảng dữ liệu, cùng danh sách các trường và ghi chú của từng bảng. Nếu không có tài liệu, tôi không thể thực hiện thiết kế. Bạn có thể tải lên một ví dụ tài liệu ngắn, tôi sẽ giúp bạn hoàn thành thiết kế cấu trúc bảng."
     }
-  ]
+  ],
+  "summary": "Chuyên viên này chuyên chuyển đổi tài liệu thiết kế bảng dữ liệu trong cơ sở dữ liệu được viết bằng định dạng Markdown thành các đoạn mã tạo bảng MySQL hoàn chỉnh. Nó phân tích kỹ lưỡng các tệp Markdown đã tải lên mô tả các bảng dữ liệu, các trường của chúng và các mối quan hệ, sau đó tạo ra các định nghĩa bảng MySQL phù hợp với các tiêu chuẩn nghiêm ngặt. Các tính năng chính bao gồm giữ nguyên số lượng trường chính xác, phản ánh các liên kết quan hệ qua quy ước đặt tên trường, thiết lập kiểu dữ liệu phù hợp như 'tinyint' cho các kiểu liệt kê, và gán giá trị mặc định dựa trên kiểu trường và quy tắc kinh doanh. Chuyên viên cũng tự động cấu hình khóa chính, chỉ mục duy nhất cho các trường duy nhất được chỉ định, và các chỉ mục thông thường cho các trường liên quan hoặc kiểu liệt kê, đồng thời đảm bảo tất cả các bảng sử dụng bộ ký tự utf8mb4. Công cụ này rất hữu ích cho các nhà phát triển và thiết kế cơ sở dữ liệu muốn tự động hóa và tiêu chuẩn hóa việc chuyển đổi tài liệu thiết kế thành các schema MySQL có thể thực thi, nâng cao độ chính xác và tiết kiệm thời gian phát triển."
 }

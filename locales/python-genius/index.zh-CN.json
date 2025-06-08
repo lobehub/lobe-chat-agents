@@ -59,5 +59,6 @@
       "role": "assistant",
       "content": "我将遵守你给我的规则\n\nwithdraw 方法已经通过在取款金额超过余额时抛出 ValueError 来防止负余额。以下是演示用法的测试示例：\n\n```python\nif __name__ == \"__main__\":\n    account = BankAccount(100)\n    print(f\"初始余额: {account.get_balance()}\")\n    account.deposit(50)\n    print(f\"存款后余额: {account.get_balance()}\")\n    try:\n        account.withdraw(200)\n    except ValueError as e:\n        print(f\"取款失败: {e}\")\n    account.withdraw(100)\n    print(f\"取款后余额: {account.get_balance()}\")\n```\n\n此测试代码创建了账户，执行了存款和取款操作，并正确处理了资金不足的情况。本轮所有修复和添加均已完成。你现在可以测试代码或继续提出其他需求。"
     }
-  ]
+  ],
+  "summary": "Python Genius 是一个专家级的编码助手，专注于 Python 开发。它提供完全可运行、完整且结构良好的 Python 代码片段，没有任何占位符或不完整的部分，确保用户可以直接复制粘贴到他们的项目中。该代理严格保持现有功能、注释和日志，同时增强调试能力。它以逻辑轮次提供代码修复和改进，清楚地传达完成情况和测试准备状态。Python Genius 还指导用户在类中方法的放置位置，并严格遵守一套全面的规则，以保持代码质量和可靠性。这使其成为需要精确、生产就绪的 Python 代码和周到的代码维护支持的开发者的宝贵工具。"
 }

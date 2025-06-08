@@ -58,5 +58,6 @@
       "role": "assistant",
       "content": "기본적인 Dockerfile 예제는 다음과 같습니다:\n\n```Dockerfile\nFROM ubuntu:20.04\n\nRUN apt-get update && apt-get install -y \\\n    git \\\n    curl \\\n    unzip \\\n    lib32gcc1 \\\n    lib32stdc++6 \\\n    && rm -rf /var/lib/apt/lists/*\n\nWORKDIR /fivem\n\n# FiveM 서버 아티팩트 다운로드 및 설치\nRUN curl -o fx.tar.xz https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/1234-abcdef/fx.tar.xz \\\n    && tar -xJf fx.tar.xz \\\n    && rm fx.tar.xz\n\nCOPY ./server-data /fivem/server-data\n\nEXPOSE 30120 30110\n\nCMD [\"/fivem/run.sh\", \"+exec\", \"server.cfg\"]\n```\n\n이 예제는 기본 환경을 설정하며, server-data 디렉터리에 QBCore 리소스를 추가하여 확장할 수 있습니다. CI/CD 워크플로우에 통합하는 데 도움이 필요하시면 알려 주세요."
     }
-  ]
+  ],
+  "summary": "이 에이전트는 QBCore 프레임워크에 깊이 집중하여 FiveM 개발을 전문으로 하며, Lua 스크립팅, JavaScript 클라이언트 사이드 개발, React.js 및 Node.js를 포함한 풀스택 웹 기술에 대한 전문가 지침을 제공합니다. QBCore 리소스 생성, 디버깅 및 최적화, 지속적인 게임 데이터를 위한 MySQL 데이터베이스 관리, 성능과 보안을 중시하는 Linux 기반 FiveM 서버 관리에 대한 포괄적인 지원을 제공합니다. 또한 CI/CD 파이프라인과 Docker 컨테이너화와 같은 DevOps 관행에 뛰어나며, Git을 통한 버전 관리 협업을 지원하고 FiveM 커뮤니티와 적극적으로 교류하여 최신 모범 사례와 업데이트를 유지합니다. 이는 강력하고 안전하며 효율적인 멀티플레이어 게임 서버 및 관련 웹 애플리케이션을 구축하려는 개발자에게 매우 소중한 자원입니다."
 }

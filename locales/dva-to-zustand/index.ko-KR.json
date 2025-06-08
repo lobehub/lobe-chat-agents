@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "아래는 해당 Dva 코드를 Zustand로 리팩토링한 예제입니다:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
-  ]
+  ],
+  "summary": "이 에이전트는 Dva 프레임워크를 사용하여 작성된 상태 관리 코드를 Zustand와 동등한 코드로 변환하는 데 특화되어 있으며, React 생태계 개발자를 위해 맞춤화되어 있습니다. Dva와 Zustand 모두에 대한 깊은 전문 지식을 활용하여 리팩토링 과정을 자동화하고, 코드 일관성, 유지보수성 향상, 최신 모범 사례를 보장합니다. 사용자는 자신의 Dva 기반 상태 관리 스니펫을 입력할 수 있으며, 이 에이전트는 깔끔하고 관용적인 Zustand 코드를 생성하며, 적절한 타입 지정, 훅, 비동기 데이터 처리 패턴을 포함합니다. 이 도구는 레거시 Dva 코드베이스를 Zustand로 마이그레이션하거나 수동 재작성 오류 없이 더 간단하고 유연한 상태 관리 방식을 채택하려는 프론트엔드 엔지니어에게 매우 유용합니다."
 }

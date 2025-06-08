@@ -49,5 +49,6 @@
       "role": "assistant",
       "content": "こちらが簡単なデモスクリプトです：\n\n```javascript\nvar comp = app.project.activeItem;\nif (comp && comp instanceof CompItem) {\n  app.beginUndoGroup('不透明度キーフレーム一括設定');\n  for (var i = 1; i <= comp.numLayers; i++) {\n    var layer = comp.layer(i);\n    var opacity = layer.property('Opacity');\n    opacity.setValueAtTime(0, 0);\n    opacity.setValueAtTime(10 / comp.frameRate, 100);\n  }\n  app.endUndoGroup();\n} else {\n  alert('先にコンポジションを選択してください');\n}\n```\n\nこのスクリプトをAEのスクリプトエディターにコピー＆ペーストして実行してください。すべてのレイヤーの不透明度が10フレームで0から100に変化します。さらに最適化や機能追加が必要でしたらお知らせください。"
     }
-  ]
+  ],
+  "summary": "AEスクリプト開発の専門家は、Adobe After Effectsソフトウェア向けに効率的なスクリプトとプラグインの設計・開発に注力し、映像制作プロセスの自動化と効果の向上を実現します。この専門家はJavaScriptプログラミング言語に精通しており、明確な構造と優れたパフォーマンスを持つコードを記述できます。AEのレイヤー、合成、エフェクトなどのコア概念に熟知し、AEのAPIインターフェースを深く理解しています。正確なデバッグとパフォーマンス最適化を通じて、スクリプトの安定性と互換性を確保し、さまざまなユーザーの個別のニーズに対応します。この専門家は、ユーザーの要望に応じてスクリプトをカスタマイズできるだけでなく、専門的な使用ガイドと技術サポートも提供し、複雑な映像プロジェクトを効率的に完了させるのを支援し、作業効率と創作品質を大幅に向上させます。"
 }

@@ -1,12 +1,12 @@
 {
   "config": {
-    "openingMessage": "Hallo! Ik kan je helpen bij het genereren van AI-aangedreven video's door je te begeleiden bij het versturen van verzoeken naar de MiniMax video-generatie API. Of je nu video's wilt maken op basis van tekstuele prompts of videoproductie wilt integreren in je projecten, ik ben hier om je te helpen.",
+    "openingMessage": "Hallo! Ik kan je helpen bij het genereren van AI-gestuurde video's door je door het verzenden van verzoeken naar de MiniMax video-generatie API te begeleiden. Of je nu video's wilt maken op basis van tekst prompts of video-creatie wilt integreren in je projecten, ik ben hier om je te helpen.",
     "openingQuestions": [
       "Hoe maak ik een video met de MiniMax API?",
-      "Kun je een voorbeeldverzoek geven voor videogeneratie?",
-      "Welke parameters kan ik aanpassen in het videoproces?"
+      "Kun je een voorbeeldverzoek geven voor videogenereatie?",
+      "Welke parameters kan ik aanpassen in het videogenereerproces?"
     ],
-    "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Op een ver afgelegen planeet is er een MiniMax.\"\n}'\n"
+    "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Op een ver planet, is er een MiniMax.\"\n}'\n"
   },
   "meta": {
     "title": "task_id",
@@ -35,12 +35,12 @@
     },
     {
       "role": "user",
-      "content": "Wat voor reacties kan ik verwachten van de API?"
+      "content": "Wat voor soort reacties kan ik verwachten van de API?"
     },
     {
       "role": "assistant",
-      "content": "De API reageert meestal met een JSON-object dat een videolink of een identificator voor de gegenereerde video bevat. Je kunt deze URL gebruiken om de video te bekijken of te downloaden die is gemaakt op basis van jouw prompt."
+      "content": "De API reageert meestal met een JSON-object dat een video-URL of een identificator voor de gegenereerde video bevat. Je kunt deze URL gebruiken om de video te bekijken of te downloaden die is gemaakt op basis van jouw prompt."
     }
   ],
-  "summary": "Deze Agent faciliteert videogeneratie via een API-eindpunt, waardoor gebruikers AI-gegenereerde video's kunnen maken door gestructureerde verzoeken te versturen. Het ondersteunt het specificeren van prompts en modelparameters, wat aanpasbare videoinhoudscreatie mogelijk maakt. Ideaal voor ontwikkelaars en technische gebruikers, het stroomlijnt de integratie van videogeneratie in applicaties of workflows. De kernwaarde van de Agent ligt in het vermogen om videoproductie te automatiseren met minimale invoer, waardoor het een krachtig hulpmiddel is voor contentmakers, marketeers en ontwikkelaars die AI-gestuurde multimedia-generatie willen benutten."
+  "summary": "Deze Agent faciliteert videogenereatie via een API-eindpunt, waardoor gebruikers AI-gegenereerde video's kunnen maken door gestructureerde verzoeken te sturen. Het ondersteunt het specificeren van prompts en modelparameters, waardoor aanpasbare videoinhoudscreatie mogelijk is. Ideaal voor ontwikkelaars en technische gebruikers, het stroomlijnt de integratie van videogenereercapaciteiten in applicaties of workflows. De kernwaarde van de Agent ligt in zijn vermogen om videoproductie te automatiseren met minimale invoer, waardoor het een krachtig hulpmiddel is voor contentmakers, marketeers en ontwikkelaars die AI-gestuurde multimedia-generatie willen benutten."
 }

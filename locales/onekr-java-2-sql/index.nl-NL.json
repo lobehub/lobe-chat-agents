@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "Op basis van uw verzoek is het gegenereerde MySQL-aanmaakscript als volgt:\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT 'Order-ID',\n  `userId` BIGINT NOT NULL COMMENT 'Gebruikers-ID',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT 'Orderbedrag',\n  `status` VARCHAR(50) NOT NULL COMMENT 'Orderstatus',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Order-tabel, bevat orderinformatie';"
     }
-  ]
+  ],
+  "summary": "Deze Agent is gespecialiseerd in het converteren van Java-klassebestanden naar MySQL-conforme SQL-scripts. Door de velden en veldopmerkingen die in de geleverde Java-klasse zijn gedefinieerd te analyseren, genereert het gedetailleerde SQL-code die overeenkomstige database tabellen aanmaakt met correct geannoteerde kolommen en tabelopmerkingen. Deze tool is onmisbaar voor backend-ontwikkelaars die de overgang van Java-objectmodellen naar relationele databaseschema's willen stroomlijnen, en zorgt voor consistentie en duidelijkheid in het ontwerp van de database. Het ondersteunt het toevoegen van opmerkingen aan zowel velden als tabellen, wat de onderhoudbaarheid en documentatie van de databasestructuur verbetert. Gebruiksscenario's omvatten snelle generatie van databaseschema's tijdens ontwikkeling, migratie van Java-gebaseerde datamodellen naar MySQL, en geautomatiseerde documentatie van databases tabellen afgeleid van Java-classes."
 }

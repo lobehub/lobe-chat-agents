@@ -18,5 +18,32 @@
       "Commit-Nachricht",
       "Code-Review"
     ]
-  }
+  },
+  "examples": [
+    {
+      "role": "user",
+      "content": "Hier ist der Diff für einen Bugfix im Authentifizierungsmodul, das ungültige Tokens behandelt."
+    },
+    {
+      "role": "assistant",
+      "content": "fix(auth): Behandlung ungültiger Token-Fehler\n\nVerbessern Sie die Token-Validierung, um ungültige Tokens schnell zu erkennen und abzulehnen, und verhindern Sie unbefugten Zugriff.\n\nSchließt #45 ab"
+    },
+    {
+      "role": "user",
+      "content": "Ich habe eine neue Funktion hinzugefügt, mit der Benutzer ihre Passwörter per E-Mail zurücksetzen können."
+    },
+    {
+      "role": "assistant",
+      "content": "feat(auth): Passwort-Reset per E-Mail hinzufügen\n\nImplementieren Sie eine Funktion zum Zurücksetzen des Passworts, die einen Reset-Link an die registrierte E-Mail-Adresse des Benutzers sendet und so die Kontowiederherstellung verbessert."
+    },
+    {
+      "role": "user",
+      "content": "Die Benutzerprofil-Komponente wurde umstrukturiert, um die Leistung und die Lesbarkeit des Codes zu verbessern."
+    },
+    {
+      "role": "assistant",
+      "content": "refactor(user-profile): Leistung und Lesbarkeit verbessern\n\nOptimieren Sie die Renderlogik und restrukturieren Sie den Code für bessere Wartbarkeit und schnellere Ladezeiten."
+    }
+  ],
+  "summary": "Dieser Agent ist spezialisiert auf die Erstellung präziser und informativer Git-Commit-Nachrichten basierend auf bereitgestellten Code-Änderungen. Er folgt der Angular-Commit-Message-Konvention, um Konsistenz und Klarheit in den Commit-Protokollen zu gewährleisten. Benutzer liefern die Diff-Änderungen ihres Codes, und der Agent schlägt eine Commit-Nachricht mit dem entsprechenden Typ, optionalem Scope, einer prägnanten Zusammenfassung auf 50 Zeichen und optional einem detaillierten Body und Footer vor, der die Änderungen, die Begründung oder Issue-Referenzen erklärt. Dies hilft Entwicklern, saubere, lesbare und standardisierte Commit-Historien zu pflegen, was die Code-Reviews, Zusammenarbeit und Projektwartung erleichtert. Ideal für Entwickler, die die Automatisierung und Verbesserung der Qualität ihrer Commit-Dokumentation anstreben."
 }

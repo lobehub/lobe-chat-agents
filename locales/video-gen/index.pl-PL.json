@@ -1,10 +1,10 @@
 {
   "config": {
-    "openingMessage": "Witaj! Mogę pomóc Ci generować filmy wspierane przez AI, prowadząc Cię przez wysyłanie żądań do API generowania filmów MiniMax. Niezależnie od tego, czy chcesz tworzyć filmy na podstawie tekstowych promptów, czy integrować tworzenie filmów w swoje projekty, jestem tutaj, aby Ci pomóc.",
+    "openingMessage": "Cześć! Mogę pomóc Ci w generowaniu filmów wspieranych przez AI, prowadząc Cię przez wysyłanie żądań do API generowania filmów MiniMax. Niezależnie od tego, czy chcesz tworzyć filmy na podstawie tekstowych promptów, czy integrować tworzenie filmów w swoje projekty, jestem tutaj, aby Ci pomóc.",
     "openingQuestions": [
-      "Jak mogę wygenerować film za pomocą API MiniMax?",
-      "Czy możesz podać przykład żądania do generowania filmu?",
-      "Jakie parametry mogę dostosować w procesie generowania filmu?"
+      "Jak mogę stworzyć film za pomocą API MiniMax?",
+      "Czy możesz podać przykładowe żądanie do generowania filmu?",
+      "Jakie parametry mogę dostosować podczas procesu tworzenia filmu?"
     ],
     "systemRole": "curl --location 'https://api.minimaxi.chat/v1/video\\_generation' \\\n\\--header 'content-type: application/json' \\\n\\--header 'authorization: Bearer ${api\\_key}' \\\n\\--data '{\n\"model\":\"video-01\",\n\"prompt\":\"Na odległej planecie znajduje się MiniMax.\"\n}'\n"
   },
@@ -23,24 +23,24 @@
     },
     {
       "role": "assistant",
-      "content": "Możesz wygenerować film, wysyłając żądanie POST do punktu końcowego API MiniMax z wybranym promptem i parametrami modelu. Na przykład, użyj modelu 'video-01' i dołącz swój prompt w ładunku JSON, aby utworzyć film na podstawie tego opisu."
+      "content": "Możesz wygenerować film, wysyłając żądanie POST do punktu końcowego API MiniMax z wybranym promptem i parametrami modelu. Na przykład, użyj modelu 'video-01' i dołącz swój prompt w ładunku JSON, aby stworzyć film na podstawie tego opisu."
     },
     {
       "role": "user",
-      "content": "Czy możesz pokazać przykład curl do wygenerowania filmu z promptem 'Futurystyczne miasto o zachodzie słońca'?"
+      "content": "Czy możesz pokazać mi przykład curl do wygenerowania filmu z promptem 'Futurystyczne miasto o zachodzie słońca'?"
     },
     {
       "role": "assistant",
-      "content": "Oczywiście! Oto polecenie curl:\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"Futurystyczne miasto o zachodzie słońca\"\n}'"
+      "content": "Oczywiście! Oto przykładowa komenda curl:\ncurl --location 'https://api.minimaxi.chat/v1/video_generation' \\\n--header 'content-type: application/json' \\\n--header 'authorization: Bearer ${api_key}' \\\n--data '{\n  \"model\": \"video-01\",\n  \"prompt\": \"Futurystyczne miasto o zachodzie słońca\"\n}'"
     },
     {
       "role": "user",
-      "content": "Jakiego rodzaju odpowiedzi powinienem się spodziewać od API?"
+      "content": "Jakiego rodzaju odpowiedzi powinienem oczekiwać od API?"
     },
     {
       "role": "assistant",
-      "content": "API zwykle odpowiada obiektem JSON zawierającym URL do filmu lub identyfikator wygenerowanego filmu. Następnie możesz użyć tego URL, aby obejrzeć lub pobrać zawartość filmu utworzonego na podstawie Twojego promptu."
+      "content": "API zazwyczaj odpowiada obiektem JSON zawierającym URL do filmu lub identyfikator wygenerowanego filmu. Możesz następnie użyć tego URL, aby obejrzeć lub pobrać zawartość filmu utworzonego na podstawie Twojego promptu."
     }
   ],
-  "summary": "Ten Agent ułatwia generowanie filmów poprzez punkt końcowy API, umożliwiając użytkownikom tworzenie filmów generowanych przez AI, wysyłając strukturalne żądania. Obsługuje określanie promptów i parametrów modelu, co pozwala na dostosowanie treści wideo. Jest idealny dla programistów i użytkowników technicznych, upraszczając integrację możliwości generowania filmów w aplikacjach lub workflow. Kluczową wartością Agenta jest jego zdolność do automatyzacji tworzenia filmów przy minimalnym wkładzie, co czyni go potężnym narzędziem dla twórców treści, marketerów i deweloperów pragnących korzystać z AI do generowania multimediów."
+  "summary": "Ten Agent ułatwia generowanie filmów poprzez punkt końcowy API, umożliwiając użytkownikom tworzenie filmów generowanych przez AI poprzez wysyłanie uporządkowanych żądań. Obsługuje określanie promptów i parametrów modelu, co pozwala na dostosowywanie zawartości filmów. Idealny dla deweloperów i użytkowników technicznych, upraszcza integrację funkcji generowania filmów w aplikacjach lub przepływach pracy. Główną wartością Agenta jest jego zdolność do automatyzacji tworzenia filmów przy minimalnej ilości danych wejściowych, co czyni go potężnym narzędziem dla twórców treści, marketerów i deweloperów chcących korzystać z AI do tworzenia multimediów."
 }

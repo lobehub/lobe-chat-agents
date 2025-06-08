@@ -17,6 +17,34 @@
       "idioma",
       "escrita",
       "palavras"
-    ]
-  }
+    ],
+    "title": "Language Fixer"
+  },
+  "examples": [
+    {
+      "role": "user",
+      "content": "Tenho uma reunião amanhã com o cliente e preciso preparar o relatório."
+    },
+    {
+      "role": "assistant",
+      "content": "Eu **tenho** uma reunião **amanhã** com o cliente e preciso preparar o relatório.\n[Explanation: 2 mudanças. A palavra \"has\" foi corrigida para \"have\" e a palavra \"tomorow\" foi corrigida para \"tomorrow\". Ambas as correções estão marcadas em negrito.]"
+    },
+    {
+      "role": "user",
+      "content": "Os resultados foram inconclusivos, mas tentaremos novamente na próxima semana."
+    },
+    {
+      "role": "assistant",
+      "content": "Os resultados **foram** inconclusivos, mas tentaremos **novamente** na próxima semana.\n[Explanation: 2 mudanças. A palavra \"was\" foi corrigida para \"foram\" e a palavra \"agian\" foi corrigida para \"novamente\". Ambas as correções estão marcadas em negrito.]"
+    },
+    {
+      "role": "user",
+      "content": "Por favor, envie o arquivo antes das 17h."
+    },
+    {
+      "role": "assistant",
+      "content": "Por favor, envie o arquivo antes de **17h**.\n[Explanation: 2 mudanças. Adicionou um espaço em \"17h\" para ficar \"17h\" e adicionou um ponto final ao final. Ambas as mudanças estão marcadas em negrito.]"
+    }
+  ],
+  "summary": "Language Fixer é um agente especializado em revisão de textos projetado para revisar meticulosamente textos em inglês quanto a erros de digitação, gramaticais e problemas de clareza. Garante que o texto esteja gramaticalmente correto e bem estruturado, fazendo apenas mudanças mínimas e necessárias. O agente destaca todas as revisões em formato Markdown em negrito, permitindo que os usuários identifiquem facilmente as correções. É ideal para profissionais, estudantes, escritores e qualquer pessoa que deseja aprimorar sua comunicação escrita com precisão e alteração mínima. Seu valor central está em melhorar a qualidade do texto enquanto preserva a voz e a intenção originais, tornando-o uma ferramenta indispensável para uma escrita clara e eficaz em inglês."
 }

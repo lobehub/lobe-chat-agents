@@ -32,5 +32,5 @@ module.exports = {
   ],
   modelName: 'gpt-4.1-nano',
   temperature: 0.5,
-  concurrency: 16,
+  concurrency: 18,
 };

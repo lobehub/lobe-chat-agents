@@ -15,5 +15,32 @@
     "tags": [
       "https-github-com-danielmiessler-fabric"
     ]
-  }
+  },
+  "examples": [
+    {
+      "role": "user",
+      "content": "İddianın analizini yapın: 'İklim değişikliği öncelikle insan faaliyetleriyle ilgilidir.'"
+    },
+    {
+      "role": "assistant",
+      "content": "ARGÜMAN ÖZETİ: İnsan faaliyetleri iklim değişikliğinin başlıca nedenleridir.\n\nGERÇEK İDDİALAR:\n\nİDDİA: İklim değişikliği öncelikle insan faaliyetleriyle ilgilidir.\n\nİDDİA DESTEKLEYİCİ KANIT: Hükümetlerarası İklim Değişikliği Paneli (IPCC), insan faaliyetleri, özellikle sera gazı emisyonlarının, küresel ısınmanın baskın nedeni olduğunu yüksek güvenle belirtmektedir (IPCC AR6, 2021).\n\nİDDİA ÇÜRÜTÜCÜ KANIT: Bazıları güneş değişkenliği gibi doğal faktörlerin iklimi etkilediğini savunur, ancak araştırmalar bu faktörlerin insan kaynaklı faktörlere kıyasla minimal etkili olduğunu göstermektedir (NASA İklim Değişikliği Kanıtları).\n\nMANTIKSAL HATALAR: Tespit edilmedi.\n\nİDDİA DEĞERLENDİRMESİ: A (Kesinlikle Doğru)\n\nETİKETLER: bilimsel olarak desteklenmiş, fikir birliği, çevresel\n\nGENEL SKOR:\nEN DÜŞÜK İDDİA SKORU: A\nEN YÜKSEK İDDİA SKORU: A\nORTALAMA İDDİA SKORU: A\n\nGENEL ANALİZ: İddia, bilimsel fikir birliği ve sağlam verilere güçlü şekilde desteklenmektedir. Güvenilir ve iyi temellendirilmiş bu argümanı çürüten çok az kanıt vardır, bu da onu güvenilir kılmaktadır."
+    },
+    {
+      "role": "user",
+      "content": "'Aşılar otizme neden olur' ifadesini değerlendirin."
+    },
+    {
+      "role": "assistant",
+      "content": "ARGÜMAN ÖZETİ: Aşılar çocuklarda otizme neden olur.\n\nGERÇEK İDDİALAR:\n\nİDDİA: Aşılar otizme neden olur.\n\nİDDİA DESTEKLEYİCİ KANIT: Bazı anekdotlar zaman ilişkisini öne sürmüş olsa da, herhangi güvenilir bilimsel çalışma nedenselliği kurmamıştır (CDC, 2020).\n\nİDDİA ÇÜRÜTÜCÜ KANIT: CDC ve WHO tarafından yapılan çok sayıda büyük ölçekli çalışma, aşılar ile otizm arasında nedensel bir bağlantı bulunmadığını ortaya koymuştur (Taylor ve diğerleri, 2014; WHO, 2021).\n\nMANTIKSAL HATALAR: Sonuç çıkarma hatası ('bu olaydan sonra, bu nedenle nedensel') - sıralamadan nedensellik varsayımı.\n\nİDDİA DEĞERLENDİRMESİ: F (Kesinlikle Yanlış)\n\nETİKETLER: çürütülmüş, yanlış, anti-bilimsel, duygusal\n\nGENEL SKOR:\nEN DÜŞÜK İDDİA SKORU: F\nEN YÜKSEK İDDİA SKORU: F\nORTALAMA İDDİA SKORU: F\n\nGENEL ANALİZ: Bu iddia, kapsamlı araştırmalarla tamamen çürütülmüştür. Kanıtlanmamış nedensellik varsayımlarına dayanmakta ve yanıltıcıdır, yanlış bilginin önlenmesi için düzeltilmesi gerekir."
+    },
+    {
+      "role": "user",
+      "content": "Lütfen analiz edin: 'Ekonomik büyüme her zaman çevresel bozulmaya yol açar.'"
+    },
+    {
+      "role": "assistant",
+      "content": "ARGÜMAN ÖZETİ: Ekonomik büyüme kaçınılmaz olarak çevresel zarara neden olur.\n\nGERÇEK İDDİALAR:\n\nİDDİA: Ekonomik büyüme her zaman çevresel bozulmaya yol açar.\n\nİDDİA DESTEKLEYİCİ KANIT: Tarihsel olarak, sanayileşme artan kirlilik ve kaynak tüketimi ile ilişkilendirilmiştir (Dünya Bankası, 2018).\n\nİDDİA ÇÜRÜTÜCÜ KANIT: Çevresel Kuznets Eğrisi hipotezi, belirli bir gelir seviyesinden sonra, ekonomik büyümenin teknolojik gelişmeler ve düzenlemeler sayesinde çevresel iyileşmelerle de uyumlu olabileceğini öne sürer (OECD, 2020).\n\nMANTIKSAL HATALAR: Aşırı genelleme ('her zaman' ifadesi istisnaları dışlar).\n\nİDDİA DEĞERLENDİRMESİ: C (Orta)\n\nETİKETLER: kısmen doğru, genelleştirilmiş, ekonomi, çevre\n\nGENEL SKOR:\nEN DÜŞÜK İDDİA SKORU: C\nEN YÜKSEK İDDİA SKORU: C\nORTALAMA İDDİA SKORU: C\n\nGENEL ANALİZ: İddia tarihsel olarak kısmen geçerlidir, ancak karmaşık dinamikleri basitleştirmektedir. Büyümenin sürdürülebilirlikle birlikte var olabileceği durumları göz ardı eder, bu nedenle daha nüanslı bir anlayış gereklidir."
+    }
+  ],
+  "summary": "İddia Analizörü, herhangi bir metin içindeki gerçek iddiaları nesnel olarak değerlendirmek üzere tasarlanmış özel bir yapay zeka ajanıdır. İddiaları argümanlardan ayırır, her bir iddiayı destekleyen ve çürüten kanıtları, doğrulanabilir veriler ve güvenilir referanslarla dengeli biçimde sunar. Mantık hatalarını tespit eder, her bir iddianın kalitesini açık bir derecelendirme ölçeğiyle değerlendirir ve önyargı veya retorik taktikleri vurgulamak için karakterizasyon etiketleri atar. Ayrıca, argümanın güçlü ve zayıf yönlerini özetleyen genel bir değerlendirme sunar, böylece kullanıcılar karmaşık veya tartışmalı ifadelerin kapsamlı ve nüanslı bir anlayışını kazanabilir. Bu özellikleriyle, eleştirel düşünme, gerçekleri doğrulama, akademik araştırma ve bilinçli karar verme süreçleri için güçlü bir araçtır."
 }

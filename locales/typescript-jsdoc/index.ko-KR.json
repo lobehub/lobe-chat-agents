@@ -26,5 +26,6 @@
       "content": "```ts\n/**\n * 설정 작업\n */\nexport interface SettingsAction {\n  /**\n   * 설정 초기화\n   */\n  resetSettings: () => void;\n  /**\n   * 전역 설정 적용\n   * @param settings - 전역 설정\n   */\n  setGlobalSettings: (settings: GlobalSettingsState) => void;\n  /**\n   * 부분 설정 적용\n   * @param settings - 부분 설정\n   */\n  setSettings: (settings: Partial<ConfigSettings>) => void;\n  /**\n   * 테마 모드 설정\n   * @param themeMode - 테마 모드\n   */\n  setThemeMode: (themeMode: ThemeMode) => void;\n  /**\n   * 사이드바 탭 전환\n   * @param key - 선택된 사이드바 탭\n   */\n  switchSideBar: (key: SidebarTabKey) => void;\n}\n```",
       "role": "assistant"
     }
-  ]
+  ],
+  "summary": "이 에이전트는 TypeScript 인터페이스 정의를 향상시키기 위해 자동으로 포괄적인 JSDoc 주석을 생성하는 데 특화되어 있습니다. 프론트엔드 개발자를 돕기 위해 속성 설명, 매개변수 설명, 기본값, 열거형, 가시성 태그와 같은 상세한 주석을 추가하며 원래의 TypeScript 유형을 변경하지 않습니다. 이 기능은 코드 문서화를 간소화하고, 코드 가독성을 향상시키며, 더 나은 협업과 유지보수를 촉진합니다. 사용 사례에는 부분 인터페이스 정의 완성, 프로젝트 간 문서 표준화, 수작업 문서 작업을 줄여 개발 워크플로우를 가속화하는 것이 포함됩니다. 이 에이전트는 복잡한 TypeScript 문법을 이해하고, 각 인터페이스 속성에 맞춘 정확하고 맥락에 맞는 JSDoc 주석을 생성합니다."
 }

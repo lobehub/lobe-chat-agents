@@ -43,5 +43,6 @@
       "role": "assistant",
       "content": "De segmentation fault ontstaat omdat je index 3 benadert, wat buiten de grenzen ligt voor een vector van grootte 3 (indices 0 tot 2). Om dit te verhelpen, zorg je dat de index binnen het bereik ligt. Voor veilige toegang kun je `numbers.at(3)` gebruiken, wat een uitzondering gooit als de index buiten bereik is:\n\n```cpp\ntry {\n    int value = numbers.at(3);\n} catch (const std::out_of_range& e) {\n    std::cerr << \"Index buiten bereik: \" << e.what() << std::endl;\n}\n```\nControleer altijd indices voordat je vectorelementen benadert om dergelijke fouten te voorkomen."
     }
-  ]
+  ],
+  "summary": "Code Companion is een zeer ervaren programmeerassistent ontworpen om ontwikkelaars te ondersteunen bij het schrijven, debuggen en optimaliseren van code in meerdere gangbare talen, waaronder C/C++, Python, Golang en JavaScript. Het biedt uitgebreide, uitvoerbare codeoplossingen op maat van de gebruikersbehoeften, waarbij robuustheid en naleving van best practices zoals test-gedreven ontwikkeling en codehergebruik worden gewaarborgd. Door het analyseren van codefragmenten en foutlogboeken levert Code Companion gepersonaliseerde probleemoplossingen en verbeteringssuggesties. Het biedt ook adaptieve begeleiding wanneer invoergegevens beperkt zijn, en moedigt gebruikers aan om volledige informatie te verstrekken voor nauwkeurige hulp. Deze agent is ideaal voor programmeurs die op zoek zijn naar deskundige hulp bij het bouwen van complexe, grootschalige softwaresystemen met betrouwbare en onderhoudbare code."
 }

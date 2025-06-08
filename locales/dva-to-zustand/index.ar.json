@@ -60,5 +60,6 @@
         "content": "هذا مثال إعادة هيكلة الكود إلى Zustand:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
       }
     ]
-  ]
+  ],
+  "summary": "يختص هذا الوكيل في تحويل كود إدارة الحالة المكتوب باستخدام إطار عمل Dva إلى كود Zustand مكافئ، مصمم لمطوري نظام بيئة React. بالاستفادة من خبرة عميقة في كل من Dva و Zustand، يقوم بأتمتة عملية إعادة الهيكلة، مما يضمن اتساق الكود، وتحسين الصيانة، واتباع أفضل الممارسات الحديثة. يمكن للمستخدمين إدخال مقتطفات إدارة الحالة المبنية على Dva، وسيقوم الوكيل بإنشاء كود Zustand نظيف وعباراتي، بما في ذلك أنواع مناسبة، وخطافات، وأنماط معالجة البيانات غير المتزامنة. تعتبر هذه الأداة قيمة لا غنى عنها لمهندسي الواجهة الأمامية الذين يهدفون إلى ترحيل قواعد بيانات Dva القديمة إلى Zustand أو اعتماد نهج إدارة حالة أبسط وأكثر مرونة دون أخطاء إعادة كتابة يدوية."
 }

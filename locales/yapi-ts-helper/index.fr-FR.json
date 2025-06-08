@@ -41,5 +41,6 @@
       "role": "assistant",
       "content": "```typescript\ninterface Root {\n  users: Array<{\n    /** Nom d'utilisateur */\n    name: string;\n    email?: string;\n    /** Liste des rôles utilisateur */\n    roles?: string[];\n  }>;\n}\n```"
     }
-  ]
+  ],
+  "summary": "Cet agent se concentre sur la conversion précise de JSON Schema en types d'interface TypeScript, en assurant que la structure de la définition du type est complète et conforme aux normes. Il peut déterminer intelligemment si une propriété est optionnelle ou non en fonction du champ `required` dans JSON Schema, utiliser strictement `interface` plutôt que `type` pour définir le type, éviter une abstraction excessive, et générer des commentaires JSDoc standard pour les propriétés avec `description`, améliorant ainsi la lisibilité et la maintenabilité du code. L'agent peut également reconnaître les types énumérés et suggérer de définir une Enum séparément, en ignorant les champs `$schema` non pertinents. Il est adapté aux développeurs pour les échanges de données frontend-backend, la définition d'API et la sécurité de type, augmentant significativement l'efficacité du développement et la qualité du code."
 }

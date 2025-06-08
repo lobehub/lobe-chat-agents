@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "Très bien, voici un exemple de configuration de base :\n\n1. Créer les VLAN :\n```\nvlan batch 10 20 30\n```\n2. Configurer les interfaces pour les associer aux VLAN correspondants :\n```\ninterface GigabitEthernet0/0/1\nport link-type access\nport default vlan 10\n```\n3. Configurer les ACL pour autoriser l'accès aux imprimantes :\n```\nacl number 3000\nrule permit ip source 10.10.10.0 0.0.0.255 destination 10.10.20.50 0.0.0.0\n```\nSi vous me fournissez les adresses IP et les informations d'interface spécifiques, je peux vous aider à générer une configuration complète."
     }
-  ]
+  ],
+  "summary": "NetMaster est un assistant professionnel en ingénierie réseau spécialisé dans la conception, la configuration et la gestion de topologies réseau complexes. Il offre des conseils d'experts pour construire des réseaux stables et sécurisés, avec une compréhension approfondie des normes industrielles et des meilleures pratiques. NetMaster excelle dans la configuration et la gestion des commutateurs Huawei et H3C, garantissant des performances et une sécurité réseau optimales. Il soutient les ingénieurs réseau et les professionnels de l'informatique dans le dépannage de problèmes réseau complexes, la conception de schémas réseau efficaces et le maintien d'infrastructures réseau robustes. Cet agent est idéal pour les organisations recherchant des solutions réseau fiables et pour les professionnels souhaitant améliorer leurs capacités de gestion réseau."
 }

@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "نمونه کد بازسازی شده Zustand به شرح زیر است:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
-  ]
+  ],
+  "summary": "این عامل در تبدیل کد مدیریت وضعیت نوشته شده با فریم‌ورک Dva به کد معادل Zustand، مخصوص توسعه‌دهندگان اکوسیستم React تخصص دارد. با بهره‌گیری از تخصص عمیق در هر دو فریم‌ورک Dva و Zustand، این ابزار فرآیند بازسازی را خودکار می‌کند، و اطمینان می‌دهد که کدها همگن، قابل نگهداری بهتر و مطابق با بهترین شیوه‌های مدرن هستند. کاربران می‌توانند قطعات کد مدیریت وضعیت مبتنی بر Dva خود را وارد کنند و این عامل کد Zustand تمیز و بومی، شامل تایپ‌های مناسب، هوک‌ها و الگوهای مدیریت داده‌های ناهمزمان را تولید می‌کند. این ابزار برای مهندسان فرانت‌اند که قصد دارند پایگاه‌های کد Dva قدیمی را به Zustand مهاجرت دهند یا رویکرد مدیریت وضعیت ساده‌تر و انعطاف‌پذیرتری را بدون خطاهای بازنویسی دستی اتخاذ کنند، بسیار ارزشمند است."
 }

@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "주요 비동기 작업에서 try/catch로 예외를 잡고, 오류 유형별로 구체적인 처리 로직을 설계하는 것이 좋습니다. 또한 오류 로그를 통합 관리해 문제 추적을 용이하게 할 수 있습니다. 아래는 개선된 오류 처리 예제입니다:\n\n```js\nasync function processRequest(req, res) {\n  try {\n    const result = await someAsyncOperation();\n    res.send(result);\n  } catch (err) {\n    if (err instanceof ValidationError) {\n      res.status(400).send({ error: err.message });\n    } else {\n      console.error('서버 오류:', err);\n      res.status(500).send({ error: '내부 서버 오류' });\n    }\n  }\n}\n```"
     }
-  ]
+  ],
+  "summary": "Node.js 최적화 도구는 전문적인 Node.js 코드 검토 및 최적화 도우미로, 코드 성능, 가독성 및 안전성 향상에 집중합니다. 기존 Node.js 스크립트를 심도 있게 분석하여 성능 병목, 비동기 프로그래밍 문제 및 보안 취약점을 식별하고, 구체적인 개선 제안과 최적화된 코드 예시를 제공합니다. 콜백 함수를 Promise 또는 async/await로 전환하거나, 오류 처리 메커니즘을 개선하고, 코드 구조를 재구성하며, 의존성 관리를 최적화하고, 테스트 커버리지를 향상시킬 수 있습니다. 또한, 이 에이전트는 상세한 코드 주석과 문서 작성도 도와주어 팀 협업과 후속 유지보수를 용이하게 합니다. 개인 개발자든 팀 엔지니어든 Node.js 최적화 도구를 활용하여 프로젝트 품질과 개발 효율성을 크게 향상시킬 수 있습니다."
 }

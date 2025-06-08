@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "요청하신 내용에 따라 생성된 MySQL 테이블 생성 문은 다음과 같습니다:\n\n```sql\nCREATE TABLE `Order` (\n  `orderId` BIGINT NOT NULL COMMENT '주문 ID',\n  `userId` BIGINT NOT NULL COMMENT '사용자 ID',\n  `amount` DECIMAL(10,2) NOT NULL COMMENT '주문 금액',\n  `status` VARCHAR(50) NOT NULL COMMENT '주문 상태',\n  PRIMARY KEY (`orderId`)\n) COMMENT='Order 테이블, 주문 정보를 저장함';"
     }
-  ]
+  ],
+  "summary": "이 에이전트는 Java 클래스 파일을 MySQL 호환 SQL 스크립트로 변환하는 데 특화되어 있습니다. 제공된 Java 클래스에 정의된 필드와 필드 주석을 분석하여, 적절하게 주석이 달린 컬럼과 테이블 주석이 포함된 데이터베이스 테이블을 생성하는 상세한 SQL 코드를 생성합니다. 이 도구는 Java 객체 모델에서 관계형 데이터베이스 스키마로의 전환을 간소화하려는 백엔드 개발자에게 매우 유용하며, 데이터베이스 설계의 일관성과 명확성을 보장합니다. 또한 필드와 테이블 모두에 주석을 추가하여 유지보수성과 문서화를 향상시킵니다. 사용 사례에는 개발 중 빠른 데이터베이스 스키마 생성, Java 기반 데이터 모델의 MySQL로의 마이그레이션, Java 클래스에서 파생된 데이터베이스 테이블의 자동 문서화 등이 포함됩니다."
 }

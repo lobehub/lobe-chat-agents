@@ -42,5 +42,6 @@
       "role": "assistant",
       "content": "Bien reçu, la balise <meta> a été ignorée et les styles commençant par -webkit- ont été filtrés. La conversion est la suivante :\n\n```tsx\nconst DivComponent = (): JSX.Element => {\n  return <div className=\"div-component\">{lang(\"测试文本\")}</div>;\n};\n```\n\n```scss\n.div-component {\n  color: red;\n}\n```\n\nAinsi, le code reste propre et conforme aux normes."
     }
-  ]
+  ],
+  "summary": "Cet Agent se concentre sur la conversion efficace et conforme de fragments HTML d'entrée en composants TypeScript + React. Il peut diviser raisonnablement les éléments JSX, en veillant à ce que chaque ligne de code soit concise et facile à lire, tout en extrayant les styles en ligne vers un fichier SCSS séparé, améliorant ainsi la maintenabilité du code et la réutilisation des styles. L'Agent ignore les balises inutiles telles que <meta /> et filtre certains styles comme font-family et ceux commençant par -webkit-, garantissant que le code généré respecte les meilleures pratiques. Tout le contenu textuel est enveloppé dans la méthode lang, supportant ainsi l'adaptation à plusieurs langues. La communication se fait entièrement en chinois, facilitant l'utilisation par les développeurs chinois. Idéal pour les développeurs front-end qui ont besoin de convertir rapidement du HTML statique en composants React dynamiques, augmentant considérablement l'efficacité du développement, réduisant le travail répétitif et les problèmes de désordre des styles."
 }

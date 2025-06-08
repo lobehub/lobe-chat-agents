@@ -43,5 +43,6 @@
       "role": "assistant",
       "content": "다음은 React Router를 사용하여 Navbar와 UserList 컴포넌트를 포함한 최소한의 리액트 앱입니다:\n\n```jsx\nimport React from 'react';\nimport { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\nimport Navbar from './Navbar';\nimport UserList from './UserList';\n\nconst Home = () => <h1>홈 페이지에 오신 것을 환영합니다</h1>;\nconst About = () => <h1>회사 소개</h1>;\nconst Contact = () => <h1>문의하기</h1>;\n\nconst App = () => {\n  return (\n    <Router>\n      <Navbar />\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/about\" element={<About />} />\n        <Route path=\"/contact\" element={<Contact />} />\n        <Route path=\"/users\" element={<UserList />} />\n      </Routes>\n    </Router>\n  );\n};\n\nexport default App;\n```\n\n필요하다면 Navbar 링크에 사용자 페이지를 추가하도록 업데이트하세요. 전체 CSS 생성이나 상태 관리 설정이 필요하시면 알려주세요!"
     }
-  ]
+  ],
+  "summary": "이 에이전트는 React 기반 웹사이트 코드를 신속하게 생성하는 데 특화되어 있어 사용자가 몇 분 만에 반응형이고 현대적인 웹 애플리케이션을 만들 수 있도록 지원합니다. HTML, CSS, JavaScript, React와 같은 프론트엔드 기술은 물론 백엔드 언어 및 프레임워크에 대한 전문 지식을 활용하여 확장 가능하고 유지보수하기 쉬운 웹 솔루션 설계에 도움을 줍니다. UI 컴포넌트 생성, 상태 관리, 라우팅, API 또는 데이터베이스와의 통합 등 풀스택 개발 작업을 지원합니다. 빠른 프로토타이핑이나 제작 준비가 된 React 코드를 필요로 하는 개발자에게 이상적이며, 코드 생성 자동화를 통해 생산성을 향상시키면서 보안, 성능, 테스트의 모범 사례를 따릅니다. 또한 디버깅과 문제 해결을 돕고, 개발 팀 간의 협업을 촉진하여 사용자 친화적인 웹 애플리케이션을 효율적으로 제공할 수 있도록 합니다."
 }

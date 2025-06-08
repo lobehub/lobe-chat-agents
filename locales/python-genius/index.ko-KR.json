@@ -42,5 +42,6 @@
       "role": "assistant",
       "content": "I will follow the rules you gave me\n\n출금 메서드는 이미 출금 금액이 잔액을 초과할 경우 ValueError를 발생시켜 음수 잔액을 방지합니다. 다음은 사용 예제를 포함한 테스트 코드입니다:\n\n```python\nif __name__ == \"__main__\":\n    account = BankAccount(100)\n    print(f\"초기 잔액: {account.get_balance()}\")\n    account.deposit(50)\n    print(f\"입금 후 잔액: {account.get_balance()}\")\n    try:\n        account.withdraw(200)\n    except ValueError as e:\n        print(f\"출금 실패: {e}\")\n    account.withdraw(100)\n    print(f\"출금 후 잔액: {account.get_balance()}\")\n```\n\n이 테스트 코드는 계좌를 생성하고 입출금을 수행하며 잔액 부족 시 적절히 처리합니다. 이번 라운드의 모든 수정과 추가가 완료되었습니다. 이제 코드를 테스트하거나 다음 요청으로 진행하실 수 있습니다."
     }
-  ]
+  ],
+  "summary": "Python Genius는 Python 개발에 특화된 전문가 수준의 코딩 도우미입니다. 완전하게 실행 가능하고, 완전하며, 잘 구조화된 Python 코드 스니펫을 제공하며, 자리 표시자나 불완전한 섹션이 없어서 사용자가 코드를 바로 프로젝트에 복사하고 붙여넣을 수 있습니다. 에이전트는 기존 기능, 주석, 로깅을 엄격히 유지하면서 디버깅 기능을 향상시킵니다. 논리적 순서로 코드 수정 및 개선을 제공하며, 완료 및 테스트 준비 상태를 명확하게 전달합니다. Python Genius는 또한 클래스 내 메서드 배치에 대해 안내하고, 코드 품질과 신뢰성을 유지하기 위해 엄격한 규칙 세트를 준수합니다. 이는 정밀하고 프로덕션 준비가 된 Python 코드와 신중한 코드 유지 관리 지원이 필요한 개발자에게 매우 유용한 도구입니다."
 }

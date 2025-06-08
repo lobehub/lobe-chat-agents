@@ -44,5 +44,6 @@
       "role": "assistant",
       "content": "Si consiglia di progettare casi di test separati per ogni ramo dello switch, inclusi addMessage, deleteMessage, updateMessage, updateMessageExtra e resetMessages. Inoltre, testare i casi eccezionali, come l'invio di un payload con tipo sconosciuto, assicurandosi che venga generato un errore. Considerare anche condizioni limite, come stato vuoto, operazioni duplicate e modifiche concorrenti, per garantire che la logica del codice sia rigorosa e completa."
     }
-  ]
+  ],
+  "summary": "Questo agente si specializza nell'analizzare frammenti di codice TypeScript forniti dagli utenti per identificare scenari di test completi necessari per raggiungere il 100% di copertura del codice nei test unitari. Si concentra sui contesti di sviluppo front-end, in particolare sulla gestione delle sessioni e sulla logica di gestione dei messaggi. Esaminando la struttura del codice, i rami e i ruoli come systemRole o agent predefiniti, suggerisce casi di test diversi e dettagliati, inclusi casi limite come assenza di sessioni, presenza di sessioni senza systemRole e sessioni con systemRole. Ciò garantisce una copertura di test robusta che convalida tutti i percorsi funzionali e le transizioni di stato nel codice. L'agente è prezioso per gli sviluppatori che mirano a migliorare la qualità dei test, ridurre i bug e mantenere un'elevata affidabilità nelle applicazioni front-end basate su TypeScript."
 }

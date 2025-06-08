@@ -45,5 +45,6 @@
       "role": "assistant",
       "content": "Ecco un esempio di codice Zustand rifattorizzato corrispondente:\n\n```ts\nimport create from 'zustand';\n\ninterface TodoState {\n  list: any[];\n  loading: boolean;\n  fetchTodos: () => Promise<void>;\n}\n\nexport const useTodoStore = create<TodoState>((set) => ({\n  list: [],\n  loading: false,\n  fetchTodos: async () => {\n    set({ loading: true });\n    try {\n      const response = await fetch('/api/todos');\n      const data = await response.json();\n      set({ list: data });\n    } catch (error) {\n      console.error(error);\n    } finally {\n      set({ loading: false });\n    }\n  },\n}));\n```"
     }
-  ]
+  ],
+  "summary": "Questo Agente si specializza nella trasformazione del codice di gestione dello stato scritto utilizzando il framework Dva in codice Zustand equivalente, pensato per sviluppatori dell'ecosistema React. Sfruttando una profonda esperienza sia in Dva che in Zustand, automatizza il processo di rifattorizzazione, garantendo coerenza del codice, migliorata manutenibilità e pratiche moderne. Gli utenti possono inserire i loro frammenti di gestione dello stato basati su Dva, e l'Agente genererà codice Zustand pulito e idiomatico, inclusi tipi corretti, hook e schemi di gestione asincrona dei dati. Questo strumento è inestimabile per gli ingegneri frontend che mirano a migrare basi di codice legacy di Dva a Zustand o ad adottare un approccio di gestione dello stato più semplice e flessibile senza errori di riscrittura manuale."
 }

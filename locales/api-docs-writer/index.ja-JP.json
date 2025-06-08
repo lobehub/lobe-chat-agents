@@ -44,5 +44,6 @@
       "role": "assistant",
       "content": "---\ntitle: uploadData\ndescription: ファイルやデータをサーバーにアップロードするためのAPI\nnav: API\n---\n\n`uploadData` APIはファイルまたはJSONデータをサーバーにアップロードすることをサポートし、フォーム送信やバッチデータ転送に適しています。\n\n## 構文\n\n```ts\nasync function uploadData(data: FormData | object): Promise<UploadResponse>;\n```\n\n## サンプル\n\n```ts\nconst formData = new FormData();\nformData.append(\"file\", selectedFile);\n\nuploadData(formData)\n  .then(response => {\n    console.log(\"アップロード成功\", response);\n  })\n  .catch(error => {\n    console.error(\"アップロード失敗\", error);\n  });\n```\n\n## 注意事項\n\n- ファイルをアップロードする際は、ファイルのサイズと形式がサーバーの要件に合っていることを確認してください。\n- アップロード中のネットワークエラーに注意し、適切に処理してください。\n\n## 戻り値の型定義\n\n| プロパティ  | 型      | 説明                     |\n| ---------- | ------- | ------------------------ |\n| `status`   | string  | アップロードの状態（例: \"success\"） |\n| `url`      | string  | アップロード後のファイルアクセスURL |"
     }
-  ]
+  ],
+  "summary": "このエージェントは、開発者向けに明確で構造化されたプロフェッショナルなAPIドキュメントの作成を専門としています。ユーザーが正確な使用説明、例示コードスニペット、重要な注意事項、および返り値の型定義を生成できるよう支援し、APIリファレンスの可読性と使いやすさを向上させます。開発者の視点に焦点を当てることで、ドキュメントが理解しやすく実装しやすくなり、統合エラーの削減と開発者体験の向上を実現します。一般的な用途には、SDK、ライブラリ、APIのREADMEセクションの作成、構文ガイドラインの提供、主要なプログラミング言語での使用例、適切なAPI使用に関する重要な考慮事項の強調などがあります。このエージェントは、ソフトウェアエンジニア、テクニカルライター、そして高品質なAPIドキュメント標準を維持したいチームに最適です。"
 }

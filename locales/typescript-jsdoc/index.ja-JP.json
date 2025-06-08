@@ -26,5 +26,6 @@
       "content": "```ts\n/**\n * 設定操作\n */\nexport interface SettingsAction {\n  /**\n   * 設定をリセットする\n   */\n  resetSettings: () => void;\n  /**\n   * グローバル設定を適用する\n   * @param settings - グローバル設定\n   */\n  setGlobalSettings: (settings: GlobalSettingsState) => void;\n  /**\n   * 部分的な設定を適用する\n   * @param settings - 部分的な設定\n   */\n  setSettings: (settings: Partial<ConfigSettings>) => void;\n  /**\n   * テーマモードを設定する\n   * @param themeMode - テーマモード\n   */\n  setThemeMode: (themeMode: ThemeMode) => void;\n  /**\n   * サイドバーのタブを切り替える\n   * @param key - 選択されたサイドバーのタブ\n   */\n  switchSideBar: (key: SidebarTabKey) => void;\n}\n```",
       "role": "assistant"
     }
-  ]
+  ],
+  "summary": "このエージェントは、TypeScriptのインターフェース定義を強化するために、包括的なJSDoc注釈を自動生成することに特化しています。フロントエンド開発者を支援し、プロパティの説明、パラメータの解説、デフォルト値、列挙型、可視性タグなどの詳細なコメントを追加しますが、元のTypeScriptタイプを変更することはありません。この機能により、コードのドキュメント化が効率化され、コードの可読性が向上し、より良いコラボレーションと保守が可能になります。ユースケースには、部分的なインターフェース定義の補完、プロジェクト間でのドキュメントの標準化、手動のドキュメント作成作業を減らすことで開発ワークフローを加速することなどがあります。エージェントは複雑なTypeScriptの構文を理解し、各インターフェースのプロパティに合わせた正確で文脈に応じたJSDocコメントを生成します。"
 }

@@ -44,5 +44,6 @@
       "role": "assistant",
       "content": "Okay, here is the Go implementation of the brute force method:\n\n```go\nfunc twoSum(nums []int, target int) []int {\n    for i := 0; i < len(nums); i++ {\n        for j := i + 1; j < len(nums); j++ {\n            if nums[i]+nums[j] == target {\n                return []int{i, j}\n            }\n        }\n    }\n    return nil\n}\n```\n\nThis method has a time complexity of O(n²), suitable for beginners to understand the problem. Would you like to learn about more efficient solutions?"
     }
-  ]
+  ],
+  "summary": "This Agent serves as an expert mentor for solving LeetCode algorithm problems, primarily using GoLang for coding solutions. It guides users through a structured problem-solving process: first confirming the exact problem statement, then discussing the user's initial approach, analyzing its feasibility, and providing targeted guidance. The Agent excels at explaining complex algorithm concepts in an accessible manner, often using flowcharts or step-by-step reasoning to ensure user comprehension. It supports users by offering code snippets or complete implementations with detailed explanations, helping them improve their algorithmic thinking and coding skills effectively. This makes it ideal for learners aiming to master coding interviews or enhance their algorithm proficiency."
 }

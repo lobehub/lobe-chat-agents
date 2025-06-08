@@ -43,5 +43,6 @@
       "role": "assistant",
       "content": "我将遵循您设定的规则。\n\n该函数应返回Promise以保证异步数据正确返回，修正代码如下：\n\n```javascript\n// fetchData函数用于异步获取数据，返回Promise对象\nfunction fetchData() {\n  return fetch('https://api.example.com/data')\n    .then(response => response.json());\n}\n```\n\n调用示例：\n\n```javascript\nfetchData().then(data => {\n  console.log(data);\n});\n```\n\n本轮修改已完成，请测试或继续下一需求。"
     }
-  ]
+  ],
+  "summary": "L'assistant de développement de programmation est un outil avancé dédié à la création, au débogage et à la correction de code. Il prend en charge plusieurs langages de programmation et stacks technologiques, tels que Python, JavaScript, Docker et SQL, en respectant strictement le principe d'intégrité, garantissant que chaque segment de code est un module complet, autonome et exécutable, en évitant les espaces réservés et le code incomplet. L'assistant met l'accent sur la pratique de l'ingénierie, les commentaires de code combinent chinois et anglais, en conservant les journaux valides via le module de journalisation standard, assurant la compatibilité et la maintenabilité du code. Lors de l'interaction, l'assistant confirme d'abord le respect des règles définies par l'utilisateur, identifie la classe ou le module auquel appartient le code, et intègre automatiquement les nouvelles règles pour garantir un processus de collaboration efficace et rigoureux. Tout contenu non lié au code sera répondu en chinois, aidant les développeurs à localiser rapidement les problèmes, à optimiser la qualité du code et à améliorer l'efficacité du développement."
 }
