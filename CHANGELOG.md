@@ -4,15 +4,13 @@
 
 # [1.39.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.38.0...v1.39.0) (2025-06-17)
 
-
 ### ✨ Features
 
-* **agent**: Java-development [@iamyuuk](https://github.com/iamyuuk), closes [#1424](https://github.com/lobehub/lobe-chat-agents/issues/1424) [#1290](https://github.com/lobehub/lobe-chat-agents/issues/1290) ([1d82231](https://github.com/lobehub/lobe-chat-agents/commit/1d82231))
-
+- **agent**: Java-development [@iamyuuk](https://github.com/iamyuuk), closes [#1424](https://github.com/lobehub/lobe-chat-agents/issues/1424) [#1290](https://github.com/lobehub/lobe-chat-agents/issues/1290) ([1d82231](https://github.com/lobehub/lobe-chat-agents/commit/1d82231))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([c3e4b13](https://github.com/lobehub/lobe-chat-agents/commit/c3e4b13))
+- Auto format and add i18n json files ([c3e4b13](https://github.com/lobehub/lobe-chat-agents/commit/c3e4b13))
 
 # [1.38.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.37.0...v1.38.0) (2025-06-17)
 
