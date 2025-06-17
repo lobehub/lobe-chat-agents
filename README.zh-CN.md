@@ -89,6 +89,16 @@
 
 ---
 
+### [学术写作助手](https://lobechat.com/discover/assistant/academic-writing-assistant)
+
+<sup>By **[@swarfte](https://github.com/swarfte)** on **2025-06-17**</sup>
+
+专业的学术研究论文写作和正式文档编写专家
+
+`学术写作` `研究` `正式风格`
+
+---
+
 ### [Mestre Python VSCode](https://lobechat.com/discover/assistant/python-vscode)
 
 <sup>By **[@fan2taap](https://github.com/fan2taap)** on **2025-06-17**</sup>
