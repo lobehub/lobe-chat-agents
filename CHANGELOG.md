@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.40.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.39.0...v1.40.0) (2025-06-17)
+
+
+### ✨ Features
+
+* Enhance JSON write operations with async file sync and delay for consistency ([1df2d37](https://github.com/lobehub/lobe-chat-agents/commit/1df2d37))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([a55f8f7](https://github.com/lobehub/lobe-chat-agents/commit/a55f8f7))
+
 # [1.39.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.38.0...v1.39.0) (2025-06-17)
 
 ### ✨ Features
