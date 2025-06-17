@@ -2,6 +2,19 @@
 
 # Changelog
 
+## [1.40.1](https://github.com/lobehub/lobe-chat-agents/compare/v1.40.0...v1.40.1) (2025-06-17)
+
+
+### 🎫 Chores
+
+* Add ESLint config, Prettier config, and update GitHub workflow for formatting ([6a08fcf](https://github.com/lobehub/lobe-chat-agents/commit/6a08fcf))
+* Auto format and add i18n json files ([5b1fc88](https://github.com/lobehub/lobe-chat-agents/commit/5b1fc88))
+
+
+### 🐛 Bug Fixes
+
+* Improve language detection and fallback logic in language validator ([c72ce25](https://github.com/lobehub/lobe-chat-agents/commit/c72ce25))
+
 # [1.40.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.39.0...v1.40.0) (2025-06-17)
 
 ### ✨ Features
