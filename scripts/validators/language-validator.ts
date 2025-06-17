@@ -1,7 +1,8 @@
 import { eld } from '@yutengjing/eld';
 import { existsSync } from 'node:fs';
+import { dirname } from 'node:path';
 
-import { readJSONSync, writeJSON } from '../utils/file';
+import { checkDir, readJSONSync, writeJSON } from '../utils/file';
 import { Logger } from '../utils/logger';
 
 // 语言检测器初始化Promise，确保只初始化一次
@@ -103,9 +104,6 @@ const reverseLanguageMap: { [key: string]: string } = Object.fromEntries(
 
 // 手动添加特殊情况的映射
 reverseLanguageMap['zh-TW'] = 'zh'; // 繁体中文也映射到 zh
-
-// 置信度阈值 - 只标记高置信度的语言不匹配问题
-const MIN_CONFIDENCE_THRESHOLD = 0.8;
 
 // i18n ignore 文件路径
 const I18N_IGNORE_FILE = '.i18nignore';
@@ -213,111 +211,6 @@ export async function ensureELDInitialized(): Promise<void> {
 }
 
 /**
- * 检测文本的语言
- * @param text - 待检测的文本
- * @returns 语言检测结果对象
- */
-async function detectLanguage(text: string): Promise<{
-  confidence: number;
-  detected: string;
-  isReliable: boolean;
-  scores: Record<string, number>;
-}> {
-  if (!text?.trim()) {
-    return {
-      confidence: 0,
-      detected: '',
-      isReliable: false,
-      scores: {},
-    };
-  }
-
-  // 确保 ELD 已初始化（这里不会重复初始化）
-  await initializeELD();
-
-  const result = eld.detect(text);
-  const scores = result.getScores();
-  const topScore = Math.max(...Object.values(scores));
-
-  return {
-    confidence: topScore,
-    detected: result.language,
-    isReliable: result.isReliable(),
-    scores: scores,
-  };
-}
-
-/**
- * 从翻译数据中提取字段级文本内容
- * @param data - 翻译数据对象
- * @returns 字段路径到文本内容的映射
- */
-function extractFieldTexts(data: any): Map<string, string> {
-  const fieldTexts = new Map<string, string>();
-
-  function traverse(obj: any, path: string = '') {
-    if (typeof obj === 'string' && obj.trim().length > 10) {
-      fieldTexts.set(path, obj);
-    } else if (Array.isArray(obj)) {
-      // 特殊处理：examples 和 openingQuestions 字段整体检查
-      if (path === 'examples' || path.endsWith('.examples')) {
-        const combinedContent = obj
-          .map((item) => {
-            if (typeof item === 'string') return item;
-            if (item && typeof item === 'object') {
-              // 提取示例中的内容
-              const contents: string[] = [];
-              if (item.content) contents.push(item.content);
-              if (item.role) contents.push(item.role);
-              return contents.join(' ');
-            }
-            return '';
-          })
-          .filter((content) => content.trim().length > 0)
-          .join(' ');
-
-        if (combinedContent.trim().length > 20) {
-          // examples 需要更多文本才能准确检测
-          fieldTexts.set(path, combinedContent);
-        }
-      }
-      // 特殊处理：openingQuestions 字段整体检查
-      else if (path === 'openingQuestions' || path.endsWith('.openingQuestions')) {
-        const combinedContent = obj
-          .filter((item) => typeof item === 'string' && item.trim().length > 0)
-          .join(' ');
-
-        if (combinedContent.trim().length > 20) {
-          // openingQuestions 需要更多文本才能准确检测
-          fieldTexts.set(path, combinedContent);
-        }
-      }
-      // 排除 tags 字段：tags 通常是技术标签，不需要语言检测
-      else if (path === 'tags' || path === 'meta.tags' || path.endsWith('.tags')) {
-        // 跳过 tags 字段
-      } else {
-        // 其他数组字段逐个检查
-        obj.forEach((item, index) => {
-          if (typeof item === 'string' && item.trim().length > 10) {
-            fieldTexts.set(`${path}[${index}]`, item);
-          } else if (typeof item === 'object') {
-            traverse(item, `${path}[${index}]`);
-          }
-        });
-      }
-    } else if (obj && typeof obj === 'object') {
-      Object.entries(obj).forEach(([key, value]) => {
-        const currentPath = path ? `${path}.${key}` : key;
-        traverse(value, currentPath);
-      });
-    }
-  }
-
-  traverse(data);
-  return fieldTexts;
-}
-
-/**
  * 从翻译数据中提取可检测的文本内容
  * @param data - 翻译数据对象
  * @returns 可检测的文本数组
@@ -337,9 +230,7 @@ function extractDetectableText(data: any): string[] {
         }
       });
     } else if (obj && typeof obj === 'object') {
-      Object.values(obj).forEach((value) => {
-        traverse(value);
-      });
+      Object.values(obj).forEach((value) => traverse(value));
     }
   }
 
@@ -349,90 +240,49 @@ function extractDetectableText(data: any): string[] {
 
 /**
  * 获取期望的语言代码
- * @param locale - 本地化代码
- * @returns ISO 639-1 语言代码
+ * @param locale - 语言代码
+ * @returns 期望的语言代码
  */
 function getExpectedLanguage(locale: string): string {
-  return reverseLanguageMap[locale] || 'en';
+  return locale.toLowerCase();
 }
 
 /**
- * 根据路径删除对象中的字段
- * @param obj - 目标对象
- * @param path - 字段路径 (如: "config.systemRole" 或 "examples[0].content")
- * @returns 是否成功删除
- */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-async function removeFieldByPath(obj: any, path: string): Promise<boolean> {
-  const pathParts = path.split(/[.[\]]+/).filter(Boolean);
-
-  if (pathParts.length === 0) return false;
-
-  let current = obj;
-
-  // 导航到目标字段的父级
-  for (let i = 0; i < pathParts.length - 1; i++) {
-    const part = pathParts[i];
-
-    if (current && typeof current === 'object') {
-      current = current[part];
-    } else {
-      return false;
-    }
-  }
-
-  // 删除目标字段
-  const lastKey = pathParts.at(-1);
-  if (current && typeof current === 'object' && lastKey in current) {
-    if (Array.isArray(current)) {
-      const index = parseInt(lastKey);
-      if (!isNaN(index) && index >= 0 && index < current.length) {
-        current.splice(index, 1);
-        return true;
-      }
-    } else {
-      delete current[lastKey];
-      return true;
-    }
-  }
-
-  return false;
-}
-
-/**
- * 验证字段级语言匹配
+ * 同步验证字段语言
  * @param data - 翻译数据
  * @param expectedLanguage - 期望的语言
  * @returns 字段验证问题列表
  */
-async function validateFieldLanguages(
-  data: any,
+function validateFieldLanguagesSync(
+  data: Record<string, any>,
   expectedLanguage: string,
-): Promise<FieldValidationIssue[]> {
+): FieldValidationIssue[] {
   const issues: FieldValidationIssue[] = [];
-  const fieldTexts = extractFieldTexts(data);
+  const processField = (obj: Record<string, any>, path: string = '') => {
+    for (const [key, value] of Object.entries(obj)) {
+      const currentPath = path ? `${path}.${key}` : key;
 
-  for (const [fieldPath, text] of fieldTexts) {
-    const detection = await detectLanguage(text);
-    const detectedLanguage = detection.detected;
-    const confidence = detection.confidence;
+      if (typeof value === 'string' && value.trim()) {
+        const detection = eld.detect(value);
+        const detectedLanguage = detection.language;
+        const confidence = Math.max(...Object.values(detection.getScores()));
 
-    // 如果检测到的语言与期望语言不匹配，且置信度较高
-    if (
-      detectedLanguage &&
-      detectedLanguage !== expectedLanguage &&
-      confidence > MIN_CONFIDENCE_THRESHOLD
-    ) {
-      issues.push({
-        field: fieldPath,
-        detectedLanguage,
-        confidence,
-        expectedLanguage,
-        content: text.slice(0, 100) + (text.length > 100 ? '...' : ''),
-      });
+        if (detectedLanguage !== expectedLanguage || confidence < 0.4) {
+          issues.push({
+            field: currentPath,
+            detectedLanguage: detectedLanguage || 'unknown',
+            confidence,
+            content: value,
+            expectedLanguage,
+          });
+        }
+      } else if (typeof value === 'object' && value !== null) {
+        processField(value, currentPath);
+      }
     }
-  }
+  };
 
+  processField(data);
   return issues;
 }
 
@@ -441,10 +291,19 @@ async function validateFieldLanguages(
  * @param filePath - 文件路径
  * @returns 验证结果
  */
-export async function validateTranslationLanguage(
-  filePath: string,
-): Promise<LanguageValidationResult> {
+export function validateTranslationLanguage(filePath: string): LanguageValidationResult {
   try {
+    // 检查文件是否存在
+    if (!existsSync(filePath)) {
+      return {
+        filePath,
+        expectedLanguage: 'unknown',
+        valid: false,
+        confidence: 0,
+        fixable: true, // 文件不存在时标记为可修复
+      };
+    }
+
     // 检查是否在忽略列表中
     if (isIgnored(filePath)) {
       return {
@@ -467,6 +326,7 @@ export async function validateTranslationLanguage(
         expectedLanguage: 'unknown',
         valid: false,
         confidence: 0,
+        fixable: true, // 无法识别语言时标记为可修复
       };
     }
 
@@ -484,14 +344,12 @@ export async function validateTranslationLanguage(
 
     // 检测整体语言
     const combinedText = texts.join(' ');
-    const detection = await detectLanguage(combinedText);
-    const detectedLanguage = detection.detected;
-    const confidence = detection.confidence;
+    const detection = eld.detect(combinedText);
+    const detectedLanguage = detection.language;
+    const confidence = Math.max(...Object.values(detection.getScores()));
 
     // 检测字段级问题
-    const fieldIssues = await validateFieldLanguages(data, expectedLanguage);
-
-    const languageMatches = detectedLanguage === expectedLanguage;
+    const fieldIssues = validateFieldLanguagesSync(data, expectedLanguage);
     const hasFieldIssues = fieldIssues.length > 0;
 
     // 如果没有检测到语言
@@ -507,7 +365,7 @@ export async function validateTranslationLanguage(
     }
 
     // 语言匹配检查
-    if (languageMatches) {
+    if (detectedLanguage === expectedLanguage) {
       // 即使语言匹配，如果置信度很低，也可以用兜底修复
       const isLowConfidence = confidence < 0.4;
 
@@ -539,6 +397,7 @@ export async function validateTranslationLanguage(
       expectedLanguage: 'unknown',
       valid: false,
       confidence: 0,
+      fixable: true, // 验证失败时标记为可修复
     };
   }
 }
@@ -579,7 +438,7 @@ function getFieldValue(obj: any, path: string): any {
  * @param filePath - 文件路径
  * @returns 是否成功修复
  */
-export async function fixLanguageWithFallback(filePath: string): Promise<boolean> {
+export function fixLanguageWithFallback(filePath: string): boolean {
   try {
     const enUsPath = getEnUsFallbackPath(filePath);
 
@@ -591,8 +450,11 @@ export async function fixLanguageWithFallback(filePath: string): Promise<boolean
 
     const enUsData = readJSONSync(enUsPath);
 
+    // 确保目标目录存在
+    checkDir(dirname(filePath));
+
     // 用 en-US 数据替换当前文件
-    await writeJSON(filePath, enUsData);
+    writeJSON(filePath, enUsData);
 
     // 将修复后的文件添加到忽略列表
     addToIgnoreList(filePath);
@@ -611,10 +473,7 @@ export async function fixLanguageWithFallback(filePath: string): Promise<boolean
  * @param issues - 验证问题列表
  * @returns 是否成功修复
  */
-export async function fixLanguageIssues(
-  filePath: string,
-  issues: FieldValidationIssue[],
-): Promise<boolean> {
+export function fixLanguageIssues(filePath: string, issues: FieldValidationIssue[]): boolean {
   try {
     const data = readJSONSync(filePath);
     const enUsPath = getEnUsFallbackPath(filePath);
@@ -663,7 +522,10 @@ export async function fixLanguageIssues(
     }
 
     if (modified) {
-      await writeJSON(filePath, data);
+      // 确保目标目录存在
+      checkDir(dirname(filePath));
+
+      writeJSON(filePath, data);
 
       // 将修复后的文件添加到忽略列表
       addToIgnoreList(filePath);

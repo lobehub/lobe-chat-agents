@@ -360,8 +360,15 @@ class AgentFormatter {
                   );
                 }
 
+                // 写入文件并等待写入完成
+                await writeJSON(localeFilePath, retryFinalResult);
+
+                // 等待文件系统同步
+                await new Promise<void>((resolve) => {
+                  setTimeout(resolve, 1000);
+                });
+
                 // 再次验证
-                writeJSON(localeFilePath, retryFinalResult);
                 const retryValidationResult = await validateTranslationLanguage(localeFilePath);
 
                 if (retryValidationResult.valid) {
@@ -383,10 +390,16 @@ class AgentFormatter {
                       fallbackFinalResult = merge({}, existingTranslation, fallbackData);
                     }
 
-                    writeJSON(localeFilePath, fallbackFinalResult);
+                    // 写入文件并等待写入完成
+                    await writeJSON(localeFilePath, fallbackFinalResult);
+
+                    // 等待文件系统同步
+                    await new Promise<void>((resolve) => {
+                      setTimeout(resolve, 1000);
+                    });
+
                     this.addToIgnoreList(relativeFilePath);
                     Logger.success('使用 en-US 兜底完成并添加到忽略列表', localeFileName);
-                    Logger.translate(id, defaultLocale, locale, 'success');
                   } else {
                     // en-US 兜底也失败，添加到忽略列表
                     Logger.error('en-US 兜底失败，添加到忽略列表', localeFileName);
