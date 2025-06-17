@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.37.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.36.0...v1.37.0) (2025-06-17)
+
+
+### ✨ Features
+
+* **agent**: Python-vscode [@fan2taap](https://github.com/fan2taap), closes [#1423](https://github.com/lobehub/lobe-chat-agents/issues/1423) [#1389](https://github.com/lobehub/lobe-chat-agents/issues/1389) ([49fd99d](https://github.com/lobehub/lobe-chat-agents/commit/49fd99d))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([670bcda](https://github.com/lobehub/lobe-chat-agents/commit/670bcda))
+
 # [1.36.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.35.0...v1.36.0) (2025-06-17)
 
 ### ✨ Features
