@@ -4,18 +4,6 @@
 
 # [1.36.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.35.0...v1.36.0) (2025-06-17)
 
-
-### ✨ Features
-
-* **agent**: Food-reviewer [@renhai-lab](https://github.com/renhai-lab), closes [#1421](https://github.com/lobehub/lobe-chat-agents/issues/1421) [#1416](https://github.com/lobehub/lobe-chat-agents/issues/1416) ([92eee26](https://github.com/lobehub/lobe-chat-agents/commit/92eee26))
-
-
-### 🎫 Chores
-
-* Auto format and add i18n json files ([7ba06d9](https://github.com/lobehub/lobe-chat-agents/commit/7ba06d9))
-
-# [1.35.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.34.0...v1.35.0) (2025-06-08)
-
 ### ✨ Features
 
 - Add Token Usage count ([d78ce06](https://github.com/lobehub/lobe-chat-agents/commit/d78ce06))
