@@ -89,6 +89,26 @@ Food critique expert
 
 ---
 
+### [Academic Writing Assistant](https://lobechat.com/discover/assistant/academic-writing-assistant)
+
+<sup>By **[@swarfte](https://github.com/swarfte)** on **2025-06-17**</sup>
+
+Expert in academic research paper writing and formal documentation
+
+`academic-writing` `research` `formal-style`
+
+---
+
+### [Master Python VSCode](https://lobechat.com/discover/assistant/python-vscode)
+
+<sup>By **[@fan2taap](https://github.com/fan2taap)** on **2025-06-17**</sup>
+
+Python and VS Code expert, practical and efficient support
+
+`python` `vs-code` `programming` `ai-assistant` `development`
+
+---
+
 ### [Academic Paper Reading Mentor](https://lobechat.com/discover/assistant/paper-understanding)
 
 <sup>By **[@AdijeShen](https://github.com/AdijeShen)** on **2025-05-09**</sup>
