@@ -99,6 +99,16 @@ Expert in academic research paper writing and formal documentation
 
 ---
 
+### [Minecraft Senior Developer](https://lobechat.com/discover/assistant/java-development)
+
+<sup>By **[@iamyuuk](https://github.com/iamyuuk)** on **2025-06-17**</sup>
+
+Expert in advanced Java development and Minecraft mod and server plugin development
+
+`Development` `Programming` `minecraft` `java`
+
+---
+
 ### [Master Python VSCode](https://lobechat.com/discover/assistant/python-vscode)
 
 <sup>By **[@fan2taap](https://github.com/fan2taap)** on **2025-06-17**</sup>

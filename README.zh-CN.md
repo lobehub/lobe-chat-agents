@@ -99,6 +99,16 @@
 
 ---
 
+### [Minecraft 资深开发者](https://lobechat.com/discover/assistant/java-development)
+
+<sup>By **[@iamyuuk](https://github.com/iamyuuk)** on **2025-06-17**</sup>
+
+擅长高级 Java 开发及 Minecraft 开发
+
+`开发` `编程` `minecraft` `java`
+
+---
+
 ### [Mestre Python VSCode](https://lobechat.com/discover/assistant/python-vscode)
 
 <sup>By **[@fan2taap](https://github.com/fan2taap)** on **2025-06-17**</sup>

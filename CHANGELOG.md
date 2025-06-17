@@ -4,15 +4,13 @@
 
 # [1.38.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.37.0...v1.38.0) (2025-06-17)
 
-
 ### ✨ Features
 
-* **agent**: Academic-writing-assistant [@swarfte](https://github.com/swarfte), closes [#1422](https://github.com/lobehub/lobe-chat-agents/issues/1422) [#1376](https://github.com/lobehub/lobe-chat-agents/issues/1376) ([c0199db](https://github.com/lobehub/lobe-chat-agents/commit/c0199db))
-
+- **agent**: Academic-writing-assistant [@swarfte](https://github.com/swarfte), closes [#1422](https://github.com/lobehub/lobe-chat-agents/issues/1422) [#1376](https://github.com/lobehub/lobe-chat-agents/issues/1376) ([c0199db](https://github.com/lobehub/lobe-chat-agents/commit/c0199db))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([c7b5859](https://github.com/lobehub/lobe-chat-agents/commit/c7b5859))
+- Auto format and add i18n json files ([c7b5859](https://github.com/lobehub/lobe-chat-agents/commit/c7b5859))
 
 # [1.37.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.36.0...v1.37.0) (2025-06-17)
 
