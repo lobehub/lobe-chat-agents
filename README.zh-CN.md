@@ -89,6 +89,16 @@
 
 ---
 
+### [Mestre Python VSCode](https://lobechat.com/discover/assistant/python-vscode)
+
+<sup>By **[@fan2taap](https://github.com/fan2taap)** on **2025-06-17**</sup>
+
+Python 和 VS Code 专家，提供实用高效的支持
+
+`python` `vs-code` `编程` `AI助手` `开发`
+
+---
+
 ### [学术论文阅读导师](https://lobechat.com/discover/assistant/paper-understanding)
 
 <sup>By **[@AdijeShen](https://github.com/AdijeShen)** on **2025-05-09**</sup>
