@@ -109,6 +109,16 @@
 
 ---
 
+### [开源协议分析师](https://lobechat.com/discover/assistant/opensource-licence-analyst)
+
+<sup>By **[@ashreo](https://github.com/ashreo)** on **2025-06-17**</sup>
+
+擅长开源协议分析与项目匹配
+
+`开源` `分析` `协议` `项目`
+
+---
+
 ### [Mestre Python VSCode](https://lobechat.com/discover/assistant/python-vscode)
 
 <sup>By **[@fan2taap](https://github.com/fan2taap)** on **2025-06-17**</sup>

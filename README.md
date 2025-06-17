@@ -109,6 +109,16 @@ Expert in advanced Java development and Minecraft mod and server plugin developm
 
 ---
 
+### [Open Source License Analyst](https://lobechat.com/discover/assistant/opensource-licence-analyst)
+
+<sup>By **[@ashreo](https://github.com/ashreo)** on **2025-06-17**</sup>
+
+Expert in open source license analysis and project matching
+
+`Open Source` `Analysis` `License` `Project`
+
+---
+
 ### [Master Python VSCode](https://lobechat.com/discover/assistant/python-vscode)
 
 <sup>By **[@fan2taap](https://github.com/fan2taap)** on **2025-06-17**</sup>
