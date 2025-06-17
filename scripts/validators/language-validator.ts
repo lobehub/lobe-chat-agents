@@ -459,7 +459,8 @@ export async function validateTranslationLanguage(
     const data = readJSONSync(filePath);
     const locale =
       filePath.match(/\.([a-z]{2}-[A-Z]{2})\.json$/)?.[1] ||
-      filePath.match(/\.([a-z]{2})\.json$/)?.[1];
+      filePath.match(/\.([a-z]{2})\.json$/)?.[1] ||
+      (filePath.endsWith('index.json') ? 'en-US' : undefined);
 
     if (!locale) {
       return {
