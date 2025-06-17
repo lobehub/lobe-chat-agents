@@ -4,15 +4,13 @@
 
 # [1.35.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.34.0...v1.35.0) (2025-06-08)
 
-
 ### ✨ Features
 
-* Add Token Usage count ([d78ce06](https://github.com/lobehub/lobe-chat-agents/commit/d78ce06))
-
+- Add Token Usage count ([d78ce06](https://github.com/lobehub/lobe-chat-agents/commit/d78ce06))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([d1fa23d](https://github.com/lobehub/lobe-chat-agents/commit/d1fa23d))
+- Auto format and add i18n json files ([d1fa23d](https://github.com/lobehub/lobe-chat-agents/commit/d1fa23d))
 
 # [1.34.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.33.0...v1.34.0) (2025-06-08)
 
