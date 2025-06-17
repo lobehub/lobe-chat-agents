@@ -32,15 +32,6 @@ jobs:
         continue-on-error: true
         run: bun run i18n:fix
 
-      - name: Prettier
-        run: |
-          echo "module.exports = require('@lobehub/lint').remarklint;" >> .remarkrc.cjs
-          echo "module.exports = require('@lobehub/lint').prettier;" >> .prettierrc.cjs
-          bun run lint:md
-          bun run prettier
-          rm .remarkrc.cjs
-          rm .prettierrc.cjs
-
       - name: Commit changes
         run: |-
           git diff
