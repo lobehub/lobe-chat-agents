@@ -318,6 +318,9 @@ class AgentFormatter {
               );
             }
 
+            // 先写入文件
+            writeJSON(localeFilePath, finalResult);
+
             // 验证翻译语言是否匹配
             let validationResult = await validateTranslationLanguage(localeFilePath);
 
@@ -360,15 +363,8 @@ class AgentFormatter {
                   );
                 }
 
-                // 写入文件并等待写入完成
-                await writeJSON(localeFilePath, retryFinalResult);
-
-                // 等待文件系统同步
-                await new Promise<void>((resolve) => {
-                  setTimeout(resolve, 1000);
-                });
-
                 // 再次验证
+                writeJSON(localeFilePath, retryFinalResult);
                 const retryValidationResult = await validateTranslationLanguage(localeFilePath);
 
                 if (retryValidationResult.valid) {
@@ -390,16 +386,10 @@ class AgentFormatter {
                       fallbackFinalResult = merge({}, existingTranslation, fallbackData);
                     }
 
-                    // 写入文件并等待写入完成
-                    await writeJSON(localeFilePath, fallbackFinalResult);
-
-                    // 等待文件系统同步
-                    await new Promise<void>((resolve) => {
-                      setTimeout(resolve, 1000);
-                    });
-
+                    writeJSON(localeFilePath, fallbackFinalResult);
                     this.addToIgnoreList(relativeFilePath);
                     Logger.success('使用 en-US 兜底完成并添加到忽略列表', localeFileName);
+                    Logger.translate(id, defaultLocale, locale, 'success');
                   } else {
                     // en-US 兜底也失败，添加到忽略列表
                     Logger.error('en-US 兜底失败，添加到忽略列表', localeFileName);
@@ -436,7 +426,6 @@ class AgentFormatter {
                 '语言验证通过',
                 `${localeFileName}: 期望 ${validationResult.expectedLanguage}, 检测到 ${validationResult.detectedLanguage}`,
               );
-              writeJSON(localeFilePath, finalResult);
               Logger.translate(id, defaultLocale, locale, 'success');
             }
           } else {
