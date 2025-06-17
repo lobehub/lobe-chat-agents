@@ -2,7 +2,7 @@
 
 # Changelog
 
-# [1.35.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.34.0...v1.35.0) (2025-06-08)
+# [1.36.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.35.0...v1.36.0) (2025-06-17)
 
 ### ✨ Features
 
