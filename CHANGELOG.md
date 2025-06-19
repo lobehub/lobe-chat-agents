@@ -4,15 +4,13 @@
 
 # [1.41.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.40.1...v1.41.0) (2025-06-17)
 
-
 ### ✨ Features
 
-* **agent**: Opensource-licence-analyst [@ashreo](https://github.com/ashreo), closes [#1420](https://github.com/lobehub/lobe-chat-agents/issues/1420) [#1404](https://github.com/lobehub/lobe-chat-agents/issues/1404) ([34674b5](https://github.com/lobehub/lobe-chat-agents/commit/34674b5))
-
+- **agent**: Opensource-licence-analyst [@ashreo](https://github.com/ashreo), closes [#1420](https://github.com/lobehub/lobe-chat-agents/issues/1420) [#1404](https://github.com/lobehub/lobe-chat-agents/issues/1404) ([34674b5](https://github.com/lobehub/lobe-chat-agents/commit/34674b5))
 
 ### 🎫 Chores
 
-* Auto format and add i18n json files ([3c87c3d](https://github.com/lobehub/lobe-chat-agents/commit/3c87c3d))
+- Auto format and add i18n json files ([3c87c3d](https://github.com/lobehub/lobe-chat-agents/commit/3c87c3d))
 
 ## [1.40.1](https://github.com/lobehub/lobe-chat-agents/compare/v1.40.0...v1.40.1) (2025-06-17)
 
