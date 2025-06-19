@@ -79,6 +79,16 @@
 
 <!-- AWESOME PROMPTS -->
 
+### [海龟汤主持人](https://lobechat.com/discover/assistant/lateral-thinking-puzzle)
+
+<sup>By **[@CSY2022](https://github.com/CSY2022)** on **2025-06-19**</sup>
+
+一个海龟汤主持人，需要自己提供汤面，汤底与关键点（猜中的判定条件）。
+
+`海龟汤` `推理` `互动` `谜题` `角色扮演`
+
+---
+
 ### [美食评论员🍟](https://lobechat.com/discover/assistant/food-reviewer)
 
 <sup>By **[@renhai-lab](https://github.com/renhai-lab)** on **2025-06-17**</sup>

@@ -79,6 +79,16 @@ If you wish to add an agent onto the index, make an entry in `agents` directory 
 
 <!-- AWESOME PROMPTS -->
 
+### [Turtle Soup Host](https://lobechat.com/discover/assistant/lateral-thinking-puzzle)
+
+<sup>By **[@CSY2022](https://github.com/CSY2022)** on **2025-06-19**</sup>
+
+A turtle soup host needs to provide the scenario, the complete story (truth of the event), and the key point (the condition for guessing correctly).
+
+`Turtle Soup` `Reasoning` `Interaction` `Puzzle` `Role-playing`
+
+---
+
 ### [Gourmet Reviewer🍟](https://lobechat.com/discover/assistant/food-reviewer)
 
 <sup>By **[@renhai-lab](https://github.com/renhai-lab)** on **2025-06-17**</sup>
