@@ -2,6 +2,18 @@
 
 # Changelog
 
+# [1.42.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.41.0...v1.42.0) (2025-06-19)
+
+
+### ✨ Features
+
+* **agent**: Lateral-thinking-puzzle @CSY2022, closes [#1427](https://github.com/lobehub/lobe-chat-agents/issues/1427) [#1426](https://github.com/lobehub/lobe-chat-agents/issues/1426) ([84baa3b](https://github.com/lobehub/lobe-chat-agents/commit/84baa3b))
+
+
+### 🎫 Chores
+
+* Auto format and add i18n json files ([e0c42d0](https://github.com/lobehub/lobe-chat-agents/commit/e0c42d0))
+
 # [1.41.0](https://github.com/lobehub/lobe-chat-agents/compare/v1.40.1...v1.41.0) (2025-06-17)
 
 ### ✨ Features
