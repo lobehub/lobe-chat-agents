@@ -11,7 +11,6 @@ import { Logger } from '../utils/logger';
 import {
   LanguageValidationResult,
   ValidationStats,
-  ensureELDInitialized,
   fixLanguageIssues,
   fixLanguageWithFallback,
   validateTranslationLanguage,
@@ -83,9 +82,6 @@ async function validateAllLanguages(
     Logger.warn('没有找到翻译文件');
     return;
   }
-
-  // 预先初始化 ELD 语言检测器，避免并发初始化问题
-  await ensureELDInitialized();
 
   const stats: ValidationStats = {
     total: files.length,

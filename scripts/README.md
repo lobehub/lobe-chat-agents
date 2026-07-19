@@ -64,7 +64,7 @@ scripts/
 ### 验证器模块 (validators/)
 
 - **agent-validator.ts**: 验证 Agent 配置格式和数据完整性
-- **language-validator.ts**: 使用 @yutengjing/eld 库验证翻译文件的语言准确性
+- **language-validator.ts**: 使用 eld 库验证翻译文件的语言准确性
 
 ### 构建器模块 (builders/)
 
@@ -131,7 +131,7 @@ pnpm run update:awesome
 
 ### 🛡️ 语言验证系统
 
-- **自动检测**: 使用 @yutengjing/eld 库检测翻译文件的实际语言
+- **自动检测**: 使用 eld 库检测翻译文件的实际语言
 - **准确性验证**: 确保翻译结果与预期语言代码匹配
 - **批量处理**: 支持批量验证和自动清理无效文件
 - **详细报告**: 提供置信度、问题详情等详细信息
