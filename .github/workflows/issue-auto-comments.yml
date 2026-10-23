@@ -20,10 +20,15 @@ jobs:
       pull-requests: write # for actions-cool/issues-helper to update PRs
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/create-github-app-token@v2
+        id: app-token
+        with:
+          app-id: ${{ vars.LOBEHUB_BOT_APP_ID }}
+          private-key: ${{ secrets.LOBEHUB_BOT_APP_PRIVATE_KEY }}
       - name: Auto Comment on Issues Opened
         uses: wow-actions/auto-comment@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN}}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           issuesOpened: |
             👀 @{{ author }}
 
@@ -33,7 +38,7 @@ jobs:
       - name: Auto Comment on Issues Closed
         uses: wow-actions/auto-comment@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN}}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           issuesClosed: |
             ✅ @{{ author }}
 
@@ -42,7 +47,7 @@ jobs:
       - name: Auto Comment on Pull Request Opened
         uses: wow-actions/auto-comment@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN}}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           pullRequestOpened: |
             👍 @{{ author }}
 
@@ -55,7 +60,7 @@ jobs:
         uses: actions-cool/pr-welcome@main
         if: github.event.pull_request.merged == true
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ steps.app-token.outputs.token }}
           comment: |
             ❤️ Great PR @${{ github.event.pull_request.user.login }} ❤️
 
@@ -68,6 +73,6 @@ jobs:
         uses: actions-cool/issues-helper@v3
         with:
           actions: 'remove-labels'
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ steps.app-token.outputs.token }}
           issue-number: ${{ github.event.issue.number }}
           labels: 'Inactive'
