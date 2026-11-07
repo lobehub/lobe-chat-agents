@@ -1,26 +1,8 @@
-import { eld } from '@yutengjing/eld';
+import { eld } from 'eld/large';
 import { existsSync } from 'node:fs';
 
 import { readJSONSync, writeJSON } from '../utils/file';
 import { Logger } from '../utils/logger';
-
-// 语言检测器初始化Promise，确保只初始化一次
-let initPromise: Promise<void> | null = null;
-
-/**
- * 初始化 ELD 语言检测器
- * 使用中等规模的 ngram 数据集
- */
-async function initializeELD(): Promise<void> {
-  if (!initPromise) {
-    initPromise = (async () => {
-      Logger.info('🔧 初始化 ELD 语言检测器...');
-      await eld.init('M'); // 使用中等规模的数据集
-      Logger.success('✅ ELD 语言检测器初始化完成');
-    })();
-  }
-  return initPromise;
-}
 
 // ISO 639-1 to project locale code mapping
 const languageMap: { [key: string]: string } = {
@@ -206,13 +188,6 @@ function isIgnored(filePath: string): boolean {
 }
 
 /**
- * 确保 ELD 已初始化（公开函数，供外部调用）
- */
-export async function ensureELDInitialized(): Promise<void> {
-  await initializeELD();
-}
-
-/**
  * 检测文本的语言
  * @param text - 待检测的文本
  * @returns 语言检测结果对象
@@ -231,9 +206,6 @@ async function detectLanguage(text: string): Promise<{
       scores: {},
     };
   }
-
-  // 确保 ELD 已初始化（这里不会重复初始化）
-  await initializeELD();
 
   const result = eld.detect(text);
   const scores = result.getScores();
