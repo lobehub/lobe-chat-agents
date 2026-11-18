@@ -30,7 +30,7 @@ module.exports = {
     'vi-VN',
     'fa-IR',
   ],
-  modelName: 'gpt-4.1-nano',
+  modelName: 'gpt-5.6-luna',
   temperature: 0.5,
   concurrency: 18,
 };
